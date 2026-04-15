@@ -295,15 +295,40 @@
         <h1>Volume Scanner Dashboard V3</h1>
         <div class="subline">Source: logs/vol_alert_ledger_validation.csv · tradable-zone view with selected ticker detail, risk-to-reward awareness, richer badges, and future-ready SI / CTB / HTB color coding.</div>
       </div>
-      <div class="source-pill">As of <strong>No data</strong></div>
+      <div class="source-pill">As of <strong>2026-04-14T22:49:50-04:00</strong></div>
     </div>
 
     <div class="layout">
       <aside class="sidebar">
         <section class="panel">
           <div class="panel-body">
-            <div class="panel-title"><span>Recent Alerts</span><span class="count">0 shown</span></div>
-            <div id="alertFeed" class="feed"><div class="empty-block">No alerts yet.</div></div>
+            <div class="panel-title"><span>Recent Alerts</span><span class="count">1 shown</span></div>
+            <div id="alertFeed" class="feed">
+    <div class="feed-item" data-row-key="2026-04-14T22:49:50-04:00|22:49:50|SNAL|1|FORCE TEST" data-ticker="SNAL">
+      <div class="feed-head">
+        <div class="feed-ticker">SNAL</div>
+        <div class="feed-meta">
+          <span class="badge mode-test">TEST</span>
+          <span class="badge risk-high">High</span>
+        </div>
+      </div>
+      <div class="feed-meta">
+        <span class="badge trigger-generic">FORCE TEST</span>
+        <span class="badge session-closed">CLOSED</span>
+        <span class="badge zone-yellow">YELLOW Zone</span>
+        <span class="badge rr-fair">R:R FAIR</span>
+        <span class="badge tier-orange">SI% 11.16%</span>
+        <span class="badge tier-green">CTB 1.82%</span>
+      </div>
+      <div class="feed-stats">
+        <div class="stat-chip">Time<strong>22:49:50</strong></div>
+        <div class="stat-chip">Price<strong>$1.01</strong></div>
+        <div class="stat-chip">%Chg<strong>-40.59%</strong></div>
+        <div class="stat-chip">$Vol<strong>1.45M</strong></div>
+      </div>
+      <div class="feed-news">Recent cost-saving agreement on ARK license (announced April 10, 2026): Snail amended its ARK franchise software lice...</div>
+    </div>
+    </div>
           </div>
         </section>
 
@@ -311,28 +336,35 @@
           <div class="panel-body">
             <div class="panel-title"><span>Momentum Movers</span><span class="count">Raw % leaders</span></div>
             <div class="compact-head"><span>Symbol</span><span style="text-align:right">Last</span><span style="text-align:right">% Chg</span><span style="text-align:right">Volume</span></div>
-            <div class="gainers-list"><div class="empty-block">No gainers yet.</div></div>
+            <div class="gainers-list">
+    <div class="compact-row" data-row-key="2026-04-14T22:49:50-04:00|22:49:50|SNAL|1|FORCE TEST" data-ticker="SNAL">
+      <div class="sym">SNAL</div>
+      <div class="num">$1.01</div>
+      <div class="num">-40.59%</div>
+      <div class="num">1.44M</div>
+    </div>
+    </div>
           </div>
         </section>
       </aside>
 
       <main class="main">
         <section class="stats-grid">
-          <div class="stat-card"><div class="label">Total Alerts</div><div class="value">0</div><div class="sub">All rows in ledger</div></div>
+          <div class="stat-card"><div class="label">Total Alerts</div><div class="value">1</div><div class="sub">All rows in ledger</div></div>
           <div class="stat-card"><div class="label">Live Alerts</div><div class="value">0</div><div class="sub">Non-test rows</div></div>
           <div class="stat-card"><div class="label">Tradable Zones</div><div class="value">0</div><div class="sub">Green + Prime names</div></div>
           <div class="stat-card"><div class="label">Prime Zones</div><div class="value">0</div><div class="sub">Highest-quality stack</div></div>
-          <div class="stat-card"><div class="label">Unique Tickers</div><div class="value">0</div><div class="sub">Distinct names seen</div></div>
-          <div class="stat-card"><div class="label">Top Session</div><div class="value">UNKNOWN</div><div class="sub">Most common session</div></div>
-          <div class="stat-card"><div class="label">Top Trigger</div><div class="value">UNKNOWN</div><div class="sub">Most common catalyst</div></div>
-          <div class="stat-card"><div class="label">Avg % Change</div><div class="value">Unknown</div><div class="sub">Latest rows only</div></div>
-          <div class="stat-card"><div class="label">Avg qRVOL</div><div class="value">Unknown</div><div class="sub">Latest rows only</div></div>
-          <div class="stat-card"><div class="label">$Vol Tracked</div><div class="value">0.00</div><div class="sub">Latest rows only</div></div>
+          <div class="stat-card"><div class="label">Unique Tickers</div><div class="value">1</div><div class="sub">Distinct names seen</div></div>
+          <div class="stat-card"><div class="label">Top Session</div><div class="value">CLOSED</div><div class="sub">Most common session</div></div>
+          <div class="stat-card"><div class="label">Top Trigger</div><div class="value">FORCE TEST</div><div class="sub">Most common catalyst</div></div>
+          <div class="stat-card"><div class="label">Avg % Change</div><div class="value">-40.59%</div><div class="sub">Latest rows only</div></div>
+          <div class="stat-card"><div class="label">Avg qRVOL</div><div class="value">4.73</div><div class="sub">Latest rows only</div></div>
+          <div class="stat-card"><div class="label">$Vol Tracked</div><div class="value">1.45M</div><div class="sub">Latest rows only</div></div>
         </section>
 
         <section class="summary-grid">
-          <section class="panel"><div class="panel-body"><div class="panel-title"><span>Session Breakdown</span></div><div class="mini-list"><div class="mini-empty">No data yet.</div></div></div></section>
-          <section class="panel"><div class="panel-body"><div class="panel-title"><span>Trigger Breakdown</span></div><div class="mini-list"><div class="mini-empty">No data yet.</div></div></div></section>
+          <section class="panel"><div class="panel-body"><div class="panel-title"><span>Session Breakdown</span></div><div class="mini-list"><div class="mini-row"><span class="mini-label badge session-closed">CLOSED</span><span class="mini-value">1</span></div></div></div></section>
+          <section class="panel"><div class="panel-body"><div class="panel-title"><span>Trigger Breakdown</span></div><div class="mini-list"><div class="mini-row"><span class="mini-label badge trigger-generic">FORCE TEST</span><span class="mini-value">1</span></div></div></div></section>
         </section>
 
         <section class="panel">
@@ -360,7 +392,25 @@
                   </tr>
                 </thead>
                 <tbody id="leaderboardBody">
-                  <tr><td colspan="15" class="table-empty">No leaderboard rows yet.</td></tr>
+                  
+    <tr class="clickable" data-row-key="2026-04-14T22:49:50-04:00|22:49:50|SNAL|1|FORCE TEST" data-ticker="SNAL">
+      <td><strong>SNAL</strong></td>
+      <td><span class="badge mode-test">TEST</span></td>
+      <td><span class="badge trigger-generic">FORCE TEST</span></td>
+      <td><span class="badge session-closed">CLOSED</span></td>
+      <td class="num">$1.01</td>
+      <td class="num"><span class="badge tier-gray">-40.59%</span></td>
+      <td class="num">1.44M</td>
+      <td class="num">1.45M</td>
+      <td class="num">4.73</td>
+      <td class="num">9.17M</td>
+      <td><span class="badge tier-orange">11.16%</span></td>
+      <td><span class="badge tier-green">1.82%</span></td>
+      <td><span class="badge tier-red">HTB</span></td>
+      <td><span class="badge zone-yellow">YELLOW</span></td>
+      <td><span class="badge rr-fair">FAIR</span></td>
+    </tr>
+    
                 </tbody>
               </table>
             </div>
@@ -389,9 +439,9 @@
   </div>
 
   <script>
-    const DASHBOARD_ROWS = [];
+    const DASHBOARD_ROWS = [{"ticker":"SNAL","date_display":"2026-04-14","time_display":"22:49:50","mode":"TEST","mode_class":"mode-test","trigger":"FORCE TEST","trigger_detail":"FORCE TEST","session":"CLOSED","price_display":"$1.01","pct_display":"-40.59%","pct_class":"tier-gray","session_vol_display":"1.44M","dollar_vol_display":"1.45M","qual_rvol_display":"4.73","row_key":"2026-04-14T22:49:50-04:00|22:49:50|SNAL|1|FORCE TEST","float_display":"9.17M","tradable_float_display":"8.76M","market_cap_display":"37.13M","outstanding_display":"38.28M","score_display":"86","trade_setup_score":"2","zone_status":"YELLOW","zone_class":"zone-yellow","rr_quality":"FAIR","rr_class":"rr-fair","zone_reason":"$Vol 1.45M \u00b7 qRVOL 4.7 \u00b7 float 9.17M \u00b7 HTB","zone_reason_list":["$Vol 1.45M","qRVOL 4.7","float 9.17M","HTB"],"zone_caution":"overall risk high \u00b7 dilution risk high","zone_caution_list":["overall risk high","dilution risk high"],"risk_overall":"High","risk_overall_class":"risk-high","risk_offer":"Medium","risk_offer_class":"risk-medium","risk_dil":"High","risk_dil_class":"risk-high","risk_warrant":"Low","risk_warrant_class":"risk-low","atm_status":"Effective","offering_ability":"Medium","recent_off":"Unknown","reverse_split":"Unknown","warrant_strike":"5.0","warrant_terms":"December 2025 - Senior Unse","news_summary":"Recent cost-saving agreement on ARK license (announced April 10, 2026): Snail amended its ARK franchise software lice...","management_commentary":"Scanner validation detail: FORCE POST TEST | no new_hod / extension / stronger_5m / catalyst | The company expects its $8.6 million in unrestricted cash and anticipated revenues to fund operations and service debt for at least the next 12 months. It carries significant debt obligations, including a $5.0 million revolving loan, multiple term loans, and recently issued convertible notes, and is currently in compliance with its debt covenants after requiring a waiver for a 2024 breach. Management notes that the company may need to raise additional capital through equity or debt financings depending on working capital demands and growth initiatives. Potential funding sources include an existing $5.0 million equity line of credit, a $50 million universal shelf registration, and the issuance of additional convertible notes., Filed At: 2026-03-19","source_file":"vol_scanner.py","exchange":"NASDAQ","country":"US","sector":"Technology","industry":"Electronic Gaming & Multimedia","cash_need":"Low","regsho":"False","si_display":"9.78K","si_pct_display":"11.16%","days_to_cover_display":"1","available_display":"10.00K","si_class":"tier-orange","si_band":"Elevated","ctb_display":"1.82%","ctb_avg_display":"1.82%","ctb_max_display":"1.82%","ctb_class":"tier-green","ctb_band":"Low","htb_label":"HTB","htb_class":"tier-red"}];
     const DASHBOARD_ROW_MAP = Object.fromEntries(DASHBOARD_ROWS.map(row => [row.row_key, row]));
-    const DEFAULT_ROW_KEY = "";
+    const DEFAULT_ROW_KEY = "2026-04-14T22:49:50-04:00|22:49:50|SNAL|1|FORCE TEST";
 
     function escapeHtml(value) {
       return String(value ?? "")
