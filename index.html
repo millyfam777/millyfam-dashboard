@@ -112,14 +112,14 @@
     <aside class="side">
       <div class="topbar"><label>TICKER:</label><input id="searchBox" class="search" /><button id="goBtn" class="go">GO</button></div>
       <div class="side-scroll">
-        <div class="side-title"><span>TOP GAINERS</span><span class="refresh">AUTO 60s | 53</span></div>
-        <div id="tickerList" class="list"></div>
-
         <div class="smart-section-title"><span>SQUEEZE CANDIDATES</span><span id="squeezeCount" class="refresh">0</span></div>
         <div id="squeezeList" class="smart-list"></div>
 
         <div class="smart-section-title"><span>LAST KNOWN RUNNERS</span><span id="runnerCount" class="refresh">0</span></div>
         <div id="runnerList" class="smart-list"></div>
+
+        <div class="side-title"><span>TOP GAINERS</span><span class="refresh">AUTO 60s | 53</span></div>
+        <div id="tickerList" class="list"></div>
       </div>
     </aside>
     <main class="main">
@@ -643,7 +643,7 @@ function renderList() {
       if (!bestByTicker.has(r.ticker)) bestByTicker.set(r.ticker, r);
     });
 
-  const rows = [...bestByTicker.values()].slice(0, 80);
+  const rows = [...bestByTicker.values()].slice(0, 10);
 
   document.getElementById("tickerList").innerHTML = rows.map(r => `
     <div class="ticker-card" data-key="${esc(r.row_key)}" data-symbol="${esc(r.ticker)}">
