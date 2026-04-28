@@ -20,7 +20,24 @@
     .go { background:#4ccfff; color:#001018; border:0; padding:10px 18px; font-weight:800; cursor:pointer; }
     .side-title { display:flex; align-items:center; justify-content:space-between; padding:16px 14px 10px; color:var(--cyan); font-weight:900; font-size:20px; letter-spacing:.04em; }
     .refresh { font-size:12px; color:var(--muted); }
-    .list { overflow:auto; padding:0 0 20px; }
+    .side-scroll { overflow:auto; flex:1; padding-bottom:22px; }
+    .list { padding:0 0 10px; }
+    .smart-section-title { display:flex; align-items:center; justify-content:space-between; padding:16px 14px 8px; color:#ffd166; font-weight:900; font-size:15px; letter-spacing:.05em; border-top:1px solid #223041; margin-top:6px; }
+    .smart-list { padding:0 8px 10px; display:grid; gap:8px; }
+    .smart-card { border:1px solid #233346; background:#0f1721; padding:10px 10px; cursor:pointer; }
+    .smart-card:hover { background:#12324a; outline:1px solid #48cfff; }
+    .smart-top { display:flex; justify-content:space-between; align-items:center; gap:8px; }
+    .smart-sym { color:#34d5ff; font-weight:900; font-size:16px; }
+    .smart-score { color:#27d667; font-weight:900; font-size:13px; }
+    .smart-meta { margin-top:5px; color:#c9d8e8; font-size:11px; line-height:1.45; }
+    .smart-pill { display:inline-block; margin-top:6px; padding:4px 8px; font-size:10px; font-weight:900; color:white; }
+    .squeeze-a { background:#7a31b8; box-shadow:0 0 12px rgba(129,68,170,.35); }
+    .squeeze-watch { background:#1f6f8f; }
+    .borrow-watch { background:#876b17; }
+    .runner-active { background:#168f57; }
+    .runner-reawake { background:#1f6f8f; }
+    .runner-cooling { background:#876b17; }
+    .runner-risky { background:#8a2525; }
     .ticker-card { padding:13px 14px; border-top:1px solid #1d2733; border-bottom:1px solid #05080c; cursor:pointer; background:#101720; }
     .ticker-card:hover, .ticker-card.active { background:#12324a; outline:1px solid #48cfff; }
     .row1 { display:flex; justify-content:space-between; align-items:center; gap:10px; }
@@ -94,8 +111,16 @@
   <div class="app">
     <aside class="side">
       <div class="topbar"><label>TICKER:</label><input id="searchBox" class="search" /><button id="goBtn" class="go">GO</button></div>
-      <div class="side-title"><span>TOP GAINERS</span><span class="refresh">↻ 53</span></div>
-      <div id="tickerList" class="list"></div>
+      <div class="side-scroll">
+        <div class="side-title"><span>TOP GAINERS</span><span class="refresh">AUTO 60s | 53</span></div>
+        <div id="tickerList" class="list"></div>
+
+        <div class="smart-section-title"><span>SQUEEZE CANDIDATES</span><span id="squeezeCount" class="refresh">0</span></div>
+        <div id="squeezeList" class="smart-list"></div>
+
+        <div class="smart-section-title"><span>LAST KNOWN RUNNERS</span><span id="runnerCount" class="refresh">0</span></div>
+        <div id="runnerList" class="smart-list"></div>
+      </div>
     </aside>
     <main class="main">
       <div class="brand">
@@ -463,6 +488,148 @@ function tsNum(r) {
   const t = Date.parse(raw.replaceAll("/", "-"));
   return Number.isFinite(t) ? t : 0;
 }
+
+function numFromDisplay(v) {
+  const raw0 = String(v ?? "").trim();
+  if (!raw0 || ["unknown","n/a","none"].includes(raw0.toLowerCase())) return 0;
+
+  let raw = raw0.replace(/,/g, "").replace(/\$/g, "").replace(/%/g, "").trim().toUpperCase();
+  let mult = 1;
+  if (raw.endsWith("K")) { mult = 1000; raw = raw.slice(0, -1); }
+  else if (raw.endsWith("M")) { mult = 1000000; raw = raw.slice(0, -1); }
+  else if (raw.endsWith("B")) { mult = 1000000000; raw = raw.slice(0, -1); }
+
+  const n = parseFloat(raw);
+  return Number.isFinite(n) ? n * mult : 0;
+}
+
+function squeezeScore(r) {
+  const si = numFromDisplay(r.si_pct_display);
+  const ctb = Math.max(numFromDisplay(r.ctb_display), numFromDisplay(r.ctb_avg_display), numFromDisplay(r.ctb_max_display));
+  const avail = numFromDisplay(r.available_display);
+  const qrvol = numFromDisplay(r.qual_rvol_display);
+  const dvol = numFromDisplay(r.dollar_vol_display);
+  const pct = numFromDisplay(r.pct_display);
+  const htb = String(r.htb_label || "").toLowerCase();
+  const trig = String(r.trigger || "").toLowerCase();
+
+  let score = 0;
+
+  if (si >= 20) score += 30;
+  else if (si >= 15) score += 24;
+  else if (si >= 8) score += 14;
+  else if (si >= 4) score += 7;
+
+  if (ctb >= 100) score += 26;
+  else if (ctb >= 50) score += 20;
+  else if (ctb >= 20) score += 12;
+  else if (ctb >= 8) score += 6;
+
+  if (avail > 0 && avail <= 100000) score += 20;
+  else if (avail > 0 && avail <= 500000) score += 12;
+  else if (avail > 0 && avail <= 1000000) score += 6;
+
+  if (htb.includes("htb")) score += 12;
+  else if (htb.includes("limited")) score += 8;
+
+  if (qrvol >= 100) score += 10;
+  else if (qrvol >= 25) score += 7;
+  else if (qrvol >= 5) score += 3;
+
+  if (dvol >= 10000000) score += 8;
+  else if (dvol >= 1000000) score += 5;
+
+  if (pct >= 50) score += 7;
+  else if (pct >= 25) score += 4;
+
+  if (trig.includes("news") || trig.includes("sec")) score += 5;
+
+  return Math.round(score);
+}
+
+function squeezeLabel(score) {
+  if (score >= 78) return ["SQUEEZE A+", "squeeze-a"];
+  if (score >= 55) return ["SQUEEZE WATCH", "squeeze-watch"];
+  if (score >= 35) return ["BORROW WATCH", "borrow-watch"];
+  return ["LOW SQUEEZE", "risk-unknown"];
+}
+
+function latestByTicker() {
+  const m = new Map();
+  [...ROWS].sort((a,b) => tsNum(b) - tsNum(a)).forEach(r => {
+    if (!m.has(r.ticker)) m.set(r.ticker, r);
+  });
+  return m;
+}
+
+function runnerState(items) {
+  const sorted = [...items].sort((a,b) => tsNum(b) - tsNum(a));
+  const latest = sorted[0];
+  const maxPct = Math.max(...sorted.map(pctNum));
+  const latestPct = pctNum(latest);
+  const alerts = sorted.length;
+  const risk = String(latest.risk_overall || "").toLowerCase();
+
+  if (risk === "high" && maxPct >= 50) return ["RISKY RUNNER", "runner-risky"];
+  if (alerts >= 3 && latestPct >= maxPct * 0.78) return ["STILL ACTIVE", "runner-active"];
+  if (alerts >= 2 && latestPct >= 25 && latestPct >= maxPct * 0.55) return ["REAWAKENING", "runner-reawake"];
+  return ["COOLING", "runner-cooling"];
+}
+
+function renderSmartPanels() {
+  const latest = [...latestByTicker().values()];
+
+  const squeezeRows = latest
+    .map(r => ({ r, score: squeezeScore(r) }))
+    .filter(x => x.score >= 35)
+    .sort((a,b) => b.score - a.score)
+    .slice(0, 8);
+
+  document.getElementById("squeezeCount").innerText = String(squeezeRows.length);
+  document.getElementById("squeezeList").innerHTML = squeezeRows.length ? squeezeRows.map(x => {
+    const r = x.r;
+    const labelData = squeezeLabel(x.score);
+    return `
+      <div class="smart-card" data-key="${esc(r.row_key)}">
+        <div class="smart-top"><span class="smart-sym">${esc(r.ticker)}</span><span class="smart-score">${x.score}</span></div>
+        <div class="smart-meta">SI ${esc(r.si_pct_display)} | CTB ${esc(r.ctb_display)} | Avail ${esc(r.available_display)}</div>
+        <div class="smart-meta">${esc(r.htb_label)} | ${esc(r.pct_display)} | ${esc(r.qual_rvol_display)} qRVOL</div>
+        <span class="smart-pill ${labelData[1]}">${esc(labelData[0])}</span>
+      </div>`;
+  }).join("") : `<div class="smart-card"><div class="smart-meta">No squeeze candidates above threshold.</div></div>`;
+
+  const groups = new Map();
+  ROWS.forEach(r => {
+    if (!groups.has(r.ticker)) groups.set(r.ticker, []);
+    groups.get(r.ticker).push(r);
+  });
+
+  const runners = [...groups.entries()]
+    .map(([ticker, items]) => {
+      const sorted = [...items].sort((a,b) => tsNum(b) - tsNum(a));
+      const latest = sorted[0];
+      const maxPct = Math.max(...items.map(pctNum));
+      const maxDvol = Math.max(...items.map(x => numFromDisplay(x.dollar_vol_display)));
+      const labelData = runnerState(items);
+      const score = Math.round((maxPct * 0.55) + Math.min(items.length * 8, 32) + Math.min(maxDvol / 1000000, 35));
+      return { ticker, latest, maxPct, maxDvol, alerts: items.length, label: labelData[0], cls: labelData[1], score };
+    })
+    .filter(x => x.maxPct >= 25 || x.alerts >= 3)
+    .sort((a,b) => b.score - a.score)
+    .slice(0, 8);
+
+  document.getElementById("runnerCount").innerText = String(runners.length);
+  document.getElementById("runnerList").innerHTML = runners.length ? runners.map(x => `
+    <div class="smart-card" data-key="${esc(x.latest.row_key)}">
+      <div class="smart-top"><span class="smart-sym">${esc(x.ticker)}</span><span class="smart-score">${Math.round(x.maxPct)}%</span></div>
+      <div class="smart-meta">Alerts ${x.alerts} | Best ${Math.round(x.maxPct)}% | $Vol ${esc(x.latest.dollar_vol_display)}</div>
+      <div class="smart-meta">${esc(x.latest.session)} | ${esc(x.latest.trigger)} | ${esc(x.latest.time_display)}</div>
+      <span class="smart-pill ${x.cls}">${esc(x.label)}</span>
+    </div>`).join("") : `<div class="smart-card"><div class="smart-meta">No repeat runners yet.</div></div>`;
+
+  document.querySelectorAll(".smart-card[data-key]").forEach(el => el.onclick = () => selectRow(el.dataset.key));
+}
+
 function renderList() {
   const bestByTicker = new Map();
 
@@ -583,6 +750,7 @@ document.getElementById("goBtn").onclick = () => {
   if (found) selectRow(found.row_key);
 };
 document.getElementById("searchBox").addEventListener("keydown", e => { if (e.key === "Enter") document.getElementById("goBtn").click(); });
+renderSmartPanels();
 renderList();
 selectRow(DEFAULT_KEY || (ROWS[0] && ROWS[0].row_key));
 </script>
