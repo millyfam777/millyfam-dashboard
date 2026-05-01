@@ -2,8 +2,8 @@
   "symbol": "NVCR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T09:53:22.268238",
-  "bar_count": 262,
+  "generated_at": "2026-05-01T09:58:27.072321",
+  "bar_count": 263,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -2096,10 +2096,18 @@
     {
       "time": "2026-05-01T08:50:00",
       "open": 15.88,
-      "high": 15.97,
+      "high": 16.0,
       "low": 15.81,
       "close": 15.97,
-      "volume": 81
+      "volume": 150
+    },
+    {
+      "time": "2026-05-01T08:55:00",
+      "open": 16.0,
+      "high": 16.04,
+      "low": 15.89,
+      "close": 16.02,
+      "volume": 217
     }
   ]
 }
