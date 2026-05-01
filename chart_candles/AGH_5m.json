@@ -2,8 +2,8 @@
   "symbol": "AGH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T16:32:39.335754",
-  "bar_count": 343,
+  "generated_at": "2026-05-01T16:37:39.503104",
+  "bar_count": 344,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -2743,11 +2743,19 @@
     },
     {
       "time": "2026-05-01T15:30:00",
-      "open": 4.86,
-      "high": 4.86,
+      "open": 4.9,
+      "high": 4.9,
+      "low": 4.85,
+      "close": 4.85,
+      "volume": 9
+    },
+    {
+      "time": "2026-05-01T15:35:00",
+      "open": 4.9,
+      "high": 4.9,
       "low": 4.86,
       "close": 4.86,
-      "volume": 0
+      "volume": 18
     }
   ]
 }
