@@ -1458,6 +1458,33 @@ selectRow(DEFAULT_KEY || (ROWS[0] && ROWS[0].row_key));
     return new Set(live.map(r => tickerOf(r)).filter(Boolean));
   }
 
+  function todayKey() {
+    const live = (typeof LIVE_UNIVERSE !== "undefined" && Array.isArray(LIVE_UNIVERSE)) ? LIVE_UNIVERSE : [];
+    if (live.length && live[0].ts_et) return String(live[0].ts_et).slice(0, 10);
+
+    const d = new Date();
+    return d.toISOString().slice(0, 10);
+  }
+
+  function rowDateText(r) {
+    return String(
+      (r && (r.ts_et || r.time_et || r.time_display || r.idea_date || r.date || r.ts || r.timestamp)) || ""
+    );
+  }
+
+  function hasTodayLedgerActivity(r) {
+    const key = todayKey();
+    const txt = rowDateText(r);
+    return txt.includes(key);
+  }
+
+  function isCurrentContextTicker(symbol, row) {
+    const liveSyms = liveUniverseSymbols();
+    if (liveSyms.has(String(symbol || "").toUpperCase())) return true;
+    if (row && hasTodayLedgerActivity(row)) return true;
+    return false;
+  }
+
   function getSqueezeRows(latestMap) {
     const liveSyms = liveUniverseSymbols();
 
@@ -1513,6 +1540,7 @@ selectRow(DEFAULT_KEY || (ROWS[0] && ROWS[0].row_key));
         const score = Math.round(bestPct + Math.min(items.length * 8, 40));
         return { type:"runners", symbol, row:latest, alerts:items.length, bestPct, score };
       })
+      .filter(x => isCurrentContextTicker(x.symbol, x.row))
       .filter(x => x.bestPct >= 25 || x.alerts >= 2)
       .sort((a,b) => b.score - a.score)
       .slice(0, 14);
@@ -1521,6 +1549,9 @@ selectRow(DEFAULT_KEY || (ROWS[0] && ROWS[0].row_key));
   function getMomentumRows(latestMap) {
     return [...latestMap.values()]
       .filter(r => {
+        const symbol = tickerOf(r);
+        if (!isCurrentContextTicker(symbol, r)) return false;
+
         const trigger = String(r.trigger || r.trigger_reason || "").toUpperCase();
         const action = String(r.action || r.trade_action || "").toUpperCase();
         return trigger.includes("EXTENSION") || trigger.includes("VOL") || trigger.includes("HOD") ||
