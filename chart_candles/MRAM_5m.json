@@ -2,8 +2,8 @@
   "symbol": "MRAM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T14:28:07.337138",
-  "bar_count": 318,
+  "generated_at": "2026-05-01T14:33:06.897034",
+  "bar_count": 319,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -2544,10 +2544,18 @@
     {
       "time": "2026-05-01T13:25:00",
       "open": 21.44,
-      "high": 21.46,
+      "high": 21.48,
+      "low": 21.38,
+      "close": 21.48,
+      "volume": 84
+    },
+    {
+      "time": "2026-05-01T13:30:00",
+      "open": 21.47,
+      "high": 21.47,
       "low": 21.38,
       "close": 21.42,
-      "volume": 34
+      "volume": 41
     }
   ]
 }
