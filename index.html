@@ -273,7 +273,112 @@
   }
 </style>
 
-</head>
+
+<style id="mf-chart-label-rail-v1b">
+  .mf-trade-level-row {
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    align-items:center;
+    margin:10px 0 12px;
+    padding:10px 12px;
+    border:1px solid #263342;
+    background:#0d1721;
+  }
+  .mf-level-title {
+    color:#9ee6ff;
+    font-weight:900;
+    font-size:13px;
+    margin-right:4px;
+    letter-spacing:.04em;
+  }
+  .mf-level-pill {
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+    padding:8px 11px;
+    border-radius:4px;
+    color:#fff;
+    font-size:14px;
+    font-weight:900;
+    border:1px solid rgba(255,255,255,.14);
+    box-shadow:0 4px 12px rgba(0,0,0,.18);
+  }
+  .mf-level-entry { background:#146c91; }
+  .mf-level-stop { background:#9b2d36; }
+  .mf-level-tp { background:#137a45; }
+  .mf-level-chase { background:#8a6b15; color:#fff8d2; }
+
+  .mf-chart-wrap-upgraded {
+    display:grid;
+    grid-template-columns:minmax(0,1fr) 178px;
+    gap:10px;
+    align-items:stretch;
+  }
+  .mf-chart-wrap-upgraded svg {
+    width:100% !important;
+  }
+  .mf-chart-wrap-upgraded svg text {
+    font-size:13px !important;
+    font-weight:900 !important;
+  }
+  .mf-chart-wrap-upgraded svg text[fill="#34d5ff"],
+  .mf-chart-wrap-upgraded svg text[fill="#27d667"],
+  .mf-chart-wrap-upgraded svg text[fill="#ffd166"],
+  .mf-chart-wrap-upgraded svg text[fill="#ff5f6d"] {
+    font-size:14px !important;
+    font-weight:900 !important;
+    paint-order:stroke;
+    stroke:#000;
+    stroke-width:3px;
+    stroke-linejoin:round;
+  }
+
+  .mf-level-rail {
+    border:1px solid #263342;
+    background:#0b1119;
+    padding:10px 8px;
+    display:grid;
+    gap:8px;
+    align-content:center;
+    min-height:230px;
+  }
+  .mf-rail-label {
+    display:grid;
+    gap:2px;
+    padding:8px 9px;
+    border-radius:4px;
+    color:white;
+    font-weight:900;
+    border:1px solid rgba(255,255,255,.14);
+    box-shadow:0 6px 14px rgba(0,0,0,.20);
+  }
+  .mf-rail-label span:first-child {
+    font-size:11px;
+    letter-spacing:.05em;
+    opacity:.92;
+  }
+  .mf-rail-label span:last-child {
+    font-size:18px;
+    line-height:1;
+  }
+  .mf-rail-tp2,
+  .mf-rail-tp1 { background:#137a45; }
+  .mf-rail-chase { background:#8a6b15; color:#fff8d2; }
+  .mf-rail-entry { background:#146c91; }
+  .mf-rail-stop { background:#9b2d36; }
+  .mf-chart-note {
+    margin-top:8px;
+    color:#9aacbf;
+    font-size:12px;
+    line-height:1.45;
+  }
+  @media (max-width:900px) {
+    .mf-chart-wrap-upgraded { grid-template-columns:1fr; }
+    .mf-level-rail { grid-template-columns:repeat(2,minmax(0,1fr)); min-height:auto; }
+  }
+</style>
+\n</head>
 <body>
   <div class="app">
     <aside class="side">
@@ -1586,5 +1691,131 @@ selectRow(DEFAULT_KEY || (ROWS[0] && ROWS[0].row_key));
 })();
 </script>
 
-</body>
+
+<script id="mf-chart-label-rail-v1b-js">
+(function () {
+  function esc(v) {
+    return String(v ?? "")
+      .replaceAll("&","&amp;")
+      .replaceAll("<","&lt;")
+      .replaceAll(">","&gt;")
+      .replaceAll('"',"&quot;")
+      .replaceAll("'","&#39;");
+  }
+
+  function parseLevels(text) {
+    const raw = String(text || "");
+    const out = {};
+    const patterns = [
+      ["entry", /Entry\s+([0-9]+(?:\.[0-9]+)?)/i],
+      ["stop", /Stop\s+([0-9]+(?:\.[0-9]+)?)/i],
+      ["tp1", /TP1\s+([0-9]+(?:\.[0-9]+)?)/i],
+      ["tp2", /TP2\s+([0-9]+(?:\.[0-9]+)?)/i],
+      ["chase", /Max\s+Chase\s+([0-9]+(?:\.[0-9]+)?)/i]
+    ];
+    patterns.forEach(([k, re]) => {
+      const m = raw.match(re);
+      if (m && m[1]) out[k] = m[1];
+    });
+    return out;
+  }
+
+  function pill(cls, label, value) {
+    if (!value) return "";
+    return `<span class="mf-level-pill ${cls}">${esc(label)} <strong>${esc(value)}</strong></span>`;
+  }
+
+  function rail(cls, label, value) {
+    if (!value) return "";
+    return `<div class="mf-rail-label ${cls}"><span>${esc(label)}</span><span>${esc(value)}</span></div>`;
+  }
+
+  function findChartPanel() {
+    return [...document.querySelectorAll(".panel")].find(p => {
+      const h3 = p.querySelector("h3");
+      return h3 && /MillyFam Internal Chart/i.test(h3.textContent || "");
+    });
+  }
+
+  function enhanceChart() {
+    const panel = findChartPanel();
+    if (!panel || panel.dataset.chartRailV1b === "1") return;
+
+    const levels = parseLevels(panel.textContent || "");
+    if (!levels.entry && !levels.stop && !levels.tp1 && !levels.tp2 && !levels.chase) return;
+
+    const body = panel.querySelector(".panel-body") || panel;
+    const svg = body.querySelector("svg");
+
+    const row = document.createElement("div");
+    row.className = "mf-trade-level-row";
+    row.innerHTML = `
+      <span class="mf-level-title">TRADE LEVELS</span>
+      ${pill("mf-level-tp", "TP2", levels.tp2)}
+      ${pill("mf-level-tp", "TP1", levels.tp1)}
+      ${pill("mf-level-chase", "MAX CHASE", levels.chase)}
+      ${pill("mf-level-entry", "ENTRY", levels.entry)}
+      ${pill("mf-level-stop", "STOP", levels.stop)}
+    `;
+
+    if (!body.querySelector(".mf-trade-level-row")) {
+      body.insertBefore(row, body.firstChild);
+    }
+
+    if (svg && !body.querySelector(".mf-chart-wrap-upgraded")) {
+      const railBox = document.createElement("div");
+      railBox.className = "mf-level-rail";
+      railBox.innerHTML = `
+        ${rail("mf-rail-tp2", "TP2", levels.tp2)}
+        ${rail("mf-rail-tp1", "TP1", levels.tp1)}
+        ${rail("mf-rail-chase", "MAX CHASE", levels.chase)}
+        ${rail("mf-rail-entry", "ENTRY", levels.entry)}
+        ${rail("mf-rail-stop", "STOP", levels.stop)}
+      `;
+
+      const wrap = document.createElement("div");
+      wrap.className = "mf-chart-wrap-upgraded";
+      svg.parentNode.insertBefore(wrap, svg);
+      wrap.appendChild(svg);
+      wrap.appendChild(railBox);
+
+      const note = document.createElement("div");
+      note.className = "mf-chart-note";
+      note.textContent = "Visual guide only. Follow Trade Zone status first. If Risk Block or No Entry is active, wait for confirmation instead of chasing.";
+      wrap.parentNode.insertBefore(note, wrap.nextSibling);
+    }
+
+    panel.dataset.chartRailV1b = "1";
+  }
+
+  function schedule() {
+    setTimeout(enhanceChart, 50);
+    setTimeout(enhanceChart, 250);
+    setTimeout(enhanceChart, 750);
+  }
+
+  const oldSelectRow = window.selectRow;
+  if (typeof oldSelectRow === "function" && !window.__mfChartRailV1bWrapped) {
+    window.selectRow = function () {
+      const result = oldSelectRow.apply(this, arguments);
+      schedule();
+      return result;
+    };
+    window.__mfChartRailV1bWrapped = true;
+  }
+
+  document.addEventListener("click", function (e) {
+    if (e.target && e.target.closest && e.target.closest(".mf-ticker-tile,.ticker-card,.smart-card")) {
+      schedule();
+    }
+  });
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", schedule);
+  } else {
+    schedule();
+  }
+})();
+</script>
+\n</body>
 </html>
