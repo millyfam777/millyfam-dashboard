@@ -2,8 +2,8 @@
   "symbol": "PAPL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T04:04:08.646775",
-  "bar_count": 193,
+  "generated_at": "2026-05-01T04:08:45.789809",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -1546,8 +1546,16 @@
       "open": 1.78,
       "high": 1.82,
       "low": 1.78,
+      "close": 1.8,
+      "volume": 100
+    },
+    {
+      "time": "2026-05-01T03:05:00",
+      "open": 1.7904,
+      "high": 1.7909,
+      "low": 1.7904,
       "close": 1.7909,
-      "volume": 63
+      "volume": 2
     }
   ]
 }
