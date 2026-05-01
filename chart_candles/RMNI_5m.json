@@ -2,8 +2,8 @@
   "symbol": "RMNI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T10:57:19.565263",
-  "bar_count": 174,
+  "generated_at": "2026-05-01T11:02:21.746423",
+  "bar_count": 175,
   "candles": [
     {
       "time": "2026-04-30T08:30:00",
@@ -1392,10 +1392,18 @@
     {
       "time": "2026-05-01T09:55:00",
       "open": 4.025,
-      "high": 4.025,
+      "high": 4.035,
+      "low": 4.02,
+      "close": 4.035,
+      "volume": 143
+    },
+    {
+      "time": "2026-05-01T10:00:00",
+      "open": 4.03,
+      "high": 4.035,
       "low": 4.02,
       "close": 4.02,
-      "volume": 36
+      "volume": 85
     }
   ]
 }
