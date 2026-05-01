@@ -2,8 +2,8 @@
   "symbol": "LABT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T12:08:15.656616",
-  "bar_count": 290,
+  "generated_at": "2026-05-01T12:13:08.330147",
+  "bar_count": 291,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -2320,10 +2320,18 @@
     {
       "time": "2026-05-01T11:05:00",
       "open": 3.36,
-      "high": 3.36,
+      "high": 3.38,
       "low": 3.33,
+      "close": 3.38,
+      "volume": 399
+    },
+    {
+      "time": "2026-05-01T11:10:00",
+      "open": 3.38,
+      "high": 3.38,
+      "low": 3.35,
       "close": 3.35,
-      "volume": 255
+      "volume": 188
     }
   ]
 }
