@@ -2,8 +2,8 @@
   "symbol": "ATOM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T13:02:50.664205",
-  "bar_count": 301,
+  "generated_at": "2026-05-01T13:07:52.481832",
+  "bar_count": 302,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -2409,9 +2409,17 @@
       "time": "2026-05-01T12:00:00",
       "open": 10.65,
       "high": 10.6699,
-      "low": 10.55,
-      "close": 10.55,
-      "volume": 108
+      "low": 10.5,
+      "close": 10.5,
+      "volume": 159
+    },
+    {
+      "time": "2026-05-01T12:05:00",
+      "open": 10.52,
+      "high": 10.55,
+      "low": 10.5,
+      "close": 10.53,
+      "volume": 73
     }
   ]
 }
