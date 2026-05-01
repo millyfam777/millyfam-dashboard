@@ -2,8 +2,8 @@
   "symbol": "ANGX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T10:07:30.423408",
-  "bar_count": 224,
+  "generated_at": "2026-05-01T10:12:36.066322",
+  "bar_count": 225,
   "candles": [
     {
       "time": "2026-04-30T06:30:00",
@@ -1792,10 +1792,18 @@
     {
       "time": "2026-05-01T09:05:00",
       "open": 2.85,
-      "high": 2.87,
+      "high": 2.91,
       "low": 2.85,
-      "close": 2.86,
-      "volume": 165
+      "close": 2.88,
+      "volume": 1582
+    },
+    {
+      "time": "2026-05-01T09:10:00",
+      "open": 2.88,
+      "high": 2.89,
+      "low": 2.87,
+      "close": 2.89,
+      "volume": 56
     }
   ]
 }
