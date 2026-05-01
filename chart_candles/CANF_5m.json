@@ -2,8 +2,8 @@
   "symbol": "CANF",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T06:38:15.183123",
-  "bar_count": 184,
+  "generated_at": "2026-05-01T06:43:14.744280",
+  "bar_count": 185,
   "candles": [
     {
       "time": "2026-04-30T06:20:00",
@@ -1471,11 +1471,19 @@
     },
     {
       "time": "2026-05-01T05:35:00",
+      "open": 3.03,
+      "high": 3.04,
+      "low": 3.03,
+      "close": 3.04,
+      "volume": 5
+    },
+    {
+      "time": "2026-05-01T05:40:00",
       "open": 3.02,
       "high": 3.02,
-      "low": 3.02,
-      "close": 3.02,
-      "volume": 0
+      "low": 3.0,
+      "close": 3.0,
+      "volume": 89
     }
   ]
 }
