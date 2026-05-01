@@ -2,8 +2,8 @@
   "symbol": "AMS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T15:38:23.499215",
-  "bar_count": 277,
+  "generated_at": "2026-05-01T15:43:23.072915",
+  "bar_count": 278,
   "candles": [
     {
       "time": "2026-04-30T07:35:00",
@@ -2216,10 +2216,18 @@
     {
       "time": "2026-05-01T14:35:00",
       "open": 1.7201,
-      "high": 1.745,
+      "high": 1.75,
       "low": 1.7201,
-      "close": 1.7355,
-      "volume": 32
+      "close": 1.74,
+      "volume": 87
+    },
+    {
+      "time": "2026-05-01T14:40:00",
+      "open": 1.75,
+      "high": 1.75,
+      "low": 1.7,
+      "close": 1.715,
+      "volume": 73
     }
   ]
 }
