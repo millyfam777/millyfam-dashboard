@@ -2,8 +2,8 @@
   "symbol": "XXII",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T13:28:26.681430",
-  "bar_count": 765,
+  "generated_at": "2026-05-01T13:33:28.663430",
+  "bar_count": 767,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -6120,10 +6120,26 @@
     {
       "time": "2026-05-01T12:28:00",
       "open": 1.325,
-      "high": 1.325,
+      "high": 1.33,
       "low": 1.323,
-      "close": 1.323,
-      "volume": 5
+      "close": 1.3279,
+      "volume": 53
+    },
+    {
+      "time": "2026-05-01T12:30:00",
+      "open": 1.3244,
+      "high": 1.33,
+      "low": 1.32,
+      "close": 1.325,
+      "volume": 210
+    },
+    {
+      "time": "2026-05-01T12:32:00",
+      "open": 1.3257,
+      "high": 1.33,
+      "low": 1.32,
+      "close": 1.33,
+      "volume": 80
     }
   ]
 }
