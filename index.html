@@ -1453,10 +1453,30 @@ selectRow(DEFAULT_KEY || (ROWS[0] && ROWS[0].row_key));
     return Math.round(Math.max(0, Math.min(100, score)));
   }
 
+  function liveUniverseSymbols() {
+    const live = (typeof LIVE_UNIVERSE !== "undefined" && Array.isArray(LIVE_UNIVERSE)) ? LIVE_UNIVERSE : [];
+    return new Set(live.map(r => tickerOf(r)).filter(Boolean));
+  }
+
   function getSqueezeRows(latestMap) {
+    const liveSyms = liveUniverseSymbols();
+
     return [...latestMap.values()]
       .map(r => ({ type:"squeeze", symbol:tickerOf(r), row:r, score:squeezeScore(r) }))
-      .filter(x => x.score >= 35)
+      .filter(x => {
+        // Current-context rule:
+        // SQUEEZE only shows names active in the current live scanner universe.
+        if (!liveSyms.has(x.symbol)) return false;
+
+        const r = x.row || {};
+        const si = n(r.si_pct_display || r.si_pct || r.short_interest_pct);
+        const ctb = n(r.ctb_display || r.ctb || r.ctb_avg);
+        const avail = n(r.available_display || r.available || r.available_shares);
+        const htb = /HTB|HARD|LIMITED/i.test(String(r.htb_label || r.htb || ""));
+
+        const borrowPressure = x.score >= 35 || si >= 10 || ctb >= 25 || htb || (avail > 0 && avail <= 100000);
+        return borrowPressure;
+      })
       .sort((a,b) => b.score - a.score)
       .slice(0, 14);
   }
@@ -1620,7 +1640,7 @@ selectRow(DEFAULT_KEY || (ROWS[0] && ROWS[0].row_key));
     if (!strip || !title || !count) return;
 
     const titleMap = {
-      squeeze: "SQUEEZE CANDIDATES",
+      squeeze: "ACTIVE SQUEEZE WATCH",
       topgainers: "LIVE TOP GAINERS",
       runners: "LAST KNOWN RUNNERS",
       momentum: "MOMENTUM"
