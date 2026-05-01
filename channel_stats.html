@@ -12,15 +12,31 @@ th, td { border: 1px solid #ccc; padding: 8px; font-size: 13px; text-align: left
 th { background: #f5f5f5; position: sticky; top: 0; }
 tr:nth-child(even) { background: #fafafa; }
 .note { color: #555; font-size: 13px; margin-bottom: 12px; }
+.exec-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 16px 0 20px 0; }
+.exec-card { border: 1px solid #d6d6d6; border-radius: 12px; padding: 14px; background: #ffffff; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+.exec-card.good { border-left: 6px solid #22a06b; }
+.exec-card.bad { border-left: 6px solid #d64545; }
+.exec-card.warn { border-left: 6px solid #d89b1d; }
+.exec-card.neutral { border-left: 6px solid #667085; }
+.exec-title { font-size: 12px; color: #555; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; font-weight: 700; }
+.exec-value { font-size: 18px; font-weight: 800; color: #111; margin-bottom: 6px; }
+.exec-sub { font-size: 12px; color: #555; line-height: 1.35; }
+@media (max-width: 900px) { .exec-grid { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
 <h1>Channel Results Summary</h1>
-<p>Generated: 2026-04-30 9:50:02 PM ET</p>
+<p>Generated: 2026-04-30 10:08:04 PM ET</p>
 <div class="note">
 R-board reads entry/stop/TP fields from each channel. Premium Options uses actual R based on option entry/stop/targets, not fixed TP labels.
 MFE/MAE will show NA until scanners write high-watermark/low-watermark fields.
 </div>
+<div class="exec-grid"><div class="exec-card good"><div class="exec-title">Best Win Rate</div><div class="exec-value">SMALL_ACCOUNT_RTH · 93.8%</div><div class="exec-sub">Decided=225 | AvgR=1.79R | SL%=0.7%</div></div>
+<div class="exec-card good"><div class="exec-title">Highest Avg R</div><div class="exec-value">SMALL_ACCOUNT_RTH · 1.79R</div><div class="exec-sub">Win%=93.8% | Decided=225 | 2R=10.3%</div></div>
+<div class="exec-card bad"><div class="exec-title">Highest Stop Rate</div><div class="exec-value">PREMIUM_OPTIONS · 57.7%</div><div class="exec-sub">Losses=168 | Win%=40.0% | AvgR=-0.02R</div></div>
+<div class="exec-card bad"><div class="exec-title">Weakest Avg R</div><div class="exec-value">SMALL_ACCOUNT_SWING · -0.51R</div><div class="exec-sub">Win%=24.7% | SL%=52.5% | Rows=493</div></div>
+<div class="exec-card warn"><div class="exec-title">Lowest Trade Decision Rate</div><div class="exec-value">SMALL_ACCOUNT_RTH · 11.6%</div><div class="exec-sub">Expired=1600 | Ambig=113 | Rows=1940</div></div>
+<div class="exec-card neutral"><div class="exec-title">Premium Daily Quality</div><div class="exec-value">Quality-only</div><div class="exec-sub">A+=48 | WATCH=75 | AvgScore=0.81 | AvgData=0.97 | AvgRVOL=1756.0 | Avg20$Vol=$260.4K | HighRisk=23 | ModRisk=7 | CashNeed=27 | RegSHO=23 | WatchOnly=13 | PM=6 RTH=64 AH=36 CLOSED=1...</div></div></div>
 <table>
 <thead><tr><th>channel</th><th>tracked</th><th>file</th><th>exists</th><th>rows</th><th>tp1</th><th>tp2</th><th>tp3</th><th>sl</th><th>wins</th><th>losses</th><th>decided</th><th>win_pct</th><th>r1_hits</th><th>r2_hits</th><th>r3_hits</th><th>r1_hit_pct</th><th>r2_hit_pct</th><th>r3_hit_pct</th><th>sl_hit_pct</th><th>expired_pct</th><th>ambig_pct</th><th>resolved_pct</th><th>trade_decision_pct</th><th>avg_r</th><th>mfe_r</th><th>mae_r</th><th>open</th><th>pending</th><th>triggered</th><th>expired</th><th>ambig</th><th>last_ts</th><th>notes</th></tr></thead>
 <tbody>
