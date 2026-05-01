@@ -2,8 +2,8 @@
   "symbol": "AIRS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T15:52:25.408321",
-  "bar_count": 328,
+  "generated_at": "2026-05-01T15:57:26.054618",
+  "bar_count": 329,
   "candles": [
     {
       "time": "2026-04-30T03:30:00",
@@ -2624,10 +2624,18 @@
     {
       "time": "2026-05-01T14:50:00",
       "open": 3.3,
-      "high": 3.305,
+      "high": 3.31,
       "low": 3.29,
-      "close": 3.29,
-      "volume": 66
+      "close": 3.305,
+      "volume": 143
+    },
+    {
+      "time": "2026-05-01T14:55:00",
+      "open": 3.3093,
+      "high": 3.32,
+      "low": 3.3093,
+      "close": 3.3165,
+      "volume": 106
     }
   ]
 }
