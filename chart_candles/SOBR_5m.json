@@ -2,8 +2,8 @@
   "symbol": "SOBR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T12:27:57.670159",
-  "bar_count": 293,
+  "generated_at": "2026-05-01T12:32:57.344073",
+  "bar_count": 294,
   "candles": [
     {
       "time": "2026-04-30T03:05:00",
@@ -2345,9 +2345,17 @@
       "time": "2026-05-01T11:25:00",
       "open": 1.0701,
       "high": 1.08,
-      "low": 1.06,
-      "close": 1.07,
-      "volume": 4250
+      "low": 0.9813,
+      "close": 1.0051,
+      "volume": 28058
+    },
+    {
+      "time": "2026-05-01T11:30:00",
+      "open": 1.0076,
+      "high": 1.02,
+      "low": 0.9813,
+      "close": 1.0148,
+      "volume": 13914
     }
   ]
 }
