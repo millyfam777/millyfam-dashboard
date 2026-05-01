@@ -2,8 +2,8 @@
   "symbol": "VLN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T08:17:32.269665",
-  "bar_count": 244,
+  "generated_at": "2026-05-01T08:22:33.890821",
+  "bar_count": 245,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -1952,10 +1952,18 @@
     {
       "time": "2026-05-01T07:15:00",
       "open": 2.1,
-      "high": 2.105,
+      "high": 2.11,
+      "low": 2.1,
+      "close": 2.11,
+      "volume": 61
+    },
+    {
+      "time": "2026-05-01T07:20:00",
+      "open": 2.11,
+      "high": 2.11,
       "low": 2.1,
       "close": 2.1,
-      "volume": 55
+      "volume": 17
     }
   ]
 }
