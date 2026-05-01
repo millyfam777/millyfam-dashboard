@@ -2,8 +2,8 @@
   "symbol": "HCAI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T09:17:50.850223",
-  "bar_count": 256,
+  "generated_at": "2026-05-01T09:22:47.906871",
+  "bar_count": 257,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -2050,8 +2050,16 @@
       "open": 9.96,
       "high": 10.0,
       "low": 9.8371,
-      "close": 9.9899,
-      "volume": 42
+      "close": 9.99,
+      "volume": 44
+    },
+    {
+      "time": "2026-05-01T08:20:00",
+      "open": 10.14,
+      "high": 10.21,
+      "low": 10.14,
+      "close": 10.2,
+      "volume": 7
     }
   ]
 }
