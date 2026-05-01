@@ -2,8 +2,8 @@
   "symbol": "USGG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T09:42:57.958771",
-  "bar_count": 261,
+  "generated_at": "2026-05-01T09:48:03.323689",
+  "bar_count": 262,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -2089,9 +2089,17 @@
       "time": "2026-05-01T08:40:00",
       "open": 18.87,
       "high": 19.15,
-      "low": 18.87,
-      "close": 19.01,
-      "volume": 97
+      "low": 18.8,
+      "close": 18.98,
+      "volume": 128
+    },
+    {
+      "time": "2026-05-01T08:45:00",
+      "open": 18.8,
+      "high": 18.98,
+      "low": 18.7,
+      "close": 18.96,
+      "volume": 14
     }
   ]
 }
