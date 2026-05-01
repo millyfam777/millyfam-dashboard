@@ -2,8 +2,8 @@
   "symbol": "FATN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T07:13:24.336740",
-  "bar_count": 231,
+  "generated_at": "2026-05-01T07:18:24.697935",
+  "bar_count": 232,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -1848,10 +1848,18 @@
     {
       "time": "2026-05-01T06:10:00",
       "open": 2.93,
-      "high": 2.93,
+      "high": 2.98,
       "low": 2.91,
-      "close": 2.91,
-      "volume": 8
+      "close": 2.98,
+      "volume": 23
+    },
+    {
+      "time": "2026-05-01T06:15:00",
+      "open": 2.98,
+      "high": 3.0,
+      "low": 2.91,
+      "close": 2.99,
+      "volume": 37
     }
   ]
 }

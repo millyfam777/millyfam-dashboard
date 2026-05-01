@@ -2,8 +2,8 @@
   "symbol": "GTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T07:12:57.075726",
-  "bar_count": 191,
+  "generated_at": "2026-05-01T07:17:57.235268",
+  "bar_count": 192,
   "candles": [
     {
       "time": "2026-04-30T05:55:00",
@@ -1528,10 +1528,18 @@
     {
       "time": "2026-05-01T06:10:00",
       "open": 25.62,
-      "high": 25.62,
+      "high": 25.7,
       "low": 25.59,
-      "close": 25.61,
-      "volume": 26
+      "close": 25.69,
+      "volume": 50
+    },
+    {
+      "time": "2026-05-01T06:15:00",
+      "open": 25.69,
+      "high": 25.69,
+      "low": 25.69,
+      "close": 25.69,
+      "volume": 0
     }
   ]
 }
