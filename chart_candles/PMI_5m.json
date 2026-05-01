@@ -2,8 +2,8 @@
   "symbol": "PMI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T04:07:40.811706",
-  "bar_count": 193,
+  "generated_at": "2026-05-01T04:12:37.896674",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-04-30T03:05:00",
@@ -1544,10 +1544,18 @@
     {
       "time": "2026-05-01T03:05:00",
       "open": 0.45,
-      "high": 0.4501,
-      "low": 0.45,
+      "high": 0.4553,
+      "low": 0.4329,
       "close": 0.45,
-      "volume": 135
+      "volume": 161
+    },
+    {
+      "time": "2026-05-01T03:10:00",
+      "open": 0.4527,
+      "high": 0.4527,
+      "low": 0.4527,
+      "close": 0.4527,
+      "volume": 1
     }
   ]
 }
