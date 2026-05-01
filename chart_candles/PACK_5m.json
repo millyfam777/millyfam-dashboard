@@ -2,8 +2,8 @@
   "symbol": "PACK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T10:08:21.533960",
-  "bar_count": 217,
+  "generated_at": "2026-05-01T10:13:24.837731",
+  "bar_count": 218,
   "candles": [
     {
       "time": "2026-04-30T06:45:00",
@@ -1736,10 +1736,18 @@
     {
       "time": "2026-05-01T09:05:00",
       "open": 5.4,
-      "high": 5.45,
+      "high": 5.46,
       "low": 5.39,
-      "close": 5.44,
-      "volume": 153
+      "close": 5.46,
+      "volume": 234
+    },
+    {
+      "time": "2026-05-01T09:10:00",
+      "open": 5.46,
+      "high": 5.59,
+      "low": 5.46,
+      "close": 5.57,
+      "volume": 323
     }
   ]
 }
