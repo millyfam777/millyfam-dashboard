@@ -2,8 +2,8 @@
   "symbol": "BKHAR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T15:47:23.463029",
-  "bar_count": 56,
+  "generated_at": "2026-05-01T15:52:23.127572",
+  "bar_count": 57,
   "candles": [
     {
       "time": "2026-05-01T10:10:00",
@@ -449,9 +449,17 @@
       "time": "2026-05-01T14:45:00",
       "open": 1.4,
       "high": 1.4,
+      "low": 1.3701,
+      "close": 1.3701,
+      "volume": 16
+    },
+    {
+      "time": "2026-05-01T14:50:00",
+      "open": 1.41,
+      "high": 1.41,
       "low": 1.4,
       "close": 1.4,
-      "volume": 0
+      "volume": 15
     }
   ]
 }
