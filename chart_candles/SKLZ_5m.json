@@ -2,8 +2,8 @@
   "symbol": "SKLZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T05:07:08.018793",
-  "bar_count": 206,
+  "generated_at": "2026-05-01T05:12:07.522119",
+  "bar_count": 207,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -1648,10 +1648,18 @@
     {
       "time": "2026-05-01T04:05:00",
       "open": 8.0,
-      "high": 8.0,
+      "high": 8.01,
       "low": 8.0,
       "close": 8.0,
-      "volume": 0
+      "volume": 8
+    },
+    {
+      "time": "2026-05-01T04:10:00",
+      "open": 8.04,
+      "high": 8.04,
+      "low": 8.04,
+      "close": 8.04,
+      "volume": 2
     }
   ]
 }

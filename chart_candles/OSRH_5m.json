@@ -2,8 +2,8 @@
   "symbol": "OSRH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T05:08:04.414684",
-  "bar_count": 206,
+  "generated_at": "2026-05-01T05:13:02.617277",
+  "bar_count": 207,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -1648,10 +1648,18 @@
     {
       "time": "2026-05-01T04:05:00",
       "open": 0.6137,
-      "high": 0.6137,
+      "high": 0.6157,
       "low": 0.6055,
-      "close": 0.6055,
-      "volume": 81
+      "close": 0.611,
+      "volume": 403
+    },
+    {
+      "time": "2026-05-01T04:10:00",
+      "open": 0.6103,
+      "high": 0.6126,
+      "low": 0.606,
+      "close": 0.606,
+      "volume": 213
     }
   ]
 }
