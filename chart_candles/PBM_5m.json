@@ -2,8 +2,8 @@
   "symbol": "PBM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T11:33:32.030658",
-  "bar_count": 283,
+  "generated_at": "2026-05-01T11:38:30.211242",
+  "bar_count": 284,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -2264,10 +2264,18 @@
     {
       "time": "2026-05-01T10:30:00",
       "open": 5.97,
-      "high": 6.07,
+      "high": 6.08,
       "low": 5.97,
+      "close": 6.08,
+      "volume": 42
+    },
+    {
+      "time": "2026-05-01T10:35:00",
+      "open": 6.07,
+      "high": 6.07,
+      "low": 6.07,
       "close": 6.07,
-      "volume": 22
+      "volume": 1
     }
   ]
 }
