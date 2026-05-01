@@ -2,8 +2,8 @@
   "symbol": "RPGL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T09:12:42.735036",
-  "bar_count": 255,
+  "generated_at": "2026-05-01T09:17:48.582290",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -2040,10 +2040,18 @@
     {
       "time": "2026-05-01T08:10:00",
       "open": 1.83,
-      "high": 1.83,
+      "high": 1.85,
       "low": 1.83,
-      "close": 1.83,
-      "volume": 1
+      "close": 1.85,
+      "volume": 5
+    },
+    {
+      "time": "2026-05-01T08:15:00",
+      "open": 1.8597,
+      "high": 1.9,
+      "low": 1.85,
+      "close": 1.9,
+      "volume": 49
     }
   ]
 }

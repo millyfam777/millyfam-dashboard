@@ -2,8 +2,8 @@
   "symbol": "ISPC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T09:12:29.033511",
-  "bar_count": 251,
+  "generated_at": "2026-05-01T09:17:37.148078",
+  "bar_count": 252,
   "candles": [
     {
       "time": "2026-04-30T03:20:00",
@@ -2008,10 +2008,18 @@
     {
       "time": "2026-05-01T08:10:00",
       "open": 6.08,
-      "high": 6.1,
+      "high": 6.11,
+      "low": 6.04,
+      "close": 6.11,
+      "volume": 81
+    },
+    {
+      "time": "2026-05-01T08:15:00",
+      "open": 6.12,
+      "high": 6.14,
       "low": 6.06,
       "close": 6.06,
-      "volume": 35
+      "volume": 74
     }
   ]
 }
