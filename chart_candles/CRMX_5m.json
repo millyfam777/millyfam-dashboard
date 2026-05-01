@@ -2,8 +2,8 @@
   "symbol": "CRMX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T07:02:53.653954",
-  "bar_count": 229,
+  "generated_at": "2026-05-01T07:07:53.494087",
+  "bar_count": 230,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -1833,9 +1833,17 @@
       "time": "2026-05-01T06:00:00",
       "open": 24.25,
       "high": 24.25,
-      "low": 24.25,
-      "close": 24.25,
-      "volume": 2
+      "low": 24.0,
+      "close": 24.0,
+      "volume": 7
+    },
+    {
+      "time": "2026-05-01T06:05:00",
+      "open": 24.1,
+      "high": 24.1,
+      "low": 24.1,
+      "close": 24.1,
+      "volume": 8
     }
   ]
 }
