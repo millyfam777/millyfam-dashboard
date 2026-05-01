@@ -2,8 +2,8 @@
   "symbol": "SST",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T08:47:28.589367",
-  "bar_count": 250,
+  "generated_at": "2026-05-01T08:52:28.024077",
+  "bar_count": 251,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -2000,10 +2000,18 @@
     {
       "time": "2026-05-01T07:45:00",
       "open": 3.71,
-      "high": 3.73,
+      "high": 3.75,
       "low": 3.7,
-      "close": 3.72,
-      "volume": 117
+      "close": 3.7,
+      "volume": 195
+    },
+    {
+      "time": "2026-05-01T07:50:00",
+      "open": 3.71,
+      "high": 3.7105,
+      "low": 3.58,
+      "close": 3.58,
+      "volume": 230
     }
   ]
 }
