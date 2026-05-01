@@ -2,8 +2,8 @@
   "symbol": "BYND",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T06:22:27.030752",
-  "bar_count": 221,
+  "generated_at": "2026-05-01T06:27:26.627131",
+  "bar_count": 222,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -1769,9 +1769,17 @@
       "time": "2026-05-01T05:20:00",
       "open": 1.13,
       "high": 1.13,
-      "low": 1.13,
+      "low": 1.12,
+      "close": 1.12,
+      "volume": 532
+    },
+    {
+      "time": "2026-05-01T05:25:00",
+      "open": 1.12,
+      "high": 1.14,
+      "low": 1.12,
       "close": 1.13,
-      "volume": 368
+      "volume": 1684
     }
   ]
 }
