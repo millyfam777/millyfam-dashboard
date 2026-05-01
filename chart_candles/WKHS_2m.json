@@ -2,8 +2,8 @@
   "symbol": "WKHS",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T09:58:21.323469",
-  "bar_count": 656,
+  "generated_at": "2026-05-01T10:03:24.676521",
+  "bar_count": 658,
   "candles": [
     {
       "time": "2026-04-30T03:04:00",
@@ -5249,9 +5249,25 @@
       "time": "2026-05-01T08:58:00",
       "open": 3.2,
       "high": 3.2,
+      "low": 3.1,
+      "close": 3.125,
+      "volume": 81
+    },
+    {
+      "time": "2026-05-01T09:00:00",
+      "open": 3.1475,
+      "high": 3.2,
+      "low": 3.1002,
+      "close": 3.1899,
+      "volume": 189
+    },
+    {
+      "time": "2026-05-01T09:02:00",
+      "open": 3.145,
+      "high": 3.24,
       "low": 3.145,
-      "close": 3.145,
-      "volume": 16
+      "close": 3.1748,
+      "volume": 127
     }
   ]
 }
