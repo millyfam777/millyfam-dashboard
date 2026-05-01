@@ -2,8 +2,8 @@
   "symbol": "AREB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T06:02:51.968780",
-  "bar_count": 217,
+  "generated_at": "2026-05-01T06:07:50.622742",
+  "bar_count": 218,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -1737,9 +1737,17 @@
       "time": "2026-05-01T05:00:00",
       "open": 0.3651,
       "high": 0.3651,
+      "low": 0.365,
+      "close": 0.3651,
+      "volume": 9
+    },
+    {
+      "time": "2026-05-01T05:05:00",
+      "open": 0.3651,
+      "high": 0.3652,
       "low": 0.3651,
       "close": 0.3651,
-      "volume": 0
+      "volume": 22
     }
   ]
 }
