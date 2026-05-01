@@ -2,8 +2,8 @@
   "symbol": "CERS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T14:43:16.573171",
-  "bar_count": 285,
+  "generated_at": "2026-05-01T14:48:15.905514",
+  "bar_count": 286,
   "candles": [
     {
       "time": "2026-04-30T04:45:00",
@@ -2281,9 +2281,17 @@
       "time": "2026-05-01T13:40:00",
       "open": 2.5501,
       "high": 2.5551,
+      "low": 2.535,
+      "close": 2.545,
+      "volume": 552
+    },
+    {
+      "time": "2026-05-01T13:45:00",
+      "open": 2.5419,
+      "high": 2.55,
       "low": 2.54,
-      "close": 2.55,
-      "volume": 354
+      "close": 2.54,
+      "volume": 356
     }
   ]
 }
