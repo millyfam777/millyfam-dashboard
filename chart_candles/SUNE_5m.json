@@ -2,8 +2,8 @@
   "symbol": "SUNE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T16:22:16.327610",
-  "bar_count": 299,
+  "generated_at": "2026-05-01T16:27:16.710244",
+  "bar_count": 300,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -2392,10 +2392,18 @@
     {
       "time": "2026-05-01T15:20:00",
       "open": 1.51,
-      "high": 1.51,
-      "low": 1.51,
+      "high": 1.52,
+      "low": 1.5001,
       "close": 1.51,
-      "volume": 15
+      "volume": 23
+    },
+    {
+      "time": "2026-05-01T15:25:00",
+      "open": 1.5,
+      "high": 1.52,
+      "low": 1.48,
+      "close": 1.5,
+      "volume": 43
     }
   ]
 }
