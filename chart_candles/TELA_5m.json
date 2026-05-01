@@ -2,8 +2,8 @@
   "symbol": "TELA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T15:02:18.470997",
-  "bar_count": 194,
+  "generated_at": "2026-05-01T15:07:19.269078",
+  "bar_count": 195,
   "candles": [
     {
       "time": "2026-04-30T08:30:00",
@@ -1552,10 +1552,18 @@
     {
       "time": "2026-05-01T14:00:00",
       "open": 1.035,
+      "high": 1.0497,
+      "low": 1.03,
+      "close": 1.03,
+      "volume": 29
+    },
+    {
+      "time": "2026-05-01T14:05:00",
+      "open": 1.04,
       "high": 1.04,
       "low": 1.03,
-      "close": 1.035,
-      "volume": 21
+      "close": 1.03,
+      "volume": 5
     }
   ]
 }
