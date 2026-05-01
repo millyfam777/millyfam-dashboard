@@ -2,8 +2,8 @@
   "symbol": "WTO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T17:07:54.280317",
-  "bar_count": 304,
+  "generated_at": "2026-05-01T17:12:51.881349",
+  "bar_count": 305,
   "candles": [
     {
       "time": "2026-04-30T04:05:00",
@@ -2432,10 +2432,18 @@
     {
       "time": "2026-05-01T16:05:00",
       "open": 1.4,
-      "high": 1.46,
+      "high": 1.4605,
       "low": 1.4,
       "close": 1.46,
-      "volume": 7
+      "volume": 24
+    },
+    {
+      "time": "2026-05-01T16:10:00",
+      "open": 1.47,
+      "high": 1.48,
+      "low": 1.47,
+      "close": 1.48,
+      "volume": 22
     }
   ]
 }
