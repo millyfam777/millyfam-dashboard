@@ -113,6 +113,166 @@
       .badges { justify-content:flex-start; }
     }
   </style>
+
+<style id="mf-horizontal-cockpit-v1">
+  .app { display:block !important; height:100vh !important; }
+  .side { display:none !important; }
+  .main { height:100vh !important; overflow:auto !important; padding:14px 18px 40px !important; }
+  .brand { margin-top:8px !important; }
+
+  #mfCockpit {
+    border:1px solid #263342;
+    background:#0c1219;
+    margin-bottom:14px;
+    box-shadow:0 10px 28px rgba(0,0,0,.22);
+  }
+
+  .mf-cockpit-top {
+    display:grid;
+    grid-template-columns:minmax(210px,260px) 1fr auto;
+    align-items:center;
+    gap:12px;
+    padding:10px 12px;
+    border-bottom:1px solid #223041;
+  }
+
+  .mf-search { display:flex; align-items:center; gap:8px; }
+  .mf-search label { color:#b6c7dc; font-size:12px; font-weight:900; }
+  .mf-search input {
+    background:#151e27;
+    border:1px solid #2a3a4b;
+    color:#f3f7ff;
+    padding:9px 10px;
+    width:110px;
+    outline:none;
+    font-family:Consolas, "Segoe UI", system-ui, sans-serif;
+  }
+  .mf-search button {
+    background:#4ccfff;
+    color:#001018;
+    border:0;
+    padding:10px 16px;
+    font-weight:900;
+    cursor:pointer;
+  }
+
+  .mf-tabs { display:flex; gap:8px; flex-wrap:wrap; }
+  .mf-tab {
+    background:#111821;
+    color:#cfe8ff;
+    border:1px solid #2a3a4b;
+    padding:9px 14px;
+    font-size:12px;
+    font-weight:900;
+    cursor:pointer;
+    letter-spacing:.04em;
+    min-width:118px;
+  }
+  .mf-tab.active {
+    background:#16405c;
+    color:#ffffff;
+    border-color:#48cfff;
+    box-shadow:0 0 14px rgba(72,207,255,.20);
+  }
+
+  .mf-asof { color:#9aacbf; font-size:12px; white-space:nowrap; }
+
+  .mf-strip-head {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px 12px 4px;
+  }
+  .mf-strip-title {
+    color:#ffd166;
+    font-weight:900;
+    letter-spacing:.05em;
+    font-size:13px;
+  }
+  .mf-strip-count { color:#9aacbf; font-size:12px; }
+
+  #mfTickerStrip {
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(138px, 1fr));
+    gap:8px;
+    padding:8px 12px 12px;
+  }
+
+  .mf-ticker-tile {
+    border:1px solid #233346;
+    background:#101720;
+    padding:10px;
+    cursor:pointer;
+    min-height:82px;
+    border-left:4px solid #34d5ff;
+  }
+  .mf-ticker-tile:hover,
+  .mf-ticker-tile.active {
+    background:#12324a;
+    outline:1px solid #48cfff;
+  }
+
+  .mf-tile-top { display:flex; justify-content:space-between; align-items:flex-start; gap:8px; }
+  .mf-tile-symbol { color:#34d5ff; font-size:18px; font-weight:900; }
+  .mf-tile-score { color:#27d667; font-size:14px; font-weight:900; text-align:right; }
+  .mf-tile-meta {
+    margin-top:6px;
+    color:#c9d8e8;
+    font-size:11px;
+    line-height:1.35;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  .mf-tile-pill {
+    display:inline-block;
+    margin-top:6px;
+    padding:4px 7px;
+    font-size:10px;
+    font-weight:900;
+    color:white;
+    background:#1f6f8f;
+  }
+
+  .mf-tab-squeeze .mf-tile-pill { background:#7a31b8; }
+  .mf-tab-topgainers .mf-tile-pill { background:#1f6f8f; }
+  .mf-tab-runners .mf-tile-pill { background:#168f57; }
+  .mf-tab-momentum .mf-tile-pill { background:#137a45; }
+
+  .mf-live-detail {
+    border:1px solid #263342;
+    background:#111821;
+    padding:22px;
+    margin-bottom:16px;
+  }
+  .mf-live-detail h2 {
+    color:#34d5ff;
+    margin:0 0 12px;
+    font-size:42px;
+    font-weight:300;
+  }
+  .mf-live-grid {
+    display:grid;
+    grid-template-columns:repeat(4, minmax(120px,1fr));
+    gap:10px;
+    margin-top:14px;
+  }
+  .mf-live-cell {
+    background:#182230;
+    border:1px solid #263342;
+    padding:12px;
+  }
+  .mf-live-k { color:#9aacbf; font-size:12px; margin-bottom:6px; }
+  .mf-live-v { color:#f3f7ff; font-size:18px; font-weight:900; }
+
+  @media (max-width:900px) {
+    .mf-cockpit-top { grid-template-columns:1fr; }
+    #mfTickerStrip { display:flex; overflow-x:auto; padding-bottom:14px; }
+    .mf-ticker-tile { min-width:155px; }
+    .mf-live-grid { grid-template-columns:1fr 1fr; }
+  }
+</style>
+
 </head>
 <body>
   <div class="app">
@@ -151,6 +311,29 @@
       </div>
     </aside>
     <main class="main">
+
+<section id="mfCockpit">
+  <div class="mf-cockpit-top">
+    <div class="mf-search">
+      <label>TICKER:</label>
+      <input id="mfSearchBox" />
+      <button id="mfGoBtn">GO</button>
+    </div>
+    <div class="mf-tabs">
+      <button class="mf-tab" data-mf-tab="squeeze">SQUEEZE</button>
+      <button class="mf-tab active" data-mf-tab="topgainers">TOP GAINERS</button>
+      <button class="mf-tab" data-mf-tab="runners">RUNNERS</button>
+      <button class="mf-tab" data-mf-tab="momentum">MOMENTUM</button>
+    </div>
+    <div id="mfAsOf" class="mf-asof">AUTO 60s</div>
+  </div>
+  <div class="mf-strip-head">
+    <div id="mfStripTitle" class="mf-strip-title">TOP GAINERS</div>
+    <div id="mfStripCount" class="mf-strip-count">0 tickers</div>
+  </div>
+  <div id="mfTickerStrip"></div>
+</section>
+
       <div class="brand">
         MF Real Trading Cockpit v5 · AskEdgar Dilution Monitor · Source logs/vol_alert_ledger.csv · As of 2026-05-01T13:21:02-04:00
         <div class="nav"><a href="analytics.html">Analytics View</a></div>
@@ -1092,5 +1275,316 @@ renderSmartPanels();
 renderList();
 selectRow(DEFAULT_KEY || (ROWS[0] && ROWS[0].row_key));
 </script>
+
+<script id="mf-horizontal-cockpit-v1-js">
+(function () {
+  const state = { tab: "topgainers", selected: "" };
+
+  function h(v) {
+    return String(v ?? "")
+      .replaceAll("&","&amp;")
+      .replaceAll("<","&lt;")
+      .replaceAll(">","&gt;")
+      .replaceAll('"',"&quot;")
+      .replaceAll("'","&#39;");
+  }
+
+  function n(v) {
+    const x = Number(String(v ?? "").replace(/[$,%x,]/g, ""));
+    return Number.isFinite(x) ? x : 0;
+  }
+
+  function fmtMoney(v) {
+    const x = n(v);
+    if (!x) return "";
+    if (x >= 1) return "$" + x.toFixed(2);
+    return "$" + x.toFixed(4);
+  }
+
+  function fmtPct(v) {
+    const x = n(v);
+    if (!x) return "";
+    return x.toFixed(2) + "%";
+  }
+
+  function fmtVol(v) {
+    const x = n(v);
+    if (!x) return "";
+    if (x >= 1e9) return (x/1e9).toFixed(2) + "B";
+    if (x >= 1e6) return (x/1e6).toFixed(2) + "M";
+    if (x >= 1e3) return (x/1e3).toFixed(2) + "K";
+    return String(Math.round(x));
+  }
+
+  function tickerOf(r) {
+    return String((r && (r.ticker || r.symbol)) || "").toUpperCase();
+  }
+
+  function latestLedgerByTicker() {
+    const m = new Map();
+    const rows = Array.isArray(ROWS) ? ROWS : [];
+    rows.forEach(r => {
+      const t = tickerOf(r);
+      if (!t) return;
+      if (!m.has(t)) {
+        m.set(t, r);
+        return;
+      }
+      const old = m.get(t);
+      const oldPct = n(old.pct_display || old.pct_change || old.change_pct);
+      const newPct = n(r.pct_display || r.pct_change || r.change_pct);
+      if (newPct >= oldPct) m.set(t, r);
+    });
+    return m;
+  }
+
+  function squeezeScore(r) {
+    const si = n(r.si_pct_display || r.si_pct || r.short_interest_pct);
+    const ctb = n(r.ctb_display || r.ctb || r.ctb_avg);
+    let score = 0;
+    score += Math.min(si * 1.7, 55);
+    score += Math.min(ctb / 4, 35);
+    if (/HTB|HARD/i.test(String(r.htb_label || r.htb || ""))) score += 12;
+    return Math.round(Math.max(0, Math.min(100, score)));
+  }
+
+  function getSqueezeRows(latestMap) {
+    return [...latestMap.values()]
+      .map(r => ({ type:"squeeze", symbol:tickerOf(r), row:r, score:squeezeScore(r) }))
+      .filter(x => x.score >= 35)
+      .sort((a,b) => b.score - a.score)
+      .slice(0, 14);
+  }
+
+  function getTopGainersRows(latestMap) {
+    const live = (typeof LIVE_UNIVERSE !== "undefined" && Array.isArray(LIVE_UNIVERSE)) ? LIVE_UNIVERSE : [];
+    return live
+      .slice()
+      .sort((a,b) => n(a.rank) - n(b.rank))
+      .slice(0, 20)
+      .map(r => ({
+        type:"topgainers",
+        symbol:tickerOf(r),
+        live:r,
+        row:latestMap.get(tickerOf(r)) || null,
+        score:n(r.pct_change)
+      }));
+  }
+
+  function getRunnerRows(latestMap) {
+    const groups = new Map();
+    const rows = Array.isArray(ROWS) ? ROWS : [];
+    rows.forEach(r => {
+      const t = tickerOf(r);
+      if (!t) return;
+      if (!groups.has(t)) groups.set(t, []);
+      groups.get(t).push(r);
+    });
+
+    return [...groups.entries()]
+      .map(([symbol, items]) => {
+        const latest = latestMap.get(symbol) || items[0];
+        const bestPct = Math.max(...items.map(x => n(x.pct_display || x.pct_change || x.change_pct)));
+        const score = Math.round(bestPct + Math.min(items.length * 8, 40));
+        return { type:"runners", symbol, row:latest, alerts:items.length, bestPct, score };
+      })
+      .filter(x => x.bestPct >= 25 || x.alerts >= 2)
+      .sort((a,b) => b.score - a.score)
+      .slice(0, 14);
+  }
+
+  function getMomentumRows(latestMap) {
+    return [...latestMap.values()]
+      .filter(r => {
+        const trigger = String(r.trigger || r.trigger_reason || "").toUpperCase();
+        const action = String(r.action || r.trade_action || "").toUpperCase();
+        return trigger.includes("EXTENSION") || trigger.includes("VOL") || trigger.includes("HOD") ||
+               trigger.includes("NEWS") || action.includes("MOMENTUM") || action.includes("TRADE");
+      })
+      .map(r => ({ type:"momentum", symbol:tickerOf(r), row:r, score:n(r.pct_display || r.pct_change || r.change_pct) }))
+      .sort((a,b) => b.score - a.score)
+      .slice(0, 14);
+  }
+
+  function rowsForTab(tab) {
+    const latestMap = latestLedgerByTicker();
+    if (tab === "squeeze") return getSqueezeRows(latestMap);
+    if (tab === "runners") return getRunnerRows(latestMap);
+    if (tab === "momentum") return getMomentumRows(latestMap);
+    return getTopGainersRows(latestMap);
+  }
+
+  function showLiveOnlyDetail(item) {
+    const r = item.live || {};
+    const detail = document.getElementById("detail");
+    if (!detail) return;
+
+    detail.innerHTML = `
+      <section class="mf-live-detail">
+        <h2>${h(item.symbol)}</h2>
+        <div class="muted">Live top-gainer universe only. This ticker may not have a qualified MillyFam alert card yet.</div>
+        <div class="mf-live-grid">
+          <div class="mf-live-cell"><div class="mf-live-k">Rank</div><div class="mf-live-v">#${h(r.rank || "")}</div></div>
+          <div class="mf-live-cell"><div class="mf-live-k">Price</div><div class="mf-live-v">${h(fmtMoney(r.price))}</div></div>
+          <div class="mf-live-cell"><div class="mf-live-k">% Change</div><div class="mf-live-v">${h(fmtPct(r.pct_change))}</div></div>
+          <div class="mf-live-cell"><div class="mf-live-k">Volume</div><div class="mf-live-v">${h(fmtVol(r.volume))}</div></div>
+          <div class="mf-live-cell"><div class="mf-live-k">RVOL</div><div class="mf-live-v">${h(Number(n(r.rvol)).toFixed(1))}x</div></div>
+          <div class="mf-live-cell"><div class="mf-live-k">1m Vol</div><div class="mf-live-v">${h(fmtVol(r.one_min_vol))}</div></div>
+          <div class="mf-live-cell"><div class="mf-live-k">5m Vol</div><div class="mf-live-v">${h(fmtVol(r.five_min_vol))}</div></div>
+          <div class="mf-live-cell"><div class="mf-live-k">Session</div><div class="mf-live-v">${h(r.session || "")}</div></div>
+        </div>
+        <div class="warning-box" style="margin-top:16px">
+          Raw scanner ticker only. Wait for Momentum / Squeeze / Elite / qualified alert confirmation before treating it as a trade setup.
+        </div>
+      </section>`;
+  }
+
+  function selectItem(item) {
+    if (!item) return;
+    state.selected = item.symbol;
+
+    if (item.row && item.row.row_key && typeof selectRow === "function") {
+      selectRow(item.row.row_key);
+    } else {
+      showLiveOnlyDetail(item);
+    }
+
+    document.querySelectorAll(".mf-ticker-tile").forEach(x => {
+      x.classList.toggle("active", x.dataset.symbol === state.selected);
+    });
+  }
+
+  function tileHtml(item) {
+    const tabClass = "mf-tab-" + state.tab;
+    let score = "";
+    let meta1 = "";
+    let meta2 = "";
+    let pill = "";
+
+    if (state.tab === "topgainers") {
+      const r = item.live || {};
+      score = fmtPct(r.pct_change);
+      meta1 = `Price ${fmtMoney(r.price)} | Vol ${fmtVol(r.volume)}`;
+      meta2 = `RVOL ${Number(n(r.rvol)).toFixed(1)}x | ${r.session || ""}`;
+      pill = "LIVE TOP GAINER";
+    } else if (state.tab === "squeeze") {
+      const r = item.row || {};
+      score = String(item.score);
+      meta1 = `SI ${r.si_pct_display || ""} | CTB ${r.ctb_display || ""}`;
+      meta2 = `Avail ${r.available_display || ""} | ${r.htb_label || ""}`;
+      pill = item.score >= 78 ? "SQUEEZE A+" : "SQUEEZE WATCH";
+    } else if (state.tab === "runners") {
+      const r = item.row || {};
+      score = Math.round(item.bestPct || 0) + "%";
+      meta1 = `Alerts ${item.alerts || 0} | Best ${Math.round(item.bestPct || 0)}%`;
+      meta2 = `${r.trigger || ""} | ${r.time_display || ""}`;
+      pill = "RUNNER";
+    } else {
+      const r = item.row || {};
+      score = r.pct_display || fmtPct(item.score);
+      meta1 = `${r.trigger || ""} | ${r.qual_rvol_display || ""} qRVOL`;
+      meta2 = `${r.action || ""} | ${r.time_display || ""}`;
+      pill = "MOMENTUM";
+    }
+
+    return `
+      <div class="mf-ticker-tile ${tabClass}" data-symbol="${h(item.symbol)}">
+        <div class="mf-tile-top">
+          <div class="mf-tile-symbol">${h(item.symbol)}</div>
+          <div class="mf-tile-score">${h(score)}</div>
+        </div>
+        <div class="mf-tile-meta">${h(meta1)}</div>
+        <div class="mf-tile-meta">${h(meta2)}</div>
+        <span class="mf-tile-pill">${h(pill)}</span>
+      </div>`;
+  }
+
+  function render(tab) {
+    if (tab) state.tab = tab;
+
+    document.querySelectorAll(".mf-tab").forEach(btn => {
+      btn.classList.toggle("active", btn.dataset.mfTab === state.tab);
+    });
+
+    const rows = rowsForTab(state.tab);
+    const strip = document.getElementById("mfTickerStrip");
+    const title = document.getElementById("mfStripTitle");
+    const count = document.getElementById("mfStripCount");
+    const asof = document.getElementById("mfAsOf");
+
+    if (!strip || !title || !count) return;
+
+    const titleMap = {
+      squeeze: "SQUEEZE CANDIDATES",
+      topgainers: "LIVE TOP GAINERS",
+      runners: "LAST KNOWN RUNNERS",
+      momentum: "MOMENTUM"
+    };
+
+    title.innerText = titleMap[state.tab] || "TOP GAINERS";
+    count.innerText = rows.length + " tickers";
+
+    if (asof) {
+      const live = (typeof LIVE_UNIVERSE !== "undefined" && Array.isArray(LIVE_UNIVERSE)) ? LIVE_UNIVERSE : [];
+      const t = live.length ? (live[0].ts_et || "") : "";
+      asof.innerText = t ? "LIVE UNIVERSE " + t : "AUTO 60s";
+    }
+
+    strip.innerHTML = rows.length
+      ? rows.map(tileHtml).join("")
+      : `<div class="mf-ticker-tile"><div class="mf-tile-meta">No symbols available in this category right now.</div></div>`;
+
+    strip.querySelectorAll(".mf-ticker-tile[data-symbol]").forEach(el => {
+      el.onclick = () => {
+        const item = rows.find(x => x.symbol === el.dataset.symbol);
+        selectItem(item);
+      };
+    });
+
+    if (rows.length && (!state.selected || !rows.some(x => x.symbol === state.selected))) {
+      selectItem(rows[0]);
+    }
+  }
+
+  function wire() {
+    document.querySelectorAll(".mf-tab").forEach(btn => {
+      btn.onclick = () => render(btn.dataset.mfTab);
+    });
+
+    const search = document.getElementById("mfSearchBox");
+    const go = document.getElementById("mfGoBtn");
+
+    function doSearch() {
+      const q = String(search && search.value || "").trim().toUpperCase();
+      if (!q) return;
+
+      const ledger = latestLedgerByTicker();
+      if (ledger.has(q)) {
+        const r = ledger.get(q);
+        if (r && r.row_key && typeof selectRow === "function") selectRow(r.row_key);
+        return;
+      }
+
+      const live = (typeof LIVE_UNIVERSE !== "undefined" && Array.isArray(LIVE_UNIVERSE)) ? LIVE_UNIVERSE : [];
+      const item = live.find(x => tickerOf(x) === q);
+      if (item) showLiveOnlyDetail({ symbol:q, live:item });
+    }
+
+    if (go) go.onclick = doSearch;
+    if (search) search.onkeydown = e => {
+      if (e.key === "Enter") doSearch();
+    };
+
+    render("topgainers");
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", wire);
+  } else {
+    wire();
+  }
+})();
+</script>
+
 </body>
 </html>
