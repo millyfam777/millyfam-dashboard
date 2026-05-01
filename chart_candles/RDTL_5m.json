@@ -2,8 +2,8 @@
   "symbol": "RDTL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T12:13:01.140913",
-  "bar_count": 291,
+  "generated_at": "2026-05-01T12:18:01.054099",
+  "bar_count": 292,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -2330,8 +2330,16 @@
       "open": 20.85,
       "high": 21.05,
       "low": 20.84,
-      "close": 21.05,
-      "volume": 67
+      "close": 21.0,
+      "volume": 76
+    },
+    {
+      "time": "2026-05-01T11:15:00",
+      "open": 21.05,
+      "high": 21.35,
+      "low": 21.05,
+      "close": 21.3,
+      "volume": 124
     }
   ]
 }

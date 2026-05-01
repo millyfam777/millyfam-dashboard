@@ -2,8 +2,8 @@
   "symbol": "LRHC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T12:13:17.898266",
-  "bar_count": 291,
+  "generated_at": "2026-05-01T12:18:17.264758",
+  "bar_count": 292,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -2328,10 +2328,18 @@
     {
       "time": "2026-05-01T11:10:00",
       "open": 1.905,
+      "high": 1.91,
+      "low": 1.9001,
+      "close": 1.91,
+      "volume": 4
+    },
+    {
+      "time": "2026-05-01T11:15:00",
+      "open": 1.905,
       "high": 1.905,
-      "low": 1.905,
-      "close": 1.905,
-      "volume": 1
+      "low": 1.9,
+      "close": 1.9,
+      "volume": 6
     }
   ]
 }
