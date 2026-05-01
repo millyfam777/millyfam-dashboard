@@ -2,8 +2,8 @@
   "symbol": "UONE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T13:32:08.162820",
-  "bar_count": 234,
+  "generated_at": "2026-05-01T13:37:08.660379",
+  "bar_count": 235,
   "candles": [
     {
       "time": "2026-04-30T06:05:00",
@@ -1872,10 +1872,18 @@
     {
       "time": "2026-05-01T12:30:00",
       "open": 7.0,
-      "high": 7.21,
+      "high": 7.23,
       "low": 6.97,
-      "close": 7.2,
-      "volume": 751
+      "close": 6.98,
+      "volume": 1284
+    },
+    {
+      "time": "2026-05-01T12:35:00",
+      "open": 6.98,
+      "high": 7.0,
+      "low": 6.8,
+      "close": 6.91,
+      "volume": 186
     }
   ]
 }
