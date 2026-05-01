@@ -2,8 +2,8 @@
   "symbol": "FIVN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T19:32:19.212724",
-  "bar_count": 369,
+  "generated_at": "2026-05-01T19:37:19.988357",
+  "bar_count": 370,
   "candles": [
     {
       "time": "2026-04-30T03:50:00",
@@ -2953,9 +2953,17 @@
       "time": "2026-05-01T18:30:00",
       "open": 22.11,
       "high": 22.12,
-      "low": 22.11,
-      "close": 22.12,
-      "volume": 4
+      "low": 22.0,
+      "close": 22.0,
+      "volume": 5
+    },
+    {
+      "time": "2026-05-01T18:35:00",
+      "open": 22.0,
+      "high": 22.02,
+      "low": 22.0,
+      "close": 22.02,
+      "volume": 6
     }
   ]
 }
