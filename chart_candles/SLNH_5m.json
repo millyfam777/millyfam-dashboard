@@ -2,8 +2,8 @@
   "symbol": "SLNH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-01T08:02:15.962966",
-  "bar_count": 241,
+  "generated_at": "2026-05-01T08:07:34.999465",
+  "bar_count": 242,
   "candles": [
     {
       "time": "2026-04-30T03:00:00",
@@ -1928,10 +1928,18 @@
     {
       "time": "2026-05-01T07:00:00",
       "open": 1.56,
-      "high": 1.59,
+      "high": 1.64,
       "low": 1.55,
-      "close": 1.59,
-      "volume": 744
+      "close": 1.6313,
+      "volume": 2317
+    },
+    {
+      "time": "2026-05-01T07:05:00",
+      "open": 1.64,
+      "high": 1.64,
+      "low": 1.59,
+      "close": 1.6,
+      "volume": 178
     }
   ]
 }
