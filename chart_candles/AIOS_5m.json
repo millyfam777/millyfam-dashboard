@@ -2,8 +2,8 @@
   "symbol": "AIOS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-04T04:17:07.119405",
-  "bar_count": 196,
+  "generated_at": "2026-05-04T04:22:06.752699",
+  "bar_count": 197,
   "candles": [
     {
       "time": "2026-05-01T03:00:00",
@@ -1568,10 +1568,18 @@
     {
       "time": "2026-05-04T03:15:00",
       "open": 18.62,
-      "high": 18.62,
+      "high": 18.65,
       "low": 18.6,
-      "close": 18.6,
-      "volume": 4
+      "close": 18.65,
+      "volume": 6
+    },
+    {
+      "time": "2026-05-04T03:20:00",
+      "open": 18.65,
+      "high": 18.67,
+      "low": 18.62,
+      "close": 18.67,
+      "volume": 3
     }
   ]
 }
