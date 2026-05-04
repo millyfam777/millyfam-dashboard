@@ -2,8 +2,8 @@
   "symbol": "EEIQ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-04T16:53:29.513315",
-  "bar_count": 312,
+  "generated_at": "2026-05-04T16:58:30.936208",
+  "bar_count": 313,
   "candles": [
     {
       "time": "2026-05-01T05:20:00",
@@ -2496,10 +2496,18 @@
     {
       "time": "2026-05-04T15:50:00",
       "open": 3.14,
-      "high": 3.14,
+      "high": 3.1407,
       "low": 3.14,
-      "close": 3.14,
-      "volume": 1
+      "close": 3.1405,
+      "volume": 3
+    },
+    {
+      "time": "2026-05-04T15:55:00",
+      "open": 3.1405,
+      "high": 3.1405,
+      "low": 3.1405,
+      "close": 3.1405,
+      "volume": 0
     }
   ]
 }
