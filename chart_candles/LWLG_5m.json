@@ -2,8 +2,8 @@
   "symbol": "LWLG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-04T04:32:47.443109",
-  "bar_count": 199,
+  "generated_at": "2026-05-04T04:37:47.854603",
+  "bar_count": 200,
   "candles": [
     {
       "time": "2026-05-01T03:00:00",
@@ -1592,10 +1592,18 @@
     {
       "time": "2026-05-04T03:30:00",
       "open": 18.0,
-      "high": 18.0,
+      "high": 18.1,
       "low": 17.98,
-      "close": 17.98,
-      "volume": 2
+      "close": 18.08,
+      "volume": 22
+    },
+    {
+      "time": "2026-05-04T03:35:00",
+      "open": 18.03,
+      "high": 18.16,
+      "low": 18.02,
+      "close": 18.15,
+      "volume": 21
     }
   ]
 }
