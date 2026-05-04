@@ -2,8 +2,8 @@
   "symbol": "CRCG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-04T19:17:08.248528",
-  "bar_count": 376,
+  "generated_at": "2026-05-04T19:22:07.183989",
+  "bar_count": 377,
   "candles": [
     {
       "time": "2026-05-01T03:00:00",
@@ -3008,10 +3008,18 @@
     {
       "time": "2026-05-04T18:15:00",
       "open": 3.9308,
-      "high": 3.95,
+      "high": 3.9513,
       "low": 3.9308,
+      "close": 3.9513,
+      "volume": 363
+    },
+    {
+      "time": "2026-05-04T18:20:00",
+      "open": 3.95,
+      "high": 3.9599,
+      "low": 3.9498,
       "close": 3.95,
-      "volume": 237
+      "volume": 87
     }
   ]
 }
