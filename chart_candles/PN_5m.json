@@ -2,8 +2,8 @@
   "symbol": "PN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-04T18:07:10.921703",
-  "bar_count": 325,
+  "generated_at": "2026-05-04T18:12:10.367116",
+  "bar_count": 326,
   "candles": [
     {
       "time": "2026-05-01T06:05:00",
@@ -2600,10 +2600,18 @@
     {
       "time": "2026-05-04T17:05:00",
       "open": 5.13,
-      "high": 5.13,
-      "low": 5.13,
-      "close": 5.13,
-      "volume": 2
+      "high": 5.15,
+      "low": 5.11,
+      "close": 5.14,
+      "volume": 23
+    },
+    {
+      "time": "2026-05-04T17:10:00",
+      "open": 5.12,
+      "high": 5.17,
+      "low": 5.12,
+      "close": 5.17,
+      "volume": 10
     }
   ]
 }
