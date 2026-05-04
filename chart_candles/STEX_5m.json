@@ -2,8 +2,8 @@
   "symbol": "STEX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-04T04:07:23.352745",
-  "bar_count": 194,
+  "generated_at": "2026-05-04T04:12:22.612492",
+  "bar_count": 195,
   "candles": [
     {
       "time": "2026-05-01T03:00:00",
@@ -1552,10 +1552,18 @@
     {
       "time": "2026-05-04T03:05:00",
       "open": 1.18,
-      "high": 1.18,
+      "high": 1.2,
+      "low": 1.16,
+      "close": 1.19,
+      "volume": 23
+    },
+    {
+      "time": "2026-05-04T03:10:00",
+      "open": 1.17,
+      "high": 1.17,
       "low": 1.17,
       "close": 1.17,
-      "volume": 3
+      "volume": 6
     }
   ]
 }
