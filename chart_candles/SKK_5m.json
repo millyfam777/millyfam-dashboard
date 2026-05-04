@@ -2,8 +2,8 @@
   "symbol": "SKK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-04T19:42:14.197902",
-  "bar_count": 278,
+  "generated_at": "2026-05-04T19:47:14.325978",
+  "bar_count": 279,
   "candles": [
     {
       "time": "2026-05-01T08:30:00",
@@ -2224,10 +2224,18 @@
     {
       "time": "2026-05-04T18:40:00",
       "open": 9.48,
-      "high": 9.5101,
+      "high": 9.55,
       "low": 9.44,
-      "close": 9.5101,
-      "volume": 32
+      "close": 9.55,
+      "volume": 85
+    },
+    {
+      "time": "2026-05-04T18:45:00",
+      "open": 9.56,
+      "high": 9.94,
+      "low": 9.56,
+      "close": 9.89,
+      "volume": 274
     }
   ]
 }
