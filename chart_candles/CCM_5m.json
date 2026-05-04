@@ -2,8 +2,8 @@
   "symbol": "CCM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-04T17:03:02.298008",
-  "bar_count": 204,
+  "generated_at": "2026-05-04T17:08:03.469376",
+  "bar_count": 205,
   "candles": [
     {
       "time": "2026-05-01T09:10:00",
@@ -1632,10 +1632,18 @@
     {
       "time": "2026-05-04T16:00:00",
       "open": 5.01,
-      "high": 5.01,
+      "high": 5.1,
       "low": 5.01,
-      "close": 5.01,
-      "volume": 1
+      "close": 5.1,
+      "volume": 2
+    },
+    {
+      "time": "2026-05-04T16:05:00",
+      "open": 5.1,
+      "high": 5.1,
+      "low": 5.1,
+      "close": 5.1,
+      "volume": 0
     }
   ]
 }
