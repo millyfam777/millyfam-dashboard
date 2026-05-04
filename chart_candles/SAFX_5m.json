@@ -2,8 +2,8 @@
   "symbol": "SAFX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-04T04:52:20.281027",
-  "bar_count": 203,
+  "generated_at": "2026-05-04T04:57:21.240832",
+  "bar_count": 204,
   "candles": [
     {
       "time": "2026-05-01T03:00:00",
@@ -1624,10 +1624,18 @@
     {
       "time": "2026-05-04T03:50:00",
       "open": 0.5006,
-      "high": 0.5006,
+      "high": 0.5009,
       "low": 0.5006,
       "close": 0.5006,
-      "volume": 7
+      "volume": 37
+    },
+    {
+      "time": "2026-05-04T03:55:00",
+      "open": 0.5005,
+      "high": 0.5005,
+      "low": 0.5,
+      "close": 0.5,
+      "volume": 80
     }
   ]
 }
