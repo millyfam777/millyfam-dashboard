@@ -2,8 +2,8 @@
   "symbol": "MASK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T06:22:20.698456",
-  "bar_count": 221,
+  "generated_at": "2026-05-05T06:27:21.706295",
+  "bar_count": 222,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -1769,9 +1769,17 @@
       "time": "2026-05-05T05:20:00",
       "open": 2.2,
       "high": 2.24,
-      "low": 2.2,
+      "low": 2.19,
+      "close": 2.2,
+      "volume": 1149
+    },
+    {
+      "time": "2026-05-05T05:25:00",
+      "open": 2.205,
+      "high": 2.22,
+      "low": 2.19,
       "close": 2.22,
-      "volume": 539
+      "volume": 530
     }
   ]
 }
