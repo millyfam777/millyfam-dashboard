@@ -2,8 +2,8 @@
   "symbol": "CREG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T19:03:06.380238",
-  "bar_count": 373,
+  "generated_at": "2026-05-05T19:08:06.702057",
+  "bar_count": 374,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -2984,10 +2984,18 @@
     {
       "time": "2026-05-05T18:00:00",
       "open": 0.494,
-      "high": 0.494,
+      "high": 0.5,
       "low": 0.494,
-      "close": 0.494,
-      "volume": 8
+      "close": 0.4998,
+      "volume": 21
+    },
+    {
+      "time": "2026-05-05T18:05:00",
+      "open": 0.4995,
+      "high": 0.512,
+      "low": 0.4995,
+      "close": 0.512,
+      "volume": 51
     }
   ]
 }
