@@ -2,8 +2,8 @@
   "symbol": "SSM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T14:57:27.288051",
-  "bar_count": 324,
+  "generated_at": "2026-05-05T15:02:26.513271",
+  "bar_count": 325,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -2592,10 +2592,18 @@
     {
       "time": "2026-05-05T13:55:00",
       "open": 5.7,
-      "high": 6.0,
+      "high": 6.06,
       "low": 5.7,
-      "close": 6.0,
-      "volume": 22
+      "close": 6.06,
+      "volume": 42
+    },
+    {
+      "time": "2026-05-05T14:00:00",
+      "open": 6.14,
+      "high": 6.15,
+      "low": 6.14,
+      "close": 6.15,
+      "volume": 3
     }
   ]
 }
