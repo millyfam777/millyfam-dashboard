@@ -2,8 +2,8 @@
   "symbol": "DGXX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T13:53:11.540815",
-  "bar_count": 311,
+  "generated_at": "2026-05-05T13:58:13.702931",
+  "bar_count": 312,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -2488,10 +2488,18 @@
     {
       "time": "2026-05-05T12:50:00",
       "open": 5.39,
-      "high": 5.43,
+      "high": 5.45,
       "low": 5.375,
-      "close": 5.41,
-      "volume": 1480
+      "close": 5.395,
+      "volume": 2436
+    },
+    {
+      "time": "2026-05-05T12:55:00",
+      "open": 5.395,
+      "high": 5.395,
+      "low": 5.26,
+      "close": 5.315,
+      "volume": 5418
     }
   ]
 }
