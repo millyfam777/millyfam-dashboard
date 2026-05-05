@@ -2,8 +2,8 @@
   "symbol": "BLZE",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T07:22:15.256793",
-  "bar_count": 582,
+  "generated_at": "2026-05-05T07:27:15.509742",
+  "bar_count": 584,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -4656,10 +4656,26 @@
     {
       "time": "2026-05-05T06:22:00",
       "open": 6.61,
+      "high": 6.64,
+      "low": 6.6,
+      "close": 6.64,
+      "volume": 42
+    },
+    {
+      "time": "2026-05-05T06:24:00",
+      "open": 6.63,
+      "high": 6.63,
+      "low": 6.59,
+      "close": 6.6,
+      "volume": 148
+    },
+    {
+      "time": "2026-05-05T06:26:00",
+      "open": 6.61,
       "high": 6.61,
-      "low": 6.61,
-      "close": 6.61,
-      "volume": 2
+      "low": 6.58,
+      "close": 6.6,
+      "volume": 11
     }
   ]
 }
