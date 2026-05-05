@@ -2,8 +2,8 @@
   "symbol": "FTRE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T10:32:27.298743",
-  "bar_count": 254,
+  "generated_at": "2026-05-05T10:37:28.225758",
+  "bar_count": 255,
   "candles": [
     {
       "time": "2026-05-04T03:15:00",
@@ -2032,10 +2032,18 @@
     {
       "time": "2026-05-05T09:30:00",
       "open": 14.34,
-      "high": 14.45,
+      "high": 14.52,
       "low": 14.33,
-      "close": 14.43,
-      "volume": 301
+      "close": 14.5,
+      "volume": 475
+    },
+    {
+      "time": "2026-05-05T09:35:00",
+      "open": 14.5,
+      "high": 14.52,
+      "low": 14.42,
+      "close": 14.48,
+      "volume": 52
     }
   ]
 }

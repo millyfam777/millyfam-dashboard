@@ -2,8 +2,8 @@
   "symbol": "GBTG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T10:33:31.147075",
-  "bar_count": 255,
+  "generated_at": "2026-05-05T10:38:32.055876",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-05-04T04:20:00",
@@ -2040,10 +2040,18 @@
     {
       "time": "2026-05-05T09:30:00",
       "open": 9.35,
-      "high": 9.36,
+      "high": 9.37,
       "low": 9.34,
+      "close": 9.37,
+      "volume": 2855
+    },
+    {
+      "time": "2026-05-05T09:35:00",
+      "open": 9.37,
+      "high": 9.37,
+      "low": 9.36,
       "close": 9.36,
-      "volume": 1202
+      "volume": 1053
     }
   ]
 }
