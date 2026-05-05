@@ -2,8 +2,8 @@
   "symbol": "VRDN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T14:53:02.574160",
-  "bar_count": 256,
+  "generated_at": "2026-05-05T14:58:04.391957",
+  "bar_count": 257,
   "candles": [
     {
       "time": "2026-05-04T05:05:00",
@@ -2049,9 +2049,17 @@
       "time": "2026-05-05T13:50:00",
       "open": 18.58,
       "high": 18.63,
-      "low": 18.54,
-      "close": 18.54,
-      "volume": 217
+      "low": 18.4,
+      "close": 18.42,
+      "volume": 855
+    },
+    {
+      "time": "2026-05-05T13:55:00",
+      "open": 18.4,
+      "high": 18.52,
+      "low": 18.34,
+      "close": 18.37,
+      "volume": 334
     }
   ]
 }
