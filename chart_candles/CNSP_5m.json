@@ -2,8 +2,8 @@
   "symbol": "CNSP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T05:52:23.070887",
-  "bar_count": 179,
+  "generated_at": "2026-05-05T05:57:26.222663",
+  "bar_count": 180,
   "candles": [
     {
       "time": "2026-05-04T06:00:00",
@@ -1431,11 +1431,19 @@
     },
     {
       "time": "2026-05-05T04:50:00",
-      "open": 7.25,
-      "high": 7.25,
+      "open": 7.34,
+      "high": 7.34,
+      "low": 7.27,
+      "close": 7.27,
+      "volume": 8
+    },
+    {
+      "time": "2026-05-05T04:55:00",
+      "open": 7.26,
+      "high": 7.27,
       "low": 7.25,
-      "close": 7.25,
-      "volume": 0
+      "close": 7.26,
+      "volume": 9
     }
   ]
 }
