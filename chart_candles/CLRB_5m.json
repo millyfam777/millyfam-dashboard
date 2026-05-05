@@ -2,8 +2,8 @@
   "symbol": "CLRB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T12:58:20.791191",
-  "bar_count": 198,
+  "generated_at": "2026-05-05T13:03:21.006222",
+  "bar_count": 199,
   "candles": [
     {
       "time": "2026-05-04T08:30:00",
@@ -1584,10 +1584,18 @@
     {
       "time": "2026-05-05T11:55:00",
       "open": 3.45,
-      "high": 3.4899,
+      "high": 3.52,
       "low": 3.43,
-      "close": 3.4894,
-      "volume": 333
+      "close": 3.49,
+      "volume": 753
+    },
+    {
+      "time": "2026-05-05T12:00:00",
+      "open": 3.4907,
+      "high": 3.51,
+      "low": 3.48,
+      "close": 3.505,
+      "volume": 221
     }
   ]
 }
