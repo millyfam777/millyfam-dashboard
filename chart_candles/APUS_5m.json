@@ -2,8 +2,8 @@
   "symbol": "APUS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T18:27:06.289728",
-  "bar_count": 54,
+  "generated_at": "2026-05-05T18:32:06.829200",
+  "bar_count": 55,
   "candles": [
     {
       "time": "2026-05-05T13:00:00",
@@ -432,10 +432,18 @@
     {
       "time": "2026-05-05T17:25:00",
       "open": 2.22,
-      "high": 2.22,
+      "high": 2.27,
       "low": 2.17,
-      "close": 2.1701,
-      "volume": 30
+      "close": 2.27,
+      "volume": 40
+    },
+    {
+      "time": "2026-05-05T17:30:00",
+      "open": 2.27,
+      "high": 2.27,
+      "low": 2.26,
+      "close": 2.26,
+      "volume": 19
     }
   ]
 }
