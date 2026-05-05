@@ -2,8 +2,8 @@
   "symbol": "CHAI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T07:48:08.435623",
-  "bar_count": 205,
+  "generated_at": "2026-05-05T07:53:07.241697",
+  "bar_count": 206,
   "candles": [
     {
       "time": "2026-05-04T05:45:00",
@@ -1641,9 +1641,17 @@
       "time": "2026-05-05T06:45:00",
       "open": 1.45,
       "high": 1.61,
-      "low": 1.4,
-      "close": 1.41,
-      "volume": 399
+      "low": 1.33,
+      "close": 1.3302,
+      "volume": 435
+    },
+    {
+      "time": "2026-05-05T06:50:00",
+      "open": 1.33,
+      "high": 1.39,
+      "low": 1.33,
+      "close": 1.39,
+      "volume": 16
     }
   ]
 }
