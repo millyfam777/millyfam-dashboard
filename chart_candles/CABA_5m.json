@@ -2,8 +2,8 @@
   "symbol": "CABA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T06:47:48.717806",
-  "bar_count": 226,
+  "generated_at": "2026-05-05T06:52:48.066653",
+  "bar_count": 227,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -1808,10 +1808,18 @@
     {
       "time": "2026-05-05T05:45:00",
       "open": 3.9,
-      "high": 3.9,
+      "high": 3.9192,
       "low": 3.9,
-      "close": 3.9,
-      "volume": 11
+      "close": 3.9192,
+      "volume": 13
+    },
+    {
+      "time": "2026-05-05T05:50:00",
+      "open": 3.9188,
+      "high": 3.9188,
+      "low": 3.9188,
+      "close": 3.9188,
+      "volume": 3
     }
   ]
 }
