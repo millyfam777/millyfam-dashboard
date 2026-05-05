@@ -2,8 +2,8 @@
   "symbol": "DARE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T09:18:34.706133",
-  "bar_count": 255,
+  "generated_at": "2026-05-05T09:23:29.545398",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-05-04T03:05:00",
@@ -2041,9 +2041,17 @@
       "time": "2026-05-05T08:15:00",
       "open": 3.29,
       "high": 3.29,
-      "low": 3.28,
-      "close": 3.29,
-      "volume": 10
+      "low": 3.25,
+      "close": 3.25,
+      "volume": 50
+    },
+    {
+      "time": "2026-05-05T08:20:00",
+      "open": 3.25,
+      "high": 3.25,
+      "low": 3.25,
+      "close": 3.25,
+      "volume": 1
     }
   ]
 }
