@@ -2,8 +2,8 @@
   "symbol": "WYY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T12:08:24.475446",
-  "bar_count": 252,
+  "generated_at": "2026-05-05T12:13:33.530330",
+  "bar_count": 253,
   "candles": [
     {
       "time": "2026-05-04T06:10:00",
@@ -2017,9 +2017,17 @@
       "time": "2026-05-05T11:05:00",
       "open": 9.6,
       "high": 9.79,
+      "low": 9.55,
+      "close": 9.55,
+      "volume": 10
+    },
+    {
+      "time": "2026-05-05T11:10:00",
+      "open": 9.6,
+      "high": 9.6,
       "low": 9.6,
-      "close": 9.79,
-      "volume": 6
+      "close": 9.6,
+      "volume": 4
     }
   ]
 }
