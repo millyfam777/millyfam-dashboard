@@ -2,8 +2,8 @@
   "symbol": "BZAI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T05:23:15.828800",
-  "bar_count": 209,
+  "generated_at": "2026-05-05T05:28:15.998456",
+  "bar_count": 210,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -1673,9 +1673,17 @@
       "time": "2026-05-05T04:20:00",
       "open": 2.3505,
       "high": 2.36,
-      "low": 2.3505,
+      "low": 2.35,
+      "close": 2.35,
+      "volume": 23
+    },
+    {
+      "time": "2026-05-05T04:25:00",
+      "open": 2.35,
+      "high": 2.3505,
+      "low": 2.35,
       "close": 2.3505,
-      "volume": 7
+      "volume": 2
     }
   ]
 }
