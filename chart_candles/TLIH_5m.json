@@ -2,8 +2,8 @@
   "symbol": "TLIH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T09:12:22.908304",
-  "bar_count": 255,
+  "generated_at": "2026-05-05T09:17:26.073478",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -2040,10 +2040,18 @@
     {
       "time": "2026-05-05T08:10:00",
       "open": 4.15,
-      "high": 4.21,
+      "high": 4.28,
       "low": 4.15,
-      "close": 4.15,
-      "volume": 5
+      "close": 4.21,
+      "volume": 60
+    },
+    {
+      "time": "2026-05-05T08:15:00",
+      "open": 4.21,
+      "high": 4.26,
+      "low": 4.2,
+      "close": 4.21,
+      "volume": 19
     }
   ]
 }
