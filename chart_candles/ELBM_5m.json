@@ -2,8 +2,8 @@
   "symbol": "ELBM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T13:33:29.398086",
-  "bar_count": 307,
+  "generated_at": "2026-05-05T13:38:32.169211",
+  "bar_count": 308,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -2456,10 +2456,18 @@
     {
       "time": "2026-05-05T12:30:00",
       "open": 0.6451,
-      "high": 0.6451,
+      "high": 0.6464,
       "low": 0.6451,
-      "close": 0.6451,
-      "volume": 1
+      "close": 0.6459,
+      "volume": 5
+    },
+    {
+      "time": "2026-05-05T12:35:00",
+      "open": 0.645,
+      "high": 0.6488,
+      "low": 0.6434,
+      "close": 0.6488,
+      "volume": 27
     }
   ]
 }
