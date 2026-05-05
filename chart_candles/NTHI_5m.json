@@ -2,8 +2,8 @@
   "symbol": "NTHI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T11:32:04.634933",
-  "bar_count": 169,
+  "generated_at": "2026-05-05T11:37:07.699273",
+  "bar_count": 170,
   "candles": [
     {
       "time": "2026-05-04T07:10:00",
@@ -1352,10 +1352,18 @@
     {
       "time": "2026-05-05T10:30:00",
       "open": 5.44,
+      "high": 5.45,
+      "low": 5.32,
+      "close": 5.45,
+      "volume": 112
+    },
+    {
+      "time": "2026-05-05T10:35:00",
+      "open": 5.44,
       "high": 5.44,
-      "low": 5.39,
-      "close": 5.42,
-      "volume": 44
+      "low": 5.25,
+      "close": 5.38,
+      "volume": 164
     }
   ]
 }
