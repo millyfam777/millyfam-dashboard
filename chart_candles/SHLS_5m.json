@@ -2,8 +2,8 @@
   "symbol": "SHLS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T13:38:19.939189",
-  "bar_count": 308,
+  "generated_at": "2026-05-05T13:43:16.559870",
+  "bar_count": 309,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -2465,9 +2465,17 @@
       "time": "2026-05-05T12:35:00",
       "open": 8.21,
       "high": 8.22,
+      "low": 8.17,
+      "close": 8.17,
+      "volume": 394
+    },
+    {
+      "time": "2026-05-05T12:40:00",
+      "open": 8.18,
+      "high": 8.41,
       "low": 8.18,
-      "close": 8.21,
-      "volume": 308
+      "close": 8.41,
+      "volume": 2365
     }
   ]
 }
