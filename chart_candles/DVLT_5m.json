@@ -2,8 +2,8 @@
   "symbol": "DVLT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T06:17:07.482153",
-  "bar_count": 220,
+  "generated_at": "2026-05-05T06:22:07.152911",
+  "bar_count": 221,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -1760,10 +1760,18 @@
     {
       "time": "2026-05-05T05:15:00",
       "open": 0.6228,
+      "high": 0.623,
+      "low": 0.6228,
+      "close": 0.6228,
+      "volume": 563
+    },
+    {
+      "time": "2026-05-05T05:20:00",
+      "open": 0.6229,
       "high": 0.6229,
       "low": 0.6228,
       "close": 0.6228,
-      "volume": 40
+      "volume": 66
     }
   ]
 }
