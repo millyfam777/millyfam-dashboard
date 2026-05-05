@@ -2,8 +2,8 @@
   "symbol": "PINS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T07:07:32.021449",
-  "bar_count": 230,
+  "generated_at": "2026-05-05T07:12:07.855032",
+  "bar_count": 231,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -1840,10 +1840,18 @@
     {
       "time": "2026-05-05T06:05:00",
       "open": 24.17,
-      "high": 24.21,
+      "high": 24.25,
       "low": 24.1,
-      "close": 24.18,
-      "volume": 1105
+      "close": 24.22,
+      "volume": 1237
+    },
+    {
+      "time": "2026-05-05T06:10:00",
+      "open": 24.22,
+      "high": 24.3,
+      "low": 24.22,
+      "close": 24.3,
+      "volume": 43
     }
   ]
 }
