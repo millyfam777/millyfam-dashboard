@@ -1730,6 +1730,79 @@ selectRow(DEFAULT_KEY || (ROWS[0] && ROWS[0].row_key));
       btn.onclick = () => render(btn.dataset.mfTab);
     });
 
+    function findDashboardRowBySymbol(sym) {
+      const target = String(sym || "").trim().toUpperCase();
+      if (!target) return null;
+      return (ROWS || []).find(r => String(tickerOf(r) || "").toUpperCase() === target) || null;
+    }
+
+    function forceCockpitSearchSync(sym) {
+      const target = String(sym || "").trim().toUpperCase();
+      if (!target) return false;
+
+      // Select the lower detail panel first.
+      const row = findDashboardRowBySymbol(target);
+      if (row && row.row_key) {
+        try { selectRow(row.row_key); } catch (e) {}
+      }
+
+      // Find the best top tab containing this symbol.
+      const tabOrder = ["momentum", "squeeze", "topgainers", "runners"];
+      let foundTab = null;
+
+      for (const tab of tabOrder) {
+        try {
+          const rows = rowsForTab(tab) || [];
+          const hit = rows.some(x => String(x.symbol || tickerOf(x.row) || "").toUpperCase() === target);
+          if (hit) {
+            foundTab = tab;
+            break;
+          }
+        } catch (e) {}
+      }
+
+      if (foundTab) {
+        render(foundTab);
+      }
+
+      // Highlight and scroll tile after render rebuilds the strip.
+      setTimeout(() => {
+        try {
+          document.querySelectorAll(".mf-ticker-tile").forEach(x => {
+            x.classList.toggle("active", String(x.dataset.symbol || "").toUpperCase() === target);
+          });
+
+          const tile = Array.from(document.querySelectorAll(".mf-ticker-tile"))
+            .find(x => String(x.dataset.symbol || "").toUpperCase() === target);
+
+          if (tile) {
+            tile.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+          }
+        } catch (e) {}
+      }, 80);
+
+      return !!foundTab || !!row;
+    }
+
+    try {
+      const goBtn = document.getElementById("goBtn");
+      const searchBox = document.getElementById("searchBox");
+
+      if (goBtn && searchBox) {
+        goBtn.onclick = () => {
+          const q = String(searchBox.value || "").trim().toUpperCase();
+          if (q) forceCockpitSearchSync(q);
+        };
+
+        searchBox.addEventListener("keydown", (ev) => {
+          if (ev.key === "Enter") {
+            const q = String(searchBox.value || "").trim().toUpperCase();
+            if (q) forceCockpitSearchSync(q);
+          }
+        });
+      }
+    } catch (e) {}
+
     const search = document.getElementById("mfSearchBox");
     const go = document.getElementById("mfGoBtn");
 
