@@ -2,8 +2,8 @@
   "symbol": "INHD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T06:32:18.317190",
-  "bar_count": 163,
+  "generated_at": "2026-05-05T06:37:24.991407",
+  "bar_count": 164,
   "candles": [
     {
       "time": "2026-05-04T08:00:00",
@@ -1304,10 +1304,18 @@
     {
       "time": "2026-05-05T05:30:00",
       "open": 1.93,
-      "high": 1.94,
+      "high": 1.97,
       "low": 1.92,
-      "close": 1.9384,
-      "volume": 64
+      "close": 1.96,
+      "volume": 118
+    },
+    {
+      "time": "2026-05-05T05:35:00",
+      "open": 1.96,
+      "high": 2.0,
+      "low": 1.96,
+      "close": 1.995,
+      "volume": 52
     }
   ]
 }
