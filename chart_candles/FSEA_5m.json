@@ -2,8 +2,8 @@
   "symbol": "FSEA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T15:27:23.835419",
-  "bar_count": 234,
+  "generated_at": "2026-05-05T15:32:23.283993",
+  "bar_count": 235,
   "candles": [
     {
       "time": "2026-05-04T06:55:00",
@@ -1873,9 +1873,17 @@
       "time": "2026-05-05T14:25:00",
       "open": 16.64,
       "high": 16.65,
-      "low": 16.63,
+      "low": 16.61,
+      "close": 16.62,
+      "volume": 324
+    },
+    {
+      "time": "2026-05-05T14:30:00",
+      "open": 16.64,
+      "high": 16.64,
+      "low": 16.64,
       "close": 16.64,
-      "volume": 170
+      "volume": 5
     }
   ]
 }
