@@ -2,8 +2,8 @@
   "symbol": "CYAB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T06:27:14.819897",
-  "bar_count": 209,
+  "generated_at": "2026-05-05T06:32:13.781466",
+  "bar_count": 210,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -1672,10 +1672,18 @@
     {
       "time": "2026-05-05T05:25:00",
       "open": 1.05,
-      "high": 1.07,
+      "high": 1.09,
       "low": 1.05,
+      "close": 1.08,
+      "volume": 2095
+    },
+    {
+      "time": "2026-05-05T05:30:00",
+      "open": 1.08,
+      "high": 1.09,
+      "low": 1.07,
       "close": 1.07,
-      "volume": 1028
+      "volume": 546
     }
   ]
 }
