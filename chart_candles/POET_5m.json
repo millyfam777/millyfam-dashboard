@@ -2,8 +2,8 @@
   "symbol": "POET",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T17:07:55.804718",
-  "bar_count": 350,
+  "generated_at": "2026-05-05T17:12:53.768929",
+  "bar_count": 351,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -2800,10 +2800,18 @@
     {
       "time": "2026-05-05T16:05:00",
       "open": 9.25,
-      "high": 9.28,
+      "high": 9.3,
       "low": 9.25,
-      "close": 9.26,
-      "volume": 42
+      "close": 9.3,
+      "volume": 345
+    },
+    {
+      "time": "2026-05-05T16:10:00",
+      "open": 9.2997,
+      "high": 9.3,
+      "low": 9.28,
+      "close": 9.3,
+      "volume": 21
     }
   ]
 }
