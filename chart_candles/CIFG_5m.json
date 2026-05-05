@@ -2,8 +2,8 @@
   "symbol": "CIFG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T16:17:23.195484",
-  "bar_count": 340,
+  "generated_at": "2026-05-05T16:22:22.722199",
+  "bar_count": 341,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -2720,10 +2720,18 @@
     {
       "time": "2026-05-05T15:15:00",
       "open": 12.4,
-      "high": 12.4,
+      "high": 12.5,
       "low": 12.4,
-      "close": 12.4,
-      "volume": 14
+      "close": 12.5,
+      "volume": 19
+    },
+    {
+      "time": "2026-05-05T15:20:00",
+      "open": 12.75,
+      "high": 12.75,
+      "low": 12.75,
+      "close": 12.75,
+      "volume": 1
     }
   ]
 }
