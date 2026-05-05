@@ -2,8 +2,8 @@
   "symbol": "CWD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T13:27:51.917765",
-  "bar_count": 250,
+  "generated_at": "2026-05-05T13:32:51.055532",
+  "bar_count": 251,
   "candles": [
     {
       "time": "2026-05-04T07:40:00",
@@ -2000,10 +2000,18 @@
     {
       "time": "2026-05-05T12:25:00",
       "open": 1.035,
-      "high": 1.035,
+      "high": 1.0393,
       "low": 1.03,
       "close": 1.03,
-      "volume": 5
+      "volume": 13
+    },
+    {
+      "time": "2026-05-05T12:30:00",
+      "open": 1.03,
+      "high": 1.03,
+      "low": 1.03,
+      "close": 1.03,
+      "volume": 6
     }
   ]
 }
