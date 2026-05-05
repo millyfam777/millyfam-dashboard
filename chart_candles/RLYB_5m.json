@@ -2,8 +2,8 @@
   "symbol": "RLYB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T09:38:11.083228",
-  "bar_count": 260,
+  "generated_at": "2026-05-05T09:43:10.045102",
+  "bar_count": 261,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -2081,9 +2081,17 @@
       "time": "2026-05-05T08:35:00",
       "open": 14.5468,
       "high": 14.675,
-      "low": 14.5468,
-      "close": 14.675,
-      "volume": 61
+      "low": 14.22,
+      "close": 14.5,
+      "volume": 80
+    },
+    {
+      "time": "2026-05-05T08:40:00",
+      "open": 14.525,
+      "high": 14.63,
+      "low": 14.35,
+      "close": 14.63,
+      "volume": 25
     }
   ]
 }
