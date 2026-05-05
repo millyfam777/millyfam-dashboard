@@ -2,8 +2,8 @@
   "symbol": "BDSX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T12:12:30.446667",
-  "bar_count": 225,
+  "generated_at": "2026-05-05T12:17:30.389063",
+  "bar_count": 226,
   "candles": [
     {
       "time": "2026-05-04T08:30:00",
@@ -1800,10 +1800,18 @@
     {
       "time": "2026-05-05T11:10:00",
       "open": 14.3,
-      "high": 14.43,
+      "high": 14.45,
       "low": 14.3,
-      "close": 14.43,
-      "volume": 29
+      "close": 14.45,
+      "volume": 76
+    },
+    {
+      "time": "2026-05-05T11:15:00",
+      "open": 14.45,
+      "high": 14.45,
+      "low": 14.22,
+      "close": 14.22,
+      "volume": 91
     }
   ]
 }
