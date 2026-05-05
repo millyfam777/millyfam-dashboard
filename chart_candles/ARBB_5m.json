@@ -2,8 +2,8 @@
   "symbol": "ARBB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T09:47:46.547774",
-  "bar_count": 177,
+  "generated_at": "2026-05-05T09:52:46.857983",
+  "bar_count": 178,
   "candles": [
     {
       "time": "2026-05-04T10:05:00",
@@ -1417,9 +1417,17 @@
       "time": "2026-05-05T08:45:00",
       "open": 5.33,
       "high": 5.37,
-      "low": 5.3,
-      "close": 5.31,
-      "volume": 31
+      "low": 5.26,
+      "close": 5.29,
+      "volume": 51
+    },
+    {
+      "time": "2026-05-05T08:50:00",
+      "open": 5.3,
+      "high": 5.46,
+      "low": 5.29,
+      "close": 5.46,
+      "volume": 61
     }
   ]
 }
