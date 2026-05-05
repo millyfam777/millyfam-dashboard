@@ -2,8 +2,8 @@
   "symbol": "MNDR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T04:48:12.150375",
-  "bar_count": 202,
+  "generated_at": "2026-05-05T04:53:11.389917",
+  "bar_count": 203,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -1616,10 +1616,18 @@
     {
       "time": "2026-05-05T03:45:00",
       "open": 1.1898,
-      "high": 1.1898,
+      "high": 1.19,
       "low": 1.17,
-      "close": 1.18,
-      "volume": 48
+      "close": 1.19,
+      "volume": 113
+    },
+    {
+      "time": "2026-05-05T03:50:00",
+      "open": 1.2,
+      "high": 1.2,
+      "low": 1.19,
+      "close": 1.19,
+      "volume": 10
     }
   ]
 }
