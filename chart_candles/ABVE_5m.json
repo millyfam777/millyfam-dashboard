@@ -2,8 +2,8 @@
   "symbol": "ABVE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T07:03:37.927564",
-  "bar_count": 229,
+  "generated_at": "2026-05-05T07:08:37.959834",
+  "bar_count": 230,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -1832,10 +1832,18 @@
     {
       "time": "2026-05-05T06:00:00",
       "open": 0.6797,
-      "high": 0.6797,
+      "high": 0.6829,
       "low": 0.6797,
-      "close": 0.6797,
-      "volume": 15
+      "close": 0.682,
+      "volume": 45
+    },
+    {
+      "time": "2026-05-05T06:05:00",
+      "open": 0.7,
+      "high": 0.7,
+      "low": 0.7,
+      "close": 0.7,
+      "volume": 2
     }
   ]
 }
