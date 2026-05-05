@@ -1383,7 +1383,27 @@ selectRow(DEFAULT_KEY || (ROWS[0] && ROWS[0].row_key));
 
 <script id="mf-horizontal-cockpit-v1-js">
 (function () {
-  const state = { tab: "topgainers", selected: "" };
+  const MF_TAB_STORAGE_KEY = "millyfam_dashboard_active_tab_v1";
+  const VALID_MF_TABS = new Set(["squeeze", "topgainers", "runners", "momentum"]);
+
+  function savedMfTab() {
+    try {
+      const v = localStorage.getItem(MF_TAB_STORAGE_KEY);
+      return VALID_MF_TABS.has(v) ? v : "topgainers";
+    } catch (e) {
+      return "topgainers";
+    }
+  }
+
+  function saveMfTab(tab) {
+    try {
+      if (VALID_MF_TABS.has(tab)) {
+        localStorage.setItem(MF_TAB_STORAGE_KEY, tab);
+      }
+    } catch (e) {}
+  }
+
+  const state = { tab: savedMfTab(), selected: "" };
 
   function h(v) {
     return String(v ?? "")
@@ -1656,7 +1676,10 @@ selectRow(DEFAULT_KEY || (ROWS[0] && ROWS[0].row_key));
   }
 
   function render(tab) {
-    if (tab) state.tab = tab;
+    if (tab && VALID_MF_TABS.has(tab)) {
+      state.tab = tab;
+      saveMfTab(tab);
+    }
 
     document.querySelectorAll(".mf-tab").forEach(btn => {
       btn.classList.toggle("active", btn.dataset.mfTab === state.tab);
@@ -1731,7 +1754,7 @@ selectRow(DEFAULT_KEY || (ROWS[0] && ROWS[0].row_key));
       if (e.key === "Enter") doSearch();
     };
 
-    render("topgainers");
+    render(state.tab || savedMfTab());
   }
 
   if (document.readyState === "loading") {
