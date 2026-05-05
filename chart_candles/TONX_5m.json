@@ -2,8 +2,8 @@
   "symbol": "TONX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T13:48:38.091673",
-  "bar_count": 289,
+  "generated_at": "2026-05-05T13:53:37.116540",
+  "bar_count": 290,
   "candles": [
     {
       "time": "2026-05-04T04:45:00",
@@ -2313,9 +2313,17 @@
       "time": "2026-05-05T12:45:00",
       "open": 2.51,
       "high": 2.51,
-      "low": 2.51,
-      "close": 2.51,
-      "volume": 4
+      "low": 2.5,
+      "close": 2.5,
+      "volume": 6
+    },
+    {
+      "time": "2026-05-05T12:50:00",
+      "open": 2.505,
+      "high": 2.52,
+      "low": 2.505,
+      "close": 2.515,
+      "volume": 90
     }
   ]
 }
