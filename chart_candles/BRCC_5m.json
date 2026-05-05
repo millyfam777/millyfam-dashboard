@@ -2,8 +2,8 @@
   "symbol": "BRCC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T13:37:26.781559",
-  "bar_count": 254,
+  "generated_at": "2026-05-05T13:42:24.701071",
+  "bar_count": 255,
   "candles": [
     {
       "time": "2026-05-04T07:30:00",
@@ -2032,10 +2032,18 @@
     {
       "time": "2026-05-05T12:35:00",
       "open": 1.315,
-      "high": 1.3199,
-      "low": 1.315,
-      "close": 1.315,
-      "volume": 46
+      "high": 1.3299,
+      "low": 1.31,
+      "close": 1.32,
+      "volume": 342
+    },
+    {
+      "time": "2026-05-05T12:40:00",
+      "open": 1.325,
+      "high": 1.33,
+      "low": 1.3245,
+      "close": 1.325,
+      "volume": 374
     }
   ]
 }
