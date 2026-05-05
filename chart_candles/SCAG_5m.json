@@ -2,8 +2,8 @@
   "symbol": "SCAG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T12:28:12.023292",
-  "bar_count": 213,
+  "generated_at": "2026-05-05T12:33:13.367648",
+  "bar_count": 214,
   "candles": [
     {
       "time": "2026-05-04T09:25:00",
@@ -1704,10 +1704,18 @@
     {
       "time": "2026-05-05T11:25:00",
       "open": 0.84,
-      "high": 0.84,
+      "high": 0.8499,
       "low": 0.84,
-      "close": 0.84,
-      "volume": 1
+      "close": 0.8499,
+      "volume": 2
+    },
+    {
+      "time": "2026-05-05T11:30:00",
+      "open": 0.8499,
+      "high": 0.8499,
+      "low": 0.8499,
+      "close": 0.8499,
+      "volume": 0
     }
   ]
 }
