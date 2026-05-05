@@ -2,8 +2,8 @@
   "symbol": "CCUP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T04:52:38.959971",
-  "bar_count": 203,
+  "generated_at": "2026-05-05T04:57:39.591625",
+  "bar_count": 204,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -1624,10 +1624,18 @@
     {
       "time": "2026-05-05T03:50:00",
       "open": 7.07,
-      "high": 7.07,
+      "high": 7.11,
       "low": 7.0,
-      "close": 7.07,
-      "volume": 68
+      "close": 7.11,
+      "volume": 124
+    },
+    {
+      "time": "2026-05-05T03:55:00",
+      "open": 7.09,
+      "high": 7.09,
+      "low": 7.029,
+      "close": 7.04,
+      "volume": 46
     }
   ]
 }
