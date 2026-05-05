@@ -2,8 +2,8 @@
   "symbol": "BDRX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T15:33:27.243620",
-  "bar_count": 330,
+  "generated_at": "2026-05-05T15:38:27.682930",
+  "bar_count": 331,
   "candles": [
     {
       "time": "2026-05-04T03:00:00",
@@ -2640,10 +2640,18 @@
     {
       "time": "2026-05-05T14:30:00",
       "open": 4.15,
-      "high": 4.17,
+      "high": 4.18,
       "low": 4.12,
-      "close": 4.17,
-      "volume": 66
+      "close": 4.18,
+      "volume": 139
+    },
+    {
+      "time": "2026-05-05T14:35:00",
+      "open": 4.18,
+      "high": 4.25,
+      "low": 4.14,
+      "close": 4.25,
+      "volume": 172
     }
   ]
 }
