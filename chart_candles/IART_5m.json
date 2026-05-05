@@ -2,8 +2,8 @@
   "symbol": "IART",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-05T11:57:33.054265",
-  "bar_count": 186,
+  "generated_at": "2026-05-05T12:02:32.185169",
+  "bar_count": 187,
   "candles": [
     {
       "time": "2026-05-04T08:30:00",
@@ -1488,10 +1488,18 @@
     {
       "time": "2026-05-05T10:55:00",
       "open": 13.01,
-      "high": 13.02,
+      "high": 13.11,
       "low": 12.97,
-      "close": 13.02,
-      "volume": 77
+      "close": 13.09,
+      "volume": 280
+    },
+    {
+      "time": "2026-05-05T11:00:00",
+      "open": 13.12,
+      "high": 13.12,
+      "low": 13.05,
+      "close": 13.09,
+      "volume": 83
     }
   ]
 }
