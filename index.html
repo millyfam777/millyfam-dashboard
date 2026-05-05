@@ -1740,32 +1740,44 @@ selectRow(DEFAULT_KEY || (ROWS[0] && ROWS[0].row_key));
       const target = String(sym || "").trim().toUpperCase();
       if (!target) return false;
 
-      // Select the lower detail panel first.
+      // Search the full lower dashboard data first.
       const row = findDashboardRowBySymbol(target);
-      if (row && row.row_key) {
-        try { selectRow(row.row_key); } catch (e) {}
-      }
 
       // Find the best top tab containing this symbol.
       const tabOrder = ["momentum", "squeeze", "topgainers", "runners"];
       let foundTab = null;
+      let foundItem = null;
 
       for (const tab of tabOrder) {
         try {
           const rows = rowsForTab(tab) || [];
-          const hit = rows.some(x => String(x.symbol || tickerOf(x.row) || "").toUpperCase() === target);
+          const hit = rows.find(x => String(x.symbol || tickerOf(x.row) || "").toUpperCase() === target);
           if (hit) {
             foundTab = tab;
+            foundItem = hit;
             break;
           }
         } catch (e) {}
       }
 
+      // Critical: set selected BEFORE render so render() does not auto-select row[0].
+      state.selected = target;
+
       if (foundTab) {
         render(foundTab);
       }
 
-      // Highlight and scroll tile after render rebuilds the strip.
+      // Select the top-strip item after render rebuilds the tile list.
+      if (foundItem) {
+        try {
+          selectItem(foundItem);
+        } catch (e) {}
+      } else if (row && row.row_key) {
+        // If ticker exists only in lower detail data, at least select the detail panel.
+        try { selectRow(row.row_key); } catch (e) {}
+      }
+
+      // Highlight and scroll tile after render/selectItem.
       setTimeout(() => {
         try {
           document.querySelectorAll(".mf-ticker-tile").forEach(x => {
@@ -1779,7 +1791,7 @@ selectRow(DEFAULT_KEY || (ROWS[0] && ROWS[0].row_key));
             tile.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
           }
         } catch (e) {}
-      }, 80);
+      }, 100);
 
       return !!foundTab || !!row;
     }
