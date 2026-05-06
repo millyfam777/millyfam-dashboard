@@ -2,8 +2,8 @@
   "symbol": "HOUR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T07:33:29.040468",
-  "bar_count": 235,
+  "generated_at": "2026-05-06T07:38:29.213571",
+  "bar_count": 236,
   "candles": [
     {
       "time": "2026-05-05T03:00:00",
@@ -1883,7 +1883,15 @@
       "high": 2.5,
       "low": 2.5,
       "close": 2.5,
-      "volume": 0
+      "volume": 1
+    },
+    {
+      "time": "2026-05-06T06:35:00",
+      "open": 2.42,
+      "high": 2.42,
+      "low": 2.4,
+      "close": 2.4,
+      "volume": 10
     }
   ]
 }
