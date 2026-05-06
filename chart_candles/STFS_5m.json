@@ -2,8 +2,8 @@
   "symbol": "STFS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T16:52:14.428098",
-  "bar_count": 207,
+  "generated_at": "2026-05-06T16:57:15.985564",
+  "bar_count": 208,
   "candles": [
     {
       "time": "2026-05-05T08:30:00",
@@ -1657,9 +1657,17 @@
       "time": "2026-05-06T15:50:00",
       "open": 6.7,
       "high": 6.72,
-      "low": 6.7,
-      "close": 6.72,
-      "volume": 17
+      "low": 6.55,
+      "close": 6.55,
+      "volume": 34
+    },
+    {
+      "time": "2026-05-06T15:55:00",
+      "open": 6.55,
+      "high": 6.72,
+      "low": 6.55,
+      "close": 6.63,
+      "volume": 29
     }
   ]
 }
