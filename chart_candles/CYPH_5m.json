@@ -2,8 +2,8 @@
   "symbol": "CYPH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T14:38:09.518561",
-  "bar_count": 320,
+  "generated_at": "2026-05-06T14:43:08.983858",
+  "bar_count": 321,
   "candles": [
     {
       "time": "2026-05-05T03:00:00",
@@ -2560,10 +2560,18 @@
     {
       "time": "2026-05-06T13:35:00",
       "open": 1.105,
-      "high": 1.1066,
+      "high": 1.11,
       "low": 1.095,
-      "close": 1.1,
-      "volume": 85
+      "close": 1.105,
+      "volume": 121
+    },
+    {
+      "time": "2026-05-06T13:40:00",
+      "open": 1.105,
+      "high": 1.105,
+      "low": 1.09,
+      "close": 1.09,
+      "volume": 51
     }
   ]
 }
