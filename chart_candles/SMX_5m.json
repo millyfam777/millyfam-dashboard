@@ -2,8 +2,8 @@
   "symbol": "SMX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T13:17:14.557316",
-  "bar_count": 304,
+  "generated_at": "2026-05-06T13:22:14.015544",
+  "bar_count": 305,
   "candles": [
     {
       "time": "2026-05-05T03:00:00",
@@ -2432,10 +2432,18 @@
     {
       "time": "2026-05-06T12:15:00",
       "open": 1.605,
-      "high": 1.62,
+      "high": 1.65,
       "low": 1.6,
-      "close": 1.61,
-      "volume": 582
+      "close": 1.6304,
+      "volume": 2799
+    },
+    {
+      "time": "2026-05-06T12:20:00",
+      "open": 1.6399,
+      "high": 1.65,
+      "low": 1.6101,
+      "close": 1.645,
+      "volume": 746
     }
   ]
 }
