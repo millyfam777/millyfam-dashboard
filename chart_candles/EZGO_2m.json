@@ -2,8 +2,8 @@
   "symbol": "EZGO",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T06:22:10.932463",
-  "bar_count": 459,
+  "generated_at": "2026-05-06T06:27:13.029781",
+  "bar_count": 461,
   "candles": [
     {
       "time": "2026-05-05T06:06:00",
@@ -3672,10 +3672,26 @@
     {
       "time": "2026-05-06T05:22:00",
       "open": 3.01,
-      "high": 3.03,
-      "low": 3.01,
+      "high": 3.04,
+      "low": 2.97,
+      "close": 3.0,
+      "volume": 827
+    },
+    {
+      "time": "2026-05-06T05:24:00",
+      "open": 3.0,
+      "high": 3.0505,
+      "low": 2.98,
+      "close": 3.05,
+      "volume": 436
+    },
+    {
+      "time": "2026-05-06T05:26:00",
+      "open": 3.0496,
+      "high": 3.06,
+      "low": 3.03,
       "close": 3.03,
-      "volume": 31
+      "volume": 139
     }
   ]
 }
