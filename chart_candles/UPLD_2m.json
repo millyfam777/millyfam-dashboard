@@ -2,8 +2,8 @@
   "symbol": "UPLD",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T09:02:54.518409",
-  "bar_count": 542,
+  "generated_at": "2026-05-06T09:07:52.114609",
+  "bar_count": 544,
   "candles": [
     {
       "time": "2026-05-05T06:00:00",
@@ -4336,10 +4336,26 @@
     {
       "time": "2026-05-06T08:02:00",
       "open": 1.03,
-      "high": 1.04,
+      "high": 1.05,
       "low": 1.03,
-      "close": 1.03,
-      "volume": 21
+      "close": 1.05,
+      "volume": 42
+    },
+    {
+      "time": "2026-05-06T08:04:00",
+      "open": 1.04,
+      "high": 1.0599,
+      "low": 1.01,
+      "close": 1.01,
+      "volume": 12
+    },
+    {
+      "time": "2026-05-06T08:06:00",
+      "open": 1.01,
+      "high": 1.01,
+      "low": 1.01,
+      "close": 1.01,
+      "volume": 0
     }
   ]
 }
