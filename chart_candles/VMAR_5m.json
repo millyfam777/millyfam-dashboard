@@ -2,8 +2,8 @@
   "symbol": "VMAR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T09:47:47.751263",
-  "bar_count": 199,
+  "generated_at": "2026-05-06T09:52:51.117991",
+  "bar_count": 200,
   "candles": [
     {
       "time": "2026-05-05T07:00:00",
@@ -1592,10 +1592,18 @@
     {
       "time": "2026-05-06T08:45:00",
       "open": 0.9453,
-      "high": 0.9453,
+      "high": 0.9599,
       "low": 0.91,
-      "close": 0.91,
-      "volume": 45
+      "close": 0.9599,
+      "volume": 60
+    },
+    {
+      "time": "2026-05-06T08:50:00",
+      "open": 0.9599,
+      "high": 0.9643,
+      "low": 0.9353,
+      "close": 0.9643,
+      "volume": 211
     }
   ]
 }
