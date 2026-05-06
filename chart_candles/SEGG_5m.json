@@ -2,8 +2,8 @@
   "symbol": "SEGG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T19:32:32.435546",
-  "bar_count": 379,
+  "generated_at": "2026-05-06T19:37:32.113154",
+  "bar_count": 380,
   "candles": [
     {
       "time": "2026-05-05T03:00:00",
@@ -3032,10 +3032,18 @@
     {
       "time": "2026-05-06T18:30:00",
       "open": 1.3487,
-      "high": 1.3487,
+      "high": 1.35,
       "low": 1.3487,
-      "close": 1.3487,
-      "volume": 10
+      "close": 1.35,
+      "volume": 12
+    },
+    {
+      "time": "2026-05-06T18:35:00",
+      "open": 1.35,
+      "high": 1.35,
+      "low": 1.35,
+      "close": 1.35,
+      "volume": 0
     }
   ]
 }
