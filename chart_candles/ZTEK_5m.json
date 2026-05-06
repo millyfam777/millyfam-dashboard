@@ -2,8 +2,8 @@
   "symbol": "ZTEK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T15:52:21.216929",
-  "bar_count": 216,
+  "generated_at": "2026-05-06T15:57:21.381683",
+  "bar_count": 217,
   "candles": [
     {
       "time": "2026-05-05T08:30:00",
@@ -1728,10 +1728,18 @@
     {
       "time": "2026-05-06T14:50:00",
       "open": 0.632,
-      "high": 0.6337,
+      "high": 0.6363,
       "low": 0.6248,
+      "close": 0.6363,
+      "volume": 49
+    },
+    {
+      "time": "2026-05-06T14:55:00",
+      "open": 0.63,
+      "high": 0.63,
+      "low": 0.63,
       "close": 0.63,
-      "volume": 39
+      "volume": 5
     }
   ]
 }
