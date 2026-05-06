@@ -2,8 +2,8 @@
   "symbol": "BNRG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T14:22:41.381202",
-  "bar_count": 245,
+  "generated_at": "2026-05-06T14:27:41.654068",
+  "bar_count": 246,
   "candles": [
     {
       "time": "2026-05-05T08:30:00",
@@ -1960,10 +1960,18 @@
     {
       "time": "2026-05-06T13:20:00",
       "open": 2.3,
-      "high": 2.3,
+      "high": 2.31,
+      "low": 2.27,
+      "close": 2.29,
+      "volume": 14
+    },
+    {
+      "time": "2026-05-06T13:25:00",
+      "open": 2.29,
+      "high": 2.29,
       "low": 2.29,
-      "close": 2.3,
-      "volume": 5
+      "close": 2.29,
+      "volume": 0
     }
   ]
 }
