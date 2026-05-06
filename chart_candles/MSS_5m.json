@@ -2,8 +2,8 @@
   "symbol": "MSS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T11:22:06.961410",
-  "bar_count": 281,
+  "generated_at": "2026-05-06T11:27:09.397210",
+  "bar_count": 282,
   "candles": [
     {
       "time": "2026-05-05T03:00:00",
@@ -2248,10 +2248,18 @@
     {
       "time": "2026-05-06T10:20:00",
       "open": 1.7932,
-      "high": 1.82,
+      "high": 1.8486,
       "low": 1.7932,
+      "close": 1.83,
+      "volume": 98
+    },
+    {
+      "time": "2026-05-06T10:25:00",
+      "open": 1.82,
+      "high": 1.84,
+      "low": 1.82,
       "close": 1.82,
-      "volume": 31
+      "volume": 4
     }
   ]
 }
