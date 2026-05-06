@@ -2,8 +2,8 @@
   "symbol": "MNKD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T09:17:30.148521",
-  "bar_count": 240,
+  "generated_at": "2026-05-06T09:22:29.737673",
+  "bar_count": 241,
   "candles": [
     {
       "time": "2026-05-05T04:20:00",
@@ -1920,10 +1920,18 @@
     {
       "time": "2026-05-06T08:15:00",
       "open": 3.485,
-      "high": 3.485,
+      "high": 3.51,
       "low": 3.42,
-      "close": 3.45,
-      "volume": 173
+      "close": 3.46,
+      "volume": 622
+    },
+    {
+      "time": "2026-05-06T08:20:00",
+      "open": 3.48,
+      "high": 3.505,
+      "low": 3.4501,
+      "close": 3.5,
+      "volume": 349
     }
   ]
 }
