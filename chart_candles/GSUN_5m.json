@@ -2,8 +2,8 @@
   "symbol": "GSUN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T12:03:29.083197",
-  "bar_count": 289,
+  "generated_at": "2026-05-06T12:08:30.281896",
+  "bar_count": 290,
   "candles": [
     {
       "time": "2026-05-05T03:00:00",
@@ -2312,10 +2312,18 @@
     {
       "time": "2026-05-06T11:00:00",
       "open": 0.57,
-      "high": 0.575,
+      "high": 0.5799,
       "low": 0.567,
       "close": 0.574,
-      "volume": 146
+      "volume": 180
+    },
+    {
+      "time": "2026-05-06T11:05:00",
+      "open": 0.575,
+      "high": 0.575,
+      "low": 0.5699,
+      "close": 0.57,
+      "volume": 120
     }
   ]
 }
