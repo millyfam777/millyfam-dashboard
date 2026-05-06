@@ -2,8 +2,8 @@
   "symbol": "ALIT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T08:57:36.506416",
-  "bar_count": 252,
+  "generated_at": "2026-05-06T09:02:39.808392",
+  "bar_count": 253,
   "candles": [
     {
       "time": "2026-05-05T03:00:00",
@@ -2016,10 +2016,18 @@
     {
       "time": "2026-05-06T07:55:00",
       "open": 1.03,
-      "high": 1.04,
+      "high": 1.05,
       "low": 1.02,
       "close": 1.04,
-      "volume": 325
+      "volume": 578
+    },
+    {
+      "time": "2026-05-06T08:00:00",
+      "open": 1.03,
+      "high": 1.07,
+      "low": 1.0298,
+      "close": 1.05,
+      "volume": 1778
     }
   ]
 }
