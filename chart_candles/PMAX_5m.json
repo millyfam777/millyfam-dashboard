@@ -2,8 +2,8 @@
   "symbol": "PMAX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T09:07:18.851890",
-  "bar_count": 254,
+  "generated_at": "2026-05-06T09:12:18.425580",
+  "bar_count": 255,
   "candles": [
     {
       "time": "2026-05-05T03:00:00",
@@ -2033,9 +2033,17 @@
       "time": "2026-05-06T08:05:00",
       "open": 2.74,
       "high": 2.85,
-      "low": 2.705,
+      "low": 2.67,
       "close": 2.71,
-      "volume": 1499
+      "volume": 3049
+    },
+    {
+      "time": "2026-05-06T08:10:00",
+      "open": 2.73,
+      "high": 2.92,
+      "low": 2.73,
+      "close": 2.9103,
+      "volume": 2262
     }
   ]
 }
