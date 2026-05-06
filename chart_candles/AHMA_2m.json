@@ -2,8 +2,8 @@
   "symbol": "AHMA",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T15:08:11.368170",
-  "bar_count": 803,
+  "generated_at": "2026-05-06T15:13:08.553479",
+  "bar_count": 805,
   "candles": [
     {
       "time": "2026-05-05T03:24:00",
@@ -6424,10 +6424,26 @@
     {
       "time": "2026-05-06T14:08:00",
       "open": 1.55,
-      "high": 1.55,
+      "high": 1.6,
+      "low": 1.53,
+      "close": 1.595,
+      "volume": 1438
+    },
+    {
+      "time": "2026-05-06T14:10:00",
+      "open": 1.59,
+      "high": 1.6,
       "low": 1.55,
-      "close": 1.55,
-      "volume": 1
+      "close": 1.5501,
+      "volume": 386
+    },
+    {
+      "time": "2026-05-06T14:12:00",
+      "open": 1.56,
+      "high": 1.57,
+      "low": 1.5501,
+      "close": 1.56,
+      "volume": 71
     }
   ]
 }
