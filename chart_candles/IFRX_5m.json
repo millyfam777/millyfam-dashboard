@@ -2,8 +2,8 @@
   "symbol": "IFRX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T11:32:32.485286",
-  "bar_count": 280,
+  "generated_at": "2026-05-06T11:37:35.302898",
+  "bar_count": 281,
   "candles": [
     {
       "time": "2026-05-05T03:00:00",
@@ -2240,10 +2240,18 @@
     {
       "time": "2026-05-06T10:30:00",
       "open": 2.44,
-      "high": 2.45,
+      "high": 2.47,
       "low": 2.43,
+      "close": 2.465,
+      "volume": 474
+    },
+    {
+      "time": "2026-05-06T10:35:00",
+      "open": 2.465,
+      "high": 2.49,
+      "low": 2.44,
       "close": 2.45,
-      "volume": 303
+      "volume": 962
     }
   ]
 }
