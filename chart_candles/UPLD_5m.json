@@ -2,8 +2,8 @@
   "symbol": "UPLD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T12:13:22.133557",
-  "bar_count": 255,
+  "generated_at": "2026-05-06T12:18:23.746317",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-05-05T06:00:00",
@@ -2043,7 +2043,15 @@
       "high": 1.005,
       "low": 1.0,
       "close": 1.0,
-      "volume": 2
+      "volume": 6
+    },
+    {
+      "time": "2026-05-06T11:15:00",
+      "open": 1.01,
+      "high": 1.02,
+      "low": 1.01,
+      "close": 1.01,
+      "volume": 66
     }
   ]
 }
