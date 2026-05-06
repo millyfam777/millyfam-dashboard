@@ -2,8 +2,8 @@
   "symbol": "SLQT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T08:47:43.743690",
-  "bar_count": 249,
+  "generated_at": "2026-05-06T08:52:43.146649",
+  "bar_count": 250,
   "candles": [
     {
       "time": "2026-05-05T03:05:00",
@@ -1993,9 +1993,17 @@
       "time": "2026-05-06T07:45:00",
       "open": 1.26,
       "high": 1.26,
-      "low": 1.26,
+      "low": 1.255,
       "close": 1.26,
-      "volume": 1
+      "volume": 11
+    },
+    {
+      "time": "2026-05-06T07:50:00",
+      "open": 1.255,
+      "high": 1.26,
+      "low": 1.255,
+      "close": 1.26,
+      "volume": 25
     }
   ]
 }
