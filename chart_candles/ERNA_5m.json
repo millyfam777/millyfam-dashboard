@@ -2,8 +2,8 @@
   "symbol": "ERNA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T10:12:34.339736",
-  "bar_count": 231,
+  "generated_at": "2026-05-06T10:17:38.462265",
+  "bar_count": 232,
   "candles": [
     {
       "time": "2026-05-05T03:20:00",
@@ -1848,10 +1848,18 @@
     {
       "time": "2026-05-06T09:10:00",
       "open": 5.1,
-      "high": 5.12,
+      "high": 5.25,
       "low": 4.96,
-      "close": 5.03,
-      "volume": 984
+      "close": 5.13,
+      "volume": 3513
+    },
+    {
+      "time": "2026-05-06T09:15:00",
+      "open": 5.13,
+      "high": 5.13,
+      "low": 5.05,
+      "close": 5.07,
+      "volume": 569
     }
   ]
 }
