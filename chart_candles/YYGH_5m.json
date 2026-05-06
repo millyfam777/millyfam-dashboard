@@ -2,8 +2,8 @@
   "symbol": "YYGH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T11:58:27.501587",
-  "bar_count": 288,
+  "generated_at": "2026-05-06T12:03:26.797124",
+  "bar_count": 289,
   "candles": [
     {
       "time": "2026-05-05T03:00:00",
@@ -2304,10 +2304,18 @@
     {
       "time": "2026-05-06T10:55:00",
       "open": 1.11,
+      "high": 1.1198,
+      "low": 1.1,
+      "close": 1.1198,
+      "volume": 29
+    },
+    {
+      "time": "2026-05-06T11:00:00",
+      "open": 1.105,
       "high": 1.11,
       "low": 1.1,
-      "close": 1.1001,
-      "volume": 25
+      "close": 1.105,
+      "volume": 30
     }
   ]
 }
