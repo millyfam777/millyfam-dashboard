@@ -2,8 +2,8 @@
   "symbol": "SKYX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-06T16:42:39.548520",
-  "bar_count": 342,
+  "generated_at": "2026-05-06T16:47:40.496762",
+  "bar_count": 343,
   "candles": [
     {
       "time": "2026-05-05T03:15:00",
@@ -2736,10 +2736,18 @@
     {
       "time": "2026-05-06T15:40:00",
       "open": 1.33,
-      "high": 1.33,
+      "high": 1.35,
       "low": 1.32,
-      "close": 1.33,
-      "volume": 11
+      "close": 1.35,
+      "volume": 61
+    },
+    {
+      "time": "2026-05-06T15:45:00",
+      "open": 1.35,
+      "high": 1.35,
+      "low": 1.35,
+      "close": 1.35,
+      "volume": 4
     }
   ]
 }
