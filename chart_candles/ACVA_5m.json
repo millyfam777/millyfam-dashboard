@@ -2,8 +2,8 @@
   "symbol": "ACVA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T11:17:30.704012",
-  "bar_count": 199,
+  "generated_at": "2026-05-07T11:22:29.579859",
+  "bar_count": 200,
   "candles": [
     {
       "time": "2026-05-06T06:10:00",
@@ -1592,10 +1592,18 @@
     {
       "time": "2026-05-07T10:15:00",
       "open": 6.49,
-      "high": 6.51,
+      "high": 6.53,
       "low": 6.46,
-      "close": 6.49,
-      "volume": 1578
+      "close": 6.53,
+      "volume": 1968
+    },
+    {
+      "time": "2026-05-07T10:20:00",
+      "open": 6.53,
+      "high": 6.55,
+      "low": 6.5,
+      "close": 6.53,
+      "volume": 304
     }
   ]
 }
