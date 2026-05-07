@@ -2,8 +2,8 @@
   "symbol": "ZVIA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T12:02:07.897156",
-  "bar_count": 251,
+  "generated_at": "2026-05-07T12:07:08.893051",
+  "bar_count": 252,
   "candles": [
     {
       "time": "2026-05-06T06:00:00",
@@ -2008,10 +2008,18 @@
     {
       "time": "2026-05-07T11:00:00",
       "open": 1.5038,
+      "high": 1.51,
+      "low": 1.5,
+      "close": 1.505,
+      "volume": 85
+    },
+    {
+      "time": "2026-05-07T11:05:00",
+      "open": 1.5,
       "high": 1.505,
       "low": 1.5,
-      "close": 1.5,
-      "volume": 44
+      "close": 1.5011,
+      "volume": 15
     }
   ]
 }
