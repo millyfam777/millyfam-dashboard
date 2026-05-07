@@ -2,8 +2,8 @@
   "symbol": "ATRA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T19:32:37.221499",
-  "bar_count": 280,
+  "generated_at": "2026-05-07T19:37:35.830673",
+  "bar_count": 281,
   "candles": [
     {
       "time": "2026-05-06T07:15:00",
@@ -2240,10 +2240,18 @@
     {
       "time": "2026-05-07T18:30:00",
       "open": 8.25,
-      "high": 8.25,
+      "high": 8.26,
       "low": 8.23,
+      "close": 8.26,
+      "volume": 31
+    },
+    {
+      "time": "2026-05-07T18:35:00",
+      "open": 8.26,
+      "high": 8.26,
+      "low": 8.25,
       "close": 8.25,
-      "volume": 22
+      "volume": 14
     }
   ]
 }
