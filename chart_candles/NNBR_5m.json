@@ -2,8 +2,8 @@
   "symbol": "NNBR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T12:38:13.965444",
-  "bar_count": 289,
+  "generated_at": "2026-05-07T12:43:11.373233",
+  "bar_count": 290,
   "candles": [
     {
       "time": "2026-05-06T03:35:00",
@@ -2312,10 +2312,18 @@
     {
       "time": "2026-05-07T11:35:00",
       "open": 2.785,
-      "high": 2.79,
+      "high": 2.805,
       "low": 2.78,
-      "close": 2.79,
-      "volume": 20
+      "close": 2.785,
+      "volume": 290
+    },
+    {
+      "time": "2026-05-07T11:40:00",
+      "open": 2.785,
+      "high": 2.785,
+      "low": 2.78,
+      "close": 2.785,
+      "volume": 4
     }
   ]
 }
