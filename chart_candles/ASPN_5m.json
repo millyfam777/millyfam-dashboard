@@ -2,8 +2,8 @@
   "symbol": "ASPN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T14:17:46.608987",
-  "bar_count": 316,
+  "generated_at": "2026-05-07T14:22:46.963318",
+  "bar_count": 317,
   "candles": [
     {
       "time": "2026-05-06T03:00:00",
@@ -2528,10 +2528,18 @@
     {
       "time": "2026-05-07T13:15:00",
       "open": 5.1202,
-      "high": 5.125,
+      "high": 5.14,
       "low": 5.1,
-      "close": 5.105,
-      "volume": 53
+      "close": 5.135,
+      "volume": 168
+    },
+    {
+      "time": "2026-05-07T13:20:00",
+      "open": 5.135,
+      "high": 5.2,
+      "low": 5.135,
+      "close": 5.16,
+      "volume": 866
     }
   ]
 }
