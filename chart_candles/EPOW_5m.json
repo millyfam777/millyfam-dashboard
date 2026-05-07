@@ -2,8 +2,8 @@
   "symbol": "EPOW",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T06:22:34.800133",
-  "bar_count": 221,
+  "generated_at": "2026-05-07T06:27:35.205980",
+  "bar_count": 222,
   "candles": [
     {
       "time": "2026-05-06T03:00:00",
@@ -1767,11 +1767,19 @@
     },
     {
       "time": "2026-05-07T05:20:00",
-      "open": 0.6592,
+      "open": 0.64,
       "high": 0.6592,
-      "low": 0.6592,
+      "low": 0.64,
       "close": 0.6592,
-      "volume": 0
+      "volume": 17
+    },
+    {
+      "time": "2026-05-07T05:25:00",
+      "open": 0.64,
+      "high": 0.6426,
+      "low": 0.64,
+      "close": 0.6426,
+      "volume": 13
     }
   ]
 }
