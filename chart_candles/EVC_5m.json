@@ -2,8 +2,8 @@
   "symbol": "EVC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T15:58:34.961759",
-  "bar_count": 336,
+  "generated_at": "2026-05-07T16:03:32.029945",
+  "bar_count": 337,
   "candles": [
     {
       "time": "2026-05-06T03:00:00",
@@ -2688,10 +2688,18 @@
     {
       "time": "2026-05-07T14:55:00",
       "open": 6.9,
-      "high": 6.92,
+      "high": 6.95,
       "low": 6.845,
-      "close": 6.915,
-      "volume": 918
+      "close": 6.95,
+      "volume": 1389
+    },
+    {
+      "time": "2026-05-07T15:00:00",
+      "open": 6.945,
+      "high": 7.1752,
+      "low": 6.945,
+      "close": 7.1752,
+      "volume": 1129
     }
   ]
 }
