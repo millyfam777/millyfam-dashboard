@@ -2,8 +2,8 @@
   "symbol": "BNZI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T17:02:14.425574",
-  "bar_count": 349,
+  "generated_at": "2026-05-07T17:07:14.912668",
+  "bar_count": 350,
   "candles": [
     {
       "time": "2026-05-06T03:00:00",
@@ -2792,10 +2792,18 @@
     {
       "time": "2026-05-07T16:00:00",
       "open": 0.3075,
-      "high": 0.3075,
+      "high": 0.3079,
       "low": 0.3001,
-      "close": 0.3001,
-      "volume": 55
+      "close": 0.3068,
+      "volume": 92
+    },
+    {
+      "time": "2026-05-07T16:05:00",
+      "open": 0.304,
+      "high": 0.3067,
+      "low": 0.304,
+      "close": 0.3067,
+      "volume": 102
     }
   ]
 }
