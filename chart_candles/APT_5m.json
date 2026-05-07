@@ -2,8 +2,8 @@
   "symbol": "APT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T14:02:05.184567",
-  "bar_count": 231,
+  "generated_at": "2026-05-07T14:07:07.981163",
+  "bar_count": 232,
   "candles": [
     {
       "time": "2026-05-06T06:35:00",
@@ -1849,9 +1849,17 @@
       "time": "2026-05-07T13:00:00",
       "open": 6.25,
       "high": 6.26,
-      "low": 6.25,
-      "close": 6.25,
-      "volume": 6
+      "low": 6.17,
+      "close": 6.17,
+      "volume": 42
+    },
+    {
+      "time": "2026-05-07T13:05:00",
+      "open": 6.2,
+      "high": 6.25,
+      "low": 6.17,
+      "close": 6.2,
+      "volume": 31
     }
   ]
 }
