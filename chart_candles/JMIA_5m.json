@@ -2,8 +2,8 @@
   "symbol": "JMIA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T08:57:15.740239",
-  "bar_count": 252,
+  "generated_at": "2026-05-07T09:02:17.700754",
+  "bar_count": 253,
   "candles": [
     {
       "time": "2026-05-06T03:00:00",
@@ -2016,10 +2016,18 @@
     {
       "time": "2026-05-07T07:55:00",
       "open": 9.32,
-      "high": 9.43,
+      "high": 9.49,
       "low": 9.3,
-      "close": 9.38,
-      "volume": 113
+      "close": 9.49,
+      "volume": 269
+    },
+    {
+      "time": "2026-05-07T08:00:00",
+      "open": 9.464,
+      "high": 9.5412,
+      "low": 9.45,
+      "close": 9.5,
+      "volume": 188
     }
   ]
 }

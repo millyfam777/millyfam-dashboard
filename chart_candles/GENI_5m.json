@@ -2,8 +2,8 @@
   "symbol": "GENI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T08:57:28.105887",
-  "bar_count": 252,
+  "generated_at": "2026-05-07T09:02:30.674198",
+  "bar_count": 253,
   "candles": [
     {
       "time": "2026-05-06T03:00:00",
@@ -2017,9 +2017,17 @@
       "time": "2026-05-07T07:55:00",
       "open": 5.05,
       "high": 5.05,
-      "low": 5.05,
-      "close": 5.05,
-      "volume": 1
+      "low": 5.0,
+      "close": 5.0,
+      "volume": 24
+    },
+    {
+      "time": "2026-05-07T08:00:00",
+      "open": 5.02,
+      "high": 5.02,
+      "low": 5.0,
+      "close": 5.01,
+      "volume": 18
     }
   ]
 }
