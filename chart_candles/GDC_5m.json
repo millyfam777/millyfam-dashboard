@@ -2,8 +2,8 @@
   "symbol": "GDC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T05:17:53.775434",
-  "bar_count": 208,
+  "generated_at": "2026-05-07T05:22:52.948003",
+  "bar_count": 209,
   "candles": [
     {
       "time": "2026-05-06T03:00:00",
@@ -1664,10 +1664,18 @@
     {
       "time": "2026-05-07T04:15:00",
       "open": 1.39,
-      "high": 1.3996,
+      "high": 1.42,
+      "low": 1.37,
+      "close": 1.41,
+      "volume": 427
+    },
+    {
+      "time": "2026-05-07T04:20:00",
+      "open": 1.41,
+      "high": 1.41,
       "low": 1.38,
-      "close": 1.39,
-      "volume": 183
+      "close": 1.4,
+      "volume": 50
     }
   ]
 }
