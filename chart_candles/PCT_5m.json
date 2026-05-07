@@ -2,8 +2,8 @@
   "symbol": "PCT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T09:57:26.611061",
-  "bar_count": 254,
+  "generated_at": "2026-05-07T10:02:24.572974",
+  "bar_count": 255,
   "candles": [
     {
       "time": "2026-05-06T03:50:00",
@@ -2033,9 +2033,17 @@
       "time": "2026-05-07T08:55:00",
       "open": 8.99,
       "high": 9.08,
-      "low": 8.99,
-      "close": 9.02,
-      "volume": 887
+      "low": 8.88,
+      "close": 8.9,
+      "volume": 1630
+    },
+    {
+      "time": "2026-05-07T09:00:00",
+      "open": 8.9,
+      "high": 8.99,
+      "low": 8.9,
+      "close": 8.99,
+      "volume": 747
     }
   ]
 }
