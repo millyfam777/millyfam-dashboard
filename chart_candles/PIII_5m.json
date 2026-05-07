@@ -2,8 +2,8 @@
   "symbol": "PIII",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T15:07:06.230049",
-  "bar_count": 129,
+  "generated_at": "2026-05-07T15:12:08.269650",
+  "bar_count": 130,
   "candles": [
     {
       "time": "2026-05-06T13:40:00",
@@ -1032,10 +1032,18 @@
     {
       "time": "2026-05-07T14:05:00",
       "open": 3.73,
-      "high": 3.79,
+      "high": 3.85,
       "low": 3.68,
-      "close": 3.68,
-      "volume": 16
+      "close": 3.82,
+      "volume": 81
+    },
+    {
+      "time": "2026-05-07T14:10:00",
+      "open": 3.68,
+      "high": 3.71,
+      "low": 3.68,
+      "close": 3.71,
+      "volume": 3
     }
   ]
 }
