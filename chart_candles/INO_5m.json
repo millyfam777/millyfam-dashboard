@@ -2,8 +2,8 @@
   "symbol": "INO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T13:37:54.692205",
-  "bar_count": 282,
+  "generated_at": "2026-05-07T13:42:53.619837",
+  "bar_count": 283,
   "candles": [
     {
       "time": "2026-05-06T05:10:00",
@@ -2257,9 +2257,17 @@
       "time": "2026-05-07T12:35:00",
       "open": 1.3299,
       "high": 1.33,
-      "low": 1.32,
+      "low": 1.319,
+      "close": 1.319,
+      "volume": 565
+    },
+    {
+      "time": "2026-05-07T12:40:00",
+      "open": 1.315,
+      "high": 1.325,
+      "low": 1.31,
       "close": 1.32,
-      "volume": 345
+      "volume": 1289
     }
   ]
 }
