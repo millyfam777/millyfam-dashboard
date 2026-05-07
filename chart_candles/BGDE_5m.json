@@ -2,8 +2,8 @@
   "symbol": "BGDE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T09:58:15.413039",
-  "bar_count": 255,
+  "generated_at": "2026-05-07T10:03:12.450075",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-05-06T03:45:00",
@@ -2041,9 +2041,17 @@
       "time": "2026-05-07T08:55:00",
       "open": 6.96,
       "high": 7.08,
-      "low": 6.9599,
-      "close": 7.01,
-      "volume": 147
+      "low": 6.9182,
+      "close": 6.9182,
+      "volume": 152
+    },
+    {
+      "time": "2026-05-07T09:00:00",
+      "open": 6.985,
+      "high": 6.985,
+      "low": 6.91,
+      "close": 6.91,
+      "volume": 16
     }
   ]
 }
