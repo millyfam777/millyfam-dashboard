@@ -2,8 +2,8 @@
   "symbol": "BLMN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T13:03:19.011948",
-  "bar_count": 271,
+  "generated_at": "2026-05-07T13:08:18.564193",
+  "bar_count": 272,
   "candles": [
     {
       "time": "2026-05-06T05:30:00",
@@ -2168,10 +2168,18 @@
     {
       "time": "2026-05-07T12:00:00",
       "open": 8.13,
-      "high": 8.14,
+      "high": 8.16,
       "low": 8.11,
-      "close": 8.14,
-      "volume": 93
+      "close": 8.16,
+      "volume": 130
+    },
+    {
+      "time": "2026-05-07T12:05:00",
+      "open": 8.16,
+      "high": 8.18,
+      "low": 8.15,
+      "close": 8.18,
+      "volume": 76
     }
   ]
 }

@@ -2,8 +2,8 @@
   "symbol": "POM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T13:03:37.675545",
-  "bar_count": 301,
+  "generated_at": "2026-05-07T13:08:37.249053",
+  "bar_count": 302,
   "candles": [
     {
       "time": "2026-05-06T03:00:00",
@@ -2409,9 +2409,17 @@
       "time": "2026-05-07T12:00:00",
       "open": 0.5021,
       "high": 0.5285,
-      "low": 0.502,
-      "close": 0.5285,
-      "volume": 258
+      "low": 0.5,
+      "close": 0.5,
+      "volume": 6616
+    },
+    {
+      "time": "2026-05-07T12:05:00",
+      "open": 0.5,
+      "high": 0.51,
+      "low": 0.5,
+      "close": 0.5024,
+      "volume": 38448
     }
   ]
 }

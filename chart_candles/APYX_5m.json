@@ -2,8 +2,8 @@
   "symbol": "APYX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T13:02:26.841368",
-  "bar_count": 235,
+  "generated_at": "2026-05-07T13:07:27.941665",
+  "bar_count": 236,
   "candles": [
     {
       "time": "2026-05-06T08:30:00",
@@ -1880,10 +1880,18 @@
     {
       "time": "2026-05-07T12:00:00",
       "open": 3.44,
-      "high": 3.4569,
+      "high": 3.465,
+      "low": 3.4103,
+      "close": 3.4103,
+      "volume": 28
+    },
+    {
+      "time": "2026-05-07T12:05:00",
+      "open": 3.465,
+      "high": 3.47,
       "low": 3.44,
-      "close": 3.4569,
-      "volume": 3
+      "close": 3.44,
+      "volume": 10
     }
   ]
 }
