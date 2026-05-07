@@ -2,8 +2,8 @@
   "symbol": "DRCT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T09:48:32.689443",
-  "bar_count": 262,
+  "generated_at": "2026-05-07T09:53:29.807208",
+  "bar_count": 263,
   "candles": [
     {
       "time": "2026-05-06T03:00:00",
@@ -2096,10 +2096,18 @@
     {
       "time": "2026-05-07T08:45:00",
       "open": 5.57,
-      "high": 5.78,
+      "high": 5.8,
       "low": 5.57,
-      "close": 5.78,
-      "volume": 53
+      "close": 5.7,
+      "volume": 56
+    },
+    {
+      "time": "2026-05-07T08:50:00",
+      "open": 5.7,
+      "high": 5.7,
+      "low": 5.56,
+      "close": 5.56,
+      "volume": 4
     }
   ]
 }
