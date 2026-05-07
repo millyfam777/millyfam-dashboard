@@ -2,8 +2,8 @@
   "symbol": "CMRC",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T11:12:16.539405",
-  "bar_count": 492,
+  "generated_at": "2026-05-07T11:17:17.280161",
+  "bar_count": 494,
   "candles": [
     {
       "time": "2026-05-06T06:50:00",
@@ -3936,10 +3936,26 @@
     {
       "time": "2026-05-07T10:12:00",
       "open": 3.74,
+      "high": 3.75,
+      "low": 3.71,
+      "close": 3.72,
+      "volume": 48
+    },
+    {
+      "time": "2026-05-07T10:14:00",
+      "open": 3.72,
+      "high": 3.75,
+      "low": 3.72,
+      "close": 3.73,
+      "volume": 24
+    },
+    {
+      "time": "2026-05-07T10:16:00",
+      "open": 3.74,
       "high": 3.74,
-      "low": 3.74,
-      "close": 3.74,
-      "volume": 2
+      "low": 3.73,
+      "close": 3.73,
+      "volume": 28
     }
   ]
 }
