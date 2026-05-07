@@ -2,8 +2,8 @@
   "symbol": "SABR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-07T10:07:36.777656",
-  "bar_count": 208,
+  "generated_at": "2026-05-07T10:12:42.412584",
+  "bar_count": 209,
   "candles": [
     {
       "time": "2026-05-06T05:00:00",
@@ -1665,9 +1665,17 @@
       "time": "2026-05-07T09:05:00",
       "open": 2.085,
       "high": 2.1,
-      "low": 2.08,
-      "close": 2.085,
-      "volume": 646
+      "low": 2.055,
+      "close": 2.055,
+      "volume": 1133
+    },
+    {
+      "time": "2026-05-07T09:10:00",
+      "open": 2.055,
+      "high": 2.055,
+      "low": 2.0001,
+      "close": 2.005,
+      "volume": 1018
     }
   ]
 }
