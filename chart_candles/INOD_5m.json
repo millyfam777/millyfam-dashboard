@@ -2,8 +2,8 @@
   "symbol": "INOD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-08T19:52:25.204736",
-  "bar_count": 383,
+  "generated_at": "2026-05-08T19:57:24.707514",
+  "bar_count": 384,
   "candles": [
     {
       "time": "2026-05-07T03:00:00",
@@ -3065,9 +3065,17 @@
       "time": "2026-05-08T18:50:00",
       "open": 84.5,
       "high": 84.5,
-      "low": 84.5,
-      "close": 84.5,
-      "volume": 1
+      "low": 84.33,
+      "close": 84.33,
+      "volume": 2
+    },
+    {
+      "time": "2026-05-08T18:55:00",
+      "open": 84.41,
+      "high": 84.47,
+      "low": 84.23,
+      "close": 84.47,
+      "volume": 9
     }
   ]
 }
