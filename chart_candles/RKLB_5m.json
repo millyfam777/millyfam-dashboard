@@ -2,8 +2,8 @@
   "symbol": "RKLB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-08T19:32:33.802400",
-  "bar_count": 379,
+  "generated_at": "2026-05-08T19:37:34.773609",
+  "bar_count": 380,
   "candles": [
     {
       "time": "2026-05-07T03:00:00",
@@ -3032,10 +3032,18 @@
     {
       "time": "2026-05-08T18:30:00",
       "open": 104.44,
-      "high": 104.7,
+      "high": 104.91,
       "low": 104.44,
-      "close": 104.69,
-      "volume": 25
+      "close": 104.9,
+      "volume": 84
+    },
+    {
+      "time": "2026-05-08T18:35:00",
+      "open": 104.95,
+      "high": 105.0,
+      "low": 104.82,
+      "close": 104.82,
+      "volume": 80
     }
   ]
 }
