@@ -2,8 +2,8 @@
   "symbol": "GCTS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-08T18:52:49.546283",
-  "bar_count": 371,
+  "generated_at": "2026-05-08T18:57:51.710462",
+  "bar_count": 372,
   "candles": [
     {
       "time": "2026-05-07T03:00:00",
@@ -2967,11 +2967,19 @@
     },
     {
       "time": "2026-05-08T17:50:00",
-      "open": 1.79,
+      "open": 1.7874,
       "high": 1.79,
+      "low": 1.7874,
+      "close": 1.7899,
+      "volume": 22
+    },
+    {
+      "time": "2026-05-08T17:55:00",
+      "open": 1.79,
+      "high": 1.8,
       "low": 1.79,
-      "close": 1.79,
-      "volume": 0
+      "close": 1.8,
+      "volume": 18
     }
   ]
 }
