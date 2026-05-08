@@ -2,8 +2,8 @@
   "symbol": "AMZE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-08T17:57:21.952445",
-  "bar_count": 360,
+  "generated_at": "2026-05-08T18:02:18.984139",
+  "bar_count": 361,
   "candles": [
     {
       "time": "2026-05-07T03:00:00",
@@ -2880,10 +2880,18 @@
     {
       "time": "2026-05-08T16:55:00",
       "open": 0.1295,
-      "high": 0.1295,
+      "high": 0.1304,
+      "low": 0.1294,
+      "close": 0.1304,
+      "volume": 562
+    },
+    {
+      "time": "2026-05-08T17:00:00",
+      "open": 0.1296,
+      "high": 0.1296,
       "low": 0.1294,
       "close": 0.1295,
-      "volume": 233
+      "volume": 42
     }
   ]
 }
