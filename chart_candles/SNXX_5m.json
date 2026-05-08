@@ -2,8 +2,8 @@
   "symbol": "SNXX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-08T19:27:37.556356",
-  "bar_count": 378,
+  "generated_at": "2026-05-08T19:32:36.137813",
+  "bar_count": 379,
   "candles": [
     {
       "time": "2026-05-07T03:00:00",
@@ -3023,11 +3023,19 @@
     },
     {
       "time": "2026-05-08T18:25:00",
-      "open": 194.5,
-      "high": 194.5,
+      "open": 194.69,
+      "high": 194.85,
+      "low": 194.68,
+      "close": 194.85,
+      "volume": 10
+    },
+    {
+      "time": "2026-05-08T18:30:00",
+      "open": 194.85,
+      "high": 194.87,
       "low": 194.5,
       "close": 194.5,
-      "volume": 0
+      "volume": 14
     }
   ]
 }
