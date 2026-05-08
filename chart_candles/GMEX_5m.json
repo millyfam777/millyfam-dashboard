@@ -2,8 +2,8 @@
   "symbol": "GMEX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-08T17:38:05.762769",
-  "bar_count": 356,
+  "generated_at": "2026-05-08T17:43:04.741005",
+  "bar_count": 357,
   "candles": [
     {
       "time": "2026-05-07T03:00:00",
@@ -2849,9 +2849,17 @@
       "time": "2026-05-08T16:35:00",
       "open": 1.88,
       "high": 1.89,
-      "low": 1.78,
-      "close": 1.78,
-      "volume": 43
+      "low": 1.75,
+      "close": 1.77,
+      "volume": 61
+    },
+    {
+      "time": "2026-05-08T16:40:00",
+      "open": 1.77,
+      "high": 1.79,
+      "low": 1.6,
+      "close": 1.6,
+      "volume": 282
     }
   ]
 }
