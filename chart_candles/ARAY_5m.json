@@ -2,8 +2,8 @@
   "symbol": "ARAY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-11T14:12:08.532002",
-  "bar_count": 315,
+  "generated_at": "2026-05-11T14:17:10.911970",
+  "bar_count": 316,
   "candles": [
     {
       "time": "2026-05-08T03:00:00",
@@ -2520,10 +2520,18 @@
     {
       "time": "2026-05-11T13:10:00",
       "open": 0.3505,
+      "high": 0.3509,
+      "low": 0.35,
+      "close": 0.35,
+      "volume": 14
+    },
+    {
+      "time": "2026-05-11T13:15:00",
+      "open": 0.3504,
       "high": 0.3505,
-      "low": 0.3505,
-      "close": 0.3505,
-      "volume": 1
+      "low": 0.3504,
+      "close": 0.3504,
+      "volume": 5
     }
   ]
 }
