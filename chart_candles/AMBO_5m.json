@@ -2,8 +2,8 @@
   "symbol": "AMBO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-12T09:07:48.804281",
-  "bar_count": 186,
+  "generated_at": "2026-05-12T09:12:50.753359",
+  "bar_count": 187,
   "candles": [
     {
       "time": "2026-05-11T08:40:00",
@@ -1488,10 +1488,18 @@
     {
       "time": "2026-05-12T08:05:00",
       "open": 2.5405,
-      "high": 2.5405,
+      "high": 2.6,
       "low": 2.54,
-      "close": 2.54,
-      "volume": 9
+      "close": 2.59,
+      "volume": 48
+    },
+    {
+      "time": "2026-05-12T08:10:00",
+      "open": 2.59,
+      "high": 2.59,
+      "low": 2.53,
+      "close": 2.5365,
+      "volume": 23
     }
   ]
 }
