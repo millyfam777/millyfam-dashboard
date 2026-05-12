@@ -2,8 +2,8 @@
   "symbol": "MGNX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-12T09:13:02.333905",
-  "bar_count": 189,
+  "generated_at": "2026-05-12T09:18:00.900307",
+  "bar_count": 190,
   "candles": [
     {
       "time": "2026-05-11T08:30:00",
@@ -1512,10 +1512,18 @@
     {
       "time": "2026-05-12T08:10:00",
       "open": 3.46,
-      "high": 3.46,
+      "high": 3.5,
       "low": 3.45,
-      "close": 3.45,
-      "volume": 31
+      "close": 3.49,
+      "volume": 92
+    },
+    {
+      "time": "2026-05-12T08:15:00",
+      "open": 3.5,
+      "high": 3.51,
+      "low": 3.485,
+      "close": 3.5,
+      "volume": 158
     }
   ]
 }
