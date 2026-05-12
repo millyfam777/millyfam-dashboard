@@ -2,8 +2,8 @@
   "symbol": "PLUL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-12T09:02:44.354318",
-  "bar_count": 253,
+  "generated_at": "2026-05-12T09:07:42.050266",
+  "bar_count": 254,
   "candles": [
     {
       "time": "2026-05-11T03:00:00",
@@ -2024,10 +2024,18 @@
     {
       "time": "2026-05-12T08:00:00",
       "open": 31.95,
-      "high": 31.95,
+      "high": 32.2,
       "low": 31.95,
-      "close": 31.95,
-      "volume": 1
+      "close": 32.2,
+      "volume": 21
+    },
+    {
+      "time": "2026-05-12T08:05:00",
+      "open": 32.73,
+      "high": 32.73,
+      "low": 32.19,
+      "close": 32.35,
+      "volume": 9
     }
   ]
 }
