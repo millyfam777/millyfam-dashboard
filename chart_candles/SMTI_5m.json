@@ -2,8 +2,8 @@
   "symbol": "SMTI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-12T13:12:56.292691",
-  "bar_count": 201,
+  "generated_at": "2026-05-12T13:17:51.275329",
+  "bar_count": 202,
   "candles": [
     {
       "time": "2026-05-11T06:50:00",
@@ -1608,10 +1608,18 @@
     {
       "time": "2026-05-12T12:10:00",
       "open": 23.4,
-      "high": 23.49,
-      "low": 23.4,
-      "close": 23.49,
-      "volume": 3
+      "high": 23.5,
+      "low": 23.39,
+      "close": 23.39,
+      "volume": 7
+    },
+    {
+      "time": "2026-05-12T12:15:00",
+      "open": 23.39,
+      "high": 23.39,
+      "low": 23.39,
+      "close": 23.39,
+      "volume": 0
     }
   ]
 }
