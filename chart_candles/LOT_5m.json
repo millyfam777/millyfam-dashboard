@@ -2,8 +2,8 @@
   "symbol": "LOT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-12T14:48:07.960183",
-  "bar_count": 256,
+  "generated_at": "2026-05-12T14:53:08.115315",
+  "bar_count": 257,
   "candles": [
     {
       "time": "2026-05-11T08:30:00",
@@ -2049,9 +2049,17 @@
       "time": "2026-05-12T13:45:00",
       "open": 1.48,
       "high": 1.48,
-      "low": 1.4799,
-      "close": 1.4799,
-      "volume": 14
+      "low": 1.475,
+      "close": 1.475,
+      "volume": 16
+    },
+    {
+      "time": "2026-05-12T13:50:00",
+      "open": 1.48,
+      "high": 1.49,
+      "low": 1.48,
+      "close": 1.49,
+      "volume": 7
     }
   ]
 }
