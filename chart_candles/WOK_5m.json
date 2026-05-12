@@ -2,8 +2,8 @@
   "symbol": "WOK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-12T19:42:38.945947",
-  "bar_count": 348,
+  "generated_at": "2026-05-12T19:47:37.145953",
+  "bar_count": 349,
   "candles": [
     {
       "time": "2026-05-11T05:45:00",
@@ -2785,9 +2785,17 @@
       "time": "2026-05-12T18:40:00",
       "open": 10.8,
       "high": 11.2,
+      "low": 9.88,
+      "close": 10.59,
+      "volume": 1408
+    },
+    {
+      "time": "2026-05-12T18:45:00",
+      "open": 10.59,
+      "high": 10.65,
       "low": 10.55,
-      "close": 10.6,
-      "volume": 539
+      "close": 10.6103,
+      "volume": 242
     }
   ]
 }
