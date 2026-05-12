@@ -2,8 +2,8 @@
   "symbol": "CPHI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-12T16:42:41.250707",
-  "bar_count": 298,
+  "generated_at": "2026-05-12T16:47:39.100093",
+  "bar_count": 299,
   "candles": [
     {
       "time": "2026-05-11T06:00:00",
@@ -2385,9 +2385,17 @@
       "time": "2026-05-12T15:40:00",
       "open": 0.8,
       "high": 0.8001,
+      "low": 0.79,
+      "close": 0.79,
+      "volume": 101
+    },
+    {
+      "time": "2026-05-12T15:45:00",
+      "open": 0.8,
+      "high": 0.8,
       "low": 0.8,
       "close": 0.8,
-      "volume": 16
+      "volume": 20
     }
   ]
 }
