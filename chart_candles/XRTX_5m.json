@@ -2,8 +2,8 @@
   "symbol": "XRTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-12T09:33:08.020532",
-  "bar_count": 240,
+  "generated_at": "2026-05-12T09:38:07.024421",
+  "bar_count": 241,
   "candles": [
     {
       "time": "2026-05-11T03:30:00",
@@ -1920,10 +1920,18 @@
     {
       "time": "2026-05-12T08:30:00",
       "open": 2.41,
-      "high": 2.41,
+      "high": 2.5,
       "low": 2.41,
-      "close": 2.41,
-      "volume": 7
+      "close": 2.5,
+      "volume": 10
+    },
+    {
+      "time": "2026-05-12T08:35:00",
+      "open": 2.5,
+      "high": 2.5,
+      "low": 2.5,
+      "close": 2.5,
+      "volume": 0
     }
   ]
 }

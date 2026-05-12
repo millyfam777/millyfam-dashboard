@@ -2,8 +2,8 @@
   "symbol": "QUBT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-12T09:32:47.314600",
-  "bar_count": 259,
+  "generated_at": "2026-05-12T09:37:46.609987",
+  "bar_count": 260,
   "candles": [
     {
       "time": "2026-05-11T03:00:00",
@@ -2072,10 +2072,18 @@
     {
       "time": "2026-05-12T08:30:00",
       "open": 12.72,
-      "high": 13.47,
+      "high": 13.64,
       "low": 12.5,
-      "close": 13.33,
-      "volume": 73092
+      "close": 13.0215,
+      "volume": 113502
+    },
+    {
+      "time": "2026-05-12T08:35:00",
+      "open": 13.04,
+      "high": 13.82,
+      "low": 12.96,
+      "close": 13.515,
+      "volume": 47565
     }
   ]
 }
