@@ -2,8 +2,8 @@
   "symbol": "NYC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-12T11:47:43.959708",
-  "bar_count": 152,
+  "generated_at": "2026-05-12T11:52:43.079772",
+  "bar_count": 153,
   "candles": [
     {
       "time": "2026-05-11T08:30:00",
@@ -1217,9 +1217,17 @@
       "time": "2026-05-12T10:45:00",
       "open": 11.55,
       "high": 12.5,
-      "low": 11.55,
-      "close": 12.0,
-      "volume": 59
+      "low": 11.4,
+      "close": 11.4,
+      "volume": 109
+    },
+    {
+      "time": "2026-05-12T10:50:00",
+      "open": 11.79,
+      "high": 11.8,
+      "low": 11.79,
+      "close": 11.79,
+      "volume": 42
     }
   ]
 }
