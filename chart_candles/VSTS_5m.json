@@ -2,8 +2,8 @@
   "symbol": "VSTS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-12T10:12:43.564105",
-  "bar_count": 181,
+  "generated_at": "2026-05-12T10:17:44.793253",
+  "bar_count": 182,
   "candles": [
     {
       "time": "2026-05-11T07:00:00",
@@ -1448,10 +1448,18 @@
     {
       "time": "2026-05-12T09:10:00",
       "open": 11.93,
-      "high": 12.02,
+      "high": 12.22,
       "low": 11.92,
-      "close": 12.0,
-      "volume": 2481
+      "close": 12.14,
+      "volume": 3394
+    },
+    {
+      "time": "2026-05-12T09:15:00",
+      "open": 12.15,
+      "high": 12.15,
+      "low": 12.0,
+      "close": 12.06,
+      "volume": 529
     }
   ]
 }
