@@ -2,8 +2,8 @@
   "symbol": "HTCO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-12T14:47:44.278978",
-  "bar_count": 322,
+  "generated_at": "2026-05-12T14:52:47.449763",
+  "bar_count": 323,
   "candles": [
     {
       "time": "2026-05-11T03:00:00",
@@ -2576,10 +2576,18 @@
     {
       "time": "2026-05-12T13:45:00",
       "open": 10.22,
-      "high": 10.28,
+      "high": 10.29,
       "low": 10.07,
-      "close": 10.175,
-      "volume": 58
+      "close": 10.07,
+      "volume": 172
+    },
+    {
+      "time": "2026-05-12T13:50:00",
+      "open": 10.0,
+      "high": 10.13,
+      "low": 9.93,
+      "close": 10.03,
+      "volume": 77
     }
   ]
 }
