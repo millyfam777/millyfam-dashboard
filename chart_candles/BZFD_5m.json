@@ -2,8 +2,8 @@
   "symbol": "BZFD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-12T15:22:35.950745",
-  "bar_count": 329,
+  "generated_at": "2026-05-12T15:27:32.159812",
+  "bar_count": 330,
   "candles": [
     {
       "time": "2026-05-11T03:00:00",
@@ -2632,10 +2632,18 @@
     {
       "time": "2026-05-12T14:20:00",
       "open": 1.56,
+      "high": 1.58,
+      "low": 1.54,
+      "close": 1.545,
+      "volume": 4211
+    },
+    {
+      "time": "2026-05-12T14:25:00",
+      "open": 1.545,
       "high": 1.57,
-      "low": 1.55,
-      "close": 1.555,
-      "volume": 1162
+      "low": 1.54,
+      "close": 1.565,
+      "volume": 1708
     }
   ]
 }
