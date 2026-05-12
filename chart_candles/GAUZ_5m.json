@@ -2,8 +2,8 @@
   "symbol": "GAUZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-12T16:27:49.601399",
-  "bar_count": 294,
+  "generated_at": "2026-05-12T16:32:47.393309",
+  "bar_count": 295,
   "candles": [
     {
       "time": "2026-05-11T07:00:00",
@@ -2353,9 +2353,17 @@
       "time": "2026-05-12T15:25:00",
       "open": 0.8579,
       "high": 0.8579,
-      "low": 0.8579,
-      "close": 0.8579,
-      "volume": 1
+      "low": 0.8,
+      "close": 0.8,
+      "volume": 35
+    },
+    {
+      "time": "2026-05-12T15:30:00",
+      "open": 0.8001,
+      "high": 0.8533,
+      "low": 0.8,
+      "close": 0.8533,
+      "volume": 68
     }
   ]
 }
