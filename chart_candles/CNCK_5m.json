@@ -2,8 +2,8 @@
   "symbol": "CNCK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-12T08:52:32.905375",
-  "bar_count": 165,
+  "generated_at": "2026-05-12T08:57:33.833128",
+  "bar_count": 166,
   "candles": [
     {
       "time": "2026-05-11T06:25:00",
@@ -1320,10 +1320,18 @@
     {
       "time": "2026-05-12T07:50:00",
       "open": 2.4598,
-      "high": 2.52,
+      "high": 2.6,
       "low": 2.45,
-      "close": 2.5007,
-      "volume": 4251
+      "close": 2.5101,
+      "volume": 12367
+    },
+    {
+      "time": "2026-05-12T07:55:00",
+      "open": 2.51,
+      "high": 2.575,
+      "low": 2.485,
+      "close": 2.5,
+      "volume": 5677
     }
   ]
 }
