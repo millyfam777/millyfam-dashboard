@@ -2,8 +2,8 @@
   "symbol": "BAK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-12T10:58:01.711129",
-  "bar_count": 240,
+  "generated_at": "2026-05-12T11:03:00.756313",
+  "bar_count": 241,
   "candles": [
     {
       "time": "2026-05-11T06:00:00",
@@ -1921,9 +1921,17 @@
       "time": "2026-05-12T09:55:00",
       "open": 4.62,
       "high": 4.64,
-      "low": 4.6,
+      "low": 4.59,
+      "close": 4.61,
+      "volume": 1743
+    },
+    {
+      "time": "2026-05-12T10:00:00",
+      "open": 4.61,
+      "high": 4.64,
+      "low": 4.58,
       "close": 4.62,
-      "volume": 1436
+      "volume": 468
     }
   ]
 }
