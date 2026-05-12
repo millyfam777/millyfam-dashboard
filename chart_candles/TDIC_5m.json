@@ -2,8 +2,8 @@
   "symbol": "TDIC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-12T09:37:28.250256",
-  "bar_count": 260,
+  "generated_at": "2026-05-12T09:42:30.485334",
+  "bar_count": 261,
   "candles": [
     {
       "time": "2026-05-11T03:00:00",
@@ -2080,10 +2080,18 @@
     {
       "time": "2026-05-12T08:35:00",
       "open": 1.63,
-      "high": 1.685,
+      "high": 1.7,
       "low": 1.58,
-      "close": 1.6212,
-      "volume": 7654
+      "close": 1.62,
+      "volume": 17525
+    },
+    {
+      "time": "2026-05-12T08:40:00",
+      "open": 1.6201,
+      "high": 1.6201,
+      "low": 1.47,
+      "close": 1.565,
+      "volume": 10747
     }
   ]
 }
