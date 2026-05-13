@@ -2,8 +2,8 @@
   "symbol": "SLS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T08:32:54.025711",
-  "bar_count": 247,
+  "generated_at": "2026-05-13T08:37:51.856947",
+  "bar_count": 248,
   "candles": [
     {
       "time": "2026-05-12T03:00:00",
@@ -1976,10 +1976,18 @@
     {
       "time": "2026-05-13T07:30:00",
       "open": 6.26,
-      "high": 6.27,
+      "high": 6.29,
       "low": 6.23,
+      "close": 6.26,
+      "volume": 351
+    },
+    {
+      "time": "2026-05-13T07:35:00",
+      "open": 6.2792,
+      "high": 6.2792,
+      "low": 6.2,
       "close": 6.24,
-      "volume": 284
+      "volume": 55
     }
   ]
 }
