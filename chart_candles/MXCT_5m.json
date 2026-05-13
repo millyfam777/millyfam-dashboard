@@ -2,8 +2,8 @@
   "symbol": "MXCT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T10:27:55.839945",
-  "bar_count": 204,
+  "generated_at": "2026-05-13T10:32:54.348569",
+  "bar_count": 205,
   "candles": [
     {
       "time": "2026-05-12T08:30:00",
@@ -1633,9 +1633,17 @@
       "time": "2026-05-13T09:25:00",
       "open": 1.03,
       "high": 1.035,
-      "low": 1.02,
-      "close": 1.02,
-      "volume": 460
+      "low": 1.005,
+      "close": 1.015,
+      "volume": 699
+    },
+    {
+      "time": "2026-05-13T09:30:00",
+      "open": 1.015,
+      "high": 1.025,
+      "low": 1.0,
+      "close": 1.0004,
+      "volume": 1124
     }
   ]
 }
