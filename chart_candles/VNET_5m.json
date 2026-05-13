@@ -2,8 +2,8 @@
   "symbol": "VNET",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T10:02:36.461095",
-  "bar_count": 265,
+  "generated_at": "2026-05-13T10:07:44.527197",
+  "bar_count": 266,
   "candles": [
     {
       "time": "2026-05-12T03:00:00",
@@ -2120,10 +2120,18 @@
     {
       "time": "2026-05-13T09:00:00",
       "open": 11.705,
-      "high": 11.77,
+      "high": 11.87,
       "low": 11.642,
-      "close": 11.7,
-      "volume": 10856
+      "close": 11.775,
+      "volume": 19555
+    },
+    {
+      "time": "2026-05-13T09:05:00",
+      "open": 11.78,
+      "high": 11.92,
+      "low": 11.75,
+      "close": 11.915,
+      "volume": 6937
     }
   ]
 }
