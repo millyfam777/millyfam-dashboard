@@ -2,8 +2,8 @@
   "symbol": "FEAM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T14:17:57.387083",
-  "bar_count": 250,
+  "generated_at": "2026-05-13T14:22:58.062529",
+  "bar_count": 251,
   "candles": [
     {
       "time": "2026-05-12T08:30:00",
@@ -2000,10 +2000,18 @@
     {
       "time": "2026-05-13T13:15:00",
       "open": 1.99,
-      "high": 2.025,
+      "high": 2.03,
       "low": 1.99,
-      "close": 2.01,
-      "volume": 50
+      "close": 2.02,
+      "volume": 102
+    },
+    {
+      "time": "2026-05-13T13:20:00",
+      "open": 2.02,
+      "high": 2.045,
+      "low": 2.02,
+      "close": 2.03,
+      "volume": 107
     }
   ]
 }
