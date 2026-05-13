@@ -2,8 +2,8 @@
   "symbol": "TSEM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T09:13:01.720072",
-  "bar_count": 255,
+  "generated_at": "2026-05-13T09:18:01.984211",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-05-12T03:00:00",
@@ -2042,8 +2042,16 @@
       "open": 255.0,
       "high": 255.2,
       "low": 253.9,
-      "close": 254.3,
-      "volume": 42
+      "close": 254.97,
+      "volume": 46
+    },
+    {
+      "time": "2026-05-13T08:15:00",
+      "open": 255.0,
+      "high": 256.0,
+      "low": 255.0,
+      "close": 256.0,
+      "volume": 9
     }
   ]
 }
