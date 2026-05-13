@@ -2,8 +2,8 @@
   "symbol": "PLSM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T14:58:05.892917",
-  "bar_count": 66,
+  "generated_at": "2026-05-13T15:03:04.807396",
+  "bar_count": 67,
   "candles": [
     {
       "time": "2026-05-13T08:30:00",
@@ -528,10 +528,18 @@
     {
       "time": "2026-05-13T13:55:00",
       "open": 4.35,
-      "high": 4.56,
+      "high": 4.75,
       "low": 4.34,
-      "close": 4.56,
-      "volume": 30
+      "close": 4.75,
+      "volume": 61
+    },
+    {
+      "time": "2026-05-13T14:00:00",
+      "open": 4.64,
+      "high": 4.64,
+      "low": 4.63,
+      "close": 4.63,
+      "volume": 8
     }
   ]
 }
