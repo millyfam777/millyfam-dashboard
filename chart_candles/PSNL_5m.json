@@ -2,8 +2,8 @@
   "symbol": "PSNL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T09:27:57.015799",
-  "bar_count": 254,
+  "generated_at": "2026-05-13T09:32:57.323578",
+  "bar_count": 255,
   "candles": [
     {
       "time": "2026-05-12T03:20:00",
@@ -2033,9 +2033,17 @@
       "time": "2026-05-13T08:25:00",
       "open": 6.89,
       "high": 6.935,
-      "low": 6.89,
-      "close": 6.935,
-      "volume": 6
+      "low": 6.81,
+      "close": 6.82,
+      "volume": 62
+    },
+    {
+      "time": "2026-05-13T08:30:00",
+      "open": 6.82,
+      "high": 7.35,
+      "low": 6.81,
+      "close": 7.195,
+      "volume": 2081
     }
   ]
 }
