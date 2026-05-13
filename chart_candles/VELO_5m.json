@@ -2,8 +2,8 @@
   "symbol": "VELO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T11:42:38.401942",
-  "bar_count": 285,
+  "generated_at": "2026-05-13T11:47:34.156669",
+  "bar_count": 286,
   "candles": [
     {
       "time": "2026-05-12T03:00:00",
@@ -2280,10 +2280,18 @@
     {
       "time": "2026-05-13T10:40:00",
       "open": 20.57,
-      "high": 20.81,
+      "high": 20.83,
       "low": 20.57,
-      "close": 20.63,
-      "volume": 351
+      "close": 20.8,
+      "volume": 565
+    },
+    {
+      "time": "2026-05-13T10:45:00",
+      "open": 20.8,
+      "high": 20.88,
+      "low": 20.6,
+      "close": 20.83,
+      "volume": 418
     }
   ]
 }
