@@ -2,8 +2,8 @@
   "symbol": "NBIG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T11:27:47.965003",
-  "bar_count": 282,
+  "generated_at": "2026-05-13T11:32:44.545086",
+  "bar_count": 283,
   "candles": [
     {
       "time": "2026-05-12T03:00:00",
@@ -2256,10 +2256,18 @@
     {
       "time": "2026-05-13T10:25:00",
       "open": 26.0,
-      "high": 26.08,
+      "high": 26.1,
+      "low": 25.8,
+      "close": 26.02,
+      "volume": 111
+    },
+    {
+      "time": "2026-05-13T10:30:00",
+      "open": 26.13,
+      "high": 26.13,
       "low": 25.97,
-      "close": 25.99,
-      "volume": 29
+      "close": 26.0,
+      "volume": 253
     }
   ]
 }
