@@ -2,8 +2,8 @@
   "symbol": "WOLF",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T09:02:55.112380",
-  "bar_count": 253,
+  "generated_at": "2026-05-13T09:07:54.874355",
+  "bar_count": 254,
   "candles": [
     {
       "time": "2026-05-12T03:00:00",
@@ -2024,10 +2024,18 @@
     {
       "time": "2026-05-13T08:00:00",
       "open": 63.21,
-      "high": 63.7068,
+      "high": 65.6,
       "low": 63.21,
-      "close": 63.7068,
-      "volume": 93
+      "close": 65.5219,
+      "volume": 339
+    },
+    {
+      "time": "2026-05-13T08:05:00",
+      "open": 65.4,
+      "high": 66.69,
+      "low": 64.5046,
+      "close": 66.2748,
+      "volume": 258
     }
   ]
 }
