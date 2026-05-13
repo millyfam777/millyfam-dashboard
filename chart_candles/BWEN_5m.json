@@ -2,8 +2,8 @@
   "symbol": "BWEN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T06:07:26.036213",
-  "bar_count": 215,
+  "generated_at": "2026-05-13T06:12:24.639441",
+  "bar_count": 216,
   "candles": [
     {
       "time": "2026-05-12T03:15:00",
@@ -1720,10 +1720,18 @@
     {
       "time": "2026-05-13T05:05:00",
       "open": 4.63,
+      "high": 4.6305,
+      "low": 4.61,
+      "close": 4.6305,
+      "volume": 27
+    },
+    {
+      "time": "2026-05-13T05:10:00",
+      "open": 4.6291,
       "high": 4.63,
-      "low": 4.63,
-      "close": 4.63,
-      "volume": 3
+      "low": 4.62,
+      "close": 4.62,
+      "volume": 4
     }
   ]
 }
