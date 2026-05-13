@@ -2,8 +2,8 @@
   "symbol": "FCHL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T19:12:27.967902",
-  "bar_count": 375,
+  "generated_at": "2026-05-13T19:17:27.261542",
+  "bar_count": 376,
   "candles": [
     {
       "time": "2026-05-12T03:00:00",
@@ -3000,10 +3000,18 @@
     {
       "time": "2026-05-13T18:10:00",
       "open": 1.98,
-      "high": 1.98,
+      "high": 1.99,
       "low": 1.98,
+      "close": 1.99,
+      "volume": 3
+    },
+    {
+      "time": "2026-05-13T18:15:00",
+      "open": 1.98,
+      "high": 1.98,
+      "low": 1.96,
       "close": 1.98,
-      "volume": 1
+      "volume": 6
     }
   ]
 }
