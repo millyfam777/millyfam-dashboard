@@ -2,8 +2,8 @@
   "symbol": "MEI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T16:22:35.329464",
-  "bar_count": 278,
+  "generated_at": "2026-05-13T16:27:35.579762",
+  "bar_count": 279,
   "candles": [
     {
       "time": "2026-05-12T08:15:00",
@@ -2224,10 +2224,18 @@
     {
       "time": "2026-05-13T15:20:00",
       "open": 14.2,
-      "high": 14.2,
+      "high": 14.23,
       "low": 14.2,
-      "close": 14.2,
-      "volume": 10
+      "close": 14.23,
+      "volume": 11
+    },
+    {
+      "time": "2026-05-13T15:25:00",
+      "open": 14.08,
+      "high": 14.1,
+      "low": 14.08,
+      "close": 14.1,
+      "volume": 2
     }
   ]
 }
