@@ -2,8 +2,8 @@
   "symbol": "BESS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T12:07:35.824510",
-  "bar_count": 159,
+  "generated_at": "2026-05-13T12:12:40.240066",
+  "bar_count": 160,
   "candles": [
     {
       "time": "2026-05-12T08:30:00",
@@ -1273,9 +1273,17 @@
       "time": "2026-05-13T11:05:00",
       "open": 3.29,
       "high": 3.3,
-      "low": 3.25,
-      "close": 3.25,
-      "volume": 36
+      "low": 3.0,
+      "close": 3.29,
+      "volume": 351
+    },
+    {
+      "time": "2026-05-13T11:10:00",
+      "open": 3.15,
+      "high": 3.15,
+      "low": 2.95,
+      "close": 2.96,
+      "volume": 66
     }
   ]
 }
