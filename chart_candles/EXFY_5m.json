@@ -2,8 +2,8 @@
   "symbol": "EXFY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T09:07:52.625979",
-  "bar_count": 218,
+  "generated_at": "2026-05-13T09:12:52.725906",
+  "bar_count": 219,
   "candles": [
     {
       "time": "2026-05-12T06:00:00",
@@ -1744,10 +1744,18 @@
     {
       "time": "2026-05-13T08:05:00",
       "open": 1.11,
-      "high": 1.12,
+      "high": 1.1376,
       "low": 1.11,
-      "close": 1.11,
-      "volume": 6
+      "close": 1.1376,
+      "volume": 8
+    },
+    {
+      "time": "2026-05-13T08:10:00",
+      "open": 1.14,
+      "high": 1.14,
+      "low": 1.11,
+      "close": 1.1105,
+      "volume": 153
     }
   ]
 }
