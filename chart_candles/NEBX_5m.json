@@ -2,8 +2,8 @@
   "symbol": "NEBX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T08:52:32.495771",
-  "bar_count": 251,
+  "generated_at": "2026-05-13T08:57:33.252998",
+  "bar_count": 252,
   "candles": [
     {
       "time": "2026-05-12T03:00:00",
@@ -2010,8 +2010,16 @@
       "open": 113.06,
       "high": 113.68,
       "low": 112.58,
-      "close": 113.09,
-      "volume": 31
+      "close": 113.0,
+      "volume": 41
+    },
+    {
+      "time": "2026-05-13T07:55:00",
+      "open": 112.75,
+      "high": 113.0,
+      "low": 112.75,
+      "close": 113.0,
+      "volume": 11
     }
   ]
 }

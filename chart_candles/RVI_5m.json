@@ -2,8 +2,8 @@
   "symbol": "RVI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T08:52:41.620830",
-  "bar_count": 251,
+  "generated_at": "2026-05-13T08:57:42.327661",
+  "bar_count": 252,
   "candles": [
     {
       "time": "2026-05-12T03:00:00",
@@ -2008,10 +2008,18 @@
     {
       "time": "2026-05-13T07:50:00",
       "open": 66.0,
-      "high": 66.0,
+      "high": 67.0,
       "low": 64.97,
-      "close": 65.18,
-      "volume": 16
+      "close": 66.0,
+      "volume": 72
+    },
+    {
+      "time": "2026-05-13T07:55:00",
+      "open": 66.0,
+      "high": 66.01,
+      "low": 65.5,
+      "close": 66.01,
+      "volume": 25
     }
   ]
 }
