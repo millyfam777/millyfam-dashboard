@@ -2,8 +2,8 @@
   "symbol": "FNGR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T14:43:03.755425",
-  "bar_count": 236,
+  "generated_at": "2026-05-13T14:48:02.387246",
+  "bar_count": 237,
   "candles": [
     {
       "time": "2026-05-12T06:00:00",
@@ -1888,10 +1888,18 @@
     {
       "time": "2026-05-13T13:40:00",
       "open": 1.07,
-      "high": 1.07,
+      "high": 1.08,
       "low": 1.06,
-      "close": 1.07,
-      "volume": 90
+      "close": 1.0791,
+      "volume": 122
+    },
+    {
+      "time": "2026-05-13T13:45:00",
+      "open": 1.0799,
+      "high": 1.08,
+      "low": 1.075,
+      "close": 1.075,
+      "volume": 24
     }
   ]
 }
