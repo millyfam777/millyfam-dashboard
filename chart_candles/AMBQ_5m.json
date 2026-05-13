@@ -2,8 +2,8 @@
   "symbol": "AMBQ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T07:52:45.536535",
-  "bar_count": 224,
+  "generated_at": "2026-05-13T07:57:46.188161",
+  "bar_count": 225,
   "candles": [
     {
       "time": "2026-05-12T04:15:00",
@@ -1792,10 +1792,18 @@
     {
       "time": "2026-05-13T06:50:00",
       "open": 67.0,
-      "high": 67.01,
+      "high": 67.24,
       "low": 67.0,
-      "close": 67.01,
-      "volume": 2
+      "close": 67.24,
+      "volume": 16
+    },
+    {
+      "time": "2026-05-13T06:55:00",
+      "open": 67.24,
+      "high": 67.24,
+      "low": 67.24,
+      "close": 67.24,
+      "volume": 0
     }
   ]
 }
