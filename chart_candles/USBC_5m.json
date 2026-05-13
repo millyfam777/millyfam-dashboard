@@ -2,8 +2,8 @@
   "symbol": "USBC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T06:47:53.045495",
-  "bar_count": 226,
+  "generated_at": "2026-05-13T06:52:52.559341",
+  "bar_count": 227,
   "candles": [
     {
       "time": "2026-05-12T03:00:00",
@@ -1808,10 +1808,18 @@
     {
       "time": "2026-05-13T05:45:00",
       "open": 0.687,
-      "high": 0.687,
+      "high": 0.6875,
       "low": 0.687,
-      "close": 0.687,
-      "volume": 2
+      "close": 0.6875,
+      "volume": 31
+    },
+    {
+      "time": "2026-05-13T05:50:00",
+      "open": 0.6875,
+      "high": 0.6875,
+      "low": 0.6875,
+      "close": 0.6875,
+      "volume": 0
     }
   ]
 }
