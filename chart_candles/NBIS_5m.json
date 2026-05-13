@@ -2,8 +2,8 @@
   "symbol": "NBIS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T08:12:51.280203",
-  "bar_count": 243,
+  "generated_at": "2026-05-13T08:17:50.189917",
+  "bar_count": 244,
   "candles": [
     {
       "time": "2026-05-12T03:00:00",
@@ -1944,10 +1944,18 @@
     {
       "time": "2026-05-13T07:10:00",
       "open": 211.0,
-      "high": 214.0,
+      "high": 214.44,
       "low": 209.5,
-      "close": 213.95,
-      "volume": 830
+      "close": 212.28,
+      "volume": 1360
+    },
+    {
+      "time": "2026-05-13T07:15:00",
+      "open": 212.51,
+      "high": 213.4,
+      "low": 212.23,
+      "close": 213.18,
+      "volume": 324
     }
   ]
 }
