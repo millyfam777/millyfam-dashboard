@@ -2,8 +2,8 @@
   "symbol": "NBIL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T13:12:50.813656",
-  "bar_count": 303,
+  "generated_at": "2026-05-13T13:17:48.759092",
+  "bar_count": 304,
   "candles": [
     {
       "time": "2026-05-12T03:00:00",
@@ -2424,10 +2424,18 @@
     {
       "time": "2026-05-13T12:10:00",
       "open": 37.83,
-      "high": 37.94,
+      "high": 38.0,
       "low": 37.7,
-      "close": 37.88,
-      "volume": 27
+      "close": 38.0,
+      "volume": 40
+    },
+    {
+      "time": "2026-05-13T12:15:00",
+      "open": 38.14,
+      "high": 38.18,
+      "low": 37.87,
+      "close": 37.97,
+      "volume": 56
     }
   ]
 }
