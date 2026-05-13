@@ -2,8 +2,8 @@
   "symbol": "OCG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T15:07:51.531391",
-  "bar_count": 326,
+  "generated_at": "2026-05-13T15:12:52.421381",
+  "bar_count": 327,
   "candles": [
     {
       "time": "2026-05-12T03:00:00",
@@ -2608,10 +2608,18 @@
     {
       "time": "2026-05-13T14:05:00",
       "open": 2.645,
-      "high": 2.69,
+      "high": 2.7,
       "low": 2.64,
-      "close": 2.66,
-      "volume": 247
+      "close": 2.7,
+      "volume": 410
+    },
+    {
+      "time": "2026-05-13T14:10:00",
+      "open": 2.69,
+      "high": 2.73,
+      "low": 2.55,
+      "close": 2.62,
+      "volume": 1095
     }
   ]
 }
