@@ -2,8 +2,8 @@
   "symbol": "GWH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T14:37:58.198935",
-  "bar_count": 320,
+  "generated_at": "2026-05-13T14:42:59.193970",
+  "bar_count": 321,
   "candles": [
     {
       "time": "2026-05-12T03:00:00",
@@ -2560,10 +2560,18 @@
     {
       "time": "2026-05-13T13:35:00",
       "open": 1.0296,
-      "high": 1.04,
+      "high": 1.05,
       "low": 1.02,
-      "close": 1.04,
-      "volume": 374
+      "close": 1.045,
+      "volume": 660
+    },
+    {
+      "time": "2026-05-13T13:40:00",
+      "open": 1.045,
+      "high": 1.05,
+      "low": 1.04,
+      "close": 1.0431,
+      "volume": 83
     }
   ]
 }
