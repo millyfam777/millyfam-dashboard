@@ -2,8 +2,8 @@
   "symbol": "AAOX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-13T13:42:59.599619",
-  "bar_count": 309,
+  "generated_at": "2026-05-13T13:47:57.470685",
+  "bar_count": 310,
   "candles": [
     {
       "time": "2026-05-12T03:00:00",
@@ -2472,10 +2472,18 @@
     {
       "time": "2026-05-13T12:40:00",
       "open": 92.25,
-      "high": 92.36,
+      "high": 92.46,
       "low": 91.7,
-      "close": 91.84,
-      "volume": 721
+      "close": 92.3,
+      "volume": 924
+    },
+    {
+      "time": "2026-05-13T12:45:00",
+      "open": 92.3,
+      "high": 92.82,
+      "low": 92.01,
+      "close": 92.8,
+      "volume": 92
     }
   ]
 }
