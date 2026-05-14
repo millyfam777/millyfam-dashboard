@@ -2,8 +2,8 @@
   "symbol": "HUDI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T06:17:42.838715",
-  "bar_count": 217,
+  "generated_at": "2026-05-14T06:22:42.693028",
+  "bar_count": 218,
   "candles": [
     {
       "time": "2026-05-13T03:15:00",
@@ -1736,10 +1736,18 @@
     {
       "time": "2026-05-14T05:15:00",
       "open": 1.35,
-      "high": 1.35,
-      "low": 1.35,
+      "high": 1.36,
+      "low": 1.34,
+      "close": 1.36,
+      "volume": 94
+    },
+    {
+      "time": "2026-05-14T05:20:00",
+      "open": 1.36,
+      "high": 1.42,
+      "low": 1.31,
       "close": 1.35,
-      "volume": 43
+      "volume": 165
     }
   ]
 }
