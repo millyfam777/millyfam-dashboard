@@ -2,8 +2,8 @@
   "symbol": "STAA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T07:22:53.966563",
-  "bar_count": 233,
+  "generated_at": "2026-05-14T07:32:59.111255",
+  "bar_count": 235,
   "candles": [
     {
       "time": "2026-05-13T03:00:00",
@@ -1864,10 +1864,26 @@
     {
       "time": "2026-05-14T06:20:00",
       "open": 35.0,
-      "high": 35.0,
+      "high": 35.97,
       "low": 35.0,
-      "close": 35.0,
-      "volume": 1
+      "close": 35.97,
+      "volume": 2
+    },
+    {
+      "time": "2026-05-14T06:25:00",
+      "open": 35.12,
+      "high": 35.12,
+      "low": 35.12,
+      "close": 35.12,
+      "volume": 10
+    },
+    {
+      "time": "2026-05-14T06:30:00",
+      "open": 35.7,
+      "high": 35.88,
+      "low": 35.7,
+      "close": 35.88,
+      "volume": 6
     }
   ]
 }
