@@ -2,8 +2,8 @@
   "symbol": "QUCY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T06:52:49.118179",
-  "bar_count": 227,
+  "generated_at": "2026-05-14T06:57:49.730800",
+  "bar_count": 228,
   "candles": [
     {
       "time": "2026-05-13T03:00:00",
@@ -1817,9 +1817,17 @@
       "time": "2026-05-14T05:50:00",
       "open": 1.64,
       "high": 1.66,
-      "low": 1.61,
-      "close": 1.62,
-      "volume": 616
+      "low": 1.6,
+      "close": 1.61,
+      "volume": 1366
+    },
+    {
+      "time": "2026-05-14T05:55:00",
+      "open": 1.61,
+      "high": 1.625,
+      "low": 1.59,
+      "close": 1.61,
+      "volume": 509
     }
   ]
 }
