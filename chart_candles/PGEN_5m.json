@@ -2,8 +2,8 @@
   "symbol": "PGEN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T07:07:35.748126",
-  "bar_count": 200,
+  "generated_at": "2026-05-14T07:12:36.289737",
+  "bar_count": 201,
   "candles": [
     {
       "time": "2026-05-13T05:30:00",
@@ -1600,10 +1600,18 @@
     {
       "time": "2026-05-14T06:05:00",
       "open": 4.81,
-      "high": 4.81,
+      "high": 4.83,
       "low": 4.79,
-      "close": 4.81,
-      "volume": 82
+      "close": 4.83,
+      "volume": 142
+    },
+    {
+      "time": "2026-05-14T06:10:00",
+      "open": 4.82,
+      "high": 4.9,
+      "low": 4.82,
+      "close": 4.9,
+      "volume": 93
     }
   ]
 }
