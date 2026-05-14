@@ -2,8 +2,8 @@
   "symbol": "CODX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T10:57:13.357143",
-  "bar_count": 250,
+  "generated_at": "2026-05-14T11:02:13.880154",
+  "bar_count": 251,
   "candles": [
     {
       "time": "2026-05-13T05:10:00",
@@ -2000,10 +2000,18 @@
     {
       "time": "2026-05-14T09:55:00",
       "open": 1.5,
-      "high": 1.53,
+      "high": 1.5499,
       "low": 1.5,
-      "close": 1.53,
-      "volume": 21
+      "close": 1.5499,
+      "volume": 23
+    },
+    {
+      "time": "2026-05-14T10:00:00",
+      "open": 1.5499,
+      "high": 1.5499,
+      "low": 1.5499,
+      "close": 1.5499,
+      "volume": 0
     }
   ]
 }
