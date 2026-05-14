@@ -2,8 +2,8 @@
   "symbol": "FCUV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T13:12:45.488224",
-  "bar_count": 267,
+  "generated_at": "2026-05-14T13:17:38.293497",
+  "bar_count": 268,
   "candles": [
     {
       "time": "2026-05-13T03:00:00",
@@ -2136,10 +2136,18 @@
     {
       "time": "2026-05-14T12:10:00",
       "open": 1.279,
-      "high": 1.29,
+      "high": 1.37,
       "low": 1.2301,
-      "close": 1.27,
-      "volume": 132
+      "close": 1.3699,
+      "volume": 490
+    },
+    {
+      "time": "2026-05-14T12:15:00",
+      "open": 1.3699,
+      "high": 1.38,
+      "low": 1.33,
+      "close": 1.36,
+      "volume": 319
     }
   ]
 }
