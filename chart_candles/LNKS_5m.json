@@ -2,8 +2,8 @@
   "symbol": "LNKS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T07:02:29.078695",
-  "bar_count": 229,
+  "generated_at": "2026-05-14T07:07:28.970639",
+  "bar_count": 230,
   "candles": [
     {
       "time": "2026-05-13T03:00:00",
@@ -1832,10 +1832,18 @@
     {
       "time": "2026-05-14T06:00:00",
       "open": 1.79,
-      "high": 1.8,
+      "high": 1.8199,
       "low": 1.73,
-      "close": 1.79,
-      "volume": 1331
+      "close": 1.81,
+      "volume": 1890
+    },
+    {
+      "time": "2026-05-14T06:05:00",
+      "open": 1.81,
+      "high": 1.82,
+      "low": 1.77,
+      "close": 1.81,
+      "volume": 557
     }
   ]
 }
