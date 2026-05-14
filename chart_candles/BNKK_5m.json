@@ -2,8 +2,8 @@
   "symbol": "BNKK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T06:37:38.724294",
-  "bar_count": 224,
+  "generated_at": "2026-05-14T06:42:38.196573",
+  "bar_count": 225,
   "candles": [
     {
       "time": "2026-05-13T03:00:00",
@@ -1792,10 +1792,18 @@
     {
       "time": "2026-05-14T05:35:00",
       "open": 2.68,
-      "high": 2.7,
+      "high": 2.74,
       "low": 2.68,
-      "close": 2.7,
-      "volume": 56
+      "close": 2.71,
+      "volume": 117
+    },
+    {
+      "time": "2026-05-14T05:40:00",
+      "open": 2.71,
+      "high": 2.75,
+      "low": 2.69,
+      "close": 2.69,
+      "volume": 115
     }
   ]
 }
