@@ -2,8 +2,8 @@
   "symbol": "MOBX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T16:57:39.177747",
-  "bar_count": 348,
+  "generated_at": "2026-05-14T17:02:39.730290",
+  "bar_count": 349,
   "candles": [
     {
       "time": "2026-05-13T03:00:00",
@@ -2784,10 +2784,18 @@
     {
       "time": "2026-05-14T15:55:00",
       "open": 2.88,
-      "high": 2.89,
+      "high": 2.9,
       "low": 2.85,
+      "close": 2.87,
+      "volume": 491
+    },
+    {
+      "time": "2026-05-14T16:00:00",
+      "open": 2.88,
+      "high": 2.8903,
+      "low": 2.86,
       "close": 2.86,
-      "volume": 193
+      "volume": 150
     }
   ]
 }
