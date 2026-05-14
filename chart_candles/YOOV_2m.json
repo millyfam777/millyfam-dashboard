@@ -2,8 +2,8 @@
   "symbol": "YOOV",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T11:12:32.897463",
-  "bar_count": 697,
+  "generated_at": "2026-05-14T11:17:32.908993",
+  "bar_count": 699,
   "candles": [
     {
       "time": "2026-05-13T03:00:00",
@@ -5577,9 +5577,25 @@
       "time": "2026-05-14T10:12:00",
       "open": 1.2501,
       "high": 1.2569,
+      "low": 1.23,
+      "close": 1.24,
+      "volume": 828
+    },
+    {
+      "time": "2026-05-14T10:14:00",
+      "open": 1.245,
+      "high": 1.26,
       "low": 1.24,
-      "close": 1.2402,
-      "volume": 260
+      "close": 1.2565,
+      "volume": 955
+    },
+    {
+      "time": "2026-05-14T10:16:00",
+      "open": 1.252,
+      "high": 1.26,
+      "low": 1.23,
+      "close": 1.24,
+      "volume": 756
     }
   ]
 }
