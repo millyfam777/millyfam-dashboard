@@ -2,8 +2,8 @@
   "symbol": "IPWR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T10:32:55.048014",
-  "bar_count": 265,
+  "generated_at": "2026-05-14T10:37:54.588954",
+  "bar_count": 266,
   "candles": [
     {
       "time": "2026-05-13T03:30:00",
@@ -2120,10 +2120,18 @@
     {
       "time": "2026-05-14T09:30:00",
       "open": 7.0,
-      "high": 7.18,
+      "high": 7.2,
       "low": 6.97,
-      "close": 7.08,
-      "volume": 226
+      "close": 7.09,
+      "volume": 415
+    },
+    {
+      "time": "2026-05-14T09:35:00",
+      "open": 7.09,
+      "high": 7.31,
+      "low": 7.03,
+      "close": 7.265,
+      "volume": 463
     }
   ]
 }
