@@ -2,8 +2,8 @@
   "symbol": "CSCL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T09:02:47.597883",
-  "bar_count": 253,
+  "generated_at": "2026-05-14T09:12:43.630970",
+  "bar_count": 255,
   "candles": [
     {
       "time": "2026-05-13T03:00:00",
@@ -2027,7 +2027,23 @@
       "high": 64.5,
       "low": 64.0,
       "close": 64.0,
-      "volume": 12
+      "volume": 19
+    },
+    {
+      "time": "2026-05-14T08:05:00",
+      "open": 63.5,
+      "high": 64.35,
+      "low": 63.5,
+      "close": 64.0,
+      "volume": 3
+    },
+    {
+      "time": "2026-05-14T08:10:00",
+      "open": 63.98,
+      "high": 63.98,
+      "low": 63.01,
+      "close": 63.5,
+      "volume": 8
     }
   ]
 }
