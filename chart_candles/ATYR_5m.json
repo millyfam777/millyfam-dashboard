@@ -2,8 +2,8 @@
   "symbol": "ATYR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T10:12:58.831554",
-  "bar_count": 267,
+  "generated_at": "2026-05-14T10:17:52.379450",
+  "bar_count": 268,
   "candles": [
     {
       "time": "2026-05-13T03:00:00",
@@ -2136,10 +2136,18 @@
     {
       "time": "2026-05-14T09:10:00",
       "open": 0.4962,
-      "high": 0.5113,
+      "high": 0.5137,
       "low": 0.4944,
+      "close": 0.51,
+      "volume": 987
+    },
+    {
+      "time": "2026-05-14T09:15:00",
+      "open": 0.5094,
+      "high": 0.5131,
+      "low": 0.5076,
       "close": 0.5089,
-      "volume": 814
+      "volume": 1169
     }
   ]
 }
