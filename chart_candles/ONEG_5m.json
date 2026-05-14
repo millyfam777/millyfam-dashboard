@@ -2,8 +2,8 @@
   "symbol": "ONEG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T10:27:49.135968",
-  "bar_count": 270,
+  "generated_at": "2026-05-14T10:33:01.816806",
+  "bar_count": 271,
   "candles": [
     {
       "time": "2026-05-13T03:00:00",
@@ -2161,9 +2161,17 @@
       "time": "2026-05-14T09:25:00",
       "open": 1.11,
       "high": 1.12,
-      "low": 1.1001,
-      "close": 1.101,
-      "volume": 38
+      "low": 1.0839,
+      "close": 1.1,
+      "volume": 139
+    },
+    {
+      "time": "2026-05-14T09:30:00",
+      "open": 1.095,
+      "high": 1.11,
+      "low": 1.09,
+      "close": 1.1,
+      "volume": 80
     }
   ]
 }
