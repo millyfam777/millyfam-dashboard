@@ -2,8 +2,8 @@
   "symbol": "HYLN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T04:17:47.801437",
-  "bar_count": 196,
+  "generated_at": "2026-05-14T04:22:48.204062",
+  "bar_count": 197,
   "candles": [
     {
       "time": "2026-05-13T03:00:00",
@@ -1568,10 +1568,18 @@
     {
       "time": "2026-05-14T03:15:00",
       "open": 3.73,
-      "high": 3.74,
+      "high": 3.76,
       "low": 3.73,
-      "close": 3.74,
-      "volume": 37
+      "close": 3.76,
+      "volume": 100
+    },
+    {
+      "time": "2026-05-14T03:20:00",
+      "open": 3.745,
+      "high": 3.77,
+      "low": 3.745,
+      "close": 3.77,
+      "volume": 26
     }
   ]
 }
