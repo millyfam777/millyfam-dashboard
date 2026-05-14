@@ -2,8 +2,8 @@
   "symbol": "LESL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T17:02:26.116709",
-  "bar_count": 284,
+  "generated_at": "2026-05-14T17:07:25.283385",
+  "bar_count": 285,
   "candles": [
     {
       "time": "2026-05-13T08:25:00",
@@ -2272,10 +2272,18 @@
     {
       "time": "2026-05-14T16:00:00",
       "open": 3.46,
-      "high": 3.48,
+      "high": 3.52,
       "low": 3.43,
-      "close": 3.44,
-      "volume": 87
+      "close": 3.5,
+      "volume": 264
+    },
+    {
+      "time": "2026-05-14T16:05:00",
+      "open": 3.45,
+      "high": 3.52,
+      "low": 3.45,
+      "close": 3.48,
+      "volume": 41
     }
   ]
 }
