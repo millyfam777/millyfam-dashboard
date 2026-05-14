@@ -2,8 +2,8 @@
   "symbol": "IPHA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T15:42:42.099313",
-  "bar_count": 256,
+  "generated_at": "2026-05-14T15:47:38.950425",
+  "bar_count": 257,
   "candles": [
     {
       "time": "2026-05-13T08:30:00",
@@ -2048,10 +2048,18 @@
     {
       "time": "2026-05-14T14:40:00",
       "open": 2.145,
-      "high": 2.1498,
+      "high": 2.16,
       "low": 2.135,
-      "close": 2.135,
-      "volume": 24
+      "close": 2.16,
+      "volume": 87
+    },
+    {
+      "time": "2026-05-14T14:45:00",
+      "open": 2.155,
+      "high": 2.16,
+      "low": 2.14,
+      "close": 2.16,
+      "volume": 130
     }
   ]
 }
