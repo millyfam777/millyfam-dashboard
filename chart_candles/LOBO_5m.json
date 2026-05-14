@@ -2,8 +2,8 @@
   "symbol": "LOBO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T06:47:56.506162",
-  "bar_count": 226,
+  "generated_at": "2026-05-14T06:52:55.843490",
+  "bar_count": 227,
   "candles": [
     {
       "time": "2026-05-13T03:00:00",
@@ -1808,10 +1808,18 @@
     {
       "time": "2026-05-14T05:45:00",
       "open": 0.5942,
-      "high": 0.5943,
+      "high": 0.602,
       "low": 0.5942,
       "close": 0.5943,
-      "volume": 3
+      "volume": 20
+    },
+    {
+      "time": "2026-05-14T05:50:00",
+      "open": 0.6023,
+      "high": 0.6205,
+      "low": 0.5942,
+      "close": 0.618,
+      "volume": 76
     }
   ]
 }
