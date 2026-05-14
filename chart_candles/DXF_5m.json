@@ -2,8 +2,8 @@
   "symbol": "DXF",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T18:52:28.734576",
-  "bar_count": 371,
+  "generated_at": "2026-05-14T18:57:30.429768",
+  "bar_count": 372,
   "candles": [
     {
       "time": "2026-05-13T03:00:00",
@@ -2968,10 +2968,18 @@
     {
       "time": "2026-05-14T17:50:00",
       "open": 1.35,
-      "high": 1.3502,
+      "high": 1.36,
       "low": 1.34,
+      "close": 1.3502,
+      "volume": 125
+    },
+    {
+      "time": "2026-05-14T17:55:00",
+      "open": 1.36,
+      "high": 1.36,
+      "low": 1.35,
       "close": 1.35,
-      "volume": 42
+      "volume": 54
     }
   ]
 }
