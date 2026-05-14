@@ -2,8 +2,8 @@
   "symbol": "GTBP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T11:27:56.123363",
-  "bar_count": 255,
+  "generated_at": "2026-05-14T11:32:57.996249",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-05-13T05:15:00",
@@ -2042,8 +2042,16 @@
       "open": 0.4204,
       "high": 0.4204,
       "low": 0.415,
-      "close": 0.4161,
-      "volume": 1058
+      "close": 0.415,
+      "volume": 1429
+    },
+    {
+      "time": "2026-05-14T10:30:00",
+      "open": 0.413,
+      "high": 0.4157,
+      "low": 0.41,
+      "close": 0.4115,
+      "volume": 230
     }
   ]
 }
