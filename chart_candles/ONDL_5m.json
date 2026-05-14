@@ -2,8 +2,8 @@
   "symbol": "ONDL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-14T13:52:48.426659",
-  "bar_count": 311,
+  "generated_at": "2026-05-14T14:02:47.690443",
+  "bar_count": 313,
   "candles": [
     {
       "time": "2026-05-13T03:00:00",
@@ -2488,10 +2488,26 @@
     {
       "time": "2026-05-14T12:50:00",
       "open": 20.87,
-      "high": 20.97,
+      "high": 21.0,
       "low": 20.69,
-      "close": 20.8,
-      "volume": 396
+      "close": 21.0,
+      "volume": 666
+    },
+    {
+      "time": "2026-05-14T12:55:00",
+      "open": 20.98,
+      "high": 21.0,
+      "low": 20.65,
+      "close": 20.67,
+      "volume": 318
+    },
+    {
+      "time": "2026-05-14T13:00:00",
+      "open": 20.63,
+      "high": 20.71,
+      "low": 20.38,
+      "close": 20.71,
+      "volume": 216
     }
   ]
 }
