@@ -1,0 +1,1980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="refresh" content="60" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MillyFam Real Trading Cockpit v5</title>
+  <style>
+    :root {
+      --bg:#080d14; --panel:#111821; --line:#263342; --text:#f3f7ff; --muted:#9aacbf; --cyan:#34d5ff;
+      --green:#27d667; --orange:#d98519; --red:#c43d3d; --purple:#8144aa; --blue:#2794bb;
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font-family:Consolas, "Segoe UI", system-ui, sans-serif; overflow:hidden; }
+    .app { display:grid; grid-template-columns:310px 1fr; height:100vh; }
+    .side { border-right:1px solid var(--line); background:#0c1219; overflow:hidden; display:flex; flex-direction:column; }
+    .topbar { height:72px; border-bottom:1px solid var(--line); display:flex; align-items:center; gap:10px; padding:14px; }
+    .topbar label { color:#b6c7dc; font-size:13px; }
+    .search { background:#151e27; border:1px solid var(--line); color:var(--text); padding:9px 10px; width:96px; outline:none; }
+    .go { background:#4ccfff; color:#001018; border:0; padding:10px 18px; font-weight:800; cursor:pointer; }
+    .side-title { display:flex; align-items:center; justify-content:space-between; padding:16px 14px 10px; color:var(--cyan); font-weight:900; font-size:20px; letter-spacing:.04em; }
+    .refresh { font-size:12px; color:var(--muted); }
+    .side-scroll { overflow:auto; flex:1; padding-bottom:22px; }
+    .list { padding:0 0 10px; }
+    .smart-section-title { display:flex; align-items:center; justify-content:space-between; padding:16px 14px 8px; color:#ffd166; font-weight:900; font-size:15px; letter-spacing:.05em; border-top:1px solid #223041; margin-top:6px; }
+    .smart-list { padding:0 8px 10px; display:grid; gap:8px; }
+    .tabbar { display:grid; grid-template-columns:1fr 1fr; gap:6px; padding:10px 8px 4px; border-bottom:1px solid #223041; }
+    .tab-btn { background:#111821; color:#cfe8ff; border:1px solid #2a3a4b; padding:8px 6px; font-size:11px; font-weight:900; cursor:pointer; }
+    .tab-btn.active { background:#16405c; color:#ffffff; border-color:#48cfff; box-shadow:0 0 12px rgba(72,207,255,.18); }
+    .tab-panel { display:none; }
+    .tab-panel.active { display:block; }
+    .live-card { border-left:4px solid #34d5ff; }
+    .momentum-card { border-left:4px solid #27d667; }
+    .smart-card { border:1px solid #233346; background:#0f1721; padding:10px 10px; cursor:pointer; }
+    .smart-card:hover { background:#12324a; outline:1px solid #48cfff; }
+    .smart-top { display:flex; justify-content:space-between; align-items:center; gap:8px; }
+    .smart-sym { color:#34d5ff; font-weight:900; font-size:16px; }
+    .smart-score { color:#27d667; font-weight:900; font-size:13px; }
+    .smart-meta { margin-top:5px; color:#c9d8e8; font-size:11px; line-height:1.45; }
+    .smart-pill { display:inline-block; margin-top:6px; padding:4px 8px; font-size:10px; font-weight:900; color:white; }
+    .squeeze-a { background:#7a31b8; box-shadow:0 0 12px rgba(129,68,170,.35); }
+    .squeeze-watch { background:#1f6f8f; }
+    .borrow-watch { background:#876b17; }
+    .runner-active { background:#168f57; }
+    .runner-reawake { background:#1f6f8f; }
+    .runner-cooling { background:#876b17; }
+    .runner-risky { background:#8a2525; }
+    .ticker-card { padding:13px 14px; border-top:1px solid #1d2733; border-bottom:1px solid #05080c; cursor:pointer; background:#101720; }
+    .ticker-card:hover, .ticker-card.active { background:#12324a; outline:1px solid #48cfff; }
+    .row1 { display:flex; justify-content:space-between; align-items:center; gap:10px; }
+    .sym { color:var(--cyan); font-size:21px; font-weight:900; letter-spacing:.03em; }
+    .pct { color:var(--green); font-size:18px; font-weight:900; }
+    .mini { margin-top:7px; display:flex; justify-content:space-between; color:#d5e8ff; font-size:12px; }
+    .submini { margin-top:6px; color:#9aacbf; font-size:11px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .risk-pill { font-size:10px; padding:4px 10px; font-weight:900; color:white; }
+    .risk-low { background:#288b61; } .risk-medium { background:#b46d12; } .risk-high { background:#af3434; } .risk-unknown { background:#56606d; }
+    .main { overflow:auto; padding:22px 26px 40px; }
+    .brand { text-align:right; color:#b9c6d9; font-size:14px; margin-bottom:18px; }
+    .nav { display:flex; gap:10px; justify-content:flex-end; margin-top:8px; }
+    .nav a { color:#9ee6ff; text-decoration:none; border:1px solid var(--line); padding:6px 10px; border-radius:4px; background:#111821; }
+    .hero { border:1px solid var(--line); background:#111821; padding:22px; display:flex; justify-content:space-between; gap:20px; align-items:flex-start; }
+    .ticker-big { color:var(--cyan); font-size:44px; line-height:1; font-weight:300; }
+    .facts { margin-top:22px; color:#d8e8f6; font-size:15px; }
+    .badges { display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end; }
+    .big-badge { padding:14px 20px; font-weight:900; color:white; min-width:150px; text-align:center; }
+    .history { background:#a93232; }
+    .riskbox-low { background:#2c8a5e; } .riskbox-medium { background:#b66c10; } .riskbox-high { background:#b13b3b; } .riskbox-unknown { background:#58616d; }
+    .grid { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(360px,.85fr); gap:20px; margin-top:16px; }
+    .panel { border:1px solid var(--line); background:var(--panel); }
+    .panel h3 { margin:0; padding:16px 20px; color:var(--cyan); border-bottom:1px solid var(--line); font-size:20px; }
+    .panel-body { padding:16px 20px; }
+    .timeline { display:grid; gap:6px; }
+    .event { display:grid; grid-template-columns:70px 1fr; background:#1a232d; border-left:8px solid var(--blue); min-height:80px; }
+    .event.sec { border-left-color:var(--orange); } .event.grok { border-left-color:var(--purple); }
+    .event .tag { display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:900; }
+    .event .copy { padding:12px 14px; line-height:1.45; }
+    .event .time { color:#9ac3e6; font-size:13px; margin-bottom:6px; }
+    .risk-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px 28px; text-align:center; }
+    .risk-k { color:#9dc0db; font-size:13px; margin-bottom:8px; }
+    .risk-v { display:inline-block; padding:9px 18px; color:white; font-weight:900; }
+    .offering-lines { line-height:1.75; font-size:15px; }
+    .green { color:#33df74; } .red { color:#ff7777; }
+    .zone-read { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:12px; }
+    .zone { padding:8px 12px; font-weight:900; border:1px solid var(--line); }
+    .zone-prime,.zone-green,.rr-good,.rr-great { background:#1f6f4b; }
+    .zone-prime { box-shadow:0 0 18px rgba(39,214,103,.26); }
+    .zone-yellow,.rr-fair { background:#876b17; }
+    .zone-red,.rr-poor { background:#8a2525; }
+    .zone-gray { background:#4d5864; }
+    .action-tradeable { background:#138a4c; box-shadow:0 0 18px rgba(39,214,103,.28); }
+    .action-confirm { background:#1f5f8f; box-shadow:0 0 18px rgba(80,160,255,.28); }
+    .action-watch { background:#876b17; }
+    .action-pullback { background:#8a6617; }
+    .action-avoid { background:#8a2525; }
+    .action-block { background:#9b2d2d; box-shadow:0 0 18px rgba(196,61,61,.24); }
+    .quality-a { background:#168f57; }
+    .quality-b { background:#876b17; }
+    .quality-c { background:#4d5864; }
+    .shift-up { background:#137a45; }
+    .shift-flat { background:#4d5864; }
+    .shift-down { background:#8a2525; }
+    .delta-box { margin-top:12px; padding:10px 12px; border-left:4px solid #34d5ff; background:rgba(52,213,255,.07); color:#dff8ff; line-height:1.55; }
+    .timing-box { margin-top:12px; padding:10px 12px; border-left:4px solid #27d667; background:rgba(39,214,103,.07); color:#eafff2; line-height:1.55; }
+    .warning-box { margin-top:12px; padding:10px 12px; border-left:4px solid #ffd166; background:rgba(245,200,75,.08); color:#ffd166; line-height:1.5; }
+    .detail-list { margin:0; padding-left:18px; line-height:1.6; color:#e4efff; }
+    .muted { color:var(--muted); }
+    @media (max-width:1050px) {
+      body { overflow:auto; }
+      .app { grid-template-columns:1fr; height:auto; }
+      .side { height:520px; }
+      .grid { grid-template-columns:1fr; }
+      .hero { flex-direction:column; }
+      .badges { justify-content:flex-start; }
+    }
+  </style>
+
+<style id="mf-horizontal-cockpit-v1">
+  .app { display:block !important; height:100vh !important; }
+  .side { display:none !important; }
+  .main { height:100vh !important; overflow:auto !important; padding:14px 18px 40px !important; }
+  .brand { margin-top:8px !important; }
+
+  #mfCockpit {
+    border:1px solid #263342;
+    background:#0c1219;
+    margin-bottom:14px;
+    box-shadow:0 10px 28px rgba(0,0,0,.22);
+  }
+
+  .mf-cockpit-top {
+    display:grid;
+    grid-template-columns:minmax(210px,260px) 1fr auto;
+    align-items:center;
+    gap:12px;
+    padding:10px 12px;
+    border-bottom:1px solid #223041;
+  }
+
+  .mf-search { display:flex; align-items:center; gap:8px; }
+  .mf-search label { color:#b6c7dc; font-size:12px; font-weight:900; }
+  .mf-search input {
+    background:#151e27;
+    border:1px solid #2a3a4b;
+    color:#f3f7ff;
+    padding:9px 10px;
+    width:110px;
+    outline:none;
+    font-family:Consolas, "Segoe UI", system-ui, sans-serif;
+  }
+  .mf-search button {
+    background:#4ccfff;
+    color:#001018;
+    border:0;
+    padding:10px 16px;
+    font-weight:900;
+    cursor:pointer;
+  }
+
+  .mf-tabs { display:flex; gap:8px; flex-wrap:wrap; }
+  .mf-tab {
+    background:#111821;
+    color:#cfe8ff;
+    border:1px solid #2a3a4b;
+    padding:9px 14px;
+    font-size:12px;
+    font-weight:900;
+    cursor:pointer;
+    letter-spacing:.04em;
+    min-width:118px;
+  }
+  .mf-tab.active {
+    background:#16405c;
+    color:#ffffff;
+    border-color:#48cfff;
+    box-shadow:0 0 14px rgba(72,207,255,.20);
+  }
+
+  .mf-asof { color:#9aacbf; font-size:12px; white-space:nowrap; }
+
+  .mf-strip-head {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px 12px 4px;
+  }
+  .mf-strip-title {
+    color:#ffd166;
+    font-weight:900;
+    letter-spacing:.05em;
+    font-size:13px;
+  }
+  .mf-strip-count { color:#9aacbf; font-size:12px; }
+
+  #mfTickerStrip {
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(138px, 1fr));
+    gap:8px;
+    padding:8px 12px 12px;
+  }
+
+  .mf-ticker-tile {
+    border:1px solid #233346;
+    background:#101720;
+    padding:10px;
+    cursor:pointer;
+    min-height:82px;
+    border-left:4px solid #34d5ff;
+  }
+  .mf-ticker-tile:hover,
+  .mf-ticker-tile.active {
+    background:#12324a;
+    outline:1px solid #48cfff;
+  }
+
+  .mf-tile-top { display:flex; justify-content:space-between; align-items:flex-start; gap:8px; }
+  .mf-tile-symbol { color:#34d5ff; font-size:18px; font-weight:900; }
+  .mf-tile-score { color:#27d667; font-size:14px; font-weight:900; text-align:right; }
+  .mf-tile-meta {
+    margin-top:6px;
+    color:#c9d8e8;
+    font-size:11px;
+    line-height:1.35;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  .mf-tile-pill {
+    display:inline-block;
+    margin-top:6px;
+    padding:4px 7px;
+    font-size:10px;
+    font-weight:900;
+    color:white;
+    background:#1f6f8f;
+  }
+
+  .mf-tab-squeeze .mf-tile-pill { background:#7a31b8; }
+  .mf-tab-topgainers .mf-tile-pill { background:#1f6f8f; }
+  .mf-tab-runners .mf-tile-pill { background:#168f57; }
+  .mf-tab-momentum .mf-tile-pill { background:#137a45; }
+
+  .mf-live-detail {
+    border:1px solid #263342;
+    background:#111821;
+    padding:22px;
+    margin-bottom:16px;
+  }
+  .mf-live-detail h2 {
+    color:#34d5ff;
+    margin:0 0 12px;
+    font-size:42px;
+    font-weight:300;
+  }
+  .mf-live-grid {
+    display:grid;
+    grid-template-columns:repeat(4, minmax(120px,1fr));
+    gap:10px;
+    margin-top:14px;
+  }
+  .mf-live-cell {
+    background:#182230;
+    border:1px solid #263342;
+    padding:12px;
+  }
+  .mf-live-k { color:#9aacbf; font-size:12px; margin-bottom:6px; }
+  .mf-live-v { color:#f3f7ff; font-size:18px; font-weight:900; }
+
+  @media (max-width:900px) {
+    .mf-cockpit-top { grid-template-columns:1fr; }
+    #mfTickerStrip { display:flex; overflow-x:auto; padding-bottom:14px; }
+    .mf-ticker-tile { min-width:155px; }
+    .mf-live-grid { grid-template-columns:1fr 1fr; }
+  }
+</style>
+
+
+<style id="mf-chart-label-rail-v1b">
+  .mf-trade-level-row {
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    align-items:center;
+    margin:10px 0 12px;
+    padding:10px 12px;
+    border:1px solid #263342;
+    background:#0d1721;
+  }
+  .mf-level-title {
+    color:#9ee6ff;
+    font-weight:900;
+    font-size:13px;
+    margin-right:4px;
+    letter-spacing:.04em;
+  }
+  .mf-level-pill {
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+    padding:8px 11px;
+    border-radius:4px;
+    color:#fff;
+    font-size:14px;
+    font-weight:900;
+    border:1px solid rgba(255,255,255,.14);
+    box-shadow:0 4px 12px rgba(0,0,0,.18);
+  }
+  .mf-level-entry { background:#146c91; }
+  .mf-level-stop { background:#9b2d36; }
+  .mf-level-tp { background:#137a45; }
+  .mf-level-chase { background:#8a6b15; color:#fff8d2; }
+
+  .mf-chart-wrap-upgraded {
+    display:grid;
+    grid-template-columns:minmax(0,1fr) 178px;
+    gap:10px;
+    align-items:stretch;
+  }
+  .mf-chart-wrap-upgraded svg {
+    width:100% !important;
+  }
+  .mf-chart-wrap-upgraded svg text {
+    font-size:13px !important;
+    font-weight:900 !important;
+  }
+  .mf-chart-wrap-upgraded svg text[fill="#34d5ff"],
+  .mf-chart-wrap-upgraded svg text[fill="#27d667"],
+  .mf-chart-wrap-upgraded svg text[fill="#ffd166"],
+  .mf-chart-wrap-upgraded svg text[fill="#ff5f6d"] {
+    font-size:14px !important;
+    font-weight:900 !important;
+    paint-order:stroke;
+    stroke:#000;
+    stroke-width:3px;
+    stroke-linejoin:round;
+  }
+
+  .mf-level-rail {
+    border:1px solid #263342;
+    background:#0b1119;
+    padding:10px 8px;
+    display:grid;
+    gap:8px;
+    align-content:center;
+    min-height:230px;
+  }
+  .mf-rail-label {
+    display:grid;
+    gap:2px;
+    padding:8px 9px;
+    border-radius:4px;
+    color:white;
+    font-weight:900;
+    border:1px solid rgba(255,255,255,.14);
+    box-shadow:0 6px 14px rgba(0,0,0,.20);
+  }
+  .mf-rail-label span:first-child {
+    font-size:11px;
+    letter-spacing:.05em;
+    opacity:.92;
+  }
+  .mf-rail-label span:last-child {
+    font-size:18px;
+    line-height:1;
+  }
+  .mf-rail-tp2,
+  .mf-rail-tp1 { background:#137a45; }
+  .mf-rail-chase { background:#8a6b15; color:#fff8d2; }
+  .mf-rail-entry { background:#146c91; }
+  .mf-rail-stop { background:#9b2d36; }
+  .mf-chart-note {
+    margin-top:8px;
+    color:#9aacbf;
+    font-size:12px;
+    line-height:1.45;
+  }
+  @media (max-width:900px) {
+    .mf-chart-wrap-upgraded { grid-template-columns:1fr; }
+    .mf-level-rail { grid-template-columns:repeat(2,minmax(0,1fr)); min-height:auto; }
+  }
+</style>
+\n</head>
+<body>
+  <div class="app">
+    <aside class="side">
+      <div class="topbar"><label>TICKER:</label><input id="searchBox" class="search" /><button id="goBtn" class="go">GO</button></div>
+      <div class="side-scroll">
+        <div class="tabbar">
+          <button class="tab-btn" data-tab="squeeze">SQUEEZE</button>
+          <button class="tab-btn active" data-tab="topgainers">TOP GAINERS</button>
+          <button class="tab-btn" data-tab="runners">RUNNERS</button>
+          <button class="tab-btn" data-tab="momentum">MOMENTUM</button>
+        </div>
+
+        <div id="tab-squeeze" class="tab-panel">
+          <div class="smart-section-title"><span>SQUEEZE CANDIDATES</span><span id="squeezeCount" class="refresh">0</span></div>
+          <div id="squeezeList" class="smart-list"></div>
+        </div>
+
+        <div id="tab-topgainers" class="tab-panel active">
+          <div class="smart-section-title"><span>LIVE TOP GAINERS</span><span id="topGainerCount" class="refresh">0</span></div>
+          <div id="topGainerList" class="smart-list"></div>
+        </div>
+
+        <div id="tab-runners" class="tab-panel">
+          <div class="smart-section-title"><span>LAST KNOWN RUNNERS</span><span id="runnerCount" class="refresh">0</span></div>
+          <div id="runnerList" class="smart-list"></div>
+        </div>
+
+        <div id="tab-momentum" class="tab-panel">
+          <div class="smart-section-title"><span>MOMENTUM</span><span id="momentumCount" class="refresh">0</span></div>
+          <div id="momentumList" class="smart-list"></div>
+        </div>
+
+        <div class="side-title"><span>QUALIFIED ALERTS</span><span class="refresh">AUTO 60s | 8</span></div>
+        <div id="tickerList" class="list"></div>
+      </div>
+    </aside>
+    <main class="main">
+
+<section id="mfCockpit">
+  <div class="mf-cockpit-top">
+    <div class="mf-search">
+      <label>TICKER:</label>
+      <input id="mfSearchBox" />
+      <button id="mfGoBtn">GO</button>
+    </div>
+    <div class="mf-tabs">
+      <button class="mf-tab" data-mf-tab="squeeze">SQUEEZE</button>
+      <button class="mf-tab active" data-mf-tab="topgainers">TOP GAINERS</button>
+      <button class="mf-tab" data-mf-tab="runners">RUNNERS</button>
+      <button class="mf-tab" data-mf-tab="momentum">MOMENTUM</button>
+    </div>
+    <div id="mfAsOf" class="mf-asof">AUTO 60s</div>
+  </div>
+  <div class="mf-strip-head">
+    <div id="mfStripTitle" class="mf-strip-title">TOP GAINERS</div>
+    <div id="mfStripCount" class="mf-strip-count">0 tickers</div>
+  </div>
+  <div id="mfTickerStrip"></div>
+</section>
+
+      <div class="brand">
+        MF Real Trading Cockpit v5 · AskEdgar Dilution Monitor · Source logs/vol_alert_ledger.csv · As of 2026-05-08T19:31:10-04:00
+        <div class="nav"><a href="analytics.html">Analytics View</a></div>
+      </div>
+      <section id="detail"></section>
+    </main>
+  </div>
+
+<script>
+const ROWS = [{"ticker":"ARAY","date_display":"2026-05-08","time_display":"19:31:10","mode":"LIVE","mode_class":"mode-live","trigger":"NEWS/SEC","trigger_detail":"NEWS/SEC","session":"AH","price_display":"$0.3500","pct_display":"19.41%","pct_class":"tier-orange","session_vol_display":"4.10M","dollar_vol_display":"1.44M","qual_rvol_display":"309.27","qual_rvol_raw":309.2741424563309,"pct_raw":19.413169566700766,"dollar_vol_raw":1435211.4,"session_vol_raw":4100604.0,"dt_sort_raw":"2026-05-08T19:31:10-04:00","row_key":"2026-05-08T19:31:10-04:00|19:31:10|ARAY|3|NEWS/SEC","float_display":"N/A","tradable_float_display":"N/A","market_cap_display":"N/A","outstanding_display":"N/A","score_display":"99","trade_setup_score":"5.90","zone_status":"PRIME","zone_class":"zone-prime","rr_quality":"GREAT","rr_class":"rr-great","zone_reason":"fresh catalyst \u00b7 $Vol 1.44M \u00b7 qRVOL 309.3 \u00b7 score 99","zone_reason_list":["fresh catalyst","$Vol 1.44M","qRVOL 309.3","score 99"],"zone_caution":"Chart confirmation still required.","zone_caution_list":[],"risk_overall":"Unknown","risk_overall_class":"risk-unknown","risk_offer":"Unknown","risk_offer_class":"risk-unknown","risk_dil":"Unknown","risk_dil_class":"risk-unknown","risk_warrant":"Unknown","risk_warrant_class":"risk-unknown","atm_status":"No ATM found","offering_ability":"Unknown","recent_off":"No offering found","reverse_split":"NO","reverse_split_summary":"","latest_offering_summary":"","warrant_strike":"No warrant data","warrant_terms":"No warrant data","news_summary":"Accuray (ARAY) Q3 Earnings Lag Estimates, Gross Margin Contracts","news_url":"","sec_url":"","offering_url":"","management_commentary":"Tracking=WATCH_VOLUME_ALERT | Unknown","source_file":"vol_scanner.py","exchange":"Unknown","country":"Unknown","sector":"Unknown","industry":"Unknown","cash_need":"Unknown","regsho":"Unknown","si_display":"Unknown","si_pct_display":"Unknown","days_to_cover_display":"Unknown","available_display":"Unknown","si_class":"tier-gray","si_band":"Unknown","ctb_display":"Unknown","ctb_avg_display":"Unknown","ctb_max_display":"Unknown","ctb_class":"tier-gray","ctb_band":"Unknown","htb_label":"Unknown","htb_class":"tier-gray"},{"ticker":"YMAT","date_display":"2026-05-08","time_display":"19:31:09","mode":"LIVE","mode_class":"mode-live","trigger":"NEWS/SEC","trigger_detail":"NEWS/SEC","session":"AH","price_display":"$0.4928","pct_display":"104.91%","pct_class":"tier-purple","session_vol_display":"313.84M","dollar_vol_display":"154.66M","qual_rvol_display":"2178.69","qual_rvol_raw":2178.6869101638986,"pct_raw":104.90644490644492,"dollar_vol_raw":154659794.6432,"session_vol_raw":313838869.0,"dt_sort_raw":"2026-05-08T19:31:09-04:00","row_key":"2026-05-08T19:31:09-04:00|19:31:09|YMAT|10|NEWS/SEC","float_display":"N/A","tradable_float_display":"N/A","market_cap_display":"N/A","outstanding_display":"N/A","score_display":"99","trade_setup_score":"7.10","zone_status":"PRIME","zone_class":"zone-prime","rr_quality":"GREAT","rr_class":"rr-great","zone_reason":"fresh catalyst \u00b7 %Chg 105% \u00b7 $Vol 154.66M \u00b7 qRVOL 2178.7 \u00b7 score 99","zone_reason_list":["fresh catalyst","%Chg 105%","$Vol 154.66M","qRVOL 2178.7","score 99"],"zone_caution":"Chart confirmation still required.","zone_caution_list":[],"risk_overall":"Unknown","risk_overall_class":"risk-unknown","risk_offer":"Unknown","risk_offer_class":"risk-unknown","risk_dil":"Unknown","risk_dil_class":"risk-unknown","risk_warrant":"Unknown","risk_warrant_class":"risk-unknown","atm_status":"No ATM found","offering_ability":"Unknown","recent_off":"No offering found","reverse_split":"NO","reverse_split_summary":"","latest_offering_summary":"","warrant_strike":"No warrant data","warrant_terms":"No warrant data","news_summary":"J-Star Announces Approval of Dual Class Share Structure by Shareholders","news_url":"","sec_url":"","offering_url":"","management_commentary":"Tracking=WATCH_VOLUME_ALERT | Unknown","source_file":"vol_scanner.py","exchange":"Unknown","country":"Unknown","sector":"Unknown","industry":"Unknown","cash_need":"Unknown","regsho":"Unknown","si_display":"Unknown","si_pct_display":"Unknown","days_to_cover_display":"Unknown","available_display":"Unknown","si_class":"tier-gray","si_band":"Unknown","ctb_display":"Unknown","ctb_avg_display":"Unknown","ctb_max_display":"Unknown","ctb_class":"tier-gray","ctb_band":"Unknown","htb_label":"Unknown","htb_class":"tier-gray"},{"ticker":"ARAY","date_display":"2026-05-08","time_display":"19:26:22","mode":"LIVE","mode_class":"mode-live","trigger":"NEWS/SEC","trigger_detail":"NEWS/SEC","session":"AH","price_display":"$0.3500","pct_display":"19.41%","pct_class":"tier-orange","session_vol_display":"4.10M","dollar_vol_display":"1.44M","qual_rvol_display":"309.27","qual_rvol_raw":309.27384076990376,"pct_raw":19.413169566700766,"dollar_vol_raw":1435210.0,"session_vol_raw":4100600.0,"dt_sort_raw":"2026-05-08T19:26:22-04:00","row_key":"2026-05-08T19:26:22-04:00|19:26:22|ARAY|2|NEWS/SEC","float_display":"N/A","tradable_float_display":"N/A","market_cap_display":"N/A","outstanding_display":"N/A","score_display":"99","trade_setup_score":"5.90","zone_status":"PRIME","zone_class":"zone-prime","rr_quality":"GREAT","rr_class":"rr-great","zone_reason":"fresh catalyst \u00b7 $Vol 1.44M \u00b7 qRVOL 309.3 \u00b7 score 99","zone_reason_list":["fresh catalyst","$Vol 1.44M","qRVOL 309.3","score 99"],"zone_caution":"Chart confirmation still required.","zone_caution_list":[],"risk_overall":"Unknown","risk_overall_class":"risk-unknown","risk_offer":"Unknown","risk_offer_class":"risk-unknown","risk_dil":"Unknown","risk_dil_class":"risk-unknown","risk_warrant":"Unknown","risk_warrant_class":"risk-unknown","atm_status":"No ATM found","offering_ability":"Unknown","recent_off":"No offering found","reverse_split":"NO","reverse_split_summary":"","latest_offering_summary":"","warrant_strike":"No warrant data","warrant_terms":"No warrant data","news_summary":"Accuray (ARAY) Q3 Earnings Lag Estimates, Gross Margin Contracts","news_url":"","sec_url":"","offering_url":"","management_commentary":"Tracking=DISCOVERY_ONLY | Unknown","source_file":"vol_scanner.py","exchange":"Unknown","country":"Unknown","sector":"Unknown","industry":"Unknown","cash_need":"Unknown","regsho":"Unknown","si_display":"Unknown","si_pct_display":"Unknown","days_to_cover_display":"Unknown","available_display":"Unknown","si_class":"tier-gray","si_band":"Unknown","ctb_display":"Unknown","ctb_avg_display":"Unknown","ctb_max_display":"Unknown","ctb_class":"tier-gray","ctb_band":"Unknown","htb_label":"Unknown","htb_class":"tier-gray"},{"ticker":"GENVR","date_display":"2026-05-08","time_display":"19:26:21","mode":"LIVE","mode_class":"mode-live","trigger":"NEWS/SEC","trigger_detail":"NEWS/SEC","session":"AH","price_display":"$0.6900","pct_display":"53.33%","pct_class":"tier-purple","session_vol_display":"79.84K","dollar_vol_display":"55.09K","qual_rvol_display":"7.98","qual_rvol_raw":7.9837,"pct_raw":53.33333333333332,"dollar_vol_raw":55087.53,"session_vol_raw":79837.0,"dt_sort_raw":"2026-05-08T19:26:21-04:00","row_key":"2026-05-08T19:26:21-04:00|19:26:21|GENVR|4|NEWS/SEC","float_display":"N/A","tradable_float_display":"N/A","market_cap_display":"N/A","outstanding_display":"N/A","score_display":"99","trade_setup_score":"4.50","zone_status":"GREEN","zone_class":"zone-green","rr_quality":"GOOD","rr_class":"rr-good","zone_reason":"fresh catalyst \u00b7 %Chg 53% \u00b7 qRVOL 8.0 \u00b7 score 99","zone_reason_list":["fresh catalyst","%Chg 53%","qRVOL 8.0","score 99"],"zone_caution":"thin dollar volume","zone_caution_list":["thin dollar volume"],"risk_overall":"Unknown","risk_overall_class":"risk-unknown","risk_offer":"Unknown","risk_offer_class":"risk-unknown","risk_dil":"Unknown","risk_dil_class":"risk-unknown","risk_warrant":"Unknown","risk_warrant_class":"risk-unknown","atm_status":"No ATM found","offering_ability":"Unknown","recent_off":"No offering found","reverse_split":"NO","reverse_split_summary":"","latest_offering_summary":"","warrant_strike":"No warrant data","warrant_terms":"No warrant data","news_summary":"Gen Reports Strong Q3 FY26 Results and Raises FY26 Guidance","news_url":"","sec_url":"","offering_url":"","management_commentary":"Tracking=DISCOVERY_ONLY | Unknown","source_file":"vol_scanner.py","exchange":"Unknown","country":"Unknown","sector":"Unknown","industry":"Unknown","cash_need":"Unknown","regsho":"Unknown","si_display":"Unknown","si_pct_display":"Unknown","days_to_cover_display":"Unknown","available_display":"Unknown","si_class":"tier-gray","si_band":"Unknown","ctb_display":"Unknown","ctb_avg_display":"Unknown","ctb_max_display":"Unknown","ctb_class":"tier-gray","ctb_band":"Unknown","htb_label":"Unknown","htb_class":"tier-gray"},{"ticker":"CODX","date_display":"2026-05-08","time_display":"19:26:20","mode":"LIVE","mode_class":"mode-live","trigger":"NEWS/SEC","trigger_detail":"NEWS/SEC","session":"AH","price_display":"$2.57","pct_display":"33.16%","pct_class":"tier-red","session_vol_display":"10.31M","dollar_vol_display":"26.51M","qual_rvol_display":"412.54","qual_rvol_raw":412.53508,"pct_raw":33.16062176165803,"dollar_vol_raw":26505378.889999997,"session_vol_raw":10313377.0,"dt_sort_raw":"2026-05-08T19:26:20-04:00","row_key":"2026-05-08T19:26:20-04:00|19:26:20|CODX|4|NEWS/SEC","float_display":"N/A","tradable_float_display":"N/A","market_cap_display":"N/A","outstanding_display":"N/A","score_display":"99","trade_setup_score":"6.35","zone_status":"PRIME","zone_class":"zone-prime","rr_quality":"GREAT","rr_class":"rr-great","zone_reason":"fresh catalyst \u00b7 %Chg 33% \u00b7 $Vol 26.51M \u00b7 qRVOL 412.5 \u00b7 score 99","zone_reason_list":["fresh catalyst","%Chg 33%","$Vol 26.51M","qRVOL 412.5","score 99"],"zone_caution":"Chart confirmation still required.","zone_caution_list":[],"risk_overall":"Unknown","risk_overall_class":"risk-unknown","risk_offer":"Unknown","risk_offer_class":"risk-unknown","risk_dil":"Unknown","risk_dil_class":"risk-unknown","risk_warrant":"Unknown","risk_warrant_class":"risk-unknown","atm_status":"No ATM found","offering_ability":"Unknown","recent_off":"No offering found","reverse_split":"NO","reverse_split_summary":"","latest_offering_summary":"","warrant_strike":"No warrant data","warrant_terms":"No warrant data","news_summary":"Co-Diagnostics, Inc. (CODX) Reports Q2 Loss, Lags Revenue Estimates","news_url":"","sec_url":"","offering_url":"","management_commentary":"Tracking=WATCH_VOLUME_ALERT | Unknown","source_file":"vol_scanner.py","exchange":"Unknown","country":"Unknown","sector":"Unknown","industry":"Unknown","cash_need":"Unknown","regsho":"Unknown","si_display":"Unknown","si_pct_display":"Unknown","days_to_cover_display":"Unknown","available_display":"Unknown","si_class":"tier-gray","si_band":"Unknown","ctb_display":"Unknown","ctb_avg_display":"Unknown","ctb_max_display":"Unknown","ctb_class":"tier-gray","ctb_band":"Unknown","htb_label":"Unknown","htb_class":"tier-gray"},{"ticker":"WEST","date_display":"2026-05-08","time_display":"19:26:18","mode":"LIVE","mode_class":"mode-live","trigger":"NEWS/SEC","trigger_detail":"NEWS/SEC","session":"AH","price_display":"$8.35","pct_display":"41.53%","pct_class":"tier-red","session_vol_display":"5.06M","dollar_vol_display":"42.26M","qual_rvol_display":"50.61","qual_rvol_raw":50.61047,"pct_raw":41.52542372881354,"dollar_vol_raw":42259742.449999996,"session_vol_raw":5061047.0,"dt_sort_raw":"2026-05-08T19:26:18-04:00","row_key":"2026-05-08T19:26:18-04:00|19:26:18|WEST|4|NEWS/SEC","float_display":"N/A","tradable_float_display":"N/A","market_cap_display":"N/A","outstanding_display":"N/A","score_display":"99","trade_setup_score":"6.35","zone_status":"PRIME","zone_class":"zone-prime","rr_quality":"GREAT","rr_class":"rr-great","zone_reason":"fresh catalyst \u00b7 %Chg 42% \u00b7 $Vol 42.26M \u00b7 qRVOL 50.6 \u00b7 score 99","zone_reason_list":["fresh catalyst","%Chg 42%","$Vol 42.26M","qRVOL 50.6","score 99"],"zone_caution":"Chart confirmation still required.","zone_caution_list":[],"risk_overall":"Unknown","risk_overall_class":"risk-unknown","risk_offer":"Unknown","risk_offer_class":"risk-unknown","risk_dil":"Unknown","risk_dil_class":"risk-unknown","risk_warrant":"Unknown","risk_warrant_class":"risk-unknown","atm_status":"No ATM found","offering_ability":"Unknown","recent_off":"No offering found","reverse_split":"NO","reverse_split_summary":"","latest_offering_summary":"","warrant_strike":"No warrant data","warrant_terms":"No warrant data","news_summary":"Westrock Coffee Company (WEST) Reports Q1 Loss, Misses Revenue Estimates","news_url":"","sec_url":"","offering_url":"","management_commentary":"Tracking=WATCH_VOLUME_ALERT | Unknown","source_file":"vol_scanner.py","exchange":"Unknown","country":"Unknown","sector":"Unknown","industry":"Unknown","cash_need":"Unknown","regsho":"Unknown","si_display":"Unknown","si_pct_display":"Unknown","days_to_cover_display":"Unknown","available_display":"Unknown","si_class":"tier-gray","si_band":"Unknown","ctb_display":"Unknown","ctb_avg_display":"Unknown","ctb_max_display":"Unknown","ctb_class":"tier-gray","ctb_band":"Unknown","htb_label":"Unknown","htb_class":"tier-gray"},{"ticker":"RXT","date_display":"2026-05-08","time_display":"19:26:16","mode":"LIVE","mode_class":"mode-live","trigger":"NEWS/SEC","trigger_detail":"NEWS/SEC","session":"AH","price_display":"$5.66","pct_display":"60.80%","pct_class":"tier-purple","session_vol_display":"152.95M","dollar_vol_display":"865.73M","qual_rvol_display":"809.32","qual_rvol_raw":809.3243882842008,"pct_raw":60.795454545454554,"dollar_vol_raw":865725215.1,"session_vol_raw":152954985.0,"dt_sort_raw":"2026-05-08T19:26:16-04:00","row_key":"2026-05-08T19:26:16-04:00|19:26:16|RXT|5|NEWS/SEC","float_display":"N/A","tradable_float_display":"N/A","market_cap_display":"N/A","outstanding_display":"N/A","score_display":"99","trade_setup_score":"6.80","zone_status":"PRIME","zone_class":"zone-prime","rr_quality":"GREAT","rr_class":"rr-great","zone_reason":"fresh catalyst \u00b7 %Chg 61% \u00b7 $Vol 865.73M \u00b7 qRVOL 809.3 \u00b7 score 99","zone_reason_list":["fresh catalyst","%Chg 61%","$Vol 865.73M","qRVOL 809.3","score 99"],"zone_caution":"Chart confirmation still required.","zone_caution_list":[],"risk_overall":"Unknown","risk_overall_class":"risk-unknown","risk_offer":"Unknown","risk_offer_class":"risk-unknown","risk_dil":"Unknown","risk_dil_class":"risk-unknown","risk_warrant":"Unknown","risk_warrant_class":"risk-unknown","atm_status":"No ATM found","offering_ability":"Unknown","recent_off":"No offering found","reverse_split":"NO","reverse_split_summary":"","latest_offering_summary":"","warrant_strike":"No warrant data","warrant_terms":"No warrant data","news_summary":"Rackspace (RXT) Reports Q4 Loss, Tops Revenue Estimates","news_url":"","sec_url":"","offering_url":"","management_commentary":"Tracking=WATCH_VOLUME_ALERT | Unknown","source_file":"vol_scanner.py","exchange":"Unknown","country":"Unknown","sector":"Unknown","industry":"Unknown","cash_need":"Unknown","regsho":"Unknown","si_display":"Unknown","si_pct_display":"Unknown","days_to_cover_display":"Unknown","available_display":"Unknown","si_class":"tier-gray","si_band":"Unknown","ctb_display":"Unknown","ctb_avg_display":"Unknown","ctb_max_display":"Unknown","ctb_class":"tier-gray","ctb_band":"Unknown","htb_label":"Unknown","htb_class":"tier-gray"},{"ticker":"AIIO","date_display":"2026-05-08","time_display":"19:26:16","mode":"LIVE","mode_class":"mode-live","trigger":"NEWS/SEC","trigger_detail":"NEWS/SEC","session":"AH","price_display":"$0.8331","pct_display":"41.40%","pct_class":"tier-red","session_vol_display":"261.18M","dollar_vol_display":"217.59M","qual_rvol_display":"3008.68","qual_rvol_raw":3008.678718634587,"pct_raw":41.39511201629328,"dollar_vol_raw":217585373.19869998,"session_vol_raw":261175577.0,"dt_sort_raw":"2026-05-08T19:26:16-04:00","row_key":"2026-05-08T19:26:16-04:00|19:26:16|AIIO|6|NEWS/SEC","float_display":"N/A","tradable_float_display":"N/A","market_cap_display":"N/A","outstanding_display":"N/A","score_display":"99","trade_setup_score":"6.35","zone_status":"PRIME","zone_class":"zone-prime","rr_quality":"GREAT","rr_class":"rr-great","zone_reason":"fresh catalyst \u00b7 %Chg 41% \u00b7 $Vol 217.59M \u00b7 qRVOL 3008.7 \u00b7 score 99","zone_reason_list":["fresh catalyst","%Chg 41%","$Vol 217.59M","qRVOL 3008.7","score 99"],"zone_caution":"Chart confirmation still required.","zone_caution_list":[],"risk_overall":"Unknown","risk_overall_class":"risk-unknown","risk_offer":"Unknown","risk_offer_class":"risk-unknown","risk_dil":"Unknown","risk_dil_class":"risk-unknown","risk_warrant":"Unknown","risk_warrant_class":"risk-unknown","atm_status":"No ATM found","offering_ability":"Unknown","recent_off":"No offering found","reverse_split":"NO","reverse_split_summary":"","latest_offering_summary":"","warrant_strike":"No warrant data","warrant_terms":"No warrant data","news_summary":"AIIO, DaBoss.AI Partnership Targets Embodied Intelligence Breakthrough","news_url":"","sec_url":"","offering_url":"","management_commentary":"Tracking=DISCOVERY_ONLY | Unknown","source_file":"vol_scanner.py","exchange":"Unknown","country":"Unknown","sector":"Unknown","industry":"Unknown","cash_need":"Unknown","regsho":"Unknown","si_display":"Unknown","si_pct_display":"Unknown","days_to_cover_display":"Unknown","available_display":"Unknown","si_class":"tier-gray","si_band":"Unknown","ctb_display":"Unknown","ctb_avg_display":"Unknown","ctb_max_display":"Unknown","ctb_class":"tier-gray","ctb_band":"Unknown","htb_label":"Unknown","htb_class":"tier-gray"},{"ticker":"YMAT","date_display":"2026-05-08","time_display":"19:26:13","mode":"LIVE","mode_class":"mode-live","trigger":"NEWS/SEC","trigger_detail":"NEWS/SEC","session":"AH","price_display":"$0.4950","pct_display":"105.82%","pct_class":"tier-purple","session_vol_display":"313.74M","dollar_vol_display":"155.30M","qual_rvol_display":"2178.00","qual_rvol_raw":2177.9983276587814,"pct_raw":105.82120582120582,"dollar_vol_raw":155301141.105,"session_vol_raw":313739679.0,"dt_sort_raw":"2026-05-08T19:26:13-04:00","row_key":"2026-05-08T19:26:13-04:00|19:26:13|YMAT|9|NEWS/SEC","float_display":"N/A","tradable_float_display":"N/A","market_cap_display":"N/A","outstanding_display":"N/A","score_display":"99","trade_setup_score":"7.10","zone_status":"PRIME","zone_class":"zone-prime","rr_quality":"GREAT","rr_class":"rr-great","zone_reason":"fresh catalyst \u00b7 %Chg 106% \u00b7 $Vol 155.30M \u00b7 qRVOL 2178.0 \u00b7 score 99","zone_reason_list":["fresh catalyst","%Chg 106%","$Vol 155.30M","qRVOL 2178.0","score 99"],"zone_caution":"Chart confirmation still required.","zone_caution_list":[],"risk_overall":"Unknown","risk_overall_class":"risk-unknown","risk_offer":"Unknown","risk_offer_class":"risk-unknown","risk_dil":"Unknown","risk_dil_class":"risk-unknown","risk_warrant":"Unknown","risk_warrant_class":"risk-unknown","atm_status":"No ATM found","offering_ability":"Unknown","recent_off":"No offering found","reverse_split":"NO","reverse_split_summary":"","latest_offering_summary":"","warrant_strike":"No warrant data","warrant_terms":"No warrant data","news_summary":"J-Star Announces Approval of Dual Class Share Structure by Shareholders","news_url":"","sec_url":"","offering_url":"","management_commentary":"Tracking=DISCOVERY_ONLY | Unknown","source_file":"vol_scanner.py","exchange":"Unknown","country":"Unknown","sector":"Unknown","industry":"Unknown","cash_need":"Unknown","regsho":"Unknown","si_display":"Unknown","si_pct_display":"Unknown","days_to_cover_display":"Unknown","available_display":"Unknown","si_class":"tier-gray","si_band":"Unknown","ctb_display":"Unknown","ctb_avg_display":"Unknown","ctb_max_display":"Unknown","ctb_class":"tier-gray","ctb_band":"Unknown","htb_label":"Unknown","htb_class":"tier-gray"},{"ticker":"AEHL","date_display":"2026-05-08","time_display":"19:26:11","mode":"LIVE","mode_class":"mode-live","trigger":"NEWS/SEC","trigger_detail":"NEWS/SEC","session":"AH","price_display":"$1.22","pct_display":"139.26%","pct_class":"tier-purple","session_vol_display":"320.81M","dollar_vol_display":"391.39M","qual_rvol_display":"2753.57","qual_rvol_raw":2753.5679554359626,"pct_raw":139.26260050990388,"dollar_vol_raw":391386449.3,"session_vol_raw":320808565.0,"dt_sort_raw":"2026-05-08T19:26:11-04:00","row_key":"2026-05-08T19:26:11-04:00|19:26:11|AEHL|12|NEWS/SEC","float_display":"N/A","tradable_float_display":"N/A","market_cap_display":"N/A","outstanding_display":"N/A","score_display":"99","trade_setup_score":"7.10","zone_status":"PRIME","zone_class":"zone-prime","rr_quality":"GREAT","rr_class":"rr-great","zone_reason":"fresh catalyst \u00b7 %Chg 139% \u00b7 $Vol 391.39M \u00b7 qRVOL 2753.6 \u00b7 score 99","zone_reason_list":["fresh catalyst","%Chg 139%","$Vol 391.39M","qRVOL 2753.6","score 99"],"zone_caution":"Chart confirmation still required.","zone_caution_list":[],"risk_overall":"Unknown","risk_overall_class":"risk-unknown","risk_offer":"Unknown","risk_offer_class":"risk-unknown","risk_dil":"Unknown","risk_dil_class":"risk-unknown","risk_warrant":"Unknown","risk_warrant_class":"risk-unknown","atm_status":"No ATM found","offering_ability":"Unknown","recent_off":"No offering found","reverse_split":"NO","reverse_split_summary":"","latest_offering_summary":"","warrant_strike":"No warrant data","warrant_terms":"No warrant data","news_summary":"Antelope Enterprise to Provide Energy to the $33.6 Billion US Market through its Completed Acquisition","news_url":"","sec_url":"","offering_url":"","management_commentary":"Tracking=WATCH_VOLUME_ALERT | Unknown","source_file":"vol_scanner.py","exchange":"Unknown","country":"Unknown","sector":"Unknown","industry":"Unknown","cash_need":"Unknown","regsho":"Unknown","si_display":"Unknown","si_pct_display":"Unknown","days_to_cover_display":"Unknown","available_display":"Unknown","si_class":"tier-gray","si_band":"Unknown","ctb_display":"Unknown","ctb_avg_display":"Unknown","ctb_max_display":"Unknown","ctb_class":"tier-gray","ctb_band":"Unknown","htb_label":"Unknown","htb_class":"tier-gray"}];
+const LIVE_UNIVERSE = [{"ts_et":"2026-05-14 19:55:07","rank":"1","symbol":"CREG","ticker":"CREG","price":"0.5297","pct_change":"164.84999999999997","volume":"520577103.0","rvol":"1620.4459815389903","one_min_vol":"14.0","five_min_vol":"112.0","nhod":"False","session":"AH","status":"SCANNED","reason":"raw_top_gainer"},{"ts_et":"2026-05-14 19:55:11","rank":"2","symbol":"LESL","ticker":"LESL","price":"3.73","pct_change":"160.83916083916083","volume":"41571210.0","rvol":"2223.8977796441973","one_min_vol":"59.0","five_min_vol":"234.0","nhod":"False","session":"AH","status":"SCANNED","reason":"raw_top_gainer"},{"ts_et":"2026-05-14 19:55:24","rank":"4","symbol":"DXF","ticker":"DXF","price":"1.505","pct_change":"97.97421731123389","volume":"96482274.0","rvol":"2271.9379187815466","one_min_vol":"9.0","five_min_vol":"493.0","nhod":"False","session":"AH","status":"SCANNED","reason":"raw_top_gainer"},{"ts_et":"2026-05-14 19:55:29","rank":"5","symbol":"QUCY","ticker":"QUCY","price":"2.6197","pct_change":"95.49999999999999","volume":"268879440.0","rvol":"877.3653272579813","one_min_vol":"28.0","five_min_vol":"1538.0","nhod":"False","session":"AH","status":"SCANNED","reason":"raw_top_gainer"},{"ts_et":"2026-05-14 19:55:31","rank":"6","symbol":"YMAT","ticker":"YMAT","price":"1.59","pct_change":"86.09550561797754","volume":"28597105.0","rvol":"164.50097804581242","one_min_vol":"5.0","five_min_vol":"277.0","nhod":"False","session":"AH","status":"SCANNED","reason":"raw_top_gainer"},{"ts_et":"2026-05-14 19:55:35","rank":"7","symbol":"AIIO","ticker":"AIIO","price":"4.39","pct_change":"68.19923371647509","volume":"166345939.0","rvol":"890.3232002962999","one_min_vol":"53.0","five_min_vol":"505.0","nhod":"False","session":"AH","status":"SCANNED","reason":"raw_top_gainer"},{"ts_et":"2026-05-14 19:55:40","rank":"8","symbol":"SNAL","ticker":"SNAL","price":"1.09","pct_change":"117.08822943636727","volume":"277227438.0","rvol":"3198.4742757130384","one_min_vol":"188.0","five_min_vol":"716.0","nhod":"False","session":"AH","status":"SCANNED","reason":"raw_top_gainer"},{"ts_et":"2026-05-14 19:55:52","rank":"9","symbol":"FSHPR","ticker":"FSHPR","price":"0.0811","pct_change":"0.0","volume":"20.0","rvol":"0.10101010101010101","one_min_vol":"","five_min_vol":"","nhod":"False","session":"AH","status":"SCANNED","reason":"raw_top_gainer"},{"ts_et":"2026-05-14 19:55:53","rank":"10","symbol":"POEL","ticker":"POEL","price":"164.6","pct_change":"129.66373657039205","volume":"1448572.0","rvol":"234.1807717800734","one_min_vol":"0.0","five_min_vol":"15.0","nhod":"False","session":"AH","status":"SCANNED","reason":"raw_top_gainer"},{"ts_et":"2026-05-14 19:55:55","rank":"11","symbol":"MOBX","ticker":"MOBX","price":"2.79","pct_change":"60.3448275862069","volume":"158788532.0","rvol":"2409.0989804587934","one_min_vol":"47.0","five_min_vol":"92.0","nhod":"False","session":"AH","status":"SCANNED","reason":"raw_top_gainer"},{"ts_et":"2026-05-14 19:55:58","rank":"12","symbol":"YOOV","ticker":"YOOV","price":"1.09","pct_change":"57.400722021660656","volume":"61521677.0","rvol":"3691.714091978302","one_min_vol":"17.0","five_min_vol":"120.0","nhod":"False","session":"AH","status":"SCANNED","reason":"raw_top_gainer"},{"ts_et":"2026-05-14 19:56:02","rank":"13","symbol":"IPHA","ticker":"IPHA","price":"2.22","pct_change":"68.18181818181819","volume":"2382862.0","rvol":"2105.37374094363","one_min_vol":"25.0","five_min_vol":"25.0","nhod":"False","session":"AH","status":"SCANNED","reason":"raw_top_gainer"},{"ts_et":"2026-05-14 19:56:05","rank":"14","symbol":"ONDG","ticker":"ONDG","price":"7.4","pct_change":"54.48851774530272","volume":"4231953.0","rvol":"511.6399378577862","one_min_vol":"2.0","five_min_vol":"7.0","nhod":"False","session":"AH","status":"SCANNED","reason":"raw_top_gainer"},{"ts_et":"2026-05-14 19:56:11","rank":"16","symbol":"QSEAR","ticker":"QSEAR","price":"0.2","pct_change":"37.83597518952447","volume":"125395.0","rvol":"236.1487758945386","one_min_vol":"0.0","five_min_vol":"0.0","nhod":"False","session":"AH","status":"SCANNED","reason":"raw_top_gainer"},{"ts_et":"2026-05-14 19:56:15","rank":"17","symbol":"ONDL","ticker":"ONDL","price":"20.3","pct_change":"53.32326283987916","volume":"6196090.0","rvol":"498.74550745169375","one_min_vol":"0.0","five_min_vol":"4.0","nhod":"False","session":"AH","status":"SCANNED","reason":"raw_top_gainer"},{"ts_et":"2026-05-14 19:56:19","rank":"19","symbol":"POET","ticker":"POET","price":"22.9452","pct_change":"59.67432150313153","volume":"132974575.0","rvol":"243.53398937695758","one_min_vol":"34.0","five_min_vol":"858.0","nhod":"False","session":"AH","status":"SCANNED","reason":"raw_top_gainer"}];
+const DEFAULT_KEY = "2026-05-08T19:31:10-04:00|19:31:10|ARAY|3|NEWS/SEC";
+const ROWMAP = Object.fromEntries(ROWS.map(r => [r.row_key, r]));
+function esc(v) { return String(v ?? "").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#39;"); }
+function clsRisk(v, prefix="risk") {
+  const t = String(v || "unknown").toLowerCase();
+  if (t === "high") return `${prefix}-high`;
+  if (t === "medium") return `${prefix}-medium`;
+  if (t === "low") return `${prefix}-low`;
+  return `${prefix}-unknown`;
+}
+function fmtLine(items) { return items.filter(x => x && x !== "Unknown").map(esc).join(" | "); }
+function has(v) { return v && !["unknown","n/a","none",""].includes(String(v).toLowerCase()); }
+function historyText(r) {
+  const parts = [];
+  const txt = [
+    r.reverse_split,
+    r.reverse_split_summary,
+    r.latest_offering_summary,
+    r.news_summary,
+    r.offering_ability,
+    r.atm_status,
+    r.recent_off
+  ].join(" ").toLowerCase();
+
+  if (txt.includes("reverse split") || String(r.reverse_split || "").toLowerCase().startsWith("yes")) parts.push("Reverse Split");
+  if (txt.includes("offering") || String(r.recent_off || "").toLowerCase().startsWith("yes")) parts.push("Offering");
+  if (txt.includes("atm") && !txt.includes("no atm")) parts.push("ATM");
+  if (has(r.sec_url) || has(r.offering_url)) parts.push("SEC Link");
+  if (String(r.news_summary || "").toLowerCase().includes("compliance")) parts.push("Compliance");
+
+  if (!parts.length) return "HISTORY: Clean";
+  return "HISTORY: " + parts.slice(0, 2).join(" + ");
+}
+function tradePlanText(r) {
+  const trig = String(r.trigger || "").toUpperCase();
+  const zone = String(r.zone_status || "").toUpperCase();
+  const session = String(r.session || "").toUpperCase();
+
+  let entry = "ENTRY: Confirm VWAP reclaim OR breakout with volume expansion";
+  let stop = "STOP: Immediate exit if VWAP/pullback level fails — no hope trades";
+  let invalid = "INVALIDATION: Loss of VWAP + volume fade = exit";
+
+  if (trig.includes("NEWS") || trig.includes("SEC")) {
+    entry = "ENTRY: Break/hold above news spike high or VWAP reclaim";
+    stop = "STOP: Below VWAP or first pullback low";
+    invalid = "INVALIDATION: News pop fades below VWAP";
+  } else if (trig.includes("HOD")) {
+    entry = "ENTRY: HOD break with volume expansion";
+    stop = "STOP: Failed HOD reclaim / below breakout base";
+    invalid = "INVALIDATION: Breakout fails and loses base";
+  } else if (trig.includes("EXTENSION")) {
+    entry = "ENTRY: Pullback only — avoid chasing vertical candle";
+    stop = "STOP: Below pullback shelf";
+    invalid = "INVALIDATION: Lower high + volume fades";
+  } else if (trig.includes("VOL")) {
+    entry = "ENTRY: VWAP reclaim or first tight consolidation break";
+    stop = "STOP: Below consolidation low";
+    invalid = "INVALIDATION: Volume dries up under VWAP";
+  }
+
+  if (zone === "RED" || zone === "GRAY") {
+    entry = "ENTRY: Watch only until chart improves";
+    stop = "STOP: No trade plan until confirmation";
+    invalid = "INVALIDATION: Risk stack remains weak";
+  } else if (zone === "PRIME") {
+    entry += " — PRIME setup";
+  }
+
+  if (session === "AH" || session === "PM") {
+    invalid += " | Confirm liquidity during RTH";
+  }
+
+  return [entry, stop, invalid];
+}
+
+function parseHumanNumber(v) {
+  const raw = String(v || "0").replaceAll(",", "").replace("$", "").trim().toUpperCase();
+  if (!raw || raw === "UNKNOWN" || raw === "N/A") return 0;
+  const mult = raw.endsWith("B") ? 1e9 : raw.endsWith("M") ? 1e6 : raw.endsWith("K") ? 1e3 : 1;
+  const num = parseFloat(raw.replace(/[KMB]$/, ""));
+  return Number.isFinite(num) ? num * mult : 0;
+}
+function tradeDecision(r) {
+  const risk = String(r.risk_overall || "").toLowerCase();
+  const offer = String(r.risk_offer || "").toLowerCase();
+  const dil = String(r.risk_dil || "").toLowerCase();
+  const zone = String(r.zone_status || "").toUpperCase();
+  const trigger = String(r.trigger || "").toUpperCase();
+  const session = String(r.session || "").toUpperCase();
+  const qrv = parseHumanNumber(r.qual_rvol_display);
+  const dvol = parseHumanNumber(r.dollar_vol_display);
+  const pct = parseFloat(String(r.pct_display || "0").replace("%", "")) || 0;
+
+  let action = "WATCH";
+  let quality = "C";
+  let warning = "";
+  let cls = "action-watch";
+  let qcls = "quality-c";
+
+  function withSessionGate(obj) {
+    if (obj.action === "TRADEABLE" && (session === "PM" || session === "AH")) {
+      obj.action = "RTH CONFIRM";
+      obj.warning = obj.warning || "Valid setup — confirm during RTH because PM/AH liquidity and spreads can distort signals.";
+      obj.cls = "action-confirm";
+    }
+    return obj;
+  }
+
+  if (zone === "RED" || zone === "GRAY") {
+    return {
+      action: "WATCH ONLY",
+      quality: "C",
+      warning: "Weak trade zone. Wait for cleaner volume, VWAP reclaim, or stronger catalyst.",
+      cls: "action-watch",
+      qcls: "quality-c"
+    };
+  }
+
+  if (risk === "high" && (offer === "high" || dil === "high")) {
+    return {
+      action: "RISK BLOCK",
+      quality: "C",
+      warning: "High dilution/offering stack. Treat as watch-only unless tape is exceptional.",
+      cls: "action-block",
+      qcls: "quality-c"
+    };
+  }
+
+  if (trigger.includes("EXTENSION") || pct > 150) {
+    return {
+      action: "WATCH PULLBACK",
+      quality: zone === "PRIME" ? "B" : "C",
+      warning: "Avoid chasing vertical move. Only consider first controlled pullback or base.",
+      cls: "action-pullback",
+      qcls: zone === "PRIME" ? "quality-b" : "quality-c"
+    };
+  }
+
+  if ((trigger.includes("NEWS") || trigger.includes("SEC")) && qrv >= 250 && dvol >= 1000000 && risk !== "high") {
+    return withSessionGate({
+      action: "TRADEABLE",
+      quality: zone === "PRIME" ? "A+" : "B",
+      warning: "",
+      cls: "action-tradeable",
+      qcls: zone === "PRIME" ? "quality-a" : "quality-b"
+    });
+  }
+
+  if (trigger.includes("HOD") && qrv >= 150 && risk !== "high") {
+    return withSessionGate({
+      action: "TRADEABLE",
+      quality: "B",
+      warning: "Confirm breakout holds above prior high. Do not hold failed breakouts.",
+      cls: "action-tradeable",
+      qcls: "quality-b"
+    });
+  }
+
+  if (zone === "PRIME" && risk !== "high") {
+    return {
+      action: (session === "PM" || session === "AH") ? "RTH CONFIRM" : "WATCH CONFIRMATION",
+      quality: "B",
+      warning: (session === "PM" || session === "AH")
+        ? "Prime stack, but confirm during RTH before acting."
+        : "Prime stack, but wait for VWAP/HOD confirmation before entry.",
+      cls: (session === "PM" || session === "AH") ? "action-confirm" : "action-watch",
+      qcls: "quality-b"
+    };
+  }
+
+  return {
+    action,
+    quality,
+    warning: "Needs confirmation. Do not chase without VWAP reclaim or tight base.",
+    cls,
+    qcls
+  };
+}
+function adjustedZone(r) {
+  const z = String(r.zone_status || "GRAY").toUpperCase();
+  const risk = String(r.risk_overall || "").toLowerCase();
+  const offer = String(r.risk_offer || "").toLowerCase();
+  const dil = String(r.risk_dil || "").toLowerCase();
+
+  if (z === "PRIME" && risk === "high" && (offer === "high" || dil === "high")) {
+    return { status: "YELLOW", cls: "zone-yellow", note: "Prime downgraded due to high dilution/offering risk" };
+  }
+  return { status: r.zone_status, cls: r.zone_class, note: "" };
+}
+
+
+function tickerHistory(r) {
+  return ROWS
+    .filter(x => x.ticker === r.ticker)
+    .sort((a, b) => tsNum(b) - tsNum(a));
+}
+function priorRow(r) {
+  const hist = tickerHistory(r);
+  return hist.find(x => x.row_key !== r.row_key) || null;
+}
+function deltaPct(now, before) {
+  const a = Number(now || 0);
+  const b = Number(before || 0);
+  return a - b;
+}
+function momentumShift(r) {
+  const prev = priorRow(r);
+  if (!prev) {
+    return {
+      label: "NEW",
+      cls: "shift-flat",
+      text: "First visible alert for this ticker in current ledger window.",
+      bullets: ["No prior row to compare yet."]
+    };
+  }
+
+  const pctDelta = deltaPct(r.pct_raw, prev.pct_raw);
+  const qrvDelta = deltaPct(r.qual_rvol_raw, prev.qual_rvol_raw);
+  const dvolDelta = deltaPct(r.dollar_vol_raw, prev.dollar_vol_raw);
+
+  let improve = 0;
+  let weaken = 0;
+  const bullets = [];
+
+  if (pctDelta > 3) { improve++; bullets.push(`% change improving +${pctDelta.toFixed(1)} pts`); }
+  else if (pctDelta < -3) { weaken++; bullets.push(`% change fading ${pctDelta.toFixed(1)} pts`); }
+  else bullets.push(`% change mostly flat (${pctDelta.toFixed(1)} pts)`);
+
+  if (qrvDelta > 25) { improve++; bullets.push(`qRVOL accelerating +${qrvDelta.toFixed(1)}`); }
+  else if (qrvDelta < -25) { weaken++; bullets.push(`qRVOL fading ${qrvDelta.toFixed(1)}`); }
+  else bullets.push(`qRVOL stable (${qrvDelta.toFixed(1)})`);
+
+  if (dvolDelta > 250000) { improve++; bullets.push(`$Vol expanding +${humanVol(dvolDelta)}`); }
+  else if (dvolDelta < -250000) { weaken++; bullets.push(`$Vol lower ${humanVol(dvolDelta)}`); }
+  else bullets.push(`$Vol stable (${humanVol(dvolDelta)})`);
+
+  if (improve >= 2) {
+    return { label: "IMPROVING", cls: "shift-up", text: "Momentum profile is improving versus prior alert.", bullets };
+  }
+  if (weaken >= 2) {
+    return { label: "WEAKENING", cls: "shift-down", text: "Momentum profile is weakening versus prior alert.", bullets };
+  }
+  return { label: "STABLE", cls: "shift-flat", text: "Momentum is stable versus prior alert.", bullets };
+}
+function humanVol(v) {
+  const sign = v < 0 ? "-" : "";
+  const n = Math.abs(Number(v || 0));
+  if (n >= 1e9) return sign + (n/1e9).toFixed(2) + "B";
+  if (n >= 1e6) return sign + (n/1e6).toFixed(2) + "M";
+  if (n >= 1e3) return sign + (n/1e3).toFixed(2) + "K";
+  return sign + n.toFixed(0);
+}
+
+function entryTiming(r, decision, shift) {
+  const trigger = String(r.trigger || "").toUpperCase();
+  const session = String(r.session || "").toUpperCase();
+  const zone = String(r.zone_status || "").toUpperCase();
+  const risk = String(r.risk_overall || "").toLowerCase();
+  const action = String(decision.action || "").toUpperCase();
+  const momentum = String(shift.label || "").toUpperCase();
+
+  let timing = "WAIT";
+  let primary = "Wait for confirmation.";
+  let secondary = "Avoid random entries.";
+  let invalid = "Invalid if price loses VWAP and volume fades.";
+  let style = "zone-gray";
+
+  if (action.includes("RISK BLOCK")) {
+    return {
+      timing: "NO ENTRY",
+      style: "action-block",
+      primary: "No planned entry while risk block is active.",
+      secondary: "Only observe tape; do not chase.",
+      invalid: "Invalid until dilution/offering risk or tape context improves."
+    };
+  }
+
+  if (action.includes("RTH CONFIRM")) {
+    timing = "RTH CONFIRM";
+    style = "action-confirm";
+    primary = "Mark levels now; wait for RTH spread/liquidity confirmation.";
+    secondary = "First valid entry is VWAP reclaim or clean base break during RTH.";
+    invalid = "Invalid if open rejects VWAP or volume dries up.";
+  } else if (trigger.includes("EXTENSION")) {
+    timing = "PULLBACK ONLY";
+    style = "action-pullback";
+    primary = "Do not chase. Wait for first controlled pullback into VWAP/support shelf.";
+    secondary = "Entry only after higher-low forms and reclaim candle confirms.";
+    invalid = "Invalid if pullback slices through VWAP/support without reclaim.";
+  } else if (trigger.includes("HOD")) {
+    timing = "BREAKOUT TRIGGER";
+    style = "action-tradeable";
+    primary = "Entry on clean HOD break with volume expansion.";
+    secondary = "Better entry is first retest/hold of breakout level.";
+    invalid = "Invalid if HOD break fails and price loses breakout base.";
+  } else if (trigger.includes("NEWS") || trigger.includes("SEC")) {
+    timing = "VWAP / NEWS-HIGH";
+    style = "action-tradeable";
+    primary = "Entry on VWAP reclaim or break/hold above news-spike high.";
+    secondary = "If extended, wait for base above VWAP instead of chasing.";
+    invalid = "Invalid if news pop fades below VWAP.";
+  } else if (trigger.includes("VOL")) {
+    timing = "VWAP / BASE BREAK";
+    style = "action-watch";
+    primary = "Entry on VWAP reclaim or tight consolidation break.";
+    secondary = "Needs volume expansion on trigger candle.";
+    invalid = "Invalid if base breaks down or volume fades.";
+  }
+
+  if (momentum === "WEAKENING") {
+    timing = timing + " — CAUTION";
+    secondary = secondary + " Momentum is weakening; require stronger confirmation.";
+  } else if (momentum === "IMPROVING" && !action.includes("RISK BLOCK")) {
+    secondary = secondary + " Momentum improving; keep on active watch.";
+  }
+
+  if (zone === "RED" || zone === "GRAY" || risk === "high") {
+    if (!action.includes("TRADEABLE") && !action.includes("RTH CONFIRM")) {
+      timing = "WAIT";
+      style = "action-watch";
+      primary = "Wait for structure to improve before planning an entry.";
+      secondary = "Current risk/zone stack is not clean enough.";
+      invalid = "Invalid until risk stack or chart structure improves.";
+    }
+  }
+
+  if (session === "AH" || session === "PM") {
+    invalid = invalid + " Confirm again during RTH before acting.";
+  }
+
+  return { timing, style, primary, secondary, invalid };
+}
+
+
+function eventRows(r) {
+  const rows = [];
+  rows.push(`<div class="event"><div class="tag">NEWS</div><div class="copy"><div class="time">${esc(r.date_display)} ${esc(r.time_display)}</div><strong>${esc(r.news_summary || "No news summary available yet.")}</strong></div></div>`);
+  if (has(r.sec_url) || has(r.offering_url)) {
+    const link = has(r.sec_url) ? r.sec_url : r.offering_url;
+    rows.push(`<div class="event sec"><div class="tag">SEC</div><div class="copy"><div class="time">Filing / offering reference</div><a style="color:#9ee6ff" target="_blank" href="${esc(link)}">Open filing/source</a></div></div>`);
+  } else {
+    rows.push(`<div class="event sec"><div class="tag">SEC</div><div class="copy"><div class="time">Filing / offering reference</div>No direct SEC link in ledger.</div></div>`);
+  }
+  rows.push(`<div class="event grok"><div class="tag">READ</div><div class="copy"><div class="time">Trade-zone interpretation</div>${esc(r.zone_reason || "Needs stronger catalyst, volume, or risk profile.")}</div></div>`);
+  return rows.join("");
+}
+function pctNum(r) {
+  const n = parseFloat(String(r.pct_display || "0").replace("%", ""));
+  return Number.isFinite(n) ? n : -999999;
+}
+function tsNum(r) {
+  const raw = `${r.date_display || ""} ${r.time_display || ""}`;
+  const t = Date.parse(raw.replaceAll("/", "-"));
+  return Number.isFinite(t) ? t : 0;
+}
+
+function numFromDisplay(v) {
+  const raw0 = String(v ?? "").trim();
+  if (!raw0 || ["unknown","n/a","none"].includes(raw0.toLowerCase())) return 0;
+
+  let raw = raw0.replace(/,/g, "").replace(/\$/g, "").replace(/%/g, "").trim().toUpperCase();
+  let mult = 1;
+  if (raw.endsWith("K")) { mult = 1000; raw = raw.slice(0, -1); }
+  else if (raw.endsWith("M")) { mult = 1000000; raw = raw.slice(0, -1); }
+  else if (raw.endsWith("B")) { mult = 1000000000; raw = raw.slice(0, -1); }
+
+  const n = parseFloat(raw);
+  return Number.isFinite(n) ? n * mult : 0;
+}
+
+function squeezeScore(r) {
+  const si = numFromDisplay(r.si_pct_display);
+  const ctb = Math.max(numFromDisplay(r.ctb_display), numFromDisplay(r.ctb_avg_display), numFromDisplay(r.ctb_max_display));
+  const avail = numFromDisplay(r.available_display);
+  const qrvol = numFromDisplay(r.qual_rvol_display);
+  const dvol = numFromDisplay(r.dollar_vol_display);
+  const pct = numFromDisplay(r.pct_display);
+  const htb = String(r.htb_label || "").toLowerCase();
+  const trig = String(r.trigger || "").toLowerCase();
+
+  let score = 0;
+
+  if (si >= 20) score += 30;
+  else if (si >= 15) score += 24;
+  else if (si >= 8) score += 14;
+  else if (si >= 4) score += 7;
+
+  if (ctb >= 100) score += 26;
+  else if (ctb >= 50) score += 20;
+  else if (ctb >= 20) score += 12;
+  else if (ctb >= 8) score += 6;
+
+  if (avail > 0 && avail <= 100000) score += 20;
+  else if (avail > 0 && avail <= 500000) score += 12;
+  else if (avail > 0 && avail <= 1000000) score += 6;
+
+  if (htb.includes("htb")) score += 12;
+  else if (htb.includes("limited")) score += 8;
+
+  if (qrvol >= 100) score += 10;
+  else if (qrvol >= 25) score += 7;
+  else if (qrvol >= 5) score += 3;
+
+  if (dvol >= 10000000) score += 8;
+  else if (dvol >= 1000000) score += 5;
+
+  if (pct >= 50) score += 7;
+  else if (pct >= 25) score += 4;
+
+  if (trig.includes("news") || trig.includes("sec")) score += 5;
+
+  return Math.round(score);
+}
+
+function squeezeLabel(score) {
+  if (score >= 78) return ["SQUEEZE A+", "squeeze-a"];
+  if (score >= 55) return ["SQUEEZE WATCH", "squeeze-watch"];
+  if (score >= 35) return ["BORROW WATCH", "borrow-watch"];
+  return ["LOW SQUEEZE", "risk-unknown"];
+}
+
+function latestByTicker() {
+  const m = new Map();
+  [...ROWS].sort((a,b) => tsNum(b) - tsNum(a)).forEach(r => {
+    if (!m.has(r.ticker)) m.set(r.ticker, r);
+  });
+  return m;
+}
+
+function runnerState(items) {
+  const sorted = [...items].sort((a,b) => tsNum(b) - tsNum(a));
+  const latest = sorted[0];
+  const maxPct = Math.max(...sorted.map(pctNum));
+  const latestPct = pctNum(latest);
+  const alerts = sorted.length;
+  const risk = String(latest.risk_overall || "").toLowerCase();
+
+  if (risk === "high" && maxPct >= 50) return ["RISKY RUNNER", "runner-risky"];
+  if (alerts >= 3 && latestPct >= maxPct * 0.78) return ["STILL ACTIVE", "runner-active"];
+  if (alerts >= 2 && latestPct >= 25 && latestPct >= maxPct * 0.55) return ["REAWAKENING", "runner-reawake"];
+  return ["COOLING", "runner-cooling"];
+}
+
+function renderSmartPanels() {
+  const latest = [...latestByTicker().values()];
+
+  const squeezeRows = latest
+    .map(r => ({ r, score: squeezeScore(r) }))
+    .filter(x => x.score >= 35)
+    .sort((a,b) => b.score - a.score)
+    .slice(0, 8);
+
+  document.getElementById("squeezeCount").innerText = String(squeezeRows.length);
+  document.getElementById("squeezeList").innerHTML = squeezeRows.length ? squeezeRows.map(x => {
+    const r = x.r;
+    const labelData = squeezeLabel(x.score);
+    return `
+      <div class="smart-card" data-key="${esc(r.row_key)}">
+        <div class="smart-top"><span class="smart-sym">${esc(r.ticker)}</span><span class="smart-score">${x.score}</span></div>
+        <div class="smart-meta">SI ${esc(r.si_pct_display)} | CTB ${esc(r.ctb_display)} | Avail ${esc(r.available_display)}</div>
+        <div class="smart-meta">${esc(r.htb_label)} | ${esc(r.pct_display)} | ${esc(r.qual_rvol_display)} qRVOL</div>
+        <span class="smart-pill ${labelData[1]}">${esc(labelData[0])}</span>
+      </div>`;
+  }).join("") : `<div class="smart-card"><div class="smart-meta">No squeeze candidates above threshold.</div></div>`;
+
+  const groups = new Map();
+  ROWS.forEach(r => {
+    if (!groups.has(r.ticker)) groups.set(r.ticker, []);
+    groups.get(r.ticker).push(r);
+  });
+
+  const runners = [...groups.entries()]
+    .map(([ticker, items]) => {
+      const sorted = [...items].sort((a,b) => tsNum(b) - tsNum(a));
+      const latest = sorted[0];
+      const maxPct = Math.max(...items.map(pctNum));
+      const maxDvol = Math.max(...items.map(x => numFromDisplay(x.dollar_vol_display)));
+      const labelData = runnerState(items);
+      const score = Math.round((maxPct * 0.55) + Math.min(items.length * 8, 32) + Math.min(maxDvol / 1000000, 35));
+      return { ticker, latest, maxPct, maxDvol, alerts: items.length, label: labelData[0], cls: labelData[1], score };
+    })
+    .filter(x => x.maxPct >= 25 || x.alerts >= 3)
+    .sort((a,b) => b.score - a.score)
+    .slice(0, 8);
+
+  document.getElementById("runnerCount").innerText = String(runners.length);
+  document.getElementById("runnerList").innerHTML = runners.length ? runners.map(x => `
+    <div class="smart-card" data-key="${esc(x.latest.row_key)}">
+      <div class="smart-top"><span class="smart-sym">${esc(x.ticker)}</span><span class="smart-score">${Math.round(x.maxPct)}%</span></div>
+      <div class="smart-meta">Alerts ${x.alerts} | Best ${Math.round(x.maxPct)}% | $Vol ${esc(x.latest.dollar_vol_display)}</div>
+      <div class="smart-meta">${esc(x.latest.session)} | ${esc(x.latest.trigger)} | ${esc(x.latest.time_display)}</div>
+      <span class="smart-pill ${x.cls}">${esc(x.label)}</span>
+    </div>`).join("") : `<div class="smart-card"><div class="smart-meta">No repeat runners yet.</div></div>`;
+
+  document.querySelectorAll(".smart-card[data-key]").forEach(el => el.onclick = () => selectRow(el.dataset.key));
+}
+
+function renderList() {
+  const bestByTicker = new Map();
+
+  [...ROWS]
+    .sort((a, b) => {
+      const p = pctNum(b) - pctNum(a);
+      if (Math.abs(p) > 0.0001) return p;
+      return tsNum(b) - tsNum(a);
+    })
+    .forEach(r => {
+      if (!bestByTicker.has(r.ticker)) bestByTicker.set(r.ticker, r);
+    });
+
+  const rows = [...bestByTicker.values()].slice(0, 10);
+
+  document.getElementById("tickerList").innerHTML = rows.map(r => `
+    <div class="ticker-card" data-key="${esc(r.row_key)}" data-symbol="${esc(r.ticker)}">
+      <div class="row1"><span class="sym">${esc(r.ticker)}</span><span class="pct">${esc(r.pct_display)}</span></div>
+      <div class="mini"><span>${esc(r.price_display)} <small>${esc(r.exchange)}</small></span><span>Vol ${esc(r.session_vol_display)}</span></div>
+      <div class="submini">${esc(fmtLine([r.float_display, r.market_cap_display, r.sector, r.country]))}</div>
+      <div style="margin-top:8px"><span class="risk-pill ${clsRisk(r.risk_overall)}">${esc(r.risk_overall)}</span></div>
+    </div>`).join("");
+  document.querySelectorAll(".ticker-card").forEach(el => el.onclick = () => selectRow(el.dataset.key));
+}
+
+function pill(txt, cls) { return `<span class="zone ${cls}">${esc(txt)}</span>`; }
+
+function chartSymbol(sym) {
+  return String(sym || "").toUpperCase().replace("$", "").trim();
+}
+
+function tradingViewWidgetUrl(sym, interval) {
+  const symbol = encodeURIComponent(chartSymbol(sym));
+  const intv = encodeURIComponent(String(interval || "5"));
+  return "https://s.tradingview.com/widgetembed/?" +
+    "symbol=" + symbol +
+    "&interval=" + intv +
+    "&hidesidetoolbar=1" +
+    "&symboledit=1" +
+    "&saveimage=0" +
+    "&toolbarbg=131722" +
+    "&studies=[]" +
+    "&theme=dark" +
+    "&style=1" +
+    "&timezone=America%2FNew_York" +
+    "&withdateranges=1" +
+    "&hideideas=1" +
+    "&locale=en";
+}
+
+function setDashChartInterval(sym, interval) {
+  const frame = document.getElementById("tvChartFrame");
+  if (!frame) return;
+  frame.src = tradingViewWidgetUrl(sym, interval);
+  document.querySelectorAll(".chart-btn").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.interval === String(interval));
+  });
+}
+
+function mfChartFile(sym, tf) {
+  const safe = chartSymbol(sym).replace(/[^A-Z0-9.\-]/g, "_");
+  return "chart_candles/" + safe + "_" + tf + ".json";
+}
+
+function setMfChartButton(tf) {
+  document.querySelectorAll(".mf-chart-btn").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.tf === String(tf));
+    btn.style.background = btn.dataset.tf === String(tf) ? "#12324a" : "#111821";
+  });
+}
+
+function mfNum(v) {
+  const n = Number(v);
+  return Number.isFinite(n) ? n : null;
+}
+
+async function loadMfInternalChart(sym, tf) {
+  const box = document.getElementById("mfInternalChartBox");
+  const meta = document.getElementById("mfInternalChartMeta");
+  if (!box) return;
+
+  setMfChartButton(tf);
+
+  box.innerHTML = `<div class="facts" style="padding:18px">Loading MillyFam internal ${esc(tf)} chart for ${esc(sym)}...</div>`;
+  if (meta) meta.innerHTML = `Reading ${esc(mfChartFile(sym, tf))}`;
+
+  try {
+    const url = mfChartFile(sym, tf);
+    const res = await fetch(url + "?v=" + Date.now(), { cache: "no-store" });
+
+    if (!res.ok) {
+      throw new Error("missing candle file: " + url);
+    }
+
+    const payload = await res.json();
+    const candles = Array.isArray(payload.candles) ? payload.candles.filter(c =>
+      mfNum(c.open) !== null &&
+      mfNum(c.high) !== null &&
+      mfNum(c.low) !== null &&
+      mfNum(c.close) !== null
+    ) : [];
+
+    if (!candles.length) {
+      throw new Error("no valid candles in " + url);
+    }
+
+    renderMfInternalChart(sym, tf, payload, candles);
+  } catch (err) {
+    box.innerHTML = `
+      <div class="facts" style="padding:18px;line-height:1.55">
+        MillyFam internal chart is not available for ${esc(sym)} ${esc(tf)} yet.<br>
+        TradingView fallback is still available below.<br>
+        <span style="color:#9fb4db">Reason: ${esc(err.message || String(err))}</span>
+      </div>`;
+    if (meta) meta.innerHTML = "Internal chart fallback mode";
+  }
+}
+
+
+function mfDerivedLevels(candles) {
+  const valid = Array.isArray(candles) ? candles.filter(c =>
+    mfNum(c.open) !== null &&
+    mfNum(c.high) !== null &&
+    mfNum(c.low) !== null &&
+    mfNum(c.close) !== null
+  ) : [];
+
+  if (valid.length < 5) return [];
+
+  const recent = valid.slice(-20);
+  const last = valid[valid.length - 1];
+  const entry = mfNum(last.close);
+  const recentLows = recent.map(c => mfNum(c.low)).filter(v => v !== null);
+  let stop = Math.min(...recentLows);
+
+  if (!Number.isFinite(entry) || !Number.isFinite(stop) || stop >= entry) {
+    const lows = valid.slice(-60).map(c => mfNum(c.low)).filter(v => v !== null);
+    stop = Math.min(...lows);
+  }
+
+  if (!Number.isFinite(entry) || !Number.isFinite(stop) || stop >= entry) return [];
+
+  const risk = entry - stop;
+  if (!Number.isFinite(risk) || risk <= 0) return [];
+
+  const tp1 = entry + risk;
+  const tp2 = entry + (risk * 2);
+  const maxChase = entry + (risk * 0.25);
+
+  return [
+    { label: "ENTRY", value: entry, color: "#9ee6ff" },
+    { label: "STOP", value: stop, color: "#ff5f72" },
+    { label: "TP1", value: tp1, color: "#20d98b" },
+    { label: "TP2", value: tp2, color: "#17b978" },
+    { label: "MAX CHASE", value: maxChase, color: "#ffd166" },
+  ];
+}
+
+function mfOverlaySummary(levels) {
+  if (!levels || !levels.length) {
+    return "Chart-derived levels unavailable. Need more valid candles.";
+  }
+
+  const get = name => levels.find(x => x.label === name);
+  const entry = get("ENTRY");
+  const stop = get("STOP");
+  const tp1 = get("TP1");
+  const tp2 = get("TP2");
+  const chase = get("MAX CHASE");
+
+  const fmt = x => x && Number.isFinite(Number(x.value)) ? Number(x.value).toFixed(4).replace(/0+$/, "").replace(/\.$/, "") : "n/a";
+
+  return `Chart-derived levels · Entry ${fmt(entry)} · Stop ${fmt(stop)} · TP1 ${fmt(tp1)} · TP2 ${fmt(tp2)} · Max Chase ${fmt(chase)}`;
+}
+
+function renderMfInternalChart(sym, tf, payload, candles) {
+  const box = document.getElementById("mfInternalChartBox");
+  const meta = document.getElementById("mfInternalChartMeta");
+  if (!box) return;
+
+  const slice = candles.slice(-150);
+  const w = 980;
+  const h = 430;
+  const padL = 54;
+  const padR = 18;
+  const padT = 22;
+  const padB = 42;
+  const chartW = w - padL - padR;
+  const chartH = h - padT - padB;
+
+  const levels = mfDerivedLevels(slice);
+  const levelValues = levels.map(l => mfNum(l.value)).filter(v => v !== null);
+
+  const highs = slice.map(c => mfNum(c.high)).filter(v => v !== null);
+  const lows = slice.map(c => mfNum(c.low)).filter(v => v !== null);
+
+  let hi = Math.max(...highs, ...levelValues);
+  let lo = Math.min(...lows, ...levelValues);
+
+  if (!Number.isFinite(hi) || !Number.isFinite(lo) || hi === lo) {
+    hi = hi || 1;
+    lo = lo || 0;
+  }
+
+  const range = hi - lo;
+  hi += range * 0.04;
+  lo -= range * 0.04;
+
+  const y = price => padT + ((hi - price) / (hi - lo)) * chartH;
+  const x = i => padL + (i / Math.max(1, slice.length - 1)) * chartW;
+  const candleW = Math.max(2, Math.min(8, chartW / Math.max(1, slice.length) * 0.58));
+
+  const gridVals = [hi, hi - (hi - lo) * 0.25, hi - (hi - lo) * 0.5, hi - (hi - lo) * 0.75, lo];
+
+  let grid = "";
+  gridVals.forEach(v => {
+    const yy = y(v);
+    grid += `<line x1="${padL}" y1="${yy.toFixed(2)}" x2="${w - padR}" y2="${yy.toFixed(2)}" stroke="#172335" stroke-width="1"/>`;
+    grid += `<text x="8" y="${(yy + 4).toFixed(2)}" fill="#8ca4c4" font-size="11">${v.toFixed(2)}</text>`;
+  });
+
+  let body = "";
+  slice.forEach((c, i) => {
+    const open = mfNum(c.open);
+    const high = mfNum(c.high);
+    const low = mfNum(c.low);
+    const close = mfNum(c.close);
+    if (open === null || high === null || low === null || close === null) return;
+
+    const xx = x(i);
+    const yo = y(open);
+    const yh = y(high);
+    const yl = y(low);
+    const yc = y(close);
+    const up = close >= open;
+    const color = up ? "#20d98b" : "#ff5f72";
+    const top = Math.min(yo, yc);
+    const bottom = Math.max(yo, yc);
+    const height = Math.max(1, bottom - top);
+
+    body += `<line x1="${xx.toFixed(2)}" y1="${yh.toFixed(2)}" x2="${xx.toFixed(2)}" y2="${yl.toFixed(2)}" stroke="${color}" stroke-width="1.2"/>`;
+    body += `<rect x="${(xx - candleW / 2).toFixed(2)}" y="${top.toFixed(2)}" width="${candleW.toFixed(2)}" height="${height.toFixed(2)}" rx="1" fill="${color}" opacity="0.92"/>`;
+  });
+
+  const last = slice[slice.length - 1] || {};
+  const lastClose = mfNum(last.close);
+  const lastTime = last.time || "";
+
+  let lastLine = "";
+  if (lastClose !== null) {
+    const yy = y(lastClose);
+    lastLine = `
+      <line x1="${padL}" y1="${yy.toFixed(2)}" x2="${w - padR}" y2="${yy.toFixed(2)}" stroke="#9ee6ff" stroke-width="1" stroke-dasharray="4 5" opacity="0.8"/>
+      <text x="${w - 95}" y="${(yy - 6).toFixed(2)}" fill="#9ee6ff" font-size="12">Last ${lastClose.toFixed(2)}</text>`;
+  }
+
+  let overlays = "";
+  levels.forEach((lvl, idx) => {
+    const val = mfNum(lvl.value);
+    if (val === null || val < lo || val > hi) return;
+
+    const yy = y(val);
+    const dash = lvl.label === "ENTRY" ? "6 4" : (lvl.label === "MAX CHASE" ? "2 5" : "4 5");
+    const labelX = w - 150;
+    const labelY = yy - 5 + (idx % 2 === 0 ? 0 : 13);
+
+    overlays += `
+      <line x1="${padL}" y1="${yy.toFixed(2)}" x2="${w - padR}" y2="${yy.toFixed(2)}" stroke="${lvl.color}" stroke-width="1.4" stroke-dasharray="${dash}" opacity="0.92"/>
+      <rect x="${labelX - 6}" y="${labelY - 13}" width="132" height="18" rx="5" fill="#05080c" stroke="${lvl.color}" opacity="0.92"/>
+      <text x="${labelX}" y="${labelY}" fill="${lvl.color}" font-size="11" font-weight="800">${lvl.label} ${val.toFixed(4).replace(/0+$/, "").replace(/\.$/, "")}</text>`;
+  });
+
+  box.innerHTML = `
+    <svg viewBox="0 0 ${w} ${h}" style="width:100%;height:430px;display:block;background:#05080c;border:1px solid #223041;border-radius:12px">
+      <rect x="0" y="0" width="${w}" height="${h}" fill="#05080c"/>
+      ${grid}
+      ${body}
+      ${overlays}
+      ${lastLine}
+      <text x="${padL}" y="${h - 14}" fill="#8ca4c4" font-size="12">${esc(sym)} · ${esc(tf)} · IBKR internal candles</text>
+      <text x="${w - 250}" y="${h - 14}" fill="#8ca4c4" font-size="12">${esc(String(lastTime).replace("T", " ").slice(0, 19))}</text>
+    </svg>`;
+
+  if (meta) {
+    const count = payload.bar_count || candles.length;
+    const generated = payload.generated_at ? String(payload.generated_at).replace("T", " ").slice(0, 19) : "";
+    meta.innerHTML = `IBKR internal candles · ${esc(count)} bars · updated ${esc(generated)}<br>${esc(mfOverlaySummary(levels))}`;
+  }
+}
+
+function setInternalChartInterval(sym, tf) {
+  loadMfInternalChart(sym, tf);
+}
+
+function renderDetail(r) {
+  if (!r) { document.getElementById("detail").innerHTML = `<div class="panel"><div class="panel-body muted">No dashboard rows yet.</div></div>`; return; }
+  document.querySelectorAll(".ticker-card").forEach(el => el.classList.toggle("active", el.dataset.key === r.row_key));
+  const shellCap = has(r.offering_ability) ? r.offering_ability : "Unknown";
+  const noAtm = String(r.atm_status || "").toLowerCase().includes("no") || !has(r.atm_status);
+  const noS1 = !has(r.sec_url) && !has(r.offering_url);
+  const noEquity = !String(r.offering_ability || "").toLowerCase().includes("high");
+  const zoneReasons = (r.zone_reason_list && r.zone_reason_list.length) ? r.zone_reason_list : [r.zone_reason];
+  const cautions = (r.zone_caution_list && r.zone_caution_list.length) ? r.zone_caution_list : [r.zone_caution];
+  const tradePlan = tradePlanText(r);
+  const decision = tradeDecision(r);
+  const zoneAdj = adjustedZone(r);
+  const shift = momentumShift(r);
+  const timing = entryTiming(r, decision, shift);
+  document.getElementById("detail").innerHTML = `
+    <div class="hero">
+      <div>
+        <div class="ticker-big">${esc(r.ticker)}</div>
+        <div class="facts">${esc(fmtLine(["Float/OS: " + r.float_display + "/" + r.outstanding_display, "MC: " + r.market_cap_display, r.sector, r.country]))}</div>
+      </div>
+      <div class="badges">
+        <div class="big-badge history">${esc(historyText(r))}</div>
+        <div class="big-badge ${clsRisk(r.risk_overall, "riskbox")}">RISK: ${esc(r.risk_overall)}</div>
+      </div>
+    </div>
+    <div class="grid">
+      <div>
+        <section class="panel"><div class="panel-body"><div class="timeline">${eventRows(r)}</div></div></section>
+        <section class="panel" style="margin-top:16px"><h3>MillyFam Internal Chart</h3><div class="panel-body">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px">
+            <div>
+              <div class="facts">Internal IBKR candle chart for ${esc(r.ticker)} · dashboard-owned data.</div>
+              <div class="facts" id="mfInternalChartMeta" style="margin-top:4px">Loading internal chart...</div>
+            </div>
+            <div style="display:flex;gap:8px">
+              <button class="mf-chart-btn active" data-tf="5m" onclick="setInternalChartInterval('${esc(r.ticker)}','5m')" style="cursor:pointer;border:1px solid #29415a;background:#12324a;color:#9ee6ff;border-radius:7px;padding:7px 10px;font-weight:800">5m</button>
+              <button class="mf-chart-btn" data-tf="2m" onclick="setInternalChartInterval('${esc(r.ticker)}','2m')" style="cursor:pointer;border:1px solid #29415a;background:#111821;color:#9ee6ff;border-radius:7px;padding:7px 10px;font-weight:800">2m</button>
+            </div>
+          </div>
+          <div id="mfInternalChartBox" style="width:100%;min-height:430px;border-radius:12px;background:#05080c"></div>
+          <div class="facts" style="margin-top:8px">Phase 2B: chart-derived Entry / Stop / TP1 / TP2 / Max Chase overlays. These are visual guide levels, not official trade alerts.</div>
+        </div></section>
+
+        <section class="panel" style="margin-top:16px"><h3>TradingView Fallback Chart</h3><div class="panel-body">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px">
+            <div class="facts">TradingView fallback for ${esc(r.ticker)} · use visual confirmation before any trade.</div>
+            <div style="display:flex;gap:8px">
+              <button class="chart-btn active" data-interval="5" onclick="setDashChartInterval('${esc(r.ticker)}','5')" style="cursor:pointer;border:1px solid #29415a;background:#12324a;color:#9ee6ff;border-radius:7px;padding:7px 10px;font-weight:800">5m</button>
+              <button class="chart-btn" data-interval="2" onclick="setDashChartInterval('${esc(r.ticker)}','2')" style="cursor:pointer;border:1px solid #29415a;background:#111821;color:#9ee6ff;border-radius:7px;padding:7px 10px;font-weight:800">2m</button>
+            </div>
+          </div>
+          <iframe
+            id="tvChartFrame"
+            title="TradingView chart for ${esc(r.ticker)}"
+            src="${tradingViewWidgetUrl(r.ticker, '5')}"
+            style="width:100%;height:520px;border:1px solid #223041;border-radius:12px;background:#05080c"
+            loading="lazy"
+            allowtransparency="true"
+            scrolling="no">
+          </iframe>
+          <div class="facts" style="margin-top:8px">TradingView remains fallback/confirmation. Dashboard alert logic remains unchanged.</div>
+        </div></section>
+
+        <section class="panel" style="margin-top:16px"><div class="panel-body">
+          <div class="risk-grid">
+            <div><div class="risk-k">Overall Risk</div><div class="risk-v ${clsRisk(r.risk_overall)}">${esc(r.risk_overall)}</div></div>
+            <div><div class="risk-k">Offering</div><div class="risk-v ${clsRisk(r.risk_offer)}">${esc(r.risk_offer)}</div></div>
+            <div><div class="risk-k">Dilution</div><div class="risk-v ${clsRisk(r.risk_dil)}">${esc(r.risk_dil)}</div></div>
+            <div><div class="risk-k">Frequency</div><div class="risk-v risk-low">${esc(r.recent_off && r.recent_off !== "Unknown" ? r.recent_off : "Low")}</div></div>
+            <div><div class="risk-k">Cash Need</div><div class="risk-v ${clsRisk(r.cash_need)}">${esc(r.cash_need)}</div></div>
+            <div><div class="risk-k">Warrants</div><div class="risk-v ${clsRisk(r.risk_warrant)}">${esc(r.risk_warrant)}</div></div>
+          </div>
+        </div></section>
+        <section class="panel" style="margin-top:16px"><h3>Offering Ability</h3><div class="panel-body offering-lines">
+          <div class="${String(shellCap).toLowerCase() === "high" ? "red" : "green"}">Shelf Capacity / Offering Ability: ${esc(shellCap)}</div>
+          <div>${noAtm ? "No ATM" : "ATM Status: " + esc(r.atm_status)}</div>
+          <div>${noEquity ? "No Equity Line" : "Equity / shelf risk requires review"}</div>
+          <div>${noS1 ? "No S-1 Offering link in ledger" : "SEC/offering link available"}</div>
+        </div></section>
+      </div>
+      <div>
+        <section class="panel"><h3>Trade Zone</h3><div class="panel-body">
+          <div class="zone-read">
+            ${pill(decision.action, decision.cls)}
+            ${pill("Quality " + decision.quality, decision.qcls)}
+            ${decision.action === "RISK BLOCK" ? pill("⚠ " + zoneAdj.status + " (Blocked)", "zone-gray") : pill(zoneAdj.status + " Zone", zoneAdj.cls)}
+            ${pill("Momentum " + shift.label, shift.cls)}
+            ${pill("Entry " + timing.timing, timing.style)}
+            ${pill("R:R " + r.rr_quality, r.rr_class)}
+            ${pill("Setup " + r.trade_setup_score, "zone-gray")}
+          </div>
+          ${zoneAdj.note ? `<div class="warning-box">⚠ ${esc(zoneAdj.note)}</div>` : ""}
+          <ul class="detail-list">${zoneReasons.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+          <div style="margin-top:14px" class="muted">Caution</div>
+          <ul class="detail-list">${cautions.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+          <div class="timing-box">
+            <strong>Entry Timing:</strong> ${esc(timing.timing)}
+            <ul class="detail-list" style="margin-top:8px">
+              <li>${esc(timing.primary)}</li>
+              <li>${esc(timing.secondary)}</li>
+              <li>${esc(timing.invalid)}</li>
+            </ul>
+          </div>
+          <div style="margin-top:14px" class="muted">Execution Plan</div>
+          <ul class="detail-list">${tradePlan.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+          ${decision.warning ? `<div class="warning-box">⚠ ${esc(decision.warning)}</div>` : ""}
+          <div class="delta-box">
+            <strong>Momentum Shift:</strong> ${esc(shift.text)}
+            <ul class="detail-list" style="margin-top:8px">${shift.bullets.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+          </div>
+        </div></section>
+        <section class="panel" style="margin-top:16px"><h3>Borrow / Squeeze</h3><div class="panel-body offering-lines">
+          <div>SI % Float: <strong>${esc(r.si_pct_display)}</strong></div><div>CTB: <strong>${esc(r.ctb_display)}</strong></div>
+          <div>HTB: <strong>${esc(r.htb_label)}</strong></div><div>Available: <strong>${esc(r.available_display)}</strong></div><div>Reg SHO: <strong>${esc(r.regsho)}</strong></div>
+        </div></section>
+        <section class="panel" style="margin-top:16px"><h3>Company Facts</h3><div class="panel-body offering-lines">
+          <div>Exchange: <strong>${esc(r.exchange)}</strong></div><div>Industry: <strong>${esc(r.industry)}</strong></div>
+          <div>Session: <strong>${esc(r.session)}</strong></div><div>$Vol: <strong>${esc(r.dollar_vol_display)}</strong></div><div>qRVOL: <strong>${esc(r.qual_rvol_display)}</strong></div>
+        </div></section>
+      </div>
+    </div>`;
+}
+function selectRow(key) {
+  const selected = ROWMAP[key] || ROWS[0];
+  renderDetail(selected);
+  if (selected && selected.ticker) {
+    setTimeout(() => loadMfInternalChart(selected.ticker, "5m"), 80);
+  }
+}
+document.getElementById("goBtn").onclick = () => {
+  const q = document.getElementById("searchBox").value.trim().toUpperCase();
+  const found = ROWS.find(r => r.ticker === q);
+  if (found) selectRow(found.row_key);
+};
+document.getElementById("searchBox").addEventListener("keydown", e => { if (e.key === "Enter") document.getElementById("goBtn").click(); });
+renderSmartPanels();
+renderList();
+selectRow(DEFAULT_KEY || (ROWS[0] && ROWS[0].row_key));
+</script>
+
+<script id="mf-horizontal-cockpit-v1-js">
+(function () {
+  const MF_TAB_STORAGE_KEY = "millyfam_dashboard_active_tab_v1";
+  const VALID_MF_TABS = new Set(["squeeze", "topgainers", "runners", "momentum"]);
+
+  function savedMfTab() {
+    try {
+      const v = localStorage.getItem(MF_TAB_STORAGE_KEY);
+      return VALID_MF_TABS.has(v) ? v : "topgainers";
+    } catch (e) {
+      return "topgainers";
+    }
+  }
+
+  function saveMfTab(tab) {
+    try {
+      if (VALID_MF_TABS.has(tab)) {
+        localStorage.setItem(MF_TAB_STORAGE_KEY, tab);
+      }
+    } catch (e) {}
+  }
+
+  const state = { tab: savedMfTab(), selected: "" };
+
+  function h(v) {
+    return String(v ?? "")
+      .replaceAll("&","&amp;")
+      .replaceAll("<","&lt;")
+      .replaceAll(">","&gt;")
+      .replaceAll('"',"&quot;")
+      .replaceAll("'","&#39;");
+  }
+
+  function n(v) {
+    const x = Number(String(v ?? "").replace(/[$,%x,]/g, ""));
+    return Number.isFinite(x) ? x : 0;
+  }
+
+  function fmtMoney(v) {
+    const x = n(v);
+    if (!x) return "";
+    if (x >= 1) return "$" + x.toFixed(2);
+    return "$" + x.toFixed(4);
+  }
+
+  function fmtPct(v) {
+    const x = n(v);
+    if (!x) return "";
+    return x.toFixed(2) + "%";
+  }
+
+  function fmtVol(v) {
+    const x = n(v);
+    if (!x) return "";
+    if (x >= 1e9) return (x/1e9).toFixed(2) + "B";
+    if (x >= 1e6) return (x/1e6).toFixed(2) + "M";
+    if (x >= 1e3) return (x/1e3).toFixed(2) + "K";
+    return String(Math.round(x));
+  }
+
+  function tickerOf(r) {
+    return String((r && (r.ticker || r.symbol)) || "").toUpperCase();
+  }
+
+  function latestLedgerByTicker() {
+    const m = new Map();
+    const rows = Array.isArray(ROWS) ? ROWS : [];
+    rows.forEach(r => {
+      const t = tickerOf(r);
+      if (!t) return;
+      if (!m.has(t)) {
+        m.set(t, r);
+        return;
+      }
+      const old = m.get(t);
+      const oldPct = n(old.pct_display || old.pct_change || old.change_pct);
+      const newPct = n(r.pct_display || r.pct_change || r.change_pct);
+      if (newPct >= oldPct) m.set(t, r);
+    });
+    return m;
+  }
+
+  function squeezeScore(r) {
+    const si = n(r.si_pct_display || r.si_pct || r.short_interest_pct);
+    const ctb = n(r.ctb_display || r.ctb || r.ctb_avg);
+    let score = 0;
+    score += Math.min(si * 1.7, 55);
+    score += Math.min(ctb / 4, 35);
+    if (/HTB|HARD/i.test(String(r.htb_label || r.htb || ""))) score += 12;
+    return Math.round(Math.max(0, Math.min(100, score)));
+  }
+
+  function liveUniverseSymbols() {
+    const live = (typeof LIVE_UNIVERSE !== "undefined" && Array.isArray(LIVE_UNIVERSE)) ? LIVE_UNIVERSE : [];
+    return new Set(live.map(r => tickerOf(r)).filter(Boolean));
+  }
+
+  function todayKey() {
+    const live = (typeof LIVE_UNIVERSE !== "undefined" && Array.isArray(LIVE_UNIVERSE)) ? LIVE_UNIVERSE : [];
+    if (live.length && live[0].ts_et) return String(live[0].ts_et).slice(0, 10);
+
+    const d = new Date();
+    return d.toISOString().slice(0, 10);
+  }
+
+  function rowDateText(r) {
+    return String(
+      (r && (r.ts_et || r.time_et || r.time_display || r.idea_date || r.date || r.ts || r.timestamp)) || ""
+    );
+  }
+
+  function hasTodayLedgerActivity(r) {
+    const key = todayKey();
+    const txt = rowDateText(r);
+    return txt.includes(key);
+  }
+
+  function isCurrentContextTicker(symbol, row) {
+    const liveSyms = liveUniverseSymbols();
+    if (liveSyms.has(String(symbol || "").toUpperCase())) return true;
+    if (row && hasTodayLedgerActivity(row)) return true;
+    return false;
+  }
+
+  function getSqueezeRows(latestMap) {
+    const liveSyms = liveUniverseSymbols();
+
+    return [...latestMap.values()]
+      .map(r => ({ type:"squeeze", symbol:tickerOf(r), row:r, score:squeezeScore(r) }))
+      .filter(x => {
+        // Current-context rule:
+        // SQUEEZE only shows names active in the current live scanner universe.
+        if (!liveSyms.has(x.symbol)) return false;
+
+        const r = x.row || {};
+        const si = n(r.si_pct_display || r.si_pct || r.short_interest_pct);
+        const ctb = n(r.ctb_display || r.ctb || r.ctb_avg);
+        const avail = n(r.available_display || r.available || r.available_shares);
+        const htb = /HTB|HARD|LIMITED/i.test(String(r.htb_label || r.htb || ""));
+
+        const borrowPressure = x.score >= 35 || si >= 10 || ctb >= 25 || htb || (avail > 0 && avail <= 100000);
+        return borrowPressure;
+      })
+      .sort((a,b) => b.score - a.score)
+      .slice(0, 14);
+  }
+
+  function getTopGainersRows(latestMap) {
+    const live = (typeof LIVE_UNIVERSE !== "undefined" && Array.isArray(LIVE_UNIVERSE)) ? LIVE_UNIVERSE : [];
+    return live
+      .slice()
+      .sort((a,b) => n(a.rank) - n(b.rank))
+      .slice(0, 20)
+      .map(r => ({
+        type:"topgainers",
+        symbol:tickerOf(r),
+        live:r,
+        row:latestMap.get(tickerOf(r)) || null,
+        score:n(r.pct_change)
+      }));
+  }
+
+  function getRunnerRows(latestMap) {
+    const groups = new Map();
+    const rows = Array.isArray(ROWS) ? ROWS : [];
+    rows.forEach(r => {
+      const t = tickerOf(r);
+      if (!t) return;
+      if (!groups.has(t)) groups.set(t, []);
+      groups.get(t).push(r);
+    });
+
+    return [...groups.entries()]
+      .map(([symbol, items]) => {
+        const latest = latestMap.get(symbol) || items[0];
+        const bestPct = Math.max(...items.map(x => n(x.pct_display || x.pct_change || x.change_pct)));
+        const score = Math.round(bestPct + Math.min(items.length * 8, 40));
+        return { type:"runners", symbol, row:latest, alerts:items.length, bestPct, score };
+      })
+      .filter(x => isCurrentContextTicker(x.symbol, x.row))
+      .filter(x => x.bestPct >= 25 || x.alerts >= 2)
+      .sort((a,b) => b.score - a.score)
+      .slice(0, 14);
+  }
+
+  function getMomentumRows(latestMap) {
+    return [...latestMap.values()]
+      .filter(r => {
+        const symbol = tickerOf(r);
+        if (!isCurrentContextTicker(symbol, r)) return false;
+
+        const trigger = String(r.trigger || r.trigger_reason || "").toUpperCase();
+        const action = String(r.action || r.trade_action || "").toUpperCase();
+        return trigger.includes("EXTENSION") || trigger.includes("VOL") || trigger.includes("HOD") ||
+               trigger.includes("NEWS") || action.includes("MOMENTUM") || action.includes("TRADE");
+      })
+      .map(r => ({ type:"momentum", symbol:tickerOf(r), row:r, score:n(r.pct_display || r.pct_change || r.change_pct) }))
+      .sort((a,b) => b.score - a.score)
+      .slice(0, 14);
+  }
+
+  function rowsForTab(tab) {
+    const latestMap = latestLedgerByTicker();
+    if (tab === "squeeze") return getSqueezeRows(latestMap);
+    if (tab === "runners") return getRunnerRows(latestMap);
+    if (tab === "momentum") return getMomentumRows(latestMap);
+    return getTopGainersRows(latestMap);
+  }
+
+  function showLiveOnlyDetail(item) {
+    const r = item.live || {};
+    const detail = document.getElementById("detail");
+    if (!detail) return;
+
+    detail.innerHTML = `
+      <section class="mf-live-detail">
+        <h2>${h(item.symbol)}</h2>
+        <div class="muted">Live top-gainer universe only. This ticker may not have a qualified MillyFam alert card yet.</div>
+        <div class="mf-live-grid">
+          <div class="mf-live-cell"><div class="mf-live-k">Rank</div><div class="mf-live-v">#${h(r.rank || "")}</div></div>
+          <div class="mf-live-cell"><div class="mf-live-k">Price</div><div class="mf-live-v">${h(fmtMoney(r.price))}</div></div>
+          <div class="mf-live-cell"><div class="mf-live-k">% Change</div><div class="mf-live-v">${h(fmtPct(r.pct_change))}</div></div>
+          <div class="mf-live-cell"><div class="mf-live-k">Volume</div><div class="mf-live-v">${h(fmtVol(r.volume))}</div></div>
+          <div class="mf-live-cell"><div class="mf-live-k">RVOL</div><div class="mf-live-v">${h(Number(n(r.rvol)).toFixed(1))}x</div></div>
+          <div class="mf-live-cell"><div class="mf-live-k">1m Vol</div><div class="mf-live-v">${h(fmtVol(r.one_min_vol))}</div></div>
+          <div class="mf-live-cell"><div class="mf-live-k">5m Vol</div><div class="mf-live-v">${h(fmtVol(r.five_min_vol))}</div></div>
+          <div class="mf-live-cell"><div class="mf-live-k">Session</div><div class="mf-live-v">${h(r.session || "")}</div></div>
+        </div>
+        <div class="warning-box" style="margin-top:16px">
+          Raw scanner ticker only. Wait for Momentum / Squeeze / Elite / qualified alert confirmation before treating it as a trade setup.
+        </div>
+      </section>`;
+  }
+
+  function selectItem(item) {
+    if (!item) return;
+    state.selected = item.symbol;
+
+    if (item.row && item.row.row_key && typeof selectRow === "function") {
+      selectRow(item.row.row_key);
+    } else {
+      showLiveOnlyDetail(item);
+    }
+
+    document.querySelectorAll(".mf-ticker-tile").forEach(x => {
+      x.classList.toggle("active", x.dataset.symbol === state.selected);
+    });
+  }
+
+  function tileHtml(item) {
+    const tabClass = "mf-tab-" + state.tab;
+    let score = "";
+    let meta1 = "";
+    let meta2 = "";
+    let pill = "";
+
+    if (state.tab === "topgainers") {
+      const r = item.live || {};
+      score = fmtPct(r.pct_change);
+      meta1 = `Price ${fmtMoney(r.price)} | Vol ${fmtVol(r.volume)}`;
+      meta2 = `RVOL ${Number(n(r.rvol)).toFixed(1)}x | ${r.session || ""}`;
+      pill = "LIVE TOP GAINER";
+    } else if (state.tab === "squeeze") {
+      const r = item.row || {};
+      score = String(item.score);
+      meta1 = `SI ${r.si_pct_display || ""} | CTB ${r.ctb_display || ""}`;
+      meta2 = `Avail ${r.available_display || ""} | ${r.htb_label || ""}`;
+      pill = item.score >= 78 ? "SQUEEZE A+" : "SQUEEZE WATCH";
+    } else if (state.tab === "runners") {
+      const r = item.row || {};
+      score = Math.round(item.bestPct || 0) + "%";
+      meta1 = `Alerts ${item.alerts || 0} | Best ${Math.round(item.bestPct || 0)}%`;
+      meta2 = `${r.trigger || ""} | ${r.time_display || ""}`;
+      pill = "RUNNER";
+    } else {
+      const r = item.row || {};
+      score = r.pct_display || fmtPct(item.score);
+      meta1 = `${r.trigger || ""} | ${r.qual_rvol_display || ""} qRVOL`;
+      meta2 = `${r.action || ""} | ${r.time_display || ""}`;
+      pill = "MOMENTUM";
+    }
+
+    return `
+      <div class="mf-ticker-tile ${tabClass}" data-symbol="${h(item.symbol)}">
+        <div class="mf-tile-top">
+          <div class="mf-tile-symbol">${h(item.symbol)}</div>
+          <div class="mf-tile-score">${h(score)}</div>
+        </div>
+        <div class="mf-tile-meta">${h(meta1)}</div>
+        <div class="mf-tile-meta">${h(meta2)}</div>
+        <span class="mf-tile-pill">${h(pill)}</span>
+      </div>`;
+  }
+
+  function render(tab) {
+    if (tab && VALID_MF_TABS.has(tab)) {
+      state.tab = tab;
+      saveMfTab(tab);
+    }
+
+    document.querySelectorAll(".mf-tab").forEach(btn => {
+      btn.classList.toggle("active", btn.dataset.mfTab === state.tab);
+    });
+
+    const rows = rowsForTab(state.tab);
+    const strip = document.getElementById("mfTickerStrip");
+    const title = document.getElementById("mfStripTitle");
+    const count = document.getElementById("mfStripCount");
+    const asof = document.getElementById("mfAsOf");
+
+    if (!strip || !title || !count) return;
+
+    const titleMap = {
+      squeeze: "ACTIVE SQUEEZE WATCH",
+      topgainers: "LIVE TOP GAINERS",
+      runners: "LAST KNOWN RUNNERS",
+      momentum: "MOMENTUM"
+    };
+
+    title.innerText = titleMap[state.tab] || "TOP GAINERS";
+    count.innerText = rows.length + " tickers";
+
+    if (asof) {
+      const live = (typeof LIVE_UNIVERSE !== "undefined" && Array.isArray(LIVE_UNIVERSE)) ? LIVE_UNIVERSE : [];
+      const t = live.length ? (live[0].ts_et || "") : "";
+      asof.innerText = t ? "LIVE UNIVERSE " + t : "AUTO 60s";
+    }
+
+    strip.innerHTML = rows.length
+      ? rows.map(tileHtml).join("")
+      : `<div class="mf-ticker-tile"><div class="mf-tile-meta">No symbols available in this category right now.</div></div>`;
+
+    strip.querySelectorAll(".mf-ticker-tile[data-symbol]").forEach(el => {
+      el.onclick = () => {
+        const item = rows.find(x => x.symbol === el.dataset.symbol);
+        selectItem(item);
+      };
+    });
+
+    if (rows.length && (!state.selected || !rows.some(x => x.symbol === state.selected))) {
+      selectItem(rows[0]);
+    }
+  }
+
+  function wire() {
+    document.querySelectorAll(".mf-tab").forEach(btn => {
+      btn.onclick = () => render(btn.dataset.mfTab);
+    });
+
+    function findDashboardRowBySymbol(sym) {
+      const target = String(sym || "").trim().toUpperCase();
+      if (!target) return null;
+      return (ROWS || []).find(r => String(tickerOf(r) || "").toUpperCase() === target) || null;
+    }
+
+    function forceCockpitSearchSync(sym) {
+      const target = String(sym || "").trim().toUpperCase();
+      if (!target) return false;
+
+      // Search the full lower dashboard data first.
+      const row = findDashboardRowBySymbol(target);
+
+      // Find the best top tab containing this symbol.
+      const tabOrder = ["momentum", "squeeze", "topgainers", "runners"];
+      let foundTab = null;
+      let foundItem = null;
+
+      for (const tab of tabOrder) {
+        try {
+          const rows = rowsForTab(tab) || [];
+          const hit = rows.find(x => String(x.symbol || tickerOf(x.row) || "").toUpperCase() === target);
+          if (hit) {
+            foundTab = tab;
+            foundItem = hit;
+            break;
+          }
+        } catch (e) {}
+      }
+
+      // Critical: set selected BEFORE render so render() does not auto-select row[0].
+      state.selected = target;
+
+      if (foundTab) {
+        render(foundTab);
+      }
+
+      // Select the top-strip item after render rebuilds the tile list.
+      if (foundItem) {
+        try {
+          selectItem(foundItem);
+        } catch (e) {}
+      } else if (row && row.row_key) {
+        // If ticker exists only in lower detail data, at least select the detail panel.
+        try { selectRow(row.row_key); } catch (e) {}
+      }
+
+      // Highlight and scroll tile after render/selectItem.
+      setTimeout(() => {
+        try {
+          document.querySelectorAll(".mf-ticker-tile").forEach(x => {
+            x.classList.toggle("active", String(x.dataset.symbol || "").toUpperCase() === target);
+          });
+
+          const tile = Array.from(document.querySelectorAll(".mf-ticker-tile"))
+            .find(x => String(x.dataset.symbol || "").toUpperCase() === target);
+
+          if (tile) {
+            tile.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+          }
+        } catch (e) {}
+      }, 100);
+
+      return !!foundTab || !!row;
+    }
+
+    try {
+      const goBtn = document.getElementById("goBtn");
+      const searchBox = document.getElementById("searchBox");
+
+      if (goBtn && searchBox) {
+        goBtn.onclick = () => {
+          const q = String(searchBox.value || "").trim().toUpperCase();
+          if (q) forceCockpitSearchSync(q);
+        };
+
+        searchBox.addEventListener("keydown", (ev) => {
+          if (ev.key === "Enter") {
+            const q = String(searchBox.value || "").trim().toUpperCase();
+            if (q) forceCockpitSearchSync(q);
+          }
+        });
+      }
+    } catch (e) {}
+
+    const search = document.getElementById("mfSearchBox");
+    const go = document.getElementById("mfGoBtn");
+
+    function doSearch() {
+      const q = String(search && search.value || "").trim().toUpperCase();
+      if (!q) return;
+
+      const ledger = latestLedgerByTicker();
+      if (ledger.has(q)) {
+        const r = ledger.get(q);
+        if (r && r.row_key && typeof selectRow === "function") selectRow(r.row_key);
+        return;
+      }
+
+      const live = (typeof LIVE_UNIVERSE !== "undefined" && Array.isArray(LIVE_UNIVERSE)) ? LIVE_UNIVERSE : [];
+      const item = live.find(x => tickerOf(x) === q);
+      if (item) showLiveOnlyDetail({ symbol:q, live:item });
+    }
+
+    if (go) go.onclick = doSearch;
+    if (search) search.onkeydown = e => {
+      if (e.key === "Enter") doSearch();
+    };
+
+    render(state.tab || savedMfTab());
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", wire);
+  } else {
+    wire();
+  }
+})();
+</script>
+
+
+<script id="mf-chart-label-rail-v1b-js">
+(function () {
+  function esc(v) {
+    return String(v ?? "")
+      .replaceAll("&","&amp;")
+      .replaceAll("<","&lt;")
+      .replaceAll(">","&gt;")
+      .replaceAll('"',"&quot;")
+      .replaceAll("'","&#39;");
+  }
+
+  function parseLevels(text) {
+    const raw = String(text || "");
+    const out = {};
+    const patterns = [
+      ["entry", /Entry\s+([0-9]+(?:\.[0-9]+)?)/i],
+      ["stop", /Stop\s+([0-9]+(?:\.[0-9]+)?)/i],
+      ["tp1", /TP1\s+([0-9]+(?:\.[0-9]+)?)/i],
+      ["tp2", /TP2\s+([0-9]+(?:\.[0-9]+)?)/i],
+      ["chase", /Max\s+Chase\s+([0-9]+(?:\.[0-9]+)?)/i]
+    ];
+    patterns.forEach(([k, re]) => {
+      const m = raw.match(re);
+      if (m && m[1]) out[k] = m[1];
+    });
+    return out;
+  }
+
+  function pill(cls, label, value) {
+    if (!value) return "";
+    return `<span class="mf-level-pill ${cls}">${esc(label)} <strong>${esc(value)}</strong></span>`;
+  }
+
+  function rail(cls, label, value) {
+    if (!value) return "";
+    return `<div class="mf-rail-label ${cls}"><span>${esc(label)}</span><span>${esc(value)}</span></div>`;
+  }
+
+  function findChartPanel() {
+    return [...document.querySelectorAll(".panel")].find(p => {
+      const h3 = p.querySelector("h3");
+      return h3 && /MillyFam Internal Chart/i.test(h3.textContent || "");
+    });
+  }
+
+  function enhanceChart() {
+    const panel = findChartPanel();
+    if (!panel || panel.dataset.chartRailV1b === "1") return;
+
+    const levels = parseLevels(panel.textContent || "");
+    if (!levels.entry && !levels.stop && !levels.tp1 && !levels.tp2 && !levels.chase) return;
+
+    const body = panel.querySelector(".panel-body") || panel;
+    const svg = body.querySelector("svg");
+
+    const row = document.createElement("div");
+    row.className = "mf-trade-level-row";
+    row.innerHTML = `
+      <span class="mf-level-title">TRADE LEVELS</span>
+      ${pill("mf-level-tp", "TP2", levels.tp2)}
+      ${pill("mf-level-tp", "TP1", levels.tp1)}
+      ${pill("mf-level-chase", "MAX CHASE", levels.chase)}
+      ${pill("mf-level-entry", "ENTRY", levels.entry)}
+      ${pill("mf-level-stop", "STOP", levels.stop)}
+    `;
+
+    if (!body.querySelector(".mf-trade-level-row")) {
+      body.insertBefore(row, body.firstChild);
+    }
+
+    if (svg && !body.querySelector(".mf-chart-wrap-upgraded")) {
+      const railBox = document.createElement("div");
+      railBox.className = "mf-level-rail";
+      railBox.innerHTML = `
+        ${rail("mf-rail-tp2", "TP2", levels.tp2)}
+        ${rail("mf-rail-tp1", "TP1", levels.tp1)}
+        ${rail("mf-rail-chase", "MAX CHASE", levels.chase)}
+        ${rail("mf-rail-entry", "ENTRY", levels.entry)}
+        ${rail("mf-rail-stop", "STOP", levels.stop)}
+      `;
+
+      const wrap = document.createElement("div");
+      wrap.className = "mf-chart-wrap-upgraded";
+      svg.parentNode.insertBefore(wrap, svg);
+      wrap.appendChild(svg);
+      wrap.appendChild(railBox);
+
+      const note = document.createElement("div");
+      note.className = "mf-chart-note";
+      note.textContent = "Visual guide only. Follow Trade Zone status first. If Risk Block or No Entry is active, wait for confirmation instead of chasing.";
+      wrap.parentNode.insertBefore(note, wrap.nextSibling);
+    }
+
+    panel.dataset.chartRailV1b = "1";
+  }
+
+  function schedule() {
+    setTimeout(enhanceChart, 50);
+    setTimeout(enhanceChart, 250);
+    setTimeout(enhanceChart, 750);
+  }
+
+  const oldSelectRow = window.selectRow;
+  if (typeof oldSelectRow === "function" && !window.__mfChartRailV1bWrapped) {
+    window.selectRow = function () {
+      const result = oldSelectRow.apply(this, arguments);
+      schedule();
+      return result;
+    };
+    window.__mfChartRailV1bWrapped = true;
+  }
+
+  document.addEventListener("click", function (e) {
+    if (e.target && e.target.closest && e.target.closest(".mf-ticker-tile,.ticker-card,.smart-card")) {
+      schedule();
+    }
+  });
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", schedule);
+  } else {
+    schedule();
+  }
+})();
+</script>
+\n</body>
+</html>
