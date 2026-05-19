@@ -2,8 +2,8 @@
   "symbol": "AGYS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T09:12:37.046016",
-  "bar_count": 232,
+  "generated_at": "2026-05-19T09:17:36.846069",
+  "bar_count": 233,
   "candles": [
     {
       "time": "2026-05-18T04:55:00",
@@ -1856,10 +1856,18 @@
     {
       "time": "2026-05-19T08:10:00",
       "open": 87.5,
-      "high": 88.0,
+      "high": 88.1,
       "low": 87.24,
-      "close": 88.0,
-      "volume": 12
+      "close": 87.6,
+      "volume": 24
+    },
+    {
+      "time": "2026-05-19T08:15:00",
+      "open": 87.97,
+      "high": 88.0,
+      "low": 87.1,
+      "close": 87.62,
+      "volume": 17
     }
   ]
 }
