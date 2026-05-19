@@ -2,8 +2,8 @@
   "symbol": "INM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T12:27:26.317215",
-  "bar_count": 175,
+  "generated_at": "2026-05-19T12:32:26.684983",
+  "bar_count": 176,
   "candles": [
     {
       "time": "2026-05-18T08:30:00",
@@ -1400,10 +1400,18 @@
     {
       "time": "2026-05-19T11:25:00",
       "open": 1.43,
-      "high": 1.44,
+      "high": 1.48,
       "low": 1.39,
-      "close": 1.43,
-      "volume": 1921
+      "close": 1.475,
+      "volume": 3173
+    },
+    {
+      "time": "2026-05-19T11:30:00",
+      "open": 1.4738,
+      "high": 1.54,
+      "low": 1.4738,
+      "close": 1.5251,
+      "volume": 2647
     }
   ]
 }
