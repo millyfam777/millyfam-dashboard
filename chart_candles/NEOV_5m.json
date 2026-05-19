@@ -2,8 +2,8 @@
   "symbol": "NEOV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T10:17:46.912487",
-  "bar_count": 268,
+  "generated_at": "2026-05-19T10:22:44.693741",
+  "bar_count": 269,
   "candles": [
     {
       "time": "2026-05-18T03:00:00",
@@ -2144,10 +2144,18 @@
     {
       "time": "2026-05-19T09:15:00",
       "open": 2.0051,
-      "high": 2.01,
+      "high": 2.025,
       "low": 1.9805,
-      "close": 1.995,
-      "volume": 261
+      "close": 2.01,
+      "volume": 342
+    },
+    {
+      "time": "2026-05-19T09:20:00",
+      "open": 2.03,
+      "high": 2.06,
+      "low": 2.0,
+      "close": 2.05,
+      "volume": 91
     }
   ]
 }
