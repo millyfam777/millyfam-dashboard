@@ -2,8 +2,8 @@
   "symbol": "BKKT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T10:12:59.346728",
-  "bar_count": 267,
+  "generated_at": "2026-05-19T10:18:02.837537",
+  "bar_count": 268,
   "candles": [
     {
       "time": "2026-05-18T03:00:00",
@@ -2136,10 +2136,18 @@
     {
       "time": "2026-05-19T09:10:00",
       "open": 10.17,
-      "high": 10.22,
+      "high": 10.3,
       "low": 10.04,
-      "close": 10.18,
-      "volume": 778
+      "close": 10.15,
+      "volume": 1068
+    },
+    {
+      "time": "2026-05-19T09:15:00",
+      "open": 10.12,
+      "high": 10.21,
+      "low": 10.11,
+      "close": 10.21,
+      "volume": 216
     }
   ]
 }
