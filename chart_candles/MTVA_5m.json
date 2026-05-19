@@ -2,8 +2,8 @@
   "symbol": "MTVA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T07:52:29.565323",
-  "bar_count": 239,
+  "generated_at": "2026-05-19T07:57:30.215943",
+  "bar_count": 240,
   "candles": [
     {
       "time": "2026-05-18T03:00:00",
@@ -1913,9 +1913,17 @@
       "time": "2026-05-19T06:50:00",
       "open": 1.69,
       "high": 1.71,
+      "low": 1.65,
+      "close": 1.68,
+      "volume": 3395
+    },
+    {
+      "time": "2026-05-19T06:55:00",
+      "open": 1.6887,
+      "high": 1.71,
       "low": 1.68,
-      "close": 1.6997,
-      "volume": 1120
+      "close": 1.71,
+      "volume": 905
     }
   ]
 }
