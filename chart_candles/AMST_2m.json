@@ -2,8 +2,8 @@
   "symbol": "AMST",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T17:52:26.578778",
-  "bar_count": 827,
+  "generated_at": "2026-05-19T17:57:25.623067",
+  "bar_count": 829,
   "candles": [
     {
       "time": "2026-05-18T05:20:00",
@@ -6616,10 +6616,26 @@
     {
       "time": "2026-05-19T16:52:00",
       "open": 1.66,
-      "high": 1.66,
+      "high": 1.67,
+      "low": 1.65,
+      "close": 1.65,
+      "volume": 44
+    },
+    {
+      "time": "2026-05-19T16:54:00",
+      "open": 1.66,
+      "high": 1.68,
       "low": 1.66,
-      "close": 1.66,
-      "volume": 6
+      "close": 1.68,
+      "volume": 77
+    },
+    {
+      "time": "2026-05-19T16:56:00",
+      "open": 1.68,
+      "high": 1.69,
+      "low": 1.68,
+      "close": 1.68,
+      "volume": 29
     }
   ]
 }
