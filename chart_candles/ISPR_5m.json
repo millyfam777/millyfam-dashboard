@@ -2,8 +2,8 @@
   "symbol": "ISPR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T15:02:48.586556",
-  "bar_count": 193,
+  "generated_at": "2026-05-19T15:07:55.922406",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-05-18T08:30:00",
@@ -1545,9 +1545,17 @@
       "time": "2026-05-19T14:00:00",
       "open": 2.125,
       "high": 2.15,
-      "low": 2.125,
+      "low": 2.12,
       "close": 2.15,
-      "volume": 45
+      "volume": 90
+    },
+    {
+      "time": "2026-05-19T14:05:00",
+      "open": 2.155,
+      "high": 2.17,
+      "low": 2.1,
+      "close": 2.12,
+      "volume": 87
     }
   ]
 }
