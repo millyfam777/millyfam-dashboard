@@ -2,8 +2,8 @@
   "symbol": "CBRG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T11:07:55.827887",
-  "bar_count": 278,
+  "generated_at": "2026-05-19T11:12:54.429881",
+  "bar_count": 279,
   "candles": [
     {
       "time": "2026-05-18T03:00:00",
@@ -2224,10 +2224,18 @@
     {
       "time": "2026-05-19T10:05:00",
       "open": 16.19,
-      "high": 16.19,
+      "high": 16.24,
       "low": 15.8,
-      "close": 15.85,
-      "volume": 324
+      "close": 16.06,
+      "volume": 693
+    },
+    {
+      "time": "2026-05-19T10:10:00",
+      "open": 16.05,
+      "high": 16.2,
+      "low": 16.0,
+      "close": 16.16,
+      "volume": 136
     }
   ]
 }
