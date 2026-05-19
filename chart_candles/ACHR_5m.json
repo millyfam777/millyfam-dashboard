@@ -2,8 +2,8 @@
   "symbol": "ACHR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T04:57:31.498665",
-  "bar_count": 204,
+  "generated_at": "2026-05-19T05:02:31.467483",
+  "bar_count": 205,
   "candles": [
     {
       "time": "2026-05-18T03:00:00",
@@ -1632,10 +1632,18 @@
     {
       "time": "2026-05-19T03:55:00",
       "open": 5.91,
-      "high": 5.91,
+      "high": 5.9105,
       "low": 5.91,
-      "close": 5.91,
-      "volume": 10
+      "close": 5.9105,
+      "volume": 12
+    },
+    {
+      "time": "2026-05-19T04:00:00",
+      "open": 5.91,
+      "high": 5.91,
+      "low": 5.89,
+      "close": 5.89,
+      "volume": 6
     }
   ]
 }
