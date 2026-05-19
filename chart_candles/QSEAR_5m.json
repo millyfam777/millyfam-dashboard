@@ -2,8 +2,8 @@
   "symbol": "QSEAR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T15:12:42.348388",
-  "bar_count": 68,
+  "generated_at": "2026-05-19T15:17:44.229599",
+  "bar_count": 69,
   "candles": [
     {
       "time": "2026-05-19T08:35:00",
@@ -545,9 +545,17 @@
       "time": "2026-05-19T14:10:00",
       "open": 0.3333,
       "high": 0.4299,
-      "low": 0.3333,
-      "close": 0.4299,
-      "volume": 9
+      "low": 0.246,
+      "close": 0.3,
+      "volume": 21
+    },
+    {
+      "time": "2026-05-19T14:15:00",
+      "open": 0.3,
+      "high": 0.3,
+      "low": 0.3,
+      "close": 0.3,
+      "volume": 39
     }
   ]
 }
