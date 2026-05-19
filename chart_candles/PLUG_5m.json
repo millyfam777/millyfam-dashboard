@@ -2,8 +2,8 @@
   "symbol": "PLUG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T04:52:49.064836",
-  "bar_count": 203,
+  "generated_at": "2026-05-19T04:57:49.506361",
+  "bar_count": 204,
   "candles": [
     {
       "time": "2026-05-18T03:00:00",
@@ -1624,10 +1624,18 @@
     {
       "time": "2026-05-19T03:50:00",
       "open": 3.4131,
-      "high": 3.4131,
+      "high": 3.42,
       "low": 3.4131,
-      "close": 3.4131,
-      "volume": 1
+      "close": 3.42,
+      "volume": 3
+    },
+    {
+      "time": "2026-05-19T03:55:00",
+      "open": 3.41,
+      "high": 3.415,
+      "low": 3.41,
+      "close": 3.415,
+      "volume": 62
     }
   ]
 }
