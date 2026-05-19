@@ -2,8 +2,8 @@
   "symbol": "IINN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T09:22:51.939753",
-  "bar_count": 215,
+  "generated_at": "2026-05-19T09:27:46.030090",
+  "bar_count": 216,
   "candles": [
     {
       "time": "2026-05-18T06:20:00",
@@ -1720,10 +1720,18 @@
     {
       "time": "2026-05-19T08:20:00",
       "open": 0.4154,
-      "high": 0.4154,
+      "high": 0.435,
       "low": 0.4154,
-      "close": 0.4154,
-      "volume": 0
+      "close": 0.435,
+      "volume": 5
+    },
+    {
+      "time": "2026-05-19T08:25:00",
+      "open": 0.435,
+      "high": 0.4374,
+      "low": 0.4154,
+      "close": 0.435,
+      "volume": 220
     }
   ]
 }
