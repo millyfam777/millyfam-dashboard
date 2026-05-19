@@ -2,8 +2,8 @@
   "symbol": "ADIL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T16:17:58.830584",
-  "bar_count": 335,
+  "generated_at": "2026-05-19T16:22:58.524577",
+  "bar_count": 336,
   "candles": [
     {
       "time": "2026-05-18T03:25:00",
@@ -2680,10 +2680,18 @@
     {
       "time": "2026-05-19T15:15:00",
       "open": 2.05,
-      "high": 2.05,
+      "high": 2.0513,
       "low": 2.05,
-      "close": 2.05,
-      "volume": 3
+      "close": 2.0513,
+      "volume": 4
+    },
+    {
+      "time": "2026-05-19T15:20:00",
+      "open": 2.05,
+      "high": 2.05,
+      "low": 2.01,
+      "close": 2.01,
+      "volume": 70
     }
   ]
 }
