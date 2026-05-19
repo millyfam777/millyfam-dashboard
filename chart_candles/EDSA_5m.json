@@ -2,8 +2,8 @@
   "symbol": "EDSA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T15:57:45.195770",
-  "bar_count": 333,
+  "generated_at": "2026-05-19T16:02:43.156878",
+  "bar_count": 334,
   "candles": [
     {
       "time": "2026-05-18T03:00:00",
@@ -2664,10 +2664,18 @@
     {
       "time": "2026-05-19T14:55:00",
       "open": 11.915,
-      "high": 11.965,
+      "high": 12.0,
       "low": 11.75,
-      "close": 11.92,
-      "volume": 31
+      "close": 11.945,
+      "volume": 114
+    },
+    {
+      "time": "2026-05-19T15:00:00",
+      "open": 11.95,
+      "high": 11.95,
+      "low": 11.95,
+      "close": 11.95,
+      "volume": 91
     }
   ]
 }
