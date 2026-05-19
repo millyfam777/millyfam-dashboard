@@ -2,8 +2,8 @@
   "symbol": "EURKR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T12:07:38.760361",
-  "bar_count": 5,
+  "generated_at": "2026-05-19T12:17:38.093168",
+  "bar_count": 7,
   "candles": [
     {
       "time": "2026-05-19T10:45:00",
@@ -42,8 +42,24 @@
       "open": 0.4678,
       "high": 0.4678,
       "low": 0.34,
-      "close": 0.34,
-      "volume": 129
+      "close": 0.3624,
+      "volume": 143
+    },
+    {
+      "time": "2026-05-19T11:10:00",
+      "open": 0.47,
+      "high": 0.47,
+      "low": 0.4,
+      "close": 0.41,
+      "volume": 99
+    },
+    {
+      "time": "2026-05-19T11:15:00",
+      "open": 0.41,
+      "high": 0.41,
+      "low": 0.41,
+      "close": 0.41,
+      "volume": 0
     }
   ]
 }
