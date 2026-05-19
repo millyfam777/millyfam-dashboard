@@ -2,8 +2,8 @@
   "symbol": "MLP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T12:17:54.196898",
-  "bar_count": 156,
+  "generated_at": "2026-05-19T12:23:27.738919",
+  "bar_count": 157,
   "candles": [
     {
       "time": "2026-05-18T08:50:00",
@@ -1247,11 +1247,19 @@
     },
     {
       "time": "2026-05-19T11:15:00",
+      "open": 18.2,
+      "high": 18.2,
+      "low": 18.17,
+      "close": 18.17,
+      "volume": 6
+    },
+    {
+      "time": "2026-05-19T11:20:00",
       "open": 18.0,
       "high": 18.0,
-      "low": 18.0,
-      "close": 18.0,
-      "volume": 0
+      "low": 17.64,
+      "close": 17.64,
+      "volume": 17
     }
   ]
 }
