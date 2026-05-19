@@ -2,8 +2,8 @@
   "symbol": "BTBT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T05:17:58.154538",
-  "bar_count": 208,
+  "generated_at": "2026-05-19T05:22:58.203640",
+  "bar_count": 209,
   "candles": [
     {
       "time": "2026-05-18T03:00:00",
@@ -1664,10 +1664,18 @@
     {
       "time": "2026-05-19T04:15:00",
       "open": 1.675,
-      "high": 1.675,
+      "high": 1.68,
       "low": 1.675,
-      "close": 1.675,
-      "volume": 10
+      "close": 1.68,
+      "volume": 11
+    },
+    {
+      "time": "2026-05-19T04:20:00",
+      "open": 1.68,
+      "high": 1.68,
+      "low": 1.68,
+      "close": 1.68,
+      "volume": 0
     }
   ]
 }
