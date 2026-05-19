@@ -2,8 +2,8 @@
   "symbol": "SOFI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-19T04:37:45.194952",
-  "bar_count": 200,
+  "generated_at": "2026-05-19T04:42:44.594054",
+  "bar_count": 201,
   "candles": [
     {
       "time": "2026-05-18T03:00:00",
@@ -1600,10 +1600,18 @@
     {
       "time": "2026-05-19T03:35:00",
       "open": 15.63,
-      "high": 15.64,
+      "high": 15.65,
       "low": 15.62,
-      "close": 15.64,
-      "volume": 6
+      "close": 15.65,
+      "volume": 28
+    },
+    {
+      "time": "2026-05-19T03:40:00",
+      "open": 15.65,
+      "high": 15.65,
+      "low": 15.65,
+      "close": 15.65,
+      "volume": 4
     }
   ]
 }
