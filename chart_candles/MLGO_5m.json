@@ -2,8 +2,8 @@
   "symbol": "MLGO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-20T12:52:46.313681",
-  "bar_count": 299,
+  "generated_at": "2026-05-20T12:57:44.387696",
+  "bar_count": 300,
   "candles": [
     {
       "time": "2026-05-19T03:00:00",
@@ -2392,10 +2392,18 @@
     {
       "time": "2026-05-20T11:50:00",
       "open": 5.36,
-      "high": 5.45,
+      "high": 5.51,
       "low": 5.3,
-      "close": 5.45,
-      "volume": 288
+      "close": 5.36,
+      "volume": 782
+    },
+    {
+      "time": "2026-05-20T11:55:00",
+      "open": 5.42,
+      "high": 5.8,
+      "low": 5.35,
+      "close": 5.66,
+      "volume": 1212
     }
   ]
 }
