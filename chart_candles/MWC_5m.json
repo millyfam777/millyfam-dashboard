@@ -2,8 +2,8 @@
   "symbol": "MWC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-20T17:02:44.242477",
-  "bar_count": 343,
+  "generated_at": "2026-05-20T17:07:38.317125",
+  "bar_count": 344,
   "candles": [
     {
       "time": "2026-05-19T03:00:00",
@@ -2744,10 +2744,18 @@
     {
       "time": "2026-05-20T16:00:00",
       "open": 7.06,
-      "high": 7.06,
+      "high": 7.08,
       "low": 7.06,
-      "close": 7.06,
-      "volume": 2
+      "close": 7.08,
+      "volume": 7
+    },
+    {
+      "time": "2026-05-20T16:05:00",
+      "open": 7.08,
+      "high": 7.08,
+      "low": 7.03,
+      "close": 7.03,
+      "volume": 23
     }
   ]
 }
