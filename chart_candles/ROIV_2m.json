@@ -2,8 +2,8 @@
   "symbol": "ROIV",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-05-20T08:12:56.120947",
-  "bar_count": 526,
+  "generated_at": "2026-05-20T08:17:53.488161",
+  "bar_count": 528,
   "candles": [
     {
       "time": "2026-05-19T05:42:00",
@@ -4209,9 +4209,25 @@
       "time": "2026-05-20T07:12:00",
       "open": 32.71,
       "high": 32.71,
-      "low": 32.39,
+      "low": 32.0,
+      "close": 32.23,
+      "volume": 172
+    },
+    {
+      "time": "2026-05-20T07:14:00",
+      "open": 32.23,
+      "high": 32.39,
+      "low": 32.2,
       "close": 32.39,
-      "volume": 12
+      "volume": 58
+    },
+    {
+      "time": "2026-05-20T07:16:00",
+      "open": 32.62,
+      "high": 32.62,
+      "low": 32.0,
+      "close": 32.28,
+      "volume": 112
     }
   ]
 }
