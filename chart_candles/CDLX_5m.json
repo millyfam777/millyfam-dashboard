@@ -2,8 +2,8 @@
   "symbol": "CDLX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-20T04:07:56.444645",
-  "bar_count": 193,
+  "generated_at": "2026-05-20T04:12:54.466662",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-05-19T03:05:00",
@@ -1544,10 +1544,18 @@
     {
       "time": "2026-05-20T03:05:00",
       "open": 0.661,
-      "high": 0.67,
+      "high": 0.6748,
       "low": 0.661,
-      "close": 0.6695,
-      "volume": 147
+      "close": 0.67,
+      "volume": 167
+    },
+    {
+      "time": "2026-05-20T03:10:00",
+      "open": 0.675,
+      "high": 0.68,
+      "low": 0.66,
+      "close": 0.662,
+      "volume": 130
     }
   ]
 }
