@@ -2,8 +2,8 @@
   "symbol": "PETZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-20T05:52:37.396120",
-  "bar_count": 140,
+  "generated_at": "2026-05-20T05:57:37.659933",
+  "bar_count": 141,
   "candles": [
     {
       "time": "2026-05-19T09:15:00",
@@ -1121,9 +1121,17 @@
       "time": "2026-05-20T04:50:00",
       "open": 1.06,
       "high": 1.07,
-      "low": 1.06,
+      "low": 1.05,
+      "close": 1.0608,
+      "volume": 390
+    },
+    {
+      "time": "2026-05-20T04:55:00",
+      "open": 1.06,
+      "high": 1.07,
+      "low": 1.05,
       "close": 1.06,
-      "volume": 169
+      "volume": 125
     }
   ]
 }
