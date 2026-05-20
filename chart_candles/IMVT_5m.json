@@ -2,8 +2,8 @@
   "symbol": "IMVT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-20T14:17:57.417307",
-  "bar_count": 286,
+  "generated_at": "2026-05-20T14:22:58.043120",
+  "bar_count": 287,
   "candles": [
     {
       "time": "2026-05-19T04:05:00",
@@ -2288,10 +2288,18 @@
     {
       "time": "2026-05-20T13:15:00",
       "open": 35.1,
-      "high": 35.2,
+      "high": 35.23,
       "low": 35.08,
-      "close": 35.16,
-      "volume": 118
+      "close": 35.22,
+      "volume": 249
+    },
+    {
+      "time": "2026-05-20T13:20:00",
+      "open": 35.22,
+      "high": 35.25,
+      "low": 35.09,
+      "close": 35.11,
+      "volume": 124
     }
   ]
 }
