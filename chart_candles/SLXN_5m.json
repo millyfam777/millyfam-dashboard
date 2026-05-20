@@ -2,8 +2,8 @@
   "symbol": "SLXN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-20T11:17:35.853363",
-  "bar_count": 279,
+  "generated_at": "2026-05-20T11:22:46.413819",
+  "bar_count": 280,
   "candles": [
     {
       "time": "2026-05-19T03:00:00",
@@ -2232,10 +2232,18 @@
     {
       "time": "2026-05-20T10:15:00",
       "open": 0.3705,
-      "high": 0.3938,
+      "high": 0.44,
       "low": 0.3704,
-      "close": 0.3899,
-      "volume": 4755
+      "close": 0.44,
+      "volume": 26599
+    },
+    {
+      "time": "2026-05-20T10:20:00",
+      "open": 0.44,
+      "high": 0.53,
+      "low": 0.4384,
+      "close": 0.5285,
+      "volume": 62495
     }
   ]
 }
