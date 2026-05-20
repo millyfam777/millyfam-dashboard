@@ -2,8 +2,8 @@
   "symbol": "RRGB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-20T06:08:02.044523",
-  "bar_count": 178,
+  "generated_at": "2026-05-20T06:13:02.113294",
+  "bar_count": 179,
   "candles": [
     {
       "time": "2026-05-19T06:20:00",
@@ -1424,10 +1424,18 @@
     {
       "time": "2026-05-20T05:05:00",
       "open": 4.16,
-      "high": 4.16,
+      "high": 4.25,
       "low": 4.11,
-      "close": 4.11,
-      "volume": 15
+      "close": 4.25,
+      "volume": 21
+    },
+    {
+      "time": "2026-05-20T05:10:00",
+      "open": 4.24,
+      "high": 4.28,
+      "low": 4.24,
+      "close": 4.28,
+      "volume": 4
     }
   ]
 }
