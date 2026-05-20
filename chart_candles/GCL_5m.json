@@ -2,8 +2,8 @@
   "symbol": "GCL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-20T17:27:29.248699",
-  "bar_count": 300,
+  "generated_at": "2026-05-20T17:32:28.974517",
+  "bar_count": 301,
   "candles": [
     {
       "time": "2026-05-19T07:30:00",
@@ -2400,10 +2400,18 @@
     {
       "time": "2026-05-20T16:25:00",
       "open": 0.8,
+      "high": 0.81,
+      "low": 0.7801,
+      "close": 0.7802,
+      "volume": 246
+    },
+    {
+      "time": "2026-05-20T16:30:00",
+      "open": 0.7803,
       "high": 0.8,
-      "low": 0.7838,
-      "close": 0.8,
-      "volume": 152
+      "low": 0.7803,
+      "close": 0.796,
+      "volume": 27
     }
   ]
 }
