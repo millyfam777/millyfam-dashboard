@@ -2,8 +2,8 @@
   "symbol": "AMPG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-20T08:53:00.835535",
-  "bar_count": 251,
+  "generated_at": "2026-05-20T08:58:01.343302",
+  "bar_count": 252,
   "candles": [
     {
       "time": "2026-05-19T03:00:00",
@@ -2008,10 +2008,18 @@
     {
       "time": "2026-05-20T07:50:00",
       "open": 4.4999,
-      "high": 4.4999,
+      "high": 4.57,
       "low": 4.4835,
-      "close": 4.49,
-      "volume": 42
+      "close": 4.56,
+      "volume": 424
+    },
+    {
+      "time": "2026-05-20T07:55:00",
+      "open": 4.5432,
+      "high": 4.57,
+      "low": 4.54,
+      "close": 4.5507,
+      "volume": 95
     }
   ]
 }
