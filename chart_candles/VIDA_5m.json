@@ -2,8 +2,8 @@
   "symbol": "VIDA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-20T17:47:27.082670",
-  "bar_count": 350,
+  "generated_at": "2026-05-20T17:57:26.701353",
+  "bar_count": 352,
   "candles": [
     {
       "time": "2026-05-19T03:00:00",
@@ -2800,10 +2800,26 @@
     {
       "time": "2026-05-20T16:45:00",
       "open": 4.09,
+      "high": 4.14,
+      "low": 4.07,
+      "close": 4.1,
+      "volume": 248
+    },
+    {
+      "time": "2026-05-20T16:50:00",
+      "open": 4.1,
       "high": 4.13,
-      "low": 4.09,
+      "low": 4.06,
       "close": 4.11,
-      "volume": 103
+      "volume": 326
+    },
+    {
+      "time": "2026-05-20T16:55:00",
+      "open": 4.07,
+      "high": 4.1,
+      "low": 4.06,
+      "close": 4.08,
+      "volume": 60
     }
   ]
 }
