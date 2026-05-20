@@ -2,8 +2,8 @@
   "symbol": "RAIN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-20T15:17:52.114088",
-  "bar_count": 209,
+  "generated_at": "2026-05-20T15:22:52.213792",
+  "bar_count": 210,
   "candles": [
     {
       "time": "2026-05-19T09:10:00",
@@ -1672,10 +1672,18 @@
     {
       "time": "2026-05-20T14:15:00",
       "open": 2.0,
-      "high": 2.0,
+      "high": 2.06,
       "low": 1.945,
-      "close": 2.0,
-      "volume": 37
+      "close": 2.06,
+      "volume": 39
+    },
+    {
+      "time": "2026-05-20T14:20:00",
+      "open": 2.06,
+      "high": 2.06,
+      "low": 2.06,
+      "close": 2.06,
+      "volume": 0
     }
   ]
 }
