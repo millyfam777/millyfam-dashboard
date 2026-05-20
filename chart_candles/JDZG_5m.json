@@ -2,8 +2,8 @@
   "symbol": "JDZG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-20T19:38:05.250958",
-  "bar_count": 380,
+  "generated_at": "2026-05-20T19:43:04.144509",
+  "bar_count": 381,
   "candles": [
     {
       "time": "2026-05-19T03:00:00",
@@ -3040,10 +3040,18 @@
     {
       "time": "2026-05-20T18:35:00",
       "open": 3.2,
-      "high": 3.2,
+      "high": 3.23,
       "low": 3.2,
-      "close": 3.2,
-      "volume": 10
+      "close": 3.2285,
+      "volume": 14
+    },
+    {
+      "time": "2026-05-20T18:40:00",
+      "open": 3.29,
+      "high": 3.4,
+      "low": 3.28,
+      "close": 3.4,
+      "volume": 99
     }
   ]
 }
