@@ -2,8 +2,8 @@
   "symbol": "CAPS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-20T13:42:57.777966",
-  "bar_count": 309,
+  "generated_at": "2026-05-20T13:47:55.477033",
+  "bar_count": 310,
   "candles": [
     {
       "time": "2026-05-19T03:00:00",
@@ -2473,9 +2473,17 @@
       "time": "2026-05-20T12:40:00",
       "open": 0.4058,
       "high": 0.4075,
-      "low": 0.4005,
-      "close": 0.4052,
-      "volume": 870
+      "low": 0.4,
+      "close": 0.4017,
+      "volume": 1536
+    },
+    {
+      "time": "2026-05-20T12:45:00",
+      "open": 0.4018,
+      "high": 0.4099,
+      "low": 0.401,
+      "close": 0.4079,
+      "volume": 589
     }
   ]
 }
