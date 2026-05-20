@@ -2,8 +2,8 @@
   "symbol": "CTEV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-20T11:43:00.451253",
-  "bar_count": 275,
+  "generated_at": "2026-05-20T11:47:57.312143",
+  "bar_count": 276,
   "candles": [
     {
       "time": "2026-05-19T03:10:00",
@@ -2200,10 +2200,18 @@
     {
       "time": "2026-05-20T10:40:00",
       "open": 20.96,
-      "high": 21.08,
+      "high": 21.15,
       "low": 20.96,
-      "close": 21.08,
-      "volume": 10
+      "close": 21.15,
+      "volume": 55
+    },
+    {
+      "time": "2026-05-20T10:45:00",
+      "open": 21.15,
+      "high": 21.25,
+      "low": 20.89,
+      "close": 20.94,
+      "volume": 35
     }
   ]
 }
