@@ -2,8 +2,8 @@
   "symbol": "QUBX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-21T06:08:03.816524",
-  "bar_count": 218,
+  "generated_at": "2026-05-21T06:12:48.290318",
+  "bar_count": 219,
   "candles": [
     {
       "time": "2026-05-20T03:00:00",
@@ -1744,10 +1744,18 @@
     {
       "time": "2026-05-21T05:05:00",
       "open": 14.01,
-      "high": 14.82,
+      "high": 15.16,
       "low": 13.79,
-      "close": 14.5,
-      "volume": 112
+      "close": 15.16,
+      "volume": 164
+    },
+    {
+      "time": "2026-05-21T05:10:00",
+      "open": 14.8,
+      "high": 15.5,
+      "low": 14.8,
+      "close": 15.36,
+      "volume": 100
     }
   ]
 }
