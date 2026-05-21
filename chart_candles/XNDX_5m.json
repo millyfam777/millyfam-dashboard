@@ -2,8 +2,8 @@
   "symbol": "XNDX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-21T08:17:54.211888",
-  "bar_count": 244,
+  "generated_at": "2026-05-21T08:22:57.099050",
+  "bar_count": 245,
   "candles": [
     {
       "time": "2026-05-20T03:00:00",
@@ -1952,10 +1952,18 @@
     {
       "time": "2026-05-21T07:15:00",
       "open": 24.0,
-      "high": 24.0,
+      "high": 24.18,
       "low": 23.96,
-      "close": 23.96,
-      "volume": 8
+      "close": 24.18,
+      "volume": 12
+    },
+    {
+      "time": "2026-05-21T07:20:00",
+      "open": 24.47,
+      "high": 24.5,
+      "low": 24.47,
+      "close": 24.5,
+      "volume": 2
     }
   ]
 }
