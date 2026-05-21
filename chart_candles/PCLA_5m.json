@@ -2,8 +2,8 @@
   "symbol": "PCLA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-21T07:27:33.815055",
-  "bar_count": 168,
+  "generated_at": "2026-05-21T07:32:36.214771",
+  "bar_count": 169,
   "candles": [
     {
       "time": "2026-05-20T08:30:00",
@@ -1345,9 +1345,17 @@
       "time": "2026-05-21T06:25:00",
       "open": 2.07,
       "high": 2.07,
-      "low": 2.01,
-      "close": 2.02,
-      "volume": 353
+      "low": 1.99,
+      "close": 2.0,
+      "volume": 677
+    },
+    {
+      "time": "2026-05-21T06:30:00",
+      "open": 1.99,
+      "high": 2.02,
+      "low": 1.98,
+      "close": 1.9801,
+      "volume": 125
     }
   ]
 }
