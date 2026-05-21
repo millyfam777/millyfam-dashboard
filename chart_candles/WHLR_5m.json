@@ -2,8 +2,8 @@
   "symbol": "WHLR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-21T14:17:53.319505",
-  "bar_count": 311,
+  "generated_at": "2026-05-21T14:22:55.123609",
+  "bar_count": 312,
   "candles": [
     {
       "time": "2026-05-20T03:00:00",
@@ -2489,9 +2489,17 @@
       "time": "2026-05-21T13:15:00",
       "open": 1.3022,
       "high": 1.31,
-      "low": 1.3,
+      "low": 1.29,
+      "close": 1.2901,
+      "volume": 360
+    },
+    {
+      "time": "2026-05-21T13:20:00",
+      "open": 1.3,
+      "high": 1.31,
+      "low": 1.29,
       "close": 1.31,
-      "volume": 78
+      "volume": 129
     }
   ]
 }
