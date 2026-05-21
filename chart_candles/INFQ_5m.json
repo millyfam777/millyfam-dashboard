@@ -2,8 +2,8 @@
   "symbol": "INFQ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-21T09:57:42.325519",
-  "bar_count": 264,
+  "generated_at": "2026-05-21T10:02:44.186123",
+  "bar_count": 265,
   "candles": [
     {
       "time": "2026-05-20T03:00:00",
@@ -2113,9 +2113,17 @@
       "time": "2026-05-21T08:55:00",
       "open": 15.62,
       "high": 15.75,
+      "low": 15.25,
+      "close": 15.48,
+      "volume": 14862
+    },
+    {
+      "time": "2026-05-21T09:00:00",
+      "open": 15.46,
+      "high": 15.84,
       "low": 15.38,
-      "close": 15.52,
-      "volume": 10104
+      "close": 15.82,
+      "volume": 6791
     }
   ]
 }
