@@ -2,8 +2,8 @@
   "symbol": "SBFM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-21T13:07:46.213245",
-  "bar_count": 302,
+  "generated_at": "2026-05-21T13:12:52.681041",
+  "bar_count": 303,
   "candles": [
     {
       "time": "2026-05-20T03:00:00",
@@ -2416,10 +2416,18 @@
     {
       "time": "2026-05-21T12:05:00",
       "open": 0.5093,
-      "high": 0.5093,
+      "high": 0.51,
       "low": 0.503,
-      "close": 0.503,
-      "volume": 1614
+      "close": 0.5087,
+      "volume": 3570
+    },
+    {
+      "time": "2026-05-21T12:10:00",
+      "open": 0.5088,
+      "high": 0.5134,
+      "low": 0.5036,
+      "close": 0.51,
+      "volume": 3971
     }
   ]
 }
