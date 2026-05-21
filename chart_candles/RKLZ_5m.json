@@ -2,8 +2,8 @@
   "symbol": "RKLZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-21T04:38:08.158513",
-  "bar_count": 200,
+  "generated_at": "2026-05-21T04:43:00.092708",
+  "bar_count": 201,
   "candles": [
     {
       "time": "2026-05-20T03:00:00",
@@ -1602,8 +1602,16 @@
       "open": 2.5,
       "high": 2.51,
       "low": 2.49,
+      "close": 2.51,
+      "volume": 666
+    },
+    {
+      "time": "2026-05-21T03:40:00",
+      "open": 2.5,
+      "high": 2.5,
+      "low": 2.49,
       "close": 2.5,
-      "volume": 608
+      "volume": 180
     }
   ]
 }
