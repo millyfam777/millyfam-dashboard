@@ -2,8 +2,8 @@
   "symbol": "ATPC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-21T19:07:24.536126",
-  "bar_count": 308,
+  "generated_at": "2026-05-21T19:12:24.687462",
+  "bar_count": 309,
   "candles": [
     {
       "time": "2026-05-20T08:30:00",
@@ -2464,10 +2464,18 @@
     {
       "time": "2026-05-21T18:05:00",
       "open": 3.82,
-      "high": 3.85,
+      "high": 3.87,
       "low": 3.82,
-      "close": 3.85,
-      "volume": 30
+      "close": 3.82,
+      "volume": 52
+    },
+    {
+      "time": "2026-05-21T18:10:00",
+      "open": 3.82,
+      "high": 3.82,
+      "low": 3.65,
+      "close": 3.66,
+      "volume": 48
     }
   ]
 }
