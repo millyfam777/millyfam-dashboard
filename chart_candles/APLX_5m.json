@@ -2,8 +2,8 @@
   "symbol": "APLX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-21T15:22:49.407836",
-  "bar_count": 329,
+  "generated_at": "2026-05-21T15:27:51.263404",
+  "bar_count": 330,
   "candles": [
     {
       "time": "2026-05-20T03:00:00",
@@ -2632,10 +2632,18 @@
     {
       "time": "2026-05-21T14:20:00",
       "open": 37.34,
-      "high": 37.42,
+      "high": 37.5,
       "low": 37.21,
-      "close": 37.25,
-      "volume": 70
+      "close": 37.5,
+      "volume": 101
+    },
+    {
+      "time": "2026-05-21T14:25:00",
+      "open": 37.5,
+      "high": 37.5,
+      "low": 37.06,
+      "close": 37.11,
+      "volume": 20
     }
   ]
 }
