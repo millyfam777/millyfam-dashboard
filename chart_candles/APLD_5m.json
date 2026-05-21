@@ -2,8 +2,8 @@
   "symbol": "APLD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-21T05:28:04.760541",
-  "bar_count": 210,
+  "generated_at": "2026-05-21T05:33:09.683388",
+  "bar_count": 211,
   "candles": [
     {
       "time": "2026-05-20T03:00:00",
@@ -1680,10 +1680,18 @@
     {
       "time": "2026-05-21T04:25:00",
       "open": 44.0585,
-      "high": 44.0941,
+      "high": 44.15,
       "low": 44.01,
-      "close": 44.09,
-      "volume": 36
+      "close": 44.1372,
+      "volume": 76
+    },
+    {
+      "time": "2026-05-21T04:30:00",
+      "open": 44.12,
+      "high": 44.25,
+      "low": 44.0,
+      "close": 44.0,
+      "volume": 110
     }
   ]
 }
