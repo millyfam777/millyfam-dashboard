@@ -2,8 +2,8 @@
   "symbol": "RGTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-21T06:42:45.571386",
-  "bar_count": 225,
+  "generated_at": "2026-05-21T06:47:44.097712",
+  "bar_count": 226,
   "candles": [
     {
       "time": "2026-05-20T03:00:00",
@@ -1800,10 +1800,18 @@
     {
       "time": "2026-05-21T05:40:00",
       "open": 22.85,
-      "high": 23.26,
+      "high": 23.27,
       "low": 22.81,
-      "close": 23.17,
-      "volume": 73
+      "close": 23.08,
+      "volume": 231
+    },
+    {
+      "time": "2026-05-21T05:45:00",
+      "open": 23.21,
+      "high": 23.21,
+      "low": 22.88,
+      "close": 22.97,
+      "volume": 79
     }
   ]
 }
