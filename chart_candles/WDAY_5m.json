@@ -2,8 +2,8 @@
   "symbol": "WDAY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-22T04:48:06.060656",
-  "bar_count": 202,
+  "generated_at": "2026-05-22T04:52:55.743979",
+  "bar_count": 203,
   "candles": [
     {
       "time": "2026-05-21T03:00:00",
@@ -1616,9 +1616,17 @@
     {
       "time": "2026-05-22T03:45:00",
       "open": 135.5,
-      "high": 135.5,
+      "high": 135.77,
       "low": 135.5,
-      "close": 135.5,
+      "close": 135.77,
+      "volume": 3
+    },
+    {
+      "time": "2026-05-22T03:50:00",
+      "open": 135.77,
+      "high": 135.77,
+      "low": 135.77,
+      "close": 135.77,
       "volume": 0
     }
   ]
