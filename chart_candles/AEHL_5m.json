@@ -2,8 +2,8 @@
   "symbol": "AEHL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-22T16:12:26.419516",
-  "bar_count": 339,
+  "generated_at": "2026-05-22T16:17:25.321065",
+  "bar_count": 340,
   "candles": [
     {
       "time": "2026-05-21T03:00:00",
@@ -2713,9 +2713,17 @@
       "time": "2026-05-22T15:10:00",
       "open": 1.55,
       "high": 1.55,
-      "low": 1.51,
+      "low": 1.5097,
       "close": 1.51,
-      "volume": 35
+      "volume": 60
+    },
+    {
+      "time": "2026-05-22T15:15:00",
+      "open": 1.5097,
+      "high": 1.5097,
+      "low": 1.5097,
+      "close": 1.5097,
+      "volume": 2
     }
   ]
 }
