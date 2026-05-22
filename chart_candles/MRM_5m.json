@@ -2,8 +2,8 @@
   "symbol": "MRM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-22T08:52:53.750629",
-  "bar_count": 251,
+  "generated_at": "2026-05-22T08:57:51.363380",
+  "bar_count": 252,
   "candles": [
     {
       "time": "2026-05-21T03:00:00",
@@ -2008,10 +2008,18 @@
     {
       "time": "2026-05-22T07:50:00",
       "open": 1.1603,
+      "high": 1.1903,
+      "low": 1.16,
+      "close": 1.1801,
+      "volume": 709
+    },
+    {
+      "time": "2026-05-22T07:55:00",
+      "open": 1.18,
       "high": 1.19,
       "low": 1.16,
-      "close": 1.19,
-      "volume": 618
+      "close": 1.16,
+      "volume": 330
     }
   ]
 }
