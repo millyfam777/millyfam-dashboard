@@ -2,8 +2,8 @@
   "symbol": "SVRN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-22T09:47:40.165924",
-  "bar_count": 198,
+  "generated_at": "2026-05-22T09:52:42.574106",
+  "bar_count": 199,
   "candles": [
     {
       "time": "2026-05-21T05:20:00",
@@ -1584,10 +1584,18 @@
     {
       "time": "2026-05-22T08:45:00",
       "open": 12.98,
-      "high": 13.03,
+      "high": 13.1,
       "low": 11.38,
-      "close": 11.5,
-      "volume": 40
+      "close": 12.78,
+      "volume": 102
+    },
+    {
+      "time": "2026-05-22T08:50:00",
+      "open": 12.65,
+      "high": 13.09,
+      "low": 12.65,
+      "close": 12.7,
+      "volume": 19
     }
   ]
 }
