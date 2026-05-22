@@ -2,8 +2,8 @@
   "symbol": "FRGT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-22T05:32:46.316622",
-  "bar_count": 199,
+  "generated_at": "2026-05-22T05:37:47.393893",
+  "bar_count": 200,
   "candles": [
     {
       "time": "2026-05-21T03:00:00",
@@ -1592,10 +1592,18 @@
     {
       "time": "2026-05-22T04:30:00",
       "open": 4.6,
-      "high": 5.0,
+      "high": 5.05,
       "low": 4.54,
-      "close": 4.99,
-      "volume": 446
+      "close": 4.63,
+      "volume": 836
+    },
+    {
+      "time": "2026-05-22T04:35:00",
+      "open": 4.62,
+      "high": 4.62,
+      "low": 4.18,
+      "close": 4.19,
+      "volume": 819
     }
   ]
 }
