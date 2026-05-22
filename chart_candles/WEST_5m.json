@@ -2,8 +2,8 @@
   "symbol": "WEST",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-22T15:02:18.275682",
-  "bar_count": 259,
+  "generated_at": "2026-05-22T15:07:15.732070",
+  "bar_count": 260,
   "candles": [
     {
       "time": "2026-05-21T08:30:00",
@@ -2072,10 +2072,18 @@
     {
       "time": "2026-05-22T14:00:00",
       "open": 8.23,
-      "high": 8.34,
+      "high": 8.4,
       "low": 8.22,
-      "close": 8.33,
-      "volume": 255
+      "close": 8.39,
+      "volume": 330
+    },
+    {
+      "time": "2026-05-22T14:05:00",
+      "open": 8.39,
+      "high": 8.4,
+      "low": 8.37,
+      "close": 8.37,
+      "volume": 66
     }
   ]
 }
