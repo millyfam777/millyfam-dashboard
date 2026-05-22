@@ -2,8 +2,8 @@
   "symbol": "LFS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-22T06:07:33.076515",
-  "bar_count": 218,
+  "generated_at": "2026-05-22T06:12:33.860225",
+  "bar_count": 219,
   "candles": [
     {
       "time": "2026-05-21T03:00:00",
@@ -1745,9 +1745,17 @@
       "time": "2026-05-22T05:05:00",
       "open": 2.73,
       "high": 2.74,
-      "low": 2.67,
+      "low": 2.66,
+      "close": 2.67,
+      "volume": 451
+    },
+    {
+      "time": "2026-05-22T05:10:00",
+      "open": 2.66,
+      "high": 2.7,
+      "low": 2.66,
       "close": 2.69,
-      "volume": 232
+      "volume": 166
     }
   ]
 }
