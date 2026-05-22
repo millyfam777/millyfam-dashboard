@@ -2,8 +2,8 @@
   "symbol": "SQNS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-22T06:27:53.415479",
-  "bar_count": 186,
+  "generated_at": "2026-05-22T06:32:47.157982",
+  "bar_count": 187,
   "candles": [
     {
       "time": "2026-05-21T06:00:00",
@@ -1488,10 +1488,18 @@
     {
       "time": "2026-05-22T05:25:00",
       "open": 4.74,
-      "high": 4.74,
+      "high": 4.8,
       "low": 4.736,
-      "close": 4.736,
-      "volume": 10
+      "close": 4.7952,
+      "volume": 64
+    },
+    {
+      "time": "2026-05-22T05:30:00",
+      "open": 4.7952,
+      "high": 4.7991,
+      "low": 4.74,
+      "close": 4.74,
+      "volume": 19
     }
   ]
 }
