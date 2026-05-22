@@ -2,8 +2,8 @@
   "symbol": "AKTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-22T07:12:27.210321",
-  "bar_count": 204,
+  "generated_at": "2026-05-22T07:17:29.769822",
+  "bar_count": 205,
   "candles": [
     {
       "time": "2026-05-21T05:15:00",
@@ -1632,10 +1632,18 @@
     {
       "time": "2026-05-22T06:10:00",
       "open": 8.35,
-      "high": 8.67,
+      "high": 8.75,
       "low": 8.18,
-      "close": 8.51,
-      "volume": 205
+      "close": 8.75,
+      "volume": 411
+    },
+    {
+      "time": "2026-05-22T06:15:00",
+      "open": 8.75,
+      "high": 8.93,
+      "low": 8.72,
+      "close": 8.9,
+      "volume": 214
     }
   ]
 }
