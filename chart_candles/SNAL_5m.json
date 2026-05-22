@@ -2,8 +2,8 @@
   "symbol": "SNAL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-22T16:03:08.218635",
-  "bar_count": 337,
+  "generated_at": "2026-05-22T16:08:11.697065",
+  "bar_count": 338,
   "candles": [
     {
       "time": "2026-05-21T03:00:00",
@@ -2696,10 +2696,18 @@
     {
       "time": "2026-05-22T15:00:00",
       "open": 1.1,
-      "high": 1.1097,
+      "high": 1.11,
       "low": 1.1,
-      "close": 1.1097,
-      "volume": 262
+      "close": 1.11,
+      "volume": 321
+    },
+    {
+      "time": "2026-05-22T15:05:00",
+      "open": 1.12,
+      "high": 1.12,
+      "low": 1.12,
+      "close": 1.12,
+      "volume": 15
     }
   ]
 }
