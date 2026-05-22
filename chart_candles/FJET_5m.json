@@ -2,8 +2,8 @@
   "symbol": "FJET",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-22T13:52:59.405599",
-  "bar_count": 311,
+  "generated_at": "2026-05-22T13:57:56.384508",
+  "bar_count": 312,
   "candles": [
     {
       "time": "2026-05-21T03:00:00",
@@ -2488,10 +2488,18 @@
     {
       "time": "2026-05-22T12:50:00",
       "open": 7.18,
-      "high": 7.19,
+      "high": 7.21,
       "low": 7.15,
-      "close": 7.18,
-      "volume": 245
+      "close": 7.2,
+      "volume": 363
+    },
+    {
+      "time": "2026-05-22T12:55:00",
+      "open": 7.18,
+      "high": 7.2,
+      "low": 7.17,
+      "close": 7.17,
+      "volume": 63
     }
   ]
 }
