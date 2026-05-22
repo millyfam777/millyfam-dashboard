@@ -2,8 +2,8 @@
   "symbol": "IMAX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-22T09:28:02.781415",
-  "bar_count": 192,
+  "generated_at": "2026-05-22T09:33:06.896855",
+  "bar_count": 193,
   "candles": [
     {
       "time": "2026-05-21T08:30:00",
@@ -1537,9 +1537,17 @@
       "time": "2026-05-22T08:25:00",
       "open": 38.55,
       "high": 38.82,
-      "low": 38.55,
-      "close": 38.82,
-      "volume": 2
+      "low": 38.28,
+      "close": 38.81,
+      "volume": 71
+    },
+    {
+      "time": "2026-05-22T08:30:00",
+      "open": 38.52,
+      "high": 38.52,
+      "low": 37.5,
+      "close": 37.87,
+      "volume": 1468
     }
   ]
 }
