@@ -2,8 +2,8 @@
   "symbol": "GOVX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-22T07:17:43.248436",
-  "bar_count": 232,
+  "generated_at": "2026-05-22T07:22:33.043396",
+  "bar_count": 233,
   "candles": [
     {
       "time": "2026-05-21T03:00:00",
@@ -1856,10 +1856,18 @@
     {
       "time": "2026-05-22T06:15:00",
       "open": 3.4,
-      "high": 3.57,
+      "high": 3.85,
       "low": 3.4,
-      "close": 3.4995,
-      "volume": 1712
+      "close": 3.73,
+      "volume": 8283
+    },
+    {
+      "time": "2026-05-22T06:20:00",
+      "open": 3.74,
+      "high": 3.85,
+      "low": 3.6503,
+      "close": 3.8,
+      "volume": 4965
     }
   ]
 }
