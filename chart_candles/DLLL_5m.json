@@ -2,8 +2,8 @@
   "symbol": "DLLL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-22T10:12:52.589797",
-  "bar_count": 267,
+  "generated_at": "2026-05-22T10:18:00.228280",
+  "bar_count": 268,
   "candles": [
     {
       "time": "2026-05-21T03:00:00",
@@ -2136,10 +2136,18 @@
     {
       "time": "2026-05-22T09:10:00",
       "open": 102.09,
-      "high": 104.33,
+      "high": 104.57,
       "low": 102.09,
-      "close": 104.33,
-      "volume": 32
+      "close": 104.0,
+      "volume": 47
+    },
+    {
+      "time": "2026-05-22T09:15:00",
+      "open": 103.27,
+      "high": 103.47,
+      "low": 102.9,
+      "close": 103.47,
+      "volume": 24
     }
   ]
 }
