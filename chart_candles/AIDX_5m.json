@@ -2,8 +2,8 @@
   "symbol": "AIDX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-22T08:48:07.822857",
-  "bar_count": 190,
+  "generated_at": "2026-05-22T08:53:05.155161",
+  "bar_count": 191,
   "candles": [
     {
       "time": "2026-05-21T03:30:00",
@@ -1520,10 +1520,18 @@
     {
       "time": "2026-05-22T07:45:00",
       "open": 1.36,
-      "high": 1.38,
+      "high": 1.41,
       "low": 1.31,
-      "close": 1.34,
-      "volume": 2089
+      "close": 1.3962,
+      "volume": 3164
+    },
+    {
+      "time": "2026-05-22T07:50:00",
+      "open": 1.4,
+      "high": 1.56,
+      "low": 1.39,
+      "close": 1.56,
+      "volume": 6115
     }
   ]
 }
