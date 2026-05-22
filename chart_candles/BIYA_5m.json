@@ -2,8 +2,8 @@
   "symbol": "BIYA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-22T11:02:28.499871",
-  "bar_count": 277,
+  "generated_at": "2026-05-22T11:07:32.943982",
+  "bar_count": 278,
   "candles": [
     {
       "time": "2026-05-21T03:00:00",
@@ -2216,10 +2216,18 @@
     {
       "time": "2026-05-22T10:00:00",
       "open": 1.11,
-      "high": 1.15,
+      "high": 1.18,
       "low": 1.1,
-      "close": 1.1301,
-      "volume": 4796
+      "close": 1.165,
+      "volume": 9932
+    },
+    {
+      "time": "2026-05-22T10:05:00",
+      "open": 1.165,
+      "high": 1.17,
+      "low": 1.15,
+      "close": 1.155,
+      "volume": 2575
     }
   ]
 }
