@@ -2,8 +2,8 @@
   "symbol": "ASTY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T10:07:53.450553",
-  "bar_count": 260,
+  "generated_at": "2026-05-26T10:12:52.776109",
+  "bar_count": 261,
   "candles": [
     {
       "time": "2026-05-22T03:30:00",
@@ -2080,10 +2080,18 @@
     {
       "time": "2026-05-26T09:05:00",
       "open": 36.5,
-      "high": 36.5,
+      "high": 36.78,
       "low": 36.07,
-      "close": 36.28,
-      "volume": 60
+      "close": 36.74,
+      "volume": 76
+    },
+    {
+      "time": "2026-05-26T09:10:00",
+      "open": 37.0,
+      "high": 37.21,
+      "low": 36.78,
+      "close": 36.97,
+      "volume": 91
     }
   ]
 }
