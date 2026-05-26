@@ -2,8 +2,8 @@
   "symbol": "NXL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T15:03:25.475789",
-  "bar_count": 325,
+  "generated_at": "2026-05-26T15:08:33.003293",
+  "bar_count": 326,
   "candles": [
     {
       "time": "2026-05-22T03:00:00",
@@ -2600,10 +2600,18 @@
     {
       "time": "2026-05-26T14:00:00",
       "open": 0.4998,
-      "high": 0.4998,
+      "high": 0.5,
       "low": 0.4701,
-      "close": 0.4936,
-      "volume": 221
+      "close": 0.4999,
+      "volume": 291
+    },
+    {
+      "time": "2026-05-26T14:05:00",
+      "open": 0.4999,
+      "high": 0.502,
+      "low": 0.4986,
+      "close": 0.4999,
+      "volume": 380
     }
   ]
 }
