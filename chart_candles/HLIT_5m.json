@@ -2,8 +2,8 @@
   "symbol": "HLIT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T08:07:51.407157",
-  "bar_count": 242,
+  "generated_at": "2026-05-26T08:12:51.095002",
+  "bar_count": 243,
   "candles": [
     {
       "time": "2026-05-22T03:00:00",
@@ -1936,10 +1936,18 @@
     {
       "time": "2026-05-26T07:05:00",
       "open": 18.25,
-      "high": 18.25,
+      "high": 18.3,
       "low": 18.23,
-      "close": 18.25,
-      "volume": 48
+      "close": 18.29,
+      "volume": 59
+    },
+    {
+      "time": "2026-05-26T07:10:00",
+      "open": 18.29,
+      "high": 18.3,
+      "low": 18.02,
+      "close": 18.02,
+      "volume": 185
     }
   ]
 }
