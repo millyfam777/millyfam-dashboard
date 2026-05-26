@@ -2,8 +2,8 @@
   "symbol": "QNTM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T07:07:39.512351",
-  "bar_count": 227,
+  "generated_at": "2026-05-26T07:12:39.695766",
+  "bar_count": 228,
   "candles": [
     {
       "time": "2026-05-22T03:15:00",
@@ -1816,10 +1816,18 @@
     {
       "time": "2026-05-26T06:05:00",
       "open": 11.12,
-      "high": 11.12,
-      "low": 11.11,
-      "close": 11.11,
-      "volume": 8
+      "high": 11.88,
+      "low": 10.96,
+      "close": 11.17,
+      "volume": 61
+    },
+    {
+      "time": "2026-05-26T06:10:00",
+      "open": 10.96,
+      "high": 11.17,
+      "low": 10.96,
+      "close": 11.0,
+      "volume": 62
     }
   ]
 }
