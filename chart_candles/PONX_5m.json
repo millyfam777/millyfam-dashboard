@@ -2,8 +2,8 @@
   "symbol": "PONX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T09:02:41.287617",
-  "bar_count": 253,
+  "generated_at": "2026-05-26T09:07:41.595001",
+  "bar_count": 254,
   "candles": [
     {
       "time": "2026-05-22T03:00:00",
@@ -2024,10 +2024,18 @@
     {
       "time": "2026-05-26T08:00:00",
       "open": 8.06,
-      "high": 8.07,
+      "high": 8.09,
       "low": 7.92,
-      "close": 7.92,
-      "volume": 58
+      "close": 8.04,
+      "volume": 70
+    },
+    {
+      "time": "2026-05-26T08:05:00",
+      "open": 8.07,
+      "high": 8.07,
+      "low": 7.98,
+      "close": 7.98,
+      "volume": 12
     }
   ]
 }
