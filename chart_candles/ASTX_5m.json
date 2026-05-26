@@ -2,8 +2,8 @@
   "symbol": "ASTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T11:12:49.779739",
-  "bar_count": 279,
+  "generated_at": "2026-05-26T11:17:52.879330",
+  "bar_count": 280,
   "candles": [
     {
       "time": "2026-05-22T03:00:00",
@@ -2232,10 +2232,18 @@
     {
       "time": "2026-05-26T10:10:00",
       "open": 68.87,
-      "high": 69.34,
+      "high": 69.43,
       "low": 68.35,
-      "close": 69.33,
-      "volume": 528
+      "close": 69.16,
+      "volume": 667
+    },
+    {
+      "time": "2026-05-26T10:15:00",
+      "open": 69.18,
+      "high": 69.18,
+      "low": 68.38,
+      "close": 68.5,
+      "volume": 424
     }
   ]
 }
