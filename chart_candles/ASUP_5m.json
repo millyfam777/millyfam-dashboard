@@ -2,8 +2,8 @@
   "symbol": "ASUP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T10:57:50.263475",
-  "bar_count": 240,
+  "generated_at": "2026-05-26T11:02:46.375511",
+  "bar_count": 241,
   "candles": [
     {
       "time": "2026-05-22T06:00:00",
@@ -1920,10 +1920,18 @@
     {
       "time": "2026-05-26T09:55:00",
       "open": 47.49,
-      "high": 47.49,
+      "high": 47.81,
       "low": 47.45,
-      "close": 47.49,
-      "volume": 5
+      "close": 47.81,
+      "volume": 7
+    },
+    {
+      "time": "2026-05-26T10:00:00",
+      "open": 48.0,
+      "high": 48.0,
+      "low": 47.82,
+      "close": 47.83,
+      "volume": 20
     }
   ]
 }
