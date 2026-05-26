@@ -2,8 +2,8 @@
   "symbol": "NXXT",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T08:22:43.168092",
-  "bar_count": 612,
+  "generated_at": "2026-05-26T08:27:41.218187",
+  "bar_count": 614,
   "candles": [
     {
       "time": "2026-05-22T03:00:00",
@@ -4896,10 +4896,26 @@
     {
       "time": "2026-05-26T07:22:00",
       "open": 1.0602,
+      "high": 1.1,
+      "low": 1.06,
+      "close": 1.0891,
+      "volume": 2268
+    },
+    {
+      "time": "2026-05-26T07:24:00",
+      "open": 1.0898,
+      "high": 1.09,
+      "low": 1.055,
+      "close": 1.06,
+      "volume": 1418
+    },
+    {
+      "time": "2026-05-26T07:26:00",
+      "open": 1.0699,
       "high": 1.07,
       "low": 1.06,
-      "close": 1.07,
-      "volume": 104
+      "close": 1.06,
+      "volume": 615
     }
   ]
 }
