@@ -2,8 +2,8 @@
   "symbol": "SDA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T17:28:33.318989",
-  "bar_count": 354,
+  "generated_at": "2026-05-26T17:33:33.163694",
+  "bar_count": 355,
   "candles": [
     {
       "time": "2026-05-22T03:00:00",
@@ -2833,9 +2833,17 @@
       "time": "2026-05-26T16:25:00",
       "open": 0.6554,
       "high": 0.6554,
-      "low": 0.6013,
-      "close": 0.6013,
-      "volume": 8
+      "low": 0.6,
+      "close": 0.6,
+      "volume": 11
+    },
+    {
+      "time": "2026-05-26T16:30:00",
+      "open": 0.6,
+      "high": 0.6,
+      "low": 0.6,
+      "close": 0.6,
+      "volume": 0
     }
   ]
 }
