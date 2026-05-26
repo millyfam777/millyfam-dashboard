@@ -2,8 +2,8 @@
   "symbol": "PHGE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T17:02:40.370723",
-  "bar_count": 349,
+  "generated_at": "2026-05-26T17:07:40.989191",
+  "bar_count": 350,
   "candles": [
     {
       "time": "2026-05-22T03:00:00",
@@ -2793,9 +2793,17 @@
       "time": "2026-05-26T16:00:00",
       "open": 1.53,
       "high": 1.54,
-      "low": 1.51,
+      "low": 1.5,
+      "close": 1.5,
+      "volume": 157
+    },
+    {
+      "time": "2026-05-26T16:05:00",
+      "open": 1.5,
+      "high": 1.51,
+      "low": 1.5,
       "close": 1.51,
-      "volume": 69
+      "volume": 88
     }
   ]
 }

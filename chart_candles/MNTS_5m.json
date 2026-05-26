@@ -2,8 +2,8 @@
   "symbol": "MNTS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T17:02:33.497129",
-  "bar_count": 349,
+  "generated_at": "2026-05-26T17:07:34.159362",
+  "bar_count": 350,
   "candles": [
     {
       "time": "2026-05-22T03:00:00",
@@ -2792,10 +2792,18 @@
     {
       "time": "2026-05-26T16:00:00",
       "open": 17.25,
-      "high": 17.4,
+      "high": 17.8,
       "low": 17.12,
-      "close": 17.4,
-      "volume": 413
+      "close": 17.76,
+      "volume": 1126
+    },
+    {
+      "time": "2026-05-26T16:05:00",
+      "open": 17.72,
+      "high": 18.28,
+      "low": 17.65,
+      "close": 18.28,
+      "volume": 1875
     }
   ]
 }
