@@ -2,8 +2,8 @@
   "symbol": "RDW",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T13:18:36.161392",
-  "bar_count": 304,
+  "generated_at": "2026-05-26T13:23:28.037131",
+  "bar_count": 305,
   "candles": [
     {
       "time": "2026-05-22T03:00:00",
@@ -2432,10 +2432,18 @@
     {
       "time": "2026-05-26T12:15:00",
       "open": 22.43,
-      "high": 22.47,
+      "high": 22.48,
       "low": 22.4,
+      "close": 22.435,
+      "volume": 2385
+    },
+    {
+      "time": "2026-05-26T12:20:00",
+      "open": 22.43,
+      "high": 22.585,
+      "low": 22.3802,
       "close": 22.44,
-      "volume": 1459
+      "volume": 3601
     }
   ]
 }
