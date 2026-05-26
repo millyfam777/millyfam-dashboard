@@ -2,8 +2,8 @@
   "symbol": "ARTL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T13:57:56.010184",
-  "bar_count": 312,
+  "generated_at": "2026-05-26T14:02:53.815372",
+  "bar_count": 313,
   "candles": [
     {
       "time": "2026-05-22T03:00:00",
@@ -2496,10 +2496,18 @@
     {
       "time": "2026-05-26T12:55:00",
       "open": 1.7114,
-      "high": 1.73,
+      "high": 1.74,
       "low": 1.7001,
-      "close": 1.73,
-      "volume": 193
+      "close": 1.725,
+      "volume": 380
+    },
+    {
+      "time": "2026-05-26T13:00:00",
+      "open": 1.73,
+      "high": 1.75,
+      "low": 1.725,
+      "close": 1.75,
+      "volume": 228
     }
   ]
 }
