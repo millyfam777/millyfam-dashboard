@@ -2,8 +2,8 @@
   "symbol": "PONY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T09:07:57.398066",
-  "bar_count": 254,
+  "generated_at": "2026-05-26T09:12:53.996733",
+  "bar_count": 255,
   "candles": [
     {
       "time": "2026-05-22T03:00:00",
@@ -2032,10 +2032,18 @@
     {
       "time": "2026-05-26T08:05:00",
       "open": 10.74,
-      "high": 10.77,
+      "high": 10.87,
       "low": 10.66,
-      "close": 10.7,
-      "volume": 238
+      "close": 10.85,
+      "volume": 858
+    },
+    {
+      "time": "2026-05-26T08:10:00",
+      "open": 10.83,
+      "high": 10.88,
+      "low": 10.75,
+      "close": 10.78,
+      "volume": 235
     }
   ]
 }
