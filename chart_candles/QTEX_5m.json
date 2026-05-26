@@ -2,8 +2,8 @@
   "symbol": "QTEX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T09:17:26.603375",
-  "bar_count": 256,
+  "generated_at": "2026-05-26T09:22:27.486877",
+  "bar_count": 257,
   "candles": [
     {
       "time": "2026-05-22T03:00:00",
@@ -2048,10 +2048,18 @@
     {
       "time": "2026-05-26T08:15:00",
       "open": 1.44,
-      "high": 1.45,
+      "high": 1.47,
       "low": 1.42,
-      "close": 1.45,
-      "volume": 2508
+      "close": 1.469,
+      "volume": 7372
+    },
+    {
+      "time": "2026-05-26T08:20:00",
+      "open": 1.47,
+      "high": 1.53,
+      "low": 1.4601,
+      "close": 1.51,
+      "volume": 20360
     }
   ]
 }
