@@ -2,8 +2,8 @@
   "symbol": "NCRA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T13:07:49.671164",
-  "bar_count": 284,
+  "generated_at": "2026-05-26T13:12:48.676172",
+  "bar_count": 285,
   "candles": [
     {
       "time": "2026-05-22T04:30:00",
@@ -2272,10 +2272,18 @@
     {
       "time": "2026-05-26T12:05:00",
       "open": 0.357,
-      "high": 0.3636,
+      "high": 0.3647,
       "low": 0.352,
-      "close": 0.3622,
-      "volume": 1641
+      "close": 0.36,
+      "volume": 3252
+    },
+    {
+      "time": "2026-05-26T12:10:00",
+      "open": 0.36,
+      "high": 0.3647,
+      "low": 0.36,
+      "close": 0.3642,
+      "volume": 937
     }
   ]
 }
