@@ -2,8 +2,8 @@
   "symbol": "FUTG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T10:02:49.754066",
-  "bar_count": 264,
+  "generated_at": "2026-05-26T10:07:48.896391",
+  "bar_count": 265,
   "candles": [
     {
       "time": "2026-05-22T03:05:00",
@@ -2112,10 +2112,18 @@
     {
       "time": "2026-05-26T09:00:00",
       "open": 4.08,
-      "high": 4.09,
+      "high": 4.1,
       "low": 4.02,
-      "close": 4.06,
-      "volume": 1649
+      "close": 4.1,
+      "volume": 3118
+    },
+    {
+      "time": "2026-05-26T09:05:00",
+      "open": 4.1,
+      "high": 4.15,
+      "low": 4.09,
+      "close": 4.15,
+      "volume": 2209
     }
   ]
 }
