@@ -2,8 +2,8 @@
   "symbol": "AXINR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T14:57:29.533174",
-  "bar_count": 85,
+  "generated_at": "2026-05-26T15:02:29.171647",
+  "bar_count": 86,
   "candles": [
     {
       "time": "2026-05-26T06:55:00",
@@ -681,9 +681,17 @@
       "time": "2026-05-26T13:55:00",
       "open": 0.4001,
       "high": 0.4001,
-      "low": 0.4001,
-      "close": 0.4001,
-      "volume": 11
+      "low": 0.4,
+      "close": 0.4,
+      "volume": 29
+    },
+    {
+      "time": "2026-05-26T14:00:00",
+      "open": 0.4,
+      "high": 0.405,
+      "low": 0.4,
+      "close": 0.405,
+      "volume": 14
     }
   ]
 }
