@@ -2,8 +2,8 @@
   "symbol": "ECOR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T14:58:19.117163",
-  "bar_count": 200,
+  "generated_at": "2026-05-26T15:03:18.618628",
+  "bar_count": 201,
   "candles": [
     {
       "time": "2026-05-22T08:30:00",
@@ -1601,9 +1601,17 @@
       "time": "2026-05-26T13:55:00",
       "open": 8.7,
       "high": 8.79,
-      "low": 8.7,
-      "close": 8.79,
-      "volume": 2
+      "low": 8.65,
+      "close": 8.65,
+      "volume": 3
+    },
+    {
+      "time": "2026-05-26T14:00:00",
+      "open": 8.65,
+      "high": 8.65,
+      "low": 8.65,
+      "close": 8.65,
+      "volume": 0
     }
   ]
 }
