@@ -2,8 +2,8 @@
   "symbol": "LICN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T16:03:22.712450",
-  "bar_count": 337,
+  "generated_at": "2026-05-26T16:08:37.230426",
+  "bar_count": 338,
   "candles": [
     {
       "time": "2026-05-22T03:00:00",
@@ -2696,10 +2696,18 @@
     {
       "time": "2026-05-26T15:00:00",
       "open": 1.08,
-      "high": 1.08,
+      "high": 1.1,
       "low": 1.06,
-      "close": 1.0605,
-      "volume": 31
+      "close": 1.09,
+      "volume": 58
+    },
+    {
+      "time": "2026-05-26T15:05:00",
+      "open": 1.09,
+      "high": 1.1152,
+      "low": 1.09,
+      "close": 1.11,
+      "volume": 18
     }
   ]
 }

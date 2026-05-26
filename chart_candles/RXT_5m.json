@@ -2,8 +2,8 @@
   "symbol": "RXT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-26T16:02:21.487260",
-  "bar_count": 337,
+  "generated_at": "2026-05-26T16:07:19.771288",
+  "bar_count": 338,
   "candles": [
     {
       "time": "2026-05-22T03:00:00",
@@ -2696,10 +2696,18 @@
     {
       "time": "2026-05-26T15:00:00",
       "open": 4.97,
-      "high": 5.01,
+      "high": 5.04,
       "low": 4.96,
-      "close": 4.98,
-      "volume": 5059
+      "close": 5.0309,
+      "volume": 5089
+    },
+    {
+      "time": "2026-05-26T15:05:00",
+      "open": 5.0233,
+      "high": 5.0306,
+      "low": 4.99,
+      "close": 5.0306,
+      "volume": 27
     }
   ]
 }
