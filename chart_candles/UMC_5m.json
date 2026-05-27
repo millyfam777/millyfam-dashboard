@@ -2,8 +2,8 @@
   "symbol": "UMC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T08:18:26.927540",
-  "bar_count": 244,
+  "generated_at": "2026-05-27T08:23:34.344855",
+  "bar_count": 245,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -1953,9 +1953,17 @@
       "time": "2026-05-27T07:15:00",
       "open": 24.03,
       "high": 24.175,
-      "low": 24.01,
-      "close": 24.0999,
-      "volume": 104
+      "low": 24.0,
+      "close": 24.12,
+      "volume": 224
+    },
+    {
+      "time": "2026-05-27T07:20:00",
+      "open": 24.13,
+      "high": 24.32,
+      "low": 24.126,
+      "close": 24.32,
+      "volume": 411
     }
   ]
 }
