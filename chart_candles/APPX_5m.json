@@ -2,8 +2,8 @@
   "symbol": "APPX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T12:53:24.832061",
-  "bar_count": 299,
+  "generated_at": "2026-05-27T12:59:03.527190",
+  "bar_count": 300,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -2392,10 +2392,18 @@
     {
       "time": "2026-05-27T11:50:00",
       "open": 52.92,
-      "high": 53.23,
+      "high": 53.25,
       "low": 52.92,
-      "close": 53.16,
-      "volume": 7
+      "close": 53.17,
+      "volume": 12
+    },
+    {
+      "time": "2026-05-27T11:55:00",
+      "open": 53.2,
+      "high": 53.21,
+      "low": 52.9,
+      "close": 53.02,
+      "volume": 18
     }
   ]
 }
