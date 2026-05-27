@@ -2,8 +2,8 @@
   "symbol": "SUUN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T17:58:18.518034",
-  "bar_count": 349,
+  "generated_at": "2026-05-27T18:03:20.331315",
+  "bar_count": 350,
   "candles": [
     {
       "time": "2026-05-26T03:55:00",
@@ -2792,10 +2792,18 @@
     {
       "time": "2026-05-27T16:55:00",
       "open": 1.1502,
-      "high": 1.16,
+      "high": 1.18,
       "low": 1.15,
+      "close": 1.1615,
+      "volume": 251
+    },
+    {
+      "time": "2026-05-27T17:00:00",
+      "open": 1.18,
+      "high": 1.19,
+      "low": 1.16,
       "close": 1.16,
-      "volume": 211
+      "volume": 381
     }
   ]
 }
