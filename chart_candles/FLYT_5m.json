@@ -2,8 +2,8 @@
   "symbol": "FLYT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T04:53:06.084570",
-  "bar_count": 203,
+  "generated_at": "2026-05-27T04:58:10.950725",
+  "bar_count": 204,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -1624,10 +1624,18 @@
     {
       "time": "2026-05-27T03:50:00",
       "open": 60.94,
-      "high": 60.94,
-      "low": 60.94,
-      "close": 60.94,
-      "volume": 1
+      "high": 61.0,
+      "low": 60.56,
+      "close": 60.56,
+      "volume": 9
+    },
+    {
+      "time": "2026-05-27T03:55:00",
+      "open": 60.56,
+      "high": 60.56,
+      "low": 60.56,
+      "close": 60.56,
+      "volume": 0
     }
   ]
 }
