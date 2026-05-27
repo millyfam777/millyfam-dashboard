@@ -2,8 +2,8 @@
   "symbol": "CDTG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T13:25:35.705340",
-  "bar_count": 196,
+  "generated_at": "2026-05-27T13:33:28.216417",
+  "bar_count": 197,
   "candles": [
     {
       "time": "2026-05-26T08:30:00",
@@ -1567,11 +1567,19 @@
     },
     {
       "time": "2026-05-27T12:25:00",
-      "open": 0.3608,
-      "high": 0.3608,
+      "open": 0.3799,
+      "high": 0.39,
+      "low": 0.3799,
+      "close": 0.39,
+      "volume": 187
+    },
+    {
+      "time": "2026-05-27T12:30:00",
+      "open": 0.3613,
+      "high": 0.3613,
       "low": 0.3608,
       "close": 0.3608,
-      "volume": 0
+      "volume": 8
     }
   ]
 }
