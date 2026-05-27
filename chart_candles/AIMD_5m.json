@@ -2,8 +2,8 @@
   "symbol": "AIMD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T07:57:41.757907",
-  "bar_count": 240,
+  "generated_at": "2026-05-27T08:02:41.418846",
+  "bar_count": 241,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -1921,9 +1921,17 @@
       "time": "2026-05-27T06:55:00",
       "open": 2.251,
       "high": 2.26,
-      "low": 2.25,
+      "low": 2.16,
+      "close": 2.16,
+      "volume": 86
+    },
+    {
+      "time": "2026-05-27T07:00:00",
+      "open": 2.17,
+      "high": 2.26,
+      "low": 2.17,
       "close": 2.26,
-      "volume": 8
+      "volume": 5
     }
   ]
 }
