@@ -2,8 +2,8 @@
   "symbol": "BRTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T09:12:40.960118",
-  "bar_count": 255,
+  "generated_at": "2026-05-27T09:17:41.223887",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -2040,10 +2040,18 @@
     {
       "time": "2026-05-27T08:10:00",
       "open": 0.3857,
-      "high": 0.4059,
+      "high": 0.41,
       "low": 0.3855,
-      "close": 0.4032,
-      "volume": 11989
+      "close": 0.3926,
+      "volume": 23156
+    },
+    {
+      "time": "2026-05-27T08:15:00",
+      "open": 0.3926,
+      "high": 0.423,
+      "low": 0.392,
+      "close": 0.42,
+      "volume": 11522
     }
   ]
 }
