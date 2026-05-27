@@ -2,8 +2,8 @@
   "symbol": "CISO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T14:33:23.165495",
-  "bar_count": 281,
+  "generated_at": "2026-05-27T14:39:17.527034",
+  "bar_count": 282,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -2248,10 +2248,18 @@
     {
       "time": "2026-05-27T13:30:00",
       "open": 0.3803,
-      "high": 0.3803,
+      "high": 0.3877,
       "low": 0.37,
-      "close": 0.37,
-      "volume": 26
+      "close": 0.3877,
+      "volume": 360
+    },
+    {
+      "time": "2026-05-27T13:35:00",
+      "open": 0.3869,
+      "high": 0.387,
+      "low": 0.3836,
+      "close": 0.387,
+      "volume": 64
     }
   ]
 }
