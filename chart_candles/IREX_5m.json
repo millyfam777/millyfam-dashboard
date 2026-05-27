@@ -2,8 +2,8 @@
   "symbol": "IREX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T15:56:13.250845",
-  "bar_count": 336,
+  "generated_at": "2026-05-27T16:04:13.400189",
+  "bar_count": 337,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -2688,10 +2688,18 @@
     {
       "time": "2026-05-27T14:55:00",
       "open": 56.48,
-      "high": 56.5,
+      "high": 56.85,
       "low": 56.48,
-      "close": 56.5,
-      "volume": 5
+      "close": 56.52,
+      "volume": 136
+    },
+    {
+      "time": "2026-05-27T15:00:00",
+      "open": 56.44,
+      "high": 56.52,
+      "low": 56.4,
+      "close": 56.52,
+      "volume": 6
     }
   ]
 }
