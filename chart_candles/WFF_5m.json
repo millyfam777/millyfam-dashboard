@@ -2,8 +2,8 @@
   "symbol": "WFF",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T09:23:44.907368",
-  "bar_count": 252,
+  "generated_at": "2026-05-27T09:28:36.045242",
+  "bar_count": 253,
   "candles": [
     {
       "time": "2026-05-26T03:25:00",
@@ -2015,11 +2015,19 @@
     },
     {
       "time": "2026-05-27T08:20:00",
-      "open": 1.94,
+      "open": 1.92,
+      "high": 1.92,
+      "low": 1.92,
+      "close": 1.92,
+      "volume": 1
+    },
+    {
+      "time": "2026-05-27T08:25:00",
+      "open": 1.92,
       "high": 1.94,
-      "low": 1.94,
+      "low": 1.89,
       "close": 1.94,
-      "volume": 0
+      "volume": 5
     }
   ]
 }
