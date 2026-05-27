@@ -2,8 +2,8 @@
   "symbol": "LGHL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T15:28:40.529623",
-  "bar_count": 330,
+  "generated_at": "2026-05-27T15:35:03.909115",
+  "bar_count": 331,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -2641,9 +2641,17 @@
       "time": "2026-05-27T14:25:00",
       "open": 1.02,
       "high": 1.03,
-      "low": 1.0104,
-      "close": 1.0104,
-      "volume": 196
+      "low": 1.0,
+      "close": 1.02,
+      "volume": 306
+    },
+    {
+      "time": "2026-05-27T14:30:00",
+      "open": 1.015,
+      "high": 1.03,
+      "low": 1.0,
+      "close": 1.02,
+      "volume": 405
     }
   ]
 }
