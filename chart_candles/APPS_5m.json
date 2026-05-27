@@ -2,8 +2,8 @@
   "symbol": "APPS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T13:32:47.850479",
-  "bar_count": 307,
+  "generated_at": "2026-05-27T13:42:05.570985",
+  "bar_count": 309,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -2457,9 +2457,25 @@
       "time": "2026-05-27T12:30:00",
       "open": 7.07,
       "high": 7.145,
+      "low": 6.98,
+      "close": 7.015,
+      "volume": 5224
+    },
+    {
+      "time": "2026-05-27T12:35:00",
+      "open": 7.015,
+      "high": 7.09,
+      "low": 6.985,
+      "close": 7.085,
+      "volume": 2427
+    },
+    {
+      "time": "2026-05-27T12:40:00",
+      "open": 7.08,
+      "high": 7.085,
       "low": 7.025,
-      "close": 7.03,
-      "volume": 2551
+      "close": 7.06,
+      "volume": 720
     }
   ]
 }
