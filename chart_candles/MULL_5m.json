@@ -2,8 +2,8 @@
   "symbol": "MULL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T07:23:05.700946",
-  "bar_count": 233,
+  "generated_at": "2026-05-27T07:28:08.418569",
+  "bar_count": 234,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -1864,10 +1864,18 @@
     {
       "time": "2026-05-27T06:20:00",
       "open": 748.41,
-      "high": 748.59,
+      "high": 750.0,
       "low": 748.0,
-      "close": 748.59,
-      "volume": 5
+      "close": 748.0,
+      "volume": 8
+    },
+    {
+      "time": "2026-05-27T06:25:00",
+      "open": 746.0,
+      "high": 746.0,
+      "low": 743.28,
+      "close": 744.1,
+      "volume": 6
     }
   ]
 }
