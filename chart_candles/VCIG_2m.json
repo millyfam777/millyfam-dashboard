@@ -2,8 +2,8 @@
   "symbol": "VCIG",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T19:47:43.683173",
-  "bar_count": 954,
+  "generated_at": "2026-05-27T19:52:43.951177",
+  "bar_count": 957,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -7632,10 +7632,34 @@
     {
       "time": "2026-05-27T18:46:00",
       "open": 4.05,
-      "high": 4.05,
+      "high": 4.06,
+      "low": 4.05,
+      "close": 4.06,
+      "volume": 6
+    },
+    {
+      "time": "2026-05-27T18:48:00",
+      "open": 4.06,
+      "high": 4.06,
+      "low": 4.03,
+      "close": 4.03,
+      "volume": 10
+    },
+    {
+      "time": "2026-05-27T18:50:00",
+      "open": 4.06,
+      "high": 4.06,
       "low": 4.05,
       "close": 4.05,
-      "volume": 4
+      "volume": 30
+    },
+    {
+      "time": "2026-05-27T18:52:00",
+      "open": 4.01,
+      "high": 4.01,
+      "low": 3.955,
+      "close": 4.0,
+      "volume": 99
     }
   ]
 }
