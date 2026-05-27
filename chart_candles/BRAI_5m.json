@@ -2,8 +2,8 @@
   "symbol": "BRAI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T05:52:52.117550",
-  "bar_count": 179,
+  "generated_at": "2026-05-27T05:57:54.453310",
+  "bar_count": 180,
   "candles": [
     {
       "time": "2026-05-26T06:00:00",
@@ -1432,10 +1432,18 @@
     {
       "time": "2026-05-27T04:50:00",
       "open": 10.21,
-      "high": 10.21,
+      "high": 10.29,
       "low": 10.21,
-      "close": 10.21,
-      "volume": 1
+      "close": 10.29,
+      "volume": 2
+    },
+    {
+      "time": "2026-05-27T04:55:00",
+      "open": 10.29,
+      "high": 10.29,
+      "low": 10.29,
+      "close": 10.29,
+      "volume": 0
     }
   ]
 }
