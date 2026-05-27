@@ -2,8 +2,8 @@
   "symbol": "AMSS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T14:19:05.115533",
-  "bar_count": 316,
+  "generated_at": "2026-05-27T14:24:35.360502",
+  "bar_count": 317,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -2528,10 +2528,18 @@
     {
       "time": "2026-05-27T13:15:00",
       "open": 5.89,
-      "high": 6.0,
+      "high": 6.03,
       "low": 5.85,
-      "close": 6.0,
-      "volume": 164
+      "close": 5.99,
+      "volume": 297
+    },
+    {
+      "time": "2026-05-27T13:20:00",
+      "open": 5.96,
+      "high": 5.99,
+      "low": 5.96,
+      "close": 5.99,
+      "volume": 44
     }
   ]
 }
