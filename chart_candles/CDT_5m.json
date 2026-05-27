@@ -2,8 +2,8 @@
   "symbol": "CDT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T10:29:05.379243",
-  "bar_count": 270,
+  "generated_at": "2026-05-27T10:33:28.931765",
+  "bar_count": 271,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -2160,10 +2160,18 @@
     {
       "time": "2026-05-27T09:25:00",
       "open": 1.0408,
-      "high": 1.08,
+      "high": 1.1067,
       "low": 1.0408,
-      "close": 1.07,
-      "volume": 22
+      "close": 1.1,
+      "volume": 90
+    },
+    {
+      "time": "2026-05-27T09:30:00",
+      "open": 1.095,
+      "high": 1.0968,
+      "low": 1.08,
+      "close": 1.08,
+      "volume": 38
     }
   ]
 }
