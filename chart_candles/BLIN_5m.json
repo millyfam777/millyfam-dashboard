@@ -2,8 +2,8 @@
   "symbol": "BLIN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T13:05:22.384792",
-  "bar_count": 222,
+  "generated_at": "2026-05-27T13:12:39.230708",
+  "bar_count": 223,
   "candles": [
     {
       "time": "2026-05-26T06:40:00",
@@ -1776,10 +1776,18 @@
     {
       "time": "2026-05-27T12:05:00",
       "open": 1.17,
-      "high": 1.17,
-      "low": 1.17,
+      "high": 1.21,
+      "low": 1.15,
       "close": 1.17,
-      "volume": 0
+      "volume": 144
+    },
+    {
+      "time": "2026-05-27T12:10:00",
+      "open": 1.1601,
+      "high": 1.1601,
+      "low": 1.16,
+      "close": 1.16,
+      "volume": 16
     }
   ]
 }
