@@ -2,8 +2,8 @@
   "symbol": "SNGX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T05:48:22.443729",
-  "bar_count": 214,
+  "generated_at": "2026-05-27T05:53:22.682946",
+  "bar_count": 215,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -1712,10 +1712,18 @@
     {
       "time": "2026-05-27T04:45:00",
       "open": 1.09,
-      "high": 1.11,
+      "high": 1.13,
       "low": 1.07,
-      "close": 1.11,
-      "volume": 4270
+      "close": 1.13,
+      "volume": 8121
+    },
+    {
+      "time": "2026-05-27T04:50:00",
+      "open": 1.125,
+      "high": 1.15,
+      "low": 1.1,
+      "close": 1.13,
+      "volume": 13663
     }
   ]
 }
