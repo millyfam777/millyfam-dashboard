@@ -2,8 +2,8 @@
   "symbol": "CNEY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T13:52:10.288610",
-  "bar_count": 311,
+  "generated_at": "2026-05-27T13:59:31.370351",
+  "bar_count": 312,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -2488,10 +2488,18 @@
     {
       "time": "2026-05-27T12:50:00",
       "open": 2.5632,
-      "high": 2.59,
+      "high": 2.6,
       "low": 2.56,
-      "close": 2.5828,
-      "volume": 582
+      "close": 2.5801,
+      "volume": 980
+    },
+    {
+      "time": "2026-05-27T12:55:00",
+      "open": 2.59,
+      "high": 2.6,
+      "low": 2.5805,
+      "close": 2.5901,
+      "volume": 264
     }
   ]
 }

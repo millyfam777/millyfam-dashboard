@@ -2,8 +2,8 @@
   "symbol": "LUNL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T13:52:05.558442",
-  "bar_count": 311,
+  "generated_at": "2026-05-27T13:59:26.867539",
+  "bar_count": 312,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -2488,10 +2488,18 @@
     {
       "time": "2026-05-27T12:50:00",
       "open": 42.48,
-      "high": 42.5,
+      "high": 42.65,
       "low": 42.48,
-      "close": 42.5,
-      "volume": 6
+      "close": 42.65,
+      "volume": 17
+    },
+    {
+      "time": "2026-05-27T12:55:00",
+      "open": 42.5,
+      "high": 42.5,
+      "low": 41.74,
+      "close": 42.15,
+      "volume": 74
     }
   ]
 }
