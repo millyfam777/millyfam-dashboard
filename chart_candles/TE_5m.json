@@ -2,8 +2,8 @@
   "symbol": "TE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T05:33:34.832594",
-  "bar_count": 211,
+  "generated_at": "2026-05-27T05:38:34.747135",
+  "bar_count": 212,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -1688,10 +1688,18 @@
     {
       "time": "2026-05-27T04:30:00",
       "open": 11.16,
-      "high": 11.21,
+      "high": 11.2284,
       "low": 11.16,
+      "close": 11.19,
+      "volume": 99
+    },
+    {
+      "time": "2026-05-27T04:35:00",
+      "open": 11.2278,
+      "high": 11.2279,
+      "low": 11.2,
       "close": 11.21,
-      "volume": 93
+      "volume": 21
     }
   ]
 }
