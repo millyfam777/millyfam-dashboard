@@ -2,8 +2,8 @@
   "symbol": "UZX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T06:43:05.879591",
-  "bar_count": 225,
+  "generated_at": "2026-05-27T06:47:56.355005",
+  "bar_count": 226,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -1800,10 +1800,18 @@
     {
       "time": "2026-05-27T05:40:00",
       "open": 0.9167,
-      "high": 1.0,
+      "high": 1.23,
       "low": 0.8983,
-      "close": 0.9961,
-      "volume": 7208
+      "close": 1.19,
+      "volume": 33366
+    },
+    {
+      "time": "2026-05-27T05:45:00",
+      "open": 1.185,
+      "high": 1.22,
+      "low": 1.07,
+      "close": 1.16,
+      "volume": 19503
     }
   ]
 }
