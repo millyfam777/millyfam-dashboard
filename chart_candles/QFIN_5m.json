@@ -2,8 +2,8 @@
   "symbol": "QFIN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T09:43:05.898053",
-  "bar_count": 261,
+  "generated_at": "2026-05-27T09:48:33.213216",
+  "bar_count": 262,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -2088,10 +2088,18 @@
     {
       "time": "2026-05-27T08:40:00",
       "open": 15.95,
-      "high": 16.19,
+      "high": 16.39,
       "low": 15.87,
-      "close": 15.9,
-      "volume": 786
+      "close": 16.32,
+      "volume": 2059
+    },
+    {
+      "time": "2026-05-27T08:45:00",
+      "open": 16.33,
+      "high": 16.46,
+      "low": 15.83,
+      "close": 15.83,
+      "volume": 2134
     }
   ]
 }
