@@ -2,8 +2,8 @@
   "symbol": "CPSH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T08:02:47.051847",
-  "bar_count": 241,
+  "generated_at": "2026-05-27T08:08:11.058188",
+  "bar_count": 242,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -1928,10 +1928,18 @@
     {
       "time": "2026-05-27T07:00:00",
       "open": 13.1803,
-      "high": 13.3339,
+      "high": 13.6,
       "low": 13.1803,
-      "close": 13.3339,
-      "volume": 86
+      "close": 13.6,
+      "volume": 332
+    },
+    {
+      "time": "2026-05-27T07:05:00",
+      "open": 13.57,
+      "high": 13.87,
+      "low": 13.4896,
+      "close": 13.84,
+      "volume": 405
     }
   ]
 }
