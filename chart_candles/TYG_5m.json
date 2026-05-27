@@ -2,8 +2,8 @@
   "symbol": "TYG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T10:58:10.344759",
-  "bar_count": 144,
+  "generated_at": "2026-05-27T11:04:32.204380",
+  "bar_count": 145,
   "candles": [
     {
       "time": "2026-05-26T08:30:00",
@@ -1152,10 +1152,18 @@
     {
       "time": "2026-05-27T09:55:00",
       "open": 45.43,
-      "high": 45.44,
+      "high": 45.47,
       "low": 45.43,
-      "close": 45.44,
-      "volume": 6
+      "close": 45.47,
+      "volume": 10
+    },
+    {
+      "time": "2026-05-27T10:00:00",
+      "open": 45.47,
+      "high": 45.48,
+      "low": 45.39,
+      "close": 45.4,
+      "volume": 32
     }
   ]
 }
