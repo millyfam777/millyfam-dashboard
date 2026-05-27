@@ -2,8 +2,8 @@
   "symbol": "QTTB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T16:52:35.399207",
-  "bar_count": 311,
+  "generated_at": "2026-05-27T16:57:35.574196",
+  "bar_count": 312,
   "candles": [
     {
       "time": "2026-05-26T06:00:00",
@@ -2488,10 +2488,18 @@
     {
       "time": "2026-05-27T15:50:00",
       "open": 11.87,
-      "high": 11.87,
+      "high": 12.0,
       "low": 11.8289,
-      "close": 11.8289,
-      "volume": 12
+      "close": 12.0,
+      "volume": 16
+    },
+    {
+      "time": "2026-05-27T15:55:00",
+      "open": 11.92,
+      "high": 11.97,
+      "low": 11.8,
+      "close": 11.8954,
+      "volume": 18
     }
   ]
 }
