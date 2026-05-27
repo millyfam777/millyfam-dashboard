@@ -2,8 +2,8 @@
   "symbol": "CRSR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T08:48:44.507921",
-  "bar_count": 250,
+  "generated_at": "2026-05-27T08:58:33.258327",
+  "bar_count": 252,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -1999,11 +1999,27 @@
     },
     {
       "time": "2026-05-27T07:45:00",
-      "open": 9.01,
-      "high": 9.01,
-      "low": 9.01,
-      "close": 9.01,
-      "volume": 0
+      "open": 9.1,
+      "high": 9.2,
+      "low": 9.1,
+      "close": 9.2,
+      "volume": 3
+    },
+    {
+      "time": "2026-05-27T07:50:00",
+      "open": 9.18,
+      "high": 9.18,
+      "low": 9.02,
+      "close": 9.03,
+      "volume": 11
+    },
+    {
+      "time": "2026-05-27T07:55:00",
+      "open": 9.09,
+      "high": 9.19,
+      "low": 9.03,
+      "close": 9.18,
+      "volume": 16
     }
   ]
 }
