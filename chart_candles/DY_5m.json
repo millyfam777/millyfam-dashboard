@@ -2,8 +2,8 @@
   "symbol": "DY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T09:27:54.149757",
-  "bar_count": 231,
+  "generated_at": "2026-05-27T09:32:59.902874",
+  "bar_count": 232,
   "candles": [
     {
       "time": "2026-05-26T05:15:00",
@@ -1848,10 +1848,18 @@
     {
       "time": "2026-05-27T08:25:00",
       "open": 519.0,
-      "high": 535.0,
+      "high": 541.0,
       "low": 518.01,
+      "close": 536.97,
+      "volume": 109
+    },
+    {
+      "time": "2026-05-27T08:30:00",
+      "open": 535.5,
+      "high": 550.0,
+      "low": 534.99,
       "close": 535.0,
-      "volume": 90
+      "volume": 330
     }
   ]
 }
