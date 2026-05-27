@@ -2,8 +2,8 @@
   "symbol": "RCT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T12:47:57.754818",
-  "bar_count": 297,
+  "generated_at": "2026-05-27T12:52:52.208466",
+  "bar_count": 298,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -2376,10 +2376,18 @@
     {
       "time": "2026-05-27T11:45:00",
       "open": 1.02,
-      "high": 1.12,
+      "high": 1.17,
       "low": 0.9786,
-      "close": 1.105,
-      "volume": 30543
+      "close": 1.125,
+      "volume": 61441
+    },
+    {
+      "time": "2026-05-27T11:50:00",
+      "open": 1.125,
+      "high": 1.16,
+      "low": 0.92,
+      "close": 0.92,
+      "volume": 50973
     }
   ]
 }
