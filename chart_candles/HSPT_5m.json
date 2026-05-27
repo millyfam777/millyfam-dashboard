@@ -2,8 +2,8 @@
   "symbol": "HSPT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T14:44:45.357906",
-  "bar_count": 172,
+  "generated_at": "2026-05-27T14:51:04.381789",
+  "bar_count": 174,
   "candles": [
     {
       "time": "2026-05-26T09:30:00",
@@ -1380,6 +1380,22 @@
       "low": 11.4,
       "close": 11.5,
       "volume": 27
+    },
+    {
+      "time": "2026-05-27T13:45:00",
+      "open": 11.4,
+      "high": 12.34,
+      "low": 11.36,
+      "close": 12.34,
+      "volume": 3
+    },
+    {
+      "time": "2026-05-27T13:50:00",
+      "open": 12.34,
+      "high": 12.34,
+      "low": 12.34,
+      "close": 12.34,
+      "volume": 0
     }
   ]
 }
