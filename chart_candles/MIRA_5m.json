@@ -2,8 +2,8 @@
   "symbol": "MIRA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T12:11:10.008437",
-  "bar_count": 291,
+  "generated_at": "2026-05-27T12:16:01.238202",
+  "bar_count": 292,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -2329,9 +2329,17 @@
       "time": "2026-05-27T11:10:00",
       "open": 1.1601,
       "high": 1.1601,
-      "low": 1.1597,
-      "close": 1.1597,
-      "volume": 12
+      "low": 1.15,
+      "close": 1.158,
+      "volume": 222
+    },
+    {
+      "time": "2026-05-27T11:15:00",
+      "open": 1.159,
+      "high": 1.159,
+      "low": 1.15,
+      "close": 1.15,
+      "volume": 2
     }
   ]
 }
