@@ -2,8 +2,8 @@
   "symbol": "NNVC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T13:12:43.939354",
-  "bar_count": 303,
+  "generated_at": "2026-05-27T13:18:32.531168",
+  "bar_count": 304,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -2424,10 +2424,18 @@
     {
       "time": "2026-05-27T12:10:00",
       "open": 1.84,
-      "high": 1.85,
+      "high": 1.855,
       "low": 1.83,
-      "close": 1.8451,
-      "volume": 109
+      "close": 1.8509,
+      "volume": 257
+    },
+    {
+      "time": "2026-05-27T12:15:00",
+      "open": 1.855,
+      "high": 1.86,
+      "low": 1.83,
+      "close": 1.86,
+      "volume": 546
     }
   ]
 }

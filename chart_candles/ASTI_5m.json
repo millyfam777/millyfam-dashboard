@@ -2,8 +2,8 @@
   "symbol": "ASTI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-27T13:12:34.401869",
-  "bar_count": 303,
+  "generated_at": "2026-05-27T13:18:18.648445",
+  "bar_count": 304,
   "candles": [
     {
       "time": "2026-05-26T03:00:00",
@@ -2424,10 +2424,18 @@
     {
       "time": "2026-05-27T12:10:00",
       "open": 6.96,
-      "high": 7.03,
+      "high": 7.05,
       "low": 6.9401,
-      "close": 7.0,
-      "volume": 219
+      "close": 7.02,
+      "volume": 422
+    },
+    {
+      "time": "2026-05-27T12:15:00",
+      "open": 7.02,
+      "high": 7.08,
+      "low": 6.99,
+      "close": 7.08,
+      "volume": 129
     }
   ]
 }
