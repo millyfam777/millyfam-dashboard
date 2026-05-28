@@ -2,8 +2,8 @@
   "symbol": "DRNL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T10:48:36.728503",
-  "bar_count": 208,
+  "generated_at": "2026-05-28T10:53:40.971509",
+  "bar_count": 209,
   "candles": [
     {
       "time": "2026-05-27T08:30:00",
@@ -1665,9 +1665,17 @@
       "time": "2026-05-28T09:45:00",
       "open": 16.06,
       "high": 16.06,
-      "low": 16.06,
-      "close": 16.06,
-      "volume": 2
+      "low": 16.0,
+      "close": 16.0,
+      "volume": 5
+    },
+    {
+      "time": "2026-05-28T09:50:00",
+      "open": 15.87,
+      "high": 15.87,
+      "low": 15.87,
+      "close": 15.87,
+      "volume": 4
     }
   ]
 }
