@@ -2,8 +2,8 @@
   "symbol": "VTIX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T07:02:55.664981",
-  "bar_count": 200,
+  "generated_at": "2026-05-28T07:07:55.765629",
+  "bar_count": 201,
   "candles": [
     {
       "time": "2026-05-27T05:25:00",
@@ -1600,10 +1600,18 @@
     {
       "time": "2026-05-28T06:00:00",
       "open": 4.19,
-      "high": 4.19,
+      "high": 4.23,
       "low": 4.18,
-      "close": 4.18,
-      "volume": 5
+      "close": 4.23,
+      "volume": 7
+    },
+    {
+      "time": "2026-05-28T06:05:00",
+      "open": 4.23,
+      "high": 4.29,
+      "low": 4.23,
+      "close": 4.29,
+      "volume": 4
     }
   ]
 }

@@ -2,8 +2,8 @@
   "symbol": "VSEE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T07:03:19.150173",
-  "bar_count": 229,
+  "generated_at": "2026-05-28T07:08:18.633303",
+  "bar_count": 230,
   "candles": [
     {
       "time": "2026-05-27T03:00:00",
@@ -1832,10 +1832,18 @@
     {
       "time": "2026-05-28T06:00:00",
       "open": 0.2,
-      "high": 0.2004,
+      "high": 0.2026,
       "low": 0.1903,
-      "close": 0.1941,
-      "volume": 115
+      "close": 0.2026,
+      "volume": 250
+    },
+    {
+      "time": "2026-05-28T06:05:00",
+      "open": 0.2066,
+      "high": 0.21,
+      "low": 0.2066,
+      "close": 0.21,
+      "volume": 145
     }
   ]
 }
