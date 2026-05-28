@@ -2,8 +2,8 @@
   "symbol": "SPRC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T19:27:32.136484",
-  "bar_count": 303,
+  "generated_at": "2026-05-28T19:32:31.600605",
+  "bar_count": 304,
   "candles": [
     {
       "time": "2026-05-27T04:35:00",
@@ -2424,10 +2424,18 @@
     {
       "time": "2026-05-28T18:25:00",
       "open": 11.19,
-      "high": 11.19,
+      "high": 11.23,
       "low": 11.19,
-      "close": 11.19,
-      "volume": 4
+      "close": 11.23,
+      "volume": 13
+    },
+    {
+      "time": "2026-05-28T18:30:00",
+      "open": 11.45,
+      "high": 11.45,
+      "low": 11.39,
+      "close": 11.45,
+      "volume": 11
     }
   ]
 }
