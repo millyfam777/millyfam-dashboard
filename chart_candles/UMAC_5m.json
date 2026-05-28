@@ -2,8 +2,8 @@
   "symbol": "UMAC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T17:02:54.886456",
-  "bar_count": 349,
+  "generated_at": "2026-05-28T17:07:53.834691",
+  "bar_count": 350,
   "candles": [
     {
       "time": "2026-05-27T03:00:00",
@@ -2792,10 +2792,18 @@
     {
       "time": "2026-05-28T16:00:00",
       "open": 29.0133,
-      "high": 29.1766,
+      "high": 29.2,
       "low": 29.0,
-      "close": 29.12,
-      "volume": 64
+      "close": 29.1693,
+      "volume": 105
+    },
+    {
+      "time": "2026-05-28T16:05:00",
+      "open": 29.1697,
+      "high": 29.36,
+      "low": 29.1195,
+      "close": 29.36,
+      "volume": 23
     }
   ]
 }
