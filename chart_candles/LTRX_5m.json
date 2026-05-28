@@ -2,8 +2,8 @@
   "symbol": "LTRX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T09:08:42.319702",
-  "bar_count": 254,
+  "generated_at": "2026-05-28T09:13:28.767319",
+  "bar_count": 255,
   "candles": [
     {
       "time": "2026-05-27T03:00:00",
@@ -2034,8 +2034,16 @@
       "open": 8.6415,
       "high": 8.6415,
       "low": 8.5,
-      "close": 8.5565,
-      "volume": 33
+      "close": 8.55,
+      "volume": 41
+    },
+    {
+      "time": "2026-05-28T08:10:00",
+      "open": 8.54,
+      "high": 8.6,
+      "low": 8.54,
+      "close": 8.6,
+      "volume": 29
     }
   ]
 }
