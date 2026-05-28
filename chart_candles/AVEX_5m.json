@@ -2,8 +2,8 @@
   "symbol": "AVEX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T16:28:42.609628",
-  "bar_count": 342,
+  "generated_at": "2026-05-28T16:33:41.525795",
+  "bar_count": 343,
   "candles": [
     {
       "time": "2026-05-27T03:00:00",
@@ -2736,10 +2736,18 @@
     {
       "time": "2026-05-28T15:25:00",
       "open": 40.0,
-      "high": 40.01,
+      "high": 40.03,
       "low": 39.96,
-      "close": 40.01,
-      "volume": 25
+      "close": 40.03,
+      "volume": 26
+    },
+    {
+      "time": "2026-05-28T15:30:00",
+      "open": 39.95,
+      "high": 40.48,
+      "low": 39.95,
+      "close": 40.48,
+      "volume": 24
     }
   ]
 }
