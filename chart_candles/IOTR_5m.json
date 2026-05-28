@@ -2,8 +2,8 @@
   "symbol": "IOTR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T09:59:14.339256",
-  "bar_count": 192,
+  "generated_at": "2026-05-28T10:03:54.124140",
+  "bar_count": 193,
   "candles": [
     {
       "time": "2026-05-27T06:00:00",
@@ -1536,10 +1536,18 @@
     {
       "time": "2026-05-28T08:55:00",
       "open": 3.12,
-      "high": 3.19,
+      "high": 3.25,
       "low": 3.0101,
-      "close": 3.16,
-      "volume": 737
+      "close": 3.25,
+      "volume": 1008
+    },
+    {
+      "time": "2026-05-28T09:00:00",
+      "open": 3.2462,
+      "high": 3.27,
+      "low": 2.94,
+      "close": 3.0333,
+      "volume": 1108
     }
   ]
 }
