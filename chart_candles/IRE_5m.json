@@ -2,8 +2,8 @@
   "symbol": "IRE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T07:58:40.706753",
-  "bar_count": 240,
+  "generated_at": "2026-05-28T08:03:39.363922",
+  "bar_count": 241,
   "candles": [
     {
       "time": "2026-05-27T03:00:00",
@@ -1920,10 +1920,18 @@
     {
       "time": "2026-05-28T06:55:00",
       "open": 38.99,
-      "high": 39.33,
+      "high": 39.36,
       "low": 38.9,
-      "close": 39.25,
-      "volume": 13
+      "close": 39.36,
+      "volume": 23
+    },
+    {
+      "time": "2026-05-28T07:00:00",
+      "open": 39.24,
+      "high": 39.3,
+      "low": 39.22,
+      "close": 39.3,
+      "volume": 28
     }
   ]
 }
