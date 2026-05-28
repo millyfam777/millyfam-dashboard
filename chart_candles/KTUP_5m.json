@@ -2,8 +2,8 @@
   "symbol": "KTUP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T11:08:23.998892",
-  "bar_count": 278,
+  "generated_at": "2026-05-28T11:13:34.731230",
+  "bar_count": 279,
   "candles": [
     {
       "time": "2026-05-27T03:00:00",
@@ -2225,9 +2225,17 @@
       "time": "2026-05-28T10:05:00",
       "open": 12.01,
       "high": 12.08,
-      "low": 12.01,
-      "close": 12.08,
-      "volume": 75
+      "low": 12.0,
+      "close": 12.0,
+      "volume": 143
+    },
+    {
+      "time": "2026-05-28T10:10:00",
+      "open": 12.04,
+      "high": 12.04,
+      "low": 11.92,
+      "close": 11.97,
+      "volume": 19
     }
   ]
 }

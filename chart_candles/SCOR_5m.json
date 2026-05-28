@@ -2,8 +2,8 @@
   "symbol": "SCOR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T11:08:37.785991",
-  "bar_count": 151,
+  "generated_at": "2026-05-28T11:13:52.713674",
+  "bar_count": 152,
   "candles": [
     {
       "time": "2026-05-27T09:15:00",
@@ -1208,10 +1208,18 @@
     {
       "time": "2026-05-28T10:05:00",
       "open": 8.59,
-      "high": 8.59,
+      "high": 8.6,
       "low": 8.55,
-      "close": 8.55,
-      "volume": 13
+      "close": 8.6,
+      "volume": 29
+    },
+    {
+      "time": "2026-05-28T10:10:00",
+      "open": 8.67,
+      "high": 8.67,
+      "low": 8.6,
+      "close": 8.6,
+      "volume": 22
     }
   ]
 }
