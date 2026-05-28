@@ -2,8 +2,8 @@
   "symbol": "TDTH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T15:28:38.662181",
-  "bar_count": 330,
+  "generated_at": "2026-05-28T15:33:38.036061",
+  "bar_count": 331,
   "candles": [
     {
       "time": "2026-05-27T03:00:00",
@@ -2641,9 +2641,17 @@
       "time": "2026-05-28T14:25:00",
       "open": 3.01,
       "high": 3.025,
-      "low": 3.01,
-      "close": 3.025,
-      "volume": 18
+      "low": 3.0017,
+      "close": 3.0017,
+      "volume": 19
+    },
+    {
+      "time": "2026-05-28T14:30:00",
+      "open": 3.025,
+      "high": 3.0304,
+      "low": 3.025,
+      "close": 3.0304,
+      "volume": 3
     }
   ]
 }
