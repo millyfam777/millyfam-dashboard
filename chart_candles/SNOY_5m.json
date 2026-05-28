@@ -2,8 +2,8 @@
   "symbol": "SNOY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T11:13:25.728879",
-  "bar_count": 243,
+  "generated_at": "2026-05-28T11:18:06.323692",
+  "bar_count": 244,
   "candles": [
     {
       "time": "2026-05-27T06:00:00",
@@ -1944,10 +1944,18 @@
     {
       "time": "2026-05-28T10:10:00",
       "open": 10.23,
-      "high": 10.25,
+      "high": 10.28,
       "low": 10.21,
-      "close": 10.25,
-      "volume": 52
+      "close": 10.22,
+      "volume": 64
+    },
+    {
+      "time": "2026-05-28T10:15:00",
+      "open": 10.22,
+      "high": 10.22,
+      "low": 10.22,
+      "close": 10.22,
+      "volume": 2
     }
   ]
 }
