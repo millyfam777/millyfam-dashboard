@@ -2,8 +2,8 @@
   "symbol": "PWRL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T08:33:08.058353",
-  "bar_count": 157,
+  "generated_at": "2026-05-28T08:38:16.803567",
+  "bar_count": 158,
   "candles": [
     {
       "time": "2026-05-27T10:30:00",
@@ -1256,10 +1256,18 @@
     {
       "time": "2026-05-28T07:30:00",
       "open": 33.02,
-      "high": 33.02,
+      "high": 33.5,
       "low": 33.02,
-      "close": 33.02,
-      "volume": 1
+      "close": 33.5,
+      "volume": 3
+    },
+    {
+      "time": "2026-05-28T07:35:00",
+      "open": 33.18,
+      "high": 33.29,
+      "low": 33.18,
+      "close": 33.27,
+      "volume": 3
     }
   ]
 }
