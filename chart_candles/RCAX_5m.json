@@ -2,8 +2,8 @@
   "symbol": "RCAX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T08:27:50.380593",
-  "bar_count": 246,
+  "generated_at": "2026-05-28T08:32:54.316134",
+  "bar_count": 247,
   "candles": [
     {
       "time": "2026-05-27T03:00:00",
@@ -1968,10 +1968,18 @@
     {
       "time": "2026-05-28T07:25:00",
       "open": 9.81,
-      "high": 9.95,
+      "high": 9.99,
       "low": 9.81,
-      "close": 9.95,
-      "volume": 35
+      "close": 9.83,
+      "volume": 56
+    },
+    {
+      "time": "2026-05-28T07:30:00",
+      "open": 9.98,
+      "high": 10.0,
+      "low": 9.98,
+      "close": 9.99,
+      "volume": 27
     }
   ]
 }
