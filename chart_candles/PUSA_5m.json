@@ -2,8 +2,8 @@
   "symbol": "PUSA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T09:03:30.708679",
-  "bar_count": 253,
+  "generated_at": "2026-05-28T09:08:40.064909",
+  "bar_count": 254,
   "candles": [
     {
       "time": "2026-05-27T03:00:00",
@@ -2024,10 +2024,18 @@
     {
       "time": "2026-05-28T08:00:00",
       "open": 4.32,
-      "high": 4.34,
+      "high": 4.37,
       "low": 4.3,
-      "close": 4.33,
-      "volume": 357
+      "close": 4.37,
+      "volume": 571
+    },
+    {
+      "time": "2026-05-28T08:05:00",
+      "open": 4.37,
+      "high": 4.43,
+      "low": 4.32,
+      "close": 4.35,
+      "volume": 1171
     }
   ]
 }
