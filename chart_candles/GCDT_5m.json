@@ -2,8 +2,8 @@
   "symbol": "GCDT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T19:03:29.077429",
-  "bar_count": 373,
+  "generated_at": "2026-05-28T19:08:29.927671",
+  "bar_count": 374,
   "candles": [
     {
       "time": "2026-05-27T03:00:00",
@@ -2984,10 +2984,18 @@
     {
       "time": "2026-05-28T18:00:00",
       "open": 1.33,
-      "high": 1.33,
+      "high": 1.38,
       "low": 1.33,
-      "close": 1.33,
-      "volume": 9
+      "close": 1.38,
+      "volume": 49
+    },
+    {
+      "time": "2026-05-28T18:05:00",
+      "open": 1.37,
+      "high": 1.47,
+      "low": 1.34,
+      "close": 1.47,
+      "volume": 458
     }
   ]
 }
