@@ -2,8 +2,8 @@
   "symbol": "BRR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T12:34:06.113645",
-  "bar_count": 214,
+  "generated_at": "2026-05-28T12:38:50.469150",
+  "bar_count": 215,
   "candles": [
     {
       "time": "2026-05-27T06:10:00",
@@ -1712,10 +1712,18 @@
     {
       "time": "2026-05-28T11:30:00",
       "open": 2.15,
-      "high": 2.155,
+      "high": 2.16,
+      "low": 2.135,
+      "close": 2.16,
+      "volume": 1294
+    },
+    {
+      "time": "2026-05-28T11:35:00",
+      "open": 2.155,
+      "high": 2.17,
       "low": 2.14,
       "close": 2.145,
-      "volume": 864
+      "volume": 585
     }
   ]
 }
