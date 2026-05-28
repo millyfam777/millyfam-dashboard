@@ -2,8 +2,8 @@
   "symbol": "SNOW",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T16:53:23.880711",
-  "bar_count": 347,
+  "generated_at": "2026-05-28T16:58:23.614863",
+  "bar_count": 348,
   "candles": [
     {
       "time": "2026-05-27T03:00:00",
@@ -2776,10 +2776,18 @@
     {
       "time": "2026-05-28T15:50:00",
       "open": 242.5,
-      "high": 242.73,
+      "high": 242.86,
       "low": 242.5,
-      "close": 242.7,
-      "volume": 92
+      "close": 242.86,
+      "volume": 103
+    },
+    {
+      "time": "2026-05-28T15:55:00",
+      "open": 242.5,
+      "high": 242.5,
+      "low": 242.0,
+      "close": 242.0,
+      "volume": 55
     }
   ]
 }
