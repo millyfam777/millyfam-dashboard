@@ -2,8 +2,8 @@
   "symbol": "TURB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T15:48:12.123381",
-  "bar_count": 334,
+  "generated_at": "2026-05-28T15:53:12.936892",
+  "bar_count": 335,
   "candles": [
     {
       "time": "2026-05-27T03:00:00",
@@ -2673,9 +2673,17 @@
       "time": "2026-05-28T14:45:00",
       "open": 1.42,
       "high": 1.43,
-      "low": 1.41,
-      "close": 1.4277,
-      "volume": 42
+      "low": 1.405,
+      "close": 1.415,
+      "volume": 122
+    },
+    {
+      "time": "2026-05-28T14:50:00",
+      "open": 1.415,
+      "high": 1.42,
+      "low": 1.4,
+      "close": 1.41,
+      "volume": 36
     }
   ]
 }
