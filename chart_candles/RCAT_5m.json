@@ -2,8 +2,8 @@
   "symbol": "RCAT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-05-28T17:58:35.008001",
-  "bar_count": 360,
+  "generated_at": "2026-05-28T18:03:35.289067",
+  "bar_count": 361,
   "candles": [
     {
       "time": "2026-05-27T03:00:00",
@@ -2880,10 +2880,18 @@
     {
       "time": "2026-05-28T16:55:00",
       "open": 14.1788,
-      "high": 14.19,
+      "high": 14.2,
       "low": 14.16,
-      "close": 14.18,
-      "volume": 16
+      "close": 14.2,
+      "volume": 38
+    },
+    {
+      "time": "2026-05-28T17:00:00",
+      "open": 14.2192,
+      "high": 14.3,
+      "low": 14.18,
+      "close": 14.21,
+      "volume": 89
     }
   ]
 }
