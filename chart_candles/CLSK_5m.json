@@ -2,8 +2,8 @@
   "symbol": "CLSK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T06:08:09.457230",
-  "bar_count": 218,
+  "generated_at": "2026-06-01T06:13:08.580957",
+  "bar_count": 219,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -1745,9 +1745,17 @@
       "time": "2026-06-01T05:05:00",
       "open": 18.2,
       "high": 18.2,
+      "low": 18.1616,
+      "close": 18.1616,
+      "volume": 11
+    },
+    {
+      "time": "2026-06-01T05:10:00",
+      "open": 18.17,
+      "high": 18.17,
       "low": 18.17,
-      "close": 18.18,
-      "volume": 10
+      "close": 18.17,
+      "volume": 3
     }
   ]
 }
