@@ -2,8 +2,8 @@
   "symbol": "IREN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T06:43:11.104629",
-  "bar_count": 225,
+  "generated_at": "2026-06-01T06:48:11.816594",
+  "bar_count": 226,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -1800,10 +1800,18 @@
     {
       "time": "2026-06-01T05:40:00",
       "open": 63.59,
-      "high": 63.65,
+      "high": 63.7,
       "low": 63.59,
-      "close": 63.61,
-      "volume": 37
+      "close": 63.7,
+      "volume": 64
+    },
+    {
+      "time": "2026-06-01T05:45:00",
+      "open": 63.73,
+      "high": 63.73,
+      "low": 63.664,
+      "close": 63.664,
+      "volume": 8
     }
   ]
 }
