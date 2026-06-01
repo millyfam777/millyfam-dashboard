@@ -2,8 +2,8 @@
   "symbol": "BBAI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T06:52:32.031052",
-  "bar_count": 227,
+  "generated_at": "2026-06-01T06:57:34.477833",
+  "bar_count": 228,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -1817,9 +1817,17 @@
       "time": "2026-06-01T05:50:00",
       "open": 5.16,
       "high": 5.17,
-      "low": 5.16,
+      "low": 5.15,
+      "close": 5.155,
+      "volume": 131
+    },
+    {
+      "time": "2026-06-01T05:55:00",
+      "open": 5.15,
+      "high": 5.16,
+      "low": 5.15,
       "close": 5.16,
-      "volume": 92
+      "volume": 47
     }
   ]
 }
