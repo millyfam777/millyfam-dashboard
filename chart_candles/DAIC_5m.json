@@ -2,8 +2,8 @@
   "symbol": "DAIC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T10:54:00.927506",
-  "bar_count": 18,
+  "generated_at": "2026-06-01T10:58:27.671215",
+  "bar_count": 19,
   "candles": [
     {
       "time": "2026-06-01T08:25:00",
@@ -144,10 +144,18 @@
     {
       "time": "2026-06-01T09:50:00",
       "open": 4.39,
-      "high": 4.5,
+      "high": 4.56,
       "low": 4.39,
-      "close": 4.43,
-      "volume": 12
+      "close": 4.42,
+      "volume": 20
+    },
+    {
+      "time": "2026-06-01T09:55:00",
+      "open": 4.57,
+      "high": 4.91,
+      "low": 4.5,
+      "close": 4.5,
+      "volume": 16
     }
   ]
 }
