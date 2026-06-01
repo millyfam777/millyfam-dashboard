@@ -2,8 +2,8 @@
   "symbol": "WULF",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T04:58:01.199699",
-  "bar_count": 204,
+  "generated_at": "2026-06-01T05:02:58.856939",
+  "bar_count": 205,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -1633,9 +1633,17 @@
       "time": "2026-06-01T03:55:00",
       "open": 25.36,
       "high": 25.37,
-      "low": 25.35,
+      "low": 25.345,
+      "close": 25.345,
+      "volume": 11
+    },
+    {
+      "time": "2026-06-01T04:00:00",
+      "open": 25.37,
+      "high": 25.37,
+      "low": 25.37,
       "close": 25.37,
-      "volume": 10
+      "volume": 3
     }
   ]
 }
