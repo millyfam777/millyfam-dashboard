@@ -2,8 +2,8 @@
   "symbol": "EWTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T09:23:15.544486",
-  "bar_count": 199,
+  "generated_at": "2026-06-01T09:28:28.808844",
+  "bar_count": 200,
   "candles": [
     {
       "time": "2026-05-29T03:45:00",
@@ -1593,9 +1593,17 @@
       "time": "2026-06-01T08:20:00",
       "open": 40.81,
       "high": 41.0,
-      "low": 40.77,
+      "low": 40.75,
+      "close": 40.75,
+      "volume": 65
+    },
+    {
+      "time": "2026-06-01T08:25:00",
+      "open": 40.56,
+      "high": 41.0,
+      "low": 40.56,
       "close": 41.0,
-      "volume": 63
+      "volume": 82
     }
   ]
 }
