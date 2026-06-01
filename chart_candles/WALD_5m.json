@@ -2,8 +2,8 @@
   "symbol": "WALD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T08:08:19.125615",
-  "bar_count": 160,
+  "generated_at": "2026-06-01T08:13:23.053278",
+  "bar_count": 161,
   "candles": [
     {
       "time": "2026-05-29T06:55:00",
@@ -1280,10 +1280,18 @@
     {
       "time": "2026-06-01T07:05:00",
       "open": 1.4,
-      "high": 1.41,
+      "high": 1.42,
+      "low": 1.39,
+      "close": 1.42,
+      "volume": 192
+    },
+    {
+      "time": "2026-06-01T07:10:00",
+      "open": 1.42,
+      "high": 1.449,
       "low": 1.39,
       "close": 1.4,
-      "volume": 157
+      "volume": 113
     }
   ]
 }
