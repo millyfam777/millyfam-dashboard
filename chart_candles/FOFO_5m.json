@@ -2,8 +2,8 @@
   "symbol": "FOFO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T15:17:54.870788",
-  "bar_count": 327,
+  "generated_at": "2026-06-01T15:22:53.981126",
+  "bar_count": 328,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -2616,10 +2616,18 @@
     {
       "time": "2026-06-01T14:15:00",
       "open": 3.495,
-      "high": 3.55,
+      "high": 3.5999,
       "low": 3.49,
-      "close": 3.55,
-      "volume": 41
+      "close": 3.5999,
+      "volume": 78
+    },
+    {
+      "time": "2026-06-01T14:20:00",
+      "open": 3.6,
+      "high": 4.7,
+      "low": 3.6,
+      "close": 4.62,
+      "volume": 1249
     }
   ]
 }
