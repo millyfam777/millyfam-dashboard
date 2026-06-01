@@ -2,8 +2,8 @@
   "symbol": "ANY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T17:17:44.844964",
-  "bar_count": 304,
+  "generated_at": "2026-06-01T17:22:46.978883",
+  "bar_count": 305,
   "candles": [
     {
       "time": "2026-05-29T04:15:00",
@@ -2432,10 +2432,18 @@
     {
       "time": "2026-06-01T16:15:00",
       "open": 4.85,
-      "high": 5.0,
+      "high": 5.1,
       "low": 4.82,
-      "close": 4.93,
-      "volume": 637
+      "close": 5.095,
+      "volume": 2086
+    },
+    {
+      "time": "2026-06-01T16:20:00",
+      "open": 5.09,
+      "high": 5.3,
+      "low": 5.09,
+      "close": 5.22,
+      "volume": 3801
     }
   ]
 }
