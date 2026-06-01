@@ -2,8 +2,8 @@
   "symbol": "KULR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T07:17:35.833759",
-  "bar_count": 232,
+  "generated_at": "2026-06-01T07:22:34.261217",
+  "bar_count": 233,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -1856,10 +1856,18 @@
     {
       "time": "2026-06-01T06:15:00",
       "open": 4.61,
-      "high": 4.61,
+      "high": 4.6166,
       "low": 4.61,
-      "close": 4.61,
-      "volume": 1
+      "close": 4.6166,
+      "volume": 4
+    },
+    {
+      "time": "2026-06-01T06:20:00",
+      "open": 4.64,
+      "high": 4.64,
+      "low": 4.62,
+      "close": 4.62,
+      "volume": 10
     }
   ]
 }
