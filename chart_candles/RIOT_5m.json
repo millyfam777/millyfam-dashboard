@@ -2,8 +2,8 @@
   "symbol": "RIOT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T07:28:06.923738",
-  "bar_count": 234,
+  "generated_at": "2026-06-01T07:33:05.109712",
+  "bar_count": 235,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -1872,10 +1872,18 @@
     {
       "time": "2026-06-01T06:25:00",
       "open": 27.01,
-      "high": 27.01,
+      "high": 27.0633,
       "low": 27.01,
-      "close": 27.01,
-      "volume": 2
+      "close": 27.0633,
+      "volume": 16
+    },
+    {
+      "time": "2026-06-01T06:30:00",
+      "open": 27.02,
+      "high": 27.02,
+      "low": 27.02,
+      "close": 27.02,
+      "volume": 1
     }
   ]
 }
