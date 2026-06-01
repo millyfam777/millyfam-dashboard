@@ -2,8 +2,8 @@
   "symbol": "ABTS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T13:02:45.552636",
-  "bar_count": 301,
+  "generated_at": "2026-06-01T13:07:45.290135",
+  "bar_count": 302,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -2408,10 +2408,18 @@
     {
       "time": "2026-06-01T12:00:00",
       "open": 2.175,
-      "high": 2.44,
+      "high": 2.45,
       "low": 2.15,
-      "close": 2.4,
-      "volume": 7212
+      "close": 2.43,
+      "volume": 13599
+    },
+    {
+      "time": "2026-06-01T12:05:00",
+      "open": 2.43,
+      "high": 2.43,
+      "low": 2.2,
+      "close": 2.21,
+      "volume": 5240
     }
   ]
 }
