@@ -2,8 +2,8 @@
   "symbol": "RGTI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T05:32:41.779374",
-  "bar_count": 211,
+  "generated_at": "2026-06-01T05:37:43.901018",
+  "bar_count": 212,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -1688,10 +1688,18 @@
     {
       "time": "2026-06-01T04:30:00",
       "open": 24.82,
-      "high": 24.8297,
+      "high": 24.84,
       "low": 24.801,
+      "close": 24.8203,
+      "volume": 56
+    },
+    {
+      "time": "2026-06-01T04:35:00",
+      "open": 24.82,
+      "high": 24.83,
+      "low": 24.8198,
       "close": 24.82,
-      "volume": 34
+      "volume": 25
     }
   ]
 }
