@@ -2,8 +2,8 @@
   "symbol": "HMR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T12:08:19.641350",
-  "bar_count": 290,
+  "generated_at": "2026-06-01T12:13:18.041084",
+  "bar_count": 291,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -2320,10 +2320,18 @@
     {
       "time": "2026-06-01T11:05:00",
       "open": 1.602,
-      "high": 1.63,
+      "high": 1.64,
       "low": 1.602,
-      "close": 1.6201,
-      "volume": 13
+      "close": 1.62,
+      "volume": 118
+    },
+    {
+      "time": "2026-06-01T11:10:00",
+      "open": 1.6201,
+      "high": 1.623,
+      "low": 1.61,
+      "close": 1.61,
+      "volume": 68
     }
   ]
 }
