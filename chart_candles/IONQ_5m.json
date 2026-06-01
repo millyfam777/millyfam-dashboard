@@ -2,8 +2,8 @@
   "symbol": "IONQ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T04:27:47.888780",
-  "bar_count": 198,
+  "generated_at": "2026-06-01T04:32:48.868820",
+  "bar_count": 199,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -1584,10 +1584,18 @@
     {
       "time": "2026-06-01T03:25:00",
       "open": 69.3,
-      "high": 69.32,
+      "high": 69.37,
       "low": 69.19,
-      "close": 69.29,
-      "volume": 65
+      "close": 69.21,
+      "volume": 101
+    },
+    {
+      "time": "2026-06-01T03:30:00",
+      "open": 69.24,
+      "high": 69.24,
+      "low": 69.15,
+      "close": 69.15,
+      "volume": 44
     }
   ]
 }
