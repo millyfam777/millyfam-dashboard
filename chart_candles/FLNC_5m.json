@@ -2,8 +2,8 @@
   "symbol": "FLNC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T11:08:21.706568",
-  "bar_count": 278,
+  "generated_at": "2026-06-01T11:13:22.831878",
+  "bar_count": 279,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -2224,10 +2224,18 @@
     {
       "time": "2026-06-01T10:05:00",
       "open": 24.94,
-      "high": 25.13,
+      "high": 25.14,
       "low": 24.88,
-      "close": 25.13,
-      "volume": 1891
+      "close": 25.09,
+      "volume": 3847
+    },
+    {
+      "time": "2026-06-01T10:10:00",
+      "open": 25.1,
+      "high": 25.14,
+      "low": 24.8,
+      "close": 24.95,
+      "volume": 2172
     }
   ]
 }
