@@ -2,8 +2,8 @@
   "symbol": "ARMG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T09:13:12.486924",
-  "bar_count": 255,
+  "generated_at": "2026-06-01T09:18:11.890822",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -2041,9 +2041,17 @@
       "time": "2026-06-01T08:10:00",
       "open": 54.63,
       "high": 54.63,
-      "low": 53.01,
-      "close": 53.33,
-      "volume": 128
+      "low": 52.9,
+      "close": 53.27,
+      "volume": 210
+    },
+    {
+      "time": "2026-06-01T08:15:00",
+      "open": 53.01,
+      "high": 53.86,
+      "low": 53.0,
+      "close": 53.86,
+      "volume": 71
     }
   ]
 }

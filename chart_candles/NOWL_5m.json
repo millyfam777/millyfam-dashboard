@@ -2,8 +2,8 @@
   "symbol": "NOWL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T09:13:32.886036",
-  "bar_count": 255,
+  "generated_at": "2026-06-01T09:18:36.596618",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -2041,9 +2041,17 @@
       "time": "2026-06-01T08:10:00",
       "open": 8.52,
       "high": 8.55,
+      "low": 8.37,
+      "close": 8.42,
+      "volume": 2400
+    },
+    {
+      "time": "2026-06-01T08:15:00",
+      "open": 8.41,
+      "high": 8.46,
       "low": 8.39,
-      "close": 8.4,
-      "volume": 1675
+      "close": 8.42,
+      "volume": 1207
     }
   ]
 }
