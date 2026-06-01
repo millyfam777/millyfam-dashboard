@@ -2,8 +2,8 @@
   "symbol": "GNTA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T10:37:49.836516",
-  "bar_count": 272,
+  "generated_at": "2026-06-01T10:42:45.648313",
+  "bar_count": 273,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -2176,10 +2176,18 @@
     {
       "time": "2026-06-01T09:35:00",
       "open": 1.815,
-      "high": 1.82,
+      "high": 1.825,
       "low": 1.78,
-      "close": 1.7902,
-      "volume": 684
+      "close": 1.81,
+      "volume": 1337
+    },
+    {
+      "time": "2026-06-01T09:40:00",
+      "open": 1.81,
+      "high": 1.87,
+      "low": 1.8,
+      "close": 1.84,
+      "volume": 2038
     }
   ]
 }
