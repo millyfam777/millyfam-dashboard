@@ -2,8 +2,8 @@
   "symbol": "JYD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T15:08:04.408373",
-  "bar_count": 326,
+  "generated_at": "2026-06-01T15:13:10.610131",
+  "bar_count": 327,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -2609,9 +2609,17 @@
       "time": "2026-06-01T14:05:00",
       "open": 1.0,
       "high": 1.02,
-      "low": 1.0,
-      "close": 1.0,
-      "volume": 6
+      "low": 0.9925,
+      "close": 0.9926,
+      "volume": 29
+    },
+    {
+      "time": "2026-06-01T14:10:00",
+      "open": 0.9926,
+      "high": 1.02,
+      "low": 0.9901,
+      "close": 1.02,
+      "volume": 223
     }
   ]
 }
