@@ -2,8 +2,8 @@
   "symbol": "NAMM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T16:48:18.414798",
-  "bar_count": 341,
+  "generated_at": "2026-06-01T16:53:17.010648",
+  "bar_count": 342,
   "candles": [
     {
       "time": "2026-05-29T03:25:00",
@@ -2728,10 +2728,18 @@
     {
       "time": "2026-06-01T15:45:00",
       "open": 2.12,
-      "high": 2.15,
+      "high": 2.18,
       "low": 2.12,
-      "close": 2.13,
-      "volume": 51
+      "close": 2.18,
+      "volume": 182
+    },
+    {
+      "time": "2026-06-01T15:50:00",
+      "open": 2.185,
+      "high": 2.2,
+      "low": 2.16,
+      "close": 2.2,
+      "volume": 164
     }
   ]
 }
