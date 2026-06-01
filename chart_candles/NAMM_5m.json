@@ -2,8 +2,8 @@
   "symbol": "NAMM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T16:23:19.566849",
-  "bar_count": 336,
+  "generated_at": "2026-06-01T16:28:18.125274",
+  "bar_count": 337,
   "candles": [
     {
       "time": "2026-05-29T03:25:00",
@@ -2690,8 +2690,16 @@
       "open": 2.11,
       "high": 2.13,
       "low": 2.11,
+      "close": 2.12,
+      "volume": 40
+    },
+    {
+      "time": "2026-06-01T15:25:00",
+      "open": 2.13,
+      "high": 2.13,
+      "low": 2.12,
       "close": 2.13,
-      "volume": 32
+      "volume": 64
     }
   ]
 }
