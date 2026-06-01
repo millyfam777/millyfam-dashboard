@@ -2,8 +2,8 @@
   "symbol": "LUNR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T06:57:39.007047",
-  "bar_count": 228,
+  "generated_at": "2026-06-01T07:02:38.227000",
+  "bar_count": 229,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -1824,10 +1824,18 @@
     {
       "time": "2026-06-01T05:55:00",
       "open": 42.19,
-      "high": 42.27,
+      "high": 42.3,
       "low": 42.19,
-      "close": 42.25,
-      "volume": 7
+      "close": 42.3,
+      "volume": 10
+    },
+    {
+      "time": "2026-06-01T06:00:00",
+      "open": 42.39,
+      "high": 42.6,
+      "low": 42.2,
+      "close": 42.6,
+      "volume": 54
     }
   ]
 }

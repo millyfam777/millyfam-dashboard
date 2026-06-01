@@ -2,8 +2,8 @@
   "symbol": "JOBY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T06:57:43.773102",
-  "bar_count": 228,
+  "generated_at": "2026-06-01T07:02:42.746897",
+  "bar_count": 229,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -1824,10 +1824,18 @@
     {
       "time": "2026-06-01T05:55:00",
       "open": 11.76,
-      "high": 11.76,
+      "high": 11.78,
       "low": 11.76,
-      "close": 11.76,
-      "volume": 1
+      "close": 11.78,
+      "volume": 3
+    },
+    {
+      "time": "2026-06-01T06:00:00",
+      "open": 11.78,
+      "high": 11.78,
+      "low": 11.7,
+      "close": 11.74,
+      "volume": 181
     }
   ]
 }
