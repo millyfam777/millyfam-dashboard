@@ -2,8 +2,8 @@
   "symbol": "HOOD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T04:52:53.499684",
-  "bar_count": 203,
+  "generated_at": "2026-06-01T04:57:56.650027",
+  "bar_count": 204,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -1624,10 +1624,18 @@
     {
       "time": "2026-06-01T03:50:00",
       "open": 93.28,
-      "high": 93.37,
+      "high": 93.5,
       "low": 93.28,
-      "close": 93.37,
-      "volume": 17
+      "close": 93.49,
+      "volume": 39
+    },
+    {
+      "time": "2026-06-01T03:55:00",
+      "open": 93.49,
+      "high": 93.84,
+      "low": 93.49,
+      "close": 93.74,
+      "volume": 31
     }
   ]
 }
