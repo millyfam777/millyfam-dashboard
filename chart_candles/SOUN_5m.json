@@ -2,8 +2,8 @@
   "symbol": "SOUN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T06:02:30.187904",
-  "bar_count": 217,
+  "generated_at": "2026-06-01T06:07:30.423771",
+  "bar_count": 218,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -1737,9 +1737,17 @@
       "time": "2026-06-01T05:00:00",
       "open": 9.09,
       "high": 9.1,
-      "low": 9.09,
+      "low": 9.085,
+      "close": 9.085,
+      "volume": 33
+    },
+    {
+      "time": "2026-06-01T05:05:00",
+      "open": 9.085,
+      "high": 9.09,
+      "low": 9.085,
       "close": 9.09,
-      "volume": 17
+      "volume": 16
     }
   ]
 }
