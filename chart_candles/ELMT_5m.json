@@ -2,8 +2,8 @@
   "symbol": "ELMT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T09:08:02.396594",
-  "bar_count": 254,
+  "generated_at": "2026-06-01T09:13:00.787413",
+  "bar_count": 255,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -2032,10 +2032,18 @@
     {
       "time": "2026-06-01T08:05:00",
       "open": 19.06,
-      "high": 19.19,
+      "high": 19.27,
       "low": 19.06,
-      "close": 19.17,
-      "volume": 5
+      "close": 19.2,
+      "volume": 15
+    },
+    {
+      "time": "2026-06-01T08:10:00",
+      "open": 19.3,
+      "high": 19.5,
+      "low": 19.28,
+      "close": 19.3,
+      "volume": 81
     }
   ]
 }
