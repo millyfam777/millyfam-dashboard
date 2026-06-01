@@ -2,8 +2,8 @@
   "symbol": "TMHC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T09:03:04.871165",
-  "bar_count": 187,
+  "generated_at": "2026-06-01T09:08:14.098134",
+  "bar_count": 188,
   "candles": [
     {
       "time": "2026-05-29T08:30:00",
@@ -1497,9 +1497,17 @@
       "time": "2026-06-01T08:00:00",
       "open": 71.59,
       "high": 71.59,
+      "low": 71.55,
+      "close": 71.56,
+      "volume": 170
+    },
+    {
+      "time": "2026-06-01T08:05:00",
+      "open": 71.57,
+      "high": 71.61,
       "low": 71.57,
-      "close": 71.57,
-      "volume": 127
+      "close": 71.6,
+      "volume": 266
     }
   ]
 }
