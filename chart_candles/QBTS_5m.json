@@ -2,8 +2,8 @@
   "symbol": "QBTS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T05:07:47.660345",
-  "bar_count": 206,
+  "generated_at": "2026-06-01T05:12:47.831472",
+  "bar_count": 207,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -1648,10 +1648,18 @@
     {
       "time": "2026-06-01T04:05:00",
       "open": 29.68,
-      "high": 29.78,
+      "high": 29.7911,
       "low": 29.68,
+      "close": 29.7911,
+      "volume": 30
+    },
+    {
+      "time": "2026-06-01T04:10:00",
+      "open": 29.79,
+      "high": 29.79,
+      "low": 29.75,
       "close": 29.78,
-      "volume": 15
+      "volume": 7
     }
   ]
 }

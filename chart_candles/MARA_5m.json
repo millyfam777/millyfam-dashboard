@@ -2,8 +2,8 @@
   "symbol": "MARA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T05:08:03.979113",
-  "bar_count": 206,
+  "generated_at": "2026-06-01T05:13:03.895499",
+  "bar_count": 207,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -1649,9 +1649,17 @@
       "time": "2026-06-01T04:05:00",
       "open": 14.34,
       "high": 14.34,
-      "low": 14.34,
-      "close": 14.34,
-      "volume": 22
+      "low": 14.3,
+      "close": 14.31,
+      "volume": 43
+    },
+    {
+      "time": "2026-06-01T04:10:00",
+      "open": 14.31,
+      "high": 14.32,
+      "low": 14.31,
+      "close": 14.32,
+      "volume": 31
     }
   ]
 }
