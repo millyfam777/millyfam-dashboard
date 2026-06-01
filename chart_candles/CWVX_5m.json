@@ -2,8 +2,8 @@
   "symbol": "CWVX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-01T12:58:46.041784",
-  "bar_count": 300,
+  "generated_at": "2026-06-01T13:03:40.460405",
+  "bar_count": 301,
   "candles": [
     {
       "time": "2026-05-29T03:00:00",
@@ -2400,10 +2400,18 @@
     {
       "time": "2026-06-01T11:55:00",
       "open": 43.48,
-      "high": 43.83,
+      "high": 43.89,
       "low": 43.48,
+      "close": 43.79,
+      "volume": 128
+    },
+    {
+      "time": "2026-06-01T12:00:00",
+      "open": 43.77,
+      "high": 43.81,
+      "low": 43.69,
       "close": 43.75,
-      "volume": 111
+      "volume": 30
     }
   ]
 }
