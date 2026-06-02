@@ -2,8 +2,8 @@
   "symbol": "NTCL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-02T04:17:05.146168",
-  "bar_count": 196,
+  "generated_at": "2026-06-02T04:22:04.868823",
+  "bar_count": 197,
   "candles": [
     {
       "time": "2026-06-01T03:00:00",
@@ -1569,9 +1569,17 @@
       "time": "2026-06-02T03:15:00",
       "open": 1.25,
       "high": 1.25,
-      "low": 1.25,
-      "close": 1.25,
-      "volume": 1
+      "low": 1.21,
+      "close": 1.22,
+      "volume": 3
+    },
+    {
+      "time": "2026-06-02T03:20:00",
+      "open": 1.22,
+      "high": 1.22,
+      "low": 1.22,
+      "close": 1.22,
+      "volume": 18
     }
   ]
 }

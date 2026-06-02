@@ -2,8 +2,8 @@
   "symbol": "MVLL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-02T04:17:37.276596",
-  "bar_count": 196,
+  "generated_at": "2026-06-02T04:22:38.669347",
+  "bar_count": 197,
   "candles": [
     {
       "time": "2026-06-01T03:00:00",
@@ -1569,9 +1569,17 @@
       "time": "2026-06-02T03:15:00",
       "open": 167.69,
       "high": 168.52,
-      "low": 162.38,
-      "close": 163.65,
-      "volume": 158
+      "low": 162.0,
+      "close": 163.0,
+      "volume": 270
+    },
+    {
+      "time": "2026-06-02T03:20:00",
+      "open": 162.5,
+      "high": 163.79,
+      "low": 160.05,
+      "close": 163.79,
+      "volume": 96
     }
   ]
 }
