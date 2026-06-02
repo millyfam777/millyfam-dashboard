@@ -2,8 +2,8 @@
   "symbol": "BJDX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-02T19:47:32.392112",
-  "bar_count": 368,
+  "generated_at": "2026-06-02T19:52:31.882213",
+  "bar_count": 369,
   "candles": [
     {
       "time": "2026-06-01T03:00:00",
@@ -2945,9 +2945,17 @@
       "time": "2026-06-02T18:45:00",
       "open": 4.11,
       "high": 4.11,
-      "low": 4.11,
-      "close": 4.11,
-      "volume": 3
+      "low": 4.1,
+      "close": 4.105,
+      "volume": 45
+    },
+    {
+      "time": "2026-06-02T18:50:00",
+      "open": 4.105,
+      "high": 4.11,
+      "low": 4.1,
+      "close": 4.105,
+      "volume": 36
     }
   ]
 }
