@@ -2,8 +2,8 @@
   "symbol": "DEVS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-02T19:17:48.114756",
-  "bar_count": 376,
+  "generated_at": "2026-06-02T19:22:48.185190",
+  "bar_count": 377,
   "candles": [
     {
       "time": "2026-06-01T03:00:00",
@@ -3008,10 +3008,18 @@
     {
       "time": "2026-06-02T18:15:00",
       "open": 0.5805,
-      "high": 0.5876,
+      "high": 0.5877,
       "low": 0.5805,
-      "close": 0.5854,
-      "volume": 16
+      "close": 0.5808,
+      "volume": 50
+    },
+    {
+      "time": "2026-06-02T18:20:00",
+      "open": 0.5854,
+      "high": 0.5854,
+      "low": 0.5806,
+      "close": 0.5808,
+      "volume": 61
     }
   ]
 }
