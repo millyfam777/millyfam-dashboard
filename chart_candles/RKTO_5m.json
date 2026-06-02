@@ -2,8 +2,8 @@
   "symbol": "RKTO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-02T18:57:39.023830",
-  "bar_count": 372,
+  "generated_at": "2026-06-02T19:02:38.470775",
+  "bar_count": 373,
   "candles": [
     {
       "time": "2026-06-01T03:00:00",
@@ -2977,9 +2977,17 @@
       "time": "2026-06-02T17:55:00",
       "open": 2.1201,
       "high": 2.13,
-      "low": 2.11,
-      "close": 2.13,
-      "volume": 70
+      "low": 2.1,
+      "close": 2.11,
+      "volume": 360
+    },
+    {
+      "time": "2026-06-02T18:00:00",
+      "open": 2.11,
+      "high": 2.12,
+      "low": 2.1,
+      "close": 2.1,
+      "volume": 73
     }
   ]
 }
