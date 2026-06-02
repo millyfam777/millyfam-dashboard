@@ -2,8 +2,8 @@
   "symbol": "DXST",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-02T18:32:27.654714",
-  "bar_count": 367,
+  "generated_at": "2026-06-02T18:37:27.306855",
+  "bar_count": 368,
   "candles": [
     {
       "time": "2026-06-01T03:00:00",
@@ -2937,9 +2937,17 @@
       "time": "2026-06-02T17:30:00",
       "open": 4.64,
       "high": 4.74,
+      "low": 4.63,
+      "close": 4.63,
+      "volume": 40
+    },
+    {
+      "time": "2026-06-02T17:35:00",
+      "open": 4.6798,
+      "high": 4.6798,
       "low": 4.64,
-      "close": 4.681,
-      "volume": 23
+      "close": 4.65,
+      "volume": 8
     }
   ]
 }
