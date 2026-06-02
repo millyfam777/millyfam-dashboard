@@ -2,8 +2,8 @@
   "symbol": "YINN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-02T04:08:24.150848",
-  "bar_count": 194,
+  "generated_at": "2026-06-02T04:13:30.780841",
+  "bar_count": 195,
   "candles": [
     {
       "time": "2026-06-01T03:00:00",
@@ -1552,10 +1552,18 @@
     {
       "time": "2026-06-02T03:05:00",
       "open": 33.32,
-      "high": 33.38,
+      "high": 33.39,
       "low": 32.15,
-      "close": 33.32,
-      "volume": 498
+      "close": 33.35,
+      "volume": 540
+    },
+    {
+      "time": "2026-06-02T03:10:00",
+      "open": 33.35,
+      "high": 33.38,
+      "low": 33.32,
+      "close": 33.38,
+      "volume": 141
     }
   ]
 }

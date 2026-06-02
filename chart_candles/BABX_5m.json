@@ -2,8 +2,8 @@
   "symbol": "BABX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-02T04:08:17.411540",
-  "bar_count": 194,
+  "generated_at": "2026-06-02T04:13:08.182108",
+  "bar_count": 195,
   "candles": [
     {
       "time": "2026-06-01T03:00:00",
@@ -1552,10 +1552,18 @@
     {
       "time": "2026-06-02T03:05:00",
       "open": 26.43,
-      "high": 26.48,
+      "high": 26.64,
       "low": 26.09,
-      "close": 26.09,
-      "volume": 16
+      "close": 26.64,
+      "volume": 23
+    },
+    {
+      "time": "2026-06-02T03:10:00",
+      "open": 26.54,
+      "high": 26.58,
+      "low": 26.52,
+      "close": 26.52,
+      "volume": 5
     }
   ]
 }
