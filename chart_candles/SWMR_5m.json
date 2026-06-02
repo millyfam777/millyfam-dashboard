@@ -2,8 +2,8 @@
   "symbol": "SWMR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-02T19:23:06.648615",
-  "bar_count": 377,
+  "generated_at": "2026-06-02T19:28:06.799391",
+  "bar_count": 378,
   "candles": [
     {
       "time": "2026-06-01T03:00:00",
@@ -3016,10 +3016,18 @@
     {
       "time": "2026-06-02T18:20:00",
       "open": 78.35,
-      "high": 78.35,
+      "high": 78.5,
       "low": 78.35,
-      "close": 78.35,
-      "volume": 1
+      "close": 78.5,
+      "volume": 11
+    },
+    {
+      "time": "2026-06-02T18:25:00",
+      "open": 78.5,
+      "high": 78.5,
+      "low": 78.5,
+      "close": 78.5,
+      "volume": 0
     }
   ]
 }
