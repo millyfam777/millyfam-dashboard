@@ -2,8 +2,8 @@
   "symbol": "GPUS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-02T17:08:14.545338",
-  "bar_count": 350,
+  "generated_at": "2026-06-02T17:13:12.567800",
+  "bar_count": 351,
   "candles": [
     {
       "time": "2026-06-01T03:00:00",
@@ -2801,9 +2801,17 @@
       "time": "2026-06-02T16:05:00",
       "open": 0.2309,
       "high": 0.2349,
-      "low": 0.2303,
+      "low": 0.2301,
+      "close": 0.2301,
+      "volume": 1086
+    },
+    {
+      "time": "2026-06-02T16:10:00",
+      "open": 0.232,
+      "high": 0.233,
+      "low": 0.2304,
       "close": 0.231,
-      "volume": 535
+      "volume": 246
     }
   ]
 }
