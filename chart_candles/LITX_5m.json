@@ -2,8 +2,8 @@
   "symbol": "LITX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-02T17:03:24.919073",
-  "bar_count": 349,
+  "generated_at": "2026-06-02T17:08:25.923259",
+  "bar_count": 350,
   "candles": [
     {
       "time": "2026-06-01T03:00:00",
@@ -2792,10 +2792,18 @@
     {
       "time": "2026-06-02T16:00:00",
       "open": 53.12,
-      "high": 53.12,
+      "high": 53.29,
       "low": 53.12,
-      "close": 53.12,
-      "volume": 2
+      "close": 53.29,
+      "volume": 12
+    },
+    {
+      "time": "2026-06-02T16:05:00",
+      "open": 53.24,
+      "high": 53.25,
+      "low": 53.18,
+      "close": 53.25,
+      "volume": 9
     }
   ]
 }
