@@ -2,8 +2,8 @@
   "symbol": "YHC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-02T04:43:17.611020",
-  "bar_count": 192,
+  "generated_at": "2026-06-02T04:48:18.699351",
+  "bar_count": 193,
   "candles": [
     {
       "time": "2026-06-01T03:45:00",
@@ -1536,10 +1536,18 @@
     {
       "time": "2026-06-02T03:40:00",
       "open": 0.98,
-      "high": 0.98,
+      "high": 1.01,
       "low": 0.98,
-      "close": 0.98,
-      "volume": 6
+      "close": 1.01,
+      "volume": 9
+    },
+    {
+      "time": "2026-06-02T03:45:00",
+      "open": 0.98,
+      "high": 0.99,
+      "low": 0.98,
+      "close": 0.99,
+      "volume": 10
     }
   ]
 }
