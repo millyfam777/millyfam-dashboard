@@ -2,8 +2,8 @@
   "symbol": "COHX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-02T16:53:06.671451",
-  "bar_count": 347,
+  "generated_at": "2026-06-02T16:58:05.929596",
+  "bar_count": 348,
   "candles": [
     {
       "time": "2026-06-01T03:00:00",
@@ -2777,9 +2777,17 @@
       "time": "2026-06-02T15:50:00",
       "open": 72.01,
       "high": 72.01,
-      "low": 72.01,
-      "close": 72.01,
-      "volume": 3
+      "low": 72.0,
+      "close": 72.0,
+      "volume": 4
+    },
+    {
+      "time": "2026-06-02T15:55:00",
+      "open": 72.0,
+      "high": 72.1,
+      "low": 72.0,
+      "close": 72.09,
+      "volume": 5
     }
   ]
 }
