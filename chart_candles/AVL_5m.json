@@ -2,8 +2,8 @@
   "symbol": "AVL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-02T05:03:30.058812",
-  "bar_count": 205,
+  "generated_at": "2026-06-02T05:13:29.342224",
+  "bar_count": 207,
   "candles": [
     {
       "time": "2026-06-01T03:00:00",
@@ -1640,10 +1640,26 @@
     {
       "time": "2026-06-02T04:00:00",
       "open": 78.11,
-      "high": 78.11,
+      "high": 78.85,
       "low": 77.99,
-      "close": 78.0,
-      "volume": 7
+      "close": 78.85,
+      "volume": 9
+    },
+    {
+      "time": "2026-06-02T04:05:00",
+      "open": 78.83,
+      "high": 78.83,
+      "low": 78.26,
+      "close": 78.26,
+      "volume": 3
+    },
+    {
+      "time": "2026-06-02T04:10:00",
+      "open": 78.23,
+      "high": 78.37,
+      "low": 78.22,
+      "close": 78.37,
+      "volume": 17
     }
   ]
 }
