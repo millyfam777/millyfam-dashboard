@@ -2,8 +2,8 @@
   "symbol": "HPE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-02T04:57:54.172653",
-  "bar_count": 204,
+  "generated_at": "2026-06-02T05:02:53.347233",
+  "bar_count": 205,
   "candles": [
     {
       "time": "2026-06-01T03:00:00",
@@ -1632,10 +1632,18 @@
     {
       "time": "2026-06-02T03:55:00",
       "open": 58.24,
-      "high": 58.44,
+      "high": 58.5,
       "low": 58.01,
-      "close": 58.27,
-      "volume": 109
+      "close": 58.11,
+      "volume": 185
+    },
+    {
+      "time": "2026-06-02T04:00:00",
+      "open": 58.11,
+      "high": 58.5,
+      "low": 57.92,
+      "close": 58.26,
+      "volume": 146
     }
   ]
 }
