@@ -2,8 +2,8 @@
   "symbol": "STAK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T18:27:36.924482",
-  "bar_count": 366,
+  "generated_at": "2026-06-03T18:32:37.097633",
+  "bar_count": 367,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -2929,9 +2929,17 @@
       "time": "2026-06-03T17:25:00",
       "open": 3.5,
       "high": 3.5,
+      "low": 3.43,
+      "close": 3.5,
+      "volume": 55
+    },
+    {
+      "time": "2026-06-03T17:30:00",
+      "open": 3.5,
+      "high": 3.5,
       "low": 3.5,
       "close": 3.5,
-      "volume": 3
+      "volume": 10
     }
   ]
 }
