@@ -2,8 +2,8 @@
   "symbol": "MSAI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T08:42:43.648423",
-  "bar_count": 168,
+  "generated_at": "2026-06-03T08:47:43.926990",
+  "bar_count": 169,
   "candles": [
     {
       "time": "2026-06-02T08:25:00",
@@ -1344,10 +1344,18 @@
     {
       "time": "2026-06-03T07:40:00",
       "open": 7.18,
-      "high": 7.19,
+      "high": 7.22,
       "low": 6.57,
+      "close": 7.1,
+      "volume": 3321
+    },
+    {
+      "time": "2026-06-03T07:45:00",
+      "open": 7.12,
+      "high": 7.17,
+      "low": 6.92,
       "close": 7.04,
-      "volume": 2321
+      "volume": 805
     }
   ]
 }
