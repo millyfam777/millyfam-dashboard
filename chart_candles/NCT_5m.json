@@ -2,8 +2,8 @@
   "symbol": "NCT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T10:12:59.632331",
-  "bar_count": 267,
+  "generated_at": "2026-06-03T10:18:04.668015",
+  "bar_count": 268,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -2136,10 +2136,18 @@
     {
       "time": "2026-06-03T09:10:00",
       "open": 3.2,
-      "high": 3.3,
+      "high": 3.33,
       "low": 3.2,
-      "close": 3.27,
-      "volume": 74
+      "close": 3.33,
+      "volume": 128
+    },
+    {
+      "time": "2026-06-03T09:15:00",
+      "open": 3.32,
+      "high": 3.32,
+      "low": 3.25,
+      "close": 3.3,
+      "volume": 63
     }
   ]
 }
