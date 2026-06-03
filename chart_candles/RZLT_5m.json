@@ -2,8 +2,8 @@
   "symbol": "RZLT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T06:33:07.420064",
-  "bar_count": 223,
+  "generated_at": "2026-06-03T06:38:00.592335",
+  "bar_count": 224,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -1784,10 +1784,18 @@
     {
       "time": "2026-06-03T05:30:00",
       "open": 4.47,
-      "high": 4.49,
+      "high": 4.61,
       "low": 4.47,
+      "close": 4.61,
+      "volume": 19
+    },
+    {
+      "time": "2026-06-03T05:35:00",
+      "open": 4.49,
+      "high": 4.49,
+      "low": 4.49,
       "close": 4.49,
-      "volume": 2
+      "volume": 1
     }
   ]
 }
