@@ -2,8 +2,8 @@
   "symbol": "YMAT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T14:42:10.332657",
-  "bar_count": 321,
+  "generated_at": "2026-06-03T14:47:13.521787",
+  "bar_count": 322,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -2569,9 +2569,17 @@
       "time": "2026-06-03T13:40:00",
       "open": 1.23,
       "high": 1.24,
-      "low": 1.225,
-      "close": 1.24,
-      "volume": 81
+      "low": 1.21,
+      "close": 1.225,
+      "volume": 321
+    },
+    {
+      "time": "2026-06-03T13:45:00",
+      "open": 1.23,
+      "high": 1.23,
+      "low": 1.2201,
+      "close": 1.23,
+      "volume": 73
     }
   ]
 }
