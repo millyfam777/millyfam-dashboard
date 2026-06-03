@@ -2,8 +2,8 @@
   "symbol": "MRVL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T04:22:49.873377",
-  "bar_count": 197,
+  "generated_at": "2026-06-03T04:28:05.316373",
+  "bar_count": 198,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -1577,9 +1577,17 @@
       "time": "2026-06-03T03:20:00",
       "open": 335.42,
       "high": 335.42,
-      "low": 331.52,
-      "close": 332.55,
-      "volume": 390
+      "low": 331.3,
+      "close": 332.0,
+      "volume": 619
+    },
+    {
+      "time": "2026-06-03T03:25:00",
+      "open": 332.0,
+      "high": 333.3,
+      "low": 332.0,
+      "close": 332.84,
+      "volume": 188
     }
   ]
 }
