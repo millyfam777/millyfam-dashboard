@@ -2,8 +2,8 @@
   "symbol": "LASE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T08:52:44.331757",
-  "bar_count": 241,
+  "generated_at": "2026-06-03T08:57:47.279366",
+  "bar_count": 242,
   "candles": [
     {
       "time": "2026-06-02T03:50:00",
@@ -1929,9 +1929,17 @@
       "time": "2026-06-03T07:50:00",
       "open": 3.375,
       "high": 3.38,
-      "low": 3.18,
+      "low": 3.05,
+      "close": 3.14,
+      "volume": 20567
+    },
+    {
+      "time": "2026-06-03T07:55:00",
+      "open": 3.15,
+      "high": 3.2,
+      "low": 3.14,
       "close": 3.2,
-      "volume": 9452
+      "volume": 4828
     }
   ]
 }
