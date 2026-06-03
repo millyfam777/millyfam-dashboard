@@ -2,8 +2,8 @@
   "symbol": "BCHT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T13:08:33.701707",
-  "bar_count": 182,
+  "generated_at": "2026-06-03T13:13:38.729849",
+  "bar_count": 183,
   "candles": [
     {
       "time": "2026-06-02T08:30:00",
@@ -1456,10 +1456,18 @@
     {
       "time": "2026-06-03T12:05:00",
       "open": 2.23,
-      "high": 2.23,
+      "high": 2.24,
+      "low": 2.2,
+      "close": 2.2101,
+      "volume": 19
+    },
+    {
+      "time": "2026-06-03T12:10:00",
+      "open": 2.22,
+      "high": 2.2488,
       "low": 2.2,
       "close": 2.2,
-      "volume": 11
+      "volume": 34
     }
   ]
 }
