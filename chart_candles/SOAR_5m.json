@@ -2,8 +2,8 @@
   "symbol": "SOAR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T17:18:00.121725",
-  "bar_count": 352,
+  "generated_at": "2026-06-03T17:23:01.775719",
+  "bar_count": 353,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -2816,10 +2816,18 @@
     {
       "time": "2026-06-03T16:15:00",
       "open": 0.3673,
-      "high": 0.3739,
+      "high": 0.3751,
       "low": 0.3673,
-      "close": 0.3676,
-      "volume": 278
+      "close": 0.3751,
+      "volume": 410
+    },
+    {
+      "time": "2026-06-03T16:20:00",
+      "open": 0.375,
+      "high": 0.3772,
+      "low": 0.375,
+      "close": 0.3753,
+      "volume": 123
     }
   ]
 }
