@@ -2,8 +2,8 @@
   "symbol": "POEL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T19:08:30.116376",
-  "bar_count": 374,
+  "generated_at": "2026-06-03T19:13:30.267123",
+  "bar_count": 375,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -2992,10 +2992,18 @@
     {
       "time": "2026-06-03T18:05:00",
       "open": 50.99,
-      "high": 51.0,
+      "high": 51.01,
       "low": 50.99,
       "close": 51.0,
-      "volume": 21
+      "volume": 33
+    },
+    {
+      "time": "2026-06-03T18:10:00",
+      "open": 51.0,
+      "high": 51.0,
+      "low": 50.28,
+      "close": 50.28,
+      "volume": 9
     }
   ]
 }
