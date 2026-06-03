@@ -2,8 +2,8 @@
   "symbol": "CNTB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T09:38:24.532579",
-  "bar_count": 260,
+  "generated_at": "2026-06-03T09:43:36.917308",
+  "bar_count": 261,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -2080,10 +2080,18 @@
     {
       "time": "2026-06-03T08:35:00",
       "open": 2.4,
-      "high": 2.4,
+      "high": 2.42,
       "low": 2.36,
-      "close": 2.39,
-      "volume": 31
+      "close": 2.4,
+      "volume": 87
+    },
+    {
+      "time": "2026-06-03T08:40:00",
+      "open": 2.44,
+      "high": 2.44,
+      "low": 2.405,
+      "close": 2.405,
+      "volume": 12
     }
   ]
 }
