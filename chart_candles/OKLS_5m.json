@@ -2,8 +2,8 @@
   "symbol": "OKLS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T13:58:36.867827",
-  "bar_count": 312,
+  "generated_at": "2026-06-03T14:03:36.953388",
+  "bar_count": 313,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -2496,10 +2496,18 @@
     {
       "time": "2026-06-03T12:55:00",
       "open": 18.02,
-      "high": 18.02,
+      "high": 18.05,
       "low": 17.97,
-      "close": 17.98,
-      "volume": 2
+      "close": 18.05,
+      "volume": 3
+    },
+    {
+      "time": "2026-06-03T13:00:00",
+      "open": 18.05,
+      "high": 18.05,
+      "low": 17.83,
+      "close": 17.89,
+      "volume": 25
     }
   ]
 }
