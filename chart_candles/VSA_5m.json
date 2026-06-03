@@ -2,8 +2,8 @@
   "symbol": "VSA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T14:13:17.855376",
-  "bar_count": 315,
+  "generated_at": "2026-06-03T14:18:15.997868",
+  "bar_count": 316,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -2520,10 +2520,18 @@
     {
       "time": "2026-06-03T13:10:00",
       "open": 5.96,
-      "high": 5.99,
+      "high": 6.1,
       "low": 5.91,
-      "close": 5.95,
-      "volume": 32
+      "close": 6.06,
+      "volume": 48
+    },
+    {
+      "time": "2026-06-03T13:15:00",
+      "open": 6.05,
+      "high": 6.16,
+      "low": 5.98,
+      "close": 6.16,
+      "volume": 65
     }
   ]
 }
