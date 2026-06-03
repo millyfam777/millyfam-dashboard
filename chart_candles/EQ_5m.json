@@ -2,8 +2,8 @@
   "symbol": "EQ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T11:38:18.148063",
-  "bar_count": 284,
+  "generated_at": "2026-06-03T11:43:14.469625",
+  "bar_count": 285,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -2273,9 +2273,17 @@
       "time": "2026-06-03T10:35:00",
       "open": 3.405,
       "high": 3.41,
-      "low": 3.34,
-      "close": 3.37,
-      "volume": 801
+      "low": 3.2916,
+      "close": 3.36,
+      "volume": 1067
+    },
+    {
+      "time": "2026-06-03T10:40:00",
+      "open": 3.335,
+      "high": 3.3544,
+      "low": 3.31,
+      "close": 3.3544,
+      "volume": 35
     }
   ]
 }
