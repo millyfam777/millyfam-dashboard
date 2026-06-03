@@ -2,8 +2,8 @@
   "symbol": "NVTS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T11:08:19.829990",
-  "bar_count": 278,
+  "generated_at": "2026-06-03T11:13:22.576334",
+  "bar_count": 279,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -2224,10 +2224,18 @@
     {
       "time": "2026-06-03T10:05:00",
       "open": 30.665,
-      "high": 30.83,
+      "high": 30.85,
       "low": 30.45,
-      "close": 30.585,
-      "volume": 3930
+      "close": 30.5,
+      "volume": 5625
+    },
+    {
+      "time": "2026-06-03T10:10:00",
+      "open": 30.5,
+      "high": 30.8183,
+      "low": 30.45,
+      "close": 30.675,
+      "volume": 3332
     }
   ]
 }
