@@ -2,8 +2,8 @@
   "symbol": "VRAX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T06:07:53.684780",
-  "bar_count": 218,
+  "generated_at": "2026-06-03T06:12:51.505731",
+  "bar_count": 219,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -1745,9 +1745,17 @@
       "time": "2026-06-03T05:05:00",
       "open": 0.251,
       "high": 0.2519,
+      "low": 0.249,
+      "close": 0.25,
+      "volume": 664
+    },
+    {
+      "time": "2026-06-03T05:10:00",
+      "open": 0.25,
+      "high": 0.2515,
       "low": 0.25,
-      "close": 0.2519,
-      "volume": 432
+      "close": 0.2512,
+      "volume": 303
     }
   ]
 }

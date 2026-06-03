@@ -2,8 +2,8 @@
   "symbol": "HUBC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T06:07:44.578034",
-  "bar_count": 218,
+  "generated_at": "2026-06-03T06:12:44.802429",
+  "bar_count": 219,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -1744,10 +1744,18 @@
     {
       "time": "2026-06-03T05:05:00",
       "open": 0.5691,
-      "high": 0.5702,
+      "high": 0.587,
       "low": 0.563,
-      "close": 0.5653,
-      "volume": 434
+      "close": 0.5784,
+      "volume": 1629
+    },
+    {
+      "time": "2026-06-03T05:10:00",
+      "open": 0.5748,
+      "high": 0.6099,
+      "low": 0.5748,
+      "close": 0.6077,
+      "volume": 3123
     }
   ]
 }
