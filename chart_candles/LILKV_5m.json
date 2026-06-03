@@ -2,8 +2,8 @@
   "symbol": "LILKV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T05:17:57.054327",
-  "bar_count": 138,
+  "generated_at": "2026-06-03T05:22:52.475301",
+  "bar_count": 139,
   "candles": [
     {
       "time": "2026-06-02T08:15:00",
@@ -1104,10 +1104,18 @@
     {
       "time": "2026-06-03T04:15:00",
       "open": 6.5,
+      "high": 6.62,
+      "low": 6.5,
+      "close": 6.58,
+      "volume": 4
+    },
+    {
+      "time": "2026-06-03T04:20:00",
+      "open": 6.5,
       "high": 6.5,
       "low": 6.5,
       "close": 6.5,
-      "volume": 1
+      "volume": 2
     }
   ]
 }
