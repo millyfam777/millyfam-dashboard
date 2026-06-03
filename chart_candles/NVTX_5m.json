@@ -2,8 +2,8 @@
   "symbol": "NVTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T08:57:38.176278",
-  "bar_count": 252,
+  "generated_at": "2026-06-03T09:02:42.011077",
+  "bar_count": 253,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -2017,9 +2017,17 @@
       "time": "2026-06-03T07:55:00",
       "open": 176.13,
       "high": 180.19,
-      "low": 170.33,
-      "close": 176.77,
-      "volume": 49
+      "low": 170.0,
+      "close": 170.2,
+      "volume": 85
+    },
+    {
+      "time": "2026-06-03T08:00:00",
+      "open": 170.13,
+      "high": 181.03,
+      "low": 170.13,
+      "close": 178.66,
+      "volume": 56
     }
   ]
 }
