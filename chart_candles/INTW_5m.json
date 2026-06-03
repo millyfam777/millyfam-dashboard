@@ -2,8 +2,8 @@
   "symbol": "INTW",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T06:47:51.662191",
-  "bar_count": 226,
+  "generated_at": "2026-06-03T06:52:47.470041",
+  "bar_count": 227,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -1808,10 +1808,18 @@
     {
       "time": "2026-06-03T05:45:00",
       "open": 299.48,
-      "high": 299.5,
+      "high": 300.5,
       "low": 299.1,
-      "close": 299.5,
-      "volume": 32
+      "close": 300.5,
+      "volume": 51
+    },
+    {
+      "time": "2026-06-03T05:50:00",
+      "open": 298.2,
+      "high": 298.2,
+      "low": 298.0,
+      "close": 298.02,
+      "volume": 6
     }
   ]
 }
