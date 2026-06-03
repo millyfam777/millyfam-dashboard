@@ -2,8 +2,8 @@
   "symbol": "GME",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T04:43:31.554516",
-  "bar_count": 201,
+  "generated_at": "2026-06-03T04:48:32.416955",
+  "bar_count": 202,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -1608,10 +1608,18 @@
     {
       "time": "2026-06-03T03:40:00",
       "open": 22.78,
+      "high": 22.8,
+      "low": 22.72,
+      "close": 22.72,
+      "volume": 108
+    },
+    {
+      "time": "2026-06-03T03:45:00",
+      "open": 22.78,
       "high": 22.78,
-      "low": 22.74,
-      "close": 22.74,
-      "volume": 78
+      "low": 22.75,
+      "close": 22.75,
+      "volume": 2
     }
   ]
 }
