@@ -2,8 +2,8 @@
   "symbol": "SELX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T07:52:33.707169",
-  "bar_count": 193,
+  "generated_at": "2026-06-03T07:57:35.798786",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-06-02T03:50:00",
@@ -1545,9 +1545,17 @@
       "time": "2026-06-03T06:50:00",
       "open": 0.542,
       "high": 0.5424,
+      "low": 0.4846,
+      "close": 0.5011,
+      "volume": 41015
+    },
+    {
+      "time": "2026-06-03T06:55:00",
+      "open": 0.5012,
+      "high": 0.5092,
       "low": 0.49,
-      "close": 0.5,
-      "volume": 25642
+      "close": 0.5031,
+      "volume": 10886
     }
   ]
 }

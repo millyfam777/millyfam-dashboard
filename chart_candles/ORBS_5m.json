@@ -2,8 +2,8 @@
   "symbol": "ORBS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T07:53:25.897577",
-  "bar_count": 239,
+  "generated_at": "2026-06-03T07:58:33.427390",
+  "bar_count": 240,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -1914,8 +1914,16 @@
       "open": 0.995,
       "high": 1.0,
       "low": 0.9904,
-      "close": 0.9952,
-      "volume": 532
+      "close": 1.0,
+      "volume": 923
+    },
+    {
+      "time": "2026-06-03T06:55:00",
+      "open": 1.0,
+      "high": 1.01,
+      "low": 0.995,
+      "close": 0.9999,
+      "volume": 916
     }
   ]
 }
