@@ -2,8 +2,8 @@
   "symbol": "ABVX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T08:48:11.288235",
-  "bar_count": 250,
+  "generated_at": "2026-06-03T08:53:18.224284",
+  "bar_count": 251,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -2000,10 +2000,18 @@
     {
       "time": "2026-06-03T07:45:00",
       "open": 81.25,
-      "high": 81.5,
+      "high": 81.94,
       "low": 81.0,
-      "close": 81.34,
-      "volume": 83
+      "close": 81.86,
+      "volume": 102
+    },
+    {
+      "time": "2026-06-03T07:50:00",
+      "open": 81.94,
+      "high": 82.09,
+      "low": 81.47,
+      "close": 81.58,
+      "volume": 38
     }
   ]
 }
