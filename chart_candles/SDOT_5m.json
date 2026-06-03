@@ -2,8 +2,8 @@
   "symbol": "SDOT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T13:02:41.684248",
-  "bar_count": 301,
+  "generated_at": "2026-06-03T13:07:38.762842",
+  "bar_count": 302,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -2408,10 +2408,18 @@
     {
       "time": "2026-06-03T12:00:00",
       "open": 6.1,
+      "high": 6.12,
+      "low": 5.81,
+      "close": 5.98,
+      "volume": 829
+    },
+    {
+      "time": "2026-06-03T12:05:00",
+      "open": 5.97,
       "high": 6.1,
-      "low": 6.03,
-      "close": 6.09,
-      "volume": 214
+      "low": 5.95,
+      "close": 6.03,
+      "volume": 216
     }
   ]
 }
