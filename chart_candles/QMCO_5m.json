@@ -2,8 +2,8 @@
   "symbol": "QMCO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T17:53:14.147697",
-  "bar_count": 359,
+  "generated_at": "2026-06-03T17:58:14.542883",
+  "bar_count": 360,
   "candles": [
     {
       "time": "2026-06-02T03:00:00",
@@ -2871,11 +2871,19 @@
     },
     {
       "time": "2026-06-03T16:50:00",
-      "open": 15.2,
+      "open": 15.19,
       "high": 15.2,
-      "low": 15.2,
+      "low": 15.19,
       "close": 15.2,
-      "volume": 0
+      "volume": 3
+    },
+    {
+      "time": "2026-06-03T16:55:00",
+      "open": 15.06,
+      "high": 15.1,
+      "low": 15.06,
+      "close": 15.1,
+      "volume": 5
     }
   ]
 }
