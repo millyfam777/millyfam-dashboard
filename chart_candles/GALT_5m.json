@@ -2,8 +2,8 @@
   "symbol": "GALT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-03T13:47:16.144810",
-  "bar_count": 261,
+  "generated_at": "2026-06-03T13:52:16.148276",
+  "bar_count": 262,
   "candles": [
     {
       "time": "2026-06-02T06:45:00",
@@ -2087,11 +2087,19 @@
     },
     {
       "time": "2026-06-03T12:45:00",
-      "open": 2.335,
+      "open": 2.33,
       "high": 2.335,
-      "low": 2.335,
+      "low": 2.33,
       "close": 2.335,
-      "volume": 0
+      "volume": 2
+    },
+    {
+      "time": "2026-06-03T12:50:00",
+      "open": 2.335,
+      "high": 2.37,
+      "low": 2.335,
+      "close": 2.365,
+      "volume": 212
     }
   ]
 }
