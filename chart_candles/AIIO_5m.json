@@ -2,8 +2,8 @@
   "symbol": "AIIO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-04T18:27:33.034772",
-  "bar_count": 366,
+  "generated_at": "2026-06-04T18:32:32.138936",
+  "bar_count": 367,
   "candles": [
     {
       "time": "2026-06-03T03:00:00",
@@ -2928,10 +2928,18 @@
     {
       "time": "2026-06-04T17:25:00",
       "open": 3.04,
-      "high": 3.04,
+      "high": 3.1,
       "low": 3.04,
-      "close": 3.04,
-      "volume": 1
+      "close": 3.1,
+      "volume": 12
+    },
+    {
+      "time": "2026-06-04T17:30:00",
+      "open": 3.1,
+      "high": 3.1,
+      "low": 3.07,
+      "close": 3.07,
+      "volume": 10
     }
   ]
 }
