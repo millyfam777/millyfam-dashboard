@@ -2,8 +2,8 @@
   "symbol": "INDP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-04T17:17:38.813986",
-  "bar_count": 278,
+  "generated_at": "2026-06-04T17:22:38.928065",
+  "bar_count": 279,
   "candles": [
     {
       "time": "2026-06-03T05:50:00",
@@ -2224,10 +2224,18 @@
     {
       "time": "2026-06-04T16:15:00",
       "open": 3.1995,
-      "high": 3.1995,
+      "high": 3.23,
       "low": 3.124,
-      "close": 3.1407,
-      "volume": 48
+      "close": 3.23,
+      "volume": 108
+    },
+    {
+      "time": "2026-06-04T16:20:00",
+      "open": 3.22,
+      "high": 3.31,
+      "low": 3.18,
+      "close": 3.2815,
+      "volume": 145
     }
   ]
 }
