@@ -2,8 +2,8 @@
   "symbol": "HCAT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-04T19:27:54.824677",
-  "bar_count": 324,
+  "generated_at": "2026-06-04T19:32:54.998467",
+  "bar_count": 325,
   "candles": [
     {
       "time": "2026-06-03T04:30:00",
@@ -2591,11 +2591,19 @@
     },
     {
       "time": "2026-06-04T18:25:00",
-      "open": 1.9001,
+      "open": 1.9,
+      "high": 1.9,
+      "low": 1.9,
+      "close": 1.9,
+      "volume": 10
+    },
+    {
+      "time": "2026-06-04T18:30:00",
+      "open": 1.9,
       "high": 1.9001,
-      "low": 1.9001,
+      "low": 1.9,
       "close": 1.9001,
-      "volume": 0
+      "volume": 10
     }
   ]
 }
