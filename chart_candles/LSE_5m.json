@@ -2,8 +2,8 @@
   "symbol": "LSE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-04T19:48:00.059596",
-  "bar_count": 270,
+  "generated_at": "2026-06-04T19:52:59.666790",
+  "bar_count": 271,
   "candles": [
     {
       "time": "2026-06-03T08:50:00",
@@ -2159,11 +2159,19 @@
     },
     {
       "time": "2026-06-04T18:45:00",
+      "open": 4.49,
+      "high": 4.49,
+      "low": 4.49,
+      "close": 4.49,
+      "volume": 1
+    },
+    {
+      "time": "2026-06-04T18:50:00",
       "open": 4.44,
-      "high": 4.44,
+      "high": 4.5,
       "low": 4.44,
-      "close": 4.44,
-      "volume": 0
+      "close": 4.5,
+      "volume": 22
     }
   ]
 }
