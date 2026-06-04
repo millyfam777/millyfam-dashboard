@@ -2,8 +2,8 @@
   "symbol": "FOXX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-04T17:37:40.680938",
-  "bar_count": 286,
+  "generated_at": "2026-06-04T17:42:41.301620",
+  "bar_count": 287,
   "candles": [
     {
       "time": "2026-06-03T08:50:00",
@@ -2289,9 +2289,17 @@
       "time": "2026-06-04T16:35:00",
       "open": 5.21,
       "high": 5.255,
-      "low": 5.21,
+      "low": 5.18,
+      "close": 5.21,
+      "volume": 35
+    },
+    {
+      "time": "2026-06-04T16:40:00",
+      "open": 5.25,
+      "high": 5.25,
+      "low": 5.22,
       "close": 5.25,
-      "volume": 23
+      "volume": 18
     }
   ]
 }
