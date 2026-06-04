@@ -2,8 +2,8 @@
   "symbol": "EDHL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-04T17:27:45.836942",
-  "bar_count": 279,
+  "generated_at": "2026-06-04T17:32:45.106520",
+  "bar_count": 280,
   "candles": [
     {
       "time": "2026-06-03T08:10:00",
@@ -2232,10 +2232,18 @@
     {
       "time": "2026-06-04T16:25:00",
       "open": 4.16,
-      "high": 4.23,
+      "high": 4.4,
       "low": 4.16,
-      "close": 4.23,
-      "volume": 5
+      "close": 4.3,
+      "volume": 45
+    },
+    {
+      "time": "2026-06-04T16:30:00",
+      "open": 4.34,
+      "high": 4.69,
+      "low": 4.34,
+      "close": 4.66,
+      "volume": 101
     }
   ]
 }
