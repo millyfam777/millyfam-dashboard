@@ -2,8 +2,8 @@
   "symbol": "AADX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-04T05:12:48.709543",
-  "bar_count": 106,
+  "generated_at": "2026-06-04T05:17:51.461545",
+  "bar_count": 107,
   "candles": [
     {
       "time": "2026-06-03T11:25:00",
@@ -848,10 +848,18 @@
     {
       "time": "2026-06-04T04:10:00",
       "open": 23.4,
-      "high": 23.48,
+      "high": 23.64,
       "low": 23.36,
-      "close": 23.36,
-      "volume": 5
+      "close": 23.64,
+      "volume": 24
+    },
+    {
+      "time": "2026-06-04T04:15:00",
+      "open": 23.71,
+      "high": 23.8,
+      "low": 23.37,
+      "close": 23.38,
+      "volume": 19
     }
   ]
 }
