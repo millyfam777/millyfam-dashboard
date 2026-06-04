@@ -2,8 +2,8 @@
   "symbol": "TWAV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-04T05:57:41.492311",
-  "bar_count": 162,
+  "generated_at": "2026-06-04T06:02:41.350691",
+  "bar_count": 163,
   "candles": [
     {
       "time": "2026-06-03T07:30:00",
@@ -1296,10 +1296,18 @@
     {
       "time": "2026-06-04T04:55:00",
       "open": 2.4891,
-      "high": 2.4891,
+      "high": 2.54,
       "low": 2.43,
-      "close": 2.43,
-      "volume": 1881
+      "close": 2.5,
+      "volume": 3306
+    },
+    {
+      "time": "2026-06-04T05:00:00",
+      "open": 2.5,
+      "high": 2.51,
+      "low": 2.43,
+      "close": 2.44,
+      "volume": 1071
     }
   ]
 }

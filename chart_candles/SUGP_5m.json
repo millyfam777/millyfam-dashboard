@@ -2,8 +2,8 @@
   "symbol": "SUGP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-04T05:57:54.902514",
-  "bar_count": 216,
+  "generated_at": "2026-06-04T06:02:59.735759",
+  "bar_count": 217,
   "candles": [
     {
       "time": "2026-06-03T03:00:00",
@@ -1729,9 +1729,17 @@
       "time": "2026-06-04T04:55:00",
       "open": 1.48,
       "high": 1.48,
+      "low": 1.41,
+      "close": 1.43,
+      "volume": 672
+    },
+    {
+      "time": "2026-06-04T05:00:00",
+      "open": 1.43,
+      "high": 1.61,
       "low": 1.42,
-      "close": 1.42,
-      "volume": 455
+      "close": 1.6,
+      "volume": 1446
     }
   ]
 }
