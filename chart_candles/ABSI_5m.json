@@ -2,8 +2,8 @@
   "symbol": "ABSI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-04T18:38:27.983916",
-  "bar_count": 368,
+  "generated_at": "2026-06-04T18:43:27.595961",
+  "bar_count": 369,
   "candles": [
     {
       "time": "2026-06-03T03:00:00",
@@ -2945,9 +2945,17 @@
       "time": "2026-06-04T17:35:00",
       "open": 7.2509,
       "high": 7.2509,
-      "low": 7.2509,
-      "close": 7.2509,
-      "volume": 2
+      "low": 7.25,
+      "close": 7.25,
+      "volume": 9
+    },
+    {
+      "time": "2026-06-04T17:40:00",
+      "open": 7.29,
+      "high": 7.29,
+      "low": 7.25,
+      "close": 7.25,
+      "volume": 91
     }
   ]
 }
