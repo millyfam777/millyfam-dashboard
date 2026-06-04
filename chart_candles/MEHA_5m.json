@@ -2,8 +2,8 @@
   "symbol": "MEHA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-04T16:53:15.269415",
-  "bar_count": 347,
+  "generated_at": "2026-06-04T16:58:15.775951",
+  "bar_count": 348,
   "candles": [
     {
       "time": "2026-06-03T03:00:00",
@@ -2776,10 +2776,18 @@
     {
       "time": "2026-06-04T15:50:00",
       "open": 0.0764,
-      "high": 0.0764,
+      "high": 0.0774,
+      "low": 0.0759,
+      "close": 0.0774,
+      "volume": 171
+    },
+    {
+      "time": "2026-06-04T15:55:00",
+      "open": 0.076,
+      "high": 0.076,
       "low": 0.0759,
       "close": 0.0759,
-      "volume": 119
+      "volume": 110
     }
   ]
 }
