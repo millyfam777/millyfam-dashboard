@@ -2,8 +2,8 @@
   "symbol": "IOVA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T12:52:10.045453",
-  "bar_count": 299,
+  "generated_at": "2026-06-05T12:57:12.859974",
+  "bar_count": 300,
   "candles": [
     {
       "time": "2026-06-04T03:00:00",
@@ -2392,10 +2392,18 @@
     {
       "time": "2026-06-05T11:50:00",
       "open": 4.32,
-      "high": 4.32,
+      "high": 4.325,
       "low": 4.29,
-      "close": 4.3002,
-      "volume": 1723
+      "close": 4.325,
+      "volume": 2354
+    },
+    {
+      "time": "2026-06-05T11:55:00",
+      "open": 4.32,
+      "high": 4.325,
+      "low": 4.31,
+      "close": 4.32,
+      "volume": 433
     }
   ]
 }
