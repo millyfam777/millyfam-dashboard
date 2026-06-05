@@ -2,8 +2,8 @@
   "symbol": "RMSG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T05:32:42.365672",
-  "bar_count": 181,
+  "generated_at": "2026-06-05T05:37:43.388580",
+  "bar_count": 182,
   "candles": [
     {
       "time": "2026-06-04T05:30:00",
@@ -1448,10 +1448,18 @@
     {
       "time": "2026-06-05T04:30:00",
       "open": 1.49,
-      "high": 1.6,
+      "high": 1.87,
       "low": 1.49,
-      "close": 1.55,
-      "volume": 820
+      "close": 1.73,
+      "volume": 10566
+    },
+    {
+      "time": "2026-06-05T04:35:00",
+      "open": 1.7205,
+      "high": 1.84,
+      "low": 1.63,
+      "close": 1.75,
+      "volume": 7308
     }
   ]
 }
