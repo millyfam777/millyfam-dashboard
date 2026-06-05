@@ -2,8 +2,8 @@
   "symbol": "APLZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T12:43:29.201680",
-  "bar_count": 265,
+  "generated_at": "2026-06-05T12:48:35.299133",
+  "bar_count": 266,
   "candles": [
     {
       "time": "2026-06-04T03:00:00",
@@ -2120,10 +2120,18 @@
     {
       "time": "2026-06-05T11:40:00",
       "open": 19.05,
-      "high": 19.05,
+      "high": 19.15,
       "low": 19.05,
-      "close": 19.05,
-      "volume": 2
+      "close": 19.15,
+      "volume": 3
+    },
+    {
+      "time": "2026-06-05T11:45:00",
+      "open": 19.25,
+      "high": 19.38,
+      "low": 19.24,
+      "close": 19.38,
+      "volume": 95
     }
   ]
 }
