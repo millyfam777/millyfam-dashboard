@@ -2,8 +2,8 @@
   "symbol": "ELOG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T17:38:00.414611",
-  "bar_count": 301,
+  "generated_at": "2026-06-05T17:43:01.578277",
+  "bar_count": 302,
   "candles": [
     {
       "time": "2026-06-04T07:20:00",
@@ -2407,11 +2407,19 @@
     },
     {
       "time": "2026-06-05T16:35:00",
-      "open": 1.2,
-      "high": 1.2,
+      "open": 1.23,
+      "high": 1.23,
+      "low": 1.23,
+      "close": 1.23,
+      "volume": 8
+    },
+    {
+      "time": "2026-06-05T16:40:00",
+      "open": 1.2093,
+      "high": 1.2093,
       "low": 1.2,
       "close": 1.2,
-      "volume": 0
+      "volume": 26
     }
   ]
 }
