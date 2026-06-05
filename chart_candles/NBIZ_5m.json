@@ -2,8 +2,8 @@
   "symbol": "NBIZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T09:43:28.782882",
-  "bar_count": 261,
+  "generated_at": "2026-06-05T09:48:23.598039",
+  "bar_count": 262,
   "candles": [
     {
       "time": "2026-06-04T03:00:00",
@@ -2088,10 +2088,18 @@
     {
       "time": "2026-06-05T08:40:00",
       "open": 10.46,
-      "high": 10.59,
+      "high": 10.61,
       "low": 10.45,
-      "close": 10.55,
-      "volume": 372
+      "close": 10.59,
+      "volume": 666
+    },
+    {
+      "time": "2026-06-05T08:45:00",
+      "open": 10.59,
+      "high": 10.67,
+      "low": 10.48,
+      "close": 10.64,
+      "volume": 428
     }
   ]
 }

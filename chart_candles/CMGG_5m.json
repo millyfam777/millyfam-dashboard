@@ -2,8 +2,8 @@
   "symbol": "CMGG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T09:43:33.426922",
-  "bar_count": 152,
+  "generated_at": "2026-06-05T09:48:30.364271",
+  "bar_count": 153,
   "candles": [
     {
       "time": "2026-06-04T08:30:00",
@@ -1217,9 +1217,17 @@
       "time": "2026-06-05T08:40:00",
       "open": 11.84,
       "high": 12.04,
-      "low": 11.84,
-      "close": 12.04,
-      "volume": 4
+      "low": 11.8,
+      "close": 11.8,
+      "volume": 8
+    },
+    {
+      "time": "2026-06-05T08:45:00",
+      "open": 11.76,
+      "high": 11.76,
+      "low": 11.68,
+      "close": 11.7,
+      "volume": 43
     }
   ]
 }
