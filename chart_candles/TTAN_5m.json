@@ -2,8 +2,8 @@
   "symbol": "TTAN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T07:28:07.260477",
-  "bar_count": 222,
+  "generated_at": "2026-06-05T07:33:01.518949",
+  "bar_count": 223,
   "candles": [
     {
       "time": "2026-06-04T03:10:00",
@@ -1776,10 +1776,18 @@
     {
       "time": "2026-06-05T06:25:00",
       "open": 85.15,
-      "high": 85.15,
+      "high": 85.8,
       "low": 85.15,
-      "close": 85.15,
-      "volume": 1
+      "close": 85.8,
+      "volume": 3
+    },
+    {
+      "time": "2026-06-05T06:30:00",
+      "open": 85.8,
+      "high": 85.8,
+      "low": 85.8,
+      "close": 85.8,
+      "volume": 0
     }
   ]
 }
