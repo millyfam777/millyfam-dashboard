@@ -2,8 +2,8 @@
   "symbol": "HURC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T10:03:09.109417",
-  "bar_count": 107,
+  "generated_at": "2026-06-05T10:08:08.423911",
+  "bar_count": 108,
   "candles": [
     {
       "time": "2026-06-04T11:30:00",
@@ -857,9 +857,17 @@
       "time": "2026-06-05T09:00:00",
       "open": 21.54,
       "high": 21.69,
-      "low": 21.54,
-      "close": 21.68,
-      "volume": 3
+      "low": 21.32,
+      "close": 21.32,
+      "volume": 18
+    },
+    {
+      "time": "2026-06-05T09:05:00",
+      "open": 21.32,
+      "high": 21.33,
+      "low": 21.0,
+      "close": 21.0,
+      "volume": 66
     }
   ]
 }
