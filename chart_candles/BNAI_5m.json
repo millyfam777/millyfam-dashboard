@@ -2,8 +2,8 @@
   "symbol": "BNAI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T18:28:07.305288",
-  "bar_count": 365,
+  "generated_at": "2026-06-05T18:33:06.666480",
+  "bar_count": 366,
   "candles": [
     {
       "time": "2026-06-04T03:05:00",
@@ -2921,9 +2921,17 @@
       "time": "2026-06-05T17:25:00",
       "open": 19.18,
       "high": 19.18,
-      "low": 18.62,
-      "close": 18.67,
-      "volume": 39
+      "low": 18.5,
+      "close": 18.63,
+      "volume": 47
+    },
+    {
+      "time": "2026-06-05T17:30:00",
+      "open": 18.68,
+      "high": 19.0,
+      "low": 18.68,
+      "close": 19.0,
+      "volume": 11
     }
   ]
 }
