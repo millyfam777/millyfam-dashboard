@@ -2,8 +2,8 @@
   "symbol": "NOTV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T17:12:47.596676",
-  "bar_count": 351,
+  "generated_at": "2026-06-05T17:17:45.254455",
+  "bar_count": 352,
   "candles": [
     {
       "time": "2026-06-04T03:00:00",
@@ -2808,10 +2808,18 @@
     {
       "time": "2026-06-05T16:10:00",
       "open": 0.159,
-      "high": 0.159,
+      "high": 0.17,
       "low": 0.15,
-      "close": 0.1539,
-      "volume": 3336
+      "close": 0.1663,
+      "volume": 9536
+    },
+    {
+      "time": "2026-06-05T16:15:00",
+      "open": 0.1663,
+      "high": 0.1831,
+      "low": 0.1663,
+      "close": 0.1808,
+      "volume": 15955
     }
   ]
 }
