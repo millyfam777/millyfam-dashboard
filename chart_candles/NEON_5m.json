@@ -2,8 +2,8 @@
   "symbol": "NEON",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T14:37:18.207595",
-  "bar_count": 320,
+  "generated_at": "2026-06-05T14:42:17.794605",
+  "bar_count": 321,
   "candles": [
     {
       "time": "2026-06-04T03:00:00",
@@ -2559,11 +2559,19 @@
     },
     {
       "time": "2026-06-05T13:35:00",
-      "open": 1.68,
-      "high": 1.68,
+      "open": 1.688,
+      "high": 1.688,
       "low": 1.68,
       "close": 1.68,
-      "volume": 0
+      "volume": 15
+    },
+    {
+      "time": "2026-06-05T13:40:00",
+      "open": 1.688,
+      "high": 1.7,
+      "low": 1.68,
+      "close": 1.7,
+      "volume": 60
     }
   ]
 }
