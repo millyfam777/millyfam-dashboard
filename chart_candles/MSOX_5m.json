@@ -2,8 +2,8 @@
   "symbol": "MSOX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T08:03:16.573473",
-  "bar_count": 239,
+  "generated_at": "2026-06-05T08:08:17.131222",
+  "bar_count": 240,
   "candles": [
     {
       "time": "2026-06-04T03:00:00",
@@ -1912,10 +1912,18 @@
     {
       "time": "2026-06-05T07:00:00",
       "open": 3.9781,
-      "high": 4.0,
+      "high": 4.15,
       "low": 3.95,
-      "close": 3.961,
-      "volume": 269
+      "close": 4.14,
+      "volume": 282
+    },
+    {
+      "time": "2026-06-05T07:05:00",
+      "open": 4.12,
+      "high": 4.15,
+      "low": 4.12,
+      "close": 4.13,
+      "volume": 76
     }
   ]
 }
