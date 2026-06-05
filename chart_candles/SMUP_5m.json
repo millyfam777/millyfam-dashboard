@@ -2,8 +2,8 @@
   "symbol": "SMUP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T05:53:09.947436",
-  "bar_count": 215,
+  "generated_at": "2026-06-05T05:57:58.901510",
+  "bar_count": 216,
   "candles": [
     {
       "time": "2026-06-04T03:00:00",
@@ -1722,8 +1722,16 @@
       "open": 11.21,
       "high": 11.57,
       "low": 11.21,
-      "close": 11.57,
-      "volume": 30
+      "close": 11.5,
+      "volume": 70
+    },
+    {
+      "time": "2026-06-05T04:55:00",
+      "open": 11.49,
+      "high": 11.49,
+      "low": 11.4,
+      "close": 11.4,
+      "volume": 3
     }
   ]
 }
