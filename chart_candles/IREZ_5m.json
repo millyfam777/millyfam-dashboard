@@ -2,8 +2,8 @@
   "symbol": "IREZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T11:28:19.032989",
-  "bar_count": 282,
+  "generated_at": "2026-06-05T11:33:16.728517",
+  "bar_count": 283,
   "candles": [
     {
       "time": "2026-06-04T03:00:00",
@@ -2256,10 +2256,18 @@
     {
       "time": "2026-06-05T10:25:00",
       "open": 6.56,
-      "high": 6.59,
+      "high": 6.6,
+      "low": 6.54,
+      "close": 6.57,
+      "volume": 556
+    },
+    {
+      "time": "2026-06-05T10:30:00",
+      "open": 6.58,
+      "high": 6.6,
       "low": 6.55,
       "close": 6.59,
-      "volume": 226
+      "volume": 430
     }
   ]
 }
