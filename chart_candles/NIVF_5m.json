@@ -2,8 +2,8 @@
   "symbol": "NIVF",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T05:17:45.827925",
-  "bar_count": 208,
+  "generated_at": "2026-06-05T05:22:42.378239",
+  "bar_count": 209,
   "candles": [
     {
       "time": "2026-06-04T03:00:00",
@@ -1664,10 +1664,18 @@
     {
       "time": "2026-06-05T04:15:00",
       "open": 0.9151,
-      "high": 0.9526,
+      "high": 1.03,
       "low": 0.88,
-      "close": 0.9406,
-      "volume": 2884
+      "close": 1.03,
+      "volume": 7255
+    },
+    {
+      "time": "2026-06-05T04:20:00",
+      "open": 1.02,
+      "high": 1.085,
+      "low": 0.982,
+      "close": 0.9923,
+      "volume": 6823
     }
   ]
 }
