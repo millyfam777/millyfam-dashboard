@@ -2,8 +2,8 @@
   "symbol": "BGMS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T18:12:55.986535",
-  "bar_count": 287,
+  "generated_at": "2026-06-05T18:17:56.084232",
+  "bar_count": 288,
   "candles": [
     {
       "time": "2026-06-04T09:20:00",
@@ -2297,9 +2297,17 @@
       "time": "2026-06-05T17:10:00",
       "open": 1.7601,
       "high": 1.78,
+      "low": 1.7,
+      "close": 1.72,
+      "volume": 337
+    },
+    {
+      "time": "2026-06-05T17:15:00",
+      "open": 1.72,
+      "high": 1.73,
       "low": 1.71,
       "close": 1.72,
-      "volume": 240
+      "volume": 141
     }
   ]
 }
