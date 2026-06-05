@@ -2,8 +2,8 @@
   "symbol": "MCRB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T09:03:26.811328",
-  "bar_count": 145,
+  "generated_at": "2026-06-05T09:08:03.883458",
+  "bar_count": 146,
   "candles": [
     {
       "time": "2026-06-04T08:25:00",
@@ -1160,10 +1160,18 @@
     {
       "time": "2026-06-05T08:00:00",
       "open": 7.81,
-      "high": 7.84,
+      "high": 7.88,
       "low": 7.8,
-      "close": 7.84,
-      "volume": 3
+      "close": 7.88,
+      "volume": 4
+    },
+    {
+      "time": "2026-06-05T08:05:00",
+      "open": 7.85,
+      "high": 7.85,
+      "low": 7.64,
+      "close": 7.81,
+      "volume": 106
     }
   ]
 }
