@@ -2,8 +2,8 @@
   "symbol": "BBCP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T09:27:53.791741",
-  "bar_count": 192,
+  "generated_at": "2026-06-05T09:32:52.061575",
+  "bar_count": 193,
   "candles": [
     {
       "time": "2026-06-04T08:30:00",
@@ -1536,10 +1536,18 @@
     {
       "time": "2026-06-05T08:25:00",
       "open": 10.66,
-      "high": 11.32,
+      "high": 11.56,
       "low": 10.66,
-      "close": 11.04,
-      "volume": 271
+      "close": 11.48,
+      "volume": 573
+    },
+    {
+      "time": "2026-06-05T08:30:00",
+      "open": 11.42,
+      "high": 11.46,
+      "low": 9.7,
+      "close": 10.575,
+      "volume": 1816
     }
   ]
 }
