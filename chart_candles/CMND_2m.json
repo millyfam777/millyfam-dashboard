@@ -2,8 +2,8 @@
   "symbol": "CMND",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T13:08:33.669992",
-  "bar_count": 755,
+  "generated_at": "2026-06-05T13:13:34.680408",
+  "bar_count": 757,
   "candles": [
     {
       "time": "2026-06-04T03:00:00",
@@ -6040,10 +6040,26 @@
     {
       "time": "2026-06-05T12:08:00",
       "open": 3.62,
-      "high": 3.64,
+      "high": 3.67,
+      "low": 3.6,
+      "close": 3.61,
+      "volume": 153
+    },
+    {
+      "time": "2026-06-05T12:10:00",
+      "open": 3.62,
+      "high": 3.67,
+      "low": 3.58,
+      "close": 3.67,
+      "volume": 217
+    },
+    {
+      "time": "2026-06-05T12:12:00",
+      "open": 3.67,
+      "high": 3.67,
       "low": 3.62,
-      "close": 3.64,
-      "volume": 7
+      "close": 3.62,
+      "volume": 46
     }
   ]
 }

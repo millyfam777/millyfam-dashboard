@@ -2,8 +2,8 @@
   "symbol": "MRLN",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T13:08:13.094663",
-  "bar_count": 745,
+  "generated_at": "2026-06-05T13:13:23.323780",
+  "bar_count": 747,
   "candles": [
     {
       "time": "2026-06-04T03:20:00",
@@ -5960,10 +5960,26 @@
     {
       "time": "2026-06-05T12:08:00",
       "open": 9.12,
-      "high": 9.13,
+      "high": 9.17,
+      "low": 9.07,
+      "close": 9.16,
+      "volume": 239
+    },
+    {
+      "time": "2026-06-05T12:10:00",
+      "open": 9.16,
+      "high": 9.2,
+      "low": 9.06,
+      "close": 9.15,
+      "volume": 531
+    },
+    {
+      "time": "2026-06-05T12:12:00",
+      "open": 9.13,
+      "high": 9.25,
       "low": 9.11,
-      "close": 9.13,
-      "volume": 25
+      "close": 9.23,
+      "volume": 117
     }
   ]
 }
