@@ -2,8 +2,8 @@
   "symbol": "ACCL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T04:32:59.946109",
-  "bar_count": 199,
+  "generated_at": "2026-06-05T04:38:01.023902",
+  "bar_count": 200,
   "candles": [
     {
       "time": "2026-06-04T03:00:00",
@@ -1592,10 +1592,18 @@
     {
       "time": "2026-06-05T03:30:00",
       "open": 1.49,
-      "high": 1.49,
-      "low": 1.49,
-      "close": 1.49,
-      "volume": 3
+      "high": 1.5,
+      "low": 1.48,
+      "close": 1.48,
+      "volume": 31
+    },
+    {
+      "time": "2026-06-05T03:35:00",
+      "open": 1.48,
+      "high": 1.48,
+      "low": 1.47,
+      "close": 1.47,
+      "volume": 26
     }
   ]
 }
