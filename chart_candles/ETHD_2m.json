@@ -2,8 +2,8 @@
   "symbol": "ETHD",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T11:18:30.172327",
-  "bar_count": 700,
+  "generated_at": "2026-06-05T11:23:31.447322",
+  "bar_count": 702,
   "candles": [
     {
       "time": "2026-06-04T03:00:00",
@@ -5600,10 +5600,26 @@
     {
       "time": "2026-06-05T10:18:00",
       "open": 98.52,
-      "high": 98.52,
+      "high": 98.75,
       "low": 98.52,
-      "close": 98.52,
-      "volume": 1
+      "close": 98.7,
+      "volume": 5
+    },
+    {
+      "time": "2026-06-05T10:20:00",
+      "open": 98.27,
+      "high": 98.88,
+      "low": 98.27,
+      "close": 98.83,
+      "volume": 66
+    },
+    {
+      "time": "2026-06-05T10:22:00",
+      "open": 98.56,
+      "high": 98.82,
+      "low": 98.21,
+      "close": 98.21,
+      "volume": 22
     }
   ]
 }
