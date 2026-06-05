@@ -2,8 +2,8 @@
   "symbol": "RGTZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-05T16:28:17.679266",
-  "bar_count": 342,
+  "generated_at": "2026-06-05T16:33:17.512746",
+  "bar_count": 343,
   "candles": [
     {
       "time": "2026-06-04T03:00:00",
@@ -2737,9 +2737,17 @@
       "time": "2026-06-05T15:25:00",
       "open": 4.02,
       "high": 4.03,
-      "low": 4.02,
+      "low": 4.0,
+      "close": 4.0,
+      "volume": 278
+    },
+    {
+      "time": "2026-06-05T15:30:00",
+      "open": 4.01,
+      "high": 4.02,
+      "low": 4.0,
       "close": 4.02,
-      "volume": 113
+      "volume": 670
     }
   ]
 }
