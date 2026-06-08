@@ -2,8 +2,8 @@
   "symbol": "ABAT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T08:02:51.610588",
-  "bar_count": 241,
+  "generated_at": "2026-06-08T08:07:52.253846",
+  "bar_count": 242,
   "candles": [
     {
       "time": "2026-06-05T03:00:00",
@@ -1928,10 +1928,18 @@
     {
       "time": "2026-06-08T07:00:00",
       "open": 4.0,
-      "high": 4.07,
+      "high": 4.15,
       "low": 3.98,
+      "close": 4.0901,
+      "volume": 3021
+    },
+    {
+      "time": "2026-06-08T07:05:00",
+      "open": 4.1,
+      "high": 4.1,
+      "low": 4.05,
       "close": 4.06,
-      "volume": 896
+      "volume": 1142
     }
   ]
 }
