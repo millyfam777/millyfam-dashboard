@@ -2,8 +2,8 @@
   "symbol": "NPT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T16:47:07.622362",
-  "bar_count": 338,
+  "generated_at": "2026-06-08T16:52:07.081311",
+  "bar_count": 339,
   "candles": [
     {
       "time": "2026-06-05T03:30:00",
@@ -2704,10 +2704,18 @@
     {
       "time": "2026-06-08T15:45:00",
       "open": 3.6,
-      "high": 3.6,
+      "high": 3.62,
+      "low": 3.4,
+      "close": 3.58,
+      "volume": 769
+    },
+    {
+      "time": "2026-06-08T15:50:00",
+      "open": 3.5,
+      "high": 3.74,
       "low": 3.47,
-      "close": 3.4896,
-      "volume": 251
+      "close": 3.64,
+      "volume": 271
     }
   ]
 }
