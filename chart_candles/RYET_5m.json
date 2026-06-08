@@ -2,8 +2,8 @@
   "symbol": "RYET",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T09:57:40.887617",
-  "bar_count": 224,
+  "generated_at": "2026-06-08T10:02:48.607791",
+  "bar_count": 225,
   "candles": [
     {
       "time": "2026-06-05T06:20:00",
@@ -1793,9 +1793,17 @@
       "time": "2026-06-08T08:55:00",
       "open": 1.69,
       "high": 1.69,
+      "low": 1.3401,
+      "close": 1.35,
+      "volume": 5953
+    },
+    {
+      "time": "2026-06-08T09:00:00",
+      "open": 1.35,
+      "high": 1.35,
       "low": 1.35,
       "close": 1.35,
-      "volume": 5555
+      "volume": 0
     }
   ]
 }
