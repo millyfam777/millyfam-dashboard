@@ -2,8 +2,8 @@
   "symbol": "DLTH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T14:42:08.492234",
-  "bar_count": 234,
+  "generated_at": "2026-06-08T14:47:13.074764",
+  "bar_count": 235,
   "candles": [
     {
       "time": "2026-06-05T08:30:00",
@@ -1872,10 +1872,18 @@
     {
       "time": "2026-06-08T13:40:00",
       "open": 4.24,
-      "high": 4.24,
+      "high": 4.27,
       "low": 4.23,
-      "close": 4.24,
-      "volume": 4
+      "close": 4.232,
+      "volume": 12
+    },
+    {
+      "time": "2026-06-08T13:45:00",
+      "open": 4.232,
+      "high": 4.232,
+      "low": 4.232,
+      "close": 4.232,
+      "volume": 0
     }
   ]
 }
