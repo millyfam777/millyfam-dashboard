@@ -2,8 +2,8 @@
   "symbol": "SOXS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T17:48:21.354719",
-  "bar_count": 358,
+  "generated_at": "2026-06-08T17:53:20.686928",
+  "bar_count": 359,
   "candles": [
     {
       "time": "2026-06-05T03:00:00",
@@ -2864,10 +2864,18 @@
     {
       "time": "2026-06-08T16:45:00",
       "open": 5.62,
-      "high": 5.63,
+      "high": 5.64,
       "low": 5.62,
+      "close": 5.64,
+      "volume": 1117
+    },
+    {
+      "time": "2026-06-08T16:50:00",
+      "open": 5.63,
+      "high": 5.64,
+      "low": 5.63,
       "close": 5.63,
-      "volume": 594
+      "volume": 456
     }
   ]
 }
