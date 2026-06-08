@@ -2,8 +2,8 @@
   "symbol": "SOWG",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T10:08:17.074514",
-  "bar_count": 335,
+  "generated_at": "2026-06-08T10:13:10.156128",
+  "bar_count": 337,
   "candles": [
     {
       "time": "2026-06-05T08:30:00",
@@ -2680,10 +2680,26 @@
     {
       "time": "2026-06-08T09:08:00",
       "open": 1.59,
+      "high": 1.6,
+      "low": 1.56,
+      "close": 1.57,
+      "volume": 19
+    },
+    {
+      "time": "2026-06-08T09:10:00",
+      "open": 1.605,
+      "high": 1.605,
+      "low": 1.605,
+      "close": 1.605,
+      "volume": 2
+    },
+    {
+      "time": "2026-06-08T09:12:00",
+      "open": 1.575,
       "high": 1.59,
-      "low": 1.59,
+      "low": 1.575,
       "close": 1.59,
-      "volume": 1
+      "volume": 25
     }
   ]
 }
