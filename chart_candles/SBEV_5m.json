@@ -2,8 +2,8 @@
   "symbol": "SBEV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T16:18:15.641339",
-  "bar_count": 340,
+  "generated_at": "2026-06-08T16:23:15.763286",
+  "bar_count": 341,
   "candles": [
     {
       "time": "2026-06-05T03:00:00",
@@ -2720,10 +2720,18 @@
     {
       "time": "2026-06-08T15:15:00",
       "open": 0.2922,
-      "high": 0.2922,
+      "high": 0.3,
+      "low": 0.2922,
+      "close": 0.3,
+      "volume": 194
+    },
+    {
+      "time": "2026-06-08T15:20:00",
+      "open": 0.2926,
+      "high": 0.2926,
       "low": 0.2922,
       "close": 0.2922,
-      "volume": 189
+      "volume": 54
     }
   ]
 }
