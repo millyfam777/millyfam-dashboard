@@ -2,8 +2,8 @@
   "symbol": "NRIX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T05:07:42.530722",
-  "bar_count": 170,
+  "generated_at": "2026-06-08T05:12:43.402991",
+  "bar_count": 171,
   "candles": [
     {
       "time": "2026-06-05T06:00:00",
@@ -1361,9 +1361,17 @@
       "time": "2026-06-08T04:05:00",
       "open": 22.5,
       "high": 23.24,
-      "low": 22.37,
-      "close": 22.43,
-      "volume": 449
+      "low": 22.0,
+      "close": 22.02,
+      "volume": 603
+    },
+    {
+      "time": "2026-06-08T04:10:00",
+      "open": 22.1,
+      "high": 22.5,
+      "low": 22.1,
+      "close": 22.19,
+      "volume": 86
     }
   ]
 }
