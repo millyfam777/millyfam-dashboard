@@ -2,8 +2,8 @@
   "symbol": "MPAA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T09:07:59.587096",
-  "bar_count": 179,
+  "generated_at": "2026-06-08T09:13:03.277920",
+  "bar_count": 180,
   "candles": [
     {
       "time": "2026-06-05T08:30:00",
@@ -1433,9 +1433,17 @@
       "time": "2026-06-08T08:05:00",
       "open": 13.85,
       "high": 13.85,
-      "low": 13.5,
-      "close": 13.65,
-      "volume": 17
+      "low": 13.48,
+      "close": 13.48,
+      "volume": 41
+    },
+    {
+      "time": "2026-06-08T08:10:00",
+      "open": 13.0,
+      "high": 13.48,
+      "low": 13.0,
+      "close": 13.48,
+      "volume": 14
     }
   ]
 }
