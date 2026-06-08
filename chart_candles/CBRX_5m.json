@@ -2,8 +2,8 @@
   "symbol": "CBRX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T10:23:06.987172",
-  "bar_count": 240,
+  "generated_at": "2026-06-08T10:28:08.453850",
+  "bar_count": 241,
   "candles": [
     {
       "time": "2026-06-05T05:25:00",
@@ -1921,9 +1921,17 @@
       "time": "2026-06-08T09:20:00",
       "open": 21.5,
       "high": 21.5,
-      "low": 21.28,
-      "close": 21.38,
-      "volume": 13
+      "low": 21.05,
+      "close": 21.37,
+      "volume": 34
+    },
+    {
+      "time": "2026-06-08T09:25:00",
+      "open": 21.45,
+      "high": 21.45,
+      "low": 21.45,
+      "close": 21.45,
+      "volume": 1
     }
   ]
 }
