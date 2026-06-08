@@ -2,8 +2,8 @@
   "symbol": "GMHS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T10:03:00.875964",
-  "bar_count": 229,
+  "generated_at": "2026-06-08T10:07:54.349601",
+  "bar_count": 230,
   "candles": [
     {
       "time": "2026-06-05T06:00:00",
@@ -1832,10 +1832,18 @@
     {
       "time": "2026-06-08T09:00:00",
       "open": 1.32,
-      "high": 1.33,
+      "high": 1.37,
       "low": 1.32,
-      "close": 1.3299,
-      "volume": 859
+      "close": 1.345,
+      "volume": 2062
+    },
+    {
+      "time": "2026-06-08T09:05:00",
+      "open": 1.345,
+      "high": 1.345,
+      "low": 1.25,
+      "close": 1.28,
+      "volume": 2552
     }
   ]
 }
