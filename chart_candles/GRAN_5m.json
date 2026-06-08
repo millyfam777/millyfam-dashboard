@@ -2,8 +2,8 @@
   "symbol": "GRAN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T12:27:58.357809",
-  "bar_count": 294,
+  "generated_at": "2026-06-08T12:33:32.767193",
+  "bar_count": 295,
   "candles": [
     {
       "time": "2026-06-05T03:00:00",
@@ -2353,9 +2353,17 @@
       "time": "2026-06-08T11:25:00",
       "open": 1.65,
       "high": 1.8599,
+      "low": 1.29,
+      "close": 1.29,
+      "volume": 19754
+    },
+    {
+      "time": "2026-06-08T11:30:00",
+      "open": 1.32,
+      "high": 1.38,
       "low": 1.32,
-      "close": 1.4013,
-      "volume": 18247
+      "close": 1.38,
+      "volume": 549
     }
   ]
 }
