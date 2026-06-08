@@ -2,8 +2,8 @@
   "symbol": "GLXG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T05:02:56.065548",
-  "bar_count": 205,
+  "generated_at": "2026-06-08T05:07:53.997796",
+  "bar_count": 206,
   "candles": [
     {
       "time": "2026-06-05T03:00:00",
@@ -1640,10 +1640,18 @@
     {
       "time": "2026-06-08T04:00:00",
       "open": 1.4,
-      "high": 1.43,
+      "high": 1.45,
       "low": 1.39,
-      "close": 1.4005,
-      "volume": 524
+      "close": 1.4205,
+      "volume": 1048
+    },
+    {
+      "time": "2026-06-08T04:05:00",
+      "open": 1.4205,
+      "high": 1.4583,
+      "low": 1.4205,
+      "close": 1.43,
+      "volume": 272
     }
   ]
 }
