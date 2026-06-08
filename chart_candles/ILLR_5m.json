@@ -2,8 +2,8 @@
   "symbol": "ILLR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T15:48:25.190213",
-  "bar_count": 334,
+  "generated_at": "2026-06-08T15:53:26.893108",
+  "bar_count": 335,
   "candles": [
     {
       "time": "2026-06-05T03:00:00",
@@ -2672,10 +2672,18 @@
     {
       "time": "2026-06-08T14:45:00",
       "open": 0.3123,
-      "high": 0.3154,
+      "high": 0.32,
       "low": 0.3094,
-      "close": 0.3127,
-      "volume": 308
+      "close": 0.32,
+      "volume": 580
+    },
+    {
+      "time": "2026-06-08T14:50:00",
+      "open": 0.3155,
+      "high": 0.33,
+      "low": 0.312,
+      "close": 0.3272,
+      "volume": 2066
     }
   ]
 }
