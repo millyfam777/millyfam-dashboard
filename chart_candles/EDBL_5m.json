@@ -2,8 +2,8 @@
   "symbol": "EDBL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T17:28:14.055190",
-  "bar_count": 354,
+  "generated_at": "2026-06-08T17:33:13.291994",
+  "bar_count": 355,
   "candles": [
     {
       "time": "2026-06-05T03:00:00",
@@ -2832,10 +2832,18 @@
     {
       "time": "2026-06-08T16:25:00",
       "open": 0.223,
-      "high": 0.223,
+      "high": 0.2272,
+      "low": 0.223,
+      "close": 0.2272,
+      "volume": 23
+    },
+    {
+      "time": "2026-06-08T16:30:00",
+      "open": 0.2272,
+      "high": 0.2272,
       "low": 0.223,
       "close": 0.223,
-      "volume": 4
+      "volume": 11
     }
   ]
 }
