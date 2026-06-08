@@ -2,8 +2,8 @@
   "symbol": "NYXH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T05:58:08.146560",
-  "bar_count": 216,
+  "generated_at": "2026-06-08T06:03:08.585875",
+  "bar_count": 217,
   "candles": [
     {
       "time": "2026-06-05T03:00:00",
@@ -1729,9 +1729,17 @@
       "time": "2026-06-08T04:55:00",
       "open": 1.7103,
       "high": 1.72,
-      "low": 1.7103,
+      "low": 1.71,
+      "close": 1.71,
+      "volume": 28
+    },
+    {
+      "time": "2026-06-08T05:00:00",
+      "open": 1.72,
+      "high": 1.72,
+      "low": 1.72,
       "close": 1.72,
-      "volume": 6
+      "volume": 9
     }
   ]
 }
