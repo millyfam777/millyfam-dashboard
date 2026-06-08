@@ -2,8 +2,8 @@
   "symbol": "PECER",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T10:53:08.144837",
-  "bar_count": 152,
+  "generated_at": "2026-06-08T10:58:01.290057",
+  "bar_count": 153,
   "candles": [
     {
       "time": "2026-06-05T08:30:00",
@@ -1217,9 +1217,17 @@
       "time": "2026-06-08T09:50:00",
       "open": 0.6,
       "high": 0.6,
-      "low": 0.6,
-      "close": 0.6,
-      "volume": 56
+      "low": 0.5999,
+      "close": 0.5999,
+      "volume": 145
+    },
+    {
+      "time": "2026-06-08T09:55:00",
+      "open": 0.5999,
+      "high": 0.5999,
+      "low": 0.5999,
+      "close": 0.5999,
+      "volume": 0
     }
   ]
 }
