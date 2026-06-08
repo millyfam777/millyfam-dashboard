@@ -2,8 +2,8 @@
   "symbol": "ITOC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T17:03:03.979664",
-  "bar_count": 299,
+  "generated_at": "2026-06-08T17:08:04.365325",
+  "bar_count": 300,
   "candles": [
     {
       "time": "2026-06-05T07:10:00",
@@ -2392,10 +2392,18 @@
     {
       "time": "2026-06-08T16:00:00",
       "open": 0.3081,
-      "high": 0.3143,
+      "high": 0.3144,
       "low": 0.2989,
-      "close": 0.3014,
-      "volume": 240
+      "close": 0.3144,
+      "volume": 275
+    },
+    {
+      "time": "2026-06-08T16:05:00",
+      "open": 0.314,
+      "high": 0.314,
+      "low": 0.2988,
+      "close": 0.3091,
+      "volume": 368
     }
   ]
 }
