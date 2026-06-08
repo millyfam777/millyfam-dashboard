@@ -2,8 +2,8 @@
   "symbol": "ENHA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T10:28:17.591940",
-  "bar_count": 268,
+  "generated_at": "2026-06-08T10:33:21.049092",
+  "bar_count": 269,
   "candles": [
     {
       "time": "2026-06-05T03:00:00",
@@ -2144,10 +2144,18 @@
     {
       "time": "2026-06-08T09:25:00",
       "open": 3.11,
-      "high": 3.11,
+      "high": 3.12,
       "low": 3.06,
-      "close": 3.08,
-      "volume": 158
+      "close": 3.1,
+      "volume": 257
+    },
+    {
+      "time": "2026-06-08T09:30:00",
+      "open": 3.11,
+      "high": 3.23,
+      "low": 3.09,
+      "close": 3.23,
+      "volume": 428
     }
   ]
 }
