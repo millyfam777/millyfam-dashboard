@@ -2,8 +2,8 @@
   "symbol": "TXXS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T09:28:23.226937",
-  "bar_count": 210,
+  "generated_at": "2026-06-08T09:33:37.714822",
+  "bar_count": 211,
   "candles": [
     {
       "time": "2026-06-05T03:00:00",
@@ -1679,11 +1679,19 @@
     },
     {
       "time": "2026-06-08T08:25:00",
-      "open": 2.6,
+      "open": 2.52,
       "high": 2.6,
+      "low": 2.52,
+      "close": 2.6,
+      "volume": 3
+    },
+    {
+      "time": "2026-06-08T08:30:00",
+      "open": 2.63,
+      "high": 2.63,
       "low": 2.6,
       "close": 2.6,
-      "volume": 0
+      "volume": 81
     }
   ]
 }
