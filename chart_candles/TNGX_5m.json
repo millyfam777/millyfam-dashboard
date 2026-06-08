@@ -2,8 +2,8 @@
   "symbol": "TNGX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T14:58:10.407627",
-  "bar_count": 240,
+  "generated_at": "2026-06-08T15:03:17.429844",
+  "bar_count": 241,
   "candles": [
     {
       "time": "2026-06-05T07:00:00",
@@ -1920,10 +1920,18 @@
     {
       "time": "2026-06-08T13:55:00",
       "open": 31.01,
-      "high": 31.065,
+      "high": 31.155,
       "low": 30.83,
-      "close": 31.06,
-      "volume": 588
+      "close": 31.145,
+      "volume": 884
+    },
+    {
+      "time": "2026-06-08T14:00:00",
+      "open": 31.145,
+      "high": 31.495,
+      "low": 31.105,
+      "close": 31.325,
+      "volume": 595
     }
   ]
 }
