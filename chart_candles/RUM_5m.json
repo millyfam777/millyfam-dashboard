@@ -2,8 +2,8 @@
   "symbol": "RUM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T07:52:10.438744",
-  "bar_count": 239,
+  "generated_at": "2026-06-08T07:57:10.903479",
+  "bar_count": 240,
   "candles": [
     {
       "time": "2026-06-05T03:00:00",
@@ -1912,10 +1912,18 @@
     {
       "time": "2026-06-08T06:50:00",
       "open": 7.67,
-      "high": 7.67,
+      "high": 7.69,
       "low": 7.67,
-      "close": 7.67,
-      "volume": 2
+      "close": 7.69,
+      "volume": 7
+    },
+    {
+      "time": "2026-06-08T06:55:00",
+      "open": 7.69,
+      "high": 7.69,
+      "low": 7.69,
+      "close": 7.69,
+      "volume": 10
     }
   ]
 }
