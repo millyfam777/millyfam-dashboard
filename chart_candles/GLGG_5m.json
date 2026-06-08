@@ -2,8 +2,8 @@
   "symbol": "GLGG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T12:53:00.823002",
-  "bar_count": 255,
+  "generated_at": "2026-06-08T12:58:02.792836",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-06-05T03:00:00",
@@ -2039,11 +2039,19 @@
     },
     {
       "time": "2026-06-08T11:50:00",
-      "open": 10.29,
-      "high": 10.29,
-      "low": 10.29,
+      "open": 10.4,
+      "high": 10.4,
+      "low": 10.4,
+      "close": 10.4,
+      "volume": 12
+    },
+    {
+      "time": "2026-06-08T11:55:00",
+      "open": 10.4,
+      "high": 10.4,
+      "low": 10.27,
       "close": 10.29,
-      "volume": 0
+      "volume": 30
     }
   ]
 }
