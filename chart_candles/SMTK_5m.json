@@ -2,8 +2,8 @@
   "symbol": "SMTK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T14:52:03.840111",
-  "bar_count": 323,
+  "generated_at": "2026-06-08T14:57:04.479901",
+  "bar_count": 324,
   "candles": [
     {
       "time": "2026-06-05T03:00:00",
@@ -2584,10 +2584,18 @@
     {
       "time": "2026-06-08T13:50:00",
       "open": 1.13,
+      "high": 1.155,
+      "low": 0.9472,
+      "close": 1.0536,
+      "volume": 65212
+    },
+    {
+      "time": "2026-06-08T13:55:00",
+      "open": 1.0551,
       "high": 1.13,
-      "low": 1.13,
-      "close": 1.13,
-      "volume": 0
+      "low": 0.9733,
+      "close": 0.9991,
+      "volume": 34680
     }
   ]
 }
