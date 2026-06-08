@@ -2,8 +2,8 @@
   "symbol": "MI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T09:38:12.925210",
-  "bar_count": 122,
+  "generated_at": "2026-06-08T09:43:08.553479",
+  "bar_count": 123,
   "candles": [
     {
       "time": "2026-06-05T11:30:00",
@@ -977,9 +977,17 @@
       "time": "2026-06-08T08:35:00",
       "open": 18.45,
       "high": 18.45,
-      "low": 18.4,
-      "close": 18.4,
-      "volume": 4
+      "low": 17.61,
+      "close": 18.03,
+      "volume": 6
+    },
+    {
+      "time": "2026-06-08T08:40:00",
+      "open": 18.0,
+      "high": 18.0,
+      "low": 17.61,
+      "close": 17.61,
+      "volume": 16
     }
   ]
 }

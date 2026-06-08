@@ -2,8 +2,8 @@
   "symbol": "LINT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T09:38:17.422499",
-  "bar_count": 256,
+  "generated_at": "2026-06-08T09:43:26.838684",
+  "bar_count": 257,
   "candles": [
     {
       "time": "2026-06-05T03:20:00",
@@ -2049,9 +2049,17 @@
       "time": "2026-06-08T08:35:00",
       "open": 164.57,
       "high": 164.57,
-      "low": 161.84,
-      "close": 162.07,
-      "volume": 5
+      "low": 161.5,
+      "close": 161.5,
+      "volume": 16
+    },
+    {
+      "time": "2026-06-08T08:40:00",
+      "open": 161.92,
+      "high": 166.01,
+      "low": 161.92,
+      "close": 166.01,
+      "volume": 81
     }
   ]
 }
