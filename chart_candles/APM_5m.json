@@ -2,8 +2,8 @@
   "symbol": "APM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T05:33:32.264448",
-  "bar_count": 211,
+  "generated_at": "2026-06-08T05:43:16.671837",
+  "bar_count": 213,
   "candles": [
     {
       "time": "2026-06-05T03:00:00",
@@ -1688,10 +1688,26 @@
     {
       "time": "2026-06-08T04:30:00",
       "open": 1.11,
-      "high": 1.1222,
+      "high": 1.13,
       "low": 1.11,
-      "close": 1.11,
-      "volume": 46
+      "close": 1.13,
+      "volume": 66
+    },
+    {
+      "time": "2026-06-08T04:35:00",
+      "open": 1.14,
+      "high": 1.17,
+      "low": 1.14,
+      "close": 1.17,
+      "volume": 145
+    },
+    {
+      "time": "2026-06-08T04:40:00",
+      "open": 1.17,
+      "high": 1.18,
+      "low": 1.17,
+      "close": 1.17,
+      "volume": 25
     }
   ]
 }
