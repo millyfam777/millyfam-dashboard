@@ -2,8 +2,8 @@
   "symbol": "NEXR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T09:02:43.477010",
-  "bar_count": 253,
+  "generated_at": "2026-06-08T09:07:52.755208",
+  "bar_count": 254,
   "candles": [
     {
       "time": "2026-06-05T03:00:00",
@@ -2025,9 +2025,17 @@
       "time": "2026-06-08T08:00:00",
       "open": 1.75,
       "high": 1.81,
+      "low": 1.72,
+      "close": 1.77,
+      "volume": 2032
+    },
+    {
+      "time": "2026-06-08T08:05:00",
+      "open": 1.78,
+      "high": 1.78,
       "low": 1.75,
-      "close": 1.79,
-      "volume": 1091
+      "close": 1.76,
+      "volume": 581
     }
   ]
 }
