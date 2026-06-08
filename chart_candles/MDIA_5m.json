@@ -2,8 +2,8 @@
   "symbol": "MDIA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-08T15:57:10.189444",
-  "bar_count": 276,
+  "generated_at": "2026-06-08T16:02:12.483434",
+  "bar_count": 277,
   "candles": [
     {
       "time": "2026-06-05T08:00:00",
@@ -2208,10 +2208,18 @@
     {
       "time": "2026-06-08T14:55:00",
       "open": 0.7803,
-      "high": 0.7832,
+      "high": 0.8201,
       "low": 0.7694,
-      "close": 0.775,
-      "volume": 171
+      "close": 0.79,
+      "volume": 289
+    },
+    {
+      "time": "2026-06-08T15:00:00",
+      "open": 0.78,
+      "high": 1.25,
+      "low": 0.78,
+      "close": 1.16,
+      "volume": 2076
     }
   ]
 }
