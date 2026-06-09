@@ -2,8 +2,8 @@
   "symbol": "EPSM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-09T18:08:03.511107",
-  "bar_count": 360,
+  "generated_at": "2026-06-09T18:13:03.793885",
+  "bar_count": 361,
   "candles": [
     {
       "time": "2026-06-08T03:10:00",
@@ -2881,9 +2881,17 @@
       "time": "2026-06-09T17:05:00",
       "open": 1.6115,
       "high": 1.66,
-      "low": 1.61,
+      "low": 1.56,
+      "close": 1.56,
+      "volume": 114
+    },
+    {
+      "time": "2026-06-09T17:10:00",
+      "open": 1.5699,
+      "high": 1.63,
+      "low": 1.56,
       "close": 1.63,
-      "volume": 55
+      "volume": 120
     }
   ]
 }
