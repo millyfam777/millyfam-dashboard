@@ -2,8 +2,8 @@
   "symbol": "CPOP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-09T19:18:01.798495",
-  "bar_count": 342,
+  "generated_at": "2026-06-09T19:23:02.072857",
+  "bar_count": 343,
   "candles": [
     {
       "time": "2026-06-08T03:20:00",
@@ -2736,10 +2736,18 @@
     {
       "time": "2026-06-09T18:15:00",
       "open": 0.3431,
-      "high": 0.3431,
+      "high": 0.35,
       "low": 0.3431,
-      "close": 0.3431,
-      "volume": 1
+      "close": 0.35,
+      "volume": 42
+    },
+    {
+      "time": "2026-06-09T18:20:00",
+      "open": 0.36,
+      "high": 0.365,
+      "low": 0.351,
+      "close": 0.351,
+      "volume": 36
     }
   ]
 }

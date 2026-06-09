@@ -2,8 +2,8 @@
   "symbol": "ELPW",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-09T19:17:31.525082",
-  "bar_count": 376,
+  "generated_at": "2026-06-09T19:22:31.666107",
+  "bar_count": 377,
   "candles": [
     {
       "time": "2026-06-08T03:00:00",
@@ -3008,10 +3008,18 @@
     {
       "time": "2026-06-09T18:15:00",
       "open": 1.09,
-      "high": 1.1097,
+      "high": 1.11,
       "low": 1.09,
-      "close": 1.1097,
-      "volume": 8
+      "close": 1.1099,
+      "volume": 81
+    },
+    {
+      "time": "2026-06-09T18:20:00",
+      "open": 1.1,
+      "high": 1.1098,
+      "low": 1.09,
+      "close": 1.09,
+      "volume": 37
     }
   ]
 }
