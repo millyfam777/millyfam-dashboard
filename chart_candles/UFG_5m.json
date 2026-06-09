@@ -2,8 +2,8 @@
   "symbol": "UFG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-09T18:47:40.151514",
-  "bar_count": 366,
+  "generated_at": "2026-06-09T18:52:40.463909",
+  "bar_count": 367,
   "candles": [
     {
       "time": "2026-06-08T03:20:00",
@@ -2928,10 +2928,18 @@
     {
       "time": "2026-06-09T17:45:00",
       "open": 0.98,
+      "high": 0.9996,
+      "low": 0.9565,
+      "close": 0.9996,
+      "volume": 136
+    },
+    {
+      "time": "2026-06-09T17:50:00",
+      "open": 0.98,
       "high": 0.98,
-      "low": 0.9566,
-      "close": 0.9799,
-      "volume": 98
+      "low": 0.98,
+      "close": 0.98,
+      "volume": 6
     }
   ]
 }
