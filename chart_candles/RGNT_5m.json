@@ -2,8 +2,8 @@
   "symbol": "RGNT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-09T19:37:15.495884",
-  "bar_count": 380,
+  "generated_at": "2026-06-09T19:42:15.830012",
+  "bar_count": 381,
   "candles": [
     {
       "time": "2026-06-08T03:00:00",
@@ -3040,10 +3040,18 @@
     {
       "time": "2026-06-09T18:35:00",
       "open": 2.08,
-      "high": 2.1003,
+      "high": 2.1099,
       "low": 2.08,
-      "close": 2.1003,
-      "volume": 43
+      "close": 2.1,
+      "volume": 57
+    },
+    {
+      "time": "2026-06-09T18:40:00",
+      "open": 2.11,
+      "high": 2.11,
+      "low": 2.05,
+      "close": 2.05,
+      "volume": 56
     }
   ]
 }
