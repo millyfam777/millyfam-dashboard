@@ -2,8 +2,8 @@
   "symbol": "CHNR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T15:57:36.609381",
-  "bar_count": 333,
+  "generated_at": "2026-06-10T16:02:42.705528",
+  "bar_count": 334,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2663,11 +2663,19 @@
     },
     {
       "time": "2026-06-10T14:55:00",
-      "open": 3.93,
+      "open": 3.9,
       "high": 3.93,
-      "low": 3.93,
-      "close": 3.93,
-      "volume": 0
+      "low": 3.75,
+      "close": 3.75,
+      "volume": 60
+    },
+    {
+      "time": "2026-06-10T15:00:00",
+      "open": 3.76,
+      "high": 3.76,
+      "low": 3.58,
+      "close": 3.75,
+      "volume": 86
     }
   ]
 }
