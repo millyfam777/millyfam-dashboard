@@ -2,8 +2,8 @@
   "symbol": "UK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T08:42:51.933582",
-  "bar_count": 249,
+  "generated_at": "2026-06-10T08:47:53.834417",
+  "bar_count": 250,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -1992,10 +1992,18 @@
     {
       "time": "2026-06-10T07:40:00",
       "open": 2.39,
-      "high": 2.45,
+      "high": 2.5,
       "low": 2.36,
-      "close": 2.4,
-      "volume": 226
+      "close": 2.42,
+      "volume": 385
+    },
+    {
+      "time": "2026-06-10T07:45:00",
+      "open": 2.44,
+      "high": 2.47,
+      "low": 2.36,
+      "close": 2.39,
+      "volume": 85
     }
   ]
 }
