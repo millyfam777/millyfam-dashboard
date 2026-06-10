@@ -2,8 +2,8 @@
   "symbol": "GLE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T05:07:53.372674",
-  "bar_count": 206,
+  "generated_at": "2026-06-10T05:12:59.408144",
+  "bar_count": 207,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -1648,10 +1648,18 @@
     {
       "time": "2026-06-10T04:05:00",
       "open": 0.555,
-      "high": 0.555,
+      "high": 0.5669,
       "low": 0.5302,
-      "close": 0.5302,
-      "volume": 61
+      "close": 0.566,
+      "volume": 140
+    },
+    {
+      "time": "2026-06-10T04:10:00",
+      "open": 0.566,
+      "high": 0.5701,
+      "low": 0.5522,
+      "close": 0.5701,
+      "volume": 138
     }
   ]
 }
