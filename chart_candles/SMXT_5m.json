@@ -2,8 +2,8 @@
   "symbol": "SMXT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T18:03:05.836711",
-  "bar_count": 325,
+  "generated_at": "2026-06-10T18:08:09.077876",
+  "bar_count": 326,
   "candles": [
     {
       "time": "2026-06-09T06:00:00",
@@ -2600,10 +2600,18 @@
     {
       "time": "2026-06-10T17:00:00",
       "open": 0.47,
+      "high": 0.4702,
+      "low": 0.47,
+      "close": 0.4702,
+      "volume": 23
+    },
+    {
+      "time": "2026-06-10T17:05:00",
+      "open": 0.47,
       "high": 0.47,
       "low": 0.47,
       "close": 0.47,
-      "volume": 0
+      "volume": 5
     }
   ]
 }
