@@ -2,8 +2,8 @@
   "symbol": "PRZO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T12:02:45.198252",
-  "bar_count": 289,
+  "generated_at": "2026-06-10T12:07:44.366801",
+  "bar_count": 290,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2312,10 +2312,18 @@
     {
       "time": "2026-06-10T11:00:00",
       "open": 0.5873,
-      "high": 0.59,
+      "high": 0.5972,
       "low": 0.5849,
-      "close": 0.5889,
-      "volume": 69
+      "close": 0.594,
+      "volume": 407
+    },
+    {
+      "time": "2026-06-10T11:05:00",
+      "open": 0.5972,
+      "high": 0.5972,
+      "low": 0.5909,
+      "close": 0.5913,
+      "volume": 181
     }
   ]
 }
