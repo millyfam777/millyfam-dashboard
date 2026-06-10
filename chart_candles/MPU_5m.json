@@ -2,8 +2,8 @@
   "symbol": "MPU",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T16:42:20.281804",
-  "bar_count": 345,
+  "generated_at": "2026-06-10T16:47:20.290544",
+  "bar_count": 346,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2761,9 +2761,17 @@
       "time": "2026-06-10T15:40:00",
       "open": 0.4512,
       "high": 0.4512,
-      "low": 0.4512,
+      "low": 0.437,
+      "close": 0.45,
+      "volume": 37
+    },
+    {
+      "time": "2026-06-10T15:45:00",
+      "open": 0.4499,
+      "high": 0.4512,
+      "low": 0.4499,
       "close": 0.4512,
-      "volume": 11
+      "volume": 112
     }
   ]
 }
