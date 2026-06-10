@@ -2,8 +2,8 @@
   "symbol": "YMT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T05:37:13.202346",
-  "bar_count": 204,
+  "generated_at": "2026-06-10T05:42:13.218960",
+  "bar_count": 205,
   "candles": [
     {
       "time": "2026-06-09T03:40:00",
@@ -1632,10 +1632,18 @@
     {
       "time": "2026-06-10T04:35:00",
       "open": 0.786,
-      "high": 0.8064,
+      "high": 0.84,
       "low": 0.7703,
-      "close": 0.7802,
-      "volume": 144
+      "close": 0.84,
+      "volume": 226
+    },
+    {
+      "time": "2026-06-10T04:40:00",
+      "open": 0.8399,
+      "high": 0.84,
+      "low": 0.81,
+      "close": 0.81,
+      "volume": 21
     }
   ]
 }
