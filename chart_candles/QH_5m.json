@@ -2,8 +2,8 @@
   "symbol": "QH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T15:17:50.481899",
-  "bar_count": 328,
+  "generated_at": "2026-06-10T15:22:53.257428",
+  "bar_count": 329,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2624,10 +2624,18 @@
     {
       "time": "2026-06-10T14:15:00",
       "open": 4.01,
-      "high": 4.01,
+      "high": 4.03,
       "low": 4.01,
       "close": 4.01,
-      "volume": 1
+      "volume": 7
+    },
+    {
+      "time": "2026-06-10T14:20:00",
+      "open": 4.05,
+      "high": 4.25,
+      "low": 4.04,
+      "close": 4.1,
+      "volume": 121
     }
   ]
 }
