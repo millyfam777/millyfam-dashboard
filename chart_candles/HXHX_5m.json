@@ -2,8 +2,8 @@
   "symbol": "HXHX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T07:03:39.146364",
-  "bar_count": 229,
+  "generated_at": "2026-06-10T07:08:45.009943",
+  "bar_count": 230,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -1832,10 +1832,18 @@
     {
       "time": "2026-06-10T06:00:00",
       "open": 0.5999,
-      "high": 0.601,
+      "high": 0.619,
       "low": 0.5829,
-      "close": 0.601,
-      "volume": 134
+      "close": 0.61,
+      "volume": 190
+    },
+    {
+      "time": "2026-06-10T06:05:00",
+      "open": 0.6102,
+      "high": 0.628,
+      "low": 0.605,
+      "close": 0.6181,
+      "volume": 446
     }
   ]
 }
