@@ -2,8 +2,8 @@
   "symbol": "XOS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T06:33:07.417352",
-  "bar_count": 223,
+  "generated_at": "2026-06-10T06:38:07.134741",
+  "bar_count": 224,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -1785,9 +1785,17 @@
       "time": "2026-06-10T05:30:00",
       "open": 4.23,
       "high": 4.26,
+      "low": 4.22,
+      "close": 4.23,
+      "volume": 27
+    },
+    {
+      "time": "2026-06-10T05:35:00",
+      "open": 4.3,
+      "high": 4.3,
       "low": 4.23,
-      "close": 4.26,
-      "volume": 4
+      "close": 4.3,
+      "volume": 15
     }
   ]
 }
