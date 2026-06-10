@@ -2,8 +2,8 @@
   "symbol": "WCT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T17:53:14.319409",
-  "bar_count": 354,
+  "generated_at": "2026-06-10T17:58:15.653594",
+  "bar_count": 355,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2832,10 +2832,18 @@
     {
       "time": "2026-06-10T16:50:00",
       "open": 1.7006,
-      "high": 1.72,
+      "high": 1.73,
       "low": 1.7,
       "close": 1.72,
-      "volume": 46
+      "volume": 100
+    },
+    {
+      "time": "2026-06-10T16:55:00",
+      "open": 1.72,
+      "high": 1.79,
+      "low": 1.72,
+      "close": 1.79,
+      "volume": 75
     }
   ]
 }
