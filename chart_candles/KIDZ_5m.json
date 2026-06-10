@@ -2,8 +2,8 @@
   "symbol": "KIDZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T12:23:28.847820",
-  "bar_count": 293,
+  "generated_at": "2026-06-10T12:28:27.940952",
+  "bar_count": 294,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2344,10 +2344,18 @@
     {
       "time": "2026-06-10T11:20:00",
       "open": 2.05,
-      "high": 2.08,
+      "high": 2.1,
       "low": 2.05,
+      "close": 2.1,
+      "volume": 53
+    },
+    {
+      "time": "2026-06-10T11:25:00",
+      "open": 2.09,
+      "high": 2.1,
+      "low": 2.07,
       "close": 2.08,
-      "volume": 12
+      "volume": 58
     }
   ]
 }
