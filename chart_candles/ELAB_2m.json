@@ -2,8 +2,8 @@
   "symbol": "ELAB",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T14:48:19.106727",
-  "bar_count": 805,
+  "generated_at": "2026-06-10T14:53:18.294481",
+  "bar_count": 807,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -6439,11 +6439,27 @@
     },
     {
       "time": "2026-06-10T13:48:00",
+      "open": 1.405,
+      "high": 1.405,
+      "low": 1.4,
+      "close": 1.4,
+      "volume": 5
+    },
+    {
+      "time": "2026-06-10T13:50:00",
       "open": 1.41,
       "high": 1.41,
-      "low": 1.41,
+      "low": 1.405,
       "close": 1.41,
-      "volume": 0
+      "volume": 6
+    },
+    {
+      "time": "2026-06-10T13:52:00",
+      "open": 1.405,
+      "high": 1.41,
+      "low": 1.405,
+      "close": 1.41,
+      "volume": 2
     }
   ]
 }
