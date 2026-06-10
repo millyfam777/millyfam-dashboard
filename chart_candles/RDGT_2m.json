@@ -2,8 +2,8 @@
   "symbol": "RDGT",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T06:22:07.639624",
-  "bar_count": 548,
+  "generated_at": "2026-06-10T06:27:09.807711",
+  "bar_count": 550,
   "candles": [
     {
       "time": "2026-06-09T03:08:00",
@@ -4384,10 +4384,26 @@
     {
       "time": "2026-06-10T05:22:00",
       "open": 1.5,
-      "high": 1.5,
+      "high": 1.52,
+      "low": 1.49,
+      "close": 1.51,
+      "volume": 107
+    },
+    {
+      "time": "2026-06-10T05:24:00",
+      "open": 1.51,
+      "high": 1.52,
+      "low": 1.49,
+      "close": 1.52,
+      "volume": 46
+    },
+    {
+      "time": "2026-06-10T05:26:00",
+      "open": 1.505,
+      "high": 1.5305,
       "low": 1.5,
-      "close": 1.5,
-      "volume": 0
+      "close": 1.5103,
+      "volume": 47
     }
   ]
 }
