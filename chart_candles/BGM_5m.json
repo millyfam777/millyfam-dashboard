@@ -2,8 +2,8 @@
   "symbol": "BGM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T16:57:29.010150",
-  "bar_count": 347,
+  "generated_at": "2026-06-10T17:02:28.597345",
+  "bar_count": 348,
   "candles": [
     {
       "time": "2026-06-09T03:05:00",
@@ -2777,9 +2777,17 @@
       "time": "2026-06-10T15:55:00",
       "open": 0.3675,
       "high": 0.375,
-      "low": 0.3675,
+      "low": 0.36,
+      "close": 0.375,
+      "volume": 318
+    },
+    {
+      "time": "2026-06-10T16:00:00",
+      "open": 0.3733,
+      "high": 0.374,
+      "low": 0.369,
       "close": 0.374,
-      "volume": 36
+      "volume": 79
     }
   ]
 }
