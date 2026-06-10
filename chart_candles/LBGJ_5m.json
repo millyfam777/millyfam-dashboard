@@ -2,8 +2,8 @@
   "symbol": "LBGJ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T07:17:20.752363",
-  "bar_count": 232,
+  "generated_at": "2026-06-10T07:22:20.667405",
+  "bar_count": 233,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -1857,9 +1857,17 @@
       "time": "2026-06-10T06:15:00",
       "open": 1.03,
       "high": 1.11,
-      "low": 1.03,
-      "close": 1.0889,
-      "volume": 49
+      "low": 0.9901,
+      "close": 1.02,
+      "volume": 400
+    },
+    {
+      "time": "2026-06-10T06:20:00",
+      "open": 1.02,
+      "high": 1.06,
+      "low": 1.0008,
+      "close": 1.04,
+      "volume": 68
     }
   ]
 }
