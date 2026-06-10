@@ -2,8 +2,8 @@
   "symbol": "ITP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T05:18:26.460619",
-  "bar_count": 208,
+  "generated_at": "2026-06-10T05:23:29.295871",
+  "bar_count": 209,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -1664,10 +1664,18 @@
     {
       "time": "2026-06-10T04:15:00",
       "open": 0.2001,
-      "high": 0.2001,
+      "high": 0.2096,
       "low": 0.2001,
-      "close": 0.2001,
-      "volume": 5
+      "close": 0.2096,
+      "volume": 10
+    },
+    {
+      "time": "2026-06-10T04:20:00",
+      "open": 0.2002,
+      "high": 0.2112,
+      "low": 0.2001,
+      "close": 0.2112,
+      "volume": 9
     }
   ]
 }
