@@ -2,8 +2,8 @@
   "symbol": "SNBR",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T16:38:09.340249",
-  "bar_count": 860,
+  "generated_at": "2026-06-10T16:43:09.670918",
+  "bar_count": 862,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -6879,11 +6879,27 @@
     },
     {
       "time": "2026-06-10T15:38:00",
+      "open": 0.69,
+      "high": 0.6901,
+      "low": 0.69,
+      "close": 0.6901,
+      "volume": 3
+    },
+    {
+      "time": "2026-06-10T15:40:00",
       "open": 0.7,
-      "high": 0.7,
-      "low": 0.7,
-      "close": 0.7,
-      "volume": 0
+      "high": 0.7136,
+      "low": 0.69,
+      "close": 0.7095,
+      "volume": 11
+    },
+    {
+      "time": "2026-06-10T15:42:00",
+      "open": 0.69,
+      "high": 0.69,
+      "low": 0.69,
+      "close": 0.69,
+      "volume": 3
     }
   ]
 }
