@@ -2,8 +2,8 @@
   "symbol": "BGLC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T05:47:35.805091",
-  "bar_count": 139,
+  "generated_at": "2026-06-10T05:52:38.601486",
+  "bar_count": 140,
   "candles": [
     {
       "time": "2026-06-09T08:50:00",
@@ -1112,10 +1112,18 @@
     {
       "time": "2026-06-10T04:45:00",
       "open": 1.88,
-      "high": 1.92,
+      "high": 2.0,
       "low": 1.87,
-      "close": 1.91,
-      "volume": 34
+      "close": 1.9532,
+      "volume": 110
+    },
+    {
+      "time": "2026-06-10T04:50:00",
+      "open": 1.9779,
+      "high": 2.09,
+      "low": 1.9779,
+      "close": 2.05,
+      "volume": 82
     }
   ]
 }
