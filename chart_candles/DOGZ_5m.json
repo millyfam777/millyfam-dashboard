@@ -2,8 +2,8 @@
   "symbol": "DOGZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T06:07:10.157781",
-  "bar_count": 164,
+  "generated_at": "2026-06-10T06:12:10.601347",
+  "bar_count": 165,
   "candles": [
     {
       "time": "2026-06-09T06:00:00",
@@ -1313,9 +1313,17 @@
       "time": "2026-06-10T05:05:00",
       "open": 1.19,
       "high": 1.2,
-      "low": 1.0301,
-      "close": 1.135,
-      "volume": 4078
+      "low": 0.9655,
+      "close": 0.9655,
+      "volume": 8425
+    },
+    {
+      "time": "2026-06-10T05:10:00",
+      "open": 0.9706,
+      "high": 1.05,
+      "low": 0.9655,
+      "close": 1.0401,
+      "volume": 1706
     }
   ]
 }
