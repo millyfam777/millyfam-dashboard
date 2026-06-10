@@ -2,8 +2,8 @@
   "symbol": "CLIK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T13:08:02.951248",
-  "bar_count": 302,
+  "generated_at": "2026-06-10T13:13:07.631105",
+  "bar_count": 303,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2416,10 +2416,18 @@
     {
       "time": "2026-06-10T12:05:00",
       "open": 1.625,
-      "high": 1.6289,
+      "high": 1.63,
       "low": 1.621,
-      "close": 1.621,
-      "volume": 7
+      "close": 1.63,
+      "volume": 19
+    },
+    {
+      "time": "2026-06-10T12:10:00",
+      "open": 1.625,
+      "high": 1.6399,
+      "low": 1.625,
+      "close": 1.63,
+      "volume": 106
     }
   ]
 }
