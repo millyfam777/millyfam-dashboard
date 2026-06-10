@@ -2,8 +2,8 @@
   "symbol": "CNET",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T16:27:31.430831",
-  "bar_count": 342,
+  "generated_at": "2026-06-10T16:32:31.374314",
+  "bar_count": 343,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2736,9 +2736,17 @@
     {
       "time": "2026-06-10T15:25:00",
       "open": 0.956,
-      "high": 0.98,
+      "high": 1.02,
       "low": 0.956,
-      "close": 0.98,
+      "close": 0.985,
+      "volume": 65
+    },
+    {
+      "time": "2026-06-10T15:30:00",
+      "open": 0.98,
+      "high": 0.985,
+      "low": 0.98,
+      "close": 0.985,
       "volume": 7
     }
   ]

@@ -2,8 +2,8 @@
   "symbol": "HKIT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T16:27:56.434017",
-  "bar_count": 342,
+  "generated_at": "2026-06-10T16:32:56.446529",
+  "bar_count": 343,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2737,9 +2737,17 @@
       "time": "2026-06-10T15:25:00",
       "open": 0.41,
       "high": 0.415,
-      "low": 0.4077,
-      "close": 0.4077,
-      "volume": 477
+      "low": 0.4,
+      "close": 0.4016,
+      "volume": 1283
+    },
+    {
+      "time": "2026-06-10T15:30:00",
+      "open": 0.4016,
+      "high": 0.409,
+      "low": 0.4,
+      "close": 0.4032,
+      "volume": 335
     }
   ]
 }
