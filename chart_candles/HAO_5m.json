@@ -2,8 +2,8 @@
   "symbol": "HAO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T04:17:12.575826",
-  "bar_count": 196,
+  "generated_at": "2026-06-10T04:22:25.099694",
+  "bar_count": 197,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -1569,9 +1569,17 @@
       "time": "2026-06-10T03:15:00",
       "open": 1.07,
       "high": 1.07,
-      "low": 1.03,
+      "low": 0.95,
+      "close": 0.95,
+      "volume": 426
+    },
+    {
+      "time": "2026-06-10T03:20:00",
+      "open": 0.95,
+      "high": 1.03,
+      "low": 0.95,
       "close": 1.03,
-      "volume": 121
+      "volume": 62
     }
   ]
 }

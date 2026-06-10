@@ -2,8 +2,8 @@
   "symbol": "MMA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T04:18:13.380481",
-  "bar_count": 196,
+  "generated_at": "2026-06-10T04:22:11.537786",
+  "bar_count": 197,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -1568,10 +1568,18 @@
     {
       "time": "2026-06-10T03:15:00",
       "open": 0.9147,
-      "high": 0.9355,
+      "high": 0.99,
       "low": 0.9147,
-      "close": 0.9218,
-      "volume": 95
+      "close": 0.9755,
+      "volume": 332
+    },
+    {
+      "time": "2026-06-10T03:20:00",
+      "open": 0.9779,
+      "high": 0.9799,
+      "low": 0.942,
+      "close": 0.96,
+      "volume": 370
     }
   ]
 }
