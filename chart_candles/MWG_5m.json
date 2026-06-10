@@ -2,8 +2,8 @@
   "symbol": "MWG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T07:22:25.244337",
-  "bar_count": 232,
+  "generated_at": "2026-06-10T07:27:24.293852",
+  "bar_count": 233,
   "candles": [
     {
       "time": "2026-06-09T03:05:00",
@@ -1856,10 +1856,18 @@
     {
       "time": "2026-06-10T06:20:00",
       "open": 1.4704,
+      "high": 1.55,
+      "low": 1.36,
+      "close": 1.46,
+      "volume": 271
+    },
+    {
+      "time": "2026-06-10T06:25:00",
+      "open": 1.49,
       "high": 1.49,
-      "low": 1.45,
-      "close": 1.45,
-      "volume": 16
+      "low": 1.49,
+      "close": 1.49,
+      "volume": 1
     }
   ]
 }

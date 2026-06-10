@@ -2,8 +2,8 @@
   "symbol": "BQ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T07:22:34.410304",
-  "bar_count": 233,
+  "generated_at": "2026-06-10T07:27:33.678935",
+  "bar_count": 234,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -1865,9 +1865,17 @@
       "time": "2026-06-10T06:20:00",
       "open": 1.0891,
       "high": 1.0899,
-      "low": 1.03,
-      "close": 1.05,
-      "volume": 1495
+      "low": 0.95,
+      "close": 0.9652,
+      "volume": 4235
+    },
+    {
+      "time": "2026-06-10T06:25:00",
+      "open": 0.9602,
+      "high": 1.01,
+      "low": 0.9273,
+      "close": 0.9273,
+      "volume": 2454
     }
   ]
 }
