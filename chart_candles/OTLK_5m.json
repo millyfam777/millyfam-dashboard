@@ -2,8 +2,8 @@
   "symbol": "OTLK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T17:17:22.299175",
-  "bar_count": 352,
+  "generated_at": "2026-06-10T17:22:21.789297",
+  "bar_count": 353,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2816,10 +2816,18 @@
     {
       "time": "2026-06-10T16:15:00",
       "open": 0.8979,
-      "high": 0.898,
-      "low": 0.8978,
-      "close": 0.898,
-      "volume": 224
+      "high": 0.9,
+      "low": 0.894,
+      "close": 0.8941,
+      "volume": 260
+    },
+    {
+      "time": "2026-06-10T16:20:00",
+      "open": 0.901,
+      "high": 0.904,
+      "low": 0.9,
+      "close": 0.904,
+      "volume": 58
     }
   ]
 }
