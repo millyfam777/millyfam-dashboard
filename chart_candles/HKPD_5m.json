@@ -2,8 +2,8 @@
   "symbol": "HKPD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T07:12:39.388442",
-  "bar_count": 231,
+  "generated_at": "2026-06-10T07:17:28.042560",
+  "bar_count": 232,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -1848,10 +1848,18 @@
     {
       "time": "2026-06-10T06:10:00",
       "open": 0.3155,
-      "high": 0.3155,
+      "high": 0.3245,
       "low": 0.3151,
-      "close": 0.3152,
-      "volume": 44
+      "close": 0.3245,
+      "volume": 105
+    },
+    {
+      "time": "2026-06-10T06:15:00",
+      "open": 0.3243,
+      "high": 0.3245,
+      "low": 0.3202,
+      "close": 0.3202,
+      "volume": 57
     }
   ]
 }
