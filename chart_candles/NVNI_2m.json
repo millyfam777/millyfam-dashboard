@@ -2,8 +2,8 @@
   "symbol": "NVNI",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T12:38:38.880085",
-  "bar_count": 695,
+  "generated_at": "2026-06-10T12:43:29.353530",
+  "bar_count": 697,
   "candles": [
     {
       "time": "2026-06-09T04:30:00",
@@ -5561,9 +5561,25 @@
       "time": "2026-06-10T11:38:00",
       "open": 1.015,
       "high": 1.02,
+      "low": 1.0,
+      "close": 1.015,
+      "volume": 596
+    },
+    {
+      "time": "2026-06-10T11:40:00",
+      "open": 1.02,
+      "high": 1.02,
       "low": 1.01,
-      "close": 1.0111,
-      "volume": 102
+      "close": 1.02,
+      "volume": 133
+    },
+    {
+      "time": "2026-06-10T11:42:00",
+      "open": 1.015,
+      "high": 1.02,
+      "low": 1.005,
+      "close": 1.005,
+      "volume": 105
     }
   ]
 }
