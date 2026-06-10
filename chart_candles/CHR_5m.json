@@ -2,8 +2,8 @@
   "symbol": "CHR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T05:42:28.015235",
-  "bar_count": 211,
+  "generated_at": "2026-06-10T05:47:26.472450",
+  "bar_count": 212,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -1688,10 +1688,18 @@
     {
       "time": "2026-06-10T04:40:00",
       "open": 1.75,
-      "high": 1.75,
+      "high": 1.77,
       "low": 1.75,
-      "close": 1.75,
-      "volume": 15
+      "close": 1.77,
+      "volume": 42
+    },
+    {
+      "time": "2026-06-10T04:45:00",
+      "open": 1.77,
+      "high": 1.98,
+      "low": 1.77,
+      "close": 1.9,
+      "volume": 93
     }
   ]
 }
