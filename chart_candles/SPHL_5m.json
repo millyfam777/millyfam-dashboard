@@ -2,8 +2,8 @@
   "symbol": "SPHL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T08:48:14.738532",
-  "bar_count": 250,
+  "generated_at": "2026-06-10T08:53:20.340490",
+  "bar_count": 251,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2001,9 +2001,17 @@
       "time": "2026-06-10T07:45:00",
       "open": 3.09,
       "high": 3.1,
-      "low": 3.09,
-      "close": 3.1,
-      "volume": 2
+      "low": 3.05,
+      "close": 3.05,
+      "volume": 6
+    },
+    {
+      "time": "2026-06-10T07:50:00",
+      "open": 3.04,
+      "high": 3.04,
+      "low": 2.95,
+      "close": 3.0,
+      "volume": 26
     }
   ]
 }
