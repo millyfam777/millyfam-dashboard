@@ -2,8 +2,8 @@
   "symbol": "CLOV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T18:08:06.782796",
-  "bar_count": 362,
+  "generated_at": "2026-06-10T18:13:06.905171",
+  "bar_count": 363,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2895,11 +2895,19 @@
     },
     {
       "time": "2026-06-10T17:05:00",
-      "open": 4.91,
+      "open": 4.9,
+      "high": 4.9,
+      "low": 4.8952,
+      "close": 4.8952,
+      "volume": 114
+    },
+    {
+      "time": "2026-06-10T17:10:00",
+      "open": 4.8902,
       "high": 4.91,
-      "low": 4.91,
+      "low": 4.8902,
       "close": 4.91,
-      "volume": 0
+      "volume": 10
     }
   ]
 }
