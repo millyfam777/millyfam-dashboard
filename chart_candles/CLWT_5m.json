@@ -2,8 +2,8 @@
   "symbol": "CLWT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T09:37:33.155848",
-  "bar_count": 258,
+  "generated_at": "2026-06-10T09:42:43.059100",
+  "bar_count": 259,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2065,9 +2065,17 @@
       "time": "2026-06-10T08:35:00",
       "open": 1.3799,
       "high": 1.42,
-      "low": 1.3799,
-      "close": 1.38,
-      "volume": 375
+      "low": 1.31,
+      "close": 1.315,
+      "volume": 1001
+    },
+    {
+      "time": "2026-06-10T08:40:00",
+      "open": 1.32,
+      "high": 1.35,
+      "low": 1.24,
+      "close": 1.24,
+      "volume": 643
     }
   ]
 }
