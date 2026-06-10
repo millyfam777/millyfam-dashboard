@@ -2,8 +2,8 @@
   "symbol": "ILAG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T12:43:00.043085",
-  "bar_count": 170,
+  "generated_at": "2026-06-10T12:48:01.101791",
+  "bar_count": 171,
   "candles": [
     {
       "time": "2026-06-09T09:30:00",
@@ -1360,10 +1360,18 @@
     {
       "time": "2026-06-10T11:40:00",
       "open": 3.09,
-      "high": 3.15,
+      "high": 3.18,
       "low": 3.09,
-      "close": 3.15,
-      "volume": 3
+      "close": 3.18,
+      "volume": 10
+    },
+    {
+      "time": "2026-06-10T11:45:00",
+      "open": 3.0501,
+      "high": 3.0501,
+      "low": 3.0501,
+      "close": 3.0501,
+      "volume": 4
     }
   ]
 }

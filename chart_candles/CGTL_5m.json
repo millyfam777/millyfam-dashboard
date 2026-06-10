@@ -2,8 +2,8 @@
   "symbol": "CGTL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T12:42:46.006471",
-  "bar_count": 297,
+  "generated_at": "2026-06-10T12:47:47.215886",
+  "bar_count": 298,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2376,10 +2376,18 @@
     {
       "time": "2026-06-10T11:40:00",
       "open": 0.4579,
+      "high": 0.4617,
+      "low": 0.4551,
+      "close": 0.4578,
+      "volume": 150
+    },
+    {
+      "time": "2026-06-10T11:45:00",
+      "open": 0.4609,
       "high": 0.461,
-      "low": 0.4579,
-      "close": 0.461,
-      "volume": 34
+      "low": 0.455,
+      "close": 0.458,
+      "volume": 78
     }
   ]
 }
