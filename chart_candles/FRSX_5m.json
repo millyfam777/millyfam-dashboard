@@ -2,8 +2,8 @@
   "symbol": "FRSX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T05:03:31.311117",
-  "bar_count": 205,
+  "generated_at": "2026-06-10T05:08:29.938732",
+  "bar_count": 206,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -1639,11 +1639,19 @@
     },
     {
       "time": "2026-06-10T04:00:00",
-      "open": 1.65,
-      "high": 1.65,
+      "open": 1.66,
+      "high": 1.66,
       "low": 1.65,
       "close": 1.65,
-      "volume": 0
+      "volume": 5
+    },
+    {
+      "time": "2026-06-10T04:05:00",
+      "open": 1.69,
+      "high": 1.69,
+      "low": 1.69,
+      "close": 1.69,
+      "volume": 3
     }
   ]
 }
