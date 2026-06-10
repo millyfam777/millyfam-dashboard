@@ -2,8 +2,8 @@
   "symbol": "FLD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T10:27:37.124048",
-  "bar_count": 269,
+  "generated_at": "2026-06-10T10:32:36.943638",
+  "bar_count": 270,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2153,9 +2153,17 @@
       "time": "2026-06-10T09:25:00",
       "open": 1.075,
       "high": 1.09,
-      "low": 1.01,
-      "close": 1.0402,
-      "volume": 8430
+      "low": 1.0,
+      "close": 1.035,
+      "volume": 15204
+    },
+    {
+      "time": "2026-06-10T09:30:00",
+      "open": 1.035,
+      "high": 1.0665,
+      "low": 0.9757,
+      "close": 1.0033,
+      "volume": 11748
     }
   ]
 }
