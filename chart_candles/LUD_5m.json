@@ -2,8 +2,8 @@
   "symbol": "LUD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T16:02:40.425105",
-  "bar_count": 211,
+  "generated_at": "2026-06-10T16:07:55.055706",
+  "bar_count": 212,
   "candles": [
     {
       "time": "2026-06-09T08:30:00",
@@ -1689,9 +1689,17 @@
       "time": "2026-06-10T15:00:00",
       "open": 4.01,
       "high": 4.13,
+      "low": 4.0,
+      "close": 4.0,
+      "volume": 59
+    },
+    {
+      "time": "2026-06-10T15:05:00",
+      "open": 4.01,
+      "high": 4.01,
       "low": 4.01,
-      "close": 4.03,
-      "volume": 58
+      "close": 4.01,
+      "volume": 1
     }
   ]
 }
