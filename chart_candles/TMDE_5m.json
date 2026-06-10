@@ -2,8 +2,8 @@
   "symbol": "TMDE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T08:47:37.308202",
-  "bar_count": 250,
+  "generated_at": "2026-06-10T08:52:43.424983",
+  "bar_count": 251,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2000,10 +2000,18 @@
     {
       "time": "2026-06-10T07:45:00",
       "open": 0.8203,
-      "high": 0.8205,
-      "low": 0.8202,
-      "close": 0.8202,
-      "volume": 17
+      "high": 0.8273,
+      "low": 0.8,
+      "close": 0.8039,
+      "volume": 59
+    },
+    {
+      "time": "2026-06-10T07:50:00",
+      "open": 0.806,
+      "high": 0.8465,
+      "low": 0.8039,
+      "close": 0.8039,
+      "volume": 196
     }
   ]
 }
