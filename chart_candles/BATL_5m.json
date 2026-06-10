@@ -2,8 +2,8 @@
   "symbol": "BATL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T13:32:11.418142",
-  "bar_count": 307,
+  "generated_at": "2026-06-10T13:37:11.368243",
+  "bar_count": 308,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2457,9 +2457,17 @@
       "time": "2026-06-10T12:30:00",
       "open": 2.0401,
       "high": 2.07,
-      "low": 2.02,
-      "close": 2.0401,
-      "volume": 3339
+      "low": 2.0,
+      "close": 2.035,
+      "volume": 9015
+    },
+    {
+      "time": "2026-06-10T12:35:00",
+      "open": 2.0396,
+      "high": 2.04,
+      "low": 2.0001,
+      "close": 2.01,
+      "volume": 2171
     }
   ]
 }
