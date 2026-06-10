@@ -2,8 +2,8 @@
   "symbol": "VSME",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-10T14:02:36.869646",
-  "bar_count": 313,
+  "generated_at": "2026-06-10T14:07:37.285507",
+  "bar_count": 314,
   "candles": [
     {
       "time": "2026-06-09T03:00:00",
@@ -2504,10 +2504,18 @@
     {
       "time": "2026-06-10T13:00:00",
       "open": 2.525,
-      "high": 2.75,
+      "high": 2.95,
       "low": 2.43,
-      "close": 2.64,
-      "volume": 2091
+      "close": 2.9,
+      "volume": 9241
+    },
+    {
+      "time": "2026-06-10T13:05:00",
+      "open": 2.9,
+      "high": 3.0,
+      "low": 2.82,
+      "close": 2.87,
+      "volume": 6742
     }
   ]
 }
