@@ -2,8 +2,8 @@
   "symbol": "FGL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T08:47:19.016933",
-  "bar_count": 250,
+  "generated_at": "2026-06-11T08:52:18.188111",
+  "bar_count": 251,
   "candles": [
     {
       "time": "2026-06-10T03:00:00",
@@ -2000,10 +2000,18 @@
     {
       "time": "2026-06-11T07:45:00",
       "open": 1.7,
-      "high": 1.73,
+      "high": 1.8,
       "low": 1.7,
-      "close": 1.71,
-      "volume": 35
+      "close": 1.78,
+      "volume": 141
+    },
+    {
+      "time": "2026-06-11T07:50:00",
+      "open": 1.78,
+      "high": 1.78,
+      "low": 1.74,
+      "close": 1.75,
+      "volume": 26
     }
   ]
 }
