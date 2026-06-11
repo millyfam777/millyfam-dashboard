@@ -2,8 +2,8 @@
   "symbol": "SXTP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T10:27:35.992610",
-  "bar_count": 156,
+  "generated_at": "2026-06-11T10:32:42.156334",
+  "bar_count": 157,
   "candles": [
     {
       "time": "2026-06-10T08:30:00",
@@ -1247,11 +1247,19 @@
     },
     {
       "time": "2026-06-11T09:25:00",
+      "open": 1.365,
+      "high": 1.37,
+      "low": 1.365,
+      "close": 1.37,
+      "volume": 42
+    },
+    {
+      "time": "2026-06-11T09:30:00",
       "open": 1.37,
       "high": 1.37,
       "low": 1.37,
       "close": 1.37,
-      "volume": 0
+      "volume": 2
     }
   ]
 }
