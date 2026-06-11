@@ -2,8 +2,8 @@
   "symbol": "GELS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T14:22:26.359638",
-  "bar_count": 250,
+  "generated_at": "2026-06-11T14:27:24.438347",
+  "bar_count": 251,
   "candles": [
     {
       "time": "2026-06-10T05:00:00",
@@ -2000,10 +2000,18 @@
     {
       "time": "2026-06-11T13:20:00",
       "open": 0.9107,
-      "high": 0.925,
+      "high": 1.0,
       "low": 0.88,
-      "close": 0.9197,
-      "volume": 2585
+      "close": 0.9986,
+      "volume": 8915
+    },
+    {
+      "time": "2026-06-11T13:25:00",
+      "open": 0.9999,
+      "high": 1.08,
+      "low": 0.97,
+      "close": 1.0078,
+      "volume": 13145
     }
   ]
 }
