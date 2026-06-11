@@ -2,8 +2,8 @@
   "symbol": "DTSS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T11:28:33.405877",
-  "bar_count": 282,
+  "generated_at": "2026-06-11T11:33:36.564625",
+  "bar_count": 283,
   "candles": [
     {
       "time": "2026-06-10T03:00:00",
@@ -2256,10 +2256,18 @@
     {
       "time": "2026-06-11T10:25:00",
       "open": 1.08,
-      "high": 1.16,
+      "high": 1.2,
       "low": 1.0701,
-      "close": 1.15,
-      "volume": 938
+      "close": 1.195,
+      "volume": 2318
+    },
+    {
+      "time": "2026-06-11T10:30:00",
+      "open": 1.195,
+      "high": 1.2,
+      "low": 1.15,
+      "close": 1.182,
+      "volume": 1801
     }
   ]
 }
