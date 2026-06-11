@@ -2,8 +2,8 @@
   "symbol": "WAI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T13:13:24.790081",
-  "bar_count": 303,
+  "generated_at": "2026-06-11T13:18:26.865171",
+  "bar_count": 304,
   "candles": [
     {
       "time": "2026-06-10T03:00:00",
@@ -2423,11 +2423,19 @@
     },
     {
       "time": "2026-06-11T12:10:00",
-      "open": 1.83,
+      "open": 1.82,
+      "high": 1.82,
+      "low": 1.82,
+      "close": 1.82,
+      "volume": 1
+    },
+    {
+      "time": "2026-06-11T12:15:00",
+      "open": 1.82,
       "high": 1.83,
-      "low": 1.83,
-      "close": 1.83,
-      "volume": 0
+      "low": 1.82,
+      "close": 1.82,
+      "volume": 5
     }
   ]
 }
