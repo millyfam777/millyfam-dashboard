@@ -2,8 +2,8 @@
   "symbol": "GCTK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T06:42:27.307751",
-  "bar_count": 225,
+  "generated_at": "2026-06-11T06:47:27.017373",
+  "bar_count": 226,
   "candles": [
     {
       "time": "2026-06-10T03:00:00",
@@ -1800,10 +1800,18 @@
     {
       "time": "2026-06-11T05:40:00",
       "open": 0.3188,
-      "high": 0.3188,
-      "low": 0.3166,
-      "close": 0.3185,
-      "volume": 32
+      "high": 0.32,
+      "low": 0.3095,
+      "close": 0.3095,
+      "volume": 86
+    },
+    {
+      "time": "2026-06-11T05:45:00",
+      "open": 0.3096,
+      "high": 0.319,
+      "low": 0.309,
+      "close": 0.319,
+      "volume": 61
     }
   ]
 }
