@@ -2,8 +2,8 @@
   "symbol": "RUBI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T12:17:04.870089",
-  "bar_count": 292,
+  "generated_at": "2026-06-11T12:22:07.409578",
+  "bar_count": 293,
   "candles": [
     {
       "time": "2026-06-10T03:00:00",
@@ -2336,10 +2336,18 @@
     {
       "time": "2026-06-11T11:15:00",
       "open": 0.9307,
-      "high": 0.99,
+      "high": 1.06,
       "low": 0.8839,
-      "close": 0.9743,
-      "volume": 63120
+      "close": 1.0575,
+      "volume": 163944
+    },
+    {
+      "time": "2026-06-11T11:20:00",
+      "open": 1.0562,
+      "high": 1.07,
+      "low": 0.83,
+      "close": 1.01,
+      "volume": 92157
     }
   ]
 }
