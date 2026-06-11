@@ -2,8 +2,8 @@
   "symbol": "VRA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T11:47:46.750838",
-  "bar_count": 243,
+  "generated_at": "2026-06-11T11:52:46.439877",
+  "bar_count": 244,
   "candles": [
     {
       "time": "2026-06-10T06:35:00",
@@ -1944,10 +1944,18 @@
     {
       "time": "2026-06-11T10:45:00",
       "open": 3.48,
-      "high": 3.5,
+      "high": 3.51,
+      "low": 3.46,
+      "close": 3.51,
+      "volume": 187
+    },
+    {
+      "time": "2026-06-11T10:50:00",
+      "open": 3.49,
+      "high": 3.49,
       "low": 3.47,
-      "close": 3.48,
-      "volume": 23
+      "close": 3.47,
+      "volume": 121
     }
   ]
 }
