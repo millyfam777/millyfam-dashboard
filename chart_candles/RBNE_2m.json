@@ -2,8 +2,8 @@
   "symbol": "RBNE",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T06:48:09.674387",
-  "bar_count": 565,
+  "generated_at": "2026-06-11T06:53:13.138151",
+  "bar_count": 567,
   "candles": [
     {
       "time": "2026-06-10T03:00:00",
@@ -4520,10 +4520,26 @@
     {
       "time": "2026-06-11T05:48:00",
       "open": 1.07,
+      "high": 1.08,
+      "low": 1.07,
+      "close": 1.07,
+      "volume": 22
+    },
+    {
+      "time": "2026-06-11T05:50:00",
+      "open": 1.07,
+      "high": 1.0785,
+      "low": 1.07,
+      "close": 1.0785,
+      "volume": 4
+    },
+    {
+      "time": "2026-06-11T05:52:00",
+      "open": 1.07,
       "high": 1.07,
       "low": 1.07,
       "close": 1.07,
-      "volume": 0
+      "volume": 14
     }
   ]
 }
