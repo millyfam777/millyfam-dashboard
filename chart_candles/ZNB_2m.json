@@ -2,8 +2,8 @@
   "symbol": "ZNB",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T07:42:58.313610",
-  "bar_count": 592,
+  "generated_at": "2026-06-11T07:48:01.483396",
+  "bar_count": 594,
   "candles": [
     {
       "time": "2026-06-10T03:00:00",
@@ -4736,10 +4736,26 @@
     {
       "time": "2026-06-11T06:42:00",
       "open": 1.3095,
-      "high": 1.31,
+      "high": 1.32,
+      "low": 1.26,
+      "close": 1.31,
+      "volume": 823
+    },
+    {
+      "time": "2026-06-11T06:44:00",
+      "open": 1.32,
+      "high": 1.3297,
+      "low": 1.27,
+      "close": 1.28,
+      "volume": 466
+    },
+    {
+      "time": "2026-06-11T06:46:00",
+      "open": 1.28,
+      "high": 1.29,
       "low": 1.28,
       "close": 1.28,
-      "volume": 324
+      "volume": 249
     }
   ]
 }
