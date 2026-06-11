@@ -2,8 +2,8 @@
   "symbol": "PPBT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T10:33:00.993147",
-  "bar_count": 164,
+  "generated_at": "2026-06-11T10:37:58.389761",
+  "bar_count": 165,
   "candles": [
     {
       "time": "2026-06-10T08:55:00",
@@ -1312,10 +1312,18 @@
     {
       "time": "2026-06-11T09:30:00",
       "open": 1.98,
-      "high": 1.98,
+      "high": 2.0,
       "low": 1.96,
       "close": 1.98,
-      "volume": 62
+      "volume": 69
+    },
+    {
+      "time": "2026-06-11T09:35:00",
+      "open": 2.0,
+      "high": 2.02,
+      "low": 1.99,
+      "close": 2.02,
+      "volume": 15
     }
   ]
 }

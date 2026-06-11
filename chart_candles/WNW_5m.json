@@ -2,8 +2,8 @@
   "symbol": "WNW",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T10:32:28.108470",
-  "bar_count": 271,
+  "generated_at": "2026-06-11T10:37:25.909511",
+  "bar_count": 272,
   "candles": [
     {
       "time": "2026-06-10T03:00:00",
@@ -2168,10 +2168,18 @@
     {
       "time": "2026-06-11T09:30:00",
       "open": 3.74,
-      "high": 3.88,
+      "high": 3.9,
       "low": 3.74,
-      "close": 3.79,
-      "volume": 35
+      "close": 3.86,
+      "volume": 123
+    },
+    {
+      "time": "2026-06-11T09:35:00",
+      "open": 3.88,
+      "high": 3.88,
+      "low": 3.83,
+      "close": 3.83,
+      "volume": 28
     }
   ]
 }
