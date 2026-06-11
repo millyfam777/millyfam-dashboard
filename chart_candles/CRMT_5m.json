@@ -2,8 +2,8 @@
   "symbol": "CRMT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T11:32:11.403015",
-  "bar_count": 246,
+  "generated_at": "2026-06-11T11:37:13.575020",
+  "bar_count": 247,
   "candles": [
     {
       "time": "2026-06-10T06:05:00",
@@ -1968,10 +1968,18 @@
     {
       "time": "2026-06-11T10:30:00",
       "open": 2.9,
+      "high": 2.95,
+      "low": 2.8,
+      "close": 2.84,
+      "volume": 485
+    },
+    {
+      "time": "2026-06-11T10:35:00",
+      "open": 2.83,
       "high": 2.9,
-      "low": 2.84,
-      "close": 2.88,
-      "volume": 118
+      "low": 2.83,
+      "close": 2.9,
+      "volume": 180
     }
   ]
 }
