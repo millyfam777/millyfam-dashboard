@@ -2,8 +2,8 @@
   "symbol": "AURE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T10:18:04.601057",
-  "bar_count": 253,
+  "generated_at": "2026-06-11T10:23:03.095845",
+  "bar_count": 254,
   "candles": [
     {
       "time": "2026-06-10T04:15:00",
@@ -2025,9 +2025,17 @@
       "time": "2026-06-11T09:15:00",
       "open": 2.4,
       "high": 2.4002,
-      "low": 2.4,
+      "low": 2.38,
+      "close": 2.39,
+      "volume": 83
+    },
+    {
+      "time": "2026-06-11T09:20:00",
+      "open": 2.39,
+      "high": 2.4,
+      "low": 2.39,
       "close": 2.4,
-      "volume": 78
+      "volume": 157
     }
   ]
 }
