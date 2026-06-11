@@ -2,8 +2,8 @@
   "symbol": "GOCO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T13:47:25.450084",
-  "bar_count": 310,
+  "generated_at": "2026-06-11T13:52:27.476748",
+  "bar_count": 311,
   "candles": [
     {
       "time": "2026-06-10T03:00:00",
@@ -2480,10 +2480,18 @@
     {
       "time": "2026-06-11T12:45:00",
       "open": 0.3323,
-      "high": 0.3323,
+      "high": 0.3324,
       "low": 0.3195,
-      "close": 0.3195,
-      "volume": 20
+      "close": 0.3199,
+      "volume": 26
+    },
+    {
+      "time": "2026-06-11T12:50:00",
+      "open": 0.3199,
+      "high": 0.3199,
+      "low": 0.3199,
+      "close": 0.3199,
+      "volume": 0
     }
   ]
 }
