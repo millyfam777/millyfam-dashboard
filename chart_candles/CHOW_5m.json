@@ -2,8 +2,8 @@
   "symbol": "CHOW",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T04:38:24.418922",
-  "bar_count": 200,
+  "generated_at": "2026-06-11T04:43:34.074469",
+  "bar_count": 201,
   "candles": [
     {
       "time": "2026-06-10T03:00:00",
@@ -1600,10 +1600,18 @@
     {
       "time": "2026-06-11T03:35:00",
       "open": 0.595,
-      "high": 0.595,
+      "high": 0.6,
       "low": 0.5702,
-      "close": 0.5801,
-      "volume": 364
+      "close": 0.597,
+      "volume": 478
+    },
+    {
+      "time": "2026-06-11T03:40:00",
+      "open": 0.5972,
+      "high": 0.6144,
+      "low": 0.5951,
+      "close": 0.5997,
+      "volume": 309
     }
   ]
 }
