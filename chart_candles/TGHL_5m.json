@@ -2,8 +2,8 @@
   "symbol": "TGHL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T15:07:16.964575",
-  "bar_count": 326,
+  "generated_at": "2026-06-11T15:12:15.725881",
+  "bar_count": 327,
   "candles": [
     {
       "time": "2026-06-10T03:00:00",
@@ -2609,9 +2609,17 @@
       "time": "2026-06-11T14:05:00",
       "open": 0.65,
       "high": 0.65,
-      "low": 0.6001,
-      "close": 0.6001,
-      "volume": 74
+      "low": 0.6,
+      "close": 0.6125,
+      "volume": 142
+    },
+    {
+      "time": "2026-06-11T14:10:00",
+      "open": 0.6125,
+      "high": 0.625,
+      "low": 0.6124,
+      "close": 0.625,
+      "volume": 30
     }
   ]
 }
