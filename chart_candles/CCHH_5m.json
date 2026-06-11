@@ -2,8 +2,8 @@
   "symbol": "CCHH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T07:08:02.335983",
-  "bar_count": 230,
+  "generated_at": "2026-06-11T07:13:01.845291",
+  "bar_count": 231,
   "candles": [
     {
       "time": "2026-06-10T03:00:00",
@@ -1840,10 +1840,18 @@
     {
       "time": "2026-06-11T06:05:00",
       "open": 1.0,
-      "high": 1.15,
+      "high": 1.22,
       "low": 0.9534,
-      "close": 1.082,
-      "volume": 28719
+      "close": 1.2003,
+      "volume": 54063
+    },
+    {
+      "time": "2026-06-11T06:10:00",
+      "open": 1.21,
+      "high": 1.3297,
+      "low": 1.12,
+      "close": 1.3,
+      "volume": 40774
     }
   ]
 }
