@@ -2,8 +2,8 @@
   "symbol": "RCON",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T10:38:14.631683",
-  "bar_count": 270,
+  "generated_at": "2026-06-11T10:43:16.402826",
+  "bar_count": 271,
   "candles": [
     {
       "time": "2026-06-10T03:10:00",
@@ -2160,10 +2160,18 @@
     {
       "time": "2026-06-11T09:35:00",
       "open": 0.55,
-      "high": 0.55,
+      "high": 0.5747,
+      "low": 0.55,
+      "close": 0.5747,
+      "volume": 15
+    },
+    {
+      "time": "2026-06-11T09:40:00",
+      "open": 0.5624,
+      "high": 0.5748,
       "low": 0.55,
       "close": 0.55,
-      "volume": 2
+      "volume": 34
     }
   ]
 }
