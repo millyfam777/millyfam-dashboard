@@ -2,8 +2,8 @@
   "symbol": "RITR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T04:02:50.560836",
-  "bar_count": 144,
+  "generated_at": "2026-06-11T04:07:49.427327",
+  "bar_count": 145,
   "candles": [
     {
       "time": "2026-06-10T07:05:00",
@@ -1152,10 +1152,18 @@
     {
       "time": "2026-06-11T03:00:00",
       "open": 0.5873,
-      "high": 0.5873,
-      "low": 0.5873,
-      "close": 0.5873,
-      "volume": 2
+      "high": 0.601,
+      "low": 0.5641,
+      "close": 0.5641,
+      "volume": 9
+    },
+    {
+      "time": "2026-06-11T03:05:00",
+      "open": 0.5641,
+      "high": 0.5641,
+      "low": 0.5641,
+      "close": 0.5641,
+      "volume": 0
     }
   ]
 }
