@@ -2,8 +2,8 @@
   "symbol": "KMRK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T15:08:34.339002",
-  "bar_count": 259,
+  "generated_at": "2026-06-11T15:13:32.541965",
+  "bar_count": 260,
   "candles": [
     {
       "time": "2026-06-10T08:35:00",
@@ -2072,10 +2072,18 @@
     {
       "time": "2026-06-11T14:05:00",
       "open": 1.725,
-      "high": 1.75,
+      "high": 1.78,
       "low": 1.72,
-      "close": 1.75,
-      "volume": 6
+      "close": 1.78,
+      "volume": 14
+    },
+    {
+      "time": "2026-06-11T14:10:00",
+      "open": 1.75,
+      "high": 1.78,
+      "low": 1.67,
+      "close": 1.71,
+      "volume": 101
     }
   ]
 }
