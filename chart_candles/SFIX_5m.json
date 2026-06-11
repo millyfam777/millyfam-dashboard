@@ -2,8 +2,8 @@
   "symbol": "SFIX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T10:57:18.045237",
-  "bar_count": 240,
+  "generated_at": "2026-06-11T11:02:19.175541",
+  "bar_count": 241,
   "candles": [
     {
       "time": "2026-06-10T06:00:00",
@@ -1921,9 +1921,17 @@
       "time": "2026-06-11T09:55:00",
       "open": 4.24,
       "high": 4.25,
-      "low": 4.22,
+      "low": 4.21,
       "close": 4.22,
-      "volume": 105
+      "volume": 400
+    },
+    {
+      "time": "2026-06-11T10:00:00",
+      "open": 4.21,
+      "high": 4.23,
+      "low": 4.21,
+      "close": 4.23,
+      "volume": 94
     }
   ]
 }
