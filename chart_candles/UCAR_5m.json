@@ -2,8 +2,8 @@
   "symbol": "UCAR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T09:08:23.424703",
-  "bar_count": 254,
+  "generated_at": "2026-06-11T09:13:26.391966",
+  "bar_count": 255,
   "candles": [
     {
       "time": "2026-06-10T03:00:00",
@@ -2033,9 +2033,17 @@
       "time": "2026-06-11T08:05:00",
       "open": 1.16,
       "high": 1.17,
-      "low": 1.16,
+      "low": 1.14,
+      "close": 1.14,
+      "volume": 27
+    },
+    {
+      "time": "2026-06-11T08:10:00",
+      "open": 1.14,
+      "high": 1.16,
+      "low": 1.14,
       "close": 1.16,
-      "volume": 13
+      "volume": 27
     }
   ]
 }
