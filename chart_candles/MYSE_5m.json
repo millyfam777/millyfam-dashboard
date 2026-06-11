@@ -2,8 +2,8 @@
   "symbol": "MYSE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T13:27:07.110713",
-  "bar_count": 304,
+  "generated_at": "2026-06-11T13:32:10.055756",
+  "bar_count": 305,
   "candles": [
     {
       "time": "2026-06-10T03:10:00",
@@ -2432,10 +2432,18 @@
     {
       "time": "2026-06-11T12:25:00",
       "open": 1.8802,
-      "high": 1.89,
+      "high": 1.9,
       "low": 1.84,
-      "close": 1.86,
-      "volume": 160
+      "close": 1.9,
+      "volume": 325
+    },
+    {
+      "time": "2026-06-11T12:30:00",
+      "open": 1.9,
+      "high": 1.9,
+      "low": 1.9,
+      "close": 1.9,
+      "volume": 1
     }
   ]
 }
