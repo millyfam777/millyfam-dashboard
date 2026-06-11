@@ -2,8 +2,8 @@
   "symbol": "RKDA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T09:33:38.391233",
-  "bar_count": 229,
+  "generated_at": "2026-06-11T09:38:04.192234",
+  "bar_count": 230,
   "candles": [
     {
       "time": "2026-06-10T05:30:00",
@@ -1833,9 +1833,17 @@
       "time": "2026-06-11T08:30:00",
       "open": 1.13,
       "high": 1.14,
+      "low": 1.015,
+      "close": 1.055,
+      "volume": 4728
+    },
+    {
+      "time": "2026-06-11T08:35:00",
+      "open": 1.05,
+      "high": 1.0699,
       "low": 1.02,
-      "close": 1.03,
-      "volume": 2949
+      "close": 1.0301,
+      "volume": 1412
     }
   ]
 }
