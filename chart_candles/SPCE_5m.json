@@ -2,8 +2,8 @@
   "symbol": "SPCE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T14:57:06.054112",
-  "bar_count": 324,
+  "generated_at": "2026-06-11T15:02:05.016406",
+  "bar_count": 325,
   "candles": [
     {
       "time": "2026-06-10T03:00:00",
@@ -2592,10 +2592,18 @@
     {
       "time": "2026-06-11T13:55:00",
       "open": 5.93,
-      "high": 5.95,
+      "high": 6.0,
       "low": 5.9,
-      "close": 5.92,
-      "volume": 3135
+      "close": 5.99,
+      "volume": 10403
+    },
+    {
+      "time": "2026-06-11T14:00:00",
+      "open": 5.99,
+      "high": 6.02,
+      "low": 5.91,
+      "close": 5.95,
+      "volume": 14585
     }
   ]
 }
