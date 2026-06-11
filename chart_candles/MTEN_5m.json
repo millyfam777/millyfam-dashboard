@@ -2,8 +2,8 @@
   "symbol": "MTEN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T09:57:56.789958",
-  "bar_count": 264,
+  "generated_at": "2026-06-11T10:02:59.556112",
+  "bar_count": 265,
   "candles": [
     {
       "time": "2026-06-10T03:00:00",
@@ -2112,10 +2112,18 @@
     {
       "time": "2026-06-11T08:55:00",
       "open": 2.0,
-      "high": 2.06,
+      "high": 2.0796,
       "low": 1.99,
-      "close": 2.02,
-      "volume": 1078
+      "close": 2.03,
+      "volume": 1489
+    },
+    {
+      "time": "2026-06-11T09:00:00",
+      "open": 2.032,
+      "high": 2.11,
+      "low": 2.03,
+      "close": 2.09,
+      "volume": 500
     }
   ]
 }
