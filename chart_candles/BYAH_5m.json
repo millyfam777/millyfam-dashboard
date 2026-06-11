@@ -2,8 +2,8 @@
   "symbol": "BYAH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T05:32:16.144205",
-  "bar_count": 211,
+  "generated_at": "2026-06-11T05:37:18.394300",
+  "bar_count": 212,
   "candles": [
     {
       "time": "2026-06-10T03:00:00",
@@ -1688,10 +1688,18 @@
     {
       "time": "2026-06-11T04:30:00",
       "open": 1.11,
-      "high": 1.12,
+      "high": 1.16,
       "low": 1.11,
-      "close": 1.1198,
-      "volume": 32
+      "close": 1.16,
+      "volume": 90
+    },
+    {
+      "time": "2026-06-11T04:35:00",
+      "open": 1.17,
+      "high": 1.17,
+      "low": 1.16,
+      "close": 1.16,
+      "volume": 3
     }
   ]
 }
