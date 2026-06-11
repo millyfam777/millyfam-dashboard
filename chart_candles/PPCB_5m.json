@@ -2,8 +2,8 @@
   "symbol": "PPCB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-11T13:57:41.877885",
-  "bar_count": 234,
+  "generated_at": "2026-06-11T14:02:41.859554",
+  "bar_count": 235,
   "candles": [
     {
       "time": "2026-06-10T08:30:00",
@@ -1872,10 +1872,18 @@
     {
       "time": "2026-06-11T12:55:00",
       "open": 3.09,
-      "high": 3.16,
+      "high": 3.25,
       "low": 3.06,
-      "close": 3.11,
-      "volume": 1302
+      "close": 3.23,
+      "volume": 3333
+    },
+    {
+      "time": "2026-06-11T13:00:00",
+      "open": 3.225,
+      "high": 3.2299,
+      "low": 3.12,
+      "close": 3.16,
+      "volume": 1625
     }
   ]
 }
