@@ -2,8 +2,8 @@
   "symbol": "ENTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-22T19:17:21.865161",
-  "bar_count": 319,
+  "generated_at": "2026-06-22T19:32:21.743934",
+  "bar_count": 322,
   "candles": [
     {
       "time": "2026-06-18T07:45:00",
@@ -2552,10 +2552,34 @@
     {
       "time": "2026-06-22T18:15:00",
       "open": 1.4,
-      "high": 1.4,
+      "high": 1.41,
       "low": 1.4,
-      "close": 1.4,
-      "volume": 2
+      "close": 1.4098,
+      "volume": 58
+    },
+    {
+      "time": "2026-06-22T18:20:00",
+      "open": 1.41,
+      "high": 1.41,
+      "low": 1.39,
+      "close": 1.39,
+      "volume": 283
+    },
+    {
+      "time": "2026-06-22T18:25:00",
+      "open": 1.38,
+      "high": 1.38,
+      "low": 1.37,
+      "close": 1.38,
+      "volume": 52
+    },
+    {
+      "time": "2026-06-22T18:30:00",
+      "open": 1.3713,
+      "high": 1.3713,
+      "low": 1.35,
+      "close": 1.35,
+      "volume": 27
     }
   ]
 }
