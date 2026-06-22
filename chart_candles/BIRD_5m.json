@@ -2,8 +2,8 @@
   "symbol": "BIRD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-22T09:18:46.012737",
-  "bar_count": 256,
+  "generated_at": "2026-06-22T09:23:41.864221",
+  "bar_count": 257,
   "candles": [
     {
       "time": "2026-06-18T03:00:00",
@@ -2048,10 +2048,18 @@
     {
       "time": "2026-06-22T08:15:00",
       "open": 6.25,
-      "high": 6.3,
+      "high": 6.33,
       "low": 6.25,
-      "close": 6.3,
-      "volume": 81
+      "close": 6.31,
+      "volume": 85
+    },
+    {
+      "time": "2026-06-22T08:20:00",
+      "open": 6.34,
+      "high": 6.35,
+      "low": 6.28,
+      "close": 6.28,
+      "volume": 128
     }
   ]
 }
