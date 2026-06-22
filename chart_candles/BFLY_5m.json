@@ -2,8 +2,8 @@
   "symbol": "BFLY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-22T04:58:45.506607",
-  "bar_count": 204,
+  "generated_at": "2026-06-22T05:03:08.923917",
+  "bar_count": 205,
   "candles": [
     {
       "time": "2026-06-18T03:00:00",
@@ -1631,11 +1631,19 @@
     },
     {
       "time": "2026-06-22T03:55:00",
-      "open": 8.89,
-      "high": 8.89,
-      "low": 8.89,
-      "close": 8.89,
-      "volume": 0
+      "open": 8.83,
+      "high": 9.0,
+      "low": 8.83,
+      "close": 8.99,
+      "volume": 150
+    },
+    {
+      "time": "2026-06-22T04:00:00",
+      "open": 8.94,
+      "high": 9.0,
+      "low": 8.94,
+      "close": 8.99,
+      "volume": 60
     }
   ]
 }
