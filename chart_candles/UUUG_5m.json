@@ -2,8 +2,8 @@
   "symbol": "UUUG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-22T07:03:38.387038",
-  "bar_count": 229,
+  "generated_at": "2026-06-22T07:08:42.054502",
+  "bar_count": 230,
   "candles": [
     {
       "time": "2026-06-18T03:00:00",
@@ -1832,10 +1832,18 @@
     {
       "time": "2026-06-22T06:00:00",
       "open": 7.22,
-      "high": 7.24,
+      "high": 7.28,
       "low": 7.22,
-      "close": 7.24,
-      "volume": 5
+      "close": 7.28,
+      "volume": 18
+    },
+    {
+      "time": "2026-06-22T06:05:00",
+      "open": 7.28,
+      "high": 7.28,
+      "low": 7.28,
+      "close": 7.28,
+      "volume": 0
     }
   ]
 }
