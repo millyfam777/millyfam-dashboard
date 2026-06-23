@@ -2,8 +2,8 @@
   "symbol": "CAST",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-23T04:03:30.488468",
-  "bar_count": 193,
+  "generated_at": "2026-06-23T04:18:42.893643",
+  "bar_count": 196,
   "candles": [
     {
       "time": "2026-06-22T03:00:00",
@@ -1545,9 +1545,33 @@
       "time": "2026-06-23T03:00:00",
       "open": 8.21,
       "high": 8.5,
+      "low": 7.93,
+      "close": 7.93,
+      "volume": 122
+    },
+    {
+      "time": "2026-06-23T03:05:00",
+      "open": 8.03,
+      "high": 8.51,
+      "low": 7.96,
+      "close": 8.13,
+      "volume": 158
+    },
+    {
+      "time": "2026-06-23T03:10:00",
+      "open": 8.22,
+      "high": 8.52,
       "low": 8.0,
-      "close": 8.09,
-      "volume": 111
+      "close": 8.02,
+      "volume": 130
+    },
+    {
+      "time": "2026-06-23T03:15:00",
+      "open": 8.01,
+      "high": 8.025,
+      "low": 7.99,
+      "close": 8.0,
+      "volume": 42
     }
   ]
 }
