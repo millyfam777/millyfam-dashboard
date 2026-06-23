@@ -2,8 +2,8 @@
   "symbol": "NIXX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-23T07:33:18.504344",
-  "bar_count": 235,
+  "generated_at": "2026-06-23T07:48:35.243011",
+  "bar_count": 238,
   "candles": [
     {
       "time": "2026-06-22T03:00:00",
@@ -1881,9 +1881,33 @@
       "time": "2026-06-23T06:30:00",
       "open": 1.37,
       "high": 1.39,
+      "low": 1.36,
+      "close": 1.36,
+      "volume": 58
+    },
+    {
+      "time": "2026-06-23T06:35:00",
+      "open": 1.38,
+      "high": 1.41,
       "low": 1.37,
+      "close": 1.41,
+      "volume": 76
+    },
+    {
+      "time": "2026-06-23T06:40:00",
+      "open": 1.4199,
+      "high": 1.4199,
+      "low": 1.4,
+      "close": 1.41,
+      "volume": 21
+    },
+    {
+      "time": "2026-06-23T06:45:00",
+      "open": 1.41,
+      "high": 1.41,
+      "low": 1.39,
       "close": 1.39,
-      "volume": 55
+      "volume": 38
     }
   ]
 }
