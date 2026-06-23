@@ -2,8 +2,8 @@
   "symbol": "LHSW",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-23T06:02:52.863378",
-  "bar_count": 157,
+  "generated_at": "2026-06-23T06:18:01.432934",
+  "bar_count": 160,
   "candles": [
     {
       "time": "2026-06-22T08:00:00",
@@ -1256,10 +1256,34 @@
     {
       "time": "2026-06-23T05:00:00",
       "open": 1.98,
-      "high": 1.9808,
+      "high": 2.0,
       "low": 1.9471,
-      "close": 1.95,
-      "volume": 40
+      "close": 1.99,
+      "volume": 76
+    },
+    {
+      "time": "2026-06-23T05:05:00",
+      "open": 1.9646,
+      "high": 1.99,
+      "low": 1.96,
+      "close": 1.98,
+      "volume": 27
+    },
+    {
+      "time": "2026-06-23T05:10:00",
+      "open": 1.96,
+      "high": 1.99,
+      "low": 1.95,
+      "close": 1.97,
+      "volume": 36
+    },
+    {
+      "time": "2026-06-23T05:15:00",
+      "open": 1.96,
+      "high": 1.96,
+      "low": 1.94,
+      "close": 1.94,
+      "volume": 9
     }
   ]
 }

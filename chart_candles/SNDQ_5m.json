@@ -2,8 +2,8 @@
   "symbol": "SNDQ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-23T06:03:06.584541",
-  "bar_count": 217,
+  "generated_at": "2026-06-23T06:18:15.875451",
+  "bar_count": 220,
   "candles": [
     {
       "time": "2026-06-22T03:00:00",
@@ -1737,9 +1737,33 @@
       "time": "2026-06-23T05:00:00",
       "open": 3.1,
       "high": 3.1,
-      "low": 3.07,
+      "low": 3.06,
       "close": 3.07,
-      "volume": 370
+      "volume": 680
+    },
+    {
+      "time": "2026-06-23T05:05:00",
+      "open": 3.07,
+      "high": 3.1,
+      "low": 3.07,
+      "close": 3.08,
+      "volume": 874
+    },
+    {
+      "time": "2026-06-23T05:10:00",
+      "open": 3.08,
+      "high": 3.11,
+      "low": 3.08,
+      "close": 3.11,
+      "volume": 746
+    },
+    {
+      "time": "2026-06-23T05:15:00",
+      "open": 3.1,
+      "high": 3.11,
+      "low": 3.09,
+      "close": 3.11,
+      "volume": 241
     }
   ]
 }
