@@ -2,8 +2,8 @@
   "symbol": "VTAK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-23T11:19:08.730471",
-  "bar_count": 246,
+  "generated_at": "2026-06-23T11:34:00.900053",
+  "bar_count": 249,
   "candles": [
     {
       "time": "2026-06-22T05:50:00",
@@ -1970,8 +1970,32 @@
       "open": 1.04,
       "high": 1.05,
       "low": 1.04,
+      "close": 1.045,
+      "volume": 780
+    },
+    {
+      "time": "2026-06-23T10:20:00",
+      "open": 1.045,
+      "high": 1.06,
+      "low": 1.04,
       "close": 1.0401,
-      "volume": 742
+      "volume": 440
+    },
+    {
+      "time": "2026-06-23T10:25:00",
+      "open": 1.045,
+      "high": 1.05,
+      "low": 1.04,
+      "close": 1.045,
+      "volume": 326
+    },
+    {
+      "time": "2026-06-23T10:30:00",
+      "open": 1.04,
+      "high": 1.04,
+      "low": 1.03,
+      "close": 1.03,
+      "volume": 514
     }
   ]
 }
