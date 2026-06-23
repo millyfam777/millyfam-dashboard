@@ -2,8 +2,8 @@
   "symbol": "AIXI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-23T05:47:10.940965",
-  "bar_count": 214,
+  "generated_at": "2026-06-23T06:02:39.072002",
+  "bar_count": 217,
   "candles": [
     {
       "time": "2026-06-22T03:00:00",
@@ -1713,9 +1713,33 @@
       "time": "2026-06-23T04:45:00",
       "open": 3.79,
       "high": 3.81,
+      "low": 3.09,
+      "close": 3.23,
+      "volume": 2328
+    },
+    {
+      "time": "2026-06-23T04:50:00",
+      "open": 3.23,
+      "high": 3.43,
       "low": 3.11,
-      "close": 3.16,
-      "volume": 950
+      "close": 3.39,
+      "volume": 643
+    },
+    {
+      "time": "2026-06-23T04:55:00",
+      "open": 3.39,
+      "high": 3.44,
+      "low": 3.15,
+      "close": 3.28,
+      "volume": 456
+    },
+    {
+      "time": "2026-06-23T05:00:00",
+      "open": 3.28,
+      "high": 3.29,
+      "low": 3.17,
+      "close": 3.17,
+      "volume": 130
     }
   ]
 }
