@@ -2,8 +2,8 @@
   "symbol": "ORIS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-23T04:32:38.765457",
-  "bar_count": 130,
+  "generated_at": "2026-06-23T04:49:15.163455",
+  "bar_count": 133,
   "candles": [
     {
       "time": "2026-06-22T08:45:00",
@@ -1040,10 +1040,34 @@
     {
       "time": "2026-06-23T03:30:00",
       "open": 2.91,
-      "high": 3.17,
+      "high": 3.94,
       "low": 2.9,
-      "close": 3.15,
-      "volume": 629
+      "close": 3.43,
+      "volume": 3165
+    },
+    {
+      "time": "2026-06-23T03:35:00",
+      "open": 3.42,
+      "high": 4.2,
+      "low": 3.4,
+      "close": 3.61,
+      "volume": 6769
+    },
+    {
+      "time": "2026-06-23T03:40:00",
+      "open": 3.61,
+      "high": 4.5,
+      "low": 3.59,
+      "close": 4.24,
+      "volume": 5973
+    },
+    {
+      "time": "2026-06-23T03:45:00",
+      "open": 4.25,
+      "high": 4.29,
+      "low": 3.8,
+      "close": 4.1,
+      "volume": 2644
     }
   ]
 }
