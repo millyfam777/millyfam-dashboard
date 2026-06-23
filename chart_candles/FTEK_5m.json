@@ -2,8 +2,8 @@
   "symbol": "FTEK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-23T07:18:21.123403",
-  "bar_count": 166,
+  "generated_at": "2026-06-23T07:33:13.808066",
+  "bar_count": 169,
   "candles": [
     {
       "time": "2026-06-22T08:30:00",
@@ -1329,9 +1329,33 @@
       "time": "2026-06-23T06:15:00",
       "open": 1.99,
       "high": 1.99,
-      "low": 1.9895,
-      "close": 1.9895,
-      "volume": 5
+      "low": 1.98,
+      "close": 1.98,
+      "volume": 13
+    },
+    {
+      "time": "2026-06-23T06:20:00",
+      "open": 1.9904,
+      "high": 2.0,
+      "low": 1.9904,
+      "close": 1.9995,
+      "volume": 7
+    },
+    {
+      "time": "2026-06-23T06:25:00",
+      "open": 2.0,
+      "high": 2.02,
+      "low": 2.0,
+      "close": 2.0,
+      "volume": 20
+    },
+    {
+      "time": "2026-06-23T06:30:00",
+      "open": 2.04,
+      "high": 2.04,
+      "low": 2.04,
+      "close": 2.04,
+      "volume": 26
     }
   ]
 }
