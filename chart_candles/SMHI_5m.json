@@ -2,8 +2,8 @@
   "symbol": "SMHI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-23T10:48:38.772587",
-  "bar_count": 207,
+  "generated_at": "2026-06-23T11:03:51.446818",
+  "bar_count": 210,
   "candles": [
     {
       "time": "2026-06-22T08:30:00",
@@ -1658,8 +1658,32 @@
       "open": 8.02,
       "high": 8.05,
       "low": 8.02,
+      "close": 8.05,
+      "volume": 30
+    },
+    {
+      "time": "2026-06-23T09:50:00",
+      "open": 8.05,
+      "high": 8.17,
+      "low": 8.05,
+      "close": 8.12,
+      "volume": 55
+    },
+    {
+      "time": "2026-06-23T09:55:00",
+      "open": 8.115,
+      "high": 8.115,
+      "low": 8.06,
+      "close": 8.1,
+      "volume": 11
+    },
+    {
+      "time": "2026-06-23T10:00:00",
+      "open": 8.09,
+      "high": 8.09,
+      "low": 8.04,
       "close": 8.04,
-      "volume": 21
+      "volume": 11
     }
   ]
 }
