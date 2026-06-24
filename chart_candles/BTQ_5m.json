@@ -2,8 +2,8 @@
   "symbol": "BTQ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-24T09:03:31.777701",
-  "bar_count": 253,
+  "generated_at": "2026-06-24T09:18:38.544880",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-06-23T03:00:00",
@@ -2026,8 +2026,32 @@
       "open": 5.65,
       "high": 5.67,
       "low": 5.65,
+      "close": 5.67,
+      "volume": 118
+    },
+    {
+      "time": "2026-06-24T08:05:00",
+      "open": 5.66,
+      "high": 5.67,
+      "low": 5.65,
       "close": 5.65,
-      "volume": 107
+      "volume": 27
+    },
+    {
+      "time": "2026-06-24T08:10:00",
+      "open": 5.68,
+      "high": 5.69,
+      "low": 5.64,
+      "close": 5.65,
+      "volume": 70
+    },
+    {
+      "time": "2026-06-24T08:15:00",
+      "open": 5.66,
+      "high": 5.67,
+      "low": 5.61,
+      "close": 5.64,
+      "volume": 127
     }
   ]
 }
