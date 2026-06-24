@@ -2,8 +2,8 @@
   "symbol": "WEN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-24T06:02:26.881628",
-  "bar_count": 217,
+  "generated_at": "2026-06-24T06:17:30.213601",
+  "bar_count": 220,
   "candles": [
     {
       "time": "2026-06-23T03:00:00",
@@ -1737,9 +1737,33 @@
       "time": "2026-06-24T05:00:00",
       "open": 7.24,
       "high": 7.26,
+      "low": 7.16,
+      "close": 7.23,
+      "volume": 364
+    },
+    {
+      "time": "2026-06-24T05:05:00",
+      "open": 7.22,
+      "high": 7.31,
+      "low": 7.19,
+      "close": 7.31,
+      "volume": 179
+    },
+    {
+      "time": "2026-06-24T05:10:00",
+      "open": 7.3,
+      "high": 7.3,
       "low": 7.2,
-      "close": 7.22,
-      "volume": 95
+      "close": 7.2,
+      "volume": 337
+    },
+    {
+      "time": "2026-06-24T05:15:00",
+      "open": 7.2,
+      "high": 7.24,
+      "low": 7.16,
+      "close": 7.19,
+      "volume": 136
     }
   ]
 }
