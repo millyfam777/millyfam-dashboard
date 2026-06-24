@@ -2,8 +2,8 @@
   "symbol": "QNRX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-24T15:02:26.811048",
-  "bar_count": 323,
+  "generated_at": "2026-06-24T15:17:24.327151",
+  "bar_count": 326,
   "candles": [
     {
       "time": "2026-06-23T03:10:00",
@@ -2584,10 +2584,34 @@
     {
       "time": "2026-06-24T14:00:00",
       "open": 3.74,
-      "high": 3.85,
+      "high": 3.89,
       "low": 3.74,
-      "close": 3.8,
-      "volume": 72
+      "close": 3.88,
+      "volume": 136
+    },
+    {
+      "time": "2026-06-24T14:05:00",
+      "open": 3.88,
+      "high": 3.99,
+      "low": 3.88,
+      "close": 3.96,
+      "volume": 272
+    },
+    {
+      "time": "2026-06-24T14:10:00",
+      "open": 3.95,
+      "high": 3.96,
+      "low": 3.88,
+      "close": 3.94,
+      "volume": 115
+    },
+    {
+      "time": "2026-06-24T14:15:00",
+      "open": 3.94,
+      "high": 4.0,
+      "low": 3.9,
+      "close": 3.94,
+      "volume": 98
     }
   ]
 }
