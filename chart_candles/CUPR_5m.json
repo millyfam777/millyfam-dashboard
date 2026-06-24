@@ -2,8 +2,8 @@
   "symbol": "CUPR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-24T07:17:32.485398",
-  "bar_count": 232,
+  "generated_at": "2026-06-24T07:32:35.942159",
+  "bar_count": 235,
   "candles": [
     {
       "time": "2026-06-23T03:00:00",
@@ -1857,9 +1857,33 @@
       "time": "2026-06-24T06:15:00",
       "open": 5.4022,
       "high": 5.47,
+      "low": 5.29,
+      "close": 5.31,
+      "volume": 406
+    },
+    {
+      "time": "2026-06-24T06:20:00",
+      "open": 5.31,
+      "high": 5.49,
       "low": 5.3,
-      "close": 5.325,
-      "volume": 260
+      "close": 5.3,
+      "volume": 383
+    },
+    {
+      "time": "2026-06-24T06:25:00",
+      "open": 5.308,
+      "high": 5.42,
+      "low": 5.27,
+      "close": 5.35,
+      "volume": 365
+    },
+    {
+      "time": "2026-06-24T06:30:00",
+      "open": 5.34,
+      "high": 5.38,
+      "low": 5.3,
+      "close": 5.3,
+      "volume": 55
     }
   ]
 }
