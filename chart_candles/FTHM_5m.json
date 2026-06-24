@@ -2,8 +2,8 @@
   "symbol": "FTHM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-24T11:03:32.424330",
-  "bar_count": 270,
+  "generated_at": "2026-06-24T11:18:31.359830",
+  "bar_count": 273,
   "candles": [
     {
       "time": "2026-06-23T03:00:00",
@@ -2161,9 +2161,33 @@
       "time": "2026-06-24T10:00:00",
       "open": 1.2387,
       "high": 1.24,
+      "low": 1.22,
+      "close": 1.22,
+      "volume": 19
+    },
+    {
+      "time": "2026-06-24T10:05:00",
+      "open": 1.23,
+      "high": 1.23,
       "low": 1.23,
       "close": 1.23,
-      "volume": 18
+      "volume": 1
+    },
+    {
+      "time": "2026-06-24T10:10:00",
+      "open": 1.22,
+      "high": 1.22,
+      "low": 1.21,
+      "close": 1.2122,
+      "volume": 168
+    },
+    {
+      "time": "2026-06-24T10:15:00",
+      "open": 1.21,
+      "high": 1.2201,
+      "low": 1.21,
+      "close": 1.22,
+      "volume": 84
     }
   ]
 }
