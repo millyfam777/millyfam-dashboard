@@ -2,8 +2,8 @@
   "symbol": "QTRX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-25T10:01:19.830651",
-  "bar_count": 265,
+  "generated_at": "2026-06-25T10:18:40.752355",
+  "bar_count": 268,
   "candles": [
     {
       "time": "2026-06-24T03:00:00",
@@ -2120,10 +2120,34 @@
     {
       "time": "2026-06-25T09:00:00",
       "open": 3.79,
-      "high": 3.79,
+      "high": 3.89,
       "low": 3.79,
-      "close": 3.79,
-      "volume": 5
+      "close": 3.87,
+      "volume": 197
+    },
+    {
+      "time": "2026-06-25T09:05:00",
+      "open": 3.87,
+      "high": 3.89,
+      "low": 3.84,
+      "close": 3.84,
+      "volume": 55
+    },
+    {
+      "time": "2026-06-25T09:10:00",
+      "open": 3.85,
+      "high": 3.86,
+      "low": 3.82,
+      "close": 3.83,
+      "volume": 38
+    },
+    {
+      "time": "2026-06-25T09:15:00",
+      "open": 3.84,
+      "high": 3.85,
+      "low": 3.84,
+      "close": 3.85,
+      "volume": 15
     }
   ]
 }
