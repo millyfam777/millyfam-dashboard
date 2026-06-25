@@ -2,8 +2,8 @@
   "symbol": "BOXL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-25T05:17:48.009397",
-  "bar_count": 208,
+  "generated_at": "2026-06-25T05:32:58.347713",
+  "bar_count": 211,
   "candles": [
     {
       "time": "2026-06-24T03:00:00",
@@ -1664,10 +1664,34 @@
     {
       "time": "2026-06-25T04:15:00",
       "open": 4.01,
-      "high": 4.05,
+      "high": 4.07,
       "low": 4.01,
-      "close": 4.05,
-      "volume": 9
+      "close": 4.07,
+      "volume": 12
+    },
+    {
+      "time": "2026-06-25T04:20:00",
+      "open": 4.0,
+      "high": 4.0,
+      "low": 4.0,
+      "close": 4.0,
+      "volume": 1
+    },
+    {
+      "time": "2026-06-25T04:25:00",
+      "open": 4.01,
+      "high": 4.01,
+      "low": 3.97,
+      "close": 3.98,
+      "volume": 7
+    },
+    {
+      "time": "2026-06-25T04:30:00",
+      "open": 3.98,
+      "high": 3.98,
+      "low": 3.97,
+      "close": 3.98,
+      "volume": 10
     }
   ]
 }
