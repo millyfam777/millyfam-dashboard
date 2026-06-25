@@ -2,8 +2,8 @@
   "symbol": "BDTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-25T12:50:32.933709",
-  "bar_count": 288,
+  "generated_at": "2026-06-25T13:04:05.951880",
+  "bar_count": 290,
   "candles": [
     {
       "time": "2026-06-24T03:55:00",
@@ -2304,10 +2304,26 @@
     {
       "time": "2026-06-25T11:50:00",
       "open": 1.725,
-      "high": 1.725,
+      "high": 1.73,
       "low": 1.7201,
-      "close": 1.7201,
-      "volume": 5
+      "close": 1.725,
+      "volume": 31
+    },
+    {
+      "time": "2026-06-25T11:55:00",
+      "open": 1.725,
+      "high": 1.73,
+      "low": 1.72,
+      "close": 1.725,
+      "volume": 80
+    },
+    {
+      "time": "2026-06-25T12:00:00",
+      "open": 1.725,
+      "high": 1.73,
+      "low": 1.725,
+      "close": 1.725,
+      "volume": 17
     }
   ]
 }
