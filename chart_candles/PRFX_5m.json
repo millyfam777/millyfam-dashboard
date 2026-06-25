@@ -2,8 +2,8 @@
   "symbol": "PRFX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-25T18:32:40.242510",
-  "bar_count": 367,
+  "generated_at": "2026-06-25T18:47:39.381248",
+  "bar_count": 370,
   "candles": [
     {
       "time": "2026-06-24T03:00:00",
@@ -2936,10 +2936,34 @@
     {
       "time": "2026-06-25T17:30:00",
       "open": 1.61,
-      "high": 1.66,
+      "high": 1.69,
       "low": 1.61,
       "close": 1.66,
-      "volume": 79
+      "volume": 150
+    },
+    {
+      "time": "2026-06-25T17:35:00",
+      "open": 1.66,
+      "high": 1.67,
+      "low": 1.66,
+      "close": 1.66,
+      "volume": 30
+    },
+    {
+      "time": "2026-06-25T17:40:00",
+      "open": 1.66,
+      "high": 1.69,
+      "low": 1.66,
+      "close": 1.69,
+      "volume": 24
+    },
+    {
+      "time": "2026-06-25T17:45:00",
+      "open": 1.6874,
+      "high": 1.69,
+      "low": 1.65,
+      "close": 1.65,
+      "volume": 57
     }
   ]
 }
