@@ -2,8 +2,8 @@
   "symbol": "RKLZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-25T07:03:36.183829",
-  "bar_count": 229,
+  "generated_at": "2026-06-25T07:17:54.021349",
+  "bar_count": 232,
   "candles": [
     {
       "time": "2026-06-24T03:00:00",
@@ -1833,9 +1833,33 @@
       "time": "2026-06-25T06:00:00",
       "open": 3.8,
       "high": 3.8,
+      "low": 3.7899,
+      "close": 3.7899,
+      "volume": 61
+    },
+    {
+      "time": "2026-06-25T06:05:00",
+      "open": 3.79,
+      "high": 3.81,
       "low": 3.79,
-      "close": 3.79,
-      "volume": 56
+      "close": 3.81,
+      "volume": 70
+    },
+    {
+      "time": "2026-06-25T06:10:00",
+      "open": 3.81,
+      "high": 3.82,
+      "low": 3.8,
+      "close": 3.82,
+      "volume": 51
+    },
+    {
+      "time": "2026-06-25T06:15:00",
+      "open": 3.82,
+      "high": 3.82,
+      "low": 3.815,
+      "close": 3.815,
+      "volume": 10
     }
   ]
 }

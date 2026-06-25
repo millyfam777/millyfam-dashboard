@@ -2,8 +2,8 @@
   "symbol": "ICCM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-25T07:03:38.462542",
-  "bar_count": 229,
+  "generated_at": "2026-06-25T07:17:56.272410",
+  "bar_count": 232,
   "candles": [
     {
       "time": "2026-06-24T03:00:00",
@@ -1833,9 +1833,33 @@
       "time": "2026-06-25T06:00:00",
       "open": 8.97,
       "high": 8.97,
-      "low": 8.8201,
-      "close": 8.84,
-      "volume": 16
+      "low": 8.8,
+      "close": 8.8,
+      "volume": 20
+    },
+    {
+      "time": "2026-06-25T06:05:00",
+      "open": 8.8,
+      "high": 8.8001,
+      "low": 8.76,
+      "close": 8.76,
+      "volume": 555
+    },
+    {
+      "time": "2026-06-25T06:10:00",
+      "open": 8.76,
+      "high": 8.76,
+      "low": 8.7,
+      "close": 8.71,
+      "volume": 31
+    },
+    {
+      "time": "2026-06-25T06:15:00",
+      "open": 8.8,
+      "high": 8.8,
+      "low": 8.8,
+      "close": 8.8,
+      "volume": 1
     }
   ]
 }
