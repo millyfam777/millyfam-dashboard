@@ -2,8 +2,8 @@
   "symbol": "SLN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-25T12:18:22.186146",
-  "bar_count": 202,
+  "generated_at": "2026-06-25T12:35:00.812224",
+  "bar_count": 205,
   "candles": [
     {
       "time": "2026-06-24T07:05:00",
@@ -1616,10 +1616,34 @@
     {
       "time": "2026-06-25T11:15:00",
       "open": 9.63,
-      "high": 9.63,
+      "high": 9.7,
       "low": 9.63,
-      "close": 9.63,
-      "volume": 3
+      "close": 9.7,
+      "volume": 39
+    },
+    {
+      "time": "2026-06-25T11:20:00",
+      "open": 9.74,
+      "high": 9.75,
+      "low": 9.62,
+      "close": 9.62,
+      "volume": 62
+    },
+    {
+      "time": "2026-06-25T11:25:00",
+      "open": 9.62,
+      "high": 9.62,
+      "low": 9.39,
+      "close": 9.49,
+      "volume": 156
+    },
+    {
+      "time": "2026-06-25T11:30:00",
+      "open": 9.49,
+      "high": 9.49,
+      "low": 9.39,
+      "close": 9.41,
+      "volume": 53
     }
   ]
 }
