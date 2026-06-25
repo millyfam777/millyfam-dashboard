@@ -2,8 +2,8 @@
   "symbol": "BCDA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-25T06:32:24.845099",
-  "bar_count": 164,
+  "generated_at": "2026-06-25T06:47:35.253438",
+  "bar_count": 167,
   "candles": [
     {
       "time": "2026-06-24T07:55:00",
@@ -1312,10 +1312,34 @@
     {
       "time": "2026-06-25T05:30:00",
       "open": 1.11,
-      "high": 1.11,
+      "high": 1.12,
+      "low": 1.1,
+      "close": 1.12,
+      "volume": 82
+    },
+    {
+      "time": "2026-06-25T05:35:00",
+      "open": 1.1116,
+      "high": 1.12,
       "low": 1.1,
       "close": 1.1,
-      "volume": 22
+      "volume": 49
+    },
+    {
+      "time": "2026-06-25T05:40:00",
+      "open": 1.1,
+      "high": 1.1,
+      "low": 1.09,
+      "close": 1.09,
+      "volume": 14
+    },
+    {
+      "time": "2026-06-25T05:45:00",
+      "open": 1.09,
+      "high": 1.09,
+      "low": 1.08,
+      "close": 1.09,
+      "volume": 33
     }
   ]
 }
