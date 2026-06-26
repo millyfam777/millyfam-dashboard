@@ -2,8 +2,8 @@
   "symbol": "ATLN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-26T05:03:03.341929",
-  "bar_count": 205,
+  "generated_at": "2026-06-26T05:19:37.957729",
+  "bar_count": 208,
   "candles": [
     {
       "time": "2026-06-25T03:00:00",
@@ -1640,10 +1640,34 @@
     {
       "time": "2026-06-26T04:00:00",
       "open": 1.01,
-      "high": 1.0102,
+      "high": 1.03,
+      "low": 1.0,
+      "close": 1.03,
+      "volume": 62
+    },
+    {
+      "time": "2026-06-26T04:05:00",
+      "open": 1.01,
+      "high": 1.02,
       "low": 1.0,
       "close": 1.01,
-      "volume": 44
+      "volume": 24
+    },
+    {
+      "time": "2026-06-26T04:10:00",
+      "open": 1.0002,
+      "high": 1.0298,
+      "low": 1.0,
+      "close": 1.02,
+      "volume": 12
+    },
+    {
+      "time": "2026-06-26T04:15:00",
+      "open": 1.0,
+      "high": 1.0,
+      "low": 1.0,
+      "close": 1.0,
+      "volume": 27
     }
   ]
 }
