@@ -2,8 +2,8 @@
   "symbol": "SAGT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-26T04:03:08.680527",
-  "bar_count": 193,
+  "generated_at": "2026-06-26T04:18:15.388643",
+  "bar_count": 196,
   "candles": [
     {
       "time": "2026-06-25T03:00:00",
@@ -1545,9 +1545,33 @@
       "time": "2026-06-26T03:00:00",
       "open": 1.4,
       "high": 1.4021,
+      "low": 1.35,
+      "close": 1.35,
+      "volume": 12
+    },
+    {
+      "time": "2026-06-26T03:05:00",
+      "open": 1.37,
+      "high": 1.4,
+      "low": 1.35,
+      "close": 1.38,
+      "volume": 52
+    },
+    {
+      "time": "2026-06-26T03:10:00",
+      "open": 1.395,
+      "high": 1.41,
       "low": 1.36,
-      "close": 1.4,
-      "volume": 9
+      "close": 1.37,
+      "volume": 37
+    },
+    {
+      "time": "2026-06-26T03:15:00",
+      "open": 1.37,
+      "high": 1.37,
+      "low": 1.37,
+      "close": 1.37,
+      "volume": 0
     }
   ]
 }
