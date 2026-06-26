@@ -2,8 +2,8 @@
   "symbol": "ZIP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-26T09:35:51.125384",
-  "bar_count": 199,
+  "generated_at": "2026-06-26T09:50:53.409399",
+  "bar_count": 202,
   "candles": [
     {
       "time": "2026-06-25T08:00:00",
@@ -1593,9 +1593,33 @@
       "time": "2026-06-26T08:35:00",
       "open": 3.91,
       "high": 3.91,
-      "low": 3.91,
-      "close": 3.91,
-      "volume": 1
+      "low": 3.85,
+      "close": 3.9,
+      "volume": 11
+    },
+    {
+      "time": "2026-06-26T08:40:00",
+      "open": 3.85,
+      "high": 3.895,
+      "low": 3.83,
+      "close": 3.88,
+      "volume": 72
+    },
+    {
+      "time": "2026-06-26T08:45:00",
+      "open": 3.9,
+      "high": 3.92,
+      "low": 3.88,
+      "close": 3.88,
+      "volume": 12
+    },
+    {
+      "time": "2026-06-26T08:50:00",
+      "open": 3.88,
+      "high": 3.88,
+      "low": 3.88,
+      "close": 3.88,
+      "volume": 2
     }
   ]
 }
