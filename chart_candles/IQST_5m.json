@@ -2,8 +2,8 @@
   "symbol": "IQST",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-26T08:00:10.472373",
-  "bar_count": 194,
+  "generated_at": "2026-06-26T08:17:23.955820",
+  "bar_count": 197,
   "candles": [
     {
       "time": "2026-06-25T06:55:00",
@@ -1552,10 +1552,34 @@
     {
       "time": "2026-06-26T07:00:00",
       "open": 1.44,
-      "high": 1.44,
+      "high": 1.45,
+      "low": 1.37,
+      "close": 1.4,
+      "volume": 845
+    },
+    {
+      "time": "2026-06-26T07:05:00",
+      "open": 1.4,
+      "high": 1.4698,
+      "low": 1.39,
+      "close": 1.4496,
+      "volume": 747
+    },
+    {
+      "time": "2026-06-26T07:10:00",
+      "open": 1.44,
+      "high": 1.4536,
       "low": 1.44,
-      "close": 1.44,
-      "volume": 2
+      "close": 1.45,
+      "volume": 19
+    },
+    {
+      "time": "2026-06-26T07:15:00",
+      "open": 1.44,
+      "high": 1.44,
+      "low": 1.43,
+      "close": 1.43,
+      "volume": 37
     }
   ]
 }
