@@ -2,8 +2,8 @@
   "symbol": "WKSP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-26T19:47:24.612889",
-  "bar_count": 382,
+  "generated_at": "2026-06-26T20:02:23.203915",
+  "bar_count": 384,
   "candles": [
     {
       "time": "2026-06-25T03:00:00",
@@ -3057,9 +3057,25 @@
       "time": "2026-06-26T18:45:00",
       "open": 1.15,
       "high": 1.17,
+      "low": 1.12,
+      "close": 1.15,
+      "volume": 60
+    },
+    {
+      "time": "2026-06-26T18:50:00",
+      "open": 1.16,
+      "high": 1.17,
       "low": 1.15,
-      "close": 1.17,
-      "volume": 25
+      "close": 1.15,
+      "volume": 9
+    },
+    {
+      "time": "2026-06-26T18:55:00",
+      "open": 1.15,
+      "high": 1.15,
+      "low": 1.15,
+      "close": 1.15,
+      "volume": 1
     }
   ]
 }
