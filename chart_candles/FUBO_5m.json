@@ -2,8 +2,8 @@
   "symbol": "FUBO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-29T14:46:06.697672",
-  "bar_count": 322,
+  "generated_at": "2026-06-29T15:04:09.702031",
+  "bar_count": 325,
   "candles": [
     {
       "time": "2026-06-26T03:00:00",
@@ -2576,10 +2576,34 @@
     {
       "time": "2026-06-29T13:45:00",
       "open": 9.49,
-      "high": 9.49,
-      "low": 9.49,
+      "high": 9.51,
+      "low": 9.46,
+      "close": 9.46,
+      "volume": 42
+    },
+    {
+      "time": "2026-06-29T13:50:00",
+      "open": 9.47,
+      "high": 9.48,
+      "low": 9.47,
+      "close": 9.48,
+      "volume": 14
+    },
+    {
+      "time": "2026-06-29T13:55:00",
+      "open": 9.47,
+      "high": 9.47,
+      "low": 9.45,
+      "close": 9.46,
+      "volume": 98
+    },
+    {
+      "time": "2026-06-29T14:00:00",
+      "open": 9.47,
+      "high": 9.51,
+      "low": 9.47,
       "close": 9.49,
-      "volume": 3
+      "volume": 139
     }
   ]
 }
