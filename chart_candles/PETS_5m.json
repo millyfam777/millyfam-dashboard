@@ -2,8 +2,8 @@
   "symbol": "PETS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-06-29T19:02:08.475463",
-  "bar_count": 270,
+  "generated_at": "2026-06-29T19:17:09.849740",
+  "bar_count": 273,
   "candles": [
     {
       "time": "2026-06-26T08:30:00",
@@ -2160,10 +2160,34 @@
     {
       "time": "2026-06-29T18:00:00",
       "open": 1.8,
-      "high": 1.8,
+      "high": 1.84,
+      "low": 1.8,
+      "close": 1.84,
+      "volume": 20
+    },
+    {
+      "time": "2026-06-29T18:05:00",
+      "open": 1.81,
+      "high": 1.82,
+      "low": 1.8003,
+      "close": 1.82,
+      "volume": 22
+    },
+    {
+      "time": "2026-06-29T18:10:00",
+      "open": 1.8011,
+      "high": 1.8011,
       "low": 1.8,
       "close": 1.8,
-      "volume": 2
+      "volume": 21
+    },
+    {
+      "time": "2026-06-29T18:15:00",
+      "open": 1.83,
+      "high": 1.83,
+      "low": 1.8003,
+      "close": 1.8003,
+      "volume": 8
     }
   ]
 }
