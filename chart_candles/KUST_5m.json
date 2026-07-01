@@ -2,8 +2,8 @@
   "symbol": "KUST",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-01T18:02:45.973985",
-  "bar_count": 361,
+  "generated_at": "2026-07-01T18:18:16.727058",
+  "bar_count": 364,
   "candles": [
     {
       "time": "2026-06-30T03:00:00",
@@ -2889,9 +2889,33 @@
       "time": "2026-07-01T17:00:00",
       "open": 1.27,
       "high": 1.28,
-      "low": 1.24,
+      "low": 1.23,
+      "close": 1.23,
+      "volume": 35
+    },
+    {
+      "time": "2026-07-01T17:05:00",
+      "open": 1.22,
+      "high": 1.2398,
+      "low": 1.21,
+      "close": 1.21,
+      "volume": 25
+    },
+    {
+      "time": "2026-07-01T17:10:00",
+      "open": 1.21,
+      "high": 1.22,
+      "low": 1.21,
+      "close": 1.22,
+      "volume": 15
+    },
+    {
+      "time": "2026-07-01T17:15:00",
+      "open": 1.22,
+      "high": 1.24,
+      "low": 1.22,
       "close": 1.24,
-      "volume": 28
+      "volume": 48
     }
   ]
 }
