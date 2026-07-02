@@ -2,8 +2,8 @@
   "symbol": "SJ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-02T10:46:27.146707",
-  "bar_count": 174,
+  "generated_at": "2026-07-02T10:58:16.458968",
+  "bar_count": 176,
   "candles": [
     {
       "time": "2026-07-01T05:20:00",
@@ -1392,10 +1392,26 @@
     {
       "time": "2026-07-02T09:45:00",
       "open": 1.02,
+      "high": 1.05,
+      "low": 1.02,
+      "close": 1.02,
+      "volume": 8
+    },
+    {
+      "time": "2026-07-02T09:50:00",
+      "open": 1.02,
       "high": 1.02,
       "low": 1.02,
       "close": 1.02,
-      "volume": 2
+      "volume": 1
+    },
+    {
+      "time": "2026-07-02T09:55:00",
+      "open": 1.01,
+      "high": 1.04,
+      "low": 1.01,
+      "close": 1.04,
+      "volume": 51
     }
   ]
 }
