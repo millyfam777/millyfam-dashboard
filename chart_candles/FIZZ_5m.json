@@ -2,8 +2,8 @@
   "symbol": "FIZZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-02T11:47:22.388223",
-  "bar_count": 184,
+  "generated_at": "2026-07-02T11:53:16.963190",
+  "bar_count": 185,
   "candles": [
     {
       "time": "2026-07-01T08:30:00",
@@ -1473,9 +1473,17 @@
       "time": "2026-07-02T10:45:00",
       "open": 34.84,
       "high": 34.91,
-      "low": 34.78,
-      "close": 34.78,
-      "volume": 39
+      "low": 34.73,
+      "close": 34.91,
+      "volume": 65
+    },
+    {
+      "time": "2026-07-02T10:50:00",
+      "open": 34.91,
+      "high": 34.91,
+      "low": 34.66,
+      "close": 34.66,
+      "volume": 33
     }
   ]
 }
