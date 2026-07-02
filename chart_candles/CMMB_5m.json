@@ -2,8 +2,8 @@
   "symbol": "CMMB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-02T16:18:43.993325",
-  "bar_count": 237,
+  "generated_at": "2026-07-02T16:34:07.116427",
+  "bar_count": 240,
   "candles": [
     {
       "time": "2026-07-01T08:25:00",
@@ -1896,10 +1896,34 @@
     {
       "time": "2026-07-02T15:15:00",
       "open": 2.2,
-      "high": 2.2,
+      "high": 2.2005,
       "low": 2.16,
-      "close": 2.2,
-      "volume": 23
+      "close": 2.2005,
+      "volume": 73
+    },
+    {
+      "time": "2026-07-02T15:20:00",
+      "open": 2.22,
+      "high": 2.25,
+      "low": 2.22,
+      "close": 2.25,
+      "volume": 6
+    },
+    {
+      "time": "2026-07-02T15:25:00",
+      "open": 2.25,
+      "high": 2.25,
+      "low": 2.25,
+      "close": 2.25,
+      "volume": 0
+    },
+    {
+      "time": "2026-07-02T15:30:00",
+      "open": 2.27,
+      "high": 2.27,
+      "low": 2.27,
+      "close": 2.27,
+      "volume": 1
     }
   ]
 }
