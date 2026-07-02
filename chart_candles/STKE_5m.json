@@ -2,8 +2,8 @@
   "symbol": "STKE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-02T07:50:24.329336",
-  "bar_count": 198,
+  "generated_at": "2026-07-02T08:01:26.474753",
+  "bar_count": 200,
   "candles": [
     {
       "time": "2026-07-01T06:25:00",
@@ -1584,10 +1584,26 @@
     {
       "time": "2026-07-02T06:50:00",
       "open": 1.73,
+      "high": 1.74,
+      "low": 1.73,
+      "close": 1.74,
+      "volume": 6
+    },
+    {
+      "time": "2026-07-02T06:55:00",
+      "open": 1.73,
       "high": 1.73,
       "low": 1.73,
       "close": 1.73,
-      "volume": 2
+      "volume": 36
+    },
+    {
+      "time": "2026-07-02T07:00:00",
+      "open": 1.73,
+      "high": 1.73,
+      "low": 1.73,
+      "close": 1.73,
+      "volume": 0
     }
   ]
 }
