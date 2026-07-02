@@ -2,8 +2,8 @@
   "symbol": "UPC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-02T04:02:52.636906",
-  "bar_count": 193,
+  "generated_at": "2026-07-02T04:07:58.978365",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-07-01T03:00:00",
@@ -1545,9 +1545,17 @@
       "time": "2026-07-02T03:00:00",
       "open": 5.3,
       "high": 5.3,
-      "low": 5.3,
+      "low": 5.25,
+      "close": 5.25,
+      "volume": 5
+    },
+    {
+      "time": "2026-07-02T03:05:00",
+      "open": 5.25,
+      "high": 5.3,
+      "low": 5.08,
       "close": 5.3,
-      "volume": 1
+      "volume": 11
     }
   ]
 }

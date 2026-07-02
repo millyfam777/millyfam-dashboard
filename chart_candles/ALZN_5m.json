@@ -2,8 +2,8 @@
   "symbol": "ALZN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-02T04:02:54.985061",
-  "bar_count": 193,
+  "generated_at": "2026-07-02T04:08:01.291105",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-07-01T03:00:00",
@@ -1545,9 +1545,17 @@
       "time": "2026-07-02T03:00:00",
       "open": 1.08,
       "high": 1.08,
-      "low": 1.05,
+      "low": 1.0058,
+      "close": 1.05,
+      "volume": 123
+    },
+    {
+      "time": "2026-07-02T03:05:00",
+      "open": 1.08,
+      "high": 1.08,
+      "low": 1.06,
       "close": 1.06,
-      "volume": 102
+      "volume": 21
     }
   ]
 }
