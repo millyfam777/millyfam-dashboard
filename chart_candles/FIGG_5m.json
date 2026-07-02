@@ -2,8 +2,8 @@
   "symbol": "FIGG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-02T13:20:34.242903",
-  "bar_count": 299,
+  "generated_at": "2026-07-02T13:33:02.338316",
+  "bar_count": 301,
   "candles": [
     {
       "time": "2026-07-01T03:25:00",
@@ -2391,11 +2391,27 @@
     },
     {
       "time": "2026-07-02T12:20:00",
+      "open": 19.54,
+      "high": 19.64,
+      "low": 19.48,
+      "close": 19.48,
+      "volume": 27
+    },
+    {
+      "time": "2026-07-02T12:25:00",
+      "open": 19.44,
+      "high": 19.51,
+      "low": 19.39,
+      "close": 19.51,
+      "volume": 48
+    },
+    {
+      "time": "2026-07-02T12:30:00",
       "open": 19.52,
       "high": 19.52,
       "low": 19.52,
       "close": 19.52,
-      "volume": 0
+      "volume": 1
     }
   ]
 }
