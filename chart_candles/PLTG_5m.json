@@ -2,8 +2,8 @@
   "symbol": "PLTG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-02T08:01:16.730345",
-  "bar_count": 241,
+  "generated_at": "2026-07-02T08:09:31.792063",
+  "bar_count": 242,
   "candles": [
     {
       "time": "2026-07-01T03:00:00",
@@ -1929,9 +1929,17 @@
       "time": "2026-07-02T07:00:00",
       "open": 11.11,
       "high": 11.14,
-      "low": 11.11,
-      "close": 11.13,
-      "volume": 4
+      "low": 11.07,
+      "close": 11.07,
+      "volume": 19
+    },
+    {
+      "time": "2026-07-02T07:05:00",
+      "open": 11.04,
+      "high": 11.06,
+      "low": 10.94,
+      "close": 10.97,
+      "volume": 101
     }
   ]
 }
