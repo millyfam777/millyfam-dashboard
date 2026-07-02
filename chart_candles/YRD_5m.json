@@ -2,8 +2,8 @@
   "symbol": "YRD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-02T08:50:55.365929",
-  "bar_count": 232,
+  "generated_at": "2026-07-02T09:01:59.778574",
+  "bar_count": 234,
   "candles": [
     {
       "time": "2026-07-01T03:00:00",
@@ -1857,9 +1857,25 @@
       "time": "2026-07-02T07:50:00",
       "open": 1.01,
       "high": 1.02,
-      "low": 1.01,
+      "low": 0.9994,
       "close": 1.02,
-      "volume": 28
+      "volume": 623
+    },
+    {
+      "time": "2026-07-02T07:55:00",
+      "open": 1.02,
+      "high": 1.06,
+      "low": 1.01,
+      "close": 1.0203,
+      "volume": 1909
+    },
+    {
+      "time": "2026-07-02T08:00:00",
+      "open": 1.03,
+      "high": 1.03,
+      "low": 1.02,
+      "close": 1.02,
+      "volume": 126
     }
   ]
 }

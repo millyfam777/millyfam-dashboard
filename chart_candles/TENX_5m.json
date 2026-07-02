@@ -2,8 +2,8 @@
   "symbol": "TENX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-02T08:51:16.374121",
-  "bar_count": 177,
+  "generated_at": "2026-07-02T09:02:16.403187",
+  "bar_count": 179,
   "candles": [
     {
       "time": "2026-07-01T06:10:00",
@@ -1415,11 +1415,27 @@
     },
     {
       "time": "2026-07-02T07:50:00",
-      "open": 14.85,
-      "high": 14.85,
+      "open": 14.89,
+      "high": 14.9,
+      "low": 14.82,
+      "close": 14.82,
+      "volume": 13
+    },
+    {
+      "time": "2026-07-02T07:55:00",
+      "open": 14.9,
+      "high": 14.9,
       "low": 14.85,
       "close": 14.85,
-      "volume": 0
+      "volume": 12
+    },
+    {
+      "time": "2026-07-02T08:00:00",
+      "open": 14.84,
+      "high": 14.84,
+      "low": 14.8,
+      "close": 14.8,
+      "volume": 3
     }
   ]
 }
