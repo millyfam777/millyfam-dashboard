@@ -2,8 +2,8 @@
   "symbol": "WXM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-06T09:38:03.774780",
-  "bar_count": 181,
+  "generated_at": "2026-07-06T09:42:28.255121",
+  "bar_count": 182,
   "candles": [
     {
       "time": "2026-07-02T08:30:00",
@@ -1448,10 +1448,18 @@
     {
       "time": "2026-07-06T08:35:00",
       "open": 4.95,
-      "high": 5.09,
+      "high": 5.19,
       "low": 4.94,
-      "close": 5.09,
-      "volume": 28
+      "close": 5.17,
+      "volume": 111
+    },
+    {
+      "time": "2026-07-06T08:40:00",
+      "open": 5.09,
+      "high": 5.19,
+      "low": 4.72,
+      "close": 4.94,
+      "volume": 90
     }
   ]
 }

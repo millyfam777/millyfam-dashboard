@@ -2,8 +2,8 @@
   "symbol": "WBX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-06T09:38:12.701298",
-  "bar_count": 229,
+  "generated_at": "2026-07-06T09:42:37.211860",
+  "bar_count": 230,
   "candles": [
     {
       "time": "2026-07-02T05:35:00",
@@ -1832,10 +1832,18 @@
     {
       "time": "2026-07-06T08:35:00",
       "open": 4.7,
-      "high": 5.3299,
+      "high": 5.33,
       "low": 4.672,
-      "close": 5.2,
-      "volume": 295
+      "close": 5.03,
+      "volume": 404
+    },
+    {
+      "time": "2026-07-06T08:40:00",
+      "open": 5.03,
+      "high": 5.19,
+      "low": 4.93,
+      "close": 5.1,
+      "volume": 101
     }
   ]
 }
