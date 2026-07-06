@@ -2,8 +2,8 @@
   "symbol": "MERC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-06T15:33:55.473599",
-  "bar_count": 228,
+  "generated_at": "2026-07-06T15:38:19.163758",
+  "bar_count": 229,
   "candles": [
     {
       "time": "2026-07-02T08:30:00",
@@ -1824,10 +1824,18 @@
     {
       "time": "2026-07-06T14:30:00",
       "open": 0.7494,
-      "high": 0.7494,
+      "high": 0.7542,
       "low": 0.7492,
-      "close": 0.7493,
-      "volume": 30
+      "close": 0.7507,
+      "volume": 52
+    },
+    {
+      "time": "2026-07-06T14:35:00",
+      "open": 0.7543,
+      "high": 0.7543,
+      "low": 0.751,
+      "close": 0.751,
+      "volume": 99
     }
   ]
 }
