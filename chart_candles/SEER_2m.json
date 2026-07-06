@@ -2,8 +2,8 @@
   "symbol": "SEER",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-07-06T10:20:05.970957",
-  "bar_count": 518,
+  "generated_at": "2026-07-06T10:22:46.031184",
+  "bar_count": 519,
   "candles": [
     {
       "time": "2026-07-02T08:06:00",
@@ -4145,9 +4145,17 @@
       "time": "2026-07-06T09:20:00",
       "open": 2.2412,
       "high": 2.25,
-      "low": 2.2412,
-      "close": 2.2461,
-      "volume": 7
+      "low": 2.24,
+      "close": 2.245,
+      "volume": 745
+    },
+    {
+      "time": "2026-07-06T09:22:00",
+      "open": 2.245,
+      "high": 2.25,
+      "low": 2.2401,
+      "close": 2.2401,
+      "volume": 19
     }
   ]
 }
