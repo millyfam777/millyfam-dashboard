@@ -2,8 +2,8 @@
   "symbol": "WULX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-06T11:03:11.976585",
-  "bar_count": 276,
+  "generated_at": "2026-07-06T11:08:16.763959",
+  "bar_count": 277,
   "candles": [
     {
       "time": "2026-07-02T03:05:00",
@@ -2208,10 +2208,18 @@
     {
       "time": "2026-07-06T10:00:00",
       "open": 42.69,
-      "high": 42.73,
+      "high": 43.27,
       "low": 42.4,
-      "close": 42.73,
-      "volume": 11
+      "close": 43.27,
+      "volume": 17
+    },
+    {
+      "time": "2026-07-06T10:05:00",
+      "open": 43.24,
+      "high": 43.24,
+      "low": 42.65,
+      "close": 42.65,
+      "volume": 105
     }
   ]
 }
