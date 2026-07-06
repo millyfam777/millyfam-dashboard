@@ -2,8 +2,8 @@
   "symbol": "FXHO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-06T12:51:18.193846",
-  "bar_count": 107,
+  "generated_at": "2026-07-06T12:58:35.856597",
+  "bar_count": 108,
   "candles": [
     {
       "time": "2026-07-06T03:00:00",
@@ -857,9 +857,17 @@
       "time": "2026-07-06T11:50:00",
       "open": 18.86,
       "high": 19.4,
-      "low": 18.86,
-      "close": 19.0,
-      "volume": 14
+      "low": 18.5,
+      "close": 18.64,
+      "volume": 134
+    },
+    {
+      "time": "2026-07-06T11:55:00",
+      "open": 18.56,
+      "high": 19.0,
+      "low": 18.12,
+      "close": 18.65,
+      "volume": 212
     }
   ]
 }
