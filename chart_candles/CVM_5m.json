@@ -2,8 +2,8 @@
   "symbol": "CVM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-06T15:05:52.552064",
-  "bar_count": 260,
+  "generated_at": "2026-07-06T15:12:42.989946",
+  "bar_count": 261,
   "candles": [
     {
       "time": "2026-07-02T08:30:00",
@@ -2080,10 +2080,18 @@
     {
       "time": "2026-07-06T14:05:00",
       "open": 1.35,
+      "high": 1.3531,
+      "low": 1.35,
+      "close": 1.35,
+      "volume": 17
+    },
+    {
+      "time": "2026-07-06T14:10:00",
+      "open": 1.35,
       "high": 1.35,
       "low": 1.35,
       "close": 1.35,
-      "volume": 11
+      "volume": 2
     }
   ]
 }

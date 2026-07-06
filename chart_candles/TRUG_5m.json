@@ -2,8 +2,8 @@
   "symbol": "TRUG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-06T15:05:40.996880",
-  "bar_count": 326,
+  "generated_at": "2026-07-06T15:12:45.395068",
+  "bar_count": 327,
   "candles": [
     {
       "time": "2026-07-02T03:00:00",
@@ -2607,11 +2607,19 @@
     },
     {
       "time": "2026-07-06T14:05:00",
-      "open": 1.56,
-      "high": 1.56,
+      "open": 1.576,
+      "high": 1.58,
+      "low": 1.576,
+      "close": 1.58,
+      "volume": 16
+    },
+    {
+      "time": "2026-07-06T14:10:00",
+      "open": 1.58,
+      "high": 1.58,
       "low": 1.56,
       "close": 1.56,
-      "volume": 0
+      "volume": 11
     }
   ]
 }
