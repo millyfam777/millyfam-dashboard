@@ -2,8 +2,8 @@
   "symbol": "JLHL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-07T07:48:05.052502",
-  "bar_count": 238,
+  "generated_at": "2026-07-07T08:03:08.145047",
+  "bar_count": 241,
   "candles": [
     {
       "time": "2026-07-06T03:00:00",
@@ -1903,11 +1903,35 @@
     },
     {
       "time": "2026-07-07T06:45:00",
-      "open": 3.95,
-      "high": 3.95,
+      "open": 3.98,
+      "high": 3.98,
+      "low": 3.98,
+      "close": 3.98,
+      "volume": 1
+    },
+    {
+      "time": "2026-07-07T06:50:00",
+      "open": 3.98,
+      "high": 3.99,
       "low": 3.95,
-      "close": 3.95,
-      "volume": 0
+      "close": 3.97,
+      "volume": 9
+    },
+    {
+      "time": "2026-07-07T06:55:00",
+      "open": 3.99,
+      "high": 4.0,
+      "low": 3.86,
+      "close": 3.87,
+      "volume": 60
+    },
+    {
+      "time": "2026-07-07T07:00:00",
+      "open": 3.87,
+      "high": 3.9,
+      "low": 3.81,
+      "close": 3.9,
+      "volume": 28
     }
   ]
 }
