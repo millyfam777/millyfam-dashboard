@@ -2,8 +2,8 @@
   "symbol": "SCLX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-07T13:02:29.714069",
-  "bar_count": 273,
+  "generated_at": "2026-07-07T13:17:43.385740",
+  "bar_count": 276,
   "candles": [
     {
       "time": "2026-07-06T05:00:00",
@@ -2184,10 +2184,34 @@
     {
       "time": "2026-07-07T12:00:00",
       "open": 9.15,
-      "high": 9.15,
+      "high": 9.16,
+      "low": 9.03,
+      "close": 9.03,
+      "volume": 54
+    },
+    {
+      "time": "2026-07-07T12:05:00",
+      "open": 9.03,
+      "high": 9.03,
+      "low": 9.03,
+      "close": 9.03,
+      "volume": 0
+    },
+    {
+      "time": "2026-07-07T12:10:00",
+      "open": 9.1,
+      "high": 9.34,
       "low": 9.1,
-      "close": 9.15,
-      "volume": 32
+      "close": 9.16,
+      "volume": 42
+    },
+    {
+      "time": "2026-07-07T12:15:00",
+      "open": 9.15,
+      "high": 9.18,
+      "low": 9.15,
+      "close": 9.17,
+      "volume": 22
     }
   ]
 }
