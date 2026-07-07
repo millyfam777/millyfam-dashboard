@@ -2,8 +2,8 @@
   "symbol": "POAS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-07T12:18:34.078256",
-  "bar_count": 281,
+  "generated_at": "2026-07-07T12:33:21.715547",
+  "bar_count": 284,
   "candles": [
     {
       "time": "2026-07-06T03:20:00",
@@ -2248,10 +2248,34 @@
     {
       "time": "2026-07-07T11:15:00",
       "open": 0.3,
-      "high": 0.3,
+      "high": 0.3009,
+      "low": 0.3,
+      "close": 0.3009,
+      "volume": 2
+    },
+    {
+      "time": "2026-07-07T11:20:00",
+      "open": 0.3,
+      "high": 0.3188,
       "low": 0.3,
       "close": 0.3,
-      "volume": 0
+      "volume": 110
+    },
+    {
+      "time": "2026-07-07T11:25:00",
+      "open": 0.3001,
+      "high": 0.3123,
+      "low": 0.3,
+      "close": 0.3123,
+      "volume": 14
+    },
+    {
+      "time": "2026-07-07T11:30:00",
+      "open": 0.31,
+      "high": 0.31,
+      "low": 0.3,
+      "close": 0.3,
+      "volume": 69
     }
   ]
 }
