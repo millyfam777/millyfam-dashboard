@@ -2,8 +2,8 @@
   "symbol": "MRKR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-07T15:32:37.143426",
-  "bar_count": 217,
+  "generated_at": "2026-07-07T15:37:41.424871",
+  "bar_count": 218,
   "candles": [
     {
       "time": "2026-07-06T07:00:00",
@@ -1737,9 +1737,17 @@
       "time": "2026-07-07T14:30:00",
       "open": 1.695,
       "high": 1.7,
+      "low": 1.652,
+      "close": 1.67,
+      "volume": 30
+    },
+    {
+      "time": "2026-07-07T14:35:00",
+      "open": 1.67,
+      "high": 1.675,
       "low": 1.66,
-      "close": 1.7,
-      "volume": 14
+      "close": 1.675,
+      "volume": 13
     }
   ]
 }
