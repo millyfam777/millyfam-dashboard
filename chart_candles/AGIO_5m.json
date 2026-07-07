@@ -2,8 +2,8 @@
   "symbol": "AGIO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-07T10:32:12.632429",
-  "bar_count": 218,
+  "generated_at": "2026-07-07T10:37:24.093552",
+  "bar_count": 219,
   "candles": [
     {
       "time": "2026-07-06T06:15:00",
@@ -1745,9 +1745,17 @@
       "time": "2026-07-07T09:30:00",
       "open": 41.76,
       "high": 41.92,
-      "low": 41.76,
-      "close": 41.92,
-      "volume": 45
+      "low": 41.52,
+      "close": 41.61,
+      "volume": 168
+    },
+    {
+      "time": "2026-07-07T09:35:00",
+      "open": 41.61,
+      "high": 41.62,
+      "low": 41.3,
+      "close": 41.43,
+      "volume": 38
     }
   ]
 }
