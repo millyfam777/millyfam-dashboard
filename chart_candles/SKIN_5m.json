@@ -2,8 +2,8 @@
   "symbol": "SKIN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-07T15:03:34.459738",
-  "bar_count": 210,
+  "generated_at": "2026-07-07T15:08:39.735644",
+  "bar_count": 211,
   "candles": [
     {
       "time": "2026-07-06T08:30:00",
@@ -1680,10 +1680,18 @@
     {
       "time": "2026-07-07T14:00:00",
       "open": 0.9893,
-      "high": 0.9931,
+      "high": 1.0,
       "low": 0.9855,
-      "close": 0.988,
-      "volume": 424
+      "close": 0.9991,
+      "volume": 1267
+    },
+    {
+      "time": "2026-07-07T14:05:00",
+      "open": 0.9984,
+      "high": 1.04,
+      "low": 0.9943,
+      "close": 1.035,
+      "volume": 7170
     }
   ]
 }
