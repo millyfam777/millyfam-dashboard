@@ -2,8 +2,8 @@
   "symbol": "FISV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-07T07:32:15.083084",
-  "bar_count": 214,
+  "generated_at": "2026-07-07T07:37:13.585851",
+  "bar_count": 215,
   "candles": [
     {
       "time": "2026-07-06T04:45:00",
@@ -1713,9 +1713,17 @@
       "time": "2026-07-07T06:30:00",
       "open": 54.54,
       "high": 54.68,
-      "low": 54.52,
-      "close": 54.52,
-      "volume": 27
+      "low": 54.5,
+      "close": 54.68,
+      "volume": 56
+    },
+    {
+      "time": "2026-07-07T06:35:00",
+      "open": 54.8,
+      "high": 54.8,
+      "low": 54.48,
+      "close": 54.64,
+      "volume": 132
     }
   ]
 }
