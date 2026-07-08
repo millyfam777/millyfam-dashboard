@@ -2,8 +2,8 @@
   "symbol": "MSLE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-08T10:32:47.510092",
-  "bar_count": 173,
+  "generated_at": "2026-07-08T10:48:19.128406",
+  "bar_count": 176,
   "candles": [
     {
       "time": "2026-07-07T08:30:00",
@@ -1384,10 +1384,34 @@
     {
       "time": "2026-07-08T09:30:00",
       "open": 9.44,
-      "high": 9.58,
+      "high": 9.6,
       "low": 9.38,
-      "close": 9.54,
-      "volume": 70
+      "close": 9.48,
+      "volume": 83
+    },
+    {
+      "time": "2026-07-08T09:35:00",
+      "open": 9.47,
+      "high": 9.6,
+      "low": 9.46,
+      "close": 9.55,
+      "volume": 81
+    },
+    {
+      "time": "2026-07-08T09:40:00",
+      "open": 9.6,
+      "high": 9.6,
+      "low": 9.46,
+      "close": 9.47,
+      "volume": 22
+    },
+    {
+      "time": "2026-07-08T09:45:00",
+      "open": 9.5,
+      "high": 9.5,
+      "low": 9.26,
+      "close": 9.33,
+      "volume": 74
     }
   ]
 }

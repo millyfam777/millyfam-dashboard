@@ -2,8 +2,8 @@
   "symbol": "BIDG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-08T10:32:29.003895",
-  "bar_count": 259,
+  "generated_at": "2026-07-08T10:37:11.781279",
+  "bar_count": 260,
   "candles": [
     {
       "time": "2026-07-07T03:00:00",
@@ -2073,9 +2073,17 @@
       "time": "2026-07-08T09:30:00",
       "open": 12.1,
       "high": 12.1,
-      "low": 12.1,
-      "close": 12.1,
-      "volume": 1
+      "low": 12.07,
+      "close": 12.07,
+      "volume": 2
+    },
+    {
+      "time": "2026-07-08T09:35:00",
+      "open": 12.07,
+      "high": 12.07,
+      "low": 12.07,
+      "close": 12.07,
+      "volume": 0
     }
   ]
 }
