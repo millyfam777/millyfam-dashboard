@@ -2,8 +2,8 @@
   "symbol": "IONZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-08T05:02:43.206109",
-  "bar_count": 205,
+  "generated_at": "2026-07-08T05:18:10.124943",
+  "bar_count": 208,
   "candles": [
     {
       "time": "2026-07-07T03:00:00",
@@ -1640,10 +1640,34 @@
     {
       "time": "2026-07-08T04:00:00",
       "open": 3.78,
-      "high": 3.78,
+      "high": 3.79,
       "low": 3.77,
-      "close": 3.77,
-      "volume": 62
+      "close": 3.79,
+      "volume": 139
+    },
+    {
+      "time": "2026-07-08T04:05:00",
+      "open": 3.78,
+      "high": 3.85,
+      "low": 3.78,
+      "close": 3.85,
+      "volume": 296
+    },
+    {
+      "time": "2026-07-08T04:10:00",
+      "open": 3.85,
+      "high": 3.89,
+      "low": 3.84,
+      "close": 3.89,
+      "volume": 484
+    },
+    {
+      "time": "2026-07-08T04:15:00",
+      "open": 3.88,
+      "high": 3.91,
+      "low": 3.88,
+      "close": 3.88,
+      "volume": 468
     }
   ]
 }
