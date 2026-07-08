@@ -2,8 +2,8 @@
   "symbol": "HPK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-08T11:17:31.690349",
-  "bar_count": 247,
+  "generated_at": "2026-07-08T11:32:30.621151",
+  "bar_count": 250,
   "candles": [
     {
       "time": "2026-07-07T05:20:00",
@@ -1976,10 +1976,34 @@
     {
       "time": "2026-07-08T10:15:00",
       "open": 7.4,
-      "high": 7.4,
+      "high": 7.41,
       "low": 7.39,
-      "close": 7.4,
-      "volume": 5
+      "close": 7.41,
+      "volume": 12
+    },
+    {
+      "time": "2026-07-08T10:20:00",
+      "open": 7.38,
+      "high": 7.42,
+      "low": 7.35,
+      "close": 7.42,
+      "volume": 78
+    },
+    {
+      "time": "2026-07-08T10:25:00",
+      "open": 7.41,
+      "high": 7.42,
+      "low": 7.35,
+      "close": 7.35,
+      "volume": 212
+    },
+    {
+      "time": "2026-07-08T10:30:00",
+      "open": 7.36,
+      "high": 7.39,
+      "low": 7.35,
+      "close": 7.38,
+      "volume": 21
     }
   ]
 }
