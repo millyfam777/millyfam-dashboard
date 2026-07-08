@@ -2,8 +2,8 @@
   "symbol": "SMST",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-08T09:32:47.071850",
-  "bar_count": 259,
+  "generated_at": "2026-07-08T09:42:07.832364",
+  "bar_count": 261,
   "candles": [
     {
       "time": "2026-07-07T03:00:00",
@@ -2073,9 +2073,25 @@
       "time": "2026-07-08T08:30:00",
       "open": 64.7,
       "high": 65.52,
+      "low": 64.2,
+      "close": 64.49,
+      "volume": 86
+    },
+    {
+      "time": "2026-07-08T08:35:00",
+      "open": 64.26,
+      "high": 65.56,
       "low": 64.26,
-      "close": 64.26,
-      "volume": 64
+      "close": 64.91,
+      "volume": 28
+    },
+    {
+      "time": "2026-07-08T08:40:00",
+      "open": 64.85,
+      "high": 64.85,
+      "low": 64.45,
+      "close": 64.51,
+      "volume": 5
     }
   ]
 }
