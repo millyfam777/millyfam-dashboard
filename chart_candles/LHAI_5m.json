@@ -2,8 +2,8 @@
   "symbol": "LHAI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-08T16:02:51.996707",
-  "bar_count": 337,
+  "generated_at": "2026-07-08T16:07:54.775675",
+  "bar_count": 338,
   "candles": [
     {
       "time": "2026-07-07T03:00:00",
@@ -2696,10 +2696,18 @@
     {
       "time": "2026-07-08T15:00:00",
       "open": 1.46,
-      "high": 1.47,
+      "high": 1.53,
       "low": 1.38,
-      "close": 1.47,
-      "volume": 321
+      "close": 1.53,
+      "volume": 600
+    },
+    {
+      "time": "2026-07-08T15:05:00",
+      "open": 1.525,
+      "high": 1.54,
+      "low": 1.49,
+      "close": 1.49,
+      "volume": 254
     }
   ]
 }
