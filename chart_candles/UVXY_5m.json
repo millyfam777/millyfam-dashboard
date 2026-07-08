@@ -2,8 +2,8 @@
   "symbol": "UVXY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-08T06:17:09.399844",
-  "bar_count": 220,
+  "generated_at": "2026-07-08T06:22:08.700289",
+  "bar_count": 221,
   "candles": [
     {
       "time": "2026-07-07T03:00:00",
@@ -1761,9 +1761,17 @@
       "time": "2026-07-08T05:15:00",
       "open": 26.0,
       "high": 26.0,
-      "low": 26.0,
-      "close": 26.0,
-      "volume": 1
+      "low": 25.91,
+      "close": 25.91,
+      "volume": 14
+    },
+    {
+      "time": "2026-07-08T05:20:00",
+      "open": 25.81,
+      "high": 25.85,
+      "low": 25.8,
+      "close": 25.85,
+      "volume": 5
     }
   ]
 }
