@@ -2,8 +2,8 @@
   "symbol": "BBOT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-08T10:02:29.054717",
-  "bar_count": 241,
+  "generated_at": "2026-07-08T10:07:29.279952",
+  "bar_count": 242,
   "candles": [
     {
       "time": "2026-07-07T05:00:00",
@@ -1929,9 +1929,17 @@
       "time": "2026-07-08T09:00:00",
       "open": 9.26,
       "high": 9.26,
-      "low": 9.24,
-      "close": 9.25,
-      "volume": 23
+      "low": 9.16,
+      "close": 9.17,
+      "volume": 53
+    },
+    {
+      "time": "2026-07-08T09:05:00",
+      "open": 9.07,
+      "high": 9.11,
+      "low": 9.06,
+      "close": 9.11,
+      "volume": 3
     }
   ]
 }

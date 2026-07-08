@@ -2,8 +2,8 @@
   "symbol": "ELTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-08T10:02:51.874205",
-  "bar_count": 265,
+  "generated_at": "2026-07-08T10:17:39.223076",
+  "bar_count": 268,
   "candles": [
     {
       "time": "2026-07-07T03:00:00",
@@ -2120,10 +2120,34 @@
     {
       "time": "2026-07-08T09:00:00",
       "open": 3.2,
-      "high": 3.21,
+      "high": 3.22,
       "low": 3.14,
-      "close": 3.14,
-      "volume": 121
+      "close": 3.2,
+      "volume": 142
+    },
+    {
+      "time": "2026-07-08T09:05:00",
+      "open": 3.2,
+      "high": 3.22,
+      "low": 3.1,
+      "close": 3.1,
+      "volume": 111
+    },
+    {
+      "time": "2026-07-08T09:10:00",
+      "open": 3.14,
+      "high": 3.16,
+      "low": 3.1,
+      "close": 3.13,
+      "volume": 86
+    },
+    {
+      "time": "2026-07-08T09:15:00",
+      "open": 3.13,
+      "high": 3.16,
+      "low": 3.13,
+      "close": 3.15,
+      "volume": 39
     }
   ]
 }
