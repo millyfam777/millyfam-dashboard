@@ -2,8 +2,8 @@
   "symbol": "WTI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-08T12:17:13.405940",
-  "bar_count": 292,
+  "generated_at": "2026-07-08T12:27:04.342337",
+  "bar_count": 294,
   "candles": [
     {
       "time": "2026-07-07T03:00:00",
@@ -2336,10 +2336,26 @@
     {
       "time": "2026-07-08T11:15:00",
       "open": 3.65,
-      "high": 3.655,
+      "high": 3.67,
+      "low": 3.65,
+      "close": 3.665,
+      "volume": 303
+    },
+    {
+      "time": "2026-07-08T11:20:00",
+      "open": 3.665,
+      "high": 3.67,
       "low": 3.65,
       "close": 3.65,
-      "volume": 70
+      "volume": 286
+    },
+    {
+      "time": "2026-07-08T11:25:00",
+      "open": 3.655,
+      "high": 3.6584,
+      "low": 3.65,
+      "close": 3.65,
+      "volume": 109
     }
   ]
 }
