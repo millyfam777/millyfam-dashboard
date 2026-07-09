@@ -2,8 +2,8 @@
   "symbol": "CBUS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-09T14:17:48.189105",
-  "bar_count": 254,
+  "generated_at": "2026-07-09T14:27:46.253069",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-07-08T08:10:00",
@@ -2033,9 +2033,25 @@
       "time": "2026-07-09T13:15:00",
       "open": 1.78,
       "high": 1.8,
-      "low": 1.78,
+      "low": 1.775,
       "close": 1.79,
-      "volume": 236
+      "volume": 270
+    },
+    {
+      "time": "2026-07-09T13:20:00",
+      "open": 1.79,
+      "high": 1.79,
+      "low": 1.79,
+      "close": 1.79,
+      "volume": 0
+    },
+    {
+      "time": "2026-07-09T13:25:00",
+      "open": 1.8,
+      "high": 1.8,
+      "low": 1.8,
+      "close": 1.8,
+      "volume": 4
     }
   ]
 }

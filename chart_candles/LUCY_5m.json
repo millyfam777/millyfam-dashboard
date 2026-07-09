@@ -2,8 +2,8 @@
   "symbol": "LUCY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-09T14:18:01.819085",
-  "bar_count": 316,
+  "generated_at": "2026-07-09T14:27:59.841916",
+  "bar_count": 318,
   "candles": [
     {
       "time": "2026-07-08T03:00:00",
@@ -2530,8 +2530,24 @@
       "open": 1.0,
       "high": 1.02,
       "low": 0.9996,
-      "close": 1.02,
-      "volume": 24
+      "close": 1.0031,
+      "volume": 120
+    },
+    {
+      "time": "2026-07-09T13:20:00",
+      "open": 1.0031,
+      "high": 1.01,
+      "low": 0.9983,
+      "close": 1.005,
+      "volume": 96
+    },
+    {
+      "time": "2026-07-09T13:25:00",
+      "open": 1.005,
+      "high": 1.005,
+      "low": 1.0002,
+      "close": 1.0002,
+      "volume": 10
     }
   ]
 }
