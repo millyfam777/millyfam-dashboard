@@ -2,8 +2,8 @@
   "symbol": "RYOJ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-09T17:03:31.776777",
-  "bar_count": 233,
+  "generated_at": "2026-07-09T17:18:34.340542",
+  "bar_count": 236,
   "candles": [
     {
       "time": "2026-07-08T08:15:00",
@@ -1864,10 +1864,34 @@
     {
       "time": "2026-07-09T16:00:00",
       "open": 4.1,
-      "high": 4.1,
+      "high": 4.2,
       "low": 4.1,
-      "close": 4.1,
-      "volume": 0
+      "close": 4.19,
+      "volume": 28
+    },
+    {
+      "time": "2026-07-09T16:05:00",
+      "open": 4.19,
+      "high": 4.23,
+      "low": 4.02,
+      "close": 4.14,
+      "volume": 20
+    },
+    {
+      "time": "2026-07-09T16:10:00",
+      "open": 4.14,
+      "high": 4.14,
+      "low": 4.02,
+      "close": 4.07,
+      "volume": 26
+    },
+    {
+      "time": "2026-07-09T16:15:00",
+      "open": 4.1,
+      "high": 4.14,
+      "low": 4.06,
+      "close": 4.14,
+      "volume": 12
     }
   ]
 }
