@@ -2,8 +2,8 @@
   "symbol": "BBIO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-09T06:33:27.054052",
-  "bar_count": 157,
+  "generated_at": "2026-07-09T06:48:30.425052",
+  "bar_count": 160,
   "candles": [
     {
       "time": "2026-07-08T08:30:00",
@@ -1257,9 +1257,33 @@
       "time": "2026-07-09T05:30:00",
       "open": 91.0,
       "high": 91.0,
-      "low": 91.0,
+      "low": 90.0,
+      "close": 90.0,
+      "volume": 14
+    },
+    {
+      "time": "2026-07-09T05:35:00",
+      "open": 90.0,
+      "high": 90.0,
+      "low": 89.0,
+      "close": 89.0,
+      "volume": 138
+    },
+    {
+      "time": "2026-07-09T05:40:00",
+      "open": 89.0,
+      "high": 90.0,
+      "low": 89.0,
+      "close": 89.99,
+      "volume": 62
+    },
+    {
+      "time": "2026-07-09T05:45:00",
+      "open": 89.5,
+      "high": 91.0,
+      "low": 89.5,
       "close": 91.0,
-      "volume": 1
+      "volume": 114
     }
   ]
 }
