@@ -2,8 +2,8 @@
   "symbol": "ZSQR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-09T11:47:05.076602",
-  "bar_count": 199,
+  "generated_at": "2026-07-09T12:02:31.140676",
+  "bar_count": 202,
   "candles": [
     {
       "time": "2026-07-08T06:45:00",
@@ -1592,10 +1592,34 @@
     {
       "time": "2026-07-09T10:45:00",
       "open": 8.0,
-      "high": 8.13,
+      "high": 8.37,
       "low": 8.0,
-      "close": 8.13,
-      "volume": 22
+      "close": 8.29,
+      "volume": 170
+    },
+    {
+      "time": "2026-07-09T10:50:00",
+      "open": 8.25,
+      "high": 8.4,
+      "low": 8.25,
+      "close": 8.31,
+      "volume": 179
+    },
+    {
+      "time": "2026-07-09T10:55:00",
+      "open": 8.31,
+      "high": 8.31,
+      "low": 8.24,
+      "close": 8.25,
+      "volume": 16
+    },
+    {
+      "time": "2026-07-09T11:00:00",
+      "open": 8.26,
+      "high": 8.3,
+      "low": 8.25,
+      "close": 8.26,
+      "volume": 7
     }
   ]
 }
