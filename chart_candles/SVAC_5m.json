@@ -2,8 +2,8 @@
   "symbol": "SVAC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-09T10:42:10.411854",
-  "bar_count": 198,
+  "generated_at": "2026-07-09T10:52:27.641652",
+  "bar_count": 200,
   "candles": [
     {
       "time": "2026-07-08T06:00:00",
@@ -1584,10 +1584,26 @@
     {
       "time": "2026-07-09T09:40:00",
       "open": 8.98,
-      "high": 8.98,
+      "high": 9.21,
       "low": 8.84,
+      "close": 9.2,
+      "volume": 14
+    },
+    {
+      "time": "2026-07-09T09:45:00",
+      "open": 9.04,
+      "high": 9.2,
+      "low": 8.98,
       "close": 8.98,
       "volume": 11
+    },
+    {
+      "time": "2026-07-09T09:50:00",
+      "open": 8.98,
+      "high": 8.98,
+      "low": 8.98,
+      "close": 8.98,
+      "volume": 0
     }
   ]
 }
