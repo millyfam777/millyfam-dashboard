@@ -2,8 +2,8 @@
   "symbol": "AEHG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-09T08:28:33.952739",
-  "bar_count": 232,
+  "generated_at": "2026-07-09T08:43:34.959903",
+  "bar_count": 235,
   "candles": [
     {
       "time": "2026-07-08T03:30:00",
@@ -1856,10 +1856,34 @@
     {
       "time": "2026-07-09T07:25:00",
       "open": 8.8,
-      "high": 8.84,
+      "high": 8.87,
       "low": 8.8,
-      "close": 8.84,
+      "close": 8.87,
+      "volume": 7
+    },
+    {
+      "time": "2026-07-09T07:30:00",
+      "open": 8.6,
+      "high": 8.62,
+      "low": 8.6,
+      "close": 8.61,
+      "volume": 6
+    },
+    {
+      "time": "2026-07-09T07:35:00",
+      "open": 8.87,
+      "high": 8.88,
+      "low": 8.86,
+      "close": 8.88,
       "volume": 3
+    },
+    {
+      "time": "2026-07-09T07:40:00",
+      "open": 8.95,
+      "high": 9.0,
+      "low": 8.88,
+      "close": 9.0,
+      "volume": 85
     }
   ]
 }
