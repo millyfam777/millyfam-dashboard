@@ -2,8 +2,8 @@
   "symbol": "SUNE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-09T16:33:13.800656",
-  "bar_count": 319,
+  "generated_at": "2026-07-09T16:48:11.814058",
+  "bar_count": 322,
   "candles": [
     {
       "time": "2026-07-08T05:00:00",
@@ -2552,10 +2552,34 @@
     {
       "time": "2026-07-09T15:30:00",
       "open": 2.49,
-      "high": 2.49,
+      "high": 2.5,
       "low": 2.48,
-      "close": 2.49,
-      "volume": 24
+      "close": 2.498,
+      "volume": 52
+    },
+    {
+      "time": "2026-07-09T15:35:00",
+      "open": 2.49,
+      "high": 2.5,
+      "low": 2.47,
+      "close": 2.47,
+      "volume": 176
+    },
+    {
+      "time": "2026-07-09T15:40:00",
+      "open": 2.47,
+      "high": 2.4765,
+      "low": 2.47,
+      "close": 2.4765,
+      "volume": 99
+    },
+    {
+      "time": "2026-07-09T15:45:00",
+      "open": 2.47,
+      "high": 2.51,
+      "low": 2.47,
+      "close": 2.51,
+      "volume": 115
     }
   ]
 }
