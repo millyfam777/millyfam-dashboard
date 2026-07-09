@@ -2,8 +2,8 @@
   "symbol": "TERG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-09T07:17:14.619078",
-  "bar_count": 225,
+  "generated_at": "2026-07-09T07:32:34.181506",
+  "bar_count": 228,
   "candles": [
     {
       "time": "2026-07-08T03:35:00",
@@ -1800,10 +1800,34 @@
     {
       "time": "2026-07-09T06:15:00",
       "open": 42.11,
-      "high": 42.11,
+      "high": 42.5,
       "low": 42.1,
-      "close": 42.1,
-      "volume": 3
+      "close": 42.5,
+      "volume": 10
+    },
+    {
+      "time": "2026-07-09T06:20:00",
+      "open": 42.5,
+      "high": 42.5,
+      "low": 42.5,
+      "close": 42.5,
+      "volume": 0
+    },
+    {
+      "time": "2026-07-09T06:25:00",
+      "open": 42.5,
+      "high": 42.5,
+      "low": 42.5,
+      "close": 42.5,
+      "volume": 0
+    },
+    {
+      "time": "2026-07-09T06:30:00",
+      "open": 42.5,
+      "high": 42.5,
+      "low": 42.5,
+      "close": 42.5,
+      "volume": 0
     }
   ]
 }

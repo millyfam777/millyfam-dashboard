@@ -2,8 +2,8 @@
   "symbol": "MGIH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-09T07:17:48.651911",
-  "bar_count": 147,
+  "generated_at": "2026-07-09T07:33:03.619421",
+  "bar_count": 150,
   "candles": [
     {
       "time": "2026-07-08T10:05:00",
@@ -1175,11 +1175,35 @@
     },
     {
       "time": "2026-07-09T06:15:00",
-      "open": 1.65,
+      "open": 1.61,
+      "high": 1.61,
+      "low": 1.61,
+      "close": 1.61,
+      "volume": 2
+    },
+    {
+      "time": "2026-07-09T06:20:00",
+      "open": 1.64,
       "high": 1.65,
+      "low": 1.64,
+      "close": 1.65,
+      "volume": 7
+    },
+    {
+      "time": "2026-07-09T06:25:00",
+      "open": 1.65,
+      "high": 1.66,
       "low": 1.65,
       "close": 1.65,
-      "volume": 0
+      "volume": 36
+    },
+    {
+      "time": "2026-07-09T06:30:00",
+      "open": 1.61,
+      "high": 1.63,
+      "low": 1.6,
+      "close": 1.6,
+      "volume": 27
     }
   ]
 }
