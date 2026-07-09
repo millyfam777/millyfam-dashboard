@@ -2,8 +2,8 @@
   "symbol": "FHTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-09T15:18:29.905532",
-  "bar_count": 234,
+  "generated_at": "2026-07-09T15:33:27.033974",
+  "bar_count": 237,
   "candles": [
     {
       "time": "2026-07-08T05:55:00",
@@ -1872,10 +1872,34 @@
     {
       "time": "2026-07-09T14:15:00",
       "open": 5.97,
-      "high": 5.97,
+      "high": 5.99,
       "low": 5.97,
-      "close": 5.97,
-      "volume": 10
+      "close": 5.99,
+      "volume": 23
+    },
+    {
+      "time": "2026-07-09T14:20:00",
+      "open": 5.99,
+      "high": 5.99,
+      "low": 5.99,
+      "close": 5.99,
+      "volume": 1
+    },
+    {
+      "time": "2026-07-09T14:25:00",
+      "open": 5.99,
+      "high": 5.99,
+      "low": 5.98,
+      "close": 5.98,
+      "volume": 29
+    },
+    {
+      "time": "2026-07-09T14:30:00",
+      "open": 5.98,
+      "high": 6.04,
+      "low": 5.97,
+      "close": 6.04,
+      "volume": 58
     }
   ]
 }
