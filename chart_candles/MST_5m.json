@@ -2,8 +2,8 @@
   "symbol": "MST",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-10T09:32:33.561579",
-  "bar_count": 259,
+  "generated_at": "2026-07-10T09:37:09.079169",
+  "bar_count": 260,
   "candles": [
     {
       "time": "2026-07-09T03:00:00",
@@ -2072,10 +2072,18 @@
     {
       "time": "2026-07-10T08:30:00",
       "open": 8.7,
-      "high": 8.7,
+      "high": 8.75,
       "low": 8.59,
-      "close": 8.68,
-      "volume": 14
+      "close": 8.75,
+      "volume": 24
+    },
+    {
+      "time": "2026-07-10T08:35:00",
+      "open": 8.78,
+      "high": 8.79,
+      "low": 8.75,
+      "close": 8.75,
+      "volume": 32
     }
   ]
 }
