@@ -2,8 +2,8 @@
   "symbol": "PLBL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-10T12:32:40.062367",
-  "bar_count": 223,
+  "generated_at": "2026-07-10T12:48:23.263480",
+  "bar_count": 226,
   "candles": [
     {
       "time": "2026-07-09T03:30:00",
@@ -1784,10 +1784,34 @@
     {
       "time": "2026-07-10T11:30:00",
       "open": 7.1,
-      "high": 7.15,
+      "high": 7.25,
       "low": 7.1,
-      "close": 7.15,
-      "volume": 6
+      "close": 7.11,
+      "volume": 10
+    },
+    {
+      "time": "2026-07-10T11:35:00",
+      "open": 7.25,
+      "high": 7.46,
+      "low": 7.25,
+      "close": 7.35,
+      "volume": 185
+    },
+    {
+      "time": "2026-07-10T11:40:00",
+      "open": 7.37,
+      "high": 7.44,
+      "low": 7.3,
+      "close": 7.3,
+      "volume": 32
+    },
+    {
+      "time": "2026-07-10T11:45:00",
+      "open": 7.31,
+      "high": 7.46,
+      "low": 7.3,
+      "close": 7.39,
+      "volume": 25
     }
   ]
 }
