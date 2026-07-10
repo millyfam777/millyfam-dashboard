@@ -2,8 +2,8 @@
   "symbol": "NDRA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-10T10:02:17.085922",
-  "bar_count": 179,
+  "generated_at": "2026-07-10T10:17:11.861567",
+  "bar_count": 182,
   "candles": [
     {
       "time": "2026-07-09T06:30:00",
@@ -1432,10 +1432,34 @@
     {
       "time": "2026-07-10T09:00:00",
       "open": 6.12,
-      "high": 6.12,
+      "high": 6.2,
       "low": 6.12,
-      "close": 6.12,
-      "volume": 2
+      "close": 6.2,
+      "volume": 3
+    },
+    {
+      "time": "2026-07-10T09:05:00",
+      "open": 6.29,
+      "high": 6.29,
+      "low": 6.09,
+      "close": 6.09,
+      "volume": 13
+    },
+    {
+      "time": "2026-07-10T09:10:00",
+      "open": 6.07,
+      "high": 6.14,
+      "low": 5.94,
+      "close": 6.1,
+      "volume": 15
+    },
+    {
+      "time": "2026-07-10T09:15:00",
+      "open": 6.25,
+      "high": 6.25,
+      "low": 6.25,
+      "close": 6.25,
+      "volume": 1
     }
   ]
 }
