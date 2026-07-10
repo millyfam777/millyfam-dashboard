@@ -2,8 +2,8 @@
   "symbol": "MSTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-10T09:17:34.239978",
-  "bar_count": 256,
+  "generated_at": "2026-07-10T09:32:29.035604",
+  "bar_count": 259,
   "candles": [
     {
       "time": "2026-07-09T03:00:00",
@@ -2049,9 +2049,33 @@
       "time": "2026-07-10T08:15:00",
       "open": 9.21,
       "high": 9.22,
+      "low": 9.18,
+      "close": 9.21,
+      "volume": 161
+    },
+    {
+      "time": "2026-07-10T08:20:00",
+      "open": 9.22,
+      "high": 9.22,
       "low": 9.19,
-      "close": 9.19,
-      "volume": 131
+      "close": 9.2,
+      "volume": 162
+    },
+    {
+      "time": "2026-07-10T08:25:00",
+      "open": 9.19,
+      "high": 9.47,
+      "low": 9.18,
+      "close": 9.34,
+      "volume": 418
+    },
+    {
+      "time": "2026-07-10T08:30:00",
+      "open": 9.35,
+      "high": 9.39,
+      "low": 9.18,
+      "close": 9.3,
+      "volume": 1099
     }
   ]
 }
