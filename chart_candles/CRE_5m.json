@@ -2,8 +2,8 @@
   "symbol": "CRE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-10T12:02:40.967760",
-  "bar_count": 267,
+  "generated_at": "2026-07-10T12:17:52.271909",
+  "bar_count": 270,
   "candles": [
     {
       "time": "2026-07-09T03:00:00",
@@ -2136,10 +2136,34 @@
     {
       "time": "2026-07-10T11:00:00",
       "open": 3.17,
-      "high": 3.22,
+      "high": 3.32,
+      "low": 3.17,
+      "close": 3.31,
+      "volume": 30
+    },
+    {
+      "time": "2026-07-10T11:05:00",
+      "open": 3.27,
+      "high": 3.28,
       "low": 3.17,
       "close": 3.22,
-      "volume": 11
+      "volume": 32
+    },
+    {
+      "time": "2026-07-10T11:10:00",
+      "open": 3.27,
+      "high": 3.3,
+      "low": 3.27,
+      "close": 3.3,
+      "volume": 10
+    },
+    {
+      "time": "2026-07-10T11:15:00",
+      "open": 3.3,
+      "high": 3.3,
+      "low": 3.24,
+      "close": 3.28,
+      "volume": 18
     }
   ]
 }
