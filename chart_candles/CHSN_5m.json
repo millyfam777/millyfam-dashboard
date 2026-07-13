@@ -2,8 +2,8 @@
   "symbol": "CHSN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-13T11:17:35.960101",
-  "bar_count": 280,
+  "generated_at": "2026-07-13T11:27:37.264145",
+  "bar_count": 282,
   "candles": [
     {
       "time": "2026-07-10T03:00:00",
@@ -2240,10 +2240,26 @@
     {
       "time": "2026-07-13T10:15:00",
       "open": 1.05,
-      "high": 1.06,
+      "high": 1.07,
       "low": 1.05,
       "close": 1.06,
-      "volume": 35
+      "volume": 39
+    },
+    {
+      "time": "2026-07-13T10:20:00",
+      "open": 1.06,
+      "high": 1.06,
+      "low": 1.055,
+      "close": 1.055,
+      "volume": 2
+    },
+    {
+      "time": "2026-07-13T10:25:00",
+      "open": 1.055,
+      "high": 1.055,
+      "low": 1.04,
+      "close": 1.04,
+      "volume": 6
     }
   ]
 }
