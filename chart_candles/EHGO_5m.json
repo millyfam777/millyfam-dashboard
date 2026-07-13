@@ -2,8 +2,8 @@
   "symbol": "EHGO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-13T11:03:33.135829",
-  "bar_count": 277,
+  "generated_at": "2026-07-13T11:13:35.651329",
+  "bar_count": 279,
   "candles": [
     {
       "time": "2026-07-10T03:00:00",
@@ -2217,9 +2217,25 @@
       "time": "2026-07-13T10:00:00",
       "open": 2.2701,
       "high": 2.2787,
+      "low": 2.18,
+      "close": 2.19,
+      "volume": 797
+    },
+    {
+      "time": "2026-07-13T10:05:00",
+      "open": 2.2,
+      "high": 2.26,
       "low": 2.19,
-      "close": 2.2,
-      "volume": 482
+      "close": 2.25,
+      "volume": 531
+    },
+    {
+      "time": "2026-07-13T10:10:00",
+      "open": 2.25,
+      "high": 2.27,
+      "low": 2.25,
+      "close": 2.26,
+      "volume": 229
     }
   ]
 }
