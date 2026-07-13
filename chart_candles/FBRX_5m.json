@@ -2,8 +2,8 @@
   "symbol": "FBRX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-10T13:18:20.718210",
-  "bar_count": 256,
+  "generated_at": "2026-07-10T13:23:25.750781",
+  "bar_count": 257,
   "candles": [
     {
       "time": "2026-07-09T07:00:00",
@@ -2048,10 +2048,18 @@
     {
       "time": "2026-07-10T12:15:00",
       "open": 43.14,
-      "high": 43.62,
+      "high": 43.75,
       "low": 43.14,
-      "close": 43.62,
-      "volume": 45
+      "close": 43.74,
+      "volume": 62
+    },
+    {
+      "time": "2026-07-10T12:20:00",
+      "open": 43.7,
+      "high": 43.8,
+      "low": 43.56,
+      "close": 43.65,
+      "volume": 44
     }
   ]
 }

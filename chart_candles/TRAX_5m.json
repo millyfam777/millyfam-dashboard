@@ -2,8 +2,8 @@
   "symbol": "TRAX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-10T13:17:37.941611",
-  "bar_count": 285,
+  "generated_at": "2026-07-10T13:22:54.984618",
+  "bar_count": 286,
   "candles": [
     {
       "time": "2026-07-09T04:15:00",
@@ -2280,10 +2280,18 @@
     {
       "time": "2026-07-10T12:15:00",
       "open": 36.56,
-      "high": 36.56,
+      "high": 36.82,
       "low": 36.48,
-      "close": 36.56,
-      "volume": 4
+      "close": 36.82,
+      "volume": 12
+    },
+    {
+      "time": "2026-07-10T12:20:00",
+      "open": 36.62,
+      "high": 36.84,
+      "low": 36.6,
+      "close": 36.84,
+      "volume": 10
     }
   ]
 }
