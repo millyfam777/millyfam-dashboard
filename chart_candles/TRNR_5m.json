@@ -2,8 +2,8 @@
   "symbol": "TRNR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-13T13:32:11.491065",
-  "bar_count": 306,
+  "generated_at": "2026-07-13T13:47:38.697829",
+  "bar_count": 309,
   "candles": [
     {
       "time": "2026-07-10T03:00:00",
@@ -2448,10 +2448,34 @@
     {
       "time": "2026-07-13T12:30:00",
       "open": 2.9,
-      "high": 2.96,
+      "high": 3.0,
       "low": 2.9,
-      "close": 2.96,
-      "volume": 13
+      "close": 3.0,
+      "volume": 113
+    },
+    {
+      "time": "2026-07-13T12:35:00",
+      "open": 2.97,
+      "high": 2.98,
+      "low": 2.92,
+      "close": 2.98,
+      "volume": 26
+    },
+    {
+      "time": "2026-07-13T12:40:00",
+      "open": 2.98,
+      "high": 2.98,
+      "low": 2.92,
+      "close": 2.94,
+      "volume": 30
+    },
+    {
+      "time": "2026-07-13T12:45:00",
+      "open": 2.94,
+      "high": 2.94,
+      "low": 2.94,
+      "close": 2.94,
+      "volume": 0
     }
   ]
 }
