@@ -2,8 +2,8 @@
   "symbol": "SEAT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-13T15:32:39.319600",
-  "bar_count": 199,
+  "generated_at": "2026-07-13T15:47:37.741319",
+  "bar_count": 202,
   "candles": [
     {
       "time": "2026-07-10T08:30:00",
@@ -1591,11 +1591,35 @@
     },
     {
       "time": "2026-07-13T14:30:00",
-      "open": 8.1,
+      "open": 8.14,
+      "high": 8.14,
+      "low": 8.06,
+      "close": 8.09,
+      "volume": 4
+    },
+    {
+      "time": "2026-07-13T14:35:00",
+      "open": 8.09,
       "high": 8.1,
-      "low": 8.1,
-      "close": 8.1,
-      "volume": 0
+      "low": 8.0,
+      "close": 8.05,
+      "volume": 8
+    },
+    {
+      "time": "2026-07-13T14:40:00",
+      "open": 8.01,
+      "high": 8.06,
+      "low": 8.01,
+      "close": 8.06,
+      "volume": 4
+    },
+    {
+      "time": "2026-07-13T14:45:00",
+      "open": 8.08,
+      "high": 8.1,
+      "low": 8.06,
+      "close": 8.06,
+      "volume": 55
     }
   ]
 }
