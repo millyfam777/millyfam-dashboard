@@ -2,8 +2,8 @@
   "symbol": "SRXH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-13T18:48:22.798846",
-  "bar_count": 370,
+  "generated_at": "2026-07-13T19:03:24.997183",
+  "bar_count": 373,
   "candles": [
     {
       "time": "2026-07-10T03:00:00",
@@ -2960,10 +2960,34 @@
     {
       "time": "2026-07-13T17:45:00",
       "open": 2.7,
-      "high": 2.7,
+      "high": 2.72,
+      "low": 2.6926,
+      "close": 2.6926,
+      "volume": 35
+    },
+    {
+      "time": "2026-07-13T17:50:00",
+      "open": 2.72,
+      "high": 2.72,
+      "low": 2.71,
+      "close": 2.7122,
+      "volume": 6
+    },
+    {
+      "time": "2026-07-13T17:55:00",
+      "open": 2.73,
+      "high": 2.73,
       "low": 2.7,
-      "close": 2.7,
-      "volume": 7
+      "close": 2.72,
+      "volume": 21
+    },
+    {
+      "time": "2026-07-13T18:00:00",
+      "open": 2.725,
+      "high": 2.73,
+      "low": 2.72,
+      "close": 2.7295,
+      "volume": 16
     }
   ]
 }
