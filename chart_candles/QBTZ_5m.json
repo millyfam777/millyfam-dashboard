@@ -2,8 +2,8 @@
   "symbol": "QBTZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-13T10:32:37.300309",
-  "bar_count": 271,
+  "generated_at": "2026-07-13T10:47:16.740435",
+  "bar_count": 274,
   "candles": [
     {
       "time": "2026-07-10T03:00:00",
@@ -2168,10 +2168,34 @@
     {
       "time": "2026-07-13T09:30:00",
       "open": 5.33,
-      "high": 5.38,
+      "high": 5.39,
       "low": 5.31,
-      "close": 5.37,
-      "volume": 72
+      "close": 5.35,
+      "volume": 132
+    },
+    {
+      "time": "2026-07-13T09:35:00",
+      "open": 5.35,
+      "high": 5.45,
+      "low": 5.35,
+      "close": 5.41,
+      "volume": 138
+    },
+    {
+      "time": "2026-07-13T09:40:00",
+      "open": 5.41,
+      "high": 5.45,
+      "low": 5.4,
+      "close": 5.44,
+      "volume": 179
+    },
+    {
+      "time": "2026-07-13T09:45:00",
+      "open": 5.44,
+      "high": 5.48,
+      "low": 5.44,
+      "close": 5.44,
+      "volume": 23
     }
   ]
 }

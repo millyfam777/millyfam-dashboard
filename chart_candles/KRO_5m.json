@@ -2,8 +2,8 @@
   "symbol": "KRO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-13T10:32:20.951384",
-  "bar_count": 142,
+  "generated_at": "2026-07-13T10:42:17.619280",
+  "bar_count": 144,
   "candles": [
     {
       "time": "2026-07-10T08:30:00",
@@ -1138,8 +1138,24 @@
       "open": 6.53,
       "high": 6.54,
       "low": 6.52,
+      "close": 6.54,
+      "volume": 64
+    },
+    {
+      "time": "2026-07-13T09:35:00",
+      "open": 6.54,
+      "high": 6.55,
+      "low": 6.51,
+      "close": 6.51,
+      "volume": 38
+    },
+    {
+      "time": "2026-07-13T09:40:00",
+      "open": 6.51,
+      "high": 6.52,
+      "low": 6.51,
       "close": 6.52,
-      "volume": 43
+      "volume": 10
     }
   ]
 }
