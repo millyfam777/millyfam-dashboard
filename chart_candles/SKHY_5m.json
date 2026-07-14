@@ -2,8 +2,8 @@
   "symbol": "SKHY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-14T05:02:11.667550",
-  "bar_count": 205,
+  "generated_at": "2026-07-14T05:07:11.135039",
+  "bar_count": 206,
   "candles": [
     {
       "time": "2026-07-13T03:00:00",
@@ -1640,10 +1640,18 @@
     {
       "time": "2026-07-14T04:00:00",
       "open": 162.11,
-      "high": 162.14,
+      "high": 162.48,
       "low": 162.0,
-      "close": 162.14,
-      "volume": 26
+      "close": 162.3,
+      "volume": 62
+    },
+    {
+      "time": "2026-07-14T04:05:00",
+      "open": 162.48,
+      "high": 162.5,
+      "low": 162.22,
+      "close": 162.22,
+      "volume": 20
     }
   ]
 }
