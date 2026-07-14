@@ -2,8 +2,8 @@
   "symbol": "XTNT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-14T10:47:23.063783",
-  "bar_count": 142,
+  "generated_at": "2026-07-14T10:52:21.579414",
+  "bar_count": 143,
   "candles": [
     {
       "time": "2026-07-13T08:30:00",
@@ -1137,9 +1137,17 @@
       "time": "2026-07-14T09:45:00",
       "open": 0.4687,
       "high": 0.4687,
-      "low": 0.46,
+      "low": 0.4485,
+      "close": 0.4599,
+      "volume": 91
+    },
+    {
+      "time": "2026-07-14T09:50:00",
+      "open": 0.46,
+      "high": 0.46,
+      "low": 0.449,
       "close": 0.46,
-      "volume": 57
+      "volume": 71
     }
   ]
 }
