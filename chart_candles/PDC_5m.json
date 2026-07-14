@@ -2,8 +2,8 @@
   "symbol": "PDC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-14T14:03:02.911658",
-  "bar_count": 244,
+  "generated_at": "2026-07-14T14:18:09.579352",
+  "bar_count": 247,
   "candles": [
     {
       "time": "2026-07-13T06:45:00",
@@ -1952,10 +1952,34 @@
     {
       "time": "2026-07-14T13:00:00",
       "open": 3.93,
-      "high": 3.93,
+      "high": 4.0,
       "low": 3.93,
-      "close": 3.93,
-      "volume": 1
+      "close": 4.0,
+      "volume": 2
+    },
+    {
+      "time": "2026-07-14T13:05:00",
+      "open": 3.99,
+      "high": 4.05,
+      "low": 3.99,
+      "close": 4.05,
+      "volume": 6
+    },
+    {
+      "time": "2026-07-14T13:10:00",
+      "open": 4.05,
+      "high": 4.09,
+      "low": 4.05,
+      "close": 4.09,
+      "volume": 21
+    },
+    {
+      "time": "2026-07-14T13:15:00",
+      "open": 4.09,
+      "high": 4.09,
+      "low": 4.09,
+      "close": 4.09,
+      "volume": 0
     }
   ]
 }
