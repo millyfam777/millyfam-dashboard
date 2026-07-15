@@ -2,8 +2,8 @@
   "symbol": "KALA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-15T14:02:29.914926",
-  "bar_count": 303,
+  "generated_at": "2026-07-15T14:12:39.439892",
+  "bar_count": 305,
   "candles": [
     {
       "time": "2026-07-14T03:50:00",
@@ -2424,10 +2424,26 @@
     {
       "time": "2026-07-15T13:00:00",
       "open": 1.105,
+      "high": 1.115,
+      "low": 1.105,
+      "close": 1.11,
+      "volume": 14
+    },
+    {
+      "time": "2026-07-15T13:05:00",
+      "open": 1.1095,
+      "high": 1.11,
+      "low": 1.1095,
+      "close": 1.11,
+      "volume": 4
+    },
+    {
+      "time": "2026-07-15T13:10:00",
+      "open": 1.105,
       "high": 1.105,
       "low": 1.105,
       "close": 1.105,
-      "volume": 1
+      "volume": 7
     }
   ]
 }
