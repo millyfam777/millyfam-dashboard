@@ -2,8 +2,8 @@
   "symbol": "OPEG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-15T11:17:12.938689",
-  "bar_count": 280,
+  "generated_at": "2026-07-15T11:32:21.896884",
+  "bar_count": 283,
   "candles": [
     {
       "time": "2026-07-14T03:00:00",
@@ -2239,11 +2239,35 @@
     },
     {
       "time": "2026-07-15T10:15:00",
+      "open": 4.61,
+      "high": 4.61,
+      "low": 4.61,
+      "close": 4.61,
+      "volume": 2
+    },
+    {
+      "time": "2026-07-15T10:20:00",
+      "open": 4.66,
+      "high": 4.66,
+      "low": 4.61,
+      "close": 4.61,
+      "volume": 8
+    },
+    {
+      "time": "2026-07-15T10:25:00",
+      "open": 4.67,
+      "high": 4.67,
+      "low": 4.67,
+      "close": 4.67,
+      "volume": 1
+    },
+    {
+      "time": "2026-07-15T10:30:00",
       "open": 4.66,
       "high": 4.66,
       "low": 4.66,
       "close": 4.66,
-      "volume": 0
+      "volume": 6
     }
   ]
 }
