@@ -2,8 +2,8 @@
   "symbol": "SHMD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-15T08:18:04.434280",
-  "bar_count": 199,
+  "generated_at": "2026-07-15T08:32:56.815142",
+  "bar_count": 202,
   "candles": [
     {
       "time": "2026-07-14T06:45:00",
@@ -1592,9 +1592,33 @@
     {
       "time": "2026-07-15T07:15:00",
       "open": 5.0,
-      "high": 5.0,
+      "high": 5.02,
       "low": 5.0,
-      "close": 5.0,
+      "close": 5.02,
+      "volume": 2
+    },
+    {
+      "time": "2026-07-15T07:20:00",
+      "open": 5.02,
+      "high": 5.02,
+      "low": 5.02,
+      "close": 5.02,
+      "volume": 0
+    },
+    {
+      "time": "2026-07-15T07:25:00",
+      "open": 5.05,
+      "high": 5.05,
+      "low": 4.97,
+      "close": 4.97,
+      "volume": 12
+    },
+    {
+      "time": "2026-07-15T07:30:00",
+      "open": 4.96,
+      "high": 4.96,
+      "low": 4.96,
+      "close": 4.96,
       "volume": 1
     }
   ]
