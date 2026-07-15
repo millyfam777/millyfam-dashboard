@@ -2,8 +2,8 @@
   "symbol": "RCEL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-15T14:47:28.096314",
-  "bar_count": 256,
+  "generated_at": "2026-07-15T15:02:31.116917",
+  "bar_count": 259,
   "candles": [
     {
       "time": "2026-07-14T08:30:00",
@@ -2049,9 +2049,33 @@
       "time": "2026-07-15T13:45:00",
       "open": 4.63,
       "high": 4.64,
+      "low": 4.61,
+      "close": 4.63,
+      "volume": 34
+    },
+    {
+      "time": "2026-07-15T13:50:00",
+      "open": 4.63,
+      "high": 4.64,
       "low": 4.63,
       "close": 4.64,
-      "volume": 5
+      "volume": 3
+    },
+    {
+      "time": "2026-07-15T13:55:00",
+      "open": 4.63,
+      "high": 4.65,
+      "low": 4.62,
+      "close": 4.63,
+      "volume": 85
+    },
+    {
+      "time": "2026-07-15T14:00:00",
+      "open": 4.62,
+      "high": 4.67,
+      "low": 4.62,
+      "close": 4.67,
+      "volume": 13
     }
   ]
 }
