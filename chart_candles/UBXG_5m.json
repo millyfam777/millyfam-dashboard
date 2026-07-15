@@ -2,8 +2,8 @@
   "symbol": "UBXG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-15T13:47:23.317062",
-  "bar_count": 310,
+  "generated_at": "2026-07-15T14:02:46.257835",
+  "bar_count": 313,
   "candles": [
     {
       "time": "2026-07-14T03:00:00",
@@ -2480,10 +2480,34 @@
     {
       "time": "2026-07-15T12:45:00",
       "open": 5.28,
-      "high": 5.38,
+      "high": 5.4,
       "low": 5.28,
+      "close": 5.32,
+      "volume": 74
+    },
+    {
+      "time": "2026-07-15T12:50:00",
+      "open": 5.28,
+      "high": 5.32,
+      "low": 5.28,
+      "close": 5.32,
+      "volume": 14
+    },
+    {
+      "time": "2026-07-15T12:55:00",
+      "open": 5.31,
+      "high": 5.35,
+      "low": 5.27,
       "close": 5.35,
-      "volume": 31
+      "volume": 21
+    },
+    {
+      "time": "2026-07-15T13:00:00",
+      "open": 5.31,
+      "high": 5.32,
+      "low": 5.28,
+      "close": 5.28,
+      "volume": 7
     }
   ]
 }
