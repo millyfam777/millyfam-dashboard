@@ -2,8 +2,8 @@
   "symbol": "CLRO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-15T10:02:49.538861",
-  "bar_count": 264,
+  "generated_at": "2026-07-15T10:18:23.517095",
+  "bar_count": 267,
   "candles": [
     {
       "time": "2026-07-14T03:00:00",
@@ -2112,10 +2112,34 @@
     {
       "time": "2026-07-15T09:00:00",
       "open": 7.35,
-      "high": 7.35,
-      "low": 7.35,
-      "close": 7.35,
-      "volume": 1
+      "high": 7.37,
+      "low": 7.3,
+      "close": 7.37,
+      "volume": 10
+    },
+    {
+      "time": "2026-07-15T09:05:00",
+      "open": 7.39,
+      "high": 7.44,
+      "low": 7.13,
+      "close": 7.13,
+      "volume": 21
+    },
+    {
+      "time": "2026-07-15T09:10:00",
+      "open": 7.39,
+      "high": 8.0,
+      "low": 7.39,
+      "close": 7.82,
+      "volume": 260
+    },
+    {
+      "time": "2026-07-15T09:15:00",
+      "open": 7.8,
+      "high": 8.38,
+      "low": 7.75,
+      "close": 8.35,
+      "volume": 580
     }
   ]
 }
