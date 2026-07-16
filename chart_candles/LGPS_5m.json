@@ -2,8 +2,8 @@
   "symbol": "LGPS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-16T14:52:33.353503",
-  "bar_count": 318,
+  "generated_at": "2026-07-16T15:02:45.462887",
+  "bar_count": 320,
   "candles": [
     {
       "time": "2026-07-15T03:00:00",
@@ -2545,9 +2545,25 @@
       "time": "2026-07-16T13:50:00",
       "open": 1.28,
       "high": 1.28,
+      "low": 1.275,
+      "close": 1.275,
+      "volume": 2
+    },
+    {
+      "time": "2026-07-16T13:55:00",
+      "open": 1.28,
+      "high": 1.295,
+      "low": 1.275,
+      "close": 1.29,
+      "volume": 104
+    },
+    {
+      "time": "2026-07-16T14:00:00",
+      "open": 1.29,
+      "high": 1.295,
       "low": 1.28,
-      "close": 1.28,
-      "volume": 1
+      "close": 1.2905,
+      "volume": 16
     }
   ]
 }

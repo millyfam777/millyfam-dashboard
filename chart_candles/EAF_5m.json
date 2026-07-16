@@ -2,8 +2,8 @@
   "symbol": "EAF",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-16T14:52:25.818147",
-  "bar_count": 232,
+  "generated_at": "2026-07-16T15:02:33.626675",
+  "bar_count": 234,
   "candles": [
     {
       "time": "2026-07-15T06:05:00",
@@ -1856,10 +1856,26 @@
     {
       "time": "2026-07-16T13:50:00",
       "open": 7.83,
+      "high": 7.85,
+      "low": 7.82,
+      "close": 7.84,
+      "volume": 9
+    },
+    {
+      "time": "2026-07-16T13:55:00",
+      "open": 7.83,
       "high": 7.83,
-      "low": 7.83,
-      "close": 7.83,
-      "volume": 6
+      "low": 7.8,
+      "close": 7.81,
+      "volume": 12
+    },
+    {
+      "time": "2026-07-16T14:00:00",
+      "open": 7.81,
+      "high": 7.81,
+      "low": 7.69,
+      "close": 7.69,
+      "volume": 28
     }
   ]
 }
