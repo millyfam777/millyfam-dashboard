@@ -2,8 +2,8 @@
   "symbol": "DAMD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-16T04:47:26.872539",
-  "bar_count": 202,
+  "generated_at": "2026-07-16T05:02:25.324980",
+  "bar_count": 205,
   "candles": [
     {
       "time": "2026-07-15T03:00:00",
@@ -1615,11 +1615,35 @@
     },
     {
       "time": "2026-07-16T03:45:00",
-      "open": 1.69,
+      "open": 1.68,
+      "high": 1.68,
+      "low": 1.68,
+      "close": 1.68,
+      "volume": 29
+    },
+    {
+      "time": "2026-07-16T03:50:00",
+      "open": 1.68,
       "high": 1.69,
-      "low": 1.69,
+      "low": 1.67,
       "close": 1.69,
-      "volume": 0
+      "volume": 623
+    },
+    {
+      "time": "2026-07-16T03:55:00",
+      "open": 1.68,
+      "high": 1.68,
+      "low": 1.68,
+      "close": 1.68,
+      "volume": 2
+    },
+    {
+      "time": "2026-07-16T04:00:00",
+      "open": 1.66,
+      "high": 1.66,
+      "low": 1.66,
+      "close": 1.66,
+      "volume": 3
     }
   ]
 }
