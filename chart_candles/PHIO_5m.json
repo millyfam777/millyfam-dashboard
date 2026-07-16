@@ -2,8 +2,8 @@
   "symbol": "PHIO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-16T12:32:23.204285",
-  "bar_count": 262,
+  "generated_at": "2026-07-16T12:37:09.405593",
+  "bar_count": 263,
   "candles": [
     {
       "time": "2026-07-15T05:45:00",
@@ -2096,10 +2096,18 @@
     {
       "time": "2026-07-16T11:30:00",
       "open": 1.0,
-      "high": 1.0,
-      "low": 0.9999,
-      "close": 0.9999,
-      "volume": 90
+      "high": 1.01,
+      "low": 0.995,
+      "close": 1.01,
+      "volume": 187
+    },
+    {
+      "time": "2026-07-16T11:35:00",
+      "open": 1.01,
+      "high": 1.01,
+      "low": 1.0,
+      "close": 1.0,
+      "volume": 8
     }
   ]
 }
