@@ -2,8 +2,8 @@
   "symbol": "MDCX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-16T11:47:29.812988",
-  "bar_count": 250,
+  "generated_at": "2026-07-16T11:52:33.590693",
+  "bar_count": 251,
   "candles": [
     {
       "time": "2026-07-15T03:00:00",
@@ -2000,10 +2000,18 @@
     {
       "time": "2026-07-16T10:45:00",
       "open": 0.3918,
-      "high": 0.3919,
+      "high": 0.394,
       "low": 0.3909,
-      "close": 0.3919,
-      "volume": 171
+      "close": 0.394,
+      "volume": 401
+    },
+    {
+      "time": "2026-07-16T10:50:00",
+      "open": 0.3925,
+      "high": 0.3925,
+      "low": 0.392,
+      "close": 0.392,
+      "volume": 11
     }
   ]
 }
