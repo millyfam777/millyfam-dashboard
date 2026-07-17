@@ -2,8 +2,8 @@
   "symbol": "VEEE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-17T12:00:48.489920",
-  "bar_count": 289,
+  "generated_at": "2026-07-17T12:07:04.147889",
+  "bar_count": 290,
   "candles": [
     {
       "time": "2026-07-16T03:00:00",
@@ -2312,10 +2312,18 @@
     {
       "time": "2026-07-17T11:00:00",
       "open": 40.21,
-      "high": 40.42,
+      "high": 40.46,
       "low": 39.0,
-      "close": 39.0,
-      "volume": 136
+      "close": 40.46,
+      "volume": 257
+    },
+    {
+      "time": "2026-07-17T11:05:00",
+      "open": 40.4,
+      "high": 40.4,
+      "low": 40.04,
+      "close": 40.25,
+      "volume": 29
     }
   ]
 }
