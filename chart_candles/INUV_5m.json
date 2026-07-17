@@ -2,8 +2,8 @@
   "symbol": "INUV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-17T14:02:40.865628",
-  "bar_count": 306,
+  "generated_at": "2026-07-17T14:17:26.904705",
+  "bar_count": 309,
   "candles": [
     {
       "time": "2026-07-16T03:35:00",
@@ -2449,9 +2449,33 @@
       "time": "2026-07-17T13:00:00",
       "open": 1.25,
       "high": 1.25,
+      "low": 1.2239,
+      "close": 1.2495,
+      "volume": 30
+    },
+    {
+      "time": "2026-07-17T13:05:00",
+      "open": 1.25,
+      "high": 1.25,
+      "low": 1.2174,
+      "close": 1.23,
+      "volume": 17
+    },
+    {
+      "time": "2026-07-17T13:10:00",
+      "open": 1.25,
+      "high": 1.25,
       "low": 1.25,
       "close": 1.25,
-      "volume": 27
+      "volume": 2
+    },
+    {
+      "time": "2026-07-17T13:15:00",
+      "open": 1.245,
+      "high": 1.25,
+      "low": 1.23,
+      "close": 1.25,
+      "volume": 93
     }
   ]
 }
