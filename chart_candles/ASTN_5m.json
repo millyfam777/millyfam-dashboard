@@ -2,8 +2,8 @@
   "symbol": "ASTN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-17T05:02:12.609677",
-  "bar_count": 205,
+  "generated_at": "2026-07-17T05:17:28.441597",
+  "bar_count": 208,
   "candles": [
     {
       "time": "2026-07-16T03:00:00",
@@ -1640,10 +1640,34 @@
     {
       "time": "2026-07-17T04:00:00",
       "open": 9.0,
-      "high": 9.0,
+      "high": 9.05,
+      "low": 9.0,
+      "close": 9.03,
+      "volume": 13
+    },
+    {
+      "time": "2026-07-17T04:05:00",
+      "open": 9.02,
+      "high": 9.05,
+      "low": 9.0,
+      "close": 9.01,
+      "volume": 42
+    },
+    {
+      "time": "2026-07-17T04:10:00",
+      "open": 9.01,
+      "high": 9.01,
       "low": 9.0,
       "close": 9.0,
-      "volume": 10
+      "volume": 12
+    },
+    {
+      "time": "2026-07-17T04:15:00",
+      "open": 9.01,
+      "high": 9.04,
+      "low": 9.0,
+      "close": 9.04,
+      "volume": 11
     }
   ]
 }
