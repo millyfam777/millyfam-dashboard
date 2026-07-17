@@ -2,8 +2,8 @@
   "symbol": "KLRS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-17T12:48:29.133822",
-  "bar_count": 196,
+  "generated_at": "2026-07-17T13:03:22.494676",
+  "bar_count": 199,
   "candles": [
     {
       "time": "2026-07-16T08:30:00",
@@ -1569,9 +1569,33 @@
       "time": "2026-07-17T11:45:00",
       "open": 5.43,
       "high": 5.61,
+      "low": 5.37,
+      "close": 5.41,
+      "volume": 1574
+    },
+    {
+      "time": "2026-07-17T11:50:00",
+      "open": 5.41,
+      "high": 5.53,
       "low": 5.4,
-      "close": 5.46,
-      "volume": 1286
+      "close": 5.47,
+      "volume": 372
+    },
+    {
+      "time": "2026-07-17T11:55:00",
+      "open": 5.47,
+      "high": 5.5,
+      "low": 5.41,
+      "close": 5.44,
+      "volume": 385
+    },
+    {
+      "time": "2026-07-17T12:00:00",
+      "open": 5.46,
+      "high": 5.54,
+      "low": 5.43,
+      "close": 5.5,
+      "volume": 159
     }
   ]
 }
