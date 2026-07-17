@@ -2,8 +2,8 @@
   "symbol": "NTRP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-17T10:57:48.904412",
-  "bar_count": 273,
+  "generated_at": "2026-07-17T11:12:16.613204",
+  "bar_count": 276,
   "candles": [
     {
       "time": "2026-07-16T03:00:00",
@@ -2184,10 +2184,34 @@
     {
       "time": "2026-07-17T09:55:00",
       "open": 1.7774,
-      "high": 1.8,
+      "high": 1.82,
       "low": 1.7774,
+      "close": 1.82,
+      "volume": 44
+    },
+    {
+      "time": "2026-07-17T10:00:00",
+      "open": 1.78,
+      "high": 1.81,
+      "low": 1.78,
+      "close": 1.78,
+      "volume": 43
+    },
+    {
+      "time": "2026-07-17T10:05:00",
+      "open": 1.78,
+      "high": 1.8,
+      "low": 1.78,
       "close": 1.8,
-      "volume": 42
+      "volume": 2
+    },
+    {
+      "time": "2026-07-17T10:10:00",
+      "open": 1.83,
+      "high": 1.83,
+      "low": 1.83,
+      "close": 1.83,
+      "volume": 3
     }
   ]
 }
