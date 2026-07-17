@@ -2,8 +2,8 @@
   "symbol": "GORO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-17T07:47:07.206851",
-  "bar_count": 238,
+  "generated_at": "2026-07-17T07:58:38.460524",
+  "bar_count": 240,
   "candles": [
     {
       "time": "2026-07-16T03:00:00",
@@ -1904,10 +1904,26 @@
     {
       "time": "2026-07-17T06:45:00",
       "open": 0.98,
-      "high": 0.98,
+      "high": 1.01,
       "low": 0.98,
-      "close": 0.98,
-      "volume": 1
+      "close": 1.01,
+      "volume": 84
+    },
+    {
+      "time": "2026-07-17T06:50:00",
+      "open": 1.01,
+      "high": 1.0276,
+      "low": 1.01,
+      "close": 1.0276,
+      "volume": 2
+    },
+    {
+      "time": "2026-07-17T06:55:00",
+      "open": 1.0198,
+      "high": 1.03,
+      "low": 1.0,
+      "close": 1.0116,
+      "volume": 32
     }
   ]
 }
