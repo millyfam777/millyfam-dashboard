@@ -2,8 +2,8 @@
   "symbol": "ARMP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-17T15:48:08.043360",
-  "bar_count": 226,
+  "generated_at": "2026-07-17T16:03:26.433945",
+  "bar_count": 229,
   "candles": [
     {
       "time": "2026-07-16T06:30:00",
@@ -1809,9 +1809,33 @@
       "time": "2026-07-17T14:45:00",
       "open": 4.36,
       "high": 4.4,
+      "low": 4.32,
+      "close": 4.33,
+      "volume": 44
+    },
+    {
+      "time": "2026-07-17T14:50:00",
+      "open": 4.35,
+      "high": 4.355,
       "low": 4.33,
-      "close": 4.35,
-      "volume": 31
+      "close": 4.355,
+      "volume": 43
+    },
+    {
+      "time": "2026-07-17T14:55:00",
+      "open": 4.37,
+      "high": 4.55,
+      "low": 4.34,
+      "close": 4.54,
+      "volume": 158
+    },
+    {
+      "time": "2026-07-17T15:00:00",
+      "open": 4.51,
+      "high": 4.6875,
+      "low": 4.49,
+      "close": 4.6875,
+      "volume": 74
     }
   ]
 }
