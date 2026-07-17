@@ -2,8 +2,8 @@
   "symbol": "SPCQ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-17T09:18:03.205269",
-  "bar_count": 256,
+  "generated_at": "2026-07-17T09:27:50.913711",
+  "bar_count": 258,
   "candles": [
     {
       "time": "2026-07-16T03:00:00",
@@ -2051,7 +2051,23 @@
       "high": 23.03,
       "low": 23.03,
       "close": 23.03,
-      "volume": 1
+      "volume": 3
+    },
+    {
+      "time": "2026-07-17T08:20:00",
+      "open": 23.04,
+      "high": 23.04,
+      "low": 22.84,
+      "close": 22.94,
+      "volume": 24
+    },
+    {
+      "time": "2026-07-17T08:25:00",
+      "open": 22.78,
+      "high": 22.84,
+      "low": 22.62,
+      "close": 22.62,
+      "volume": 13
     }
   ]
 }
