@@ -2,8 +2,8 @@
   "symbol": "BRIA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-20T04:02:29.780761",
-  "bar_count": 190,
+  "generated_at": "2026-07-20T04:18:38.587609",
+  "bar_count": 193,
   "candles": [
     {
       "time": "2026-07-17T03:15:00",
@@ -1520,10 +1520,34 @@
     {
       "time": "2026-07-20T03:00:00",
       "open": 1.47,
-      "high": 1.4997,
+      "high": 1.56,
       "low": 1.32,
-      "close": 1.32,
-      "volume": 16
+      "close": 1.56,
+      "volume": 24
+    },
+    {
+      "time": "2026-07-20T03:05:00",
+      "open": 1.555,
+      "high": 1.555,
+      "low": 1.44,
+      "close": 1.44,
+      "volume": 38
+    },
+    {
+      "time": "2026-07-20T03:10:00",
+      "open": 1.43,
+      "high": 1.5,
+      "low": 1.43,
+      "close": 1.5,
+      "volume": 4
+    },
+    {
+      "time": "2026-07-20T03:15:00",
+      "open": 1.48,
+      "high": 1.51,
+      "low": 1.4701,
+      "close": 1.51,
+      "volume": 42
     }
   ]
 }
