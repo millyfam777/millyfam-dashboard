@@ -2,8 +2,8 @@
   "symbol": "SKHX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-20T04:32:58.733665",
-  "bar_count": 199,
+  "generated_at": "2026-07-20T04:42:23.104310",
+  "bar_count": 201,
   "candles": [
     {
       "time": "2026-07-17T03:00:00",
@@ -1593,9 +1593,25 @@
       "time": "2026-07-20T03:30:00",
       "open": 15.0,
       "high": 15.0,
+      "low": 14.91,
+      "close": 14.94,
+      "volume": 91
+    },
+    {
+      "time": "2026-07-20T03:35:00",
+      "open": 14.9,
+      "high": 14.9,
+      "low": 14.83,
+      "close": 14.86,
+      "volume": 41
+    },
+    {
+      "time": "2026-07-20T03:40:00",
+      "open": 14.95,
+      "high": 14.97,
       "low": 14.95,
-      "close": 14.95,
-      "volume": 47
+      "close": 14.97,
+      "volume": 7
     }
   ]
 }
