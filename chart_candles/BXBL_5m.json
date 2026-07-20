@@ -2,8 +2,8 @@
   "symbol": "BXBL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-20T17:17:42.226963",
-  "bar_count": 160,
+  "generated_at": "2026-07-20T17:32:41.393977",
+  "bar_count": 163,
   "candles": [
     {
       "time": "2026-07-20T03:00:00",
@@ -1279,11 +1279,35 @@
     },
     {
       "time": "2026-07-20T16:15:00",
+      "open": 9.5,
+      "high": 9.5,
+      "low": 9.5,
+      "close": 9.5,
+      "volume": 1
+    },
+    {
+      "time": "2026-07-20T16:20:00",
       "open": 9.39,
       "high": 9.39,
       "low": 9.39,
       "close": 9.39,
-      "volume": 0
+      "volume": 1
+    },
+    {
+      "time": "2026-07-20T16:25:00",
+      "open": 9.56,
+      "high": 9.56,
+      "low": 9.27,
+      "close": 9.27,
+      "volume": 3
+    },
+    {
+      "time": "2026-07-20T16:30:00",
+      "open": 9.38,
+      "high": 9.45,
+      "low": 9.38,
+      "close": 9.45,
+      "volume": 2
     }
   ]
 }
