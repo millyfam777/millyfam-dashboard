@@ -2,8 +2,8 @@
   "symbol": "DPZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-20T06:47:41.923637",
-  "bar_count": 226,
+  "generated_at": "2026-07-20T06:57:30.036236",
+  "bar_count": 228,
   "candles": [
     {
       "time": "2026-07-17T03:00:00",
@@ -1810,8 +1810,24 @@
       "open": 345.0,
       "high": 346.9,
       "low": 345.0,
+      "close": 345.5,
+      "volume": 68
+    },
+    {
+      "time": "2026-07-20T05:50:00",
+      "open": 345.0,
+      "high": 345.5,
+      "low": 345.0,
       "close": 345.0,
-      "volume": 41
+      "volume": 22
+    },
+    {
+      "time": "2026-07-20T05:55:00",
+      "open": 343.02,
+      "high": 343.7,
+      "low": 343.01,
+      "close": 343.7,
+      "volume": 4
     }
   ]
 }
