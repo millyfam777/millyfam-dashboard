@@ -2,8 +2,8 @@
   "symbol": "NIKI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-20T16:33:11.510552",
-  "bar_count": 90,
+  "generated_at": "2026-07-20T16:48:41.568990",
+  "bar_count": 93,
   "candles": [
     {
       "time": "2026-07-20T08:05:00",
@@ -721,9 +721,33 @@
       "time": "2026-07-20T15:30:00",
       "open": 8.44,
       "high": 8.5,
-      "low": 8.44,
-      "close": 8.5,
-      "volume": 15
+      "low": 8.02,
+      "close": 8.02,
+      "volume": 16
+    },
+    {
+      "time": "2026-07-20T15:35:00",
+      "open": 8.13,
+      "high": 8.14,
+      "low": 8.02,
+      "close": 8.08,
+      "volume": 6
+    },
+    {
+      "time": "2026-07-20T15:40:00",
+      "open": 8.5,
+      "high": 8.5,
+      "low": 7.98,
+      "close": 8.09,
+      "volume": 9
+    },
+    {
+      "time": "2026-07-20T15:45:00",
+      "open": 8.5,
+      "high": 8.5,
+      "low": 8.24,
+      "close": 8.24,
+      "volume": 24
     }
   ]
 }

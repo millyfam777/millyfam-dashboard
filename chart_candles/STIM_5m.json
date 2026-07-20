@@ -2,8 +2,8 @@
   "symbol": "STIM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-20T16:33:06.402568",
-  "bar_count": 343,
+  "generated_at": "2026-07-20T16:48:37.008657",
+  "bar_count": 346,
   "candles": [
     {
       "time": "2026-07-17T03:00:00",
@@ -2744,10 +2744,34 @@
     {
       "time": "2026-07-20T15:30:00",
       "open": 1.9911,
-      "high": 1.996,
+      "high": 2.0,
       "low": 1.9911,
-      "close": 1.996,
-      "volume": 3
+      "close": 2.0,
+      "volume": 7
+    },
+    {
+      "time": "2026-07-20T15:35:00",
+      "open": 2.0,
+      "high": 2.0,
+      "low": 1.9968,
+      "close": 1.9979,
+      "volume": 4
+    },
+    {
+      "time": "2026-07-20T15:40:00",
+      "open": 2.0,
+      "high": 2.01,
+      "low": 2.0,
+      "close": 2.01,
+      "volume": 6
+    },
+    {
+      "time": "2026-07-20T15:45:00",
+      "open": 2.0488,
+      "high": 2.0488,
+      "low": 2.02,
+      "close": 2.02,
+      "volume": 22
     }
   ]
 }
