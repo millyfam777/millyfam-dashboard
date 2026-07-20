@@ -2,8 +2,8 @@
   "symbol": "CIIT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-20T15:17:49.537344",
-  "bar_count": 76,
+  "generated_at": "2026-07-20T15:32:33.945237",
+  "bar_count": 79,
   "candles": [
     {
       "time": "2026-07-20T08:00:00",
@@ -608,9 +608,33 @@
     {
       "time": "2026-07-20T14:15:00",
       "open": 3.43,
-      "high": 3.43,
+      "high": 3.5,
+      "low": 3.37,
+      "close": 3.49,
+      "volume": 3
+    },
+    {
+      "time": "2026-07-20T14:20:00",
+      "open": 3.5,
+      "high": 3.5,
+      "low": 3.37,
+      "close": 3.37,
+      "volume": 11
+    },
+    {
+      "time": "2026-07-20T14:25:00",
+      "open": 3.4,
+      "high": 3.44,
+      "low": 3.4,
+      "close": 3.44,
+      "volume": 31
+    },
+    {
+      "time": "2026-07-20T14:30:00",
+      "open": 3.44,
+      "high": 3.44,
       "low": 3.43,
-      "close": 3.43,
+      "close": 3.44,
       "volume": 0
     }
   ]
