@@ -2,8 +2,8 @@
   "symbol": "XCUR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-20T15:32:26.677892",
-  "bar_count": 330,
+  "generated_at": "2026-07-20T15:42:24.426233",
+  "bar_count": 332,
   "candles": [
     {
       "time": "2026-07-17T03:00:00",
@@ -2641,9 +2641,25 @@
       "time": "2026-07-20T14:30:00",
       "open": 2.01,
       "high": 2.01,
-      "low": 2.0,
+      "low": 1.99,
       "close": 2.0,
-      "volume": 4
+      "volume": 8
+    },
+    {
+      "time": "2026-07-20T14:35:00",
+      "open": 1.98,
+      "high": 1.99,
+      "low": 1.9,
+      "close": 1.9155,
+      "volume": 70
+    },
+    {
+      "time": "2026-07-20T14:40:00",
+      "open": 1.91,
+      "high": 1.935,
+      "low": 1.87,
+      "close": 1.92,
+      "volume": 94
     }
   ]
 }
