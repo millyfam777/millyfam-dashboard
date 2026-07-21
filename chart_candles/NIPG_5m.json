@@ -2,8 +2,8 @@
   "symbol": "NIPG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-21T13:48:13.201322",
-  "bar_count": 192,
+  "generated_at": "2026-07-21T13:53:27.729573",
+  "bar_count": 193,
   "candles": [
     {
       "time": "2026-07-20T07:15:00",
@@ -1537,9 +1537,17 @@
       "time": "2026-07-21T12:45:00",
       "open": 6.36,
       "high": 6.39,
-      "low": 6.36,
-      "close": 6.39,
-      "volume": 2
+      "low": 5.85,
+      "close": 5.85,
+      "volume": 5
+    },
+    {
+      "time": "2026-07-21T12:50:00",
+      "open": 5.85,
+      "high": 5.85,
+      "low": 5.85,
+      "close": 5.85,
+      "volume": 0
     }
   ]
 }
