@@ -2,8 +2,8 @@
   "symbol": "WGRX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-21T12:03:23.445026",
-  "bar_count": 186,
+  "generated_at": "2026-07-21T12:18:26.245833",
+  "bar_count": 189,
   "candles": [
     {
       "time": "2026-07-20T06:40:00",
@@ -1488,10 +1488,34 @@
     {
       "time": "2026-07-21T11:00:00",
       "open": 3.5,
-      "high": 3.51,
+      "high": 3.6,
       "low": 3.49,
-      "close": 3.49,
-      "volume": 6
+      "close": 3.56,
+      "volume": 39
+    },
+    {
+      "time": "2026-07-21T11:05:00",
+      "open": 3.56,
+      "high": 3.73,
+      "low": 3.54,
+      "close": 3.71,
+      "volume": 78
+    },
+    {
+      "time": "2026-07-21T11:10:00",
+      "open": 3.72,
+      "high": 3.74,
+      "low": 3.51,
+      "close": 3.65,
+      "volume": 232
+    },
+    {
+      "time": "2026-07-21T11:15:00",
+      "open": 3.67,
+      "high": 3.67,
+      "low": 3.51,
+      "close": 3.59,
+      "volume": 75
     }
   ]
 }
