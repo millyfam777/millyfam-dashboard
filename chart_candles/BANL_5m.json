@@ -2,8 +2,8 @@
   "symbol": "BANL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-21T10:32:57.361597",
-  "bar_count": 206,
+  "generated_at": "2026-07-21T10:48:08.883200",
+  "bar_count": 209,
   "candles": [
     {
       "time": "2026-07-20T08:25:00",
@@ -1648,10 +1648,34 @@
     {
       "time": "2026-07-21T09:30:00",
       "open": 5.0,
-      "high": 5.0,
+      "high": 5.11,
       "low": 4.9,
-      "close": 4.9,
+      "close": 5.11,
+      "volume": 15
+    },
+    {
+      "time": "2026-07-21T09:35:00",
+      "open": 5.1,
+      "high": 5.1,
+      "low": 5.09,
+      "close": 5.09,
       "volume": 10
+    },
+    {
+      "time": "2026-07-21T09:40:00",
+      "open": 5.1,
+      "high": 5.25,
+      "low": 5.1,
+      "close": 5.2,
+      "volume": 7
+    },
+    {
+      "time": "2026-07-21T09:45:00",
+      "open": 5.24,
+      "high": 5.25,
+      "low": 4.97,
+      "close": 5.25,
+      "volume": 23
     }
   ]
 }
