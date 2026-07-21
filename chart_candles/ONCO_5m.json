@@ -2,8 +2,8 @@
   "symbol": "ONCO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-21T04:02:04.635217",
-  "bar_count": 193,
+  "generated_at": "2026-07-21T04:07:12.779640",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-07-20T03:00:00",
@@ -1544,10 +1544,18 @@
     {
       "time": "2026-07-21T03:00:00",
       "open": 0.992,
-      "high": 0.992,
+      "high": 1.08,
       "low": 0.95,
-      "close": 0.9898,
-      "volume": 29
+      "close": 1.0,
+      "volume": 93
+    },
+    {
+      "time": "2026-07-21T03:05:00",
+      "open": 1.0,
+      "high": 1.0,
+      "low": 1.0,
+      "close": 1.0,
+      "volume": 0
     }
   ]
 }
