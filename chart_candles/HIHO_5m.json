@@ -2,8 +2,8 @@
   "symbol": "HIHO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-21T10:03:27.591300",
-  "bar_count": 229,
+  "generated_at": "2026-07-21T10:08:40.023535",
+  "bar_count": 230,
   "candles": [
     {
       "time": "2026-07-20T06:00:00",
@@ -1832,10 +1832,18 @@
     {
       "time": "2026-07-21T09:00:00",
       "open": 1.31,
-      "high": 1.335,
+      "high": 1.34,
       "low": 1.3,
-      "close": 1.33,
-      "volume": 3274
+      "close": 1.3302,
+      "volume": 4197
+    },
+    {
+      "time": "2026-07-21T09:05:00",
+      "open": 1.335,
+      "high": 1.34,
+      "low": 1.31,
+      "close": 1.34,
+      "volume": 1664
     }
   ]
 }

@@ -2,8 +2,8 @@
   "symbol": "HYNX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-21T10:02:29.763665",
-  "bar_count": 265,
+  "generated_at": "2026-07-21T10:07:18.880484",
+  "bar_count": 266,
   "candles": [
     {
       "time": "2026-07-20T03:00:00",
@@ -2121,9 +2121,17 @@
       "time": "2026-07-21T09:00:00",
       "open": 26.38,
       "high": 26.54,
-      "low": 26.28,
-      "close": 26.38,
-      "volume": 244
+      "low": 25.95,
+      "close": 26.0,
+      "volume": 354
+    },
+    {
+      "time": "2026-07-21T09:05:00",
+      "open": 25.95,
+      "high": 26.29,
+      "low": 25.95,
+      "close": 26.29,
+      "volume": 20
     }
   ]
 }

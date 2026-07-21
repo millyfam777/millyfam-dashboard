@@ -2,8 +2,8 @@
   "symbol": "COIG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-21T10:02:52.678639",
-  "bar_count": 265,
+  "generated_at": "2026-07-21T10:18:18.708975",
+  "bar_count": 268,
   "candles": [
     {
       "time": "2026-07-20T03:00:00",
@@ -2120,10 +2120,34 @@
     {
       "time": "2026-07-21T09:00:00",
       "open": 5.87,
-      "high": 5.87,
+      "high": 5.93,
       "low": 5.83,
-      "close": 5.83,
-      "volume": 12
+      "close": 5.93,
+      "volume": 23
+    },
+    {
+      "time": "2026-07-21T09:05:00",
+      "open": 5.98,
+      "high": 6.04,
+      "low": 5.97,
+      "close": 6.02,
+      "volume": 166
+    },
+    {
+      "time": "2026-07-21T09:10:00",
+      "open": 6.03,
+      "high": 6.03,
+      "low": 5.93,
+      "close": 5.96,
+      "volume": 229
+    },
+    {
+      "time": "2026-07-21T09:15:00",
+      "open": 6.01,
+      "high": 6.03,
+      "low": 5.98,
+      "close": 5.99,
+      "volume": 41
     }
   ]
 }
