@@ -2,8 +2,8 @@
   "symbol": "DFNS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-21T11:03:33.316760",
-  "bar_count": 217,
+  "generated_at": "2026-07-21T11:18:38.365031",
+  "bar_count": 220,
   "candles": [
     {
       "time": "2026-07-20T08:00:00",
@@ -1735,11 +1735,35 @@
     },
     {
       "time": "2026-07-21T10:00:00",
-      "open": 5.17,
-      "high": 5.17,
+      "open": 5.35,
+      "high": 5.6,
       "low": 5.17,
-      "close": 5.17,
-      "volume": 0
+      "close": 5.49,
+      "volume": 355
+    },
+    {
+      "time": "2026-07-21T10:05:00",
+      "open": 5.52,
+      "high": 6.18,
+      "low": 5.44,
+      "close": 6.08,
+      "volume": 3609
+    },
+    {
+      "time": "2026-07-21T10:10:00",
+      "open": 6.1,
+      "high": 6.8,
+      "low": 5.71,
+      "close": 6.64,
+      "volume": 4534
+    },
+    {
+      "time": "2026-07-21T10:15:00",
+      "open": 6.68,
+      "high": 7.3,
+      "low": 6.58,
+      "close": 7.13,
+      "volume": 4895
     }
   ]
 }
