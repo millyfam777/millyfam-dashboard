@@ -2,8 +2,8 @@
   "symbol": "LMFA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-21T04:32:15.766503",
-  "bar_count": 199,
+  "generated_at": "2026-07-21T04:47:07.238589",
+  "bar_count": 202,
   "candles": [
     {
       "time": "2026-07-20T03:00:00",
@@ -1592,9 +1592,33 @@
     {
       "time": "2026-07-21T03:30:00",
       "open": 2.67,
-      "high": 2.67,
+      "high": 2.69,
+      "low": 2.6,
+      "close": 2.64,
+      "volume": 12
+    },
+    {
+      "time": "2026-07-21T03:35:00",
+      "open": 2.61,
+      "high": 2.64,
+      "low": 2.6,
+      "close": 2.64,
+      "volume": 12
+    },
+    {
+      "time": "2026-07-21T03:40:00",
+      "open": 2.62,
+      "high": 2.7,
       "low": 2.62,
-      "close": 2.62,
+      "close": 2.7,
+      "volume": 7
+    },
+    {
+      "time": "2026-07-21T03:45:00",
+      "open": 2.7,
+      "high": 2.7,
+      "low": 2.7,
+      "close": 2.7,
       "volume": 2
     }
   ]
