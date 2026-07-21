@@ -2,8 +2,8 @@
   "symbol": "MLEC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-21T14:32:52.933489",
-  "bar_count": 176,
+  "generated_at": "2026-07-21T14:47:56.904354",
+  "bar_count": 179,
   "candles": [
     {
       "time": "2026-07-20T09:00:00",
@@ -1408,10 +1408,34 @@
     {
       "time": "2026-07-21T13:30:00",
       "open": 8.67,
-      "high": 8.67,
+      "high": 8.69,
       "low": 8.39,
-      "close": 8.65,
-      "volume": 39
+      "close": 8.6,
+      "volume": 60
+    },
+    {
+      "time": "2026-07-21T13:35:00",
+      "open": 8.6,
+      "high": 8.69,
+      "low": 8.5,
+      "close": 8.5,
+      "volume": 71
+    },
+    {
+      "time": "2026-07-21T13:40:00",
+      "open": 8.51,
+      "high": 8.69,
+      "low": 8.35,
+      "close": 8.69,
+      "volume": 68
+    },
+    {
+      "time": "2026-07-21T13:45:00",
+      "open": 8.7,
+      "high": 8.8,
+      "low": 8.55,
+      "close": 8.71,
+      "volume": 20
     }
   ]
 }

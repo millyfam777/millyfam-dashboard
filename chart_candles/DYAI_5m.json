@@ -2,8 +2,8 @@
   "symbol": "DYAI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-21T14:32:38.799218",
-  "bar_count": 204,
+  "generated_at": "2026-07-21T14:37:18.071426",
+  "bar_count": 205,
   "candles": [
     {
       "time": "2026-07-20T08:30:00",
@@ -1631,11 +1631,19 @@
     },
     {
       "time": "2026-07-21T13:30:00",
-      "open": 1.52,
+      "open": 1.51,
+      "high": 1.51,
+      "low": 1.51,
+      "close": 1.51,
+      "volume": 1
+    },
+    {
+      "time": "2026-07-21T13:35:00",
+      "open": 1.51,
       "high": 1.52,
-      "low": 1.52,
-      "close": 1.52,
-      "volume": 0
+      "low": 1.47,
+      "close": 1.5,
+      "volume": 407
     }
   ]
 }
