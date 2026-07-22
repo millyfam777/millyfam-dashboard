@@ -2,8 +2,8 @@
   "symbol": "SMCY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-22T11:32:37.523959",
-  "bar_count": 283,
+  "generated_at": "2026-07-22T11:47:44.656831",
+  "bar_count": 286,
   "candles": [
     {
       "time": "2026-07-21T03:00:00",
@@ -2265,9 +2265,33 @@
       "time": "2026-07-22T10:30:00",
       "open": 5.1,
       "high": 5.12,
+      "low": 5.09,
+      "close": 5.1,
+      "volume": 577
+    },
+    {
+      "time": "2026-07-22T10:35:00",
+      "open": 5.09,
+      "high": 5.11,
+      "low": 5.09,
+      "close": 5.1,
+      "volume": 145
+    },
+    {
+      "time": "2026-07-22T10:40:00",
+      "open": 5.1,
+      "high": 5.11,
       "low": 5.1,
       "close": 5.1,
-      "volume": 475
+      "volume": 321
+    },
+    {
+      "time": "2026-07-22T10:45:00",
+      "open": 5.1,
+      "high": 5.11,
+      "low": 5.1,
+      "close": 5.11,
+      "volume": 147
     }
   ]
 }
