@@ -2,8 +2,8 @@
   "symbol": "PCSA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-22T12:02:24.166074",
-  "bar_count": 223,
+  "generated_at": "2026-07-22T12:12:22.107678",
+  "bar_count": 225,
   "candles": [
     {
       "time": "2026-07-21T08:30:00",
@@ -1783,11 +1783,27 @@
     },
     {
       "time": "2026-07-22T11:00:00",
+      "open": 2.59,
+      "high": 2.6,
+      "low": 2.59,
+      "close": 2.6,
+      "volume": 10
+    },
+    {
+      "time": "2026-07-22T11:05:00",
       "open": 2.58,
       "high": 2.58,
       "low": 2.58,
       "close": 2.58,
-      "volume": 0
+      "volume": 2
+    },
+    {
+      "time": "2026-07-22T11:10:00",
+      "open": 2.57,
+      "high": 2.57,
+      "low": 2.51,
+      "close": 2.511,
+      "volume": 12
     }
   ]
 }

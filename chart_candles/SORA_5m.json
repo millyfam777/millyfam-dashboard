@@ -2,8 +2,8 @@
   "symbol": "SORA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-22T12:03:09.683392",
-  "bar_count": 150,
+  "generated_at": "2026-07-22T12:18:18.284608",
+  "bar_count": 153,
   "candles": [
     {
       "time": "2026-07-21T09:10:00",
@@ -1200,10 +1200,34 @@
     {
       "time": "2026-07-22T11:00:00",
       "open": 2.0,
-      "high": 2.0,
+      "high": 2.135,
       "low": 2.0,
-      "close": 2.0,
-      "volume": 1
+      "close": 2.1,
+      "volume": 47
+    },
+    {
+      "time": "2026-07-22T11:05:00",
+      "open": 2.15,
+      "high": 2.166,
+      "low": 1.99,
+      "close": 2.0091,
+      "volume": 80
+    },
+    {
+      "time": "2026-07-22T11:10:00",
+      "open": 2.0685,
+      "high": 2.07,
+      "low": 2.0685,
+      "close": 2.07,
+      "volume": 3
+    },
+    {
+      "time": "2026-07-22T11:15:00",
+      "open": 2.0,
+      "high": 2.0686,
+      "low": 2.0,
+      "close": 2.0686,
+      "volume": 3
     }
   ]
 }
