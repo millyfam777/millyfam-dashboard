@@ -2,8 +2,8 @@
   "symbol": "SMCX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-22T19:33:29.150528",
-  "bar_count": 379,
+  "generated_at": "2026-07-22T19:48:29.005713",
+  "bar_count": 382,
   "candles": [
     {
       "time": "2026-07-21T03:00:00",
@@ -3032,10 +3032,34 @@
     {
       "time": "2026-07-22T18:30:00",
       "open": 9.12,
-      "high": 9.2,
+      "high": 9.23,
       "low": 9.11,
+      "close": 9.22,
+      "volume": 276
+    },
+    {
+      "time": "2026-07-22T18:35:00",
+      "open": 9.22,
+      "high": 9.22,
+      "low": 9.16,
+      "close": 9.16,
+      "volume": 26
+    },
+    {
+      "time": "2026-07-22T18:40:00",
+      "open": 9.16,
+      "high": 9.19,
+      "low": 9.16,
+      "close": 9.16,
+      "volume": 41
+    },
+    {
+      "time": "2026-07-22T18:45:00",
+      "open": 9.16,
+      "high": 9.2,
+      "low": 9.16,
       "close": 9.2,
-      "volume": 191
+      "volume": 16
     }
   ]
 }
