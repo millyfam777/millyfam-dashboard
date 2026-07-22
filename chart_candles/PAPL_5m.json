@@ -2,8 +2,8 @@
   "symbol": "PAPL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-22T15:33:25.953448",
-  "bar_count": 331,
+  "generated_at": "2026-07-22T15:48:23.249843",
+  "bar_count": 334,
   "candles": [
     {
       "time": "2026-07-21T03:00:00",
@@ -2650,8 +2650,32 @@
       "open": 1.005,
       "high": 1.01,
       "low": 1.0,
+      "close": 1.01,
+      "volume": 64
+    },
+    {
+      "time": "2026-07-22T14:35:00",
+      "open": 1.01,
+      "high": 1.01,
+      "low": 1.0,
       "close": 1.0,
-      "volume": 37
+      "volume": 24
+    },
+    {
+      "time": "2026-07-22T14:40:00",
+      "open": 1.005,
+      "high": 1.02,
+      "low": 1.005,
+      "close": 1.01,
+      "volume": 60
+    },
+    {
+      "time": "2026-07-22T14:45:00",
+      "open": 1.01,
+      "high": 1.01,
+      "low": 0.9934,
+      "close": 1.0,
+      "volume": 50
     }
   ]
 }
