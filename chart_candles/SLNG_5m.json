@@ -2,8 +2,8 @@
   "symbol": "SLNG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-22T13:02:09.565733",
-  "bar_count": 206,
+  "generated_at": "2026-07-22T13:18:31.030775",
+  "bar_count": 209,
   "candles": [
     {
       "time": "2026-07-21T05:25:00",
@@ -1648,10 +1648,34 @@
     {
       "time": "2026-07-22T12:00:00",
       "open": 4.65,
-      "high": 4.83,
+      "high": 4.84,
       "low": 4.58,
-      "close": 4.8,
-      "volume": 48
+      "close": 4.68,
+      "volume": 92
+    },
+    {
+      "time": "2026-07-22T12:05:00",
+      "open": 4.65,
+      "high": 4.65,
+      "low": 4.62,
+      "close": 4.64,
+      "volume": 17
+    },
+    {
+      "time": "2026-07-22T12:10:00",
+      "open": 4.71,
+      "high": 4.72,
+      "low": 4.68,
+      "close": 4.71,
+      "volume": 10
+    },
+    {
+      "time": "2026-07-22T12:15:00",
+      "open": 4.65,
+      "high": 4.8,
+      "low": 4.64,
+      "close": 4.72,
+      "volume": 25
     }
   ]
 }
