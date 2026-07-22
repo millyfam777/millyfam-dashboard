@@ -2,8 +2,8 @@
   "symbol": "OTLY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-22T15:48:14.064461",
-  "bar_count": 232,
+  "generated_at": "2026-07-22T16:03:10.821694",
+  "bar_count": 235,
   "candles": [
     {
       "time": "2026-07-21T08:30:00",
@@ -1858,8 +1858,32 @@
       "open": 11.6,
       "high": 11.63,
       "low": 11.51,
+      "close": 11.52,
+      "volume": 18
+    },
+    {
+      "time": "2026-07-22T14:50:00",
+      "open": 11.54,
+      "high": 11.59,
+      "low": 11.2,
       "close": 11.51,
-      "volume": 17
+      "volume": 99
+    },
+    {
+      "time": "2026-07-22T14:55:00",
+      "open": 11.48,
+      "high": 11.56,
+      "low": 10.4,
+      "close": 10.58,
+      "volume": 880
+    },
+    {
+      "time": "2026-07-22T15:00:00",
+      "open": 10.78,
+      "high": 10.78,
+      "low": 10.75,
+      "close": 10.75,
+      "volume": 101
     }
   ]
 }
