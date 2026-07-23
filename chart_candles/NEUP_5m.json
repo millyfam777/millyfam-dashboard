@@ -2,8 +2,8 @@
   "symbol": "NEUP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-23T11:48:44.616775",
-  "bar_count": 213,
+  "generated_at": "2026-07-23T12:03:11.204856",
+  "bar_count": 216,
   "candles": [
     {
       "time": "2026-07-22T08:30:00",
@@ -1705,9 +1705,33 @@
       "time": "2026-07-23T10:45:00",
       "open": 4.05,
       "high": 4.09,
-      "low": 4.03,
+      "low": 4.02,
+      "close": 4.03,
+      "volume": 95
+    },
+    {
+      "time": "2026-07-23T10:50:00",
+      "open": 4.02,
+      "high": 4.09,
+      "low": 3.97,
+      "close": 4.02,
+      "volume": 325
+    },
+    {
+      "time": "2026-07-23T10:55:00",
+      "open": 4.03,
+      "high": 4.06,
+      "low": 4.0,
       "close": 4.06,
-      "volume": 80
+      "volume": 85
+    },
+    {
+      "time": "2026-07-23T11:00:00",
+      "open": 4.07,
+      "high": 4.07,
+      "low": 4.01,
+      "close": 4.03,
+      "volume": 24
     }
   ]
 }
