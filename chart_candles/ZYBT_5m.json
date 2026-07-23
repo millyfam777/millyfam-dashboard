@@ -2,8 +2,8 @@
   "symbol": "ZYBT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-23T09:03:23.257794",
-  "bar_count": 253,
+  "generated_at": "2026-07-23T09:18:26.534983",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-07-22T03:00:00",
@@ -2025,9 +2025,33 @@
       "time": "2026-07-23T08:00:00",
       "open": 1.58,
       "high": 1.59,
+      "low": 1.57,
+      "close": 1.57,
+      "volume": 129
+    },
+    {
+      "time": "2026-07-23T08:05:00",
+      "open": 1.58,
+      "high": 1.61,
+      "low": 1.55,
+      "close": 1.59,
+      "volume": 448
+    },
+    {
+      "time": "2026-07-23T08:10:00",
+      "open": 1.58,
+      "high": 1.61,
       "low": 1.58,
-      "close": 1.58,
-      "volume": 82
+      "close": 1.59,
+      "volume": 226
+    },
+    {
+      "time": "2026-07-23T08:15:00",
+      "open": 1.5997,
+      "high": 1.61,
+      "low": 1.59,
+      "close": 1.6,
+      "volume": 102
     }
   ]
 }

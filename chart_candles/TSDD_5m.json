@@ -2,8 +2,8 @@
   "symbol": "TSDD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-23T09:03:25.540270",
-  "bar_count": 253,
+  "generated_at": "2026-07-23T09:18:31.078448",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-07-22T03:00:00",
@@ -2024,10 +2024,34 @@
     {
       "time": "2026-07-23T08:00:00",
       "open": 9.74,
-      "high": 9.77,
+      "high": 9.8,
       "low": 9.73,
-      "close": 9.77,
-      "volume": 222
+      "close": 9.8,
+      "volume": 508
+    },
+    {
+      "time": "2026-07-23T08:05:00",
+      "open": 9.81,
+      "high": 9.84,
+      "low": 9.79,
+      "close": 9.84,
+      "volume": 241
+    },
+    {
+      "time": "2026-07-23T08:10:00",
+      "open": 9.83,
+      "high": 9.85,
+      "low": 9.79,
+      "close": 9.8,
+      "volume": 954
+    },
+    {
+      "time": "2026-07-23T08:15:00",
+      "open": 9.8,
+      "high": 9.81,
+      "low": 9.78,
+      "close": 9.79,
+      "volume": 287
     }
   ]
 }
