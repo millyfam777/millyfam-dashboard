@@ -2,8 +2,8 @@
   "symbol": "ETS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-23T17:17:13.800213",
-  "bar_count": 328,
+  "generated_at": "2026-07-23T17:32:16.029841",
+  "bar_count": 331,
   "candles": [
     {
       "time": "2026-07-22T05:00:00",
@@ -2623,10 +2623,34 @@
     },
     {
       "time": "2026-07-23T16:15:00",
-      "open": 1.0,
-      "high": 1.0,
+      "open": 1.01,
+      "high": 1.04,
+      "low": 1.01,
+      "close": 1.04,
+      "volume": 4
+    },
+    {
+      "time": "2026-07-23T16:20:00",
+      "open": 1.03,
+      "high": 1.03,
       "low": 1.0,
       "close": 1.0,
+      "volume": 6
+    },
+    {
+      "time": "2026-07-23T16:25:00",
+      "open": 1.0,
+      "high": 1.04,
+      "low": 1.0,
+      "close": 1.01,
+      "volume": 8
+    },
+    {
+      "time": "2026-07-23T16:30:00",
+      "open": 1.01,
+      "high": 1.01,
+      "low": 1.01,
+      "close": 1.01,
       "volume": 0
     }
   ]
