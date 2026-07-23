@@ -2,8 +2,8 @@
   "symbol": "DSC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-23T14:47:04.074177",
-  "bar_count": 188,
+  "generated_at": "2026-07-23T15:02:32.704449",
+  "bar_count": 191,
   "candles": [
     {
       "time": "2026-07-22T08:30:00",
@@ -1504,10 +1504,34 @@
     {
       "time": "2026-07-23T13:45:00",
       "open": 6.3,
-      "high": 6.57,
+      "high": 6.7,
+      "low": 6.19,
+      "close": 6.22,
+      "volume": 57
+    },
+    {
+      "time": "2026-07-23T13:50:00",
+      "open": 6.2,
+      "high": 6.23,
+      "low": 6.2,
+      "close": 6.23,
+      "volume": 24
+    },
+    {
+      "time": "2026-07-23T13:55:00",
+      "open": 6.3,
+      "high": 6.45,
       "low": 6.3,
-      "close": 6.57,
-      "volume": 12
+      "close": 6.45,
+      "volume": 5
+    },
+    {
+      "time": "2026-07-23T14:00:00",
+      "open": 6.45,
+      "high": 6.45,
+      "low": 6.45,
+      "close": 6.45,
+      "volume": 0
     }
   ]
 }
