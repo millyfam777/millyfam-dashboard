@@ -2,8 +2,8 @@
   "symbol": "JEM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-23T19:03:36.334102",
-  "bar_count": 373,
+  "generated_at": "2026-07-23T19:18:36.368147",
+  "bar_count": 376,
   "candles": [
     {
       "time": "2026-07-22T03:00:00",
@@ -2985,9 +2985,33 @@
       "time": "2026-07-23T18:00:00",
       "open": 5.85,
       "high": 5.96,
+      "low": 5.8,
+      "close": 5.83,
+      "volume": 454
+    },
+    {
+      "time": "2026-07-23T18:05:00",
+      "open": 5.83,
+      "high": 5.91,
       "low": 5.83,
-      "close": 5.88,
-      "volume": 226
+      "close": 5.91,
+      "volume": 68
+    },
+    {
+      "time": "2026-07-23T18:10:00",
+      "open": 5.94,
+      "high": 6.06,
+      "low": 5.92,
+      "close": 5.93,
+      "volume": 211
+    },
+    {
+      "time": "2026-07-23T18:15:00",
+      "open": 5.93,
+      "high": 5.93,
+      "low": 5.83,
+      "close": 5.83,
+      "volume": 44
     }
   ]
 }
