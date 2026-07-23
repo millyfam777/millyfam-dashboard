@@ -2,8 +2,8 @@
   "symbol": "DOMO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-23T06:48:39.305972",
-  "bar_count": 160,
+  "generated_at": "2026-07-23T07:03:37.192703",
+  "bar_count": 163,
   "candles": [
     {
       "time": "2026-07-22T08:30:00",
@@ -1280,10 +1280,34 @@
     {
       "time": "2026-07-23T05:45:00",
       "open": 3.9,
+      "high": 3.91,
+      "low": 3.89,
+      "close": 3.9,
+      "volume": 14
+    },
+    {
+      "time": "2026-07-23T05:50:00",
+      "open": 3.9,
       "high": 3.9,
       "low": 3.89,
       "close": 3.89,
-      "volume": 10
+      "volume": 12
+    },
+    {
+      "time": "2026-07-23T05:55:00",
+      "open": 3.86,
+      "high": 3.88,
+      "low": 3.86,
+      "close": 3.88,
+      "volume": 14
+    },
+    {
+      "time": "2026-07-23T06:00:00",
+      "open": 3.87,
+      "high": 3.87,
+      "low": 3.77,
+      "close": 3.8,
+      "volume": 510
     }
   ]
 }
