@@ -2,8 +2,8 @@
   "symbol": "EQPT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-23T12:17:09.133636",
-  "bar_count": 288,
+  "generated_at": "2026-07-23T12:22:03.959052",
+  "bar_count": 289,
   "candles": [
     {
       "time": "2026-07-22T03:00:00",
@@ -2304,10 +2304,18 @@
     {
       "time": "2026-07-23T11:15:00",
       "open": 19.49,
-      "high": 19.54,
+      "high": 19.57,
       "low": 19.42,
+      "close": 19.49,
+      "volume": 414
+    },
+    {
+      "time": "2026-07-23T11:20:00",
+      "open": 19.5,
+      "high": 19.52,
+      "low": 19.5,
       "close": 19.52,
-      "volume": 229
+      "volume": 105
     }
   ]
 }

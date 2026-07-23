@@ -2,8 +2,8 @@
   "symbol": "TSLS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-23T12:17:16.097445",
-  "bar_count": 288,
+  "generated_at": "2026-07-23T12:32:19.573783",
+  "bar_count": 291,
   "candles": [
     {
       "time": "2026-07-22T03:20:00",
@@ -2306,8 +2306,32 @@
       "open": 64.16,
       "high": 64.25,
       "low": 64.14,
+      "close": 64.18,
+      "volume": 138
+    },
+    {
+      "time": "2026-07-23T11:20:00",
+      "open": 64.24,
+      "high": 64.24,
+      "low": 64.02,
+      "close": 64.16,
+      "volume": 90
+    },
+    {
+      "time": "2026-07-23T11:25:00",
+      "open": 64.23,
+      "high": 64.23,
+      "low": 64.12,
       "close": 64.19,
-      "volume": 70
+      "volume": 33
+    },
+    {
+      "time": "2026-07-23T11:30:00",
+      "open": 64.19,
+      "high": 64.23,
+      "low": 64.17,
+      "close": 64.2,
+      "volume": 12
     }
   ]
 }
