@@ -2,8 +2,8 @@
   "symbol": "AIRE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-23T16:03:02.008957",
-  "bar_count": 272,
+  "generated_at": "2026-07-23T16:18:07.546352",
+  "bar_count": 275,
   "candles": [
     {
       "time": "2026-07-22T07:10:00",
@@ -2176,10 +2176,34 @@
     {
       "time": "2026-07-23T15:00:00",
       "open": 1.56,
-      "high": 1.56,
+      "high": 1.6058,
       "low": 1.54,
-      "close": 1.54,
-      "volume": 12
+      "close": 1.5612,
+      "volume": 23
+    },
+    {
+      "time": "2026-07-23T15:05:00",
+      "open": 1.5612,
+      "high": 1.5612,
+      "low": 1.5612,
+      "close": 1.5612,
+      "volume": 0
+    },
+    {
+      "time": "2026-07-23T15:10:00",
+      "open": 1.5,
+      "high": 1.5,
+      "low": 1.5,
+      "close": 1.5,
+      "volume": 100
+    },
+    {
+      "time": "2026-07-23T15:15:00",
+      "open": 1.5,
+      "high": 1.5,
+      "low": 1.5,
+      "close": 1.5,
+      "volume": 0
     }
   ]
 }
