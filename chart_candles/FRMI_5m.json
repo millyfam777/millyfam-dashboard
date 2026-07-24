@@ -2,8 +2,8 @@
   "symbol": "FRMI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-24T17:02:47.758018",
-  "bar_count": 349,
+  "generated_at": "2026-07-24T17:17:48.700737",
+  "bar_count": 352,
   "candles": [
     {
       "time": "2026-07-23T03:00:00",
@@ -2792,10 +2792,34 @@
     {
       "time": "2026-07-24T16:00:00",
       "open": 7.45,
-      "high": 7.45,
+      "high": 7.47,
       "low": 7.44,
-      "close": 7.44,
-      "volume": 6
+      "close": 7.47,
+      "volume": 47
+    },
+    {
+      "time": "2026-07-24T16:05:00",
+      "open": 7.44,
+      "high": 7.46,
+      "low": 7.44,
+      "close": 7.45,
+      "volume": 30
+    },
+    {
+      "time": "2026-07-24T16:10:00",
+      "open": 7.47,
+      "high": 7.47,
+      "low": 7.45,
+      "close": 7.45,
+      "volume": 229
+    },
+    {
+      "time": "2026-07-24T16:15:00",
+      "open": 7.46,
+      "high": 7.46,
+      "low": 7.46,
+      "close": 7.46,
+      "volume": 1
     }
   ]
 }
