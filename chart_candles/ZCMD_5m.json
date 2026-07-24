@@ -2,8 +2,8 @@
   "symbol": "ZCMD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-24T05:18:35.263565",
-  "bar_count": 208,
+  "generated_at": "2026-07-24T05:23:37.488770",
+  "bar_count": 209,
   "candles": [
     {
       "time": "2026-07-23T03:00:00",
@@ -1664,10 +1664,18 @@
     {
       "time": "2026-07-24T04:15:00",
       "open": 1.99,
-      "high": 2.02,
+      "high": 2.13,
       "low": 1.98,
-      "close": 2.019,
-      "volume": 156
+      "close": 2.12,
+      "volume": 1458
+    },
+    {
+      "time": "2026-07-24T04:20:00",
+      "open": 2.12,
+      "high": 2.22,
+      "low": 2.07,
+      "close": 2.07,
+      "volume": 5119
     }
   ]
 }
