@@ -2,8 +2,8 @@
   "symbol": "ORIC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-24T14:02:25.712794",
-  "bar_count": 182,
+  "generated_at": "2026-07-24T14:07:16.961502",
+  "bar_count": 183,
   "candles": [
     {
       "time": "2026-07-23T08:25:00",
@@ -1456,10 +1456,18 @@
     {
       "time": "2026-07-24T13:00:00",
       "open": 12.05,
-      "high": 12.05,
+      "high": 12.07,
       "low": 11.99,
-      "close": 12.03,
-      "volume": 175
+      "close": 12.04,
+      "volume": 234
+    },
+    {
+      "time": "2026-07-24T13:05:00",
+      "open": 12.03,
+      "high": 12.04,
+      "low": 11.98,
+      "close": 12.0,
+      "volume": 59
     }
   ]
 }
