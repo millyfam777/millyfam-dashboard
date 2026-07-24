@@ -2,8 +2,8 @@
   "symbol": "VIVK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-24T05:32:57.599254",
-  "bar_count": 211,
+  "generated_at": "2026-07-24T05:48:31.234362",
+  "bar_count": 214,
   "candles": [
     {
       "time": "2026-07-23T03:00:00",
@@ -1688,10 +1688,34 @@
     {
       "time": "2026-07-24T04:30:00",
       "open": 2.3,
-      "high": 2.3,
+      "high": 2.3005,
       "low": 2.2805,
-      "close": 2.3,
-      "volume": 34
+      "close": 2.3005,
+      "volume": 50
+    },
+    {
+      "time": "2026-07-24T04:35:00",
+      "open": 2.3,
+      "high": 2.35,
+      "low": 2.28,
+      "close": 2.35,
+      "volume": 97
+    },
+    {
+      "time": "2026-07-24T04:40:00",
+      "open": 2.35,
+      "high": 2.37,
+      "low": 2.3,
+      "close": 2.3605,
+      "volume": 138
+    },
+    {
+      "time": "2026-07-24T04:45:00",
+      "open": 2.37,
+      "high": 2.37,
+      "low": 2.36,
+      "close": 2.37,
+      "volume": 45
     }
   ]
 }
