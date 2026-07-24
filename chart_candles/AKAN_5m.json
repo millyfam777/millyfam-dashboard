@@ -2,8 +2,8 @@
   "symbol": "AKAN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-24T06:33:29.593255",
-  "bar_count": 223,
+  "generated_at": "2026-07-24T06:48:24.868327",
+  "bar_count": 226,
   "candles": [
     {
       "time": "2026-07-23T03:00:00",
@@ -1784,10 +1784,34 @@
     {
       "time": "2026-07-24T05:30:00",
       "open": 8.86,
+      "high": 9.0,
+      "low": 8.86,
+      "close": 9.0,
+      "volume": 4
+    },
+    {
+      "time": "2026-07-24T05:35:00",
+      "open": 8.97,
       "high": 8.97,
       "low": 8.86,
-      "close": 8.97,
-      "volume": 2
+      "close": 8.86,
+      "volume": 3
+    },
+    {
+      "time": "2026-07-24T05:40:00",
+      "open": 9.01,
+      "high": 9.01,
+      "low": 8.95,
+      "close": 8.96,
+      "volume": 3
+    },
+    {
+      "time": "2026-07-24T05:45:00",
+      "open": 8.88,
+      "high": 8.98,
+      "low": 8.88,
+      "close": 8.98,
+      "volume": 5
     }
   ]
 }
