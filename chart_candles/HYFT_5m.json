@@ -2,8 +2,8 @@
   "symbol": "HYFT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-24T12:47:57.216494",
-  "bar_count": 298,
+  "generated_at": "2026-07-24T13:03:21.714705",
+  "bar_count": 301,
   "candles": [
     {
       "time": "2026-07-23T03:00:00",
@@ -2386,8 +2386,32 @@
       "open": 1.36,
       "high": 1.38,
       "low": 1.36,
+      "close": 1.375,
+      "volume": 102
+    },
+    {
+      "time": "2026-07-24T11:50:00",
+      "open": 1.38,
+      "high": 1.38,
+      "low": 1.3701,
+      "close": 1.3701,
+      "volume": 2
+    },
+    {
+      "time": "2026-07-24T11:55:00",
+      "open": 1.3701,
+      "high": 1.3701,
+      "low": 1.3701,
+      "close": 1.3701,
+      "volume": 0
+    },
+    {
+      "time": "2026-07-24T12:00:00",
+      "open": 1.3705,
+      "high": 1.375,
+      "low": 1.37,
       "close": 1.37,
-      "volume": 95
+      "volume": 20
     }
   ]
 }
