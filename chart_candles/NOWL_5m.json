@@ -2,8 +2,8 @@
   "symbol": "NOWL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-24T19:02:31.602547",
-  "bar_count": 373,
+  "generated_at": "2026-07-24T19:17:32.615338",
+  "bar_count": 376,
   "candles": [
     {
       "time": "2026-07-23T03:00:00",
@@ -2984,10 +2984,34 @@
     {
       "time": "2026-07-24T18:00:00",
       "open": 4.12,
-      "high": 4.12,
+      "high": 4.14,
+      "low": 4.12,
+      "close": 4.13,
+      "volume": 5
+    },
+    {
+      "time": "2026-07-24T18:05:00",
+      "open": 4.13,
+      "high": 4.14,
+      "low": 4.13,
+      "close": 4.14,
+      "volume": 157
+    },
+    {
+      "time": "2026-07-24T18:10:00",
+      "open": 4.13,
+      "high": 4.13,
       "low": 4.12,
       "close": 4.12,
-      "volume": 1
+      "volume": 67
+    },
+    {
+      "time": "2026-07-24T18:15:00",
+      "open": 4.13,
+      "high": 4.13,
+      "low": 4.1,
+      "close": 4.1,
+      "volume": 388
     }
   ]
 }
