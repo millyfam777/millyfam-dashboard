@@ -2,8 +2,8 @@
   "symbol": "ORCX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-24T05:02:13.752526",
-  "bar_count": 205,
+  "generated_at": "2026-07-24T05:07:16.241098",
+  "bar_count": 206,
   "candles": [
     {
       "time": "2026-07-23T03:00:00",
@@ -1641,9 +1641,17 @@
       "time": "2026-07-24T04:00:00",
       "open": 16.0,
       "high": 16.0,
-      "low": 16.0,
-      "close": 16.0,
-      "volume": 17
+      "low": 15.94,
+      "close": 15.94,
+      "volume": 18
+    },
+    {
+      "time": "2026-07-24T04:05:00",
+      "open": 15.93,
+      "high": 15.93,
+      "low": 15.93,
+      "close": 15.93,
+      "volume": 1
     }
   ]
 }
