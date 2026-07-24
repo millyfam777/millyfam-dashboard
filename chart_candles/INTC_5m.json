@@ -2,8 +2,8 @@
   "symbol": "INTC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-24T06:02:36.152752",
-  "bar_count": 217,
+  "generated_at": "2026-07-24T06:07:31.866123",
+  "bar_count": 218,
   "candles": [
     {
       "time": "2026-07-23T03:00:00",
@@ -1737,9 +1737,17 @@
       "time": "2026-07-24T05:00:00",
       "open": 106.29,
       "high": 106.38,
-      "low": 105.98,
-      "close": 106.13,
-      "volume": 273
+      "low": 105.7,
+      "close": 105.88,
+      "volume": 614
+    },
+    {
+      "time": "2026-07-24T05:05:00",
+      "open": 105.85,
+      "high": 105.99,
+      "low": 105.78,
+      "close": 105.94,
+      "volume": 99
     }
   ]
 }
