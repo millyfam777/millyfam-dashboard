@@ -2,8 +2,8 @@
   "symbol": "SSII",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-27T14:02:26.418561",
-  "bar_count": 187,
+  "generated_at": "2026-07-27T14:07:32.919246",
+  "bar_count": 188,
   "candles": [
     {
       "time": "2026-07-24T08:00:00",
@@ -1496,10 +1496,18 @@
     {
       "time": "2026-07-27T13:00:00",
       "open": 4.0,
+      "high": 4.04,
+      "low": 3.93,
+      "close": 4.04,
+      "volume": 122
+    },
+    {
+      "time": "2026-07-27T13:05:00",
+      "open": 4.0,
       "high": 4.0,
-      "low": 3.98,
-      "close": 3.98,
-      "volume": 105
+      "low": 3.8,
+      "close": 3.94,
+      "volume": 112
     }
   ]
 }
