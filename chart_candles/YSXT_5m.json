@@ -2,8 +2,8 @@
   "symbol": "YSXT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-27T16:02:12.976647",
-  "bar_count": 230,
+  "generated_at": "2026-07-27T16:17:34.203961",
+  "bar_count": 233,
   "candles": [
     {
       "time": "2026-07-24T08:30:00",
@@ -1840,10 +1840,34 @@
     {
       "time": "2026-07-27T15:00:00",
       "open": 1.03,
-      "high": 1.03,
+      "high": 1.04,
+      "low": 0.994,
+      "close": 1.04,
+      "volume": 17
+    },
+    {
+      "time": "2026-07-27T15:05:00",
+      "open": 1.04,
+      "high": 1.05,
       "low": 1.03,
+      "close": 1.05,
+      "volume": 16
+    },
+    {
+      "time": "2026-07-27T15:10:00",
+      "open": 1.05,
+      "high": 1.05,
+      "low": 1.05,
+      "close": 1.05,
+      "volume": 2
+    },
+    {
+      "time": "2026-07-27T15:15:00",
+      "open": 1.04,
+      "high": 1.04,
+      "low": 1.0,
       "close": 1.03,
-      "volume": 3
+      "volume": 9
     }
   ]
 }
