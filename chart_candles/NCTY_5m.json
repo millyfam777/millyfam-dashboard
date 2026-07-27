@@ -2,8 +2,8 @@
   "symbol": "NCTY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-27T11:18:32.715147",
-  "bar_count": 214,
+  "generated_at": "2026-07-27T11:33:37.035089",
+  "bar_count": 217,
   "candles": [
     {
       "time": "2026-07-24T08:30:00",
@@ -1712,10 +1712,34 @@
     {
       "time": "2026-07-27T10:15:00",
       "open": 4.52,
+      "high": 4.6,
+      "low": 4.5,
+      "close": 4.55,
+      "volume": 99
+    },
+    {
+      "time": "2026-07-27T10:20:00",
+      "open": 4.58,
+      "high": 4.66,
+      "low": 4.52,
+      "close": 4.56,
+      "volume": 273
+    },
+    {
+      "time": "2026-07-27T10:25:00",
+      "open": 4.53,
       "high": 4.57,
       "low": 4.5,
+      "close": 4.51,
+      "volume": 104
+    },
+    {
+      "time": "2026-07-27T10:30:00",
+      "open": 4.53,
+      "high": 4.55,
+      "low": 4.53,
       "close": 4.54,
-      "volume": 74
+      "volume": 12
     }
   ]
 }
