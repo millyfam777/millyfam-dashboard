@@ -2,8 +2,8 @@
   "symbol": "STKH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-27T12:48:06.334657",
-  "bar_count": 46,
+  "generated_at": "2026-07-27T13:02:54.438486",
+  "bar_count": 49,
   "candles": [
     {
       "time": "2026-07-27T08:00:00",
@@ -368,10 +368,34 @@
     {
       "time": "2026-07-27T11:45:00",
       "open": 1.47,
-      "high": 1.49,
+      "high": 1.51,
       "low": 1.46,
+      "close": 1.51,
+      "volume": 10
+    },
+    {
+      "time": "2026-07-27T11:50:00",
+      "open": 1.49,
+      "high": 1.49,
+      "low": 1.48,
       "close": 1.49,
-      "volume": 9
+      "volume": 2
+    },
+    {
+      "time": "2026-07-27T11:55:00",
+      "open": 1.49,
+      "high": 1.49,
+      "low": 1.48,
+      "close": 1.49,
+      "volume": 0
+    },
+    {
+      "time": "2026-07-27T12:00:00",
+      "open": 1.47,
+      "high": 1.47,
+      "low": 1.47,
+      "close": 1.47,
+      "volume": 5
     }
   ]
 }
