@@ -2,8 +2,8 @@
   "symbol": "RACC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-27T10:47:59.207538",
-  "bar_count": 32,
+  "generated_at": "2026-07-27T11:02:56.063925",
+  "bar_count": 35,
   "candles": [
     {
       "time": "2026-07-27T07:10:00",
@@ -257,9 +257,33 @@
       "time": "2026-07-27T09:45:00",
       "open": 13.1,
       "high": 13.1,
+      "low": 13.0,
+      "close": 13.0,
+      "volume": 102
+    },
+    {
+      "time": "2026-07-27T09:50:00",
+      "open": 13.09,
+      "high": 13.09,
+      "low": 13.09,
+      "close": 13.09,
+      "volume": 1
+    },
+    {
+      "time": "2026-07-27T09:55:00",
+      "open": 13.1,
+      "high": 13.1,
       "low": 13.1,
       "close": 13.1,
-      "volume": 3
+      "volume": 150
+    },
+    {
+      "time": "2026-07-27T10:00:00",
+      "open": 13.1,
+      "high": 13.1,
+      "low": 13.1,
+      "close": 13.1,
+      "volume": 0
     }
   ]
 }
