@@ -2,8 +2,8 @@
   "symbol": "FIRY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-28T16:47:28.001286",
-  "bar_count": 345,
+  "generated_at": "2026-07-28T17:02:21.818203",
+  "bar_count": 348,
   "candles": [
     {
       "time": "2026-07-27T03:00:00",
@@ -2761,9 +2761,33 @@
       "time": "2026-07-28T15:45:00",
       "open": 9.65,
       "high": 9.65,
-      "low": 9.65,
-      "close": 9.65,
-      "volume": 9
+      "low": 9.5,
+      "close": 9.5,
+      "volume": 24
+    },
+    {
+      "time": "2026-07-28T15:50:00",
+      "open": 9.6,
+      "high": 9.63,
+      "low": 9.57,
+      "close": 9.61,
+      "volume": 24
+    },
+    {
+      "time": "2026-07-28T15:55:00",
+      "open": 9.5,
+      "high": 9.59,
+      "low": 9.5,
+      "close": 9.59,
+      "volume": 15
+    },
+    {
+      "time": "2026-07-28T16:00:00",
+      "open": 9.59,
+      "high": 9.6,
+      "low": 9.59,
+      "close": 9.6,
+      "volume": 6
     }
   ]
 }
