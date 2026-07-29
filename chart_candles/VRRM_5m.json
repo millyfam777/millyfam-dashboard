@@ -2,8 +2,8 @@
   "symbol": "VRRM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-29T19:18:02.842866",
-  "bar_count": 376,
+  "generated_at": "2026-07-29T19:33:03.589632",
+  "bar_count": 379,
   "candles": [
     {
       "time": "2026-07-28T03:00:00",
@@ -3008,10 +3008,34 @@
     {
       "time": "2026-07-29T18:15:00",
       "open": 5.12,
-      "high": 5.12,
+      "high": 5.14,
       "low": 5.12,
-      "close": 5.12,
-      "volume": 4
+      "close": 5.14,
+      "volume": 5
+    },
+    {
+      "time": "2026-07-29T18:20:00",
+      "open": 5.12,
+      "high": 5.13,
+      "low": 5.12,
+      "close": 5.13,
+      "volume": 12
+    },
+    {
+      "time": "2026-07-29T18:25:00",
+      "open": 5.14,
+      "high": 5.14,
+      "low": 5.13,
+      "close": 5.13,
+      "volume": 13
+    },
+    {
+      "time": "2026-07-29T18:30:00",
+      "open": 5.13,
+      "high": 5.13,
+      "low": 5.13,
+      "close": 5.13,
+      "volume": 0
     }
   ]
 }
