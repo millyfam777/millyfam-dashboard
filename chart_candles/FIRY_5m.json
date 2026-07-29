@@ -2,8 +2,8 @@
   "symbol": "FIRY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-29T04:02:10.247419",
-  "bar_count": 192,
+  "generated_at": "2026-07-29T04:07:09.493206",
+  "bar_count": 193,
   "candles": [
     {
       "time": "2026-07-28T03:05:00",
@@ -1537,9 +1537,17 @@
       "time": "2026-07-29T03:00:00",
       "open": 9.15,
       "high": 9.32,
+      "low": 9.0,
+      "close": 9.08,
+      "volume": 44
+    },
+    {
+      "time": "2026-07-29T03:05:00",
+      "open": 9.15,
+      "high": 9.15,
       "low": 9.1,
-      "close": 9.31,
-      "volume": 16
+      "close": 9.1,
+      "volume": 4
     }
   ]
 }
