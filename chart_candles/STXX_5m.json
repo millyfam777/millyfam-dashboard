@@ -2,8 +2,8 @@
   "symbol": "STXX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-29T09:32:13.189190",
-  "bar_count": 255,
+  "generated_at": "2026-07-29T09:37:58.483855",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-07-28T03:20:00",
@@ -2040,10 +2040,18 @@
     {
       "time": "2026-07-29T08:30:00",
       "open": 35.53,
-      "high": 36.98,
+      "high": 38.05,
       "low": 35.43,
-      "close": 36.3,
-      "volume": 33
+      "close": 37.0,
+      "volume": 56
+    },
+    {
+      "time": "2026-07-29T08:35:00",
+      "open": 37.46,
+      "high": 37.91,
+      "low": 36.44,
+      "close": 36.44,
+      "volume": 17
     }
   ]
 }
