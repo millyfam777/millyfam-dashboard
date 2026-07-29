@@ -2,8 +2,8 @@
   "symbol": "GWAV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-29T17:18:16.172476",
-  "bar_count": 335,
+  "generated_at": "2026-07-29T17:33:18.189260",
+  "bar_count": 338,
   "candles": [
     {
       "time": "2026-07-28T04:20:00",
@@ -2680,10 +2680,34 @@
     {
       "time": "2026-07-29T16:15:00",
       "open": 2.93,
-      "high": 2.97,
+      "high": 2.99,
       "low": 2.93,
+      "close": 2.99,
+      "volume": 6
+    },
+    {
+      "time": "2026-07-29T16:20:00",
+      "open": 2.97,
+      "high": 3.0,
+      "low": 2.97,
       "close": 2.97,
-      "volume": 5
+      "volume": 14
+    },
+    {
+      "time": "2026-07-29T16:25:00",
+      "open": 3.0,
+      "high": 3.0,
+      "low": 3.0,
+      "close": 3.0,
+      "volume": 2
+    },
+    {
+      "time": "2026-07-29T16:30:00",
+      "open": 3.04,
+      "high": 3.56,
+      "low": 3.04,
+      "close": 3.53,
+      "volume": 164
     }
   ]
 }
