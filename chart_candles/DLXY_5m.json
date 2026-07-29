@@ -2,8 +2,8 @@
   "symbol": "DLXY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-29T09:47:46.098927",
-  "bar_count": 145,
+  "generated_at": "2026-07-29T09:52:42.811259",
+  "bar_count": 146,
   "candles": [
     {
       "time": "2026-07-28T08:30:00",
@@ -1161,9 +1161,17 @@
       "time": "2026-07-29T08:45:00",
       "open": 0.4074,
       "high": 0.4074,
-      "low": 0.4074,
-      "close": 0.4074,
-      "volume": 1
+      "low": 0.4,
+      "close": 0.4,
+      "volume": 2
+    },
+    {
+      "time": "2026-07-29T08:50:00",
+      "open": 0.4,
+      "high": 0.4,
+      "low": 0.4,
+      "close": 0.4,
+      "volume": 0
     }
   ]
 }
