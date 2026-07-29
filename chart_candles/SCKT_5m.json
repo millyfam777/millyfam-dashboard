@@ -2,8 +2,8 @@
   "symbol": "SCKT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-29T09:17:30.457383",
-  "bar_count": 175,
+  "generated_at": "2026-07-29T09:22:47.609204",
+  "bar_count": 176,
   "candles": [
     {
       "time": "2026-07-28T08:30:00",
@@ -1400,10 +1400,18 @@
     {
       "time": "2026-07-29T08:15:00",
       "open": 0.4809,
-      "high": 0.4819,
+      "high": 0.485,
+      "low": 0.48,
+      "close": 0.485,
+      "volume": 52
+    },
+    {
+      "time": "2026-07-29T08:20:00",
+      "open": 0.48,
+      "high": 0.48,
       "low": 0.48,
       "close": 0.48,
-      "volume": 44
+      "volume": 21
     }
   ]
 }
