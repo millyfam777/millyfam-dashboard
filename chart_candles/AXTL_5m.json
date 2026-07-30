@@ -2,8 +2,8 @@
   "symbol": "AXTL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-30T16:03:02.104874",
-  "bar_count": 337,
+  "generated_at": "2026-07-30T16:18:02.069478",
+  "bar_count": 340,
   "candles": [
     {
       "time": "2026-07-29T03:00:00",
@@ -2696,10 +2696,34 @@
     {
       "time": "2026-07-30T15:00:00",
       "open": 1.81,
-      "high": 1.81,
+      "high": 2.09,
       "low": 1.81,
-      "close": 1.81,
-      "volume": 1
+      "close": 2.09,
+      "volume": 6
+    },
+    {
+      "time": "2026-07-30T15:05:00",
+      "open": 2.21,
+      "high": 2.42,
+      "low": 2.12,
+      "close": 2.17,
+      "volume": 297
+    },
+    {
+      "time": "2026-07-30T15:10:00",
+      "open": 2.25,
+      "high": 2.29,
+      "low": 2.2,
+      "close": 2.21,
+      "volume": 182
+    },
+    {
+      "time": "2026-07-30T15:15:00",
+      "open": 2.23,
+      "high": 2.33,
+      "low": 2.23,
+      "close": 2.32,
+      "volume": 221
     }
   ]
 }
