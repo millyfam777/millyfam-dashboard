@@ -2,8 +2,8 @@
   "symbol": "KSCP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-30T16:17:38.637835",
-  "bar_count": 338,
+  "generated_at": "2026-07-30T16:32:38.708601",
+  "bar_count": 341,
   "candles": [
     {
       "time": "2026-07-29T03:00:00",
@@ -2705,9 +2705,33 @@
       "time": "2026-07-30T15:15:00",
       "open": 1.9831,
       "high": 2.0,
-      "low": 1.9831,
-      "close": 2.0,
-      "volume": 17
+      "low": 1.9585,
+      "close": 1.9585,
+      "volume": 51
+    },
+    {
+      "time": "2026-07-30T15:20:00",
+      "open": 1.97,
+      "high": 2.0,
+      "low": 1.96,
+      "close": 1.96,
+      "volume": 43
+    },
+    {
+      "time": "2026-07-30T15:25:00",
+      "open": 1.97,
+      "high": 1.99,
+      "low": 1.9,
+      "close": 1.9,
+      "volume": 241
+    },
+    {
+      "time": "2026-07-30T15:30:00",
+      "open": 1.89,
+      "high": 1.91,
+      "low": 1.89,
+      "close": 1.9,
+      "volume": 169
     }
   ]
 }
