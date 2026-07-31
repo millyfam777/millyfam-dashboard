@@ -2,8 +2,8 @@
   "symbol": "AMCX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-31T12:02:35.405158",
-  "bar_count": 187,
+  "generated_at": "2026-07-31T12:17:43.123755",
+  "bar_count": 190,
   "candles": [
     {
       "time": "2026-07-30T06:00:00",
@@ -1498,8 +1498,32 @@
       "open": 11.22,
       "high": 11.28,
       "low": 11.22,
+      "close": 11.25,
+      "volume": 264
+    },
+    {
+      "time": "2026-07-31T11:05:00",
+      "open": 11.26,
+      "high": 11.3,
+      "low": 11.2,
+      "close": 11.2,
+      "volume": 153
+    },
+    {
+      "time": "2026-07-31T11:10:00",
+      "open": 11.21,
+      "high": 11.28,
+      "low": 11.2,
       "close": 11.26,
-      "volume": 162
+      "volume": 121
+    },
+    {
+      "time": "2026-07-31T11:15:00",
+      "open": 11.26,
+      "high": 11.27,
+      "low": 11.2,
+      "close": 11.2,
+      "volume": 39
     }
   ]
 }
