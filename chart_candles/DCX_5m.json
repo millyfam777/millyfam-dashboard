@@ -2,8 +2,8 @@
   "symbol": "DCX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-31T15:02:59.389527",
-  "bar_count": 325,
+  "generated_at": "2026-07-31T15:12:56.495893",
+  "bar_count": 327,
   "candles": [
     {
       "time": "2026-07-30T03:00:00",
@@ -2602,8 +2602,24 @@
       "open": 0.98,
       "high": 1.02,
       "low": 0.9785,
-      "close": 1.01,
-      "volume": 292
+      "close": 0.992,
+      "volume": 293
+    },
+    {
+      "time": "2026-07-31T14:05:00",
+      "open": 0.992,
+      "high": 0.992,
+      "low": 0.992,
+      "close": 0.992,
+      "volume": 0
+    },
+    {
+      "time": "2026-07-31T14:10:00",
+      "open": 1.02,
+      "high": 1.03,
+      "low": 0.9996,
+      "close": 1.03,
+      "volume": 19
     }
   ]
 }
