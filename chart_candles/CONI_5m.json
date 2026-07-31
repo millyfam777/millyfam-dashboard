@@ -2,8 +2,8 @@
   "symbol": "CONI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-31T14:32:34.832766",
-  "bar_count": 319,
+  "generated_at": "2026-07-31T14:37:50.202895",
+  "bar_count": 320,
   "candles": [
     {
       "time": "2026-07-30T03:00:00",
@@ -2552,10 +2552,18 @@
     {
       "time": "2026-07-31T13:30:00",
       "open": 52.69,
-      "high": 52.69,
+      "high": 52.86,
       "low": 52.69,
-      "close": 52.69,
-      "volume": 1
+      "close": 52.75,
+      "volume": 10
+    },
+    {
+      "time": "2026-07-31T13:35:00",
+      "open": 52.72,
+      "high": 52.74,
+      "low": 52.63,
+      "close": 52.74,
+      "volume": 21
     }
   ]
 }
