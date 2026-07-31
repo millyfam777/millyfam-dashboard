@@ -2,8 +2,8 @@
   "symbol": "MKLYR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-31T07:33:22.379017",
-  "bar_count": 5,
+  "generated_at": "2026-07-31T07:38:37.555345",
+  "bar_count": 6,
   "candles": [
     {
       "time": "2026-07-31T06:10:00",
@@ -39,11 +39,19 @@
     },
     {
       "time": "2026-07-31T06:30:00",
-      "open": 0.345,
-      "high": 0.345,
+      "open": 0.346,
+      "high": 0.3845,
       "low": 0.345,
-      "close": 0.345,
-      "volume": 0
+      "close": 0.3844,
+      "volume": 20
+    },
+    {
+      "time": "2026-07-31T06:35:00",
+      "open": 0.346,
+      "high": 0.3899,
+      "low": 0.346,
+      "close": 0.3899,
+      "volume": 30
     }
   ]
 }
