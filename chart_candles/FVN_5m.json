@@ -2,8 +2,8 @@
   "symbol": "FVN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-07-31T11:02:38.745232",
-  "bar_count": 17,
+  "generated_at": "2026-07-31T11:17:44.470324",
+  "bar_count": 20,
   "candles": [
     {
       "time": "2026-07-31T08:40:00",
@@ -136,10 +136,34 @@
     {
       "time": "2026-07-31T10:00:00",
       "open": 10.75,
-      "high": 10.75,
+      "high": 10.85,
       "low": 10.75,
-      "close": 10.75,
-      "volume": 1
+      "close": 10.85,
+      "volume": 4
+    },
+    {
+      "time": "2026-07-31T10:05:00",
+      "open": 10.89,
+      "high": 10.9,
+      "low": 10.89,
+      "close": 10.9,
+      "volume": 4
+    },
+    {
+      "time": "2026-07-31T10:10:00",
+      "open": 10.9,
+      "high": 11.0,
+      "low": 10.9,
+      "close": 11.0,
+      "volume": 3
+    },
+    {
+      "time": "2026-07-31T10:15:00",
+      "open": 10.99,
+      "high": 11.0,
+      "low": 10.99,
+      "close": 11.0,
+      "volume": 2
     }
   ]
 }
