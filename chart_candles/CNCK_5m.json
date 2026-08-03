@@ -2,8 +2,8 @@
   "symbol": "CNCK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-03T14:33:38.542207",
-  "bar_count": 253,
+  "generated_at": "2026-08-03T14:48:36.877103",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-07-31T08:30:00",
@@ -2024,10 +2024,34 @@
     {
       "time": "2026-08-03T13:30:00",
       "open": 2.41,
-      "high": 2.41,
+      "high": 2.43,
       "low": 2.4,
-      "close": 2.4,
-      "volume": 19
+      "close": 2.43,
+      "volume": 29
+    },
+    {
+      "time": "2026-08-03T13:35:00",
+      "open": 2.438,
+      "high": 2.4799,
+      "low": 2.438,
+      "close": 2.46,
+      "volume": 59
+    },
+    {
+      "time": "2026-08-03T13:40:00",
+      "open": 2.44,
+      "high": 2.4554,
+      "low": 2.4,
+      "close": 2.43,
+      "volume": 30
+    },
+    {
+      "time": "2026-08-03T13:45:00",
+      "open": 2.45,
+      "high": 2.46,
+      "low": 2.4001,
+      "close": 2.42,
+      "volume": 34
     }
   ]
 }
