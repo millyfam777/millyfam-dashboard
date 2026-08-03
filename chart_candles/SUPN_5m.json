@@ -2,8 +2,8 @@
   "symbol": "SUPN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-03T06:48:30.887548",
-  "bar_count": 130,
+  "generated_at": "2026-08-03T07:03:28.375820",
+  "bar_count": 133,
   "candles": [
     {
       "time": "2026-07-31T08:30:00",
@@ -1040,10 +1040,34 @@
     {
       "time": "2026-08-03T05:45:00",
       "open": 49.82,
-      "high": 50.01,
+      "high": 50.6,
       "low": 49.82,
-      "close": 50.0,
-      "volume": 7
+      "close": 50.5,
+      "volume": 20
+    },
+    {
+      "time": "2026-08-03T05:50:00",
+      "open": 50.5,
+      "high": 52.0,
+      "low": 50.5,
+      "close": 52.0,
+      "volume": 32
+    },
+    {
+      "time": "2026-08-03T05:55:00",
+      "open": 53.88,
+      "high": 55.0,
+      "low": 53.88,
+      "close": 55.0,
+      "volume": 16
+    },
+    {
+      "time": "2026-08-03T06:00:00",
+      "open": 55.5,
+      "high": 56.39,
+      "low": 55.5,
+      "close": 56.39,
+      "volume": 4
     }
   ]
 }
