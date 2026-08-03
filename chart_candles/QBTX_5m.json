@@ -2,8 +2,8 @@
   "symbol": "QBTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-03T13:47:20.957908",
-  "bar_count": 310,
+  "generated_at": "2026-08-03T14:02:16.045966",
+  "bar_count": 313,
   "candles": [
     {
       "time": "2026-07-31T03:00:00",
@@ -2480,10 +2480,34 @@
     {
       "time": "2026-08-03T12:45:00",
       "open": 9.3,
+      "high": 9.32,
+      "low": 9.3,
+      "close": 9.32,
+      "volume": 128
+    },
+    {
+      "time": "2026-08-03T12:50:00",
+      "open": 9.31,
+      "high": 9.32,
+      "low": 9.28,
+      "close": 9.29,
+      "volume": 78
+    },
+    {
+      "time": "2026-08-03T12:55:00",
+      "open": 9.3,
+      "high": 9.33,
+      "low": 9.29,
+      "close": 9.3,
+      "volume": 43
+    },
+    {
+      "time": "2026-08-03T13:00:00",
+      "open": 9.3,
       "high": 9.31,
       "low": 9.3,
-      "close": 9.3,
-      "volume": 32
+      "close": 9.31,
+      "volume": 76
     }
   ]
 }
