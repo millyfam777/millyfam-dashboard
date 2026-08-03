@@ -2,8 +2,8 @@
   "symbol": "SLBT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-03T13:02:47.335590",
-  "bar_count": 249,
+  "generated_at": "2026-08-03T13:17:41.577575",
+  "bar_count": 252,
   "candles": [
     {
       "time": "2026-07-31T03:00:00",
@@ -1992,10 +1992,34 @@
     {
       "time": "2026-08-03T12:00:00",
       "open": 3.29,
-      "high": 3.35,
+      "high": 3.38,
       "low": 3.24,
-      "close": 3.31,
-      "volume": 30
+      "close": 3.34,
+      "volume": 81
+    },
+    {
+      "time": "2026-08-03T12:05:00",
+      "open": 3.34,
+      "high": 3.38,
+      "low": 3.24,
+      "close": 3.24,
+      "volume": 79
+    },
+    {
+      "time": "2026-08-03T12:10:00",
+      "open": 3.21,
+      "high": 3.27,
+      "low": 3.2,
+      "close": 3.2,
+      "volume": 20
+    },
+    {
+      "time": "2026-08-03T12:15:00",
+      "open": 3.21,
+      "high": 3.21,
+      "low": 3.21,
+      "close": 3.21,
+      "volume": 3
     }
   ]
 }

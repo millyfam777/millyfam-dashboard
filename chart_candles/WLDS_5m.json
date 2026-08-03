@@ -2,8 +2,8 @@
   "symbol": "WLDS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-03T13:02:25.673331",
-  "bar_count": 301,
+  "generated_at": "2026-08-03T13:17:31.942940",
+  "bar_count": 304,
   "candles": [
     {
       "time": "2026-07-31T03:00:00",
@@ -2408,10 +2408,34 @@
     {
       "time": "2026-08-03T12:00:00",
       "open": 3.02,
-      "high": 3.02,
+      "high": 3.09,
       "low": 3.01,
-      "close": 3.01,
+      "close": 3.09,
+      "volume": 3
+    },
+    {
+      "time": "2026-08-03T12:05:00",
+      "open": 3.05,
+      "high": 3.1,
+      "low": 3.05,
+      "close": 3.1,
       "volume": 2
+    },
+    {
+      "time": "2026-08-03T12:10:00",
+      "open": 3.0021,
+      "high": 3.05,
+      "low": 3.0021,
+      "close": 3.05,
+      "volume": 4
+    },
+    {
+      "time": "2026-08-03T12:15:00",
+      "open": 3.05,
+      "high": 3.05,
+      "low": 3.05,
+      "close": 3.05,
+      "volume": 5
     }
   ]
 }
