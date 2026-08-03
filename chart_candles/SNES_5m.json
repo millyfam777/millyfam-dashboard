@@ -2,8 +2,8 @@
   "symbol": "SNES",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-03T09:02:53.842670",
-  "bar_count": 133,
+  "generated_at": "2026-08-03T09:18:27.495688",
+  "bar_count": 136,
   "candles": [
     {
       "time": "2026-07-31T08:30:00",
@@ -1063,11 +1063,35 @@
     },
     {
       "time": "2026-08-03T08:00:00",
-      "open": 1.47,
+      "open": 1.5,
+      "high": 1.5,
+      "low": 1.5,
+      "close": 1.5,
+      "volume": 20
+    },
+    {
+      "time": "2026-08-03T08:05:00",
+      "open": 1.51,
+      "high": 1.55,
+      "low": 1.51,
+      "close": 1.55,
+      "volume": 9
+    },
+    {
+      "time": "2026-08-03T08:10:00",
+      "open": 1.54,
+      "high": 1.94,
+      "low": 1.25,
+      "close": 1.3,
+      "volume": 4602
+    },
+    {
+      "time": "2026-08-03T08:15:00",
+      "open": 1.3199,
       "high": 1.47,
-      "low": 1.47,
-      "close": 1.47,
-      "volume": 0
+      "low": 1.3,
+      "close": 1.46,
+      "volume": 738
     }
   ]
 }
