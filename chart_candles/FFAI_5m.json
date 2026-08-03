@@ -2,8 +2,8 @@
   "symbol": "FFAI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-03T07:02:19.581885",
-  "bar_count": 229,
+  "generated_at": "2026-08-03T07:17:30.874993",
+  "bar_count": 232,
   "candles": [
     {
       "time": "2026-07-31T03:00:00",
@@ -1832,10 +1832,34 @@
     {
       "time": "2026-08-03T06:00:00",
       "open": 6.44,
-      "high": 6.44,
-      "low": 6.4,
+      "high": 6.45,
+      "low": 6.38,
+      "close": 6.45,
+      "volume": 146
+    },
+    {
+      "time": "2026-08-03T06:05:00",
+      "open": 6.47,
+      "high": 6.48,
+      "low": 6.28,
       "close": 6.43,
-      "volume": 45
+      "volume": 99
+    },
+    {
+      "time": "2026-08-03T06:10:00",
+      "open": 6.3,
+      "high": 6.43,
+      "low": 6.3,
+      "close": 6.4,
+      "volume": 36
+    },
+    {
+      "time": "2026-08-03T06:15:00",
+      "open": 6.4,
+      "high": 6.4,
+      "low": 6.28,
+      "close": 6.37,
+      "volume": 21
     }
   ]
 }
