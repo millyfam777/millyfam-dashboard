@@ -2,8 +2,8 @@
   "symbol": "TGHL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-03T09:17:42.581154",
-  "bar_count": 256,
+  "generated_at": "2026-08-03T09:32:59.756801",
+  "bar_count": 259,
   "candles": [
     {
       "time": "2026-07-31T03:00:00",
@@ -2048,10 +2048,34 @@
     {
       "time": "2026-08-03T08:15:00",
       "open": 1.245,
-      "high": 1.245,
+      "high": 1.25,
       "low": 1.23,
-      "close": 1.23,
-      "volume": 6
+      "close": 1.25,
+      "volume": 28
+    },
+    {
+      "time": "2026-08-03T08:20:00",
+      "open": 1.26,
+      "high": 1.27,
+      "low": 1.25,
+      "close": 1.25,
+      "volume": 58
+    },
+    {
+      "time": "2026-08-03T08:25:00",
+      "open": 1.25,
+      "high": 1.29,
+      "low": 1.22,
+      "close": 1.29,
+      "volume": 110
+    },
+    {
+      "time": "2026-08-03T08:30:00",
+      "open": 1.29,
+      "high": 1.32,
+      "low": 1.22,
+      "close": 1.22,
+      "volume": 360
     }
   ]
 }
