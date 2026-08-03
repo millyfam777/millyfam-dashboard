@@ -2,8 +2,8 @@
   "symbol": "GENVR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-03T14:03:38.951850",
-  "bar_count": 169,
+  "generated_at": "2026-08-03T14:18:39.542253",
+  "bar_count": 172,
   "candles": [
     {
       "time": "2026-07-31T09:30:00",
@@ -1352,10 +1352,34 @@
     {
       "time": "2026-08-03T13:00:00",
       "open": 2.2,
-      "high": 2.2,
+      "high": 2.25,
       "low": 2.2,
-      "close": 2.2,
-      "volume": 11
+      "close": 2.25,
+      "volume": 19
+    },
+    {
+      "time": "2026-08-03T13:05:00",
+      "open": 2.25,
+      "high": 2.25,
+      "low": 2.25,
+      "close": 2.25,
+      "volume": 0
+    },
+    {
+      "time": "2026-08-03T13:10:00",
+      "open": 2.2501,
+      "high": 2.2501,
+      "low": 2.24,
+      "close": 2.24,
+      "volume": 13
+    },
+    {
+      "time": "2026-08-03T13:15:00",
+      "open": 2.27,
+      "high": 2.3,
+      "low": 2.27,
+      "close": 2.29,
+      "volume": 33
     }
   ]
 }
