@@ -2,8 +2,8 @@
   "symbol": "VELL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-04T11:32:36.589267",
-  "bar_count": 176,
+  "generated_at": "2026-08-04T11:47:36.163875",
+  "bar_count": 179,
   "candles": [
     {
       "time": "2026-08-03T06:30:00",
@@ -1408,10 +1408,34 @@
     {
       "time": "2026-08-04T10:30:00",
       "open": 4.83,
+      "high": 4.84,
+      "low": 4.83,
+      "close": 4.84,
+      "volume": 3
+    },
+    {
+      "time": "2026-08-04T10:35:00",
+      "open": 4.84,
+      "high": 4.84,
+      "low": 4.84,
+      "close": 4.84,
+      "volume": 0
+    },
+    {
+      "time": "2026-08-04T10:40:00",
+      "open": 4.8,
+      "high": 4.88,
+      "low": 4.8,
+      "close": 4.88,
+      "volume": 67
+    },
+    {
+      "time": "2026-08-04T10:45:00",
+      "open": 4.83,
       "high": 4.83,
       "low": 4.83,
       "close": 4.83,
-      "volume": 2
+      "volume": 6
     }
   ]
 }
