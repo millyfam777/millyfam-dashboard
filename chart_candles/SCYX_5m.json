@@ -2,8 +2,8 @@
   "symbol": "SCYX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-04T15:33:08.093581",
-  "bar_count": 321,
+  "generated_at": "2026-08-04T15:48:07.796136",
+  "bar_count": 324,
   "candles": [
     {
       "time": "2026-08-03T03:00:00",
@@ -2568,10 +2568,34 @@
     {
       "time": "2026-08-04T14:30:00",
       "open": 5.34,
-      "high": 5.38,
+      "high": 5.4,
       "low": 5.34,
+      "close": 5.4,
+      "volume": 18
+    },
+    {
+      "time": "2026-08-04T14:35:00",
+      "open": 5.41,
+      "high": 5.41,
+      "low": 5.4,
+      "close": 5.4,
+      "volume": 3
+    },
+    {
+      "time": "2026-08-04T14:40:00",
+      "open": 5.39,
+      "high": 5.4,
+      "low": 5.36,
+      "close": 5.39,
+      "volume": 20
+    },
+    {
+      "time": "2026-08-04T14:45:00",
+      "open": 5.4,
+      "high": 5.4,
+      "low": 5.38,
       "close": 5.38,
-      "volume": 15
+      "volume": 3
     }
   ]
 }
