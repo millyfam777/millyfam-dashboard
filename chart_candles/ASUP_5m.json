@@ -2,8 +2,8 @@
   "symbol": "ASUP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-04T09:32:09.718683",
-  "bar_count": 222,
+  "generated_at": "2026-08-04T09:47:18.348589",
+  "bar_count": 225,
   "candles": [
     {
       "time": "2026-08-03T06:05:00",
@@ -1776,10 +1776,34 @@
     {
       "time": "2026-08-04T08:30:00",
       "open": 9.76,
-      "high": 9.98,
+      "high": 10.5,
       "low": 9.76,
-      "close": 9.94,
-      "volume": 51
+      "close": 10.5,
+      "volume": 70
+    },
+    {
+      "time": "2026-08-04T08:35:00",
+      "open": 10.5,
+      "high": 10.51,
+      "low": 10.17,
+      "close": 10.17,
+      "volume": 14
+    },
+    {
+      "time": "2026-08-04T08:40:00",
+      "open": 10.12,
+      "high": 10.28,
+      "low": 10.11,
+      "close": 10.28,
+      "volume": 34
+    },
+    {
+      "time": "2026-08-04T08:45:00",
+      "open": 9.9,
+      "high": 9.9,
+      "low": 9.89,
+      "close": 9.89,
+      "volume": 3
     }
   ]
 }
