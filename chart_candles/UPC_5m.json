@@ -2,8 +2,8 @@
   "symbol": "UPC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-04T15:02:58.387934",
-  "bar_count": 325,
+  "generated_at": "2026-08-04T15:17:57.225169",
+  "bar_count": 328,
   "candles": [
     {
       "time": "2026-08-03T03:00:00",
@@ -2600,10 +2600,34 @@
     {
       "time": "2026-08-04T14:00:00",
       "open": 6.85,
-      "high": 6.85,
+      "high": 6.96,
       "low": 6.85,
-      "close": 6.85,
-      "volume": 17
+      "close": 6.96,
+      "volume": 32
+    },
+    {
+      "time": "2026-08-04T14:05:00",
+      "open": 6.97,
+      "high": 6.97,
+      "low": 6.87,
+      "close": 6.87,
+      "volume": 21
+    },
+    {
+      "time": "2026-08-04T14:10:00",
+      "open": 6.89,
+      "high": 7.01,
+      "low": 6.87,
+      "close": 7.01,
+      "volume": 78
+    },
+    {
+      "time": "2026-08-04T14:15:00",
+      "open": 7.01,
+      "high": 7.02,
+      "low": 6.75,
+      "close": 6.75,
+      "volume": 64
     }
   ]
 }
