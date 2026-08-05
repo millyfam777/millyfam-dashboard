@@ -2,8 +2,8 @@
   "symbol": "FLZH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-05T12:02:41.850827",
-  "bar_count": 199,
+  "generated_at": "2026-08-05T12:07:24.712492",
+  "bar_count": 200,
   "candles": [
     {
       "time": "2026-08-04T07:10:00",
@@ -1593,9 +1593,17 @@
       "time": "2026-08-05T11:00:00",
       "open": 1.4,
       "high": 1.4,
-      "low": 1.3701,
-      "close": 1.3701,
-      "volume": 16
+      "low": 1.36,
+      "close": 1.375,
+      "volume": 32
+    },
+    {
+      "time": "2026-08-05T11:05:00",
+      "open": 1.37,
+      "high": 1.37,
+      "low": 1.3506,
+      "close": 1.3525,
+      "volume": 43
     }
   ]
 }
