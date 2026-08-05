@@ -2,8 +2,8 @@
   "symbol": "VRM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-05T13:03:02.567867",
-  "bar_count": 114,
+  "generated_at": "2026-08-05T13:18:05.818180",
+  "bar_count": 117,
   "candles": [
     {
       "time": "2026-08-04T12:00:00",
@@ -912,10 +912,34 @@
     {
       "time": "2026-08-05T12:00:00",
       "open": 8.82,
-      "high": 8.82,
+      "high": 9.01,
       "low": 8.26,
-      "close": 8.26,
-      "volume": 3
+      "close": 9.01,
+      "volume": 4
+    },
+    {
+      "time": "2026-08-05T12:05:00",
+      "open": 9.0,
+      "high": 9.19,
+      "low": 8.79,
+      "close": 8.89,
+      "volume": 14
+    },
+    {
+      "time": "2026-08-05T12:10:00",
+      "open": 8.59,
+      "high": 8.9,
+      "low": 8.41,
+      "close": 8.9,
+      "volume": 26
+    },
+    {
+      "time": "2026-08-05T12:15:00",
+      "open": 9.2,
+      "high": 9.48,
+      "low": 9.09,
+      "close": 9.09,
+      "volume": 9
     }
   ]
 }
