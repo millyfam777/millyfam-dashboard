@@ -2,8 +2,8 @@
   "symbol": "TBI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-05T11:33:15.821188",
-  "bar_count": 217,
+  "generated_at": "2026-08-05T11:48:20.898462",
+  "bar_count": 220,
   "candles": [
     {
       "time": "2026-08-04T08:30:00",
@@ -1736,10 +1736,34 @@
     {
       "time": "2026-08-05T10:30:00",
       "open": 9.93,
-      "high": 9.95,
+      "high": 9.97,
       "low": 9.92,
-      "close": 9.95,
-      "volume": 13
+      "close": 9.97,
+      "volume": 19
+    },
+    {
+      "time": "2026-08-05T10:35:00",
+      "open": 9.98,
+      "high": 10.01,
+      "low": 9.97,
+      "close": 10.0,
+      "volume": 20
+    },
+    {
+      "time": "2026-08-05T10:40:00",
+      "open": 10.0,
+      "high": 10.06,
+      "low": 9.98,
+      "close": 10.0,
+      "volume": 78
+    },
+    {
+      "time": "2026-08-05T10:45:00",
+      "open": 9.97,
+      "high": 9.99,
+      "low": 9.96,
+      "close": 9.96,
+      "volume": 16
     }
   ]
 }
