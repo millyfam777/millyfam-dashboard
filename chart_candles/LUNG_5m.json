@@ -2,8 +2,8 @@
   "symbol": "LUNG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-05T13:48:14.801903",
-  "bar_count": 310,
+  "generated_at": "2026-08-05T13:59:45.398476",
+  "bar_count": 312,
   "candles": [
     {
       "time": "2026-08-04T03:00:00",
@@ -2480,10 +2480,26 @@
     {
       "time": "2026-08-05T12:45:00",
       "open": 1.98,
-      "high": 1.995,
+      "high": 2.0,
       "low": 1.98,
       "close": 1.995,
-      "volume": 12
+      "volume": 25
+    },
+    {
+      "time": "2026-08-05T12:50:00",
+      "open": 1.995,
+      "high": 1.995,
+      "low": 1.9912,
+      "close": 1.995,
+      "volume": 8
+    },
+    {
+      "time": "2026-08-05T12:55:00",
+      "open": 1.995,
+      "high": 2.0,
+      "low": 1.99,
+      "close": 1.995,
+      "volume": 8
     }
   ]
 }
