@@ -2,8 +2,8 @@
   "symbol": "SEED",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-05T12:17:23.342282",
-  "bar_count": 174,
+  "generated_at": "2026-08-05T12:32:22.526120",
+  "bar_count": 177,
   "candles": [
     {
       "time": "2026-08-04T09:20:00",
@@ -1394,8 +1394,32 @@
       "open": 0.9981,
       "high": 1.01,
       "low": 0.998,
+      "close": 1.01,
+      "volume": 28
+    },
+    {
+      "time": "2026-08-05T11:20:00",
+      "open": 1.01,
+      "high": 1.01,
+      "low": 0.992,
       "close": 1.001,
-      "volume": 17
+      "volume": 62
+    },
+    {
+      "time": "2026-08-05T11:25:00",
+      "open": 1.01,
+      "high": 1.01,
+      "low": 0.992,
+      "close": 1.0,
+      "volume": 60
+    },
+    {
+      "time": "2026-08-05T11:30:00",
+      "open": 1.0,
+      "high": 1.0,
+      "low": 0.9901,
+      "close": 1.0,
+      "volume": 18
     }
   ]
 }
