@@ -2,8 +2,8 @@
   "symbol": "KTUP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-05T09:03:27.987585",
-  "bar_count": 253,
+  "generated_at": "2026-08-05T09:18:26.443807",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-08-04T03:00:00",
@@ -2025,9 +2025,33 @@
       "time": "2026-08-05T08:00:00",
       "open": 8.52,
       "high": 8.52,
+      "low": 8.45,
+      "close": 8.45,
+      "volume": 38
+    },
+    {
+      "time": "2026-08-05T08:05:00",
+      "open": 8.45,
+      "high": 8.55,
+      "low": 8.45,
+      "close": 8.55,
+      "volume": 65
+    },
+    {
+      "time": "2026-08-05T08:10:00",
+      "open": 8.54,
+      "high": 8.54,
+      "low": 8.54,
+      "close": 8.54,
+      "volume": 28
+    },
+    {
+      "time": "2026-08-05T08:15:00",
+      "open": 8.49,
+      "high": 8.51,
       "low": 8.48,
-      "close": 8.48,
-      "volume": 24
+      "close": 8.5,
+      "volume": 35
     }
   ]
 }
