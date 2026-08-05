@@ -2,8 +2,8 @@
   "symbol": "GSM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-05T09:17:47.892451",
-  "bar_count": 256,
+  "generated_at": "2026-08-05T09:32:44.045087",
+  "bar_count": 259,
   "candles": [
     {
       "time": "2026-08-04T03:00:00",
@@ -2049,9 +2049,33 @@
       "time": "2026-08-05T08:15:00",
       "open": 4.01,
       "high": 4.01,
-      "low": 4.01,
-      "close": 4.01,
-      "volume": 13
+      "low": 4.0,
+      "close": 4.0,
+      "volume": 86
+    },
+    {
+      "time": "2026-08-05T08:20:00",
+      "open": 3.95,
+      "high": 3.96,
+      "low": 3.93,
+      "close": 3.96,
+      "volume": 10
+    },
+    {
+      "time": "2026-08-05T08:25:00",
+      "open": 3.93,
+      "high": 3.93,
+      "low": 3.93,
+      "close": 3.93,
+      "volume": 11
+    },
+    {
+      "time": "2026-08-05T08:30:00",
+      "open": 3.92,
+      "high": 4.2,
+      "low": 3.81,
+      "close": 4.135,
+      "volume": 1994
     }
   ]
 }
