@@ -2,8 +2,8 @@
   "symbol": "SNK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-05T04:33:32.747485",
-  "bar_count": 199,
+  "generated_at": "2026-08-05T04:48:33.608882",
+  "bar_count": 202,
   "candles": [
     {
       "time": "2026-08-04T03:00:00",
@@ -1594,8 +1594,32 @@
       "open": 33.14,
       "high": 33.2,
       "low": 32.84,
+      "close": 32.87,
+      "volume": 57
+    },
+    {
+      "time": "2026-08-05T03:35:00",
+      "open": 32.87,
+      "high": 32.94,
+      "low": 32.8,
+      "close": 32.93,
+      "volume": 12
+    },
+    {
+      "time": "2026-08-05T03:40:00",
+      "open": 32.95,
+      "high": 33.0,
+      "low": 32.84,
       "close": 32.84,
-      "volume": 52
+      "volume": 13
+    },
+    {
+      "time": "2026-08-05T03:45:00",
+      "open": 32.93,
+      "high": 32.93,
+      "low": 32.93,
+      "close": 32.93,
+      "volume": 1
     }
   ]
 }
