@@ -2,8 +2,8 @@
   "symbol": "PRGO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-05T08:03:04.395895",
-  "bar_count": 166,
+  "generated_at": "2026-08-05T08:17:32.585382",
+  "bar_count": 169,
   "candles": [
     {
       "time": "2026-08-04T06:45:00",
@@ -1328,10 +1328,34 @@
     {
       "time": "2026-08-05T07:00:00",
       "open": 11.9,
-      "high": 11.9,
+      "high": 11.99,
       "low": 11.88,
-      "close": 11.88,
-      "volume": 7
+      "close": 11.99,
+      "volume": 133
+    },
+    {
+      "time": "2026-08-05T07:05:00",
+      "open": 12.11,
+      "high": 12.11,
+      "low": 12.11,
+      "close": 12.11,
+      "volume": 2
+    },
+    {
+      "time": "2026-08-05T07:10:00",
+      "open": 12.0,
+      "high": 12.0,
+      "low": 12.0,
+      "close": 12.0,
+      "volume": 1
+    },
+    {
+      "time": "2026-08-05T07:15:00",
+      "open": 12.0,
+      "high": 12.0,
+      "low": 12.0,
+      "close": 12.0,
+      "volume": 0
     }
   ]
 }
