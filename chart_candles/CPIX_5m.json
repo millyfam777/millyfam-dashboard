@@ -2,8 +2,8 @@
   "symbol": "CPIX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-05T10:18:14.330817",
-  "bar_count": 267,
+  "generated_at": "2026-08-05T10:33:21.721913",
+  "bar_count": 270,
   "candles": [
     {
       "time": "2026-08-04T03:00:00",
@@ -2136,10 +2136,34 @@
     {
       "time": "2026-08-05T09:15:00",
       "open": 7.56,
-      "high": 7.64,
+      "high": 7.67,
       "low": 7.56,
-      "close": 7.64,
-      "volume": 12
+      "close": 7.67,
+      "volume": 52
+    },
+    {
+      "time": "2026-08-05T09:20:00",
+      "open": 7.645,
+      "high": 7.89,
+      "low": 7.645,
+      "close": 7.89,
+      "volume": 29
+    },
+    {
+      "time": "2026-08-05T09:25:00",
+      "open": 7.89,
+      "high": 7.89,
+      "low": 7.89,
+      "close": 7.89,
+      "volume": 0
+    },
+    {
+      "time": "2026-08-05T09:30:00",
+      "open": 7.99,
+      "high": 7.99,
+      "low": 7.89,
+      "close": 7.97,
+      "volume": 6
     }
   ]
 }
