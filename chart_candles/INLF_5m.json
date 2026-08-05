@@ -2,8 +2,8 @@
   "symbol": "INLF",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-05T05:18:25.876834",
-  "bar_count": 208,
+  "generated_at": "2026-08-05T05:33:29.999725",
+  "bar_count": 211,
   "candles": [
     {
       "time": "2026-08-04T03:00:00",
@@ -1664,10 +1664,34 @@
     {
       "time": "2026-08-05T04:15:00",
       "open": 3.96,
-      "high": 4.0,
+      "high": 4.0444,
       "low": 3.9,
-      "close": 3.98,
-      "volume": 107
+      "close": 4.04,
+      "volume": 206
+    },
+    {
+      "time": "2026-08-05T04:20:00",
+      "open": 4.03,
+      "high": 4.04,
+      "low": 3.96,
+      "close": 3.99,
+      "volume": 236
+    },
+    {
+      "time": "2026-08-05T04:25:00",
+      "open": 3.98,
+      "high": 4.02,
+      "low": 3.91,
+      "close": 3.99,
+      "volume": 108
+    },
+    {
+      "time": "2026-08-05T04:30:00",
+      "open": 3.96,
+      "high": 3.99,
+      "low": 3.94,
+      "close": 3.95,
+      "volume": 124
     }
   ]
 }
