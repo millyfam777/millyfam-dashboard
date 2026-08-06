@@ -2,8 +2,8 @@
   "symbol": "PAVS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-06T19:18:23.866830",
-  "bar_count": 376,
+  "generated_at": "2026-08-06T19:33:24.210636",
+  "bar_count": 379,
   "candles": [
     {
       "time": "2026-08-05T03:00:00",
@@ -3008,10 +3008,34 @@
     {
       "time": "2026-08-06T18:15:00",
       "open": 7.32,
-      "high": 7.32,
+      "high": 7.34,
       "low": 7.32,
+      "close": 7.34,
+      "volume": 5
+    },
+    {
+      "time": "2026-08-06T18:20:00",
+      "open": 7.35,
+      "high": 7.59,
+      "low": 7.34,
+      "close": 7.58,
+      "volume": 92
+    },
+    {
+      "time": "2026-08-06T18:25:00",
+      "open": 7.47,
+      "high": 7.48,
+      "low": 7.3,
       "close": 7.32,
-      "volume": 3
+      "volume": 90
+    },
+    {
+      "time": "2026-08-06T18:30:00",
+      "open": 7.3,
+      "high": 7.32,
+      "low": 7.3,
+      "close": 7.32,
+      "volume": 4
     }
   ]
 }
