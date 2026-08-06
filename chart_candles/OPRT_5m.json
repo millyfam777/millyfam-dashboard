@@ -2,8 +2,8 @@
   "symbol": "OPRT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-06T13:18:09.442833",
-  "bar_count": 200,
+  "generated_at": "2026-08-06T13:33:08.019091",
+  "bar_count": 203,
   "candles": [
     {
       "time": "2026-08-05T08:30:00",
@@ -1600,10 +1600,34 @@
     {
       "time": "2026-08-06T12:15:00",
       "open": 7.82,
-      "high": 7.83,
+      "high": 7.9,
       "low": 7.81,
-      "close": 7.83,
-      "volume": 11
+      "close": 7.9,
+      "volume": 218
+    },
+    {
+      "time": "2026-08-06T12:20:00",
+      "open": 7.9,
+      "high": 7.93,
+      "low": 7.88,
+      "close": 7.92,
+      "volume": 152
+    },
+    {
+      "time": "2026-08-06T12:25:00",
+      "open": 7.91,
+      "high": 7.94,
+      "low": 7.9,
+      "close": 7.91,
+      "volume": 196
+    },
+    {
+      "time": "2026-08-06T12:30:00",
+      "open": 7.93,
+      "high": 8.0,
+      "low": 7.93,
+      "close": 7.98,
+      "volume": 361
     }
   ]
 }
