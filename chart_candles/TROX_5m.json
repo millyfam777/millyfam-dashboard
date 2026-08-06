@@ -2,8 +2,8 @@
   "symbol": "TROX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-06T15:17:10.598542",
-  "bar_count": 285,
+  "generated_at": "2026-08-06T15:32:06.050010",
+  "bar_count": 288,
   "candles": [
     {
       "time": "2026-08-05T03:30:00",
@@ -2281,9 +2281,33 @@
       "time": "2026-08-06T14:15:00",
       "open": 7.02,
       "high": 7.03,
+      "low": 7.01,
+      "close": 7.03,
+      "volume": 208
+    },
+    {
+      "time": "2026-08-06T14:20:00",
+      "open": 7.03,
+      "high": 7.05,
       "low": 7.02,
       "close": 7.03,
-      "volume": 87
+      "volume": 277
+    },
+    {
+      "time": "2026-08-06T14:25:00",
+      "open": 7.03,
+      "high": 7.05,
+      "low": 7.01,
+      "close": 7.03,
+      "volume": 430
+    },
+    {
+      "time": "2026-08-06T14:30:00",
+      "open": 7.04,
+      "high": 7.07,
+      "low": 7.02,
+      "close": 7.07,
+      "volume": 158
     }
   ]
 }
