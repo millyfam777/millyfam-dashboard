@@ -2,8 +2,8 @@
   "symbol": "MATV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-06T10:17:13.980687",
-  "bar_count": 166,
+  "generated_at": "2026-08-06T10:27:07.188615",
+  "bar_count": 168,
   "candles": [
     {
       "time": "2026-08-05T08:30:00",
@@ -1328,10 +1328,26 @@
     {
       "time": "2026-08-06T09:15:00",
       "open": 11.23,
-      "high": 11.25,
+      "high": 11.3,
       "low": 11.19,
-      "close": 11.25,
-      "volume": 49
+      "close": 11.3,
+      "volume": 116
+    },
+    {
+      "time": "2026-08-06T09:20:00",
+      "open": 11.31,
+      "high": 11.4,
+      "low": 11.25,
+      "close": 11.29,
+      "volume": 195
+    },
+    {
+      "time": "2026-08-06T09:25:00",
+      "open": 11.28,
+      "high": 11.31,
+      "low": 11.22,
+      "close": 11.22,
+      "volume": 40
     }
   ]
 }
