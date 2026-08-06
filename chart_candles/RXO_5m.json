@@ -2,8 +2,8 @@
   "symbol": "RXO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-06T08:32:09.588164",
-  "bar_count": 199,
+  "generated_at": "2026-08-06T08:37:10.999725",
+  "bar_count": 200,
   "candles": [
     {
       "time": "2026-08-05T07:00:00",
@@ -1593,9 +1593,17 @@
       "time": "2026-08-06T07:30:00",
       "open": 22.51,
       "high": 22.51,
-      "low": 22.51,
-      "close": 22.51,
-      "volume": 0
+      "low": 22.5,
+      "close": 22.5,
+      "volume": 10
+    },
+    {
+      "time": "2026-08-06T07:35:00",
+      "open": 22.1,
+      "high": 22.1,
+      "low": 22.1,
+      "close": 22.1,
+      "volume": 6
     }
   ]
 }
