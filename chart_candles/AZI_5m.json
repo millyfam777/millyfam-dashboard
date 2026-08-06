@@ -2,8 +2,8 @@
   "symbol": "AZI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-06T09:18:02.972984",
-  "bar_count": 256,
+  "generated_at": "2026-08-06T09:33:04.953416",
+  "bar_count": 259,
   "candles": [
     {
       "time": "2026-08-05T03:00:00",
@@ -2049,9 +2049,33 @@
       "time": "2026-08-06T08:15:00",
       "open": 1.22,
       "high": 1.24,
+      "low": 1.21,
+      "close": 1.21,
+      "volume": 237
+    },
+    {
+      "time": "2026-08-06T08:20:00",
+      "open": 1.21,
+      "high": 1.24,
+      "low": 1.21,
+      "close": 1.24,
+      "volume": 186
+    },
+    {
+      "time": "2026-08-06T08:25:00",
+      "open": 1.25,
+      "high": 1.26,
       "low": 1.22,
-      "close": 1.23,
-      "volume": 207
+      "close": 1.22,
+      "volume": 395
+    },
+    {
+      "time": "2026-08-06T08:30:00",
+      "open": 1.22,
+      "high": 1.22,
+      "low": 1.2,
+      "close": 1.21,
+      "volume": 389
     }
   ]
 }

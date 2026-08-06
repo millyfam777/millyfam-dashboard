@@ -2,8 +2,8 @@
   "symbol": "RAMZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-06T09:17:44.597360",
-  "bar_count": 256,
+  "generated_at": "2026-08-06T09:32:46.691407",
+  "bar_count": 259,
   "candles": [
     {
       "time": "2026-08-05T03:00:00",
@@ -2050,8 +2050,32 @@
       "open": 23.44,
       "high": 23.54,
       "low": 23.44,
+      "close": 23.49,
+      "volume": 21
+    },
+    {
+      "time": "2026-08-06T08:20:00",
+      "open": 23.49,
+      "high": 23.49,
+      "low": 23.42,
+      "close": 23.46,
+      "volume": 6
+    },
+    {
+      "time": "2026-08-06T08:25:00",
+      "open": 23.43,
+      "high": 23.57,
+      "low": 23.43,
       "close": 23.54,
-      "volume": 17
+      "volume": 24
+    },
+    {
+      "time": "2026-08-06T08:30:00",
+      "open": 23.58,
+      "high": 24.15,
+      "low": 23.55,
+      "close": 24.07,
+      "volume": 115
     }
   ]
 }
