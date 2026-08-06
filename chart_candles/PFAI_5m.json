@@ -2,8 +2,8 @@
   "symbol": "PFAI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-06T10:33:17.424497",
-  "bar_count": 205,
+  "generated_at": "2026-08-06T10:48:18.239148",
+  "bar_count": 208,
   "candles": [
     {
       "time": "2026-08-05T03:00:00",
@@ -1640,10 +1640,34 @@
     {
       "time": "2026-08-06T09:30:00",
       "open": 2.67,
-      "high": 2.67,
+      "high": 2.79,
       "low": 2.67,
-      "close": 2.67,
-      "volume": 3
+      "close": 2.79,
+      "volume": 7
+    },
+    {
+      "time": "2026-08-06T09:35:00",
+      "open": 2.79,
+      "high": 2.79,
+      "low": 2.71,
+      "close": 2.71,
+      "volume": 15
+    },
+    {
+      "time": "2026-08-06T09:40:00",
+      "open": 2.71,
+      "high": 2.725,
+      "low": 2.67,
+      "close": 2.725,
+      "volume": 7
+    },
+    {
+      "time": "2026-08-06T09:45:00",
+      "open": 2.725,
+      "high": 2.725,
+      "low": 2.725,
+      "close": 2.725,
+      "volume": 0
     }
   ]
 }
