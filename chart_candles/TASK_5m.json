@@ -2,8 +2,8 @@
   "symbol": "TASK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-06T13:47:57.944542",
-  "bar_count": 250,
+  "generated_at": "2026-08-06T14:03:10.187236",
+  "bar_count": 253,
   "candles": [
     {
       "time": "2026-08-05T04:25:00",
@@ -2000,10 +2000,34 @@
     {
       "time": "2026-08-06T12:45:00",
       "open": 8.03,
-      "high": 8.05,
+      "high": 8.07,
       "low": 8.03,
-      "close": 8.04,
-      "volume": 35
+      "close": 8.07,
+      "volume": 93
+    },
+    {
+      "time": "2026-08-06T12:50:00",
+      "open": 8.07,
+      "high": 8.13,
+      "low": 8.06,
+      "close": 8.13,
+      "volume": 563
+    },
+    {
+      "time": "2026-08-06T12:55:00",
+      "open": 8.12,
+      "high": 8.14,
+      "low": 8.07,
+      "close": 8.08,
+      "volume": 260
+    },
+    {
+      "time": "2026-08-06T13:00:00",
+      "open": 8.08,
+      "high": 8.11,
+      "low": 8.07,
+      "close": 8.11,
+      "volume": 1098
     }
   ]
 }
