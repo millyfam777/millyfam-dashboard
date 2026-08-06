@@ -2,8 +2,8 @@
   "symbol": "OEC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-06T12:17:28.006389",
-  "bar_count": 215,
+  "generated_at": "2026-08-06T12:32:37.367312",
+  "bar_count": 218,
   "candles": [
     {
       "time": "2026-08-05T08:30:00",
@@ -1720,10 +1720,34 @@
     {
       "time": "2026-08-06T11:15:00",
       "open": 7.89,
-      "high": 7.91,
+      "high": 7.95,
       "low": 7.89,
-      "close": 7.91,
-      "volume": 5
+      "close": 7.95,
+      "volume": 59
+    },
+    {
+      "time": "2026-08-06T11:20:00",
+      "open": 7.97,
+      "high": 7.97,
+      "low": 7.95,
+      "close": 7.95,
+      "volume": 13
+    },
+    {
+      "time": "2026-08-06T11:25:00",
+      "open": 7.97,
+      "high": 8.05,
+      "low": 7.96,
+      "close": 8.04,
+      "volume": 46
+    },
+    {
+      "time": "2026-08-06T11:30:00",
+      "open": 8.05,
+      "high": 8.1,
+      "low": 8.05,
+      "close": 8.1,
+      "volume": 8
     }
   ]
 }

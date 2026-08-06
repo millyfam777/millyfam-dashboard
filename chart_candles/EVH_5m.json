@@ -2,8 +2,8 @@
   "symbol": "EVH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-06T12:17:32.828193",
-  "bar_count": 255,
+  "generated_at": "2026-08-06T12:32:28.184279",
+  "bar_count": 258,
   "candles": [
     {
       "time": "2026-08-05T06:00:00",
@@ -2040,10 +2040,34 @@
     {
       "time": "2026-08-06T11:15:00",
       "open": 3.7,
+      "high": 3.73,
+      "low": 3.7,
+      "close": 3.73,
+      "volume": 84
+    },
+    {
+      "time": "2026-08-06T11:20:00",
+      "open": 3.72,
       "high": 3.72,
       "low": 3.7,
-      "close": 3.71,
-      "volume": 25
+      "close": 3.7,
+      "volume": 125
+    },
+    {
+      "time": "2026-08-06T11:25:00",
+      "open": 3.7,
+      "high": 3.73,
+      "low": 3.7,
+      "close": 3.73,
+      "volume": 126
+    },
+    {
+      "time": "2026-08-06T11:30:00",
+      "open": 3.73,
+      "high": 3.73,
+      "low": 3.71,
+      "close": 3.72,
+      "volume": 350
     }
   ]
 }
