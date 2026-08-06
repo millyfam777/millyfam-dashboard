@@ -2,8 +2,8 @@
   "symbol": "MYO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-06T11:17:53.042304",
-  "bar_count": 276,
+  "generated_at": "2026-08-06T11:33:05.397520",
+  "bar_count": 279,
   "candles": [
     {
       "time": "2026-08-05T03:00:00",
@@ -2210,8 +2210,32 @@
       "open": 1.31,
       "high": 1.33,
       "low": 1.31,
+      "close": 1.325,
+      "volume": 308
+    },
+    {
+      "time": "2026-08-06T10:20:00",
+      "open": 1.325,
+      "high": 1.34,
+      "low": 1.31,
+      "close": 1.34,
+      "volume": 442
+    },
+    {
+      "time": "2026-08-06T10:25:00",
+      "open": 1.339,
+      "high": 1.34,
+      "low": 1.33,
       "close": 1.33,
-      "volume": 253
+      "volume": 203
+    },
+    {
+      "time": "2026-08-06T10:30:00",
+      "open": 1.33,
+      "high": 1.34,
+      "low": 1.33,
+      "close": 1.3347,
+      "volume": 50
     }
   ]
 }
