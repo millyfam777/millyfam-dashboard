@@ -2,8 +2,8 @@
   "symbol": "EOLS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-06T12:47:28.005428",
-  "bar_count": 226,
+  "generated_at": "2026-08-06T13:02:17.580454",
+  "bar_count": 229,
   "candles": [
     {
       "time": "2026-08-05T08:30:00",
@@ -1808,10 +1808,34 @@
     {
       "time": "2026-08-06T11:45:00",
       "open": 7.4,
-      "high": 7.4,
+      "high": 7.41,
+      "low": 7.39,
+      "close": 7.39,
+      "volume": 48
+    },
+    {
+      "time": "2026-08-06T11:50:00",
+      "open": 7.4,
+      "high": 7.41,
       "low": 7.4,
-      "close": 7.4,
-      "volume": 13
+      "close": 7.41,
+      "volume": 68
+    },
+    {
+      "time": "2026-08-06T11:55:00",
+      "open": 7.41,
+      "high": 7.41,
+      "low": 7.39,
+      "close": 7.41,
+      "volume": 45
+    },
+    {
+      "time": "2026-08-06T12:00:00",
+      "open": 7.41,
+      "high": 7.41,
+      "low": 7.39,
+      "close": 7.39,
+      "volume": 12
     }
   ]
 }
