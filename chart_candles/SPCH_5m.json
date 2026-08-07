@@ -2,8 +2,8 @@
   "symbol": "SPCH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-07T17:02:48.309407",
-  "bar_count": 349,
+  "generated_at": "2026-08-07T17:17:49.092853",
+  "bar_count": 352,
   "candles": [
     {
       "time": "2026-08-06T03:00:00",
@@ -2792,10 +2792,34 @@
     {
       "time": "2026-08-07T16:00:00",
       "open": 8.37,
-      "high": 8.4,
+      "high": 8.43,
       "low": 8.36,
+      "close": 8.41,
+      "volume": 309
+    },
+    {
+      "time": "2026-08-07T16:05:00",
+      "open": 8.4,
+      "high": 8.45,
+      "low": 8.4,
+      "close": 8.4,
+      "volume": 245
+    },
+    {
+      "time": "2026-08-07T16:10:00",
+      "open": 8.4,
+      "high": 8.4,
+      "low": 8.37,
+      "close": 8.38,
+      "volume": 254
+    },
+    {
+      "time": "2026-08-07T16:15:00",
+      "open": 8.38,
+      "high": 8.39,
+      "low": 8.37,
       "close": 8.37,
-      "volume": 216
+      "volume": 73
     }
   ]
 }
