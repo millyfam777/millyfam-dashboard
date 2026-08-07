@@ -2,8 +2,8 @@
   "symbol": "INDI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-07T07:03:09.211297",
-  "bar_count": 229,
+  "generated_at": "2026-08-07T07:18:22.507036",
+  "bar_count": 232,
   "candles": [
     {
       "time": "2026-08-06T03:00:00",
@@ -1832,10 +1832,34 @@
     {
       "time": "2026-08-07T06:00:00",
       "open": 4.04,
-      "high": 4.12,
+      "high": 4.13,
       "low": 4.02,
-      "close": 4.12,
-      "volume": 203
+      "close": 4.09,
+      "volume": 229
+    },
+    {
+      "time": "2026-08-07T06:05:00",
+      "open": 4.1,
+      "high": 4.14,
+      "low": 4.07,
+      "close": 4.13,
+      "volume": 47
+    },
+    {
+      "time": "2026-08-07T06:10:00",
+      "open": 4.14,
+      "high": 4.14,
+      "low": 4.06,
+      "close": 4.06,
+      "volume": 30
+    },
+    {
+      "time": "2026-08-07T06:15:00",
+      "open": 4.07,
+      "high": 4.1353,
+      "low": 4.07,
+      "close": 4.1353,
+      "volume": 14
     }
   ]
 }
