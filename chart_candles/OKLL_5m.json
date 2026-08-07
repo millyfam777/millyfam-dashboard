@@ -2,8 +2,8 @@
   "symbol": "OKLL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-07T14:02:49.906150",
-  "bar_count": 313,
+  "generated_at": "2026-08-07T14:17:53.453482",
+  "bar_count": 316,
   "candles": [
     {
       "time": "2026-08-06T03:00:00",
@@ -2504,10 +2504,34 @@
     {
       "time": "2026-08-07T13:00:00",
       "open": 3.7,
-      "high": 3.73,
+      "high": 3.75,
       "low": 3.7,
+      "close": 3.74,
+      "volume": 987
+    },
+    {
+      "time": "2026-08-07T13:05:00",
+      "open": 3.73,
+      "high": 3.74,
+      "low": 3.7,
+      "close": 3.74,
+      "volume": 709
+    },
+    {
+      "time": "2026-08-07T13:10:00",
+      "open": 3.73,
+      "high": 3.74,
+      "low": 3.72,
       "close": 3.72,
-      "volume": 341
+      "volume": 932
+    },
+    {
+      "time": "2026-08-07T13:15:00",
+      "open": 3.73,
+      "high": 3.76,
+      "low": 3.73,
+      "close": 3.75,
+      "volume": 1034
     }
   ]
 }
