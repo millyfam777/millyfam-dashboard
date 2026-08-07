@@ -2,8 +2,8 @@
   "symbol": "NRXP",
   "timeframe": "2m",
   "source": "IBKR",
-  "generated_at": "2026-08-07T09:02:07.468265",
-  "bar_count": 613,
+  "generated_at": "2026-08-07T09:07:20.529632",
+  "bar_count": 615,
   "candles": [
     {
       "time": "2026-08-06T03:24:00",
@@ -4903,11 +4903,27 @@
     },
     {
       "time": "2026-08-07T08:02:00",
+      "open": 3.5551,
+      "high": 3.5551,
+      "low": 3.46,
+      "close": 3.46,
+      "volume": 113
+    },
+    {
+      "time": "2026-08-07T08:04:00",
       "open": 3.55,
       "high": 3.55,
-      "low": 3.55,
+      "low": 3.46,
+      "close": 3.47,
+      "volume": 30
+    },
+    {
+      "time": "2026-08-07T08:06:00",
+      "open": 3.47,
+      "high": 3.55,
+      "low": 3.47,
       "close": 3.55,
-      "volume": 0
+      "volume": 6
     }
   ]
 }
