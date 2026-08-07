@@ -2,8 +2,8 @@
   "symbol": "TSEG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-07T12:02:38.798351",
-  "bar_count": 276,
+  "generated_at": "2026-08-07T12:17:38.749910",
+  "bar_count": 279,
   "candles": [
     {
       "time": "2026-08-06T04:05:00",
@@ -2208,10 +2208,34 @@
     {
       "time": "2026-08-07T11:00:00",
       "open": 9.56,
-      "high": 9.56,
+      "high": 9.57,
       "low": 9.48,
-      "close": 9.5,
-      "volume": 5
+      "close": 9.55,
+      "volume": 11
+    },
+    {
+      "time": "2026-08-07T11:05:00",
+      "open": 9.67,
+      "high": 9.68,
+      "low": 9.65,
+      "close": 9.65,
+      "volume": 65
+    },
+    {
+      "time": "2026-08-07T11:10:00",
+      "open": 9.57,
+      "high": 9.6,
+      "low": 9.51,
+      "close": 9.51,
+      "volume": 31
+    },
+    {
+      "time": "2026-08-07T11:15:00",
+      "open": 9.51,
+      "high": 9.51,
+      "low": 9.51,
+      "close": 9.51,
+      "volume": 0
     }
   ]
 }

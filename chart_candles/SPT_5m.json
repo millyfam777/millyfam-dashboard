@@ -2,8 +2,8 @@
   "symbol": "SPT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-07T12:02:13.535969",
-  "bar_count": 253,
+  "generated_at": "2026-08-07T12:12:09.023802",
+  "bar_count": 255,
   "candles": [
     {
       "time": "2026-08-06T06:00:00",
@@ -2025,9 +2025,25 @@
       "time": "2026-08-07T11:00:00",
       "open": 10.14,
       "high": 10.16,
-      "low": 10.14,
-      "close": 10.15,
-      "volume": 24
+      "low": 10.12,
+      "close": 10.13,
+      "volume": 50
+    },
+    {
+      "time": "2026-08-07T11:05:00",
+      "open": 10.12,
+      "high": 10.13,
+      "low": 10.1,
+      "close": 10.13,
+      "volume": 84
+    },
+    {
+      "time": "2026-08-07T11:10:00",
+      "open": 10.14,
+      "high": 10.16,
+      "low": 10.1,
+      "close": 10.1,
+      "volume": 42
     }
   ]
 }
