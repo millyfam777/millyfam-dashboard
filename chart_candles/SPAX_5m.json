@@ -2,8 +2,8 @@
   "symbol": "SPAX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-07T13:02:24.186113",
-  "bar_count": 301,
+  "generated_at": "2026-08-07T13:17:25.340315",
+  "bar_count": 304,
   "candles": [
     {
       "time": "2026-08-06T03:00:00",
@@ -2408,10 +2408,34 @@
     {
       "time": "2026-08-07T12:00:00",
       "open": 7.97,
-      "high": 7.98,
+      "high": 8.02,
+      "low": 7.95,
+      "close": 7.99,
+      "volume": 648
+    },
+    {
+      "time": "2026-08-07T12:05:00",
+      "open": 7.99,
+      "high": 8.01,
       "low": 7.95,
       "close": 7.97,
-      "volume": 161
+      "volume": 243
+    },
+    {
+      "time": "2026-08-07T12:10:00",
+      "open": 7.98,
+      "high": 7.98,
+      "low": 7.9,
+      "close": 7.9,
+      "volume": 277
+    },
+    {
+      "time": "2026-08-07T12:15:00",
+      "open": 7.92,
+      "high": 7.93,
+      "low": 7.92,
+      "close": 7.92,
+      "volume": 33
     }
   ]
 }
