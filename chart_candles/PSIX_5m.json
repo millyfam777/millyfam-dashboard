@@ -2,8 +2,8 @@
   "symbol": "PSIX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-07T08:47:49.008962",
-  "bar_count": 218,
+  "generated_at": "2026-08-07T09:02:42.504066",
+  "bar_count": 221,
   "candles": [
     {
       "time": "2026-08-06T05:40:00",
@@ -1744,10 +1744,34 @@
     {
       "time": "2026-08-07T07:45:00",
       "open": 38.94,
-      "high": 38.94,
+      "high": 38.99,
       "low": 38.94,
-      "close": 38.94,
-      "volume": 1
+      "close": 38.99,
+      "volume": 2
+    },
+    {
+      "time": "2026-08-07T07:50:00",
+      "open": 39.0,
+      "high": 39.24,
+      "low": 38.99,
+      "close": 39.24,
+      "volume": 36
+    },
+    {
+      "time": "2026-08-07T07:55:00",
+      "open": 39.2,
+      "high": 39.2,
+      "low": 39.2,
+      "close": 39.2,
+      "volume": 2
+    },
+    {
+      "time": "2026-08-07T08:00:00",
+      "open": 39.2,
+      "high": 39.2,
+      "low": 39.2,
+      "close": 39.2,
+      "volume": 0
     }
   ]
 }
