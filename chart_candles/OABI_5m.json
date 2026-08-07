@@ -2,8 +2,8 @@
   "symbol": "OABI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-07T16:48:28.319733",
-  "bar_count": 280,
+  "generated_at": "2026-08-07T17:03:26.964653",
+  "bar_count": 283,
   "candles": [
     {
       "time": "2026-08-06T08:30:00",
@@ -2240,10 +2240,34 @@
     {
       "time": "2026-08-07T15:45:00",
       "open": 3.07,
-      "high": 3.07,
+      "high": 3.1,
       "low": 3.0699,
-      "close": 3.07,
-      "volume": 6
+      "close": 3.1,
+      "volume": 13
+    },
+    {
+      "time": "2026-08-07T15:50:00",
+      "open": 3.15,
+      "high": 3.15,
+      "low": 3.0662,
+      "close": 3.0662,
+      "volume": 14
+    },
+    {
+      "time": "2026-08-07T15:55:00",
+      "open": 3.15,
+      "high": 3.15,
+      "low": 3.11,
+      "close": 3.15,
+      "volume": 47
+    },
+    {
+      "time": "2026-08-07T16:00:00",
+      "open": 3.15,
+      "high": 3.15,
+      "low": 3.15,
+      "close": 3.15,
+      "volume": 3
     }
   ]
 }
