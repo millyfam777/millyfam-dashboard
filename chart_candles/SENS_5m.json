@@ -2,8 +2,8 @@
   "symbol": "SENS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-07T15:48:09.599852",
-  "bar_count": 218,
+  "generated_at": "2026-08-07T16:03:07.203497",
+  "bar_count": 221,
   "candles": [
     {
       "time": "2026-08-06T08:30:00",
@@ -1744,10 +1744,34 @@
     {
       "time": "2026-08-07T14:45:00",
       "open": 6.89,
-      "high": 6.91,
+      "high": 6.94,
+      "low": 6.86,
+      "close": 6.93,
+      "volume": 411
+    },
+    {
+      "time": "2026-08-07T14:50:00",
+      "open": 6.94,
+      "high": 6.98,
       "low": 6.89,
-      "close": 6.9,
-      "volume": 118
+      "close": 6.93,
+      "volume": 583
+    },
+    {
+      "time": "2026-08-07T14:55:00",
+      "open": 6.95,
+      "high": 7.04,
+      "low": 6.9,
+      "close": 7.0,
+      "volume": 1994
+    },
+    {
+      "time": "2026-08-07T15:00:00",
+      "open": 7.02,
+      "high": 7.02,
+      "low": 6.76,
+      "close": 6.76,
+      "volume": 822
     }
   ]
 }
