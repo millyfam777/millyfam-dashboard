@@ -2,8 +2,8 @@
   "symbol": "ACMR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-07T05:32:38.095042",
-  "bar_count": 211,
+  "generated_at": "2026-08-07T05:47:13.525529",
+  "bar_count": 214,
   "candles": [
     {
       "time": "2026-08-06T03:00:00",
@@ -1689,9 +1689,33 @@
       "time": "2026-08-07T04:30:00",
       "open": 89.3,
       "high": 89.3,
-      "low": 89.3,
-      "close": 89.3,
-      "volume": 1
+      "low": 89.0,
+      "close": 89.0,
+      "volume": 2
+    },
+    {
+      "time": "2026-08-07T04:35:00",
+      "open": 89.0,
+      "high": 89.0,
+      "low": 89.0,
+      "close": 89.0,
+      "volume": 0
+    },
+    {
+      "time": "2026-08-07T04:40:00",
+      "open": 88.5,
+      "high": 88.5,
+      "low": 88.41,
+      "close": 88.41,
+      "volume": 12
+    },
+    {
+      "time": "2026-08-07T04:45:00",
+      "open": 88.41,
+      "high": 88.41,
+      "low": 88.41,
+      "close": 88.41,
+      "volume": 0
     }
   ]
 }
