@@ -2,8 +2,8 @@
   "symbol": "NAMI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-07T14:33:26.622454",
-  "bar_count": 319,
+  "generated_at": "2026-08-07T14:48:29.512098",
+  "bar_count": 322,
   "candles": [
     {
       "time": "2026-08-06T03:00:00",
@@ -2552,10 +2552,34 @@
     {
       "time": "2026-08-07T13:30:00",
       "open": 4.07,
-      "high": 4.17,
+      "high": 4.18,
       "low": 4.03,
-      "close": 4.15,
-      "volume": 433
+      "close": 4.18,
+      "volume": 584
+    },
+    {
+      "time": "2026-08-07T13:35:00",
+      "open": 4.16,
+      "high": 4.2,
+      "low": 4.09,
+      "close": 4.09,
+      "volume": 254
+    },
+    {
+      "time": "2026-08-07T13:40:00",
+      "open": 4.1,
+      "high": 4.17,
+      "low": 4.05,
+      "close": 4.09,
+      "volume": 221
+    },
+    {
+      "time": "2026-08-07T13:45:00",
+      "open": 4.17,
+      "high": 4.29,
+      "low": 4.17,
+      "close": 4.26,
+      "volume": 557
     }
   ]
 }
