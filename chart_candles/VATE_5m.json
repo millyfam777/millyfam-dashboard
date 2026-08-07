@@ -2,8 +2,8 @@
   "symbol": "VATE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-07T10:03:30.785780",
-  "bar_count": 199,
+  "generated_at": "2026-08-07T10:08:36.746864",
+  "bar_count": 200,
   "candles": [
     {
       "time": "2026-08-06T08:30:00",
@@ -1592,10 +1592,18 @@
     {
       "time": "2026-08-07T09:00:00",
       "open": 11.18,
-      "high": 11.49,
+      "high": 11.9,
       "low": 11.03,
-      "close": 11.32,
-      "volume": 862
+      "close": 11.9,
+      "volume": 1702
+    },
+    {
+      "time": "2026-08-07T09:05:00",
+      "open": 11.89,
+      "high": 12.35,
+      "low": 11.67,
+      "close": 11.91,
+      "volume": 2517
     }
   ]
 }
