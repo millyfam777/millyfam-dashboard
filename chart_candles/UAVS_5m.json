@@ -2,8 +2,8 @@
   "symbol": "UAVS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-10T04:02:18.128433",
-  "bar_count": 192,
+  "generated_at": "2026-08-10T04:07:26.885098",
+  "bar_count": 193,
   "candles": [
     {
       "time": "2026-08-07T03:05:00",
@@ -1536,10 +1536,18 @@
     {
       "time": "2026-08-10T03:00:00",
       "open": 0.99,
-      "high": 1.05,
+      "high": 1.07,
       "low": 0.9395,
-      "close": 0.9994,
-      "volume": 1076
+      "close": 0.9599,
+      "volume": 1526
+    },
+    {
+      "time": "2026-08-10T03:05:00",
+      "open": 0.9513,
+      "high": 0.96,
+      "low": 0.9513,
+      "close": 0.96,
+      "volume": 10
     }
   ]
 }
