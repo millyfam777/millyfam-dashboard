@@ -2,8 +2,8 @@
   "symbol": "STI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-10T09:02:22.521921",
-  "bar_count": 253,
+  "generated_at": "2026-08-10T09:17:36.153460",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-08-07T03:00:00",
@@ -2023,11 +2023,35 @@
     },
     {
       "time": "2026-08-10T08:00:00",
-      "open": 7.9,
+      "open": 7.86,
+      "high": 7.97,
+      "low": 7.86,
+      "close": 7.97,
+      "volume": 16
+    },
+    {
+      "time": "2026-08-10T08:05:00",
+      "open": 7.97,
+      "high": 7.97,
+      "low": 7.97,
+      "close": 7.97,
+      "volume": 6
+    },
+    {
+      "time": "2026-08-10T08:10:00",
+      "open": 7.89,
       "high": 7.9,
-      "low": 7.9,
-      "close": 7.9,
-      "volume": 0
+      "low": 7.73,
+      "close": 7.89,
+      "volume": 40
+    },
+    {
+      "time": "2026-08-10T08:15:00",
+      "open": 7.89,
+      "high": 7.89,
+      "low": 7.89,
+      "close": 7.89,
+      "volume": 2
     }
   ]
 }

@@ -2,8 +2,8 @@
   "symbol": "NNNN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-10T09:02:42.913707",
-  "bar_count": 147,
+  "generated_at": "2026-08-10T09:07:44.346556",
+  "bar_count": 148,
   "candles": [
     {
       "time": "2026-08-07T08:30:00",
@@ -1177,9 +1177,17 @@
       "time": "2026-08-10T08:00:00",
       "open": 11.4,
       "high": 11.41,
-      "low": 11.4,
-      "close": 11.41,
-      "volume": 9
+      "low": 11.0,
+      "close": 11.0,
+      "volume": 10
+    },
+    {
+      "time": "2026-08-10T08:05:00",
+      "open": 11.0,
+      "high": 11.0,
+      "low": 11.0,
+      "close": 11.0,
+      "volume": 0
     }
   ]
 }
