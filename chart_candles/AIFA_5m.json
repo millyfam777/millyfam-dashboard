@@ -2,8 +2,8 @@
   "symbol": "AIFA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-10T07:33:23.254408",
-  "bar_count": 169,
+  "generated_at": "2026-08-10T07:49:26.292952",
+  "bar_count": 172,
   "candles": [
     {
       "time": "2026-08-07T08:30:00",
@@ -1352,10 +1352,34 @@
     {
       "time": "2026-08-10T06:30:00",
       "open": 2.41,
-      "high": 2.45,
+      "high": 2.48,
       "low": 2.23,
-      "close": 2.4499,
-      "volume": 57
+      "close": 2.48,
+      "volume": 66
+    },
+    {
+      "time": "2026-08-10T06:35:00",
+      "open": 2.48,
+      "high": 2.5,
+      "low": 2.43,
+      "close": 2.45,
+      "volume": 61
+    },
+    {
+      "time": "2026-08-10T06:40:00",
+      "open": 2.47,
+      "high": 2.5,
+      "low": 2.4697,
+      "close": 2.49,
+      "volume": 44
+    },
+    {
+      "time": "2026-08-10T06:45:00",
+      "open": 2.5,
+      "high": 2.55,
+      "low": 2.4,
+      "close": 2.4,
+      "volume": 155
     }
   ]
 }

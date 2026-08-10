@@ -2,8 +2,8 @@
   "symbol": "AIRJ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-10T07:32:16.265204",
-  "bar_count": 235,
+  "generated_at": "2026-08-10T07:48:46.686635",
+  "bar_count": 238,
   "candles": [
     {
       "time": "2026-08-07T03:00:00",
@@ -1881,9 +1881,33 @@
       "time": "2026-08-10T06:30:00",
       "open": 6.58,
       "high": 6.6,
+      "low": 6.55,
+      "close": 6.55,
+      "volume": 67
+    },
+    {
+      "time": "2026-08-10T06:35:00",
+      "open": 6.6,
+      "high": 6.6,
       "low": 6.58,
-      "close": 6.58,
-      "volume": 62
+      "close": 6.59,
+      "volume": 3
+    },
+    {
+      "time": "2026-08-10T06:40:00",
+      "open": 6.52,
+      "high": 6.52,
+      "low": 6.46,
+      "close": 6.46,
+      "volume": 251
+    },
+    {
+      "time": "2026-08-10T06:45:00",
+      "open": 6.46,
+      "high": 6.47,
+      "low": 6.46,
+      "close": 6.47,
+      "volume": 70
     }
   ]
 }
