@@ -2,8 +2,8 @@
   "symbol": "HYFM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-10T15:12:20.656199",
-  "bar_count": 327,
+  "generated_at": "2026-08-10T15:22:08.662957",
+  "bar_count": 329,
   "candles": [
     {
       "time": "2026-08-07T03:00:00",
@@ -2617,9 +2617,25 @@
       "time": "2026-08-10T14:10:00",
       "open": 1.9332,
       "high": 1.9332,
-      "low": 1.9332,
-      "close": 1.9332,
-      "volume": 1
+      "low": 1.9,
+      "close": 1.9,
+      "volume": 3
+    },
+    {
+      "time": "2026-08-10T14:15:00",
+      "open": 1.93,
+      "high": 1.93,
+      "low": 1.89,
+      "close": 1.89,
+      "volume": 12
+    },
+    {
+      "time": "2026-08-10T14:20:00",
+      "open": 1.9,
+      "high": 1.91,
+      "low": 1.89,
+      "close": 1.9,
+      "volume": 18
     }
   ]
 }
