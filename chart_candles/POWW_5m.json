@@ -2,8 +2,8 @@
   "symbol": "POWW",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-10T12:32:10.563297",
-  "bar_count": 255,
+  "generated_at": "2026-08-10T12:37:08.358382",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-08-07T06:20:00",
@@ -2041,9 +2041,17 @@
       "time": "2026-08-10T11:30:00",
       "open": 2.445,
       "high": 2.445,
+      "low": 2.435,
+      "close": 2.445,
+      "volume": 62
+    },
+    {
+      "time": "2026-08-10T11:35:00",
+      "open": 2.445,
+      "high": 2.445,
       "low": 2.445,
       "close": 2.445,
-      "volume": 3
+      "volume": 4
     }
   ]
 }
