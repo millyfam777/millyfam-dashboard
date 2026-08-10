@@ -2,8 +2,8 @@
   "symbol": "ACDC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-10T12:47:21.980350",
-  "bar_count": 179,
+  "generated_at": "2026-08-10T13:02:35.753937",
+  "bar_count": 182,
   "candles": [
     {
       "time": "2026-08-07T08:30:00",
@@ -1433,9 +1433,33 @@
       "time": "2026-08-10T11:45:00",
       "open": 5.08,
       "high": 5.09,
+      "low": 5.05,
+      "close": 5.06,
+      "volume": 166
+    },
+    {
+      "time": "2026-08-10T11:50:00",
+      "open": 5.07,
+      "high": 5.17,
       "low": 5.07,
-      "close": 5.08,
-      "volume": 52
+      "close": 5.13,
+      "volume": 857
+    },
+    {
+      "time": "2026-08-10T11:55:00",
+      "open": 5.13,
+      "high": 5.14,
+      "low": 5.12,
+      "close": 5.13,
+      "volume": 152
+    },
+    {
+      "time": "2026-08-10T12:00:00",
+      "open": 5.12,
+      "high": 5.15,
+      "low": 5.12,
+      "close": 5.15,
+      "volume": 72
     }
   ]
 }
