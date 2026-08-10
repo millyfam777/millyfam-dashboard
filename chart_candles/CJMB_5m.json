@@ -2,8 +2,8 @@
   "symbol": "CJMB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-10T16:32:51.499577",
-  "bar_count": 338,
+  "generated_at": "2026-08-10T16:47:49.464648",
+  "bar_count": 341,
   "candles": [
     {
       "time": "2026-08-07T03:00:00",
@@ -2705,9 +2705,33 @@
       "time": "2026-08-10T15:30:00",
       "open": 1.95,
       "high": 1.96,
+      "low": 1.9403,
+      "close": 1.9403,
+      "volume": 32
+    },
+    {
+      "time": "2026-08-10T15:35:00",
+      "open": 1.99,
+      "high": 1.99,
+      "low": 1.99,
+      "close": 1.99,
+      "volume": 17
+    },
+    {
+      "time": "2026-08-10T15:40:00",
+      "open": 1.99,
+      "high": 1.99,
+      "low": 1.99,
+      "close": 1.99,
+      "volume": 0
+    },
+    {
+      "time": "2026-08-10T15:45:00",
+      "open": 1.95,
+      "high": 1.95,
       "low": 1.95,
-      "close": 1.96,
-      "volume": 24
+      "close": 1.95,
+      "volume": 10
     }
   ]
 }
