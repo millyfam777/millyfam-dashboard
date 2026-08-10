@@ -2,8 +2,8 @@
   "symbol": "MVIS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-10T11:17:41.660383",
-  "bar_count": 280,
+  "generated_at": "2026-08-10T11:32:52.185096",
+  "bar_count": 283,
   "candles": [
     {
       "time": "2026-08-07T03:00:00",
@@ -2241,9 +2241,33 @@
       "time": "2026-08-10T10:15:00",
       "open": 4.125,
       "high": 4.125,
+      "low": 4.03,
+      "close": 4.08,
+      "volume": 30
+    },
+    {
+      "time": "2026-08-10T10:20:00",
+      "open": 4.07,
+      "high": 4.1199,
+      "low": 4.07,
+      "close": 4.11,
+      "volume": 37
+    },
+    {
+      "time": "2026-08-10T10:25:00",
+      "open": 4.095,
+      "high": 4.12,
       "low": 4.06,
       "close": 4.06,
-      "volume": 16
+      "volume": 29
+    },
+    {
+      "time": "2026-08-10T10:30:00",
+      "open": 4.06,
+      "high": 4.09,
+      "low": 4.04,
+      "close": 4.085,
+      "volume": 54
     }
   ]
 }
