@@ -2,8 +2,8 @@
   "symbol": "AAOG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-10T05:18:16.982519",
-  "bar_count": 208,
+  "generated_at": "2026-08-10T05:33:06.468409",
+  "bar_count": 211,
   "candles": [
     {
       "time": "2026-08-07T03:00:00",
@@ -1664,10 +1664,34 @@
     {
       "time": "2026-08-10T04:15:00",
       "open": 5.03,
-      "high": 5.03,
+      "high": 5.04,
+      "low": 5.03,
+      "close": 5.04,
+      "volume": 6
+    },
+    {
+      "time": "2026-08-10T04:20:00",
+      "open": 5.04,
+      "high": 5.04,
+      "low": 5.04,
+      "close": 5.04,
+      "volume": 0
+    },
+    {
+      "time": "2026-08-10T04:25:00",
+      "open": 5.031,
+      "high": 5.0584,
+      "low": 5.031,
+      "close": 5.0584,
+      "volume": 29
+    },
+    {
+      "time": "2026-08-10T04:30:00",
+      "open": 5.06,
+      "high": 5.06,
       "low": 5.03,
       "close": 5.03,
-      "volume": 4
+      "volume": 14
     }
   ]
 }
