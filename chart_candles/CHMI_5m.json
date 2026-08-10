@@ -2,8 +2,8 @@
   "symbol": "CHMI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-10T08:03:08.564260",
-  "bar_count": 145,
+  "generated_at": "2026-08-10T08:18:01.842836",
+  "bar_count": 148,
   "candles": [
     {
       "time": "2026-08-07T08:30:00",
@@ -1160,10 +1160,34 @@
     {
       "time": "2026-08-10T07:00:00",
       "open": 2.74,
-      "high": 2.74,
+      "high": 2.75,
       "low": 2.72,
-      "close": 2.74,
-      "volume": 21
+      "close": 2.75,
+      "volume": 62
+    },
+    {
+      "time": "2026-08-10T07:05:00",
+      "open": 2.75,
+      "high": 2.8,
+      "low": 2.75,
+      "close": 2.79,
+      "volume": 505
+    },
+    {
+      "time": "2026-08-10T07:10:00",
+      "open": 2.78,
+      "high": 2.8,
+      "low": 2.78,
+      "close": 2.8,
+      "volume": 62
+    },
+    {
+      "time": "2026-08-10T07:15:00",
+      "open": 2.79,
+      "high": 2.8,
+      "low": 2.78,
+      "close": 2.8,
+      "volume": 48
     }
   ]
 }
