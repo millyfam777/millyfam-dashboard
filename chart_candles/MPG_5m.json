@@ -2,8 +2,8 @@
   "symbol": "MPG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-10T10:02:11.172828",
-  "bar_count": 265,
+  "generated_at": "2026-08-10T10:17:17.333368",
+  "bar_count": 268,
   "candles": [
     {
       "time": "2026-08-07T03:00:00",
@@ -2120,10 +2120,34 @@
     {
       "time": "2026-08-10T09:00:00",
       "open": 5.2,
-      "high": 5.3,
+      "high": 5.31,
       "low": 5.2,
-      "close": 5.3,
-      "volume": 41
+      "close": 5.25,
+      "volume": 121
+    },
+    {
+      "time": "2026-08-10T09:05:00",
+      "open": 5.28,
+      "high": 5.32,
+      "low": 5.27,
+      "close": 5.27,
+      "volume": 89
+    },
+    {
+      "time": "2026-08-10T09:10:00",
+      "open": 5.27,
+      "high": 5.27,
+      "low": 5.12,
+      "close": 5.13,
+      "volume": 158
+    },
+    {
+      "time": "2026-08-10T09:15:00",
+      "open": 5.14,
+      "high": 5.15,
+      "low": 5.13,
+      "close": 5.14,
+      "volume": 8
     }
   ]
 }
