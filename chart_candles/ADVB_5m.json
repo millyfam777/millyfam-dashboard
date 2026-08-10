@@ -2,8 +2,8 @@
   "symbol": "ADVB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-10T06:03:00.268959",
-  "bar_count": 215,
+  "generated_at": "2026-08-10T06:13:07.359380",
+  "bar_count": 217,
   "candles": [
     {
       "time": "2026-08-07T03:00:00",
@@ -1719,11 +1719,27 @@
     },
     {
       "time": "2026-08-10T05:00:00",
-      "open": 7.03,
-      "high": 7.03,
-      "low": 7.03,
-      "close": 7.03,
-      "volume": 0
+      "open": 7.05,
+      "high": 7.05,
+      "low": 7.01,
+      "close": 7.02,
+      "volume": 5
+    },
+    {
+      "time": "2026-08-10T05:05:00",
+      "open": 7.01,
+      "high": 8.7,
+      "low": 7.01,
+      "close": 8.43,
+      "volume": 623
+    },
+    {
+      "time": "2026-08-10T05:10:00",
+      "open": 8.21,
+      "high": 8.5,
+      "low": 5.8,
+      "close": 5.84,
+      "volume": 969
     }
   ]
 }
