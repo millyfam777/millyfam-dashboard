@@ -2,8 +2,8 @@
   "symbol": "ALGS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-10T14:18:21.431139",
-  "bar_count": 216,
+  "generated_at": "2026-08-10T14:33:28.080655",
+  "bar_count": 219,
   "candles": [
     {
       "time": "2026-08-07T06:00:00",
@@ -1727,11 +1727,35 @@
     },
     {
       "time": "2026-08-10T13:15:00",
+      "open": 7.2522,
+      "high": 7.28,
+      "low": 7.2522,
+      "close": 7.28,
+      "volume": 8
+    },
+    {
+      "time": "2026-08-10T13:20:00",
+      "open": 7.26,
+      "high": 7.3,
+      "low": 7.2,
+      "close": 7.29,
+      "volume": 102
+    },
+    {
+      "time": "2026-08-10T13:25:00",
+      "open": 7.247,
+      "high": 7.3,
+      "low": 7.247,
+      "close": 7.3,
+      "volume": 4
+    },
+    {
+      "time": "2026-08-10T13:30:00",
       "open": 7.28,
       "high": 7.28,
-      "low": 7.28,
-      "close": 7.28,
-      "volume": 0
+      "low": 7.26,
+      "close": 7.26,
+      "volume": 2
     }
   ]
 }
