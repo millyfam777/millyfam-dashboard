@@ -2,8 +2,8 @@
   "symbol": "BCAR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-10T10:48:29.605114",
-  "bar_count": 200,
+  "generated_at": "2026-08-10T11:03:05.799552",
+  "bar_count": 203,
   "candles": [
     {
       "time": "2026-08-07T08:20:00",
@@ -1601,9 +1601,33 @@
       "time": "2026-08-10T09:45:00",
       "open": 6.23,
       "high": 6.31,
-      "low": 6.18,
-      "close": 6.18,
-      "volume": 36
+      "low": 5.96,
+      "close": 5.96,
+      "volume": 78
+    },
+    {
+      "time": "2026-08-10T09:50:00",
+      "open": 5.92,
+      "high": 6.01,
+      "low": 5.8,
+      "close": 6.0,
+      "volume": 48
+    },
+    {
+      "time": "2026-08-10T09:55:00",
+      "open": 5.8,
+      "high": 6.2,
+      "low": 5.8,
+      "close": 5.85,
+      "volume": 20
+    },
+    {
+      "time": "2026-08-10T10:00:00",
+      "open": 5.85,
+      "high": 5.85,
+      "low": 5.58,
+      "close": 5.79,
+      "volume": 22
     }
   ]
 }
