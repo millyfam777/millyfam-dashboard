@@ -2,8 +2,8 @@
   "symbol": "TNON",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-10T14:32:11.967902",
-  "bar_count": 67,
+  "generated_at": "2026-08-10T14:42:18.529564",
+  "bar_count": 69,
   "candles": [
     {
       "time": "2026-08-10T08:00:00",
@@ -536,10 +536,26 @@
     {
       "time": "2026-08-10T13:30:00",
       "open": 5.32,
-      "high": 5.32,
-      "low": 5.32,
-      "close": 5.32,
-      "volume": 2
+      "high": 5.45,
+      "low": 5.1,
+      "close": 5.45,
+      "volume": 7
+    },
+    {
+      "time": "2026-08-10T13:35:00",
+      "open": 5.29,
+      "high": 5.45,
+      "low": 5.14,
+      "close": 5.45,
+      "volume": 14
+    },
+    {
+      "time": "2026-08-10T13:40:00",
+      "open": 5.45,
+      "high": 5.61,
+      "low": 5.44,
+      "close": 5.57,
+      "volume": 83
     }
   ]
 }
