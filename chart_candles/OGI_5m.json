@@ -2,8 +2,8 @@
   "symbol": "OGI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-11T15:42:09.178898",
-  "bar_count": 273,
+  "generated_at": "2026-08-11T15:52:12.518314",
+  "bar_count": 275,
   "candles": [
     {
       "time": "2026-08-10T06:00:00",
@@ -2185,9 +2185,25 @@
       "time": "2026-08-11T14:40:00",
       "open": 1.24,
       "high": 1.24,
+      "low": 1.215,
+      "close": 1.23,
+      "volume": 664
+    },
+    {
+      "time": "2026-08-11T14:45:00",
+      "open": 1.225,
+      "high": 1.24,
       "low": 1.22,
-      "close": 1.225,
-      "volume": 236
+      "close": 1.235,
+      "volume": 824
+    },
+    {
+      "time": "2026-08-11T14:50:00",
+      "open": 1.235,
+      "high": 1.24,
+      "low": 1.221,
+      "close": 1.235,
+      "volume": 1292
     }
   ]
 }
