@@ -2,8 +2,8 @@
   "symbol": "USDE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-11T13:17:09.702928",
-  "bar_count": 294,
+  "generated_at": "2026-08-11T13:27:11.036264",
+  "bar_count": 296,
   "candles": [
     {
       "time": "2026-08-10T03:50:00",
@@ -2353,9 +2353,25 @@
       "time": "2026-08-11T12:15:00",
       "open": 2.505,
       "high": 2.52,
+      "low": 2.4841,
+      "close": 2.4952,
+      "volume": 63
+    },
+    {
+      "time": "2026-08-11T12:20:00",
+      "open": 2.505,
+      "high": 2.58,
+      "low": 2.5,
+      "close": 2.5181,
+      "volume": 266
+    },
+    {
+      "time": "2026-08-11T12:25:00",
+      "open": 2.51,
+      "high": 2.51,
       "low": 2.49,
       "close": 2.51,
-      "volume": 22
+      "volume": 98
     }
   ]
 }
