@@ -2,8 +2,8 @@
   "symbol": "DRMA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-12T04:48:40.295681",
-  "bar_count": 202,
+  "generated_at": "2026-08-12T04:58:44.748160",
+  "bar_count": 204,
   "candles": [
     {
       "time": "2026-08-11T03:00:00",
@@ -1618,8 +1618,24 @@
       "open": 1.39,
       "high": 1.4,
       "low": 1.35,
+      "close": 1.4,
+      "volume": 1495
+    },
+    {
+      "time": "2026-08-12T03:50:00",
+      "open": 1.4,
+      "high": 1.4,
+      "low": 1.38,
       "close": 1.39,
-      "volume": 1187
+      "volume": 596
+    },
+    {
+      "time": "2026-08-12T03:55:00",
+      "open": 1.3903,
+      "high": 1.391,
+      "low": 1.36,
+      "close": 1.36,
+      "volume": 530
     }
   ]
 }
