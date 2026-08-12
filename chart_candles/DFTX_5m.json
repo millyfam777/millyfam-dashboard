@@ -2,8 +2,8 @@
   "symbol": "DFTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-12T09:32:15.983328",
-  "bar_count": 215,
+  "generated_at": "2026-08-12T09:37:14.968442",
+  "bar_count": 216,
   "candles": [
     {
       "time": "2026-08-11T06:40:00",
@@ -1721,9 +1721,17 @@
       "time": "2026-08-12T08:30:00",
       "open": 47.51,
       "high": 47.55,
-      "low": 45.63,
-      "close": 45.63,
-      "volume": 2166
+      "low": 43.5,
+      "close": 45.38,
+      "volume": 5591
+    },
+    {
+      "time": "2026-08-12T08:35:00",
+      "open": 45.38,
+      "high": 45.91,
+      "low": 43.87,
+      "close": 44.01,
+      "volume": 2235
     }
   ]
 }
