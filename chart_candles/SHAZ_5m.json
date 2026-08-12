@@ -2,8 +2,8 @@
   "symbol": "SHAZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-12T11:17:12.931422",
-  "bar_count": 280,
+  "generated_at": "2026-08-12T11:27:10.665877",
+  "bar_count": 282,
   "candles": [
     {
       "time": "2026-08-11T03:00:00",
@@ -2240,10 +2240,26 @@
     {
       "time": "2026-08-12T10:15:00",
       "open": 67.09,
-      "high": 67.16,
+      "high": 67.5,
       "low": 67.03,
-      "close": 67.14,
-      "volume": 21
+      "close": 67.35,
+      "volume": 80
+    },
+    {
+      "time": "2026-08-12T10:20:00",
+      "open": 67.36,
+      "high": 67.44,
+      "low": 67.2,
+      "close": 67.28,
+      "volume": 74
+    },
+    {
+      "time": "2026-08-12T10:25:00",
+      "open": 67.14,
+      "high": 67.34,
+      "low": 66.975,
+      "close": 66.975,
+      "volume": 70
     }
   ]
 }
