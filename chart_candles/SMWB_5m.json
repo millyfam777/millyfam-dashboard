@@ -2,8 +2,8 @@
   "symbol": "SMWB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-12T15:02:12.192340",
-  "bar_count": 325,
+  "generated_at": "2026-08-12T15:17:30.970151",
+  "bar_count": 328,
   "candles": [
     {
       "time": "2026-08-11T03:00:00",
@@ -2600,10 +2600,34 @@
     {
       "time": "2026-08-12T14:00:00",
       "open": 8.87,
-      "high": 8.89,
+      "high": 8.92,
       "low": 8.87,
-      "close": 8.88,
-      "volume": 101
+      "close": 8.9,
+      "volume": 553
+    },
+    {
+      "time": "2026-08-12T14:05:00",
+      "open": 8.89,
+      "high": 9.01,
+      "low": 8.89,
+      "close": 8.99,
+      "volume": 838
+    },
+    {
+      "time": "2026-08-12T14:10:00",
+      "open": 9.0,
+      "high": 9.03,
+      "low": 8.94,
+      "close": 9.03,
+      "volume": 699
+    },
+    {
+      "time": "2026-08-12T14:15:00",
+      "open": 9.03,
+      "high": 9.03,
+      "low": 8.99,
+      "close": 9.0,
+      "volume": 114
     }
   ]
 }
