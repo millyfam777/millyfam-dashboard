@@ -2,8 +2,8 @@
   "symbol": "SION",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-12T13:02:18.181831",
-  "bar_count": 301,
+  "generated_at": "2026-08-12T13:17:31.188542",
+  "bar_count": 304,
   "candles": [
     {
       "time": "2026-08-11T03:00:00",
@@ -2408,10 +2408,34 @@
     {
       "time": "2026-08-12T12:00:00",
       "open": 6.17,
-      "high": 6.21,
+      "high": 6.25,
       "low": 6.16,
-      "close": 6.21,
-      "volume": 263
+      "close": 6.2,
+      "volume": 814
+    },
+    {
+      "time": "2026-08-12T12:05:00",
+      "open": 6.23,
+      "high": 6.29,
+      "low": 6.2,
+      "close": 6.2,
+      "volume": 1303
+    },
+    {
+      "time": "2026-08-12T12:10:00",
+      "open": 6.21,
+      "high": 6.35,
+      "low": 6.2,
+      "close": 6.32,
+      "volume": 1633
+    },
+    {
+      "time": "2026-08-12T12:15:00",
+      "open": 6.33,
+      "high": 6.34,
+      "low": 6.24,
+      "close": 6.29,
+      "volume": 439
     }
   ]
 }
