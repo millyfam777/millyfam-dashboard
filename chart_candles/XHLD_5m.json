@@ -2,8 +2,8 @@
   "symbol": "XHLD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-12T07:02:07.944192",
-  "bar_count": 229,
+  "generated_at": "2026-08-12T07:17:33.273830",
+  "bar_count": 232,
   "candles": [
     {
       "time": "2026-08-11T03:00:00",
@@ -1832,10 +1832,34 @@
     {
       "time": "2026-08-12T06:00:00",
       "open": 3.9788,
-      "high": 3.98,
+      "high": 4.02,
       "low": 3.93,
-      "close": 3.93,
-      "volume": 20
+      "close": 4.02,
+      "volume": 107
+    },
+    {
+      "time": "2026-08-12T06:05:00",
+      "open": 4.0,
+      "high": 4.1099,
+      "low": 4.0,
+      "close": 4.01,
+      "volume": 381
+    },
+    {
+      "time": "2026-08-12T06:10:00",
+      "open": 3.995,
+      "high": 4.06,
+      "low": 3.96,
+      "close": 3.994,
+      "volume": 47
+    },
+    {
+      "time": "2026-08-12T06:15:00",
+      "open": 4.01,
+      "high": 4.02,
+      "low": 4.0,
+      "close": 4.01,
+      "volume": 14
     }
   ]
 }
