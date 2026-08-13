@@ -2,8 +2,8 @@
   "symbol": "CBRZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T10:48:15.516722",
-  "bar_count": 274,
+  "generated_at": "2026-08-13T11:03:33.316991",
+  "bar_count": 277,
   "candles": [
     {
       "time": "2026-08-12T03:00:00",
@@ -2192,10 +2192,34 @@
     {
       "time": "2026-08-13T09:45:00",
       "open": 8.3,
-      "high": 8.36,
+      "high": 8.4,
       "low": 8.29,
-      "close": 8.29,
-      "volume": 130
+      "close": 8.38,
+      "volume": 617
+    },
+    {
+      "time": "2026-08-13T09:50:00",
+      "open": 8.4,
+      "high": 8.55,
+      "low": 8.38,
+      "close": 8.52,
+      "volume": 550
+    },
+    {
+      "time": "2026-08-13T09:55:00",
+      "open": 8.51,
+      "high": 8.53,
+      "low": 8.44,
+      "close": 8.52,
+      "volume": 322
+    },
+    {
+      "time": "2026-08-13T10:00:00",
+      "open": 8.52,
+      "high": 8.53,
+      "low": 8.42,
+      "close": 8.49,
+      "volume": 288
     }
   ]
 }
