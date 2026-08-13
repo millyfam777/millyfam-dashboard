@@ -2,8 +2,8 @@
   "symbol": "KURA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T10:02:24.075300",
-  "bar_count": 197,
+  "generated_at": "2026-08-13T10:07:20.579033",
+  "bar_count": 198,
   "candles": [
     {
       "time": "2026-08-12T06:00:00",
@@ -1576,10 +1576,18 @@
     {
       "time": "2026-08-13T09:00:00",
       "open": 11.12,
-      "high": 11.25,
+      "high": 11.28,
       "low": 11.12,
-      "close": 11.25,
-      "volume": 203
+      "close": 11.2,
+      "volume": 619
+    },
+    {
+      "time": "2026-08-13T09:05:00",
+      "open": 11.19,
+      "high": 11.2,
+      "low": 11.17,
+      "close": 11.17,
+      "volume": 158
     }
   ]
 }
