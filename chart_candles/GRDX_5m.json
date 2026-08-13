@@ -2,8 +2,8 @@
   "symbol": "GRDX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T13:02:08.684905",
-  "bar_count": 162,
+  "generated_at": "2026-08-13T13:17:39.221267",
+  "bar_count": 165,
   "candles": [
     {
       "time": "2026-08-12T09:05:00",
@@ -1297,9 +1297,33 @@
       "time": "2026-08-13T12:00:00",
       "open": 3.99,
       "high": 4.0,
-      "low": 3.88,
+      "low": 3.87,
+      "close": 3.92,
+      "volume": 46
+    },
+    {
+      "time": "2026-08-13T12:05:00",
+      "open": 3.92,
+      "high": 4.0,
+      "low": 3.92,
+      "close": 3.97,
+      "volume": 56
+    },
+    {
+      "time": "2026-08-13T12:10:00",
+      "open": 3.925,
+      "high": 3.94,
+      "low": 3.91,
+      "close": 3.94,
+      "volume": 35
+    },
+    {
+      "time": "2026-08-13T12:15:00",
+      "open": 3.93,
+      "high": 3.99,
+      "low": 3.9129,
       "close": 3.99,
-      "volume": 21
+      "volume": 12
     }
   ]
 }
