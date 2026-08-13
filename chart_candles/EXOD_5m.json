@@ -2,8 +2,8 @@
   "symbol": "EXOD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T12:03:09.547631",
-  "bar_count": 177,
+  "generated_at": "2026-08-13T12:17:47.248503",
+  "bar_count": 180,
   "candles": [
     {
       "time": "2026-08-12T06:50:00",
@@ -1417,9 +1417,33 @@
       "time": "2026-08-13T11:00:00",
       "open": 6.24,
       "high": 6.31,
-      "low": 6.22,
-      "close": 6.31,
+      "low": 6.16,
+      "close": 6.16,
+      "volume": 8
+    },
+    {
+      "time": "2026-08-13T11:05:00",
+      "open": 6.16,
+      "high": 6.16,
+      "low": 6.16,
+      "close": 6.16,
+      "volume": 0
+    },
+    {
+      "time": "2026-08-13T11:10:00",
+      "open": 6.1,
+      "high": 6.2,
+      "low": 6.1,
+      "close": 6.2,
       "volume": 5
+    },
+    {
+      "time": "2026-08-13T11:15:00",
+      "open": 6.2,
+      "high": 6.2,
+      "low": 6.2,
+      "close": 6.2,
+      "volume": 2
     }
   ]
 }

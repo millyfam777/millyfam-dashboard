@@ -2,8 +2,8 @@
   "symbol": "NMTC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T11:57:24.584068",
-  "bar_count": 201,
+  "generated_at": "2026-08-13T12:12:24.359165",
+  "bar_count": 204,
   "candles": [
     {
       "time": "2026-08-12T06:00:00",
@@ -1608,10 +1608,34 @@
     {
       "time": "2026-08-13T10:55:00",
       "open": 1.72,
-      "high": 1.74,
+      "high": 1.77,
       "low": 1.72,
-      "close": 1.74,
-      "volume": 2
+      "close": 1.77,
+      "volume": 4
+    },
+    {
+      "time": "2026-08-13T11:00:00",
+      "open": 1.82,
+      "high": 1.82,
+      "low": 1.82,
+      "close": 1.82,
+      "volume": 1
+    },
+    {
+      "time": "2026-08-13T11:05:00",
+      "open": 1.77,
+      "high": 1.85,
+      "low": 1.7,
+      "close": 1.85,
+      "volume": 13
+    },
+    {
+      "time": "2026-08-13T11:10:00",
+      "open": 1.85,
+      "high": 1.85,
+      "low": 1.85,
+      "close": 1.85,
+      "volume": 0
     }
   ]
 }
