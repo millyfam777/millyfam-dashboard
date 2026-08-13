@@ -2,8 +2,8 @@
   "symbol": "YXT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T15:02:13.044011",
-  "bar_count": 325,
+  "generated_at": "2026-08-13T15:07:06.583309",
+  "bar_count": 326,
   "candles": [
     {
       "time": "2026-08-12T03:00:00",
@@ -2600,10 +2600,18 @@
     {
       "time": "2026-08-13T14:00:00",
       "open": 5.43,
-      "high": 5.43,
+      "high": 5.44,
       "low": 5.36,
-      "close": 5.39,
-      "volume": 41
+      "close": 5.4,
+      "volume": 52
+    },
+    {
+      "time": "2026-08-13T14:05:00",
+      "open": 5.4,
+      "high": 5.44,
+      "low": 5.4,
+      "close": 5.44,
+      "volume": 8
     }
   ]
 }
