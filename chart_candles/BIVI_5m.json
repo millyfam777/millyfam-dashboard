@@ -2,8 +2,8 @@
   "symbol": "BIVI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T09:17:46.053155",
-  "bar_count": 256,
+  "generated_at": "2026-08-13T09:32:32.619891",
+  "bar_count": 259,
   "candles": [
     {
       "time": "2026-08-12T03:00:00",
@@ -2049,9 +2049,33 @@
       "time": "2026-08-13T08:15:00",
       "open": 1.71,
       "high": 1.72,
-      "low": 1.71,
-      "close": 1.72,
-      "volume": 35
+      "low": 1.69,
+      "close": 1.69,
+      "volume": 123
+    },
+    {
+      "time": "2026-08-13T08:20:00",
+      "open": 1.69,
+      "high": 1.71,
+      "low": 1.69,
+      "close": 1.7,
+      "volume": 133
+    },
+    {
+      "time": "2026-08-13T08:25:00",
+      "open": 1.69,
+      "high": 1.7,
+      "low": 1.64,
+      "close": 1.6403,
+      "volume": 371
+    },
+    {
+      "time": "2026-08-13T08:30:00",
+      "open": 1.65,
+      "high": 1.7,
+      "low": 1.53,
+      "close": 1.53,
+      "volume": 2205
     }
   ]
 }
