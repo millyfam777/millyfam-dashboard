@@ -2,8 +2,8 @@
   "symbol": "SKHL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T11:47:13.106422",
-  "bar_count": 286,
+  "generated_at": "2026-08-13T11:57:13.250785",
+  "bar_count": 288,
   "candles": [
     {
       "time": "2026-08-12T03:00:00",
@@ -2288,10 +2288,26 @@
     {
       "time": "2026-08-13T10:45:00",
       "open": 9.48,
+      "high": 9.52,
+      "low": 9.41,
+      "close": 9.51,
+      "volume": 176
+    },
+    {
+      "time": "2026-08-13T10:50:00",
+      "open": 9.5,
       "high": 9.5,
-      "low": 9.45,
-      "close": 9.45,
-      "volume": 83
+      "low": 9.38,
+      "close": 9.48,
+      "volume": 339
+    },
+    {
+      "time": "2026-08-13T10:55:00",
+      "open": 9.47,
+      "high": 9.55,
+      "low": 9.47,
+      "close": 9.54,
+      "volume": 139
     }
   ]
 }
