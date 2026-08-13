@@ -2,8 +2,8 @@
   "symbol": "BGIN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T12:48:03.210253",
-  "bar_count": 89,
+  "generated_at": "2026-08-13T12:53:12.554868",
+  "bar_count": 90,
   "candles": [
     {
       "time": "2026-08-12T14:55:00",
@@ -712,10 +712,18 @@
     {
       "time": "2026-08-13T11:45:00",
       "open": 2.2,
-      "high": 2.55,
+      "high": 2.76,
       "low": 2.19,
-      "close": 2.55,
-      "volume": 142
+      "close": 2.76,
+      "volume": 363
+    },
+    {
+      "time": "2026-08-13T11:50:00",
+      "open": 2.76,
+      "high": 2.76,
+      "low": 2.76,
+      "close": 2.76,
+      "volume": 0
     }
   ]
 }

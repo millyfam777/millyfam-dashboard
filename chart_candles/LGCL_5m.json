@@ -2,8 +2,8 @@
   "symbol": "LGCL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T12:47:27.130254",
-  "bar_count": 298,
+  "generated_at": "2026-08-13T12:57:24.406295",
+  "bar_count": 300,
   "candles": [
     {
       "time": "2026-08-12T03:00:00",
@@ -2384,10 +2384,26 @@
     {
       "time": "2026-08-13T11:45:00",
       "open": 1.67,
+      "high": 1.6787,
+      "low": 1.64,
+      "close": 1.676,
+      "volume": 94
+    },
+    {
+      "time": "2026-08-13T11:50:00",
+      "open": 1.65,
+      "high": 1.65,
+      "low": 1.6468,
+      "close": 1.6468,
+      "volume": 68
+    },
+    {
+      "time": "2026-08-13T11:55:00",
+      "open": 1.67,
       "high": 1.67,
-      "low": 1.65,
-      "close": 1.65,
-      "volume": 23
+      "low": 1.67,
+      "close": 1.67,
+      "volume": 1
     }
   ]
 }
