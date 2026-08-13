@@ -2,8 +2,8 @@
   "symbol": "PMA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T11:02:47.864507",
-  "bar_count": 235,
+  "generated_at": "2026-08-13T11:07:56.120538",
+  "bar_count": 236,
   "candles": [
     {
       "time": "2026-08-12T06:30:00",
@@ -1881,9 +1881,17 @@
       "time": "2026-08-13T10:00:00",
       "open": 1.39,
       "high": 1.39,
-      "low": 1.33,
+      "low": 1.32,
+      "close": 1.32,
+      "volume": 135
+    },
+    {
+      "time": "2026-08-13T10:05:00",
+      "open": 1.32,
+      "high": 1.35,
+      "low": 1.32,
       "close": 1.35,
-      "volume": 72
+      "volume": 6
     }
   ]
 }
