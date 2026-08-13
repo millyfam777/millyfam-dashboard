@@ -2,8 +2,8 @@
   "symbol": "CRMD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T09:48:34.603609",
-  "bar_count": 257,
+  "generated_at": "2026-08-13T10:03:12.465168",
+  "bar_count": 260,
   "candles": [
     {
       "time": "2026-08-12T03:15:00",
@@ -2057,9 +2057,33 @@
       "time": "2026-08-13T08:45:00",
       "open": 8.75,
       "high": 8.8,
+      "low": 8.56,
+      "close": 8.65,
+      "volume": 955
+    },
+    {
+      "time": "2026-08-13T08:50:00",
+      "open": 8.64,
+      "high": 8.88,
       "low": 8.59,
-      "close": 8.64,
-      "volume": 713
+      "close": 8.79,
+      "volume": 1035
+    },
+    {
+      "time": "2026-08-13T08:55:00",
+      "open": 8.78,
+      "high": 8.83,
+      "low": 8.71,
+      "close": 8.82,
+      "volume": 693
+    },
+    {
+      "time": "2026-08-13T09:00:00",
+      "open": 8.82,
+      "high": 8.89,
+      "low": 8.81,
+      "close": 8.82,
+      "volume": 601
     }
   ]
 }
