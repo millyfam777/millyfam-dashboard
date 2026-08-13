@@ -2,8 +2,8 @@
   "symbol": "YXT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T14:02:23.939576",
-  "bar_count": 313,
+  "generated_at": "2026-08-13T14:17:13.577004",
+  "bar_count": 316,
   "candles": [
     {
       "time": "2026-08-12T03:00:00",
@@ -2504,10 +2504,34 @@
     {
       "time": "2026-08-13T13:00:00",
       "open": 5.33,
-      "high": 5.33,
+      "high": 5.43,
       "low": 5.32,
-      "close": 5.32,
-      "volume": 3
+      "close": 5.38,
+      "volume": 27
+    },
+    {
+      "time": "2026-08-13T13:05:00",
+      "open": 5.36,
+      "high": 5.37,
+      "low": 5.33,
+      "close": 5.35,
+      "volume": 28
+    },
+    {
+      "time": "2026-08-13T13:10:00",
+      "open": 5.35,
+      "high": 5.55,
+      "low": 5.34,
+      "close": 5.53,
+      "volume": 220
+    },
+    {
+      "time": "2026-08-13T13:15:00",
+      "open": 5.5,
+      "high": 5.57,
+      "low": 5.5,
+      "close": 5.57,
+      "volume": 112
     }
   ]
 }
