@@ -2,8 +2,8 @@
   "symbol": "OPRX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T13:17:30.116563",
-  "bar_count": 238,
+  "generated_at": "2026-08-13T13:32:17.916776",
+  "bar_count": 241,
   "candles": [
     {
       "time": "2026-08-12T08:30:00",
@@ -1905,9 +1905,33 @@
       "time": "2026-08-13T12:15:00",
       "open": 8.34,
       "high": 8.35,
-      "low": 8.33,
-      "close": 8.35,
-      "volume": 8
+      "low": 8.3,
+      "close": 8.3,
+      "volume": 28
+    },
+    {
+      "time": "2026-08-13T12:20:00",
+      "open": 8.3,
+      "high": 8.35,
+      "low": 8.27,
+      "close": 8.31,
+      "volume": 30
+    },
+    {
+      "time": "2026-08-13T12:25:00",
+      "open": 8.31,
+      "high": 8.32,
+      "low": 8.29,
+      "close": 8.3,
+      "volume": 51
+    },
+    {
+      "time": "2026-08-13T12:30:00",
+      "open": 8.3,
+      "high": 8.31,
+      "low": 8.29,
+      "close": 8.31,
+      "volume": 15
     }
   ]
 }
