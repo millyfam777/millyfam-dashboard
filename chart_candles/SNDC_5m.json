@@ -2,8 +2,8 @@
   "symbol": "SNDC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T11:17:33.520643",
-  "bar_count": 280,
+  "generated_at": "2026-08-13T11:33:21.625900",
+  "bar_count": 283,
   "candles": [
     {
       "time": "2026-08-12T03:00:00",
@@ -2240,10 +2240,34 @@
     {
       "time": "2026-08-13T10:15:00",
       "open": 7.13,
-      "high": 7.33,
+      "high": 7.37,
       "low": 7.13,
-      "close": 7.29,
-      "volume": 238
+      "close": 7.35,
+      "volume": 366
+    },
+    {
+      "time": "2026-08-13T10:20:00",
+      "open": 7.37,
+      "high": 7.68,
+      "low": 7.37,
+      "close": 7.6,
+      "volume": 465
+    },
+    {
+      "time": "2026-08-13T10:25:00",
+      "open": 7.61,
+      "high": 7.94,
+      "low": 7.61,
+      "close": 7.91,
+      "volume": 280
+    },
+    {
+      "time": "2026-08-13T10:30:00",
+      "open": 7.87,
+      "high": 7.87,
+      "low": 7.61,
+      "close": 7.63,
+      "volume": 398
     }
   ]
 }

@@ -2,8 +2,8 @@
   "symbol": "STEM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T11:17:10.916386",
-  "bar_count": 227,
+  "generated_at": "2026-08-13T11:22:03.865300",
+  "bar_count": 228,
   "candles": [
     {
       "time": "2026-08-12T07:25:00",
@@ -1816,10 +1816,18 @@
     {
       "time": "2026-08-13T10:15:00",
       "open": 6.12,
-      "high": 6.12,
+      "high": 6.13,
+      "low": 6.1,
+      "close": 6.1,
+      "volume": 15
+    },
+    {
+      "time": "2026-08-13T10:20:00",
+      "open": 6.11,
+      "high": 6.11,
       "low": 6.11,
       "close": 6.11,
-      "volume": 2
+      "volume": 1
     }
   ]
 }
