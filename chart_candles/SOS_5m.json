@@ -2,8 +2,8 @@
   "symbol": "SOS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T12:17:13.274235",
-  "bar_count": 276,
+  "generated_at": "2026-08-13T12:22:18.057498",
+  "bar_count": 277,
   "candles": [
     {
       "time": "2026-08-12T04:20:00",
@@ -2209,9 +2209,17 @@
       "time": "2026-08-13T11:15:00",
       "open": 1.03,
       "high": 1.03,
-      "low": 1.03,
-      "close": 1.03,
-      "volume": 1
+      "low": 1.01,
+      "close": 1.02,
+      "volume": 10
+    },
+    {
+      "time": "2026-08-13T11:20:00",
+      "open": 1.02,
+      "high": 1.02,
+      "low": 0.99,
+      "close": 0.99,
+      "volume": 59
     }
   ]
 }
