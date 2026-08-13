@@ -2,8 +2,8 @@
   "symbol": "AVAH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T08:02:55.561987",
-  "bar_count": 203,
+  "generated_at": "2026-08-13T08:08:04.912429",
+  "bar_count": 204,
   "candles": [
     {
       "time": "2026-08-12T06:00:00",
@@ -1624,10 +1624,18 @@
     {
       "time": "2026-08-13T07:00:00",
       "open": 9.5007,
-      "high": 9.51,
+      "high": 9.55,
       "low": 9.46,
-      "close": 9.51,
-      "volume": 7
+      "close": 9.55,
+      "volume": 13
+    },
+    {
+      "time": "2026-08-13T07:05:00",
+      "open": 9.55,
+      "high": 9.55,
+      "low": 9.55,
+      "close": 9.55,
+      "volume": 0
     }
   ]
 }
