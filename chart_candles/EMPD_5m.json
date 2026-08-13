@@ -2,8 +2,8 @@
   "symbol": "EMPD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-13T10:17:26.749974",
-  "bar_count": 179,
+  "generated_at": "2026-08-13T10:32:15.479450",
+  "bar_count": 182,
   "candles": [
     {
       "time": "2026-08-12T06:25:00",
@@ -1432,10 +1432,34 @@
     {
       "time": "2026-08-13T09:15:00",
       "open": 3.12,
-      "high": 3.12,
+      "high": 3.15,
       "low": 3.12,
-      "close": 3.12,
-      "volume": 2
+      "close": 3.14,
+      "volume": 154
+    },
+    {
+      "time": "2026-08-13T09:20:00",
+      "open": 3.13,
+      "high": 3.14,
+      "low": 3.09,
+      "close": 3.11,
+      "volume": 1056
+    },
+    {
+      "time": "2026-08-13T09:25:00",
+      "open": 3.11,
+      "high": 3.11,
+      "low": 3.07,
+      "close": 3.1,
+      "volume": 315
+    },
+    {
+      "time": "2026-08-13T09:30:00",
+      "open": 3.1,
+      "high": 3.11,
+      "low": 3.1,
+      "close": 3.1,
+      "volume": 3
     }
   ]
 }
