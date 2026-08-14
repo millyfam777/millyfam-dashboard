@@ -2,8 +2,8 @@
   "symbol": "DFSC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-14T17:33:04.057162",
-  "bar_count": 351,
+  "generated_at": "2026-08-14T17:48:04.944669",
+  "bar_count": 354,
   "candles": [
     {
       "time": "2026-08-13T03:20:00",
@@ -2808,10 +2808,34 @@
     {
       "time": "2026-08-14T16:30:00",
       "open": 2.95,
-      "high": 2.99,
+      "high": 3.0,
       "low": 2.95,
-      "close": 2.96,
-      "volume": 28
+      "close": 3.0,
+      "volume": 116
+    },
+    {
+      "time": "2026-08-14T16:35:00",
+      "open": 2.97,
+      "high": 3.0199,
+      "low": 2.97,
+      "close": 3.0002,
+      "volume": 60
+    },
+    {
+      "time": "2026-08-14T16:40:00",
+      "open": 3.0,
+      "high": 3.0,
+      "low": 2.97,
+      "close": 2.99,
+      "volume": 35
+    },
+    {
+      "time": "2026-08-14T16:45:00",
+      "open": 2.99,
+      "high": 3.0,
+      "low": 2.98,
+      "close": 2.98,
+      "volume": 29
     }
   ]
 }
