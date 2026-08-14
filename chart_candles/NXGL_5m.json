@@ -2,8 +2,8 @@
   "symbol": "NXGL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-14T14:47:11.280455",
-  "bar_count": 322,
+  "generated_at": "2026-08-14T14:57:33.409141",
+  "bar_count": 324,
   "candles": [
     {
       "time": "2026-08-13T03:00:00",
@@ -2576,10 +2576,26 @@
     {
       "time": "2026-08-14T13:45:00",
       "open": 0.56,
+      "high": 0.5899,
+      "low": 0.56,
+      "close": 0.56,
+      "volume": 24
+    },
+    {
+      "time": "2026-08-14T13:50:00",
+      "open": 0.56,
+      "high": 0.5899,
+      "low": 0.55,
+      "close": 0.56,
+      "volume": 397
+    },
+    {
+      "time": "2026-08-14T13:55:00",
+      "open": 0.56,
       "high": 0.56,
       "low": 0.56,
       "close": 0.56,
-      "volume": 7
+      "volume": 1
     }
   ]
 }
