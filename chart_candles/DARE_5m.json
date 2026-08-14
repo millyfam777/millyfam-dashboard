@@ -2,8 +2,8 @@
   "symbol": "DARE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-14T08:32:46.532333",
-  "bar_count": 188,
+  "generated_at": "2026-08-14T08:47:55.572453",
+  "bar_count": 191,
   "candles": [
     {
       "time": "2026-08-13T07:55:00",
@@ -1505,9 +1505,33 @@
       "time": "2026-08-14T07:30:00",
       "open": 1.58,
       "high": 1.59,
+      "low": 1.56,
+      "close": 1.56,
+      "volume": 59
+    },
+    {
+      "time": "2026-08-14T07:35:00",
+      "open": 1.57,
+      "high": 1.6,
       "low": 1.57,
-      "close": 1.5701,
-      "volume": 13
+      "close": 1.6,
+      "volume": 95
+    },
+    {
+      "time": "2026-08-14T07:40:00",
+      "open": 1.609,
+      "high": 1.61,
+      "low": 1.58,
+      "close": 1.58,
+      "volume": 36
+    },
+    {
+      "time": "2026-08-14T07:45:00",
+      "open": 1.58,
+      "high": 1.6,
+      "low": 1.58,
+      "close": 1.6,
+      "volume": 26
     }
   ]
 }
