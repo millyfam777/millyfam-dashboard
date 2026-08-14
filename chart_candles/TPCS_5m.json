@@ -2,8 +2,8 @@
   "symbol": "TPCS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-14T11:02:40.524662",
-  "bar_count": 205,
+  "generated_at": "2026-08-14T11:17:46.697596",
+  "bar_count": 208,
   "candles": [
     {
       "time": "2026-08-13T09:00:00",
@@ -1640,10 +1640,34 @@
     {
       "time": "2026-08-14T10:00:00",
       "open": 5.77,
-      "high": 5.77,
+      "high": 5.79,
       "low": 5.7,
-      "close": 5.7,
-      "volume": 20
+      "close": 5.75,
+      "volume": 37
+    },
+    {
+      "time": "2026-08-14T10:05:00",
+      "open": 5.79,
+      "high": 5.81,
+      "low": 5.79,
+      "close": 5.81,
+      "volume": 45
+    },
+    {
+      "time": "2026-08-14T10:10:00",
+      "open": 5.8,
+      "high": 5.81,
+      "low": 5.75,
+      "close": 5.75,
+      "volume": 2
+    },
+    {
+      "time": "2026-08-14T10:15:00",
+      "open": 5.75,
+      "high": 5.75,
+      "low": 5.75,
+      "close": 5.75,
+      "volume": 2
     }
   ]
 }
