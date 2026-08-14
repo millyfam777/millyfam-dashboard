@@ -2,8 +2,8 @@
   "symbol": "VALN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-14T10:33:13.156341",
-  "bar_count": 253,
+  "generated_at": "2026-08-14T10:47:55.117268",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-08-13T04:30:00",
@@ -2025,9 +2025,33 @@
       "time": "2026-08-14T09:30:00",
       "open": 7.05,
       "high": 7.12,
-      "low": 7.05,
-      "close": 7.07,
-      "volume": 93
+      "low": 7.0,
+      "close": 7.02,
+      "volume": 124
+    },
+    {
+      "time": "2026-08-14T09:35:00",
+      "open": 7.02,
+      "high": 7.09,
+      "low": 6.97,
+      "close": 6.97,
+      "volume": 102
+    },
+    {
+      "time": "2026-08-14T09:40:00",
+      "open": 7.02,
+      "high": 7.04,
+      "low": 6.98,
+      "close": 7.04,
+      "volume": 60
+    },
+    {
+      "time": "2026-08-14T09:45:00",
+      "open": 7.03,
+      "high": 7.05,
+      "low": 7.03,
+      "close": 7.05,
+      "volume": 5
     }
   ]
 }

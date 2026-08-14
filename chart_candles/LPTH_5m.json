@@ -2,8 +2,8 @@
   "symbol": "LPTH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-14T10:32:10.508628",
-  "bar_count": 271,
+  "generated_at": "2026-08-14T10:37:11.513426",
+  "bar_count": 272,
   "candles": [
     {
       "time": "2026-08-13T03:00:00",
@@ -2168,10 +2168,18 @@
     {
       "time": "2026-08-14T09:30:00",
       "open": 15.11,
-      "high": 15.1162,
+      "high": 15.125,
       "low": 14.98,
-      "close": 15.045,
-      "volume": 247
+      "close": 15.02,
+      "volume": 456
+    },
+    {
+      "time": "2026-08-14T09:35:00",
+      "open": 15.005,
+      "high": 15.117,
+      "low": 15.0,
+      "close": 15.11,
+      "volume": 189
     }
   ]
 }
