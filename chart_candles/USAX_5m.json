@@ -2,8 +2,8 @@
   "symbol": "USAX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-14T10:42:27.526833",
-  "bar_count": 256,
+  "generated_at": "2026-08-14T10:52:06.268809",
+  "bar_count": 258,
   "candles": [
     {
       "time": "2026-08-13T04:20:00",
@@ -2049,9 +2049,25 @@
       "time": "2026-08-14T09:40:00",
       "open": 15.04,
       "high": 15.04,
+      "low": 14.9,
+      "close": 14.9,
+      "volume": 13
+    },
+    {
+      "time": "2026-08-14T09:45:00",
+      "open": 14.98,
+      "high": 15.08,
       "low": 14.98,
-      "close": 14.98,
-      "volume": 11
+      "close": 15.08,
+      "volume": 68
+    },
+    {
+      "time": "2026-08-14T09:50:00",
+      "open": 14.93,
+      "high": 14.96,
+      "low": 14.93,
+      "close": 14.96,
+      "volume": 2
     }
   ]
 }
