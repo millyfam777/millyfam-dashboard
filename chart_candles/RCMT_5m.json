@@ -2,8 +2,8 @@
   "symbol": "RCMT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-14T09:17:22.147170",
-  "bar_count": 199,
+  "generated_at": "2026-08-14T09:22:17.991920",
+  "bar_count": 200,
   "candles": [
     {
       "time": "2026-08-13T07:45:00",
@@ -1593,9 +1593,17 @@
       "time": "2026-08-14T08:15:00",
       "open": 31.8888,
       "high": 31.8888,
-      "low": 31.8888,
-      "close": 31.8888,
-      "volume": 2
+      "low": 31.8,
+      "close": 31.8,
+      "volume": 4
+    },
+    {
+      "time": "2026-08-14T08:20:00",
+      "open": 31.8,
+      "high": 31.8,
+      "low": 31.8,
+      "close": 31.8,
+      "volume": 0
     }
   ]
 }
