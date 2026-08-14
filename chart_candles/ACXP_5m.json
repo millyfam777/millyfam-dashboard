@@ -2,8 +2,8 @@
   "symbol": "ACXP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-14T05:17:12.426468",
-  "bar_count": 208,
+  "generated_at": "2026-08-14T05:22:11.499461",
+  "bar_count": 209,
   "candles": [
     {
       "time": "2026-08-13T03:00:00",
@@ -1664,10 +1664,18 @@
     {
       "time": "2026-08-14T04:15:00",
       "open": 1.69,
-      "high": 1.72,
+      "high": 1.78,
       "low": 1.69,
-      "close": 1.72,
-      "volume": 2
+      "close": 1.76,
+      "volume": 35
+    },
+    {
+      "time": "2026-08-14T04:20:00",
+      "open": 1.77,
+      "high": 1.77,
+      "low": 1.6,
+      "close": 1.6,
+      "volume": 12
     }
   ]
 }
