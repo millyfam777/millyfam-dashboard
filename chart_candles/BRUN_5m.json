@@ -2,8 +2,8 @@
   "symbol": "BRUN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-14T06:48:04.490032",
-  "bar_count": 226,
+  "generated_at": "2026-08-14T07:03:08.033957",
+  "bar_count": 229,
   "candles": [
     {
       "time": "2026-08-13T03:00:00",
@@ -1808,10 +1808,34 @@
     {
       "time": "2026-08-14T05:45:00",
       "open": 25.86,
-      "high": 25.86,
+      "high": 26.0,
       "low": 25.86,
-      "close": 25.86,
-      "volume": 1
+      "close": 26.0,
+      "volume": 5
+    },
+    {
+      "time": "2026-08-14T05:50:00",
+      "open": 26.0,
+      "high": 26.0,
+      "low": 26.0,
+      "close": 26.0,
+      "volume": 0
+    },
+    {
+      "time": "2026-08-14T05:55:00",
+      "open": 26.0,
+      "high": 26.0,
+      "low": 26.0,
+      "close": 26.0,
+      "volume": 0
+    },
+    {
+      "time": "2026-08-14T06:00:00",
+      "open": 25.25,
+      "high": 25.75,
+      "low": 24.87,
+      "close": 24.96,
+      "volume": 258
     }
   ]
 }
