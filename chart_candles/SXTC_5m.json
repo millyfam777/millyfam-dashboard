@@ -2,8 +2,8 @@
   "symbol": "SXTC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-14T13:03:05.556146",
-  "bar_count": 301,
+  "generated_at": "2026-08-14T13:18:18.779134",
+  "bar_count": 304,
   "candles": [
     {
       "time": "2026-08-13T03:00:00",
@@ -2408,10 +2408,34 @@
     {
       "time": "2026-08-14T12:00:00",
       "open": 4.28,
-      "high": 4.28,
+      "high": 4.39,
       "low": 4.2,
-      "close": 4.2,
-      "volume": 123
+      "close": 4.32,
+      "volume": 302
+    },
+    {
+      "time": "2026-08-14T12:05:00",
+      "open": 4.35,
+      "high": 4.38,
+      "low": 4.3,
+      "close": 4.31,
+      "volume": 62
+    },
+    {
+      "time": "2026-08-14T12:10:00",
+      "open": 4.31,
+      "high": 4.45,
+      "low": 4.3,
+      "close": 4.44,
+      "volume": 193
+    },
+    {
+      "time": "2026-08-14T12:15:00",
+      "open": 4.44,
+      "high": 4.45,
+      "low": 4.35,
+      "close": 4.35,
+      "volume": 62
     }
   ]
 }
