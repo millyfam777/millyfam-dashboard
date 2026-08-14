@@ -2,8 +2,8 @@
   "symbol": "EMAT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-14T10:02:24.763677",
-  "bar_count": 226,
+  "generated_at": "2026-08-14T10:17:56.387082",
+  "bar_count": 229,
   "candles": [
     {
       "time": "2026-08-13T03:50:00",
@@ -1808,10 +1808,34 @@
     {
       "time": "2026-08-14T09:00:00",
       "open": 2.65,
-      "high": 2.78,
+      "high": 2.86,
       "low": 2.65,
-      "close": 2.75,
-      "volume": 111
+      "close": 2.8,
+      "volume": 308
+    },
+    {
+      "time": "2026-08-14T09:05:00",
+      "open": 2.84,
+      "high": 2.89,
+      "low": 2.72,
+      "close": 2.78,
+      "volume": 309
+    },
+    {
+      "time": "2026-08-14T09:10:00",
+      "open": 2.78,
+      "high": 2.86,
+      "low": 2.71,
+      "close": 2.79,
+      "volume": 205
+    },
+    {
+      "time": "2026-08-14T09:15:00",
+      "open": 2.82,
+      "high": 2.94,
+      "low": 2.8,
+      "close": 2.9,
+      "volume": 178
     }
   ]
 }
