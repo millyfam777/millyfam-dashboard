@@ -2,8 +2,8 @@
   "symbol": "NMAX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-14T11:47:36.400333",
-  "bar_count": 201,
+  "generated_at": "2026-08-14T11:52:36.755801",
+  "bar_count": 202,
   "candles": [
     {
       "time": "2026-08-13T07:05:00",
@@ -1608,10 +1608,18 @@
     {
       "time": "2026-08-14T10:45:00",
       "open": 10.76,
-      "high": 10.8,
+      "high": 10.85,
       "low": 10.74,
-      "close": 10.79,
-      "volume": 213
+      "close": 10.83,
+      "volume": 513
+    },
+    {
+      "time": "2026-08-14T10:50:00",
+      "open": 10.84,
+      "high": 10.89,
+      "low": 10.83,
+      "close": 10.88,
+      "volume": 93
     }
   ]
 }
