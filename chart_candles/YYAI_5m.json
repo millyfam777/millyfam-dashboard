@@ -2,8 +2,8 @@
   "symbol": "YYAI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-17T10:32:36.208518",
-  "bar_count": 19,
+  "generated_at": "2026-08-17T10:47:34.544152",
+  "bar_count": 22,
   "candles": [
     {
       "time": "2026-08-17T08:00:00",
@@ -152,10 +152,34 @@
     {
       "time": "2026-08-17T09:30:00",
       "open": 1.27,
-      "high": 1.28,
+      "high": 1.32,
       "low": 1.25,
+      "close": 1.3,
+      "volume": 402
+    },
+    {
+      "time": "2026-08-17T09:35:00",
+      "open": 1.32,
+      "high": 1.34,
+      "low": 1.29,
+      "close": 1.31,
+      "volume": 526
+    },
+    {
+      "time": "2026-08-17T09:40:00",
+      "open": 1.3,
+      "high": 1.31,
+      "low": 1.24,
+      "close": 1.24,
+      "volume": 366
+    },
+    {
+      "time": "2026-08-17T09:45:00",
+      "open": 1.24,
+      "high": 1.29,
+      "low": 1.24,
       "close": 1.28,
-      "volume": 231
+      "volume": 75
     }
   ]
 }
