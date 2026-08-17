@@ -2,8 +2,8 @@
   "symbol": "KEEL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-17T05:32:10.824723",
-  "bar_count": 211,
+  "generated_at": "2026-08-17T05:42:03.987225",
+  "bar_count": 213,
   "candles": [
     {
       "time": "2026-08-14T03:00:00",
@@ -1688,10 +1688,26 @@
     {
       "time": "2026-08-17T04:30:00",
       "open": 3.8,
+      "high": 3.81,
+      "low": 3.8,
+      "close": 3.81,
+      "volume": 14
+    },
+    {
+      "time": "2026-08-17T04:35:00",
+      "open": 3.8,
+      "high": 3.83,
+      "low": 3.8,
+      "close": 3.81,
+      "volume": 76
+    },
+    {
+      "time": "2026-08-17T04:40:00",
+      "open": 3.8,
       "high": 3.8,
       "low": 3.8,
       "close": 3.8,
-      "volume": 0
+      "volume": 11
     }
   ]
 }
