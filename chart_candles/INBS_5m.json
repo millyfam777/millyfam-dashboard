@@ -2,8 +2,8 @@
   "symbol": "INBS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-17T11:32:35.814969",
-  "bar_count": 258,
+  "generated_at": "2026-08-17T11:47:37.629457",
+  "bar_count": 261,
   "candles": [
     {
       "time": "2026-08-14T03:00:00",
@@ -2064,10 +2064,34 @@
     {
       "time": "2026-08-17T10:30:00",
       "open": 3.255,
-      "high": 3.255,
+      "high": 3.26,
       "low": 3.255,
-      "close": 3.255,
-      "volume": 2
+      "close": 3.26,
+      "volume": 18
+    },
+    {
+      "time": "2026-08-17T10:35:00",
+      "open": 3.255,
+      "high": 3.26,
+      "low": 3.25,
+      "close": 3.26,
+      "volume": 6
+    },
+    {
+      "time": "2026-08-17T10:40:00",
+      "open": 3.235,
+      "high": 3.25,
+      "low": 3.235,
+      "close": 3.25,
+      "volume": 5
+    },
+    {
+      "time": "2026-08-17T10:45:00",
+      "open": 3.25,
+      "high": 3.25,
+      "low": 3.25,
+      "close": 3.25,
+      "volume": 0
     }
   ]
 }
