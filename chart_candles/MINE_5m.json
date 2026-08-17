@@ -2,8 +2,8 @@
   "symbol": "MINE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-17T08:18:09.347840",
-  "bar_count": 179,
+  "generated_at": "2026-08-17T08:32:53.456845",
+  "bar_count": 182,
   "candles": [
     {
       "time": "2026-08-14T08:25:00",
@@ -1432,10 +1432,34 @@
     {
       "time": "2026-08-17T07:15:00",
       "open": 3.01,
-      "high": 3.01,
+      "high": 3.04,
       "low": 3.01,
+      "close": 3.04,
+      "volume": 5
+    },
+    {
+      "time": "2026-08-17T07:20:00",
+      "open": 3.01,
+      "high": 3.01,
+      "low": 2.99,
       "close": 3.01,
-      "volume": 2
+      "volume": 27
+    },
+    {
+      "time": "2026-08-17T07:25:00",
+      "open": 3.01,
+      "high": 3.01,
+      "low": 2.98,
+      "close": 2.98,
+      "volume": 7
+    },
+    {
+      "time": "2026-08-17T07:30:00",
+      "open": 2.98,
+      "high": 2.98,
+      "low": 2.98,
+      "close": 2.98,
+      "volume": 0
     }
   ]
 }
