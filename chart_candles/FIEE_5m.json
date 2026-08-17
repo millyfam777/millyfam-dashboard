@@ -2,8 +2,8 @@
   "symbol": "FIEE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-17T06:03:12.003113",
-  "bar_count": 217,
+  "generated_at": "2026-08-17T06:18:12.502188",
+  "bar_count": 220,
   "candles": [
     {
       "time": "2026-08-14T03:00:00",
@@ -1736,10 +1736,34 @@
     {
       "time": "2026-08-17T05:00:00",
       "open": 5.67,
-      "high": 5.71,
+      "high": 5.7697,
       "low": 5.66,
-      "close": 5.6968,
-      "volume": 18
+      "close": 5.72,
+      "volume": 37
+    },
+    {
+      "time": "2026-08-17T05:05:00",
+      "open": 5.73,
+      "high": 5.82,
+      "low": 5.73,
+      "close": 5.74,
+      "volume": 48
+    },
+    {
+      "time": "2026-08-17T05:10:00",
+      "open": 5.7929,
+      "high": 5.7929,
+      "low": 5.7,
+      "close": 5.73,
+      "volume": 29
+    },
+    {
+      "time": "2026-08-17T05:15:00",
+      "open": 5.76,
+      "high": 5.76,
+      "low": 5.7,
+      "close": 5.7,
+      "volume": 13
     }
   ]
 }

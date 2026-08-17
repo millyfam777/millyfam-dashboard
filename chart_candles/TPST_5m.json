@@ -2,8 +2,8 @@
   "symbol": "TPST",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-17T06:03:04.861873",
-  "bar_count": 217,
+  "generated_at": "2026-08-17T06:17:52.252048",
+  "bar_count": 220,
   "candles": [
     {
       "time": "2026-08-14T03:00:00",
@@ -1736,10 +1736,34 @@
     {
       "time": "2026-08-17T05:00:00",
       "open": 1.1299,
-      "high": 1.1299,
+      "high": 1.13,
+      "low": 1.12,
+      "close": 1.13,
+      "volume": 9
+    },
+    {
+      "time": "2026-08-17T05:05:00",
+      "open": 1.13,
+      "high": 1.14,
+      "low": 1.13,
+      "close": 1.14,
+      "volume": 21
+    },
+    {
+      "time": "2026-08-17T05:10:00",
+      "open": 1.13,
+      "high": 1.14,
       "low": 1.12,
       "close": 1.12,
-      "volume": 5
+      "volume": 17
+    },
+    {
+      "time": "2026-08-17T05:15:00",
+      "open": 1.13,
+      "high": 1.14,
+      "low": 1.13,
+      "close": 1.14,
+      "volume": 21
     }
   ]
 }
