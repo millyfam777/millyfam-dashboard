@@ -2,8 +2,8 @@
   "symbol": "UFI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-17T09:18:04.689987",
-  "bar_count": 142,
+  "generated_at": "2026-08-17T09:32:36.820861",
+  "bar_count": 145,
   "candles": [
     {
       "time": "2026-08-14T08:30:00",
@@ -1136,10 +1136,34 @@
     {
       "time": "2026-08-17T08:15:00",
       "open": 7.0,
-      "high": 7.0,
+      "high": 7.06,
       "low": 7.0,
-      "close": 7.0,
-      "volume": 2
+      "close": 7.04,
+      "volume": 23
+    },
+    {
+      "time": "2026-08-17T08:20:00",
+      "open": 7.02,
+      "high": 7.15,
+      "low": 7.02,
+      "close": 7.04,
+      "volume": 47
+    },
+    {
+      "time": "2026-08-17T08:25:00",
+      "open": 7.04,
+      "high": 7.14,
+      "low": 7.02,
+      "close": 7.04,
+      "volume": 65
+    },
+    {
+      "time": "2026-08-17T08:30:00",
+      "open": 7.06,
+      "high": 7.19,
+      "low": 6.95,
+      "close": 7.04,
+      "volume": 2176
     }
   ]
 }
