@@ -2,8 +2,8 @@
   "symbol": "MINE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-17T07:17:24.902743",
-  "bar_count": 167,
+  "generated_at": "2026-08-17T07:22:25.155535",
+  "bar_count": 168,
   "candles": [
     {
       "time": "2026-08-14T08:25:00",
@@ -1337,9 +1337,17 @@
       "time": "2026-08-17T06:15:00",
       "open": 2.99,
       "high": 3.0,
-      "low": 2.99,
-      "close": 3.0,
-      "volume": 16
+      "low": 2.93,
+      "close": 2.93,
+      "volume": 36
+    },
+    {
+      "time": "2026-08-17T06:20:00",
+      "open": 2.93,
+      "high": 3.03,
+      "low": 2.91,
+      "close": 3.03,
+      "volume": 15
     }
   ]
 }
