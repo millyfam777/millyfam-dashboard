@@ -2,8 +2,8 @@
   "symbol": "BEG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-17T07:02:46.277931",
-  "bar_count": 229,
+  "generated_at": "2026-08-17T07:17:16.057087",
+  "bar_count": 232,
   "candles": [
     {
       "time": "2026-08-14T03:00:00",
@@ -1833,9 +1833,33 @@
       "time": "2026-08-17T06:00:00",
       "open": 42.9,
       "high": 42.9,
-      "low": 42.9,
-      "close": 42.9,
-      "volume": 1
+      "low": 42.37,
+      "close": 42.37,
+      "volume": 4
+    },
+    {
+      "time": "2026-08-17T06:05:00",
+      "open": 42.5,
+      "high": 42.53,
+      "low": 42.36,
+      "close": 42.36,
+      "volume": 6
+    },
+    {
+      "time": "2026-08-17T06:10:00",
+      "open": 42.23,
+      "high": 42.23,
+      "low": 42.2,
+      "close": 42.2,
+      "volume": 5
+    },
+    {
+      "time": "2026-08-17T06:15:00",
+      "open": 42.2,
+      "high": 42.2,
+      "low": 42.2,
+      "close": 42.2,
+      "volume": 0
     }
   ]
 }
