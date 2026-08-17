@@ -2,8 +2,8 @@
   "symbol": "CRGO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-17T04:48:22.915368",
-  "bar_count": 161,
+  "generated_at": "2026-08-17T05:02:12.993121",
+  "bar_count": 164,
   "candles": [
     {
       "time": "2026-08-14T06:25:00",
@@ -1288,10 +1288,34 @@
     {
       "time": "2026-08-17T03:45:00",
       "open": 1.52,
-      "high": 1.52,
+      "high": 1.53,
       "low": 1.47,
-      "close": 1.48,
-      "volume": 23
+      "close": 1.5,
+      "volume": 36
+    },
+    {
+      "time": "2026-08-17T03:50:00",
+      "open": 1.5,
+      "high": 1.5,
+      "low": 1.47,
+      "close": 1.49,
+      "volume": 31
+    },
+    {
+      "time": "2026-08-17T03:55:00",
+      "open": 1.49,
+      "high": 1.49,
+      "low": 1.47,
+      "close": 1.47,
+      "volume": 28
+    },
+    {
+      "time": "2026-08-17T04:00:00",
+      "open": 1.47,
+      "high": 1.47,
+      "low": 1.47,
+      "close": 1.47,
+      "volume": 0
     }
   ]
 }
