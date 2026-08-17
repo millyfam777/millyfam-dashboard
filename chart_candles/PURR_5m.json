@@ -2,8 +2,8 @@
   "symbol": "PURR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-17T06:47:45.797765",
-  "bar_count": 226,
+  "generated_at": "2026-08-17T07:02:48.500025",
+  "bar_count": 229,
   "candles": [
     {
       "time": "2026-08-14T03:00:00",
@@ -1808,10 +1808,34 @@
     {
       "time": "2026-08-17T05:45:00",
       "open": 7.35,
+      "high": 7.39,
+      "low": 7.34,
+      "close": 7.35,
+      "volume": 22
+    },
+    {
+      "time": "2026-08-17T05:50:00",
+      "open": 7.32,
+      "high": 7.4,
+      "low": 7.32,
+      "close": 7.4,
+      "volume": 17
+    },
+    {
+      "time": "2026-08-17T05:55:00",
+      "open": 7.35,
       "high": 7.35,
       "low": 7.35,
       "close": 7.35,
-      "volume": 0
+      "volume": 1
+    },
+    {
+      "time": "2026-08-17T06:00:00",
+      "open": 7.31,
+      "high": 7.38,
+      "low": 7.3,
+      "close": 7.32,
+      "volume": 69
     }
   ]
 }
