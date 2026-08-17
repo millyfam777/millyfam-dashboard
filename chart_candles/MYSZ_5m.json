@@ -2,8 +2,8 @@
   "symbol": "MYSZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-08-17T11:03:22.913482",
-  "bar_count": 277,
+  "generated_at": "2026-08-17T11:18:09.938556",
+  "bar_count": 280,
   "candles": [
     {
       "time": "2026-08-14T03:00:00",
@@ -2216,10 +2216,34 @@
     {
       "time": "2026-08-17T10:00:00",
       "open": 3.98,
-      "high": 4.07,
+      "high": 4.28,
       "low": 3.95,
-      "close": 4.05,
-      "volume": 432
+      "close": 4.23,
+      "volume": 1590
+    },
+    {
+      "time": "2026-08-17T10:05:00",
+      "open": 4.23,
+      "high": 4.23,
+      "low": 3.6,
+      "close": 3.69,
+      "volume": 2043
+    },
+    {
+      "time": "2026-08-17T10:10:00",
+      "open": 3.68,
+      "high": 3.68,
+      "low": 3.5,
+      "close": 3.63,
+      "volume": 825
+    },
+    {
+      "time": "2026-08-17T10:15:00",
+      "open": 3.61,
+      "high": 3.67,
+      "low": 3.6,
+      "close": 3.65,
+      "volume": 169
     }
   ]
 }
