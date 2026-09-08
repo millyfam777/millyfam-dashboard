@@ -2,8 +2,8 @@
   "symbol": "BSEM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-08T09:47:36.939193",
-  "bar_count": 194,
+  "generated_at": "2026-09-08T10:03:04.691527",
+  "bar_count": 197,
   "candles": [
     {
       "time": "2026-09-04T05:40:00",
@@ -1553,9 +1553,33 @@
       "time": "2026-09-08T08:45:00",
       "open": 4.32,
       "high": 4.36,
+      "low": 4.04,
+      "close": 4.35,
+      "volume": 87
+    },
+    {
+      "time": "2026-09-08T08:50:00",
+      "open": 4.35,
+      "high": 4.38,
+      "low": 4.32,
+      "close": 4.33,
+      "volume": 66
+    },
+    {
+      "time": "2026-09-08T08:55:00",
+      "open": 4.37,
+      "high": 4.37,
       "low": 4.32,
       "close": 4.35,
-      "volume": 34
+      "volume": 17
+    },
+    {
+      "time": "2026-09-08T09:00:00",
+      "open": 4.38,
+      "high": 4.42,
+      "low": 4.35,
+      "close": 4.36,
+      "volume": 36
     }
   ]
 }
