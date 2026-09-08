@@ -2,8 +2,8 @@
   "symbol": "BRNX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-08T05:03:10.075386",
-  "bar_count": 205,
+  "generated_at": "2026-09-08T05:18:18.568533",
+  "bar_count": 208,
   "candles": [
     {
       "time": "2026-09-04T03:00:00",
@@ -1640,10 +1640,34 @@
     {
       "time": "2026-09-08T04:00:00",
       "open": 2.45,
-      "high": 2.46,
+      "high": 2.47,
       "low": 2.44,
-      "close": 2.45,
-      "volume": 40
+      "close": 2.46,
+      "volume": 50
+    },
+    {
+      "time": "2026-09-08T04:05:00",
+      "open": 2.46,
+      "high": 2.46,
+      "low": 2.43,
+      "close": 2.4599,
+      "volume": 32
+    },
+    {
+      "time": "2026-09-08T04:10:00",
+      "open": 2.46,
+      "high": 2.77,
+      "low": 2.46,
+      "close": 2.75,
+      "volume": 603
+    },
+    {
+      "time": "2026-09-08T04:15:00",
+      "open": 2.75,
+      "high": 2.85,
+      "low": 2.48,
+      "close": 2.51,
+      "volume": 1813
     }
   ]
 }
