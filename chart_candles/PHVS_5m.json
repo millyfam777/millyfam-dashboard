@@ -2,8 +2,8 @@
   "symbol": "PHVS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-08T07:03:41.646162",
-  "bar_count": 150,
+  "generated_at": "2026-09-08T07:13:38.506647",
+  "bar_count": 152,
   "candles": [
     {
       "time": "2026-09-04T06:45:00",
@@ -1200,10 +1200,26 @@
     {
       "time": "2026-09-08T06:00:00",
       "open": 41.0,
-      "high": 42.84,
+      "high": 42.88,
       "low": 41.0,
-      "close": 42.38,
-      "volume": 237
+      "close": 41.6,
+      "volume": 551
+    },
+    {
+      "time": "2026-09-08T06:05:00",
+      "open": 41.59,
+      "high": 45.99,
+      "low": 41.59,
+      "close": 44.46,
+      "volume": 360
+    },
+    {
+      "time": "2026-09-08T06:10:00",
+      "open": 44.4,
+      "high": 48.0,
+      "low": 43.97,
+      "close": 46.5,
+      "volume": 174
     }
   ]
 }

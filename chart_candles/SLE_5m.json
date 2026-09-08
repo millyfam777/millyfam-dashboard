@@ -2,8 +2,8 @@
   "symbol": "SLE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-08T07:03:46.943786",
-  "bar_count": 224,
+  "generated_at": "2026-09-08T07:18:34.865872",
+  "bar_count": 227,
   "candles": [
     {
       "time": "2026-09-04T03:25:00",
@@ -1792,10 +1792,34 @@
     {
       "time": "2026-09-08T06:00:00",
       "open": 4.44,
-      "high": 4.54,
+      "high": 4.55,
       "low": 4.37,
-      "close": 4.53,
-      "volume": 40
+      "close": 4.52,
+      "volume": 71
+    },
+    {
+      "time": "2026-09-08T06:05:00",
+      "open": 4.43,
+      "high": 4.55,
+      "low": 4.43,
+      "close": 4.54,
+      "volume": 34
+    },
+    {
+      "time": "2026-09-08T06:10:00",
+      "open": 4.54,
+      "high": 4.54,
+      "low": 4.54,
+      "close": 4.54,
+      "volume": 0
+    },
+    {
+      "time": "2026-09-08T06:15:00",
+      "open": 4.49,
+      "high": 4.49,
+      "low": 4.43,
+      "close": 4.43,
+      "volume": 3
     }
   ]
 }
