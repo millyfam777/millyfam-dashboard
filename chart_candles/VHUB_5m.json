@@ -2,8 +2,8 @@
   "symbol": "VHUB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-08T11:33:01.030980",
-  "bar_count": 152,
+  "generated_at": "2026-09-08T11:42:34.140250",
+  "bar_count": 154,
   "candles": [
     {
       "time": "2026-09-04T08:30:00",
@@ -1217,9 +1217,25 @@
       "time": "2026-09-08T10:30:00",
       "open": 1.0,
       "high": 1.0,
-      "low": 0.993,
-      "close": 1.0,
-      "volume": 9
+      "low": 0.9926,
+      "close": 0.9926,
+      "volume": 38
+    },
+    {
+      "time": "2026-09-08T10:35:00",
+      "open": 0.99,
+      "high": 0.99,
+      "low": 0.9881,
+      "close": 0.9882,
+      "volume": 24
+    },
+    {
+      "time": "2026-09-08T10:40:00",
+      "open": 0.9884,
+      "high": 0.99,
+      "low": 0.9882,
+      "close": 0.99,
+      "volume": 11
     }
   ]
 }

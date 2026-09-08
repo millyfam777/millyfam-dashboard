@@ -2,8 +2,8 @@
   "symbol": "WYHG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-08T11:33:40.554625",
-  "bar_count": 283,
+  "generated_at": "2026-09-08T11:48:23.812440",
+  "bar_count": 286,
   "candles": [
     {
       "time": "2026-09-04T03:00:00",
@@ -2264,10 +2264,34 @@
     {
       "time": "2026-09-08T10:30:00",
       "open": 5.33,
-      "high": 5.34,
+      "high": 5.36,
       "low": 5.24,
+      "close": 5.35,
+      "volume": 581
+    },
+    {
+      "time": "2026-09-08T10:35:00",
+      "open": 5.34,
+      "high": 5.34,
+      "low": 5.25,
       "close": 5.3,
-      "volume": 468
+      "volume": 269
+    },
+    {
+      "time": "2026-09-08T10:40:00",
+      "open": 5.31,
+      "high": 5.36,
+      "low": 5.27,
+      "close": 5.29,
+      "volume": 582
+    },
+    {
+      "time": "2026-09-08T10:45:00",
+      "open": 5.29,
+      "high": 5.31,
+      "low": 5.27,
+      "close": 5.29,
+      "volume": 91
     }
   ]
 }
