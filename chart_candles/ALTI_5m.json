@@ -2,8 +2,8 @@
   "symbol": "ALTI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-08T09:32:29.078759",
-  "bar_count": 193,
+  "generated_at": "2026-09-08T09:37:25.155492",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-09-04T08:30:00",
@@ -1544,10 +1544,18 @@
     {
       "time": "2026-09-08T08:30:00",
       "open": 3.32,
-      "high": 3.32,
+      "high": 3.34,
       "low": 3.29,
-      "close": 3.29,
-      "volume": 210
+      "close": 3.31,
+      "volume": 277
+    },
+    {
+      "time": "2026-09-08T08:35:00",
+      "open": 3.33,
+      "high": 3.34,
+      "low": 3.3,
+      "close": 3.3,
+      "volume": 22
     }
   ]
 }
