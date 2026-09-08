@@ -2,8 +2,8 @@
   "symbol": "BEAM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-08T06:48:11.719114",
-  "bar_count": 226,
+  "generated_at": "2026-09-08T06:52:26.783983",
+  "bar_count": 227,
   "candles": [
     {
       "time": "2026-09-04T03:00:00",
@@ -1809,9 +1809,17 @@
       "time": "2026-09-08T05:45:00",
       "open": 31.4,
       "high": 31.42,
-      "low": 31.21,
-      "close": 31.34,
-      "volume": 19
+      "low": 31.04,
+      "close": 31.27,
+      "volume": 21
+    },
+    {
+      "time": "2026-09-08T05:50:00",
+      "open": 31.27,
+      "high": 31.27,
+      "low": 31.27,
+      "close": 31.27,
+      "volume": 0
     }
   ]
 }
