@@ -2,8 +2,8 @@
   "symbol": "HCWC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-08T10:17:31.335645",
-  "bar_count": 209,
+  "generated_at": "2026-09-08T10:27:30.097700",
+  "bar_count": 211,
   "candles": [
     {
       "time": "2026-09-04T04:55:00",
@@ -1673,9 +1673,25 @@
       "time": "2026-09-08T09:15:00",
       "open": 8.16,
       "high": 8.32,
-      "low": 8.07,
-      "close": 8.29,
-      "volume": 41
+      "low": 8.0,
+      "close": 8.11,
+      "volume": 99
+    },
+    {
+      "time": "2026-09-08T09:20:00",
+      "open": 8.06,
+      "high": 8.06,
+      "low": 8.05,
+      "close": 8.05,
+      "volume": 7
+    },
+    {
+      "time": "2026-09-08T09:25:00",
+      "open": 8.05,
+      "high": 8.16,
+      "low": 8.05,
+      "close": 8.11,
+      "volume": 12
     }
   ]
 }
