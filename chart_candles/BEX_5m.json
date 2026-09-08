@@ -2,8 +2,8 @@
   "symbol": "BEX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-08T11:02:16.863805",
-  "bar_count": 277,
+  "generated_at": "2026-09-08T11:07:24.660124",
+  "bar_count": 278,
   "candles": [
     {
       "time": "2026-09-04T03:00:00",
@@ -2217,9 +2217,17 @@
       "time": "2026-09-08T10:00:00",
       "open": 38.25,
       "high": 38.26,
-      "low": 37.83,
-      "close": 37.84,
-      "volume": 97
+      "low": 37.67,
+      "close": 37.75,
+      "volume": 182
+    },
+    {
+      "time": "2026-09-08T10:05:00",
+      "open": 37.84,
+      "high": 38.0,
+      "low": 37.84,
+      "close": 38.0,
+      "volume": 72
     }
   ]
 }
