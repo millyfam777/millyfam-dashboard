@@ -2,8 +2,8 @@
   "symbol": "NAUT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-09T06:02:24.410667",
-  "bar_count": 204,
+  "generated_at": "2026-09-09T06:13:16.339937",
+  "bar_count": 206,
   "candles": [
     {
       "time": "2026-09-08T03:00:00",
@@ -1633,9 +1633,25 @@
       "time": "2026-09-09T05:00:00",
       "open": 0.988,
       "high": 1.03,
-      "low": 0.988,
-      "close": 1.03,
-      "volume": 69
+      "low": 0.9616,
+      "close": 0.9616,
+      "volume": 80
+    },
+    {
+      "time": "2026-09-09T05:05:00",
+      "open": 0.956,
+      "high": 0.956,
+      "low": 0.956,
+      "close": 0.956,
+      "volume": 1
+    },
+    {
+      "time": "2026-09-09T05:10:00",
+      "open": 0.956,
+      "high": 0.956,
+      "low": 0.956,
+      "close": 0.956,
+      "volume": 0
     }
   ]
 }
