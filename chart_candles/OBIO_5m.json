@@ -2,8 +2,8 @@
   "symbol": "OBIO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-10T11:02:40.712508",
-  "bar_count": 193,
+  "generated_at": "2026-09-10T11:17:09.534674",
+  "bar_count": 196,
   "candles": [
     {
       "time": "2026-09-09T08:30:00",
@@ -1545,9 +1545,33 @@
       "time": "2026-09-10T10:00:00",
       "open": 5.95,
       "high": 6.0,
+      "low": 5.9,
+      "close": 5.93,
+      "volume": 218
+    },
+    {
+      "time": "2026-09-10T10:05:00",
+      "open": 5.94,
+      "high": 5.96,
+      "low": 5.94,
+      "close": 5.96,
+      "volume": 21
+    },
+    {
+      "time": "2026-09-10T10:10:00",
+      "open": 5.98,
+      "high": 5.98,
+      "low": 5.97,
+      "close": 5.97,
+      "volume": 6
+    },
+    {
+      "time": "2026-09-10T10:15:00",
+      "open": 5.97,
+      "high": 5.97,
       "low": 5.95,
       "close": 5.95,
-      "volume": 23
+      "volume": 122
     }
   ]
 }
