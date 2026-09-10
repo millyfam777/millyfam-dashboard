@@ -2,8 +2,8 @@
   "symbol": "MIMI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-10T19:17:11.773900",
-  "bar_count": 376,
+  "generated_at": "2026-09-10T19:32:11.820791",
+  "bar_count": 379,
   "candles": [
     {
       "time": "2026-09-09T03:00:00",
@@ -3011,7 +3011,31 @@
       "high": 0.99,
       "low": 0.99,
       "close": 0.99,
-      "volume": 3
+      "volume": 16
+    },
+    {
+      "time": "2026-09-10T18:20:00",
+      "open": 1.0,
+      "high": 1.0,
+      "low": 0.9999,
+      "close": 0.9999,
+      "volume": 12
+    },
+    {
+      "time": "2026-09-10T18:25:00",
+      "open": 0.9999,
+      "high": 1.02,
+      "low": 0.9999,
+      "close": 1.02,
+      "volume": 55
+    },
+    {
+      "time": "2026-09-10T18:30:00",
+      "open": 1.02,
+      "high": 1.03,
+      "low": 0.9897,
+      "close": 0.9897,
+      "volume": 68
     }
   ]
 }
