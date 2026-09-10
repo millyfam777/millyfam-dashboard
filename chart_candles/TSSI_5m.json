@@ -2,8 +2,8 @@
   "symbol": "TSSI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-10T11:32:25.533170",
-  "bar_count": 275,
+  "generated_at": "2026-09-10T11:47:13.280071",
+  "bar_count": 278,
   "candles": [
     {
       "time": "2026-09-09T03:40:00",
@@ -2200,10 +2200,34 @@
     {
       "time": "2026-09-10T10:30:00",
       "open": 9.09,
-      "high": 9.11,
+      "high": 9.17,
       "low": 9.07,
-      "close": 9.11,
-      "volume": 163
+      "close": 9.15,
+      "volume": 200
+    },
+    {
+      "time": "2026-09-10T10:35:00",
+      "open": 9.16,
+      "high": 9.2,
+      "low": 9.13,
+      "close": 9.14,
+      "volume": 173
+    },
+    {
+      "time": "2026-09-10T10:40:00",
+      "open": 9.13,
+      "high": 9.16,
+      "low": 9.13,
+      "close": 9.15,
+      "volume": 123
+    },
+    {
+      "time": "2026-09-10T10:45:00",
+      "open": 9.15,
+      "high": 9.18,
+      "low": 9.13,
+      "close": 9.13,
+      "volume": 114
     }
   ]
 }
