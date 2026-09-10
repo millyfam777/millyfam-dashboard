@@ -2,8 +2,8 @@
   "symbol": "MUZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-10T09:27:04.254766",
-  "bar_count": 258,
+  "generated_at": "2026-09-10T09:42:51.520477",
+  "bar_count": 261,
   "candles": [
     {
       "time": "2026-09-09T03:00:00",
@@ -2065,9 +2065,33 @@
       "time": "2026-09-10T08:25:00",
       "open": 8.23,
       "high": 8.25,
+      "low": 8.17,
+      "close": 8.17,
+      "volume": 733
+    },
+    {
+      "time": "2026-09-10T08:30:00",
+      "open": 8.2,
+      "high": 8.42,
+      "low": 8.2,
+      "close": 8.34,
+      "volume": 8700
+    },
+    {
+      "time": "2026-09-10T08:35:00",
+      "open": 8.34,
+      "high": 8.36,
       "low": 8.22,
-      "close": 8.22,
-      "volume": 217
+      "close": 8.23,
+      "volume": 4269
+    },
+    {
+      "time": "2026-09-10T08:40:00",
+      "open": 8.22,
+      "high": 8.23,
+      "low": 8.16,
+      "close": 8.2,
+      "volume": 2071
     }
   ]
 }
