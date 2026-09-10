@@ -2,8 +2,8 @@
   "symbol": "YQ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-10T04:02:28.276761",
-  "bar_count": 193,
+  "generated_at": "2026-09-10T04:07:32.394931",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-09-09T03:00:00",
@@ -1544,10 +1544,18 @@
     {
       "time": "2026-09-10T03:00:00",
       "open": 4.32,
-      "high": 4.32,
+      "high": 4.38,
       "low": 4.28,
-      "close": 4.28,
-      "volume": 10
+      "close": 4.38,
+      "volume": 12
+    },
+    {
+      "time": "2026-09-10T03:05:00",
+      "open": 4.38,
+      "high": 4.38,
+      "low": 4.38,
+      "close": 4.38,
+      "volume": 0
     }
   ]
 }
