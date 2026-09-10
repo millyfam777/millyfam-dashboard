@@ -2,8 +2,8 @@
   "symbol": "SKDD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-10T08:18:06.737390",
-  "bar_count": 244,
+  "generated_at": "2026-09-10T08:32:57.409497",
+  "bar_count": 247,
   "candles": [
     {
       "time": "2026-09-09T03:00:00",
@@ -1953,9 +1953,33 @@
       "time": "2026-09-10T07:15:00",
       "open": 6.89,
       "high": 6.91,
+      "low": 6.88,
+      "close": 6.9,
+      "volume": 295
+    },
+    {
+      "time": "2026-09-10T07:20:00",
+      "open": 6.9,
+      "high": 6.92,
       "low": 6.89,
-      "close": 6.89,
-      "volume": 163
+      "close": 6.91,
+      "volume": 399
+    },
+    {
+      "time": "2026-09-10T07:25:00",
+      "open": 6.91,
+      "high": 6.93,
+      "low": 6.9,
+      "close": 6.91,
+      "volume": 420
+    },
+    {
+      "time": "2026-09-10T07:30:00",
+      "open": 6.91,
+      "high": 7.02,
+      "low": 6.9,
+      "close": 7.0,
+      "volume": 1195
     }
   ]
 }
