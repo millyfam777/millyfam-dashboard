@@ -2,8 +2,8 @@
   "symbol": "ZSTK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-10T12:48:05.854835",
-  "bar_count": 243,
+  "generated_at": "2026-09-10T13:02:58.885960",
+  "bar_count": 246,
   "candles": [
     {
       "time": "2026-09-09T03:00:00",
@@ -1944,10 +1944,34 @@
     {
       "time": "2026-09-10T11:45:00",
       "open": 5.05,
-      "high": 5.05,
+      "high": 5.07,
       "low": 5.05,
-      "close": 5.05,
-      "volume": 1
+      "close": 5.07,
+      "volume": 2
+    },
+    {
+      "time": "2026-09-10T11:50:00",
+      "open": 4.96,
+      "high": 5.21,
+      "low": 4.74,
+      "close": 4.9,
+      "volume": 113
+    },
+    {
+      "time": "2026-09-10T11:55:00",
+      "open": 4.9,
+      "high": 4.9,
+      "low": 4.8,
+      "close": 4.8,
+      "volume": 9
+    },
+    {
+      "time": "2026-09-10T12:00:00",
+      "open": 4.8,
+      "high": 4.9,
+      "low": 4.8,
+      "close": 4.88,
+      "volume": 8
     }
   ]
 }

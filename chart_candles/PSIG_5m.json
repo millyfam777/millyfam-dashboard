@@ -2,8 +2,8 @@
   "symbol": "PSIG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-10T12:48:03.439548",
-  "bar_count": 193,
+  "generated_at": "2026-09-10T13:03:03.812402",
+  "bar_count": 196,
   "candles": [
     {
       "time": "2026-09-09T08:30:00",
@@ -1546,8 +1546,32 @@
       "open": 2.05,
       "high": 2.1,
       "low": 2.05,
+      "close": 2.06,
+      "volume": 1531
+    },
+    {
+      "time": "2026-09-10T11:50:00",
+      "open": 2.06,
+      "high": 2.1,
+      "low": 2.06,
       "close": 2.1,
-      "volume": 1018
+      "volume": 850
+    },
+    {
+      "time": "2026-09-10T11:55:00",
+      "open": 2.08,
+      "high": 2.245,
+      "low": 2.08,
+      "close": 2.15,
+      "volume": 641
+    },
+    {
+      "time": "2026-09-10T12:00:00",
+      "open": 2.155,
+      "high": 2.49,
+      "low": 2.02,
+      "close": 2.02,
+      "volume": 1401
     }
   ]
 }
