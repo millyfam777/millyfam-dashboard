@@ -2,8 +2,8 @@
   "symbol": "ALAR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-10T12:02:44.361663",
-  "bar_count": 282,
+  "generated_at": "2026-09-10T12:17:35.498088",
+  "bar_count": 285,
   "candles": [
     {
       "time": "2026-09-09T03:20:00",
@@ -2256,10 +2256,34 @@
     {
       "time": "2026-09-10T11:00:00",
       "open": 1.73,
+      "high": 1.735,
+      "low": 1.73,
+      "close": 1.735,
+      "volume": 20
+    },
+    {
+      "time": "2026-09-10T11:05:00",
+      "open": 1.735,
+      "high": 1.75,
+      "low": 1.72,
+      "close": 1.73,
+      "volume": 112
+    },
+    {
+      "time": "2026-09-10T11:10:00",
+      "open": 1.73,
       "high": 1.73,
       "low": 1.73,
       "close": 1.73,
-      "volume": 3
+      "volume": 2
+    },
+    {
+      "time": "2026-09-10T11:15:00",
+      "open": 1.72,
+      "high": 1.72,
+      "low": 1.7,
+      "close": 1.7,
+      "volume": 76
     }
   ]
 }

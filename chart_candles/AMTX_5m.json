@@ -2,8 +2,8 @@
   "symbol": "AMTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-10T12:02:39.525166",
-  "bar_count": 186,
+  "generated_at": "2026-09-10T12:12:06.994175",
+  "bar_count": 188,
   "candles": [
     {
       "time": "2026-09-09T06:10:00",
@@ -1489,9 +1489,25 @@
       "time": "2026-09-10T11:00:00",
       "open": 2.025,
       "high": 2.025,
-      "low": 2.0234,
-      "close": 2.025,
-      "volume": 4
+      "low": 2.01,
+      "close": 2.01,
+      "volume": 25
+    },
+    {
+      "time": "2026-09-10T11:05:00",
+      "open": 2.01,
+      "high": 2.0101,
+      "low": 1.99,
+      "close": 2.0,
+      "volume": 267
+    },
+    {
+      "time": "2026-09-10T11:10:00",
+      "open": 2.0,
+      "high": 2.0,
+      "low": 2.0,
+      "close": 2.0,
+      "volume": 1
     }
   ]
 }
