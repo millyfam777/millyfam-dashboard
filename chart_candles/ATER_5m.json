@@ -2,8 +2,8 @@
   "symbol": "ATER",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-10T13:18:33.950379",
-  "bar_count": 304,
+  "generated_at": "2026-09-10T13:23:33.020661",
+  "bar_count": 305,
   "candles": [
     {
       "time": "2026-09-09T03:00:00",
@@ -2433,9 +2433,17 @@
       "time": "2026-09-10T12:15:00",
       "open": 0.8822,
       "high": 0.8894,
-      "low": 0.8822,
-      "close": 0.8841,
-      "volume": 79
+      "low": 0.87,
+      "close": 0.8824,
+      "volume": 175
+    },
+    {
+      "time": "2026-09-10T12:20:00",
+      "open": 0.8824,
+      "high": 0.883,
+      "low": 0.8702,
+      "close": 0.883,
+      "volume": 20
     }
   ]
 }
