@@ -2,8 +2,8 @@
   "symbol": "HTOO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-10T14:02:18.925765",
-  "bar_count": 200,
+  "generated_at": "2026-09-10T14:17:51.954605",
+  "bar_count": 203,
   "candles": [
     {
       "time": "2026-09-09T08:40:00",
@@ -1600,10 +1600,34 @@
     {
       "time": "2026-09-10T13:00:00",
       "open": 2.55,
-      "high": 2.55,
+      "high": 2.58,
+      "low": 2.55,
+      "close": 2.58,
+      "volume": 6
+    },
+    {
+      "time": "2026-09-10T13:05:00",
+      "open": 2.5583,
+      "high": 2.6,
+      "low": 2.5015,
+      "close": 2.6,
+      "volume": 96
+    },
+    {
+      "time": "2026-09-10T13:10:00",
+      "open": 2.55,
+      "high": 2.599,
       "low": 2.55,
       "close": 2.55,
-      "volume": 1
+      "volume": 37
+    },
+    {
+      "time": "2026-09-10T13:15:00",
+      "open": 2.58,
+      "high": 2.59,
+      "low": 2.57,
+      "close": 2.57,
+      "volume": 3
     }
   ]
 }
