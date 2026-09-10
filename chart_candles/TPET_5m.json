@@ -2,8 +2,8 @@
   "symbol": "TPET",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-10T14:47:13.664865",
-  "bar_count": 322,
+  "generated_at": "2026-09-10T14:57:14.826311",
+  "bar_count": 324,
   "candles": [
     {
       "time": "2026-09-09T03:00:00",
@@ -2577,9 +2577,25 @@
       "time": "2026-09-10T13:45:00",
       "open": 2.01,
       "high": 2.015,
+      "low": 1.97,
+      "close": 1.98,
+      "volume": 181
+    },
+    {
+      "time": "2026-09-10T13:50:00",
+      "open": 1.98,
+      "high": 2.0,
       "low": 1.98,
       "close": 1.99,
-      "volume": 165
+      "volume": 66
+    },
+    {
+      "time": "2026-09-10T13:55:00",
+      "open": 1.99,
+      "high": 1.99,
+      "low": 1.99,
+      "close": 1.99,
+      "volume": 17
     }
   ]
 }

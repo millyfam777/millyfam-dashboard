@@ -2,8 +2,8 @@
   "symbol": "ZSL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-10T14:47:08.823360",
-  "bar_count": 322,
+  "generated_at": "2026-09-10T14:52:04.803687",
+  "bar_count": 323,
   "candles": [
     {
       "time": "2026-09-09T03:00:00",
@@ -2576,10 +2576,18 @@
     {
       "time": "2026-09-10T13:45:00",
       "open": 24.92,
-      "high": 25.0,
+      "high": 25.02,
       "low": 24.91,
-      "close": 25.0,
-      "volume": 55
+      "close": 24.96,
+      "volume": 540
+    },
+    {
+      "time": "2026-09-10T13:50:00",
+      "open": 24.98,
+      "high": 25.01,
+      "low": 24.82,
+      "close": 24.83,
+      "volume": 302
     }
   ]
 }
