@@ -2,8 +2,8 @@
   "symbol": "BARK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-10T14:17:10.644355",
-  "bar_count": 184,
+  "generated_at": "2026-09-10T14:22:05.952542",
+  "bar_count": 185,
   "candles": [
     {
       "time": "2026-09-09T08:30:00",
@@ -1473,9 +1473,17 @@
       "time": "2026-09-10T13:15:00",
       "open": 9.83,
       "high": 9.84,
-      "low": 9.83,
-      "close": 9.84,
-      "volume": 12
+      "low": 9.7,
+      "close": 9.7,
+      "volume": 25
+    },
+    {
+      "time": "2026-09-10T13:20:00",
+      "open": 9.74,
+      "high": 9.77,
+      "low": 9.74,
+      "close": 9.74,
+      "volume": 5
     }
   ]
 }
