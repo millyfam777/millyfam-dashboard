@@ -2,8 +2,8 @@
   "symbol": "AENT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-11T13:02:17.848533",
-  "bar_count": 234,
+  "generated_at": "2026-09-11T13:17:33.548359",
+  "bar_count": 237,
   "candles": [
     {
       "time": "2026-09-10T08:30:00",
@@ -1872,10 +1872,34 @@
     {
       "time": "2026-09-11T12:00:00",
       "open": 6.33,
-      "high": 6.4,
+      "high": 6.47,
       "low": 6.28,
-      "close": 6.38,
-      "volume": 157
+      "close": 6.44,
+      "volume": 271
+    },
+    {
+      "time": "2026-09-11T12:05:00",
+      "open": 6.47,
+      "high": 6.49,
+      "low": 6.4,
+      "close": 6.47,
+      "volume": 144
+    },
+    {
+      "time": "2026-09-11T12:10:00",
+      "open": 6.47,
+      "high": 6.4759,
+      "low": 6.38,
+      "close": 6.41,
+      "volume": 123
+    },
+    {
+      "time": "2026-09-11T12:15:00",
+      "open": 6.4,
+      "high": 6.45,
+      "low": 6.38,
+      "close": 6.4,
+      "volume": 25
     }
   ]
 }
