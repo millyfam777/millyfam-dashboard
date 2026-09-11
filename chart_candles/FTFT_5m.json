@@ -2,8 +2,8 @@
   "symbol": "FTFT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-11T09:18:14.608768",
-  "bar_count": 256,
+  "generated_at": "2026-09-11T09:23:15.609488",
+  "bar_count": 257,
   "candles": [
     {
       "time": "2026-09-10T03:00:00",
@@ -2048,10 +2048,18 @@
     {
       "time": "2026-09-11T08:15:00",
       "open": 2.5216,
-      "high": 2.78,
+      "high": 2.97,
       "low": 2.49,
-      "close": 2.68,
-      "volume": 7232
+      "close": 2.97,
+      "volume": 15734
+    },
+    {
+      "time": "2026-09-11T08:20:00",
+      "open": 2.9601,
+      "high": 2.97,
+      "low": 2.78,
+      "close": 2.822,
+      "volume": 12265
     }
   ]
 }
