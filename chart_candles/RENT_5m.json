@@ -2,8 +2,8 @@
   "symbol": "RENT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-11T08:18:09.154670",
-  "bar_count": 221,
+  "generated_at": "2026-09-11T08:33:11.676433",
+  "bar_count": 224,
   "candles": [
     {
       "time": "2026-09-10T04:30:00",
@@ -1769,9 +1769,33 @@
       "time": "2026-09-11T07:15:00",
       "open": 3.1,
       "high": 3.1,
-      "low": 3.09,
-      "close": 3.1,
-      "volume": 40
+      "low": 3.06,
+      "close": 3.06,
+      "volume": 53
+    },
+    {
+      "time": "2026-09-11T07:20:00",
+      "open": 3.1,
+      "high": 3.12,
+      "low": 3.07,
+      "close": 3.12,
+      "volume": 60
+    },
+    {
+      "time": "2026-09-11T07:25:00",
+      "open": 3.11,
+      "high": 3.11,
+      "low": 3.08,
+      "close": 3.11,
+      "volume": 43
+    },
+    {
+      "time": "2026-09-11T07:30:00",
+      "open": 3.12,
+      "high": 3.12,
+      "low": 2.82,
+      "close": 2.85,
+      "volume": 32
     }
   ]
 }
