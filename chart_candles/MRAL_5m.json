@@ -2,8 +2,8 @@
   "symbol": "MRAL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-11T09:42:32.691974",
-  "bar_count": 214,
+  "generated_at": "2026-09-11T09:52:34.964915",
+  "bar_count": 216,
   "candles": [
     {
       "time": "2026-09-10T06:30:00",
@@ -1712,10 +1712,26 @@
     {
       "time": "2026-09-11T08:40:00",
       "open": 41.78,
-      "high": 42.5,
+      "high": 43.0,
       "low": 41.27,
-      "close": 42.5,
-      "volume": 39
+      "close": 41.46,
+      "volume": 52
+    },
+    {
+      "time": "2026-09-11T08:45:00",
+      "open": 41.46,
+      "high": 42.0,
+      "low": 41.46,
+      "close": 41.775,
+      "volume": 35
+    },
+    {
+      "time": "2026-09-11T08:50:00",
+      "open": 41.8,
+      "high": 42.025,
+      "low": 41.8,
+      "close": 42.025,
+      "volume": 8
     }
   ]
 }
