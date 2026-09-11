@@ -2,8 +2,8 @@
   "symbol": "CAN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-11T04:02:35.734882",
-  "bar_count": 193,
+  "generated_at": "2026-09-11T04:07:40.119080",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-09-10T03:00:00",
@@ -1544,10 +1544,18 @@
     {
       "time": "2026-09-11T03:00:00",
       "open": 0.3096,
-      "high": 0.3167,
+      "high": 0.318,
       "low": 0.3096,
-      "close": 0.3137,
-      "volume": 1263
+      "close": 0.311,
+      "volume": 1265
+    },
+    {
+      "time": "2026-09-11T03:05:00",
+      "open": 0.311,
+      "high": 0.311,
+      "low": 0.311,
+      "close": 0.311,
+      "volume": 1
     }
   ]
 }
