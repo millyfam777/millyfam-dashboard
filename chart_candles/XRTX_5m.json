@@ -2,8 +2,8 @@
   "symbol": "XRTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-11T05:03:33.121833",
-  "bar_count": 111,
+  "generated_at": "2026-09-11T05:17:20.474126",
+  "bar_count": 114,
   "candles": [
     {
       "time": "2026-09-10T10:50:00",
@@ -888,10 +888,34 @@
     {
       "time": "2026-09-11T04:00:00",
       "open": 2.5,
-      "high": 2.5,
+      "high": 2.51,
       "low": 2.46,
-      "close": 2.46,
-      "volume": 15
+      "close": 2.51,
+      "volume": 42
+    },
+    {
+      "time": "2026-09-11T04:05:00",
+      "open": 2.5,
+      "high": 2.535,
+      "low": 2.5,
+      "close": 2.53,
+      "volume": 31
+    },
+    {
+      "time": "2026-09-11T04:10:00",
+      "open": 2.53,
+      "high": 2.69,
+      "low": 2.53,
+      "close": 2.57,
+      "volume": 629
+    },
+    {
+      "time": "2026-09-11T04:15:00",
+      "open": 2.5717,
+      "high": 2.58,
+      "low": 2.52,
+      "close": 2.5405,
+      "volume": 397
     }
   ]
 }
