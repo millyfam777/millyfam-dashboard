@@ -2,8 +2,8 @@
   "symbol": "RLMD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-11T08:03:12.706099",
-  "bar_count": 191,
+  "generated_at": "2026-09-11T08:18:06.572330",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-09-10T03:40:00",
@@ -1528,10 +1528,34 @@
     {
       "time": "2026-09-11T07:00:00",
       "open": 4.44,
-      "high": 4.44,
+      "high": 4.45,
       "low": 4.43,
-      "close": 4.43,
-      "volume": 3
+      "close": 4.45,
+      "volume": 5
+    },
+    {
+      "time": "2026-09-11T07:05:00",
+      "open": 4.5,
+      "high": 4.5,
+      "low": 4.5,
+      "close": 4.5,
+      "volume": 5
+    },
+    {
+      "time": "2026-09-11T07:10:00",
+      "open": 4.5,
+      "high": 4.5,
+      "low": 4.41,
+      "close": 4.41,
+      "volume": 77
+    },
+    {
+      "time": "2026-09-11T07:15:00",
+      "open": 4.46,
+      "high": 4.46,
+      "low": 4.46,
+      "close": 4.46,
+      "volume": 1
     }
   ]
 }
