@@ -2,8 +2,8 @@
   "symbol": "CEPL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-11T12:17:09.962287",
-  "bar_count": 185,
+  "generated_at": "2026-09-11T12:32:10.362966",
+  "bar_count": 188,
   "candles": [
     {
       "time": "2026-09-10T06:25:00",
@@ -1480,10 +1480,34 @@
     {
       "time": "2026-09-11T11:15:00",
       "open": 6.12,
-      "high": 6.12,
+      "high": 6.15,
+      "low": 6.12,
+      "close": 6.15,
+      "volume": 20
+    },
+    {
+      "time": "2026-09-11T11:20:00",
+      "open": 6.15,
+      "high": 6.15,
       "low": 6.12,
       "close": 6.12,
-      "volume": 1
+      "volume": 19
+    },
+    {
+      "time": "2026-09-11T11:25:00",
+      "open": 6.12,
+      "high": 6.12,
+      "low": 6.07,
+      "close": 6.08,
+      "volume": 36
+    },
+    {
+      "time": "2026-09-11T11:30:00",
+      "open": 6.08,
+      "high": 6.1,
+      "low": 6.06,
+      "close": 6.1,
+      "volume": 20
     }
   ]
 }
