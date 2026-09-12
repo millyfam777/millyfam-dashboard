@@ -2,8 +2,8 @@
   "symbol": "SWRD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-11T19:48:21.678476",
-  "bar_count": 382,
+  "generated_at": "2026-09-11T20:03:22.071375",
+  "bar_count": 384,
   "candles": [
     {
       "time": "2026-09-10T03:00:00",
@@ -3057,9 +3057,25 @@
       "time": "2026-09-11T18:45:00",
       "open": 3.0,
       "high": 3.01,
+      "low": 2.91,
+      "close": 2.92,
+      "volume": 229
+    },
+    {
+      "time": "2026-09-11T18:50:00",
+      "open": 2.93,
+      "high": 3.02,
       "low": 2.92,
       "close": 2.93,
-      "volume": 193
+      "volume": 54
+    },
+    {
+      "time": "2026-09-11T18:55:00",
+      "open": 2.93,
+      "high": 3.09,
+      "low": 2.92,
+      "close": 2.93,
+      "volume": 192
     }
   ]
 }
