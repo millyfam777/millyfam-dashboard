@@ -457,7 +457,7 @@
 
 .md2-layout {
   display:grid;
-  grid-template-columns:minmax(0,1fr) 315px;
+  grid-template-columns:minmax(0,1fr) 365px;
 }
 
 .md2-main {
@@ -665,6 +665,189 @@
 }
 </style>
 
+
+<style id="mf-md-v2c-css">
+
+#mfMdCommandCenterV2A {
+  max-width: 1900px;
+  margin: 14px auto 18px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#mfMdCommandCenterV2A .md2-title {
+  font-size: 26px;
+  letter-spacing: .2px;
+}
+
+#mfMdCommandCenterV2A .md2-sub {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 5px;
+}
+
+#mfMdCommandCenterV2A .md2-filters {
+  padding: 14px 18px;
+}
+
+#mfMdCommandCenterV2A .md2-layout {
+  grid-template-columns: minmax(0,1fr) 390px !important;
+  gap: 16px;
+}
+
+#mfMdCommandCenterV2A .md2-table th {
+  font-size: 10px;
+  letter-spacing: .35px;
+}
+
+#mfMdCommandCenterV2A .md2-table td {
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#mfMdCommandCenterV2A .md2-stat-v {
+  font-size: 22px;
+}
+
+.md2-selected {
+  border: 1px solid #29415a;
+  background: #0c141d;
+  border-radius: 8px;
+  padding: 13px;
+  margin-bottom: 14px;
+}
+
+.md2-selected-empty {
+  color: #718398;
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.md2-selected-symbol {
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:10px;
+  margin-bottom:10px;
+}
+
+.md2-selected-ticker {
+  color:#f4f8fc;
+  font-size:24px;
+  font-weight:900;
+}
+
+.md2-selected-state {
+  border-radius:999px;
+  padding:5px 9px;
+  font-size:10px;
+  font-weight:900;
+  white-space:nowrap;
+}
+
+.md2-selected-grid {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;
+  margin-top:10px;
+}
+
+.md2-selected-cell {
+  border:1px solid #203142;
+  background:#101a24;
+  border-radius:7px;
+  padding:8px;
+}
+
+.md2-selected-k {
+  color:#75899e;
+  font-size:9px;
+  text-transform:uppercase;
+  font-weight:800;
+  letter-spacing:.35px;
+}
+
+.md2-selected-v {
+  color:#dce8f3;
+  font-size:12px;
+  font-weight:800;
+  margin-top:3px;
+}
+
+.md2-selected-reason {
+  color:#aebfd0;
+  font-size:11px;
+  line-height:1.5;
+  margin-top:10px;
+  padding-top:9px;
+  border-top:1px solid #203142;
+}
+
+#mfMdDetailedAnalytics {
+  max-width:1900px;
+  margin:0 auto 22px;
+  border:1px solid #263747;
+  background:#091019;
+  border-radius:10px;
+  overflow:hidden;
+}
+
+#mfMdDetailedAnalytics > summary {
+  cursor:pointer;
+  list-style:none;
+  padding:14px 18px;
+  background:#101923;
+  color:#dce8f3;
+  font-size:13px;
+  font-weight:900;
+  border-bottom:1px solid transparent;
+}
+
+#mfMdDetailedAnalytics[open] > summary {
+  border-bottom-color:#263747;
+}
+
+#mfMdDetailedAnalytics > summary::-webkit-details-marker {
+  display:none;
+}
+
+#mfMdDetailedAnalytics > summary:before {
+  content:"▶";
+  display:inline-block;
+  margin-right:9px;
+  color:#6fb7ee;
+  transition:transform .15s ease;
+}
+
+#mfMdDetailedAnalytics[open] > summary:before {
+  transform:rotate(90deg);
+}
+
+.mf-md-v2c-legacy-warning {
+  margin:14px 18px 0;
+  padding:10px 12px;
+  border:1px solid #795d24;
+  background:#251e0d;
+  color:#e6c96c;
+  border-radius:7px;
+  font-size:11px;
+  font-weight:800;
+  line-height:1.5;
+}
+
+#mfMdDetailedAnalytics .page {
+  margin-top: 12px;
+}
+
+@media (max-width: 1200px) {
+  #mfMdCommandCenterV2A .md2-layout {
+    grid-template-columns:1fr !important;
+  }
+}
+
+</style>
+
 </head>
 <body>
 
@@ -674,7 +857,7 @@
     <div>
       <div class="md2-title">MF Volume Command Center</div>
       <div class="md2-sub">
-        MD Analyze · Current-context ranking · Decision support · No chase
+        MD Analyze · Decision intelligence only · Action authority not supplied by source
       </div>
     </div>
 
@@ -721,8 +904,8 @@
       <label>Decision</label>
       <select id="md2Decision">
         <option value="">ALL</option>
-        <option value="TRADEABLE">TRADEABLE</option>
-        <option value="READY">READY</option>
+        <option value="PRIME_WATCH">PRIME WATCH</option>
+        <option value="GREEN_WATCH">GREEN WATCH</option>
         <option value="RADAR">RADAR</option>
         <option value="EXTENDED">EXTENDED / NO CHASE</option>
         <option value="BLOCKED">BLOCKED</option>
@@ -743,12 +926,12 @@
         </div>
 
         <div class="md2-stat">
-          <div class="md2-stat-k">Tradeable</div>
+          <div class="md2-stat-k">Prime Watch</div>
           <div class="md2-stat-v" id="md2StatTradeable">0</div>
         </div>
 
         <div class="md2-stat">
-          <div class="md2-stat-k">Ready</div>
+          <div class="md2-stat-k">Green Watch</div>
           <div class="md2-stat-v" id="md2StatReady">0</div>
         </div>
 
@@ -791,6 +974,15 @@
 
     <aside class="md2-rail">
 
+      <div class="md2-rail-head">SELECTED SYMBOL</div>
+      <div id="md2Selected" class="md2-selected">
+        <div class="md2-selected-empty">
+          Select a ticker from the ranking table to inspect the current analytical context.
+          MD Analyze does not issue trade authority.
+        </div>
+      </div>
+
+
       <div class="md2-rail-head">TOP CANDIDATES</div>
       <div id="md2Candidates"></div>
 
@@ -830,7 +1022,7 @@
       </aside>
 
       <main class="main">
-<div style="margin:12px 0 16px;padding:12px 14px;border:1px solid #29415a;background:#0d1730;border-radius:10px;color:#d8e8ff;font-weight:800;">LIVE TODAY MODE - 2026-09-12 | Today rows: 0 | Historical rows retained: 0</div>
+<div style="margin:12px 0 16px;padding:12px 14px;border:1px solid #29415a;background:#0d1730;border-radius:10px;color:#d8e8ff;font-weight:800;">LIVE TODAY MODE - 2026-09-13 | Today rows: 0 | Historical rows retained: 0</div>
         <section class="stats-grid">
           <div class="stat-card"><div class="label">&#128293; Today Alerts</div><div class="value">0</div><div class="sub">Today's ledger rows</div></div>
           <div class="stat-card"><div class="label">&#128225; Today Live Alerts</div><div class="value">0</div><div class="sub">Today production rows</div></div>
@@ -1175,9 +1367,15 @@
     const dil = String(r.risk_dil || "").toLowerCase();
     const trig = String(r.trigger || "").toUpperCase();
     const pct = num(r.pct_display);
-    const rvol = num(r.qual_rvol_display);
-    const dvol = num(r.dollar_vol_display);
-    const sess = String(r.session || "").toUpperCase();
+
+    /*
+      V2B SAFE STATE BOUNDARY
+
+      This page does not receive an authoritative member/action state.
+      Therefore it must not manufacture TRADEABLE or READY.
+
+      PRIME/GREEN are analytical zone classifications only.
+    */
 
     if (
       zone === "RED" ||
@@ -1193,36 +1391,30 @@
       return "EXTENDED";
     }
 
-    if (
-      zone === "PRIME" &&
-      rvol >= 3 &&
-      dvol >= 500000 &&
-      sess === "RTH"
-    ) {
-      return "TRADEABLE";
+    if (zone === "PRIME") {
+      return "PRIME_WATCH";
     }
 
-    if (
-      (zone === "PRIME" || zone === "GREEN") &&
-      rvol >= 2 &&
-      dvol >= 250000
-    ) {
-      return "READY";
+    if (zone === "GREEN") {
+      return "GREEN_WATCH";
     }
 
     return "RADAR";
   }
 
   function stateClass(s) {
-    if (s === "TRADEABLE") return "md2-tradeable";
-    if (s === "READY") return "md2-ready";
+    if (s === "PRIME_WATCH") return "md2-tradeable";
+    if (s === "GREEN_WATCH") return "md2-ready";
     if (s === "EXTENDED") return "md2-extended";
     if (s === "BLOCKED") return "md2-blocked";
     return "md2-radar";
   }
 
   function stateText(s) {
-    return s === "EXTENDED" ? "NO CHASE" : s;
+    if (s === "EXTENDED") return "NO CHASE";
+    if (s === "PRIME_WATCH") return "PRIME WATCH";
+    if (s === "GREEN_WATCH") return "GREEN WATCH";
+    return s;
   }
 
   function zoneClass(z) {
@@ -1240,8 +1432,8 @@
     const d = decision(r);
 
     const ds = {
-      TRADEABLE:500,
-      READY:350,
+      PRIME_WATCH:400,
+      GREEN_WATCH:300,
       RADAR:175,
       EXTENDED:80,
       BLOCKED:-200
@@ -1269,11 +1461,11 @@
     if (d === "EXTENDED")
       return "Extended move — wait for reset or controlled pullback.";
 
-    if (d === "TRADEABLE")
-      return "Prime RTH stack with volume and liquidity confirmation.";
+    if (d === "PRIME_WATCH")
+      return "Prime analytical zone — watch for authoritative trigger confirmation; no entry call from MD Analyze.";
 
-    if (d === "READY")
-      return "Strong setup — wait for clean trigger or reclaim.";
+    if (d === "GREEN_WATCH")
+      return "Green analytical zone — monitor for stronger confirmation; no entry call from MD Analyze.";
 
     return r.zone_reason ||
       "Radar only until volume, structure, or catalyst improves.";
@@ -1715,8 +1907,8 @@
   function renderStats(data) {
 
     const c = {
-      TRADEABLE:0,
-      READY:0,
+      PRIME_WATCH:0,
+      GREEN_WATCH:0,
       RADAR:0,
       EXTENDED:0,
       BLOCKED:0
@@ -1730,10 +1922,10 @@
       .innerText = data.length;
 
     document.getElementById("md2StatTradeable")
-      .innerText = c.TRADEABLE;
+      .innerText = c.PRIME_WATCH;
 
     document.getElementById("md2StatReady")
-      .innerText = c.READY;
+      .innerText = c.GREEN_WATCH;
 
     document.getElementById("md2StatExtended")
       .innerText = c.EXTENDED;
@@ -1800,6 +1992,183 @@
     });
 
   render();
+
+})();
+</script>
+
+
+<script id="mf-md-v2c-js">
+(function () {
+
+  function esc2(v) {
+    return String(v == null ? "" : v)
+      .replace(/&/g,"&amp;")
+      .replace(/</g,"&lt;")
+      .replace(/>/g,"&gt;")
+      .replace(/"/g,"&quot;")
+      .replace(/'/g,"&#039;");
+  }
+
+  function rows2() {
+    try {
+      return Array.isArray(DASHBOARD_ROWS) ? DASHBOARD_ROWS : [];
+    } catch(e) {
+      return [];
+    }
+  }
+
+  function findRow2(key) {
+    return rows2().find(r => String(r.row_key || "") === String(key || ""));
+  }
+
+  function decision2(r) {
+    if (typeof decision === "function") {
+      try { return decision(r); } catch(e) {}
+    }
+    return "RADAR";
+  }
+
+  function stateText2(s) {
+    if (typeof stateText === "function") {
+      try { return stateText(s); } catch(e) {}
+    }
+    return s || "RADAR";
+  }
+
+  function stateClass2(s) {
+    if (typeof stateClass === "function") {
+      try { return stateClass(s); } catch(e) {}
+    }
+    return "md2-radar";
+  }
+
+  function selectedReason2(r, d) {
+    if (typeof reason === "function") {
+      try { return reason(r, d); } catch(e) {}
+    }
+    return r.zone_reason || "Analytical watch only.";
+  }
+
+  function renderSelected2(r) {
+    const box = document.getElementById("md2Selected");
+    if (!box || !r) return;
+
+    const d = decision2(r);
+
+    box.innerHTML = `
+      <div class="md2-selected-symbol">
+        <div>
+          <div class="md2-selected-ticker">${esc2(r.ticker || "")}</div>
+          <div class="md2-selected-k">${esc2(r.session || "")} · ${esc2(r.trigger_display || r.trigger || "")}</div>
+        </div>
+        <div class="md2-selected-state ${esc2(stateClass2(d))}">
+          ${esc2(stateText2(d))}
+        </div>
+      </div>
+
+      <div class="md2-selected-grid">
+        <div class="md2-selected-cell">
+          <div class="md2-selected-k">Price</div>
+          <div class="md2-selected-v">${esc2(r.price_display || "n/c")}</div>
+        </div>
+
+        <div class="md2-selected-cell">
+          <div class="md2-selected-k">% Change</div>
+          <div class="md2-selected-v">${esc2(r.pct_display || "n/c")}</div>
+        </div>
+
+        <div class="md2-selected-cell">
+          <div class="md2-selected-k">qRVOL</div>
+          <div class="md2-selected-v">${esc2(r.qual_rvol_display || "n/c")}</div>
+        </div>
+
+        <div class="md2-selected-cell">
+          <div class="md2-selected-k">$ Volume</div>
+          <div class="md2-selected-v">${esc2(r.dollar_vol_display || "n/c")}</div>
+        </div>
+
+        <div class="md2-selected-cell">
+          <div class="md2-selected-k">Float</div>
+          <div class="md2-selected-v">${esc2(r.float_display || "n/c")}</div>
+        </div>
+
+        <div class="md2-selected-cell">
+          <div class="md2-selected-k">Zone</div>
+          <div class="md2-selected-v">${esc2(r.zone_status || "n/c")}</div>
+        </div>
+
+        <div class="md2-selected-cell">
+          <div class="md2-selected-k">Setup Score</div>
+          <div class="md2-selected-v">${esc2(r.trade_setup_score || "n/c")}</div>
+        </div>
+
+        <div class="md2-selected-cell">
+          <div class="md2-selected-k">Risk</div>
+          <div class="md2-selected-v">${esc2(r.risk_overall || "n/c")}</div>
+        </div>
+      </div>
+
+      <div class="md2-selected-reason">
+        <strong>Why ranked:</strong>
+        ${esc2(selectedReason2(r,d))}
+      </div>
+    `;
+  }
+
+  function consolidateLegacy2() {
+    const cc = document.getElementById("mfMdCommandCenterV2A");
+    const legacy = document.querySelector("body > .page");
+
+    if (!cc || !legacy || document.getElementById("mfMdDetailedAnalytics")) {
+      return;
+    }
+
+    const details = document.createElement("details");
+    details.id = "mfMdDetailedAnalytics";
+
+    const summary = document.createElement("summary");
+    summary.textContent = "Detailed Analytics — legacy research view";
+    details.appendChild(summary);
+
+    const warning = document.createElement("div");
+    warning.className = "mf-md-v2c-legacy-warning";
+    warning.textContent =
+      "Research-only detail view. Historical zone/action wording in this section is not member trade authority.";
+    details.appendChild(warning);
+
+    legacy.parentNode.insertBefore(details, legacy);
+    details.appendChild(legacy);
+  }
+
+  function wireSelected2() {
+    const cc = document.getElementById("mfMdCommandCenterV2A");
+    if (!cc) return;
+
+    cc.addEventListener("click", function(e) {
+      const target = e.target.closest("[data-key]");
+      if (!target) return;
+
+      const r = findRow2(target.getAttribute("data-key"));
+      if (r) renderSelected2(r);
+    });
+
+    const data = rows2();
+
+    if (data.length) {
+      renderSelected2(data[0]);
+    }
+  }
+
+  function boot2() {
+    consolidateLegacy2();
+    wireSelected2();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", boot2);
+  } else {
+    boot2();
+  }
 
 })();
 </script>
