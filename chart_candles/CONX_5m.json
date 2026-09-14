@@ -2,8 +2,8 @@
   "symbol": "CONX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-14T10:02:38.741475",
-  "bar_count": 250,
+  "generated_at": "2026-09-14T10:17:45.966873",
+  "bar_count": 253,
   "candles": [
     {
       "time": "2026-09-11T04:10:00",
@@ -2000,10 +2000,34 @@
     {
       "time": "2026-09-14T09:00:00",
       "open": 7.32,
-      "high": 7.44,
+      "high": 7.45,
       "low": 7.32,
-      "close": 7.43,
-      "volume": 18
+      "close": 7.44,
+      "volume": 52
+    },
+    {
+      "time": "2026-09-14T09:05:00",
+      "open": 7.43,
+      "high": 7.43,
+      "low": 7.38,
+      "close": 7.41,
+      "volume": 14
+    },
+    {
+      "time": "2026-09-14T09:10:00",
+      "open": 7.38,
+      "high": 7.47,
+      "low": 7.38,
+      "close": 7.47,
+      "volume": 109
+    },
+    {
+      "time": "2026-09-14T09:15:00",
+      "open": 7.43,
+      "high": 7.43,
+      "low": 7.42,
+      "close": 7.42,
+      "volume": 11
     }
   ]
 }
