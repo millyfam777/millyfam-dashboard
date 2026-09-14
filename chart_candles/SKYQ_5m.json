@@ -2,8 +2,8 @@
   "symbol": "SKYQ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-14T05:27:24.859832",
-  "bar_count": 210,
+  "generated_at": "2026-09-14T05:42:10.650870",
+  "bar_count": 213,
   "candles": [
     {
       "time": "2026-09-11T03:00:00",
@@ -1679,11 +1679,35 @@
     },
     {
       "time": "2026-09-14T04:25:00",
-      "open": 3.35,
+      "open": 3.34,
+      "high": 3.34,
+      "low": 3.32,
+      "close": 3.32,
+      "volume": 14
+    },
+    {
+      "time": "2026-09-14T04:30:00",
+      "open": 3.33,
       "high": 3.35,
-      "low": 3.35,
+      "low": 3.33,
       "close": 3.35,
-      "volume": 0
+      "volume": 6
+    },
+    {
+      "time": "2026-09-14T04:35:00",
+      "open": 3.34,
+      "high": 3.34,
+      "low": 3.34,
+      "close": 3.34,
+      "volume": 1
+    },
+    {
+      "time": "2026-09-14T04:40:00",
+      "open": 3.33,
+      "high": 3.33,
+      "low": 3.28,
+      "close": 3.28,
+      "volume": 31
     }
   ]
 }

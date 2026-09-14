@@ -2,8 +2,8 @@
   "symbol": "TPET",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-14T05:32:33.085962",
-  "bar_count": 211,
+  "generated_at": "2026-09-14T05:48:01.252209",
+  "bar_count": 214,
   "candles": [
     {
       "time": "2026-09-11T03:00:00",
@@ -1688,10 +1688,34 @@
     {
       "time": "2026-09-14T04:30:00",
       "open": 2.11,
-      "high": 2.15,
+      "high": 2.2,
+      "low": 2.1,
+      "close": 2.15,
+      "volume": 409
+    },
+    {
+      "time": "2026-09-14T04:35:00",
+      "open": 2.15,
+      "high": 2.1578,
+      "low": 2.08,
+      "close": 2.13,
+      "volume": 137
+    },
+    {
+      "time": "2026-09-14T04:40:00",
+      "open": 2.11,
+      "high": 2.1496,
       "low": 2.1,
       "close": 2.1,
-      "volume": 109
+      "volume": 23
+    },
+    {
+      "time": "2026-09-14T04:45:00",
+      "open": 2.095,
+      "high": 2.1,
+      "low": 2.095,
+      "close": 2.1,
+      "volume": 10
     }
   ]
 }
