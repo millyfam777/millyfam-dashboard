@@ -2,8 +2,8 @@
   "symbol": "MATH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-14T15:32:25.005169",
-  "bar_count": 203,
+  "generated_at": "2026-09-14T15:37:16.473084",
+  "bar_count": 204,
   "candles": [
     {
       "time": "2026-09-11T08:30:00",
@@ -1625,9 +1625,17 @@
       "time": "2026-09-14T14:30:00",
       "open": 1.02,
       "high": 1.09,
-      "low": 1.02,
-      "close": 1.0205,
-      "volume": 73
+      "low": 1.0,
+      "close": 1.0038,
+      "volume": 124
+    },
+    {
+      "time": "2026-09-14T14:35:00",
+      "open": 1.0268,
+      "high": 1.0289,
+      "low": 1.0064,
+      "close": 1.015,
+      "volume": 21
     }
   ]
 }
