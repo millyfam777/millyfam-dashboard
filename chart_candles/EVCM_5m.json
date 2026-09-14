@@ -2,8 +2,8 @@
   "symbol": "EVCM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-14T12:47:07.606249",
-  "bar_count": 190,
+  "generated_at": "2026-09-14T13:02:30.030971",
+  "bar_count": 193,
   "candles": [
     {
       "time": "2026-09-11T08:30:00",
@@ -1520,10 +1520,34 @@
     {
       "time": "2026-09-14T11:45:00",
       "open": 7.45,
+      "high": 7.5,
+      "low": 7.43,
+      "close": 7.45,
+      "volume": 27
+    },
+    {
+      "time": "2026-09-14T11:50:00",
+      "open": 7.45,
       "high": 7.45,
+      "low": 7.42,
+      "close": 7.42,
+      "volume": 12
+    },
+    {
+      "time": "2026-09-14T11:55:00",
+      "open": 7.45,
+      "high": 7.48,
       "low": 7.44,
       "close": 7.44,
-      "volume": 13
+      "volume": 38
+    },
+    {
+      "time": "2026-09-14T12:00:00",
+      "open": 7.45,
+      "high": 7.45,
+      "low": 7.41,
+      "close": 7.41,
+      "volume": 6
     }
   ]
 }
