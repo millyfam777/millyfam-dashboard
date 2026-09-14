@@ -2,8 +2,8 @@
   "symbol": "CAPR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-14T08:02:12.363132",
-  "bar_count": 241,
+  "generated_at": "2026-09-14T08:17:09.646386",
+  "bar_count": 244,
   "candles": [
     {
       "time": "2026-09-11T03:00:00",
@@ -1928,10 +1928,34 @@
     {
       "time": "2026-09-14T07:00:00",
       "open": 9.11,
-      "high": 9.14,
+      "high": 9.15,
       "low": 9.04,
-      "close": 9.04,
-      "volume": 42
+      "close": 9.06,
+      "volume": 119
+    },
+    {
+      "time": "2026-09-14T07:05:00",
+      "open": 9.07,
+      "high": 9.16,
+      "low": 9.06,
+      "close": 9.16,
+      "volume": 73
+    },
+    {
+      "time": "2026-09-14T07:10:00",
+      "open": 9.1,
+      "high": 9.25,
+      "low": 9.1,
+      "close": 9.17,
+      "volume": 135
+    },
+    {
+      "time": "2026-09-14T07:15:00",
+      "open": 9.17,
+      "high": 9.17,
+      "low": 9.15,
+      "close": 9.15,
+      "volume": 5
     }
   ]
 }
