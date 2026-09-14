@@ -2,8 +2,8 @@
   "symbol": "BNC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-14T06:33:30.152995",
-  "bar_count": 223,
+  "generated_at": "2026-09-14T06:48:30.398267",
+  "bar_count": 226,
   "candles": [
     {
       "time": "2026-09-11T03:00:00",
@@ -1784,10 +1784,34 @@
     {
       "time": "2026-09-14T05:30:00",
       "open": 5.55,
-      "high": 5.55,
+      "high": 5.56,
       "low": 5.51,
-      "close": 5.55,
-      "volume": 24
+      "close": 5.56,
+      "volume": 34
+    },
+    {
+      "time": "2026-09-14T05:35:00",
+      "open": 5.55,
+      "high": 5.55,
+      "low": 5.49,
+      "close": 5.49,
+      "volume": 73
+    },
+    {
+      "time": "2026-09-14T05:40:00",
+      "open": 5.5,
+      "high": 5.55,
+      "low": 5.44,
+      "close": 5.5,
+      "volume": 42
+    },
+    {
+      "time": "2026-09-14T05:45:00",
+      "open": 5.5,
+      "high": 5.53,
+      "low": 5.5,
+      "close": 5.5028,
+      "volume": 9
     }
   ]
 }
