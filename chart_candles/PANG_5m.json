@@ -2,8 +2,8 @@
   "symbol": "PANG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-14T09:32:20.408196",
-  "bar_count": 190,
+  "generated_at": "2026-09-14T09:37:06.603194",
+  "bar_count": 191,
   "candles": [
     {
       "time": "2026-09-11T07:00:00",
@@ -1520,10 +1520,18 @@
     {
       "time": "2026-09-14T08:30:00",
       "open": 30.24,
-      "high": 30.24,
+      "high": 30.3,
       "low": 29.32,
-      "close": 29.32,
-      "volume": 7
+      "close": 29.75,
+      "volume": 80
+    },
+    {
+      "time": "2026-09-14T08:35:00",
+      "open": 29.76,
+      "high": 30.19,
+      "low": 29.76,
+      "close": 30.19,
+      "volume": 57
     }
   ]
 }
