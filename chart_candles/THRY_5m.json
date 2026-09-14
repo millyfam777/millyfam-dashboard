@@ -2,8 +2,8 @@
   "symbol": "THRY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-14T10:12:12.231037",
-  "bar_count": 201,
+  "generated_at": "2026-09-14T10:22:04.950246",
+  "bar_count": 203,
   "candles": [
     {
       "time": "2026-09-11T08:30:00",
@@ -1609,9 +1609,25 @@
       "time": "2026-09-14T09:10:00",
       "open": 2.005,
       "high": 2.02,
-      "low": 2.0,
-      "close": 2.005,
-      "volume": 292
+      "low": 1.985,
+      "close": 1.99,
+      "volume": 666
+    },
+    {
+      "time": "2026-09-14T09:15:00",
+      "open": 1.985,
+      "high": 1.9899,
+      "low": 1.975,
+      "close": 1.9899,
+      "volume": 136
+    },
+    {
+      "time": "2026-09-14T09:20:00",
+      "open": 1.985,
+      "high": 2.0,
+      "low": 1.985,
+      "close": 1.995,
+      "volume": 75
     }
   ]
 }
