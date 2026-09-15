@@ -2,8 +2,8 @@
   "symbol": "MSTZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-15T06:47:26.723552",
-  "bar_count": 226,
+  "generated_at": "2026-09-15T07:02:14.966224",
+  "bar_count": 229,
   "candles": [
     {
       "time": "2026-09-14T03:00:00",
@@ -1809,9 +1809,33 @@
       "time": "2026-09-15T05:45:00",
       "open": 4.22,
       "high": 4.23,
+      "low": 4.21,
+      "close": 4.22,
+      "volume": 175
+    },
+    {
+      "time": "2026-09-15T05:50:00",
+      "open": 4.22,
+      "high": 4.24,
+      "low": 4.21,
+      "close": 4.24,
+      "volume": 712
+    },
+    {
+      "time": "2026-09-15T05:55:00",
+      "open": 4.23,
+      "high": 4.23,
+      "low": 4.22,
+      "close": 4.23,
+      "volume": 101
+    },
+    {
+      "time": "2026-09-15T06:00:00",
+      "open": 4.22,
+      "high": 4.24,
       "low": 4.22,
       "close": 4.22,
-      "volume": 16
+      "volume": 168
     }
   ]
 }
