@@ -2,8 +2,8 @@
   "symbol": "WATR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-15T04:18:12.369688",
-  "bar_count": 130,
+  "generated_at": "2026-09-15T04:33:25.602980",
+  "bar_count": 133,
   "candles": [
     {
       "time": "2026-09-14T08:30:00",
@@ -1040,10 +1040,34 @@
     {
       "time": "2026-09-15T03:15:00",
       "open": 2.01,
-      "high": 2.01,
-      "low": 2.01,
-      "close": 2.01,
-      "volume": 2
+      "high": 2.02,
+      "low": 2.0,
+      "close": 2.0,
+      "volume": 4
+    },
+    {
+      "time": "2026-09-15T03:20:00",
+      "open": 1.96,
+      "high": 1.96,
+      "low": 1.91,
+      "close": 1.91,
+      "volume": 6
+    },
+    {
+      "time": "2026-09-15T03:25:00",
+      "open": 1.9,
+      "high": 1.9,
+      "low": 1.9,
+      "close": 1.9,
+      "volume": 1
+    },
+    {
+      "time": "2026-09-15T03:30:00",
+      "open": 1.9,
+      "high": 1.9,
+      "low": 1.9,
+      "close": 1.9,
+      "volume": 0
     }
   ]
 }
