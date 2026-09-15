@@ -2,8 +2,8 @@
   "symbol": "GTBP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-15T09:03:15.151555",
-  "bar_count": 252,
+  "generated_at": "2026-09-15T09:08:41.192020",
+  "bar_count": 253,
   "candles": [
     {
       "time": "2026-09-14T03:00:00",
@@ -2017,9 +2017,17 @@
       "time": "2026-09-15T08:00:00",
       "open": 12.49,
       "high": 12.5,
-      "low": 11.79,
-      "close": 11.95,
-      "volume": 22
+      "low": 11.7,
+      "close": 11.7,
+      "volume": 32
+    },
+    {
+      "time": "2026-09-15T08:05:00",
+      "open": 11.96,
+      "high": 11.96,
+      "low": 11.09,
+      "close": 11.14,
+      "volume": 56
     }
   ]
 }
