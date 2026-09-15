@@ -2,8 +2,8 @@
   "symbol": "BGMS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-15T13:48:05.576777",
-  "bar_count": 291,
+  "generated_at": "2026-09-15T14:02:48.448540",
+  "bar_count": 294,
   "candles": [
     {
       "time": "2026-09-14T04:15:00",
@@ -2329,9 +2329,33 @@
       "time": "2026-09-15T12:45:00",
       "open": 1.07,
       "high": 1.07,
+      "low": 1.06,
+      "close": 1.06,
+      "volume": 105
+    },
+    {
+      "time": "2026-09-15T12:50:00",
+      "open": 1.04,
+      "high": 1.0603,
+      "low": 1.04,
+      "close": 1.0603,
+      "volume": 18
+    },
+    {
+      "time": "2026-09-15T12:55:00",
+      "open": 1.0501,
+      "high": 1.07,
+      "low": 1.05,
+      "close": 1.07,
+      "volume": 7
+    },
+    {
+      "time": "2026-09-15T13:00:00",
+      "open": 1.07,
+      "high": 1.07,
       "low": 1.07,
       "close": 1.07,
-      "volume": 21
+      "volume": 1
     }
   ]
 }
