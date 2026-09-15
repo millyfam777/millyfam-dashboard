@@ -2,8 +2,8 @@
   "symbol": "BMNZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-15T07:17:19.100903",
-  "bar_count": 232,
+  "generated_at": "2026-09-15T07:32:39.727146",
+  "bar_count": 235,
   "candles": [
     {
       "time": "2026-09-14T03:00:00",
@@ -1857,9 +1857,33 @@
       "time": "2026-09-15T06:15:00",
       "open": 5.34,
       "high": 5.34,
+      "low": 5.3,
+      "close": 5.31,
+      "volume": 153
+    },
+    {
+      "time": "2026-09-15T06:20:00",
+      "open": 5.32,
+      "high": 5.34,
       "low": 5.32,
-      "close": 5.32,
-      "volume": 47
+      "close": 5.33,
+      "volume": 80
+    },
+    {
+      "time": "2026-09-15T06:25:00",
+      "open": 5.34,
+      "high": 5.35,
+      "low": 5.34,
+      "close": 5.35,
+      "volume": 18
+    },
+    {
+      "time": "2026-09-15T06:30:00",
+      "open": 5.34,
+      "high": 5.36,
+      "low": 5.34,
+      "close": 5.36,
+      "volume": 54
     }
   ]
 }
