@@ -2,8 +2,8 @@
   "symbol": "XPON",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-15T11:32:14.320017",
-  "bar_count": 281,
+  "generated_at": "2026-09-15T11:37:13.798522",
+  "bar_count": 282,
   "candles": [
     {
       "time": "2026-09-14T03:10:00",
@@ -2249,9 +2249,17 @@
       "time": "2026-09-15T10:30:00",
       "open": 5.08,
       "high": 5.13,
-      "low": 5.05,
-      "close": 5.12,
-      "volume": 32
+      "low": 5.0,
+      "close": 5.0,
+      "volume": 44
+    },
+    {
+      "time": "2026-09-15T10:35:00",
+      "open": 5.05,
+      "high": 5.06,
+      "low": 5.0,
+      "close": 5.0,
+      "volume": 8
     }
   ]
 }
