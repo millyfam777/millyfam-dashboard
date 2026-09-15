@@ -2,8 +2,8 @@
   "symbol": "AEI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-15T09:32:43.352343",
-  "bar_count": 157,
+  "generated_at": "2026-09-15T09:37:45.569038",
+  "bar_count": 158,
   "candles": [
     {
       "time": "2026-09-14T08:30:00",
@@ -1256,10 +1256,18 @@
     {
       "time": "2026-09-15T08:30:00",
       "open": 1.01,
-      "high": 1.01,
+      "high": 1.0157,
       "low": 1.01,
-      "close": 1.01,
-      "volume": 2
+      "close": 1.0157,
+      "volume": 24
+    },
+    {
+      "time": "2026-09-15T08:35:00",
+      "open": 1.0157,
+      "high": 1.0157,
+      "low": 1.0157,
+      "close": 1.0157,
+      "volume": 0
     }
   ]
 }

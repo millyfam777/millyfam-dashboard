@@ -2,8 +2,8 @@
   "symbol": "ROLR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-15T09:32:29.881377",
-  "bar_count": 209,
+  "generated_at": "2026-09-15T09:37:31.771420",
+  "bar_count": 210,
   "candles": [
     {
       "time": "2026-09-14T03:00:00",
@@ -1672,10 +1672,18 @@
     {
       "time": "2026-09-15T08:30:00",
       "open": 6.45,
-      "high": 6.45,
+      "high": 6.595,
       "low": 6.39,
-      "close": 6.39,
-      "volume": 4
+      "close": 6.4501,
+      "volume": 10
+    },
+    {
+      "time": "2026-09-15T08:35:00",
+      "open": 6.3,
+      "high": 6.45,
+      "low": 6.28,
+      "close": 6.45,
+      "volume": 37
     }
   ]
 }

@@ -2,8 +2,8 @@
   "symbol": "CRDF",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-15T09:32:32.108480",
-  "bar_count": 199,
+  "generated_at": "2026-09-15T09:37:11.120308",
+  "bar_count": 200,
   "candles": [
     {
       "time": "2026-09-14T06:00:00",
@@ -1592,10 +1592,18 @@
     {
       "time": "2026-09-15T08:30:00",
       "open": 1.42,
-      "high": 1.4484,
+      "high": 1.45,
       "low": 1.3908,
       "close": 1.44,
-      "volume": 2140
+      "volume": 2712
+    },
+    {
+      "time": "2026-09-15T08:35:00",
+      "open": 1.45,
+      "high": 1.45,
+      "low": 1.4,
+      "close": 1.41,
+      "volume": 419
     }
   ]
 }

@@ -2,8 +2,8 @@
   "symbol": "IZM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-15T09:32:25.311502",
-  "bar_count": 199,
+  "generated_at": "2026-09-15T09:37:29.522954",
+  "bar_count": 200,
   "candles": [
     {
       "time": "2026-09-14T03:00:00",
@@ -1592,10 +1592,18 @@
     {
       "time": "2026-09-15T08:30:00",
       "open": 1.1001,
-      "high": 1.1604,
+      "high": 1.19,
       "low": 1.1,
-      "close": 1.1,
-      "volume": 9
+      "close": 1.1889,
+      "volume": 50
+    },
+    {
+      "time": "2026-09-15T08:35:00",
+      "open": 1.15,
+      "high": 1.18,
+      "low": 1.15,
+      "close": 1.18,
+      "volume": 5
     }
   ]
 }
