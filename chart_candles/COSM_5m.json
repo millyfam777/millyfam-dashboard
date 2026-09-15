@@ -2,8 +2,8 @@
   "symbol": "COSM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-15T07:02:33.029919",
-  "bar_count": 229,
+  "generated_at": "2026-09-15T07:07:34.477263",
+  "bar_count": 230,
   "candles": [
     {
       "time": "2026-09-14T03:00:00",
@@ -1832,10 +1832,18 @@
     {
       "time": "2026-09-15T06:00:00",
       "open": 0.2743,
-      "high": 0.2743,
+      "high": 0.2754,
       "low": 0.27,
       "close": 0.27,
-      "volume": 99
+      "volume": 108
+    },
+    {
+      "time": "2026-09-15T06:05:00",
+      "open": 0.27,
+      "high": 0.27,
+      "low": 0.27,
+      "close": 0.27,
+      "volume": 0
     }
   ]
 }
