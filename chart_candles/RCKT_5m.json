@@ -2,8 +2,8 @@
   "symbol": "RCKT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-15T09:17:46.291195",
-  "bar_count": 192,
+  "generated_at": "2026-09-15T09:32:54.544859",
+  "bar_count": 195,
   "candles": [
     {
       "time": "2026-09-14T05:20:00",
@@ -1535,11 +1535,35 @@
     },
     {
       "time": "2026-09-15T08:15:00",
-      "open": 3.7,
-      "high": 3.7,
-      "low": 3.7,
-      "close": 3.7,
-      "volume": 0
+      "open": 3.75,
+      "high": 3.75,
+      "low": 3.75,
+      "close": 3.75,
+      "volume": 4
+    },
+    {
+      "time": "2026-09-15T08:20:00",
+      "open": 3.75,
+      "high": 3.75,
+      "low": 3.62,
+      "close": 3.71,
+      "volume": 12
+    },
+    {
+      "time": "2026-09-15T08:25:00",
+      "open": 3.73,
+      "high": 3.75,
+      "low": 3.66,
+      "close": 3.67,
+      "volume": 256
+    },
+    {
+      "time": "2026-09-15T08:30:00",
+      "open": 3.65,
+      "high": 3.69,
+      "low": 3.56,
+      "close": 3.57,
+      "volume": 1676
     }
   ]
 }

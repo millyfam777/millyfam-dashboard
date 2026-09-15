@@ -2,8 +2,8 @@
   "symbol": "MTEN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-15T09:17:37.304812",
-  "bar_count": 256,
+  "generated_at": "2026-09-15T09:33:01.354412",
+  "bar_count": 259,
   "candles": [
     {
       "time": "2026-09-14T03:00:00",
@@ -2048,10 +2048,34 @@
     {
       "time": "2026-09-15T08:15:00",
       "open": 1.07,
-      "high": 1.07,
+      "high": 1.08,
       "low": 1.05,
-      "close": 1.06,
-      "volume": 86
+      "close": 1.08,
+      "volume": 195
+    },
+    {
+      "time": "2026-09-15T08:20:00",
+      "open": 1.08,
+      "high": 1.12,
+      "low": 1.08,
+      "close": 1.11,
+      "volume": 425
+    },
+    {
+      "time": "2026-09-15T08:25:00",
+      "open": 1.11,
+      "high": 1.14,
+      "low": 1.11,
+      "close": 1.13,
+      "volume": 784
+    },
+    {
+      "time": "2026-09-15T08:30:00",
+      "open": 1.135,
+      "high": 1.15,
+      "low": 1.1,
+      "close": 1.105,
+      "volume": 595
     }
   ]
 }
