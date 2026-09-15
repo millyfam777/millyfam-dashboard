@@ -2,8 +2,8 @@
   "symbol": "CLNN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-15T14:47:05.905009",
-  "bar_count": 240,
+  "generated_at": "2026-09-15T15:03:24.808140",
+  "bar_count": 243,
   "candles": [
     {
       "time": "2026-09-14T05:45:00",
@@ -1920,10 +1920,34 @@
     {
       "time": "2026-09-15T13:45:00",
       "open": 4.03,
-      "high": 4.05,
+      "high": 4.08,
       "low": 4.0,
-      "close": 4.05,
-      "volume": 41
+      "close": 4.075,
+      "volume": 72
+    },
+    {
+      "time": "2026-09-15T13:50:00",
+      "open": 4.0783,
+      "high": 4.0783,
+      "low": 4.075,
+      "close": 4.075,
+      "volume": 6
+    },
+    {
+      "time": "2026-09-15T13:55:00",
+      "open": 4.08,
+      "high": 4.08,
+      "low": 4.08,
+      "close": 4.08,
+      "volume": 1
+    },
+    {
+      "time": "2026-09-15T14:00:00",
+      "open": 4.075,
+      "high": 4.08,
+      "low": 4.075,
+      "close": 4.08,
+      "volume": 3
     }
   ]
 }
