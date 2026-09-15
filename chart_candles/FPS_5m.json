@@ -2,8 +2,8 @@
   "symbol": "FPS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-15T13:02:10.151673",
-  "bar_count": 301,
+  "generated_at": "2026-09-15T13:07:14.094669",
+  "bar_count": 302,
   "candles": [
     {
       "time": "2026-09-14T03:00:00",
@@ -2408,10 +2408,18 @@
     {
       "time": "2026-09-15T12:00:00",
       "open": 31.95,
-      "high": 31.97,
+      "high": 32.03,
       "low": 31.78,
-      "close": 31.95,
-      "volume": 730
+      "close": 31.85,
+      "volume": 1288
+    },
+    {
+      "time": "2026-09-15T12:05:00",
+      "open": 31.86,
+      "high": 31.9,
+      "low": 31.68,
+      "close": 31.86,
+      "volume": 951
     }
   ]
 }

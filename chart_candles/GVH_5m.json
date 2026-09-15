@@ -2,8 +2,8 @@
   "symbol": "GVH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-15T13:03:01.036778",
-  "bar_count": 301,
+  "generated_at": "2026-09-15T13:17:46.804195",
+  "bar_count": 304,
   "candles": [
     {
       "time": "2026-09-14T03:00:00",
@@ -2409,9 +2409,33 @@
       "time": "2026-09-15T12:00:00",
       "open": 1.2,
       "high": 1.2,
-      "low": 1.2,
+      "low": 1.19,
+      "close": 1.19,
+      "volume": 12
+    },
+    {
+      "time": "2026-09-15T12:05:00",
+      "open": 1.19,
+      "high": 1.2,
+      "low": 1.19,
       "close": 1.2,
-      "volume": 10
+      "volume": 7
+    },
+    {
+      "time": "2026-09-15T12:10:00",
+      "open": 1.1901,
+      "high": 1.1901,
+      "low": 1.17,
+      "close": 1.17,
+      "volume": 103
+    },
+    {
+      "time": "2026-09-15T12:15:00",
+      "open": 1.17,
+      "high": 1.17,
+      "low": 1.17,
+      "close": 1.17,
+      "volume": 3
     }
   ]
 }
