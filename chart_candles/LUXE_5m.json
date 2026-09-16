@@ -2,8 +2,8 @@
   "symbol": "LUXE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-16T09:03:11.582890",
-  "bar_count": 205,
+  "generated_at": "2026-09-16T09:18:11.781188",
+  "bar_count": 208,
   "candles": [
     {
       "time": "2026-09-15T07:00:00",
@@ -1640,10 +1640,34 @@
     {
       "time": "2026-09-16T08:00:00",
       "open": 8.25,
-      "high": 8.25,
+      "high": 8.36,
       "low": 8.23,
-      "close": 8.23,
-      "volume": 16
+      "close": 8.36,
+      "volume": 25
+    },
+    {
+      "time": "2026-09-16T08:05:00",
+      "open": 8.36,
+      "high": 8.36,
+      "low": 8.25,
+      "close": 8.25,
+      "volume": 5
+    },
+    {
+      "time": "2026-09-16T08:10:00",
+      "open": 8.29,
+      "high": 8.29,
+      "low": 8.29,
+      "close": 8.29,
+      "volume": 6
+    },
+    {
+      "time": "2026-09-16T08:15:00",
+      "open": 8.34,
+      "high": 8.42,
+      "low": 8.34,
+      "close": 8.42,
+      "volume": 47
     }
   ]
 }
