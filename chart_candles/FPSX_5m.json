@@ -2,8 +2,8 @@
   "symbol": "FPSX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-16T12:03:05.241756",
-  "bar_count": 285,
+  "generated_at": "2026-09-16T12:18:04.089117",
+  "bar_count": 288,
   "candles": [
     {
       "time": "2026-09-15T03:00:00",
@@ -2280,10 +2280,34 @@
     {
       "time": "2026-09-16T11:00:00",
       "open": 3.82,
+      "high": 3.86,
+      "low": 3.82,
+      "close": 3.85,
+      "volume": 58
+    },
+    {
+      "time": "2026-09-16T11:05:00",
+      "open": 3.84,
       "high": 3.84,
       "low": 3.82,
       "close": 3.83,
-      "volume": 53
+      "volume": 59
+    },
+    {
+      "time": "2026-09-16T11:10:00",
+      "open": 3.84,
+      "high": 3.87,
+      "low": 3.84,
+      "close": 3.85,
+      "volume": 52
+    },
+    {
+      "time": "2026-09-16T11:15:00",
+      "open": 3.89,
+      "high": 3.89,
+      "low": 3.88,
+      "close": 3.88,
+      "volume": 5
     }
   ]
 }
