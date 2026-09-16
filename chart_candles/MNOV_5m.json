@@ -2,8 +2,8 @@
   "symbol": "MNOV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-16T12:47:53.206345",
-  "bar_count": 295,
+  "generated_at": "2026-09-16T13:02:57.209878",
+  "bar_count": 298,
   "candles": [
     {
       "time": "2026-09-15T03:15:00",
@@ -2360,10 +2360,34 @@
     {
       "time": "2026-09-16T11:45:00",
       "open": 2.455,
-      "high": 2.455,
+      "high": 2.46,
+      "low": 2.44,
+      "close": 2.46,
+      "volume": 141
+    },
+    {
+      "time": "2026-09-16T11:50:00",
+      "open": 2.45,
+      "high": 2.48,
       "low": 2.45,
-      "close": 2.45,
-      "volume": 7
+      "close": 2.47,
+      "volume": 34
+    },
+    {
+      "time": "2026-09-16T11:55:00",
+      "open": 2.46,
+      "high": 2.47,
+      "low": 2.46,
+      "close": 2.47,
+      "volume": 13
+    },
+    {
+      "time": "2026-09-16T12:00:00",
+      "open": 2.465,
+      "high": 2.465,
+      "low": 2.465,
+      "close": 2.465,
+      "volume": 2
     }
   ]
 }
