@@ -2,8 +2,8 @@
   "symbol": "TSEG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-16T09:47:37.666628",
-  "bar_count": 252,
+  "generated_at": "2026-09-16T09:52:27.964553",
+  "bar_count": 253,
   "candles": [
     {
       "time": "2026-09-15T03:00:00",
@@ -2017,9 +2017,17 @@
       "time": "2026-09-16T08:45:00",
       "open": 5.81,
       "high": 5.81,
+      "low": 5.76,
+      "close": 5.79,
+      "volume": 121
+    },
+    {
+      "time": "2026-09-16T08:50:00",
+      "open": 5.79,
+      "high": 5.79,
       "low": 5.79,
       "close": 5.79,
-      "volume": 12
+      "volume": 0
     }
   ]
 }
