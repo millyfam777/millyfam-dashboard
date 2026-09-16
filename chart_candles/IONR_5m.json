@@ -2,8 +2,8 @@
   "symbol": "IONR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-16T10:17:19.466918",
-  "bar_count": 140,
+  "generated_at": "2026-09-16T10:32:17.877717",
+  "bar_count": 143,
   "candles": [
     {
       "time": "2026-09-15T08:30:00",
@@ -1120,10 +1120,34 @@
     {
       "time": "2026-09-16T09:15:00",
       "open": 3.24,
-      "high": 3.24,
+      "high": 3.25,
       "low": 3.24,
-      "close": 3.24,
-      "volume": 1
+      "close": 3.25,
+      "volume": 4
+    },
+    {
+      "time": "2026-09-16T09:20:00",
+      "open": 3.25,
+      "high": 3.25,
+      "low": 3.25,
+      "close": 3.25,
+      "volume": 28
+    },
+    {
+      "time": "2026-09-16T09:25:00",
+      "open": 3.25,
+      "high": 3.26,
+      "low": 3.24,
+      "close": 3.25,
+      "volume": 14
+    },
+    {
+      "time": "2026-09-16T09:30:00",
+      "open": 3.26,
+      "high": 3.27,
+      "low": 3.25,
+      "close": 3.26,
+      "volume": 20
     }
   ]
 }
