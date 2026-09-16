@@ -2,8 +2,8 @@
   "symbol": "TGL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-16T11:02:11.032846",
-  "bar_count": 202,
+  "generated_at": "2026-09-16T11:07:06.189363",
+  "bar_count": 203,
   "candles": [
     {
       "time": "2026-09-15T07:10:00",
@@ -1616,10 +1616,18 @@
     {
       "time": "2026-09-16T10:00:00",
       "open": 3.29,
-      "high": 3.29,
+      "high": 3.3,
       "low": 3.26,
-      "close": 3.28,
-      "volume": 48
+      "close": 3.3,
+      "volume": 49
+    },
+    {
+      "time": "2026-09-16T10:05:00",
+      "open": 3.3,
+      "high": 3.3,
+      "low": 3.3,
+      "close": 3.3,
+      "volume": 1
     }
   ]
 }
