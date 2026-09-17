@@ -2,8 +2,8 @@
   "symbol": "SMUP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-17T13:02:30.776949",
-  "bar_count": 301,
+  "generated_at": "2026-09-17T13:17:50.819554",
+  "bar_count": 304,
   "candles": [
     {
       "time": "2026-09-16T03:00:00",
@@ -2407,11 +2407,35 @@
     },
     {
       "time": "2026-09-17T12:00:00",
-      "open": 4.4,
-      "high": 4.4,
+      "open": 4.42,
+      "high": 4.42,
+      "low": 4.42,
+      "close": 4.42,
+      "volume": 1
+    },
+    {
+      "time": "2026-09-17T12:05:00",
+      "open": 4.41,
+      "high": 4.45,
+      "low": 4.41,
+      "close": 4.45,
+      "volume": 223
+    },
+    {
+      "time": "2026-09-17T12:10:00",
+      "open": 4.46,
+      "high": 4.46,
+      "low": 4.46,
+      "close": 4.46,
+      "volume": 2
+    },
+    {
+      "time": "2026-09-17T12:15:00",
+      "open": 4.42,
+      "high": 4.42,
       "low": 4.4,
       "close": 4.4,
-      "volume": 0
+      "volume": 35
     }
   ]
 }
