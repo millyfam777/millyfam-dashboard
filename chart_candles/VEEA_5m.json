@@ -2,8 +2,8 @@
   "symbol": "VEEA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-17T05:02:35.023829",
-  "bar_count": 205,
+  "generated_at": "2026-09-17T05:18:00.649295",
+  "bar_count": 208,
   "candles": [
     {
       "time": "2026-09-16T03:00:00",
@@ -1640,10 +1640,34 @@
     {
       "time": "2026-09-17T04:00:00",
       "open": 6.76,
-      "high": 6.77,
+      "high": 7.0,
       "low": 6.76,
-      "close": 6.77,
-      "volume": 28
+      "close": 6.99,
+      "volume": 169
+    },
+    {
+      "time": "2026-09-17T04:05:00",
+      "open": 6.98,
+      "high": 7.19,
+      "low": 6.8,
+      "close": 6.86,
+      "volume": 621
+    },
+    {
+      "time": "2026-09-17T04:10:00",
+      "open": 6.86,
+      "high": 7.07,
+      "low": 6.86,
+      "close": 7.0379,
+      "volume": 184
+    },
+    {
+      "time": "2026-09-17T04:15:00",
+      "open": 7.0,
+      "high": 7.08,
+      "low": 6.94,
+      "close": 7.05,
+      "volume": 51
     }
   ]
 }
