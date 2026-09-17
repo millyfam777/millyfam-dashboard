@@ -2,8 +2,8 @@
   "symbol": "LSTA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-17T12:47:52.072085",
-  "bar_count": 162,
+  "generated_at": "2026-09-17T13:02:35.226822",
+  "bar_count": 165,
   "candles": [
     {
       "time": "2026-09-16T08:25:00",
@@ -1296,10 +1296,34 @@
     {
       "time": "2026-09-17T11:45:00",
       "open": 1.76,
-      "high": 1.77,
+      "high": 1.78,
       "low": 1.76,
+      "close": 1.78,
+      "volume": 70
+    },
+    {
+      "time": "2026-09-17T11:50:00",
+      "open": 1.79,
+      "high": 1.79,
+      "low": 1.77,
       "close": 1.77,
-      "volume": 63
+      "volume": 116
+    },
+    {
+      "time": "2026-09-17T11:55:00",
+      "open": 1.785,
+      "high": 1.8,
+      "low": 1.77,
+      "close": 1.7974,
+      "volume": 287
+    },
+    {
+      "time": "2026-09-17T12:00:00",
+      "open": 1.8,
+      "high": 1.83,
+      "low": 1.8,
+      "close": 1.83,
+      "volume": 69
     }
   ]
 }
