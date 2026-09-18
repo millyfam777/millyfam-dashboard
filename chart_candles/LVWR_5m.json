@@ -2,8 +2,8 @@
   "symbol": "LVWR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-18T10:03:20.317687",
-  "bar_count": 230,
+  "generated_at": "2026-09-18T10:12:47.387026",
+  "bar_count": 232,
   "candles": [
     {
       "time": "2026-09-17T05:55:00",
@@ -1840,10 +1840,26 @@
     {
       "time": "2026-09-18T09:00:00",
       "open": 1.6,
-      "high": 1.63,
+      "high": 1.635,
       "low": 1.6,
-      "close": 1.6201,
-      "volume": 147
+      "close": 1.61,
+      "volume": 255
+    },
+    {
+      "time": "2026-09-18T09:05:00",
+      "open": 1.61,
+      "high": 1.61,
+      "low": 1.49,
+      "close": 1.53,
+      "volume": 486
+    },
+    {
+      "time": "2026-09-18T09:10:00",
+      "open": 1.5399,
+      "high": 1.5572,
+      "low": 1.53,
+      "close": 1.53,
+      "volume": 95
     }
   ]
 }
