@@ -2,8 +2,8 @@
   "symbol": "SECZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-18T05:32:52.839794",
-  "bar_count": 211,
+  "generated_at": "2026-09-18T05:47:36.013551",
+  "bar_count": 214,
   "candles": [
     {
       "time": "2026-09-17T03:00:00",
@@ -1688,10 +1688,34 @@
     {
       "time": "2026-09-18T04:30:00",
       "open": 9.71,
-      "high": 9.71,
+      "high": 9.73,
       "low": 9.7,
-      "close": 9.7,
-      "volume": 4
+      "close": 9.72,
+      "volume": 11
+    },
+    {
+      "time": "2026-09-18T04:35:00",
+      "open": 9.72,
+      "high": 9.72,
+      "low": 9.65,
+      "close": 9.65,
+      "volume": 66
+    },
+    {
+      "time": "2026-09-18T04:40:00",
+      "open": 9.65,
+      "high": 9.65,
+      "low": 9.65,
+      "close": 9.65,
+      "volume": 0
+    },
+    {
+      "time": "2026-09-18T04:45:00",
+      "open": 9.65,
+      "high": 9.65,
+      "low": 9.65,
+      "close": 9.65,
+      "volume": 5
     }
   ]
 }
