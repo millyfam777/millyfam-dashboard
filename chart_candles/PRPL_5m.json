@@ -2,8 +2,8 @@
   "symbol": "PRPL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-18T15:32:57.212571",
-  "bar_count": 199,
+  "generated_at": "2026-09-18T15:47:59.119783",
+  "bar_count": 202,
   "candles": [
     {
       "time": "2026-09-17T08:30:00",
@@ -1592,10 +1592,34 @@
     {
       "time": "2026-09-18T14:30:00",
       "open": 3.06,
-      "high": 3.11,
+      "high": 3.29,
       "low": 3.06,
-      "close": 3.1,
-      "volume": 8
+      "close": 3.15,
+      "volume": 74
+    },
+    {
+      "time": "2026-09-18T14:35:00",
+      "open": 3.2,
+      "high": 3.28,
+      "low": 2.98,
+      "close": 2.98,
+      "volume": 505
+    },
+    {
+      "time": "2026-09-18T14:40:00",
+      "open": 3.03,
+      "high": 3.25,
+      "low": 3.0,
+      "close": 3.13,
+      "volume": 116
+    },
+    {
+      "time": "2026-09-18T14:45:00",
+      "open": 3.24,
+      "high": 3.24,
+      "low": 3.14,
+      "close": 3.15,
+      "volume": 71
     }
   ]
 }
