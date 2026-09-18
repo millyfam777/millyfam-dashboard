@@ -2,8 +2,8 @@
   "symbol": "FABC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-18T04:32:39.804739",
-  "bar_count": 192,
+  "generated_at": "2026-09-18T04:47:47.332058",
+  "bar_count": 195,
   "candles": [
     {
       "time": "2026-09-17T03:25:00",
@@ -1536,10 +1536,34 @@
     {
       "time": "2026-09-18T03:30:00",
       "open": 2.41,
-      "high": 2.43,
+      "high": 2.5,
       "low": 2.41,
-      "close": 2.43,
-      "volume": 6
+      "close": 2.5,
+      "volume": 14
+    },
+    {
+      "time": "2026-09-18T03:35:00",
+      "open": 2.5,
+      "high": 2.5,
+      "low": 2.5,
+      "close": 2.5,
+      "volume": 0
+    },
+    {
+      "time": "2026-09-18T03:40:00",
+      "open": 2.51,
+      "high": 2.51,
+      "low": 2.51,
+      "close": 2.51,
+      "volume": 1
+    },
+    {
+      "time": "2026-09-18T03:45:00",
+      "open": 2.51,
+      "high": 2.51,
+      "low": 2.51,
+      "close": 2.51,
+      "volume": 0
     }
   ]
 }
