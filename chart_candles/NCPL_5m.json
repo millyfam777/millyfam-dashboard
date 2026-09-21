@@ -2,8 +2,8 @@
   "symbol": "NCPL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-21T16:48:15.867925",
-  "bar_count": 346,
+  "generated_at": "2026-09-21T17:03:18.479244",
+  "bar_count": 349,
   "candles": [
     {
       "time": "2026-09-18T03:00:00",
@@ -2768,10 +2768,34 @@
     {
       "time": "2026-09-21T15:45:00",
       "open": 1.11,
-      "high": 1.13,
+      "high": 1.14,
       "low": 1.1,
+      "close": 1.14,
+      "volume": 1300
+    },
+    {
+      "time": "2026-09-21T15:50:00",
+      "open": 1.14,
+      "high": 1.15,
+      "low": 1.08,
+      "close": 1.1,
+      "volume": 743
+    },
+    {
+      "time": "2026-09-21T15:55:00",
+      "open": 1.1,
+      "high": 1.13,
+      "low": 1.09,
+      "close": 1.12,
+      "volume": 598
+    },
+    {
+      "time": "2026-09-21T16:00:00",
+      "open": 1.12,
+      "high": 1.13,
+      "low": 1.11,
       "close": 1.13,
-      "volume": 774
+      "volume": 351
     }
   ]
 }
