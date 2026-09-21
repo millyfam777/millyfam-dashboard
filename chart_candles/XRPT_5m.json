@@ -2,8 +2,8 @@
   "symbol": "XRPT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-21T07:07:13.278453",
-  "bar_count": 230,
+  "generated_at": "2026-09-21T07:17:32.582380",
+  "bar_count": 232,
   "candles": [
     {
       "time": "2026-09-18T03:00:00",
@@ -1841,9 +1841,25 @@
       "time": "2026-09-21T06:05:00",
       "open": 38.64,
       "high": 38.74,
+      "low": 38.52,
+      "close": 38.52,
+      "volume": 17
+    },
+    {
+      "time": "2026-09-21T06:10:00",
+      "open": 38.6,
+      "high": 38.71,
+      "low": 38.6,
+      "close": 38.69,
+      "volume": 21
+    },
+    {
+      "time": "2026-09-21T06:15:00",
+      "open": 38.64,
+      "high": 38.7,
       "low": 38.64,
-      "close": 38.74,
-      "volume": 2
+      "close": 38.7,
+      "volume": 12
     }
   ]
 }
