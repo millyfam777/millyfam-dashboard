@@ -2,8 +2,8 @@
   "symbol": "MSTP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-21T05:02:58.223435",
-  "bar_count": 205,
+  "generated_at": "2026-09-21T05:17:56.688260",
+  "bar_count": 208,
   "candles": [
     {
       "time": "2026-09-18T03:00:00",
@@ -1640,10 +1640,34 @@
     {
       "time": "2026-09-21T04:00:00",
       "open": 32.38,
-      "high": 32.39,
+      "high": 32.5,
       "low": 32.38,
-      "close": 32.39,
-      "volume": 3
+      "close": 32.49,
+      "volume": 5
+    },
+    {
+      "time": "2026-09-21T04:05:00",
+      "open": 32.49,
+      "high": 32.49,
+      "low": 32.49,
+      "close": 32.49,
+      "volume": 0
+    },
+    {
+      "time": "2026-09-21T04:10:00",
+      "open": 32.7,
+      "high": 32.7,
+      "low": 32.7,
+      "close": 32.7,
+      "volume": 2
+    },
+    {
+      "time": "2026-09-21T04:15:00",
+      "open": 32.7,
+      "high": 32.7,
+      "low": 32.7,
+      "close": 32.7,
+      "volume": 0
     }
   ]
 }
