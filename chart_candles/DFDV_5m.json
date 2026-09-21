@@ -2,8 +2,8 @@
   "symbol": "DFDV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-21T07:17:22.176579",
-  "bar_count": 232,
+  "generated_at": "2026-09-21T07:22:26.631002",
+  "bar_count": 233,
   "candles": [
     {
       "time": "2026-09-18T03:00:00",
@@ -1857,9 +1857,17 @@
       "time": "2026-09-21T06:15:00",
       "open": 6.7,
       "high": 6.7,
+      "low": 6.52,
+      "close": 6.52,
+      "volume": 8
+    },
+    {
+      "time": "2026-09-21T06:20:00",
+      "open": 6.7,
+      "high": 6.75,
       "low": 6.7,
-      "close": 6.7,
-      "volume": 1
+      "close": 6.75,
+      "volume": 13
     }
   ]
 }
