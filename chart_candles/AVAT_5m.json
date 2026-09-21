@@ -2,8 +2,8 @@
   "symbol": "AVAT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-21T05:33:21.977919",
-  "bar_count": 211,
+  "generated_at": "2026-09-21T05:48:19.509078",
+  "bar_count": 214,
   "candles": [
     {
       "time": "2026-09-18T03:00:00",
@@ -1689,9 +1689,33 @@
       "time": "2026-09-21T04:30:00",
       "open": 1.32,
       "high": 1.32,
-      "low": 1.3,
+      "low": 1.27,
+      "close": 1.28,
+      "volume": 105
+    },
+    {
+      "time": "2026-09-21T04:35:00",
+      "open": 1.27,
+      "high": 1.33,
+      "low": 1.25,
+      "close": 1.33,
+      "volume": 103
+    },
+    {
+      "time": "2026-09-21T04:40:00",
+      "open": 1.3,
+      "high": 1.3,
+      "low": 1.295,
       "close": 1.3,
-      "volume": 42
+      "volume": 9
+    },
+    {
+      "time": "2026-09-21T04:45:00",
+      "open": 1.295,
+      "high": 1.3,
+      "low": 1.27,
+      "close": 1.28,
+      "volume": 131
     }
   ]
 }
