@@ -2,8 +2,8 @@
   "symbol": "IVVD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-21T16:33:12.652472",
-  "bar_count": 343,
+  "generated_at": "2026-09-21T16:48:10.950424",
+  "bar_count": 346,
   "candles": [
     {
       "time": "2026-09-18T03:00:00",
@@ -2746,8 +2746,32 @@
       "open": 1.01,
       "high": 1.02,
       "low": 1.01,
+      "close": 1.0101,
+      "volume": 110
+    },
+    {
+      "time": "2026-09-21T15:35:00",
+      "open": 1.01,
+      "high": 1.02,
+      "low": 1.0,
+      "close": 1.0194,
+      "volume": 68
+    },
+    {
+      "time": "2026-09-21T15:40:00",
+      "open": 1.015,
+      "high": 1.02,
+      "low": 1.0,
       "close": 1.02,
-      "volume": 83
+      "volume": 165
+    },
+    {
+      "time": "2026-09-21T15:45:00",
+      "open": 1.01,
+      "high": 1.02,
+      "low": 1.01,
+      "close": 1.0102,
+      "volume": 13
     }
   ]
 }
