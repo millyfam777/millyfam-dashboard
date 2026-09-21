@@ -2,8 +2,8 @@
   "symbol": "HSDT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-21T06:47:05.934822",
-  "bar_count": 226,
+  "generated_at": "2026-09-21T06:52:09.156730",
+  "bar_count": 227,
   "candles": [
     {
       "time": "2026-09-18T03:00:00",
@@ -1809,9 +1809,17 @@
       "time": "2026-09-21T05:45:00",
       "open": 3.04,
       "high": 3.04,
-      "low": 3.04,
-      "close": 3.04,
-      "volume": 1
+      "low": 3.035,
+      "close": 3.035,
+      "volume": 3
+    },
+    {
+      "time": "2026-09-21T05:50:00",
+      "open": 3.035,
+      "high": 3.035,
+      "low": 2.945,
+      "close": 2.945,
+      "volume": 9
     }
   ]
 }
