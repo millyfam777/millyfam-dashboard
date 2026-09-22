@@ -2,8 +2,8 @@
   "symbol": "FWDI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-22T04:02:45.009598",
-  "bar_count": 193,
+  "generated_at": "2026-09-22T04:07:48.724416",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-09-21T03:00:00",
@@ -1544,10 +1544,18 @@
     {
       "time": "2026-09-22T03:00:00",
       "open": 8.09,
-      "high": 8.09,
-      "low": 8.06,
-      "close": 8.06,
-      "volume": 23
+      "high": 8.11,
+      "low": 8.04,
+      "close": 8.05,
+      "volume": 135
+    },
+    {
+      "time": "2026-09-22T03:05:00",
+      "open": 8.05,
+      "high": 8.05,
+      "low": 8.05,
+      "close": 8.05,
+      "volume": 0
     }
   ]
 }

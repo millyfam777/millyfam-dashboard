@@ -2,8 +2,8 @@
   "symbol": "INV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-22T04:02:15.424382",
-  "bar_count": 193,
+  "generated_at": "2026-09-22T04:07:18.190565",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-09-21T03:00:00",
@@ -1545,9 +1545,17 @@
       "time": "2026-09-22T03:00:00",
       "open": 0.87,
       "high": 0.87,
-      "low": 0.841,
-      "close": 0.854,
-      "volume": 110
+      "low": 0.84,
+      "close": 0.86,
+      "volume": 514
+    },
+    {
+      "time": "2026-09-22T03:05:00",
+      "open": 0.8401,
+      "high": 0.8504,
+      "low": 0.8401,
+      "close": 0.8404,
+      "volume": 7
     }
   ]
 }

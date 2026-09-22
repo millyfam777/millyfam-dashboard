@@ -2,8 +2,8 @@
   "symbol": "CRML",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-22T04:02:29.131626",
-  "bar_count": 193,
+  "generated_at": "2026-09-22T04:07:32.874117",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-09-21T03:00:00",
@@ -1544,10 +1544,18 @@
     {
       "time": "2026-09-22T03:00:00",
       "open": 9.15,
-      "high": 9.26,
+      "high": 9.27,
       "low": 9.04,
-      "close": 9.17,
-      "volume": 513
+      "close": 9.07,
+      "volume": 1068
+    },
+    {
+      "time": "2026-09-22T03:05:00",
+      "open": 9.07,
+      "high": 9.12,
+      "low": 9.06,
+      "close": 9.09,
+      "volume": 103
     }
   ]
 }

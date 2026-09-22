@@ -2,8 +2,8 @@
   "symbol": "MRNO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-22T04:02:54.247459",
-  "bar_count": 193,
+  "generated_at": "2026-09-22T04:07:57.593789",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-09-21T03:00:00",
@@ -1545,9 +1545,17 @@
       "time": "2026-09-22T03:00:00",
       "open": 0.32,
       "high": 0.3272,
-      "low": 0.3086,
-      "close": 0.315,
-      "volume": 231
+      "low": 0.3011,
+      "close": 0.3011,
+      "volume": 255
+    },
+    {
+      "time": "2026-09-22T03:05:00",
+      "open": 0.3011,
+      "high": 0.3011,
+      "low": 0.3001,
+      "close": 0.3001,
+      "volume": 37
     }
   ]
 }
