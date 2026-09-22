@@ -2,8 +2,8 @@
   "symbol": "FTCI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-22T13:47:21.908054",
-  "bar_count": 249,
+  "generated_at": "2026-09-22T13:57:06.101412",
+  "bar_count": 251,
   "candles": [
     {
       "time": "2026-09-21T03:50:00",
@@ -1991,11 +1991,27 @@
     },
     {
       "time": "2026-09-22T12:45:00",
-      "open": 2.68,
+      "open": 2.67,
+      "high": 2.67,
+      "low": 2.6501,
+      "close": 2.66,
+      "volume": 74
+    },
+    {
+      "time": "2026-09-22T12:50:00",
+      "open": 2.665,
+      "high": 2.665,
+      "low": 2.665,
+      "close": 2.665,
+      "volume": 1
+    },
+    {
+      "time": "2026-09-22T12:55:00",
+      "open": 2.665,
       "high": 2.68,
-      "low": 2.68,
+      "low": 2.665,
       "close": 2.68,
-      "volume": 0
+      "volume": 4
     }
   ]
 }
