@@ -2,8 +2,8 @@
   "symbol": "DNA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-22T11:47:13.116978",
-  "bar_count": 277,
+  "generated_at": "2026-09-22T12:02:25.760808",
+  "bar_count": 280,
   "candles": [
     {
       "time": "2026-09-21T03:00:00",
@@ -2216,10 +2216,34 @@
     {
       "time": "2026-09-22T10:45:00",
       "open": 9.0,
-      "high": 9.0,
+      "high": 9.09,
       "low": 8.95,
-      "close": 8.95,
-      "volume": 64
+      "close": 9.03,
+      "volume": 350
+    },
+    {
+      "time": "2026-09-22T10:50:00",
+      "open": 9.02,
+      "high": 9.08,
+      "low": 9.02,
+      "close": 9.05,
+      "volume": 246
+    },
+    {
+      "time": "2026-09-22T10:55:00",
+      "open": 9.05,
+      "high": 9.07,
+      "low": 9.04,
+      "close": 9.05,
+      "volume": 283
+    },
+    {
+      "time": "2026-09-22T11:00:00",
+      "open": 9.05,
+      "high": 9.05,
+      "low": 8.94,
+      "close": 8.97,
+      "volume": 127
     }
   ]
 }
