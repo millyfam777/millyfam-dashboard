@@ -2,8 +2,8 @@
   "symbol": "FLNA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-22T10:33:23.637728",
-  "bar_count": 176,
+  "generated_at": "2026-09-22T10:38:23.665610",
+  "bar_count": 177,
   "candles": [
     {
       "time": "2026-09-21T08:15:00",
@@ -1408,10 +1408,18 @@
     {
       "time": "2026-09-22T09:30:00",
       "open": 1.015,
-      "high": 1.04,
+      "high": 1.12,
       "low": 0.9901,
-      "close": 1.0356,
-      "volume": 4684
+      "close": 1.115,
+      "volume": 16596
+    },
+    {
+      "time": "2026-09-22T09:35:00",
+      "open": 1.115,
+      "high": 1.225,
+      "low": 1.11,
+      "close": 1.215,
+      "volume": 46521
     }
   ]
 }

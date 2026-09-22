@@ -2,8 +2,8 @@
   "symbol": "CCEL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-22T10:33:03.008342",
-  "bar_count": 203,
+  "generated_at": "2026-09-22T10:48:03.055554",
+  "bar_count": 206,
   "candles": [
     {
       "time": "2026-09-21T08:05:00",
@@ -1623,11 +1623,35 @@
     },
     {
       "time": "2026-09-22T09:30:00",
+      "open": 4.16,
+      "high": 4.16,
+      "low": 4.16,
+      "close": 4.16,
+      "volume": 1
+    },
+    {
+      "time": "2026-09-22T09:35:00",
+      "open": 4.61,
+      "high": 4.61,
+      "low": 4.2,
+      "close": 4.2,
+      "volume": 23
+    },
+    {
+      "time": "2026-09-22T09:40:00",
       "open": 4.19,
       "high": 4.19,
-      "low": 4.19,
-      "close": 4.19,
-      "volume": 0
+      "low": 4.15,
+      "close": 4.15,
+      "volume": 6
+    },
+    {
+      "time": "2026-09-22T09:45:00",
+      "open": 4.2,
+      "high": 4.2,
+      "low": 4.2,
+      "close": 4.2,
+      "volume": 1
     }
   ]
 }
