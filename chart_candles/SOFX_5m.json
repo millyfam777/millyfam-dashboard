@@ -2,8 +2,8 @@
   "symbol": "SOFX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-22T08:48:01.402224",
-  "bar_count": 250,
+  "generated_at": "2026-09-22T09:02:55.688016",
+  "bar_count": 253,
   "candles": [
     {
       "time": "2026-09-21T03:00:00",
@@ -2001,9 +2001,33 @@
       "time": "2026-09-22T07:45:00",
       "open": 9.15,
       "high": 9.17,
-      "low": 9.15,
-      "close": 9.15,
-      "volume": 163
+      "low": 9.08,
+      "close": 9.1,
+      "volume": 277
+    },
+    {
+      "time": "2026-09-22T07:50:00",
+      "open": 9.1,
+      "high": 9.11,
+      "low": 8.92,
+      "close": 8.94,
+      "volume": 605
+    },
+    {
+      "time": "2026-09-22T07:55:00",
+      "open": 8.93,
+      "high": 8.96,
+      "low": 8.89,
+      "close": 8.9,
+      "volume": 386
+    },
+    {
+      "time": "2026-09-22T08:00:00",
+      "open": 8.92,
+      "high": 9.02,
+      "low": 8.91,
+      "close": 8.98,
+      "volume": 256
     }
   ]
 }
