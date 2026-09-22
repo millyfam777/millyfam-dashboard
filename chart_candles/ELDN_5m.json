@@ -2,8 +2,8 @@
   "symbol": "ELDN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-22T10:57:08.830723",
-  "bar_count": 254,
+  "generated_at": "2026-09-22T11:07:11.168482",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-09-21T03:00:00",
@@ -2032,10 +2032,26 @@
     {
       "time": "2026-09-22T09:55:00",
       "open": 2.985,
+      "high": 2.9894,
+      "low": 2.98,
+      "close": 2.9894,
+      "volume": 31
+    },
+    {
+      "time": "2026-09-22T10:00:00",
+      "open": 2.99,
+      "high": 2.99,
+      "low": 2.984,
+      "close": 2.984,
+      "volume": 27
+    },
+    {
+      "time": "2026-09-22T10:05:00",
+      "open": 2.98,
       "high": 2.985,
       "low": 2.98,
-      "close": 2.98,
-      "volume": 22
+      "close": 2.985,
+      "volume": 5
     }
   ]
 }
