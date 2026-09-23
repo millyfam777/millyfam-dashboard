@@ -2,8 +2,8 @@
   "symbol": "RTB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-23T10:02:31.649044",
-  "bar_count": 249,
+  "generated_at": "2026-09-23T10:07:33.082381",
+  "bar_count": 250,
   "candles": [
     {
       "time": "2026-09-22T03:35:00",
@@ -1993,9 +1993,17 @@
       "time": "2026-09-23T09:00:00",
       "open": 10.33,
       "high": 10.41,
-      "low": 10.33,
-      "close": 10.37,
-      "volume": 10
+      "low": 10.3,
+      "close": 10.3,
+      "volume": 13
+    },
+    {
+      "time": "2026-09-23T09:05:00",
+      "open": 10.05,
+      "high": 10.22,
+      "low": 9.84,
+      "close": 9.98,
+      "volume": 27
     }
   ]
 }
