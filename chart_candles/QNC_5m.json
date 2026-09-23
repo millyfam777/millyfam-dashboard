@@ -2,8 +2,8 @@
   "symbol": "QNC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-23T12:47:10.811324",
-  "bar_count": 181,
+  "generated_at": "2026-09-23T12:57:08.424907",
+  "bar_count": 183,
   "candles": [
     {
       "time": "2026-09-22T08:25:00",
@@ -1447,11 +1447,27 @@
     },
     {
       "time": "2026-09-23T11:45:00",
-      "open": 1.945,
-      "high": 1.945,
+      "open": 1.948,
+      "high": 1.955,
       "low": 1.945,
+      "close": 1.95,
+      "volume": 121
+    },
+    {
+      "time": "2026-09-23T11:50:00",
+      "open": 1.95,
+      "high": 1.95,
+      "low": 1.94,
       "close": 1.945,
-      "volume": 0
+      "volume": 48
+    },
+    {
+      "time": "2026-09-23T11:55:00",
+      "open": 1.94,
+      "high": 1.955,
+      "low": 1.94,
+      "close": 1.94,
+      "volume": 76
     }
   ]
 }
