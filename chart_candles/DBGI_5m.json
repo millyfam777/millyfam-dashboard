@@ -2,8 +2,8 @@
   "symbol": "DBGI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-23T19:32:57.722260",
-  "bar_count": 368,
+  "generated_at": "2026-09-23T19:47:58.319082",
+  "bar_count": 371,
   "candles": [
     {
       "time": "2026-09-22T03:00:00",
@@ -2944,10 +2944,34 @@
     {
       "time": "2026-09-23T18:30:00",
       "open": 5.65,
-      "high": 5.65,
+      "high": 5.8,
       "low": 5.64,
-      "close": 5.64,
+      "close": 5.8,
+      "volume": 17
+    },
+    {
+      "time": "2026-09-23T18:35:00",
+      "open": 5.78,
+      "high": 5.78,
+      "low": 5.78,
+      "close": 5.78,
+      "volume": 1
+    },
+    {
+      "time": "2026-09-23T18:40:00",
+      "open": 5.78,
+      "high": 5.8,
+      "low": 5.78,
+      "close": 5.79,
       "volume": 10
+    },
+    {
+      "time": "2026-09-23T18:45:00",
+      "open": 5.79,
+      "high": 5.79,
+      "low": 5.79,
+      "close": 5.79,
+      "volume": 0
     }
   ]
 }
