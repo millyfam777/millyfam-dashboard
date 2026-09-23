@@ -2,8 +2,8 @@
   "symbol": "SQFT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-23T05:18:30.311552",
-  "bar_count": 142,
+  "generated_at": "2026-09-23T05:33:26.726124",
+  "bar_count": 145,
   "candles": [
     {
       "time": "2026-09-22T08:30:00",
@@ -1136,10 +1136,34 @@
     {
       "time": "2026-09-23T04:15:00",
       "open": 1.45,
-      "high": 1.46,
+      "high": 1.47,
       "low": 1.43,
-      "close": 1.44,
-      "volume": 115
+      "close": 1.47,
+      "volume": 136
+    },
+    {
+      "time": "2026-09-23T04:20:00",
+      "open": 1.47,
+      "high": 1.49,
+      "low": 1.46,
+      "close": 1.47,
+      "volume": 105
+    },
+    {
+      "time": "2026-09-23T04:25:00",
+      "open": 1.48,
+      "high": 1.48,
+      "low": 1.46,
+      "close": 1.47,
+      "volume": 150
+    },
+    {
+      "time": "2026-09-23T04:30:00",
+      "open": 1.47,
+      "high": 1.48,
+      "low": 1.36,
+      "close": 1.41,
+      "volume": 613
     }
   ]
 }
