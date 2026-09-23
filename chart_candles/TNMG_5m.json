@@ -2,8 +2,8 @@
   "symbol": "TNMG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-23T14:02:41.139549",
-  "bar_count": 313,
+  "generated_at": "2026-09-23T14:17:35.685421",
+  "bar_count": 316,
   "candles": [
     {
       "time": "2026-09-22T03:00:00",
@@ -2504,10 +2504,34 @@
     {
       "time": "2026-09-23T13:00:00",
       "open": 4.46,
-      "high": 4.48,
+      "high": 4.54,
       "low": 4.41,
-      "close": 4.41,
-      "volume": 16
+      "close": 4.54,
+      "volume": 22
+    },
+    {
+      "time": "2026-09-23T13:05:00",
+      "open": 4.54,
+      "high": 4.54,
+      "low": 4.45,
+      "close": 4.46,
+      "volume": 22
+    },
+    {
+      "time": "2026-09-23T13:10:00",
+      "open": 4.41,
+      "high": 4.41,
+      "low": 4.17,
+      "close": 4.33,
+      "volume": 98
+    },
+    {
+      "time": "2026-09-23T13:15:00",
+      "open": 4.33,
+      "high": 4.33,
+      "low": 4.33,
+      "close": 4.33,
+      "volume": 0
     }
   ]
 }
