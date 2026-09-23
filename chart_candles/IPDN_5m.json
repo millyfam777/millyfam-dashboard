@@ -2,8 +2,8 @@
   "symbol": "IPDN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-23T14:33:35.430654",
-  "bar_count": 281,
+  "generated_at": "2026-09-23T14:38:27.457559",
+  "bar_count": 282,
   "candles": [
     {
       "time": "2026-09-22T06:10:00",
@@ -2248,10 +2248,18 @@
     {
       "time": "2026-09-23T13:30:00",
       "open": 5.16,
-      "high": 5.19,
+      "high": 5.2,
       "low": 5.07,
-      "close": 5.14,
-      "volume": 49
+      "close": 5.12,
+      "volume": 84
+    },
+    {
+      "time": "2026-09-23T13:35:00",
+      "open": 5.18,
+      "high": 5.33,
+      "low": 5.17,
+      "close": 5.22,
+      "volume": 306
     }
   ]
 }
