@@ -2,8 +2,8 @@
   "symbol": "SRFM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-23T17:17:17.184902",
-  "bar_count": 352,
+  "generated_at": "2026-09-23T17:32:17.326085",
+  "bar_count": 355,
   "candles": [
     {
       "time": "2026-09-22T03:00:00",
@@ -2816,10 +2816,34 @@
     {
       "time": "2026-09-23T16:15:00",
       "open": 0.8801,
-      "high": 0.8801,
+      "high": 0.9,
       "low": 0.88,
-      "close": 0.8801,
-      "volume": 74
+      "close": 0.8855,
+      "volume": 134
+    },
+    {
+      "time": "2026-09-23T16:20:00",
+      "open": 0.882,
+      "high": 0.9,
+      "low": 0.882,
+      "close": 0.89,
+      "volume": 15
+    },
+    {
+      "time": "2026-09-23T16:25:00",
+      "open": 0.89,
+      "high": 0.9,
+      "low": 0.89,
+      "close": 0.9,
+      "volume": 53
+    },
+    {
+      "time": "2026-09-23T16:30:00",
+      "open": 0.9,
+      "high": 0.9,
+      "low": 0.9,
+      "close": 0.9,
+      "volume": 0
     }
   ]
 }
