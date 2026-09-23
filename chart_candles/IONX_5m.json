@@ -2,8 +2,8 @@
   "symbol": "IONX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-23T06:48:25.695746",
-  "bar_count": 226,
+  "generated_at": "2026-09-23T07:03:30.540831",
+  "bar_count": 229,
   "candles": [
     {
       "time": "2026-09-22T03:00:00",
@@ -1809,9 +1809,33 @@
       "time": "2026-09-23T05:45:00",
       "open": 30.4,
       "high": 30.4,
+      "low": 30.3,
+      "close": 30.32,
+      "volume": 6
+    },
+    {
+      "time": "2026-09-23T05:50:00",
+      "open": 30.4,
+      "high": 30.5,
       "low": 30.4,
-      "close": 30.4,
-      "volume": 1
+      "close": 30.5,
+      "volume": 8
+    },
+    {
+      "time": "2026-09-23T05:55:00",
+      "open": 30.62,
+      "high": 30.86,
+      "low": 30.62,
+      "close": 30.86,
+      "volume": 48
+    },
+    {
+      "time": "2026-09-23T06:00:00",
+      "open": 30.5,
+      "high": 30.6,
+      "low": 30.31,
+      "close": 30.51,
+      "volume": 119
     }
   ]
 }
