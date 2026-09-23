@@ -2,8 +2,8 @@
   "symbol": "DCOY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-23T13:03:19.764462",
-  "bar_count": 259,
+  "generated_at": "2026-09-23T13:18:13.424011",
+  "bar_count": 262,
   "candles": [
     {
       "time": "2026-09-22T06:30:00",
@@ -2072,10 +2072,34 @@
     {
       "time": "2026-09-23T12:00:00",
       "open": 3.77,
-      "high": 3.79,
+      "high": 3.82,
       "low": 3.75,
-      "close": 3.79,
-      "volume": 170
+      "close": 3.8,
+      "volume": 313
+    },
+    {
+      "time": "2026-09-23T12:05:00",
+      "open": 3.81,
+      "high": 3.84,
+      "low": 3.8,
+      "close": 3.82,
+      "volume": 333
+    },
+    {
+      "time": "2026-09-23T12:10:00",
+      "open": 3.82,
+      "high": 3.82,
+      "low": 3.77,
+      "close": 3.78,
+      "volume": 164
+    },
+    {
+      "time": "2026-09-23T12:15:00",
+      "open": 3.77,
+      "high": 3.87,
+      "low": 3.77,
+      "close": 3.84,
+      "volume": 327
     }
   ]
 }
