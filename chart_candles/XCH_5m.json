@@ -2,8 +2,8 @@
   "symbol": "XCH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-23T19:47:42.480624",
-  "bar_count": 246,
+  "generated_at": "2026-09-23T20:02:42.559810",
+  "bar_count": 248,
   "candles": [
     {
       "time": "2026-09-22T14:20:00",
@@ -1968,10 +1968,26 @@
     {
       "time": "2026-09-23T18:45:00",
       "open": 3.11,
+      "high": 3.13,
+      "low": 3.11,
+      "close": 3.13,
+      "volume": 2
+    },
+    {
+      "time": "2026-09-23T18:50:00",
+      "open": 3.13,
+      "high": 3.13,
+      "low": 3.11,
+      "close": 3.11,
+      "volume": 5
+    },
+    {
+      "time": "2026-09-23T18:55:00",
+      "open": 3.11,
       "high": 3.11,
       "low": 3.11,
       "close": 3.11,
-      "volume": 1
+      "volume": 0
     }
   ]
 }
