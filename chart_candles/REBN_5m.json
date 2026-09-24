@@ -2,8 +2,8 @@
   "symbol": "REBN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-24T10:02:54.335978",
-  "bar_count": 199,
+  "generated_at": "2026-09-24T10:17:23.194132",
+  "bar_count": 202,
   "candles": [
     {
       "time": "2026-09-23T08:30:00",
@@ -1592,10 +1592,34 @@
     {
       "time": "2026-09-24T09:00:00",
       "open": 1.225,
-      "high": 1.225,
+      "high": 1.23,
       "low": 1.2,
       "close": 1.2,
-      "volume": 65
+      "volume": 71
+    },
+    {
+      "time": "2026-09-24T09:05:00",
+      "open": 1.2,
+      "high": 1.2,
+      "low": 1.2,
+      "close": 1.2,
+      "volume": 0
+    },
+    {
+      "time": "2026-09-24T09:10:00",
+      "open": 1.21,
+      "high": 1.2951,
+      "low": 1.21,
+      "close": 1.28,
+      "volume": 308
+    },
+    {
+      "time": "2026-09-24T09:15:00",
+      "open": 1.29,
+      "high": 1.29,
+      "low": 1.272,
+      "close": 1.28,
+      "volume": 11
     }
   ]
 }

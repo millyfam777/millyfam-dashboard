@@ -2,8 +2,8 @@
   "symbol": "CD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-24T10:02:42.546944",
-  "bar_count": 216,
+  "generated_at": "2026-09-24T10:07:39.042866",
+  "bar_count": 217,
   "candles": [
     {
       "time": "2026-09-23T03:00:00",
@@ -1729,9 +1729,17 @@
       "time": "2026-09-24T09:00:00",
       "open": 4.69,
       "high": 4.73,
-      "low": 4.69,
-      "close": 4.73,
-      "volume": 13
+      "low": 4.55,
+      "close": 4.65,
+      "volume": 154
+    },
+    {
+      "time": "2026-09-24T09:05:00",
+      "open": 4.65,
+      "high": 4.65,
+      "low": 4.65,
+      "close": 4.65,
+      "volume": 0
     }
   ]
 }
