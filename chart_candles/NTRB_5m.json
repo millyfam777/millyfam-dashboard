@@ -2,8 +2,8 @@
   "symbol": "NTRB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-24T12:02:11.784098",
-  "bar_count": 160,
+  "generated_at": "2026-09-24T12:07:41.231140",
+  "bar_count": 161,
   "candles": [
     {
       "time": "2026-09-23T08:15:00",
@@ -1280,10 +1280,18 @@
     {
       "time": "2026-09-24T11:00:00",
       "open": 8.16,
-      "high": 8.16,
+      "high": 8.25,
       "low": 8.16,
-      "close": 8.16,
-      "volume": 3
+      "close": 8.2,
+      "volume": 68
+    },
+    {
+      "time": "2026-09-24T11:05:00",
+      "open": 8.2,
+      "high": 8.2,
+      "low": 8.15,
+      "close": 8.15,
+      "volume": 11
     }
   ]
 }
