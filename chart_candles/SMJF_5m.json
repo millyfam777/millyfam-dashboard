@@ -2,8 +2,8 @@
   "symbol": "SMJF",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-24T04:02:04.046072",
-  "bar_count": 193,
+  "generated_at": "2026-09-24T04:12:38.282253",
+  "bar_count": 195,
   "candles": [
     {
       "time": "2026-09-23T03:00:00",
@@ -1544,10 +1544,26 @@
     {
       "time": "2026-09-24T03:00:00",
       "open": 1.6,
-      "high": 1.7216,
+      "high": 1.74,
       "low": 1.5503,
-      "close": 1.5503,
-      "volume": 45
+      "close": 1.7,
+      "volume": 127
+    },
+    {
+      "time": "2026-09-24T03:05:00",
+      "open": 1.563,
+      "high": 1.58,
+      "low": 1.563,
+      "close": 1.58,
+      "volume": 9
+    },
+    {
+      "time": "2026-09-24T03:10:00",
+      "open": 1.58,
+      "high": 1.58,
+      "low": 1.58,
+      "close": 1.58,
+      "volume": 4
     }
   ]
 }
