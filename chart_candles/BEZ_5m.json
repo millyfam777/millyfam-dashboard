@@ -2,8 +2,8 @@
   "symbol": "BEZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-24T11:03:23.014452",
-  "bar_count": 277,
+  "generated_at": "2026-09-24T11:17:43.141866",
+  "bar_count": 280,
   "candles": [
     {
       "time": "2026-09-23T03:00:00",
@@ -2217,9 +2217,33 @@
       "time": "2026-09-24T10:00:00",
       "open": 6.3,
       "high": 6.32,
+      "low": 6.27,
+      "close": 6.27,
+      "volume": 12
+    },
+    {
+      "time": "2026-09-24T10:05:00",
+      "open": 6.29,
+      "high": 6.35,
+      "low": 6.29,
+      "close": 6.33,
+      "volume": 105
+    },
+    {
+      "time": "2026-09-24T10:10:00",
+      "open": 6.35,
+      "high": 6.38,
+      "low": 6.35,
+      "close": 6.37,
+      "volume": 114
+    },
+    {
+      "time": "2026-09-24T10:15:00",
+      "open": 6.36,
+      "high": 6.36,
       "low": 6.3,
-      "close": 6.3,
-      "volume": 11
+      "close": 6.31,
+      "volume": 289
     }
   ]
 }
