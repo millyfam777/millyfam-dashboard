@@ -2,8 +2,8 @@
   "symbol": "WETH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-24T06:32:10.881703",
-  "bar_count": 153,
+  "generated_at": "2026-09-24T06:37:12.457112",
+  "bar_count": 154,
   "candles": [
     {
       "time": "2026-09-23T08:00:00",
@@ -1225,9 +1225,17 @@
       "time": "2026-09-24T05:30:00",
       "open": 1.11,
       "high": 1.11,
-      "low": 1.1,
-      "close": 1.1,
-      "volume": 73
+      "low": 1.08,
+      "close": 1.08,
+      "volume": 83
+    },
+    {
+      "time": "2026-09-24T05:35:00",
+      "open": 1.08,
+      "high": 1.08,
+      "low": 1.08,
+      "close": 1.08,
+      "volume": 0
     }
   ]
 }
