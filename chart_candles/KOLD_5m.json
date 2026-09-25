@@ -2,8 +2,8 @@
   "symbol": "KOLD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-25T10:02:21.933328",
-  "bar_count": 265,
+  "generated_at": "2026-09-25T10:07:12.537067",
+  "bar_count": 266,
   "candles": [
     {
       "time": "2026-09-24T03:00:00",
@@ -2120,10 +2120,18 @@
     {
       "time": "2026-09-25T09:00:00",
       "open": 25.25,
-      "high": 25.28,
+      "high": 25.29,
       "low": 25.08,
-      "close": 25.1,
-      "volume": 724
+      "close": 25.26,
+      "volume": 1049
+    },
+    {
+      "time": "2026-09-25T09:05:00",
+      "open": 25.25,
+      "high": 25.29,
+      "low": 25.24,
+      "close": 25.28,
+      "volume": 366
     }
   ]
 }

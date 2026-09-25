@@ -2,8 +2,8 @@
   "symbol": "IBO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-25T10:02:26.510684",
-  "bar_count": 164,
+  "generated_at": "2026-09-25T10:17:24.330281",
+  "bar_count": 167,
   "candles": [
     {
       "time": "2026-09-24T06:20:00",
@@ -1312,10 +1312,34 @@
     {
       "time": "2026-09-25T09:00:00",
       "open": 6.03,
-      "high": 6.11,
+      "high": 6.25,
       "low": 6.01,
-      "close": 6.11,
+      "close": 6.25,
+      "volume": 5
+    },
+    {
+      "time": "2026-09-25T09:05:00",
+      "open": 6.25,
+      "high": 6.25,
+      "low": 6.25,
+      "close": 6.25,
+      "volume": 0
+    },
+    {
+      "time": "2026-09-25T09:10:00",
+      "open": 6.1,
+      "high": 6.1,
+      "low": 6.09,
+      "close": 6.1,
       "volume": 3
+    },
+    {
+      "time": "2026-09-25T09:15:00",
+      "open": 6.1,
+      "high": 6.1,
+      "low": 6.1,
+      "close": 6.1,
+      "volume": 0
     }
   ]
 }
