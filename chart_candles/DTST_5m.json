@@ -2,8 +2,8 @@
   "symbol": "DTST",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-25T15:18:00.503042",
-  "bar_count": 192,
+  "generated_at": "2026-09-25T15:32:40.785418",
+  "bar_count": 195,
   "candles": [
     {
       "time": "2026-09-24T08:30:00",
@@ -1537,9 +1537,33 @@
       "time": "2026-09-25T14:15:00",
       "open": 3.49,
       "high": 3.49,
-      "low": 3.49,
-      "close": 3.49,
-      "volume": 3
+      "low": 3.31,
+      "close": 3.32,
+      "volume": 51
+    },
+    {
+      "time": "2026-09-25T14:20:00",
+      "open": 3.32,
+      "high": 3.4,
+      "low": 3.31,
+      "close": 3.4,
+      "volume": 45
+    },
+    {
+      "time": "2026-09-25T14:25:00",
+      "open": 3.32,
+      "high": 3.4,
+      "low": 3.32,
+      "close": 3.4,
+      "volume": 6
+    },
+    {
+      "time": "2026-09-25T14:30:00",
+      "open": 3.4,
+      "high": 3.4,
+      "low": 3.4,
+      "close": 3.4,
+      "volume": 10
     }
   ]
 }

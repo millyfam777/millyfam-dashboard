@@ -2,8 +2,8 @@
   "symbol": "RDACR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-25T15:18:34.837050",
-  "bar_count": 174,
+  "generated_at": "2026-09-25T15:23:30.788340",
+  "bar_count": 175,
   "candles": [
     {
       "time": "2026-09-24T10:20:00",
@@ -1392,10 +1392,18 @@
     {
       "time": "2026-09-25T14:15:00",
       "open": 0.1,
+      "high": 0.106,
+      "low": 0.1,
+      "close": 0.106,
+      "volume": 179
+    },
+    {
+      "time": "2026-09-25T14:20:00",
+      "open": 0.1,
       "high": 0.1,
       "low": 0.1,
       "close": 0.1,
-      "volume": 90
+      "volume": 10
     }
   ]
 }
