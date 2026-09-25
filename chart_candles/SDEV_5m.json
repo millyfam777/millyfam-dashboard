@@ -2,8 +2,8 @@
   "symbol": "SDEV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-25T16:17:13.007731",
-  "bar_count": 340,
+  "generated_at": "2026-09-25T16:32:13.048573",
+  "bar_count": 343,
   "candles": [
     {
       "time": "2026-09-24T03:00:00",
@@ -2720,10 +2720,34 @@
     {
       "time": "2026-09-25T15:15:00",
       "open": 1.505,
-      "high": 1.515,
+      "high": 1.54,
       "low": 1.5,
-      "close": 1.515,
-      "volume": 12
+      "close": 1.54,
+      "volume": 33
+    },
+    {
+      "time": "2026-09-25T15:20:00",
+      "open": 1.54,
+      "high": 1.54,
+      "low": 1.5,
+      "close": 1.53,
+      "volume": 20
+    },
+    {
+      "time": "2026-09-25T15:25:00",
+      "open": 1.53,
+      "high": 1.53,
+      "low": 1.52,
+      "close": 1.53,
+      "volume": 38
+    },
+    {
+      "time": "2026-09-25T15:30:00",
+      "open": 1.53,
+      "high": 1.53,
+      "low": 1.5002,
+      "close": 1.52,
+      "volume": 28
     }
   ]
 }
