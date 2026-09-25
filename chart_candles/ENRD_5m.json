@@ -2,8 +2,8 @@
   "symbol": "ENRD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-25T11:17:24.807389",
-  "bar_count": 256,
+  "generated_at": "2026-09-25T11:27:20.516213",
+  "bar_count": 258,
   "candles": [
     {
       "time": "2026-09-24T05:00:00",
@@ -2048,10 +2048,26 @@
     {
       "time": "2026-09-25T10:15:00",
       "open": 4.25,
+      "high": 4.28,
+      "low": 4.2,
+      "close": 4.28,
+      "volume": 166
+    },
+    {
+      "time": "2026-09-25T10:20:00",
+      "open": 4.21,
+      "high": 4.27,
+      "low": 4.15,
+      "close": 4.25,
+      "volume": 30
+    },
+    {
+      "time": "2026-09-25T10:25:00",
+      "open": 4.25,
       "high": 4.25,
       "low": 4.25,
       "close": 4.25,
-      "volume": 22
+      "volume": 1
     }
   ]
 }
