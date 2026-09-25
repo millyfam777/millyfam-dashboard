@@ -2,8 +2,8 @@
   "symbol": "VBIO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-25T04:02:18.338511",
-  "bar_count": 193,
+  "generated_at": "2026-09-25T04:17:26.078075",
+  "bar_count": 196,
   "candles": [
     {
       "time": "2026-09-24T03:00:00",
@@ -1544,10 +1544,34 @@
     {
       "time": "2026-09-25T03:00:00",
       "open": 3.11,
-      "high": 3.25,
+      "high": 3.27,
       "low": 3.09,
-      "close": 3.18,
-      "volume": 29
+      "close": 3.27,
+      "volume": 31
+    },
+    {
+      "time": "2026-09-25T03:05:00",
+      "open": 3.3,
+      "high": 3.31,
+      "low": 3.3,
+      "close": 3.31,
+      "volume": 12
+    },
+    {
+      "time": "2026-09-25T03:10:00",
+      "open": 3.31,
+      "high": 3.4,
+      "low": 3.31,
+      "close": 3.4,
+      "volume": 6
+    },
+    {
+      "time": "2026-09-25T03:15:00",
+      "open": 3.4,
+      "high": 3.4,
+      "low": 3.4,
+      "close": 3.4,
+      "volume": 3
     }
   ]
 }
