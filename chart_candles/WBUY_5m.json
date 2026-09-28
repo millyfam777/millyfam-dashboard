@@ -2,8 +2,8 @@
   "symbol": "WBUY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-28T07:18:32.519076",
-  "bar_count": 232,
+  "generated_at": "2026-09-28T07:28:34.872364",
+  "bar_count": 234,
   "candles": [
     {
       "time": "2026-09-25T03:00:00",
@@ -1858,8 +1858,24 @@
       "open": 1.02,
       "high": 1.0204,
       "low": 1.0,
+      "close": 1.02,
+      "volume": 1591
+    },
+    {
+      "time": "2026-09-28T06:20:00",
+      "open": 1.0198,
+      "high": 1.02,
+      "low": 0.9911,
       "close": 1.0,
-      "volume": 1109
+      "volume": 1235
+    },
+    {
+      "time": "2026-09-28T06:25:00",
+      "open": 1.0,
+      "high": 1.02,
+      "low": 1.0,
+      "close": 1.0002,
+      "volume": 840
     }
   ]
 }
