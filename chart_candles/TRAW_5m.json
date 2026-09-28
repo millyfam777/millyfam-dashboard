@@ -2,8 +2,8 @@
   "symbol": "TRAW",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-28T04:03:00.851825",
-  "bar_count": 193,
+  "generated_at": "2026-09-28T04:08:03.503335",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-09-25T03:00:00",
@@ -1544,10 +1544,18 @@
     {
       "time": "2026-09-28T03:00:00",
       "open": 0.5239,
-      "high": 0.5501,
+      "high": 0.552,
       "low": 0.5105,
-      "close": 0.5501,
-      "volume": 21
+      "close": 0.552,
+      "volume": 30
+    },
+    {
+      "time": "2026-09-28T03:05:00",
+      "open": 0.552,
+      "high": 0.552,
+      "low": 0.552,
+      "close": 0.552,
+      "volume": 0
     }
   ]
 }
