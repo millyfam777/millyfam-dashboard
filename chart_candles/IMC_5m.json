@@ -2,8 +2,8 @@
   "symbol": "IMC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-28T09:57:07.295720",
-  "bar_count": 158,
+  "generated_at": "2026-09-28T10:12:16.806944",
+  "bar_count": 161,
   "candles": [
     {
       "time": "2026-09-25T08:50:00",
@@ -1264,10 +1264,34 @@
     {
       "time": "2026-09-28T08:55:00",
       "open": 7.13,
-      "high": 7.15,
-      "low": 7.13,
+      "high": 7.84,
+      "low": 7.11,
+      "close": 7.28,
+      "volume": 56
+    },
+    {
+      "time": "2026-09-28T09:00:00",
+      "open": 7.48,
+      "high": 7.84,
+      "low": 7.15,
       "close": 7.15,
-      "volume": 4
+      "volume": 43
+    },
+    {
+      "time": "2026-09-28T09:05:00",
+      "open": 7.24,
+      "high": 7.3,
+      "low": 7.24,
+      "close": 7.24,
+      "volume": 12
+    },
+    {
+      "time": "2026-09-28T09:10:00",
+      "open": 7.27,
+      "high": 7.27,
+      "low": 7.23,
+      "close": 7.23,
+      "volume": 2
     }
   ]
 }
