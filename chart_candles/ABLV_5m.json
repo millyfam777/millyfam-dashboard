@@ -2,8 +2,8 @@
   "symbol": "ABLV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-28T11:32:46.329813",
-  "bar_count": 253,
+  "generated_at": "2026-09-28T11:42:41.574096",
+  "bar_count": 255,
   "candles": [
     {
       "time": "2026-09-25T05:30:00",
@@ -2025,9 +2025,25 @@
       "time": "2026-09-28T10:30:00",
       "open": 1.46,
       "high": 1.4904,
-      "low": 1.46,
-      "close": 1.4904,
-      "volume": 8
+      "low": 1.42,
+      "close": 1.42,
+      "volume": 20
+    },
+    {
+      "time": "2026-09-28T10:35:00",
+      "open": 1.49,
+      "high": 1.49,
+      "low": 1.49,
+      "close": 1.49,
+      "volume": 5
+    },
+    {
+      "time": "2026-09-28T10:40:00",
+      "open": 1.48,
+      "high": 1.48,
+      "low": 1.43,
+      "close": 1.43,
+      "volume": 3
     }
   ]
 }
