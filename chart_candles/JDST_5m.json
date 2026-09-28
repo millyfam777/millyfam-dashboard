@@ -2,8 +2,8 @@
   "symbol": "JDST",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-28T09:47:50.545746",
-  "bar_count": 254,
+  "generated_at": "2026-09-28T09:52:22.947359",
+  "bar_count": 255,
   "candles": [
     {
       "time": "2026-09-25T03:40:00",
@@ -2033,9 +2033,17 @@
       "time": "2026-09-28T08:45:00",
       "open": 24.6,
       "high": 24.6,
+      "low": 24.39,
+      "close": 24.51,
+      "volume": 89
+    },
+    {
+      "time": "2026-09-28T08:50:00",
+      "open": 24.45,
+      "high": 24.53,
       "low": 24.45,
       "close": 24.5,
-      "volume": 56
+      "volume": 16
     }
   ]
 }
