@@ -2,8 +2,8 @@
   "symbol": "YDES",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-28T13:03:03.399566",
-  "bar_count": 300,
+  "generated_at": "2026-09-28T13:18:03.962188",
+  "bar_count": 303,
   "candles": [
     {
       "time": "2026-09-25T03:00:00",
@@ -2400,10 +2400,34 @@
     {
       "time": "2026-09-28T12:00:00",
       "open": 6.78,
-      "high": 6.82,
+      "high": 6.86,
       "low": 6.78,
-      "close": 6.82,
-      "volume": 14
+      "close": 6.795,
+      "volume": 16
+    },
+    {
+      "time": "2026-09-28T12:05:00",
+      "open": 6.7672,
+      "high": 6.84,
+      "low": 6.7672,
+      "close": 6.84,
+      "volume": 5
+    },
+    {
+      "time": "2026-09-28T12:10:00",
+      "open": 6.85,
+      "high": 6.88,
+      "low": 6.7345,
+      "close": 6.88,
+      "volume": 13
+    },
+    {
+      "time": "2026-09-28T12:15:00",
+      "open": 6.86,
+      "high": 6.86,
+      "low": 6.86,
+      "close": 6.86,
+      "volume": 1
     }
   ]
 }
