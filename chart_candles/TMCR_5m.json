@@ -2,8 +2,8 @@
   "symbol": "TMCR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-28T12:48:17.898305",
-  "bar_count": 167,
+  "generated_at": "2026-09-28T13:03:10.106101",
+  "bar_count": 170,
   "candles": [
     {
       "time": "2026-09-25T08:50:00",
@@ -1336,10 +1336,34 @@
     {
       "time": "2026-09-28T11:45:00",
       "open": 4.84,
+      "high": 4.9,
+      "low": 4.84,
+      "close": 4.9,
+      "volume": 19
+    },
+    {
+      "time": "2026-09-28T11:50:00",
+      "open": 4.87,
       "high": 4.88,
       "low": 4.84,
       "close": 4.85,
-      "volume": 16
+      "volume": 42
+    },
+    {
+      "time": "2026-09-28T11:55:00",
+      "open": 4.85,
+      "high": 5.1,
+      "low": 4.81,
+      "close": 4.93,
+      "volume": 76
+    },
+    {
+      "time": "2026-09-28T12:00:00",
+      "open": 4.92,
+      "high": 4.92,
+      "low": 4.6,
+      "close": 4.73,
+      "volume": 118
     }
   ]
 }
