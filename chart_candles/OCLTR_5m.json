@@ -2,8 +2,8 @@
   "symbol": "OCLTR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-29T15:17:49.165654",
-  "bar_count": 208,
+  "generated_at": "2026-09-29T15:27:19.099216",
+  "bar_count": 210,
   "candles": [
     {
       "time": "2026-09-28T08:45:00",
@@ -1664,10 +1664,26 @@
     {
       "time": "2026-09-29T14:15:00",
       "open": 0.1709,
-      "high": 0.172,
+      "high": 0.175,
+      "low": 0.17,
+      "close": 0.1725,
+      "volume": 77
+    },
+    {
+      "time": "2026-09-29T14:20:00",
+      "open": 0.1704,
+      "high": 0.1704,
       "low": 0.17,
       "close": 0.17,
-      "volume": 24
+      "volume": 23
+    },
+    {
+      "time": "2026-09-29T14:25:00",
+      "open": 0.17,
+      "high": 0.17,
+      "low": 0.17,
+      "close": 0.17,
+      "volume": 0
     }
   ]
 }
