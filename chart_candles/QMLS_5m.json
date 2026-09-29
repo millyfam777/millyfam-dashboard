@@ -2,8 +2,8 @@
   "symbol": "QMLS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-29T09:18:06.643066",
-  "bar_count": 223,
+  "generated_at": "2026-09-29T09:32:49.406514",
+  "bar_count": 226,
   "candles": [
     {
       "time": "2026-09-28T03:10:00",
@@ -1784,10 +1784,34 @@
     {
       "time": "2026-09-29T08:15:00",
       "open": 7.6,
-      "high": 7.84,
+      "high": 8.0,
       "low": 7.34,
-      "close": 7.76,
-      "volume": 530
+      "close": 7.63,
+      "volume": 882
+    },
+    {
+      "time": "2026-09-29T08:20:00",
+      "open": 7.63,
+      "high": 8.2,
+      "low": 7.49,
+      "close": 8.14,
+      "volume": 1096
+    },
+    {
+      "time": "2026-09-29T08:25:00",
+      "open": 8.09,
+      "high": 8.36,
+      "low": 7.95,
+      "close": 8.16,
+      "volume": 1069
+    },
+    {
+      "time": "2026-09-29T08:30:00",
+      "open": 8.15,
+      "high": 8.2,
+      "low": 6.79,
+      "close": 7.05,
+      "volume": 1941
     }
   ]
 }
