@@ -2,8 +2,8 @@
   "symbol": "ALDX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-29T16:02:23.647384",
-  "bar_count": 337,
+  "generated_at": "2026-09-29T16:07:24.412241",
+  "bar_count": 338,
   "candles": [
     {
       "time": "2026-09-28T03:00:00",
@@ -2696,10 +2696,18 @@
     {
       "time": "2026-09-29T15:00:00",
       "open": 1.32,
-      "high": 1.33,
+      "high": 1.4,
       "low": 1.32,
-      "close": 1.33,
-      "volume": 123
+      "close": 1.4,
+      "volume": 125
+    },
+    {
+      "time": "2026-09-29T15:05:00",
+      "open": 1.4,
+      "high": 1.4,
+      "low": 1.4,
+      "close": 1.4,
+      "volume": 2
     }
   ]
 }
