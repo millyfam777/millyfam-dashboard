@@ -2,8 +2,8 @@
   "symbol": "FLX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-29T10:18:06.657556",
-  "bar_count": 256,
+  "generated_at": "2026-09-29T10:34:52.999895",
+  "bar_count": 259,
   "candles": [
     {
       "time": "2026-09-28T03:00:00",
@@ -2049,9 +2049,33 @@
       "time": "2026-09-29T09:15:00",
       "open": 1.65,
       "high": 1.655,
+      "low": 1.6201,
+      "close": 1.63,
+      "volume": 28
+    },
+    {
+      "time": "2026-09-29T09:20:00",
+      "open": 1.63,
+      "high": 1.64,
+      "low": 1.63,
+      "close": 1.64,
+      "volume": 14
+    },
+    {
+      "time": "2026-09-29T09:25:00",
+      "open": 1.64,
+      "high": 1.64,
       "low": 1.64,
       "close": 1.64,
-      "volume": 16
+      "volume": 0
+    },
+    {
+      "time": "2026-09-29T09:30:00",
+      "open": 1.64,
+      "high": 1.64,
+      "low": 1.63,
+      "close": 1.63,
+      "volume": 11
     }
   ]
 }
