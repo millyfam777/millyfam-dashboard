@@ -2,8 +2,8 @@
   "symbol": "ONFO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-29T04:02:05.621063",
-  "bar_count": 193,
+  "generated_at": "2026-09-29T04:07:08.588453",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-09-28T03:00:00",
@@ -1545,9 +1545,17 @@
       "time": "2026-09-29T03:00:00",
       "open": 1.06,
       "high": 1.2,
-      "low": 1.01,
-      "close": 1.04,
-      "volume": 1856
+      "low": 0.95,
+      "close": 0.9803,
+      "volume": 2615
+    },
+    {
+      "time": "2026-09-29T03:05:00",
+      "open": 0.97,
+      "high": 1.1,
+      "low": 0.9612,
+      "close": 0.9765,
+      "volume": 335
     }
   ]
 }
