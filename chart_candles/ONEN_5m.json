@@ -2,8 +2,8 @@
   "symbol": "ONEN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-29T13:02:17.203695",
-  "bar_count": 301,
+  "generated_at": "2026-09-29T13:12:06.004552",
+  "bar_count": 303,
   "candles": [
     {
       "time": "2026-09-28T03:00:00",
@@ -2407,11 +2407,27 @@
     },
     {
       "time": "2026-09-29T12:00:00",
-      "open": 2.43,
+      "open": 2.42,
       "high": 2.43,
-      "low": 2.43,
-      "close": 2.43,
-      "volume": 0
+      "low": 2.42,
+      "close": 2.425,
+      "volume": 31
+    },
+    {
+      "time": "2026-09-29T12:05:00",
+      "open": 2.4211,
+      "high": 2.425,
+      "low": 2.41,
+      "close": 2.41,
+      "volume": 15
+    },
+    {
+      "time": "2026-09-29T12:10:00",
+      "open": 2.36,
+      "high": 2.41,
+      "low": 2.36,
+      "close": 2.36,
+      "volume": 36
     }
   ]
 }
