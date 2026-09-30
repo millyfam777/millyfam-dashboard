@@ -2,8 +2,8 @@
   "symbol": "VIOT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-30T12:02:10.894742",
-  "bar_count": 233,
+  "generated_at": "2026-09-30T12:12:13.003480",
+  "bar_count": 235,
   "candles": [
     {
       "time": "2026-09-29T03:00:00",
@@ -1864,10 +1864,26 @@
     {
       "time": "2026-09-30T11:00:00",
       "open": 1.65,
+      "high": 1.6588,
+      "low": 1.65,
+      "close": 1.65,
+      "volume": 266
+    },
+    {
+      "time": "2026-09-30T11:05:00",
+      "open": 1.65,
       "high": 1.65,
       "low": 1.65,
       "close": 1.65,
-      "volume": 7
+      "volume": 0
+    },
+    {
+      "time": "2026-09-30T11:10:00",
+      "open": 1.66,
+      "high": 1.665,
+      "low": 1.66,
+      "close": 1.665,
+      "volume": 20
     }
   ]
 }
