@@ -2,8 +2,8 @@
   "symbol": "IPST",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-30T10:02:52.902856",
-  "bar_count": 234,
+  "generated_at": "2026-09-30T10:12:43.318777",
+  "bar_count": 236,
   "candles": [
     {
       "time": "2026-09-29T05:35:00",
@@ -1872,10 +1872,26 @@
     {
       "time": "2026-09-30T09:00:00",
       "open": 3.42,
-      "high": 3.4268,
+      "high": 3.45,
       "low": 3.42,
-      "close": 3.42,
-      "volume": 6
+      "close": 3.43,
+      "volume": 24
+    },
+    {
+      "time": "2026-09-30T09:05:00",
+      "open": 3.45,
+      "high": 3.45,
+      "low": 3.2649,
+      "close": 3.35,
+      "volume": 46
+    },
+    {
+      "time": "2026-09-30T09:10:00",
+      "open": 3.3306,
+      "high": 3.38,
+      "low": 3.3306,
+      "close": 3.34,
+      "volume": 16
     }
   ]
 }
