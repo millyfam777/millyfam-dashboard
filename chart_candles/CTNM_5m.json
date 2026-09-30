@@ -2,8 +2,8 @@
   "symbol": "CTNM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-30T12:17:12.202989",
-  "bar_count": 290,
+  "generated_at": "2026-09-30T12:22:08.209923",
+  "bar_count": 291,
   "candles": [
     {
       "time": "2026-09-29T03:05:00",
@@ -2319,11 +2319,19 @@
     },
     {
       "time": "2026-09-30T11:15:00",
-      "open": 12.99,
-      "high": 12.99,
-      "low": 12.99,
+      "open": 12.98,
+      "high": 13.0,
+      "low": 12.98,
       "close": 12.99,
-      "volume": 0
+      "volume": 12
+    },
+    {
+      "time": "2026-09-30T11:20:00",
+      "open": 12.98,
+      "high": 12.98,
+      "low": 12.93,
+      "close": 12.93,
+      "volume": 24
     }
   ]
 }
