@@ -2,8 +2,8 @@
   "symbol": "DMRC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-30T12:47:18.734603",
-  "bar_count": 170,
+  "generated_at": "2026-09-30T13:02:43.926801",
+  "bar_count": 173,
   "candles": [
     {
       "time": "2026-09-29T08:30:00",
@@ -1360,10 +1360,34 @@
     {
       "time": "2026-09-30T11:45:00",
       "open": 5.6,
-      "high": 5.6,
+      "high": 5.75,
       "low": 5.6,
-      "close": 5.6,
-      "volume": 1
+      "close": 5.75,
+      "volume": 38
+    },
+    {
+      "time": "2026-09-30T11:50:00",
+      "open": 5.74,
+      "high": 5.88,
+      "low": 5.72,
+      "close": 5.83,
+      "volume": 153
+    },
+    {
+      "time": "2026-09-30T11:55:00",
+      "open": 5.83,
+      "high": 5.87,
+      "low": 5.78,
+      "close": 5.81,
+      "volume": 29
+    },
+    {
+      "time": "2026-09-30T12:00:00",
+      "open": 5.79,
+      "high": 5.83,
+      "low": 5.79,
+      "close": 5.81,
+      "volume": 6
     }
   ]
 }
