@@ -2,8 +2,8 @@
   "symbol": "GOW",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-30T11:02:57.588430",
-  "bar_count": 277,
+  "generated_at": "2026-09-30T11:07:20.763456",
+  "bar_count": 278,
   "candles": [
     {
       "time": "2026-09-29T03:00:00",
@@ -2216,10 +2216,18 @@
     {
       "time": "2026-09-30T10:00:00",
       "open": 2.0,
-      "high": 2.0499,
+      "high": 2.1,
       "low": 2.0,
-      "close": 2.01,
-      "volume": 129
+      "close": 2.05,
+      "volume": 156
+    },
+    {
+      "time": "2026-09-30T10:05:00",
+      "open": 2.0046,
+      "high": 2.05,
+      "low": 2.0,
+      "close": 2.05,
+      "volume": 9
     }
   ]
 }
