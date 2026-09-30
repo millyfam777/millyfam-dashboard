@@ -2,8 +2,8 @@
   "symbol": "PWCM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-30T19:02:07.016905",
-  "bar_count": 341,
+  "generated_at": "2026-09-30T19:17:07.190526",
+  "bar_count": 344,
   "candles": [
     {
       "time": "2026-09-29T05:40:00",
@@ -2729,9 +2729,33 @@
       "time": "2026-09-30T18:00:00",
       "open": 1.1703,
       "high": 1.18,
-      "low": 1.17,
-      "close": 1.17,
-      "volume": 52
+      "low": 1.14,
+      "close": 1.14,
+      "volume": 351
+    },
+    {
+      "time": "2026-09-30T18:05:00",
+      "open": 1.14,
+      "high": 1.14,
+      "low": 1.09,
+      "close": 1.1,
+      "volume": 471
+    },
+    {
+      "time": "2026-09-30T18:10:00",
+      "open": 1.1,
+      "high": 1.12,
+      "low": 1.09,
+      "close": 1.12,
+      "volume": 74
+    },
+    {
+      "time": "2026-09-30T18:15:00",
+      "open": 1.12,
+      "high": 1.13,
+      "low": 1.12,
+      "close": 1.12,
+      "volume": 15
     }
   ]
 }
