@@ -2,8 +2,8 @@
   "symbol": "AIFF",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-30T04:03:16.506609",
-  "bar_count": 193,
+  "generated_at": "2026-09-30T04:08:21.034704",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-09-29T03:00:00",
@@ -1544,10 +1544,18 @@
     {
       "time": "2026-09-30T03:00:00",
       "open": 1.58,
-      "high": 1.58,
+      "high": 1.63,
       "low": 1.5703,
-      "close": 1.5703,
-      "volume": 3
+      "close": 1.5895,
+      "volume": 12
+    },
+    {
+      "time": "2026-09-30T03:05:00",
+      "open": 1.58,
+      "high": 1.59,
+      "low": 1.56,
+      "close": 1.57,
+      "volume": 65
     }
   ]
 }

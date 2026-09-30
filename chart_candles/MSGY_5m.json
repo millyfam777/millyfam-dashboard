@@ -2,8 +2,8 @@
   "symbol": "MSGY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-30T04:02:03.084875",
-  "bar_count": 193,
+  "generated_at": "2026-09-30T04:17:15.737543",
+  "bar_count": 196,
   "candles": [
     {
       "time": "2026-09-29T03:00:00",
@@ -1544,10 +1544,34 @@
     {
       "time": "2026-09-30T03:00:00",
       "open": 4.6669,
-      "high": 5.05,
+      "high": 5.11,
       "low": 4.43,
-      "close": 4.78,
-      "volume": 196
+      "close": 4.75,
+      "volume": 408
+    },
+    {
+      "time": "2026-09-30T03:05:00",
+      "open": 4.71,
+      "high": 4.76,
+      "low": 4.7,
+      "close": 4.7,
+      "volume": 79
+    },
+    {
+      "time": "2026-09-30T03:10:00",
+      "open": 4.7,
+      "high": 4.76,
+      "low": 4.69,
+      "close": 4.76,
+      "volume": 137
+    },
+    {
+      "time": "2026-09-30T03:15:00",
+      "open": 4.74,
+      "high": 4.75,
+      "low": 4.74,
+      "close": 4.75,
+      "volume": 3
     }
   ]
 }
