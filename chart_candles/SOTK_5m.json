@@ -2,8 +2,8 @@
   "symbol": "SOTK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-30T09:48:35.622802",
-  "bar_count": 160,
+  "generated_at": "2026-09-30T10:03:30.894053",
+  "bar_count": 163,
   "candles": [
     {
       "time": "2026-09-29T08:30:00",
@@ -1280,10 +1280,34 @@
     {
       "time": "2026-09-30T08:45:00",
       "open": 6.11,
-      "high": 6.18,
+      "high": 6.38,
       "low": 6.1,
+      "close": 6.24,
+      "volume": 266
+    },
+    {
+      "time": "2026-09-30T08:50:00",
+      "open": 6.33,
+      "high": 6.34,
+      "low": 6.07,
+      "close": 6.19,
+      "volume": 329
+    },
+    {
+      "time": "2026-09-30T08:55:00",
+      "open": 6.2,
+      "high": 6.25,
+      "low": 6.15,
       "close": 6.15,
-      "volume": 52
+      "volume": 180
+    },
+    {
+      "time": "2026-09-30T09:00:00",
+      "open": 6.15,
+      "high": 6.25,
+      "low": 6.1,
+      "close": 6.17,
+      "volume": 114
     }
   ]
 }
