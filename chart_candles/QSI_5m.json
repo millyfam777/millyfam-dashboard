@@ -2,8 +2,8 @@
   "symbol": "QSI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-30T13:02:10.145382",
-  "bar_count": 301,
+  "generated_at": "2026-09-30T13:07:07.971139",
+  "bar_count": 302,
   "candles": [
     {
       "time": "2026-09-29T03:00:00",
@@ -2409,9 +2409,17 @@
       "time": "2026-09-30T12:00:00",
       "open": 1.0805,
       "high": 1.09,
-      "low": 1.08,
-      "close": 1.085,
-      "volume": 104
+      "low": 1.0701,
+      "close": 1.075,
+      "volume": 2038
+    },
+    {
+      "time": "2026-09-30T12:05:00",
+      "open": 1.0799,
+      "high": 1.0799,
+      "low": 1.075,
+      "close": 1.075,
+      "volume": 92
     }
   ]
 }
