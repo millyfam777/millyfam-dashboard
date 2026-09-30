@@ -2,8 +2,8 @@
   "symbol": "FBDT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-30T17:32:46.125167",
-  "bar_count": 355,
+  "generated_at": "2026-09-30T17:47:45.137725",
+  "bar_count": 358,
   "candles": [
     {
       "time": "2026-09-29T03:00:00",
@@ -2840,10 +2840,34 @@
     {
       "time": "2026-09-30T16:30:00",
       "open": 1.05,
+      "high": 1.06,
+      "low": 1.05,
+      "close": 1.06,
+      "volume": 43
+    },
+    {
+      "time": "2026-09-30T16:35:00",
+      "open": 1.05,
       "high": 1.05,
       "low": 1.05,
       "close": 1.05,
-      "volume": 38
+      "volume": 9
+    },
+    {
+      "time": "2026-09-30T16:40:00",
+      "open": 1.05,
+      "high": 1.06,
+      "low": 1.05,
+      "close": 1.06,
+      "volume": 5
+    },
+    {
+      "time": "2026-09-30T16:45:00",
+      "open": 1.06,
+      "high": 1.06,
+      "low": 1.06,
+      "close": 1.06,
+      "volume": 0
     }
   ]
 }
