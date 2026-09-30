@@ -2,8 +2,8 @@
   "symbol": "VNDA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-30T06:17:36.424112",
-  "bar_count": 208,
+  "generated_at": "2026-09-30T06:32:35.271088",
+  "bar_count": 211,
   "candles": [
     {
       "time": "2026-09-29T04:00:00",
@@ -1665,9 +1665,33 @@
       "time": "2026-09-30T05:15:00",
       "open": 5.4,
       "high": 5.4,
+      "low": 5.38,
+      "close": 5.39,
+      "volume": 27
+    },
+    {
+      "time": "2026-09-30T05:20:00",
+      "open": 5.41,
+      "high": 5.45,
       "low": 5.4,
       "close": 5.4,
-      "volume": 1
+      "volume": 98
+    },
+    {
+      "time": "2026-09-30T05:25:00",
+      "open": 5.37,
+      "high": 5.38,
+      "low": 5.37,
+      "close": 5.38,
+      "volume": 32
+    },
+    {
+      "time": "2026-09-30T05:30:00",
+      "open": 5.38,
+      "high": 5.38,
+      "low": 5.33,
+      "close": 5.34,
+      "volume": 16
     }
   ]
 }
