@@ -2,8 +2,8 @@
   "symbol": "REKR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-09-30T07:32:09.815696",
-  "bar_count": 235,
+  "generated_at": "2026-09-30T07:37:08.590685",
+  "bar_count": 236,
   "candles": [
     {
       "time": "2026-09-29T03:00:00",
@@ -1880,10 +1880,18 @@
     {
       "time": "2026-09-30T06:30:00",
       "open": 0.3891,
-      "high": 0.3891,
+      "high": 0.39,
       "low": 0.3887,
-      "close": 0.3887,
-      "volume": 2
+      "close": 0.39,
+      "volume": 24
+    },
+    {
+      "time": "2026-09-30T06:35:00",
+      "open": 0.3989,
+      "high": 0.3989,
+      "low": 0.39,
+      "close": 0.39,
+      "volume": 21
     }
   ]
 }
