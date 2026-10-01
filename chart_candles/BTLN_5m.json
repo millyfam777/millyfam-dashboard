@@ -2,8 +2,8 @@
   "symbol": "BTLN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-01T11:02:34.527504",
-  "bar_count": 145,
+  "generated_at": "2026-10-01T11:07:12.478328",
+  "bar_count": 146,
   "candles": [
     {
       "time": "2026-09-30T08:30:00",
@@ -1161,9 +1161,17 @@
       "time": "2026-10-01T10:00:00",
       "open": 5.69,
       "high": 5.69,
-      "low": 5.51,
-      "close": 5.57,
-      "volume": 9
+      "low": 5.41,
+      "close": 5.41,
+      "volume": 10
+    },
+    {
+      "time": "2026-10-01T10:05:00",
+      "open": 5.41,
+      "high": 5.41,
+      "low": 5.4,
+      "close": 5.4,
+      "volume": 2
     }
   ]
 }
