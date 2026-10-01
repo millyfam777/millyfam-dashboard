@@ -2,8 +2,8 @@
   "symbol": "TDAY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-01T10:32:57.289624",
-  "bar_count": 168,
+  "generated_at": "2026-10-01T10:47:34.612573",
+  "bar_count": 171,
   "candles": [
     {
       "time": "2026-09-30T08:30:00",
@@ -1346,8 +1346,32 @@
       "open": 7.05,
       "high": 7.05,
       "low": 7.02,
-      "close": 7.045,
-      "volume": 240
+      "close": 7.04,
+      "volume": 316
+    },
+    {
+      "time": "2026-10-01T09:35:00",
+      "open": 7.045,
+      "high": 7.055,
+      "low": 7.025,
+      "close": 7.035,
+      "volume": 216
+    },
+    {
+      "time": "2026-10-01T09:40:00",
+      "open": 7.035,
+      "high": 7.035,
+      "low": 6.9405,
+      "close": 6.955,
+      "volume": 453
+    },
+    {
+      "time": "2026-10-01T09:45:00",
+      "open": 6.95,
+      "high": 6.992,
+      "low": 6.9,
+      "close": 6.965,
+      "volume": 1029
     }
   ]
 }

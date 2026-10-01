@@ -2,8 +2,8 @@
   "symbol": "COHH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-01T10:33:09.422096",
-  "bar_count": 271,
+  "generated_at": "2026-10-01T10:48:16.928648",
+  "bar_count": 274,
   "candles": [
     {
       "time": "2026-09-30T03:00:00",
@@ -2168,10 +2168,34 @@
     {
       "time": "2026-10-01T09:30:00",
       "open": 6.48,
-      "high": 6.5,
+      "high": 6.56,
       "low": 6.43,
-      "close": 6.48,
-      "volume": 713
+      "close": 6.55,
+      "volume": 991
+    },
+    {
+      "time": "2026-10-01T09:35:00",
+      "open": 6.56,
+      "high": 6.67,
+      "low": 6.52,
+      "close": 6.59,
+      "volume": 1234
+    },
+    {
+      "time": "2026-10-01T09:40:00",
+      "open": 6.61,
+      "high": 6.61,
+      "low": 6.5,
+      "close": 6.6,
+      "volume": 873
+    },
+    {
+      "time": "2026-10-01T09:45:00",
+      "open": 6.59,
+      "high": 6.7,
+      "low": 6.54,
+      "close": 6.56,
+      "volume": 662
     }
   ]
 }
