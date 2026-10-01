@@ -2,8 +2,8 @@
   "symbol": "CMCT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-01T12:02:11.191557",
-  "bar_count": 223,
+  "generated_at": "2026-10-01T12:12:17.656816",
+  "bar_count": 225,
   "candles": [
     {
       "time": "2026-09-30T08:30:00",
@@ -1785,9 +1785,25 @@
       "time": "2026-10-01T11:00:00",
       "open": 3.345,
       "high": 3.3899,
-      "low": 3.345,
-      "close": 3.37,
-      "volume": 72
+      "low": 3.2,
+      "close": 3.22,
+      "volume": 125
+    },
+    {
+      "time": "2026-10-01T11:05:00",
+      "open": 3.25,
+      "high": 3.2899,
+      "low": 3.2402,
+      "close": 3.2402,
+      "volume": 5
+    },
+    {
+      "time": "2026-10-01T11:10:00",
+      "open": 3.29,
+      "high": 3.29,
+      "low": 3.2838,
+      "close": 3.2838,
+      "volume": 6
     }
   ]
 }
