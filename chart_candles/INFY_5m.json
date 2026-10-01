@@ -2,8 +2,8 @@
   "symbol": "INFY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-01T09:17:27.360839",
-  "bar_count": 256,
+  "generated_at": "2026-10-01T09:27:20.372777",
+  "bar_count": 258,
   "candles": [
     {
       "time": "2026-09-30T03:00:00",
@@ -2049,9 +2049,25 @@
       "time": "2026-10-01T08:15:00",
       "open": 11.63,
       "high": 11.63,
-      "low": 11.63,
-      "close": 11.63,
-      "volume": 1
+      "low": 11.59,
+      "close": 11.59,
+      "volume": 10
+    },
+    {
+      "time": "2026-10-01T08:20:00",
+      "open": 11.6,
+      "high": 11.63,
+      "low": 11.45,
+      "close": 11.45,
+      "volume": 631
+    },
+    {
+      "time": "2026-10-01T08:25:00",
+      "open": 11.5,
+      "high": 11.5,
+      "low": 11.5,
+      "close": 11.5,
+      "volume": 452
     }
   ]
 }
