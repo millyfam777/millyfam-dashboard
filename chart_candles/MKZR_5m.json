@@ -2,8 +2,8 @@
   "symbol": "MKZR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-01T06:02:33.960960",
-  "bar_count": 148,
+  "generated_at": "2026-10-01T06:07:33.302189",
+  "bar_count": 149,
   "candles": [
     {
       "time": "2026-09-30T08:45:00",
@@ -1184,10 +1184,18 @@
     {
       "time": "2026-10-01T05:00:00",
       "open": 1.41,
-      "high": 1.41,
+      "high": 1.56,
+      "low": 1.41,
+      "close": 1.56,
+      "volume": 14
+    },
+    {
+      "time": "2026-10-01T05:05:00",
+      "open": 1.5304,
+      "high": 1.5304,
       "low": 1.41,
       "close": 1.41,
-      "volume": 1
+      "volume": 5
     }
   ]
 }
