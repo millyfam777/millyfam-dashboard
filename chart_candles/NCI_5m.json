@@ -2,8 +2,8 @@
   "symbol": "NCI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-01T04:02:55.790934",
-  "bar_count": 193,
+  "generated_at": "2026-10-01T04:08:00.500378",
+  "bar_count": 194,
   "candles": [
     {
       "time": "2026-09-30T03:00:00",
@@ -1544,10 +1544,18 @@
     {
       "time": "2026-10-01T03:00:00",
       "open": 1.11,
-      "high": 1.19,
+      "high": 1.2,
       "low": 1.07,
-      "close": 1.14,
-      "volume": 233
+      "close": 1.12,
+      "volume": 296
+    },
+    {
+      "time": "2026-10-01T03:05:00",
+      "open": 1.12,
+      "high": 1.1724,
+      "low": 1.12,
+      "close": 1.1724,
+      "volume": 35
     }
   ]
 }
