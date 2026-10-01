@@ -2,8 +2,8 @@
   "symbol": "VICR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-01T11:17:03.328283",
-  "bar_count": 255,
+  "generated_at": "2026-10-01T11:22:06.629635",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-09-30T05:05:00",
@@ -2041,9 +2041,17 @@
       "time": "2026-10-01T10:15:00",
       "open": 320.89,
       "high": 321.95,
-      "low": 320.88,
-      "close": 321.6,
-      "volume": 19
+      "low": 319.79,
+      "close": 320.58,
+      "volume": 68
+    },
+    {
+      "time": "2026-10-01T10:20:00",
+      "open": 320.43,
+      "high": 320.53,
+      "low": 319.22,
+      "close": 319.84,
+      "volume": 40
     }
   ]
 }
