@@ -2,8 +2,8 @@
   "symbol": "RZAI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-01T16:17:46.895183",
-  "bar_count": 340,
+  "generated_at": "2026-10-01T16:32:47.059386",
+  "bar_count": 343,
   "candles": [
     {
       "time": "2026-09-30T03:00:00",
@@ -2721,9 +2721,33 @@
       "time": "2026-10-01T15:15:00",
       "open": 24.39,
       "high": 24.5,
-      "low": 24.0,
-      "close": 24.0,
-      "volume": 11
+      "low": 22.0,
+      "close": 22.54,
+      "volume": 22
+    },
+    {
+      "time": "2026-10-01T15:20:00",
+      "open": 23.8,
+      "high": 23.8,
+      "low": 23.8,
+      "close": 23.8,
+      "volume": 1
+    },
+    {
+      "time": "2026-10-01T15:25:00",
+      "open": 23.75,
+      "high": 24.1,
+      "low": 23.75,
+      "close": 24.1,
+      "volume": 2
+    },
+    {
+      "time": "2026-10-01T15:30:00",
+      "open": 24.1,
+      "high": 24.1,
+      "low": 24.1,
+      "close": 24.1,
+      "volume": 0
     }
   ]
 }
