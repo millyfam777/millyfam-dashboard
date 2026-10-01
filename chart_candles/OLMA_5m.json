@@ -2,8 +2,8 @@
   "symbol": "OLMA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-01T08:02:56.430497",
-  "bar_count": 235,
+  "generated_at": "2026-10-01T08:07:54.173787",
+  "bar_count": 236,
   "candles": [
     {
       "time": "2026-09-30T03:30:00",
@@ -1880,10 +1880,18 @@
     {
       "time": "2026-10-01T07:00:00",
       "open": 8.6,
-      "high": 8.6,
+      "high": 8.65,
       "low": 8.6,
-      "close": 8.6,
-      "volume": 20
+      "close": 8.65,
+      "volume": 32
+    },
+    {
+      "time": "2026-10-01T07:05:00",
+      "open": 8.65,
+      "high": 8.65,
+      "low": 8.65,
+      "close": 8.65,
+      "volume": 0
     }
   ]
 }
