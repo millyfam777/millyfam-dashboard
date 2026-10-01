@@ -2,8 +2,8 @@
   "symbol": "INSG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-01T12:47:57.395393",
-  "bar_count": 255,
+  "generated_at": "2026-10-01T13:03:04.621018",
+  "bar_count": 258,
   "candles": [
     {
       "time": "2026-09-30T06:35:00",
@@ -2040,10 +2040,34 @@
     {
       "time": "2026-10-01T11:45:00",
       "open": 4.38,
-      "high": 4.41,
+      "high": 4.415,
       "low": 4.36,
-      "close": 4.41,
-      "volume": 259
+      "close": 4.4,
+      "volume": 285
+    },
+    {
+      "time": "2026-10-01T11:50:00",
+      "open": 4.4,
+      "high": 4.41,
+      "low": 4.385,
+      "close": 4.39,
+      "volume": 128
+    },
+    {
+      "time": "2026-10-01T11:55:00",
+      "open": 4.38,
+      "high": 4.4,
+      "low": 4.36,
+      "close": 4.4,
+      "volume": 138
+    },
+    {
+      "time": "2026-10-01T12:00:00",
+      "open": 4.4015,
+      "high": 4.42,
+      "low": 4.4,
+      "close": 4.42,
+      "volume": 64
     }
   ]
 }
