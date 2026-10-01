@@ -2,8 +2,8 @@
   "symbol": "LONA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-01T13:02:39.629929",
-  "bar_count": 251,
+  "generated_at": "2026-10-01T13:17:55.061375",
+  "bar_count": 254,
   "candles": [
     {
       "time": "2026-09-30T06:25:00",
@@ -2008,10 +2008,34 @@
     {
       "time": "2026-10-01T12:00:00",
       "open": 4.23,
-      "high": 4.27,
+      "high": 4.28,
       "low": 4.22,
-      "close": 4.25,
-      "volume": 146
+      "close": 4.24,
+      "volume": 297
+    },
+    {
+      "time": "2026-10-01T12:05:00",
+      "open": 4.25,
+      "high": 4.34,
+      "low": 4.25,
+      "close": 4.3,
+      "volume": 451
+    },
+    {
+      "time": "2026-10-01T12:10:00",
+      "open": 4.32,
+      "high": 4.37,
+      "low": 4.17,
+      "close": 4.19,
+      "volume": 382
+    },
+    {
+      "time": "2026-10-01T12:15:00",
+      "open": 4.24,
+      "high": 4.24,
+      "low": 4.19,
+      "close": 4.19,
+      "volume": 42
     }
   ]
 }
