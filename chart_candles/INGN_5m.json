@@ -2,8 +2,8 @@
   "symbol": "INGN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-01T11:47:15.056877",
-  "bar_count": 184,
+  "generated_at": "2026-10-01T12:02:22.734790",
+  "bar_count": 187,
   "candles": [
     {
       "time": "2026-09-30T08:30:00",
@@ -1474,8 +1474,32 @@
       "open": 5.93,
       "high": 5.98,
       "low": 5.93,
+      "close": 5.97,
+      "volume": 65
+    },
+    {
+      "time": "2026-10-01T10:50:00",
+      "open": 5.98,
+      "high": 5.98,
+      "low": 5.97,
       "close": 5.98,
-      "volume": 59
+      "volume": 35
+    },
+    {
+      "time": "2026-10-01T10:55:00",
+      "open": 5.99,
+      "high": 6.03,
+      "low": 5.98,
+      "close": 6.03,
+      "volume": 222
+    },
+    {
+      "time": "2026-10-01T11:00:00",
+      "open": 6.03,
+      "high": 6.03,
+      "low": 6.03,
+      "close": 6.03,
+      "volume": 31
     }
   ]
 }
