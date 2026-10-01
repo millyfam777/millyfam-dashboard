@@ -2,8 +2,8 @@
   "symbol": "MRDN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-01T09:33:08.044877",
-  "bar_count": 153,
+  "generated_at": "2026-10-01T09:38:05.028710",
+  "bar_count": 154,
   "candles": [
     {
       "time": "2026-09-30T08:30:00",
@@ -1225,9 +1225,17 @@
       "time": "2026-10-01T08:30:00",
       "open": 12.21,
       "high": 12.21,
-      "low": 12.21,
-      "close": 12.21,
-      "volume": 2
+      "low": 12.2,
+      "close": 12.2,
+      "volume": 5
+    },
+    {
+      "time": "2026-10-01T08:35:00",
+      "open": 12.2,
+      "high": 12.2,
+      "low": 12.19,
+      "close": 12.2,
+      "volume": 19
     }
   ]
 }

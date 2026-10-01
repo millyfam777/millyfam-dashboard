@@ -2,8 +2,8 @@
   "symbol": "USGO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-01T09:32:59.034662",
-  "bar_count": 130,
+  "generated_at": "2026-10-01T09:37:53.820787",
+  "bar_count": 131,
   "candles": [
     {
       "time": "2026-09-30T08:30:00",
@@ -1040,10 +1040,18 @@
     {
       "time": "2026-10-01T08:30:00",
       "open": 6.66,
-      "high": 6.66,
+      "high": 6.87,
       "low": 6.66,
-      "close": 6.66,
-      "volume": 20
+      "close": 6.77,
+      "volume": 38
+    },
+    {
+      "time": "2026-10-01T08:35:00",
+      "open": 6.77,
+      "high": 6.77,
+      "low": 6.77,
+      "close": 6.77,
+      "volume": 5
     }
   ]
 }
