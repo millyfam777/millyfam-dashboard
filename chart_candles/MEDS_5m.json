@@ -2,8 +2,8 @@
   "symbol": "MEDS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-01T18:03:14.057929",
-  "bar_count": 361,
+  "generated_at": "2026-10-01T18:18:14.035397",
+  "bar_count": 364,
   "candles": [
     {
       "time": "2026-09-30T03:00:00",
@@ -2888,10 +2888,34 @@
     {
       "time": "2026-10-01T17:00:00",
       "open": 4.08,
-      "high": 4.09,
+      "high": 4.1,
       "low": 4.07,
+      "close": 4.1,
+      "volume": 22
+    },
+    {
+      "time": "2026-10-01T17:05:00",
+      "open": 4.1,
+      "high": 4.12,
+      "low": 4.08,
+      "close": 4.1,
+      "volume": 59
+    },
+    {
+      "time": "2026-10-01T17:10:00",
+      "open": 4.09,
+      "high": 4.1,
+      "low": 4.09,
       "close": 4.09,
-      "volume": 20
+      "volume": 19
+    },
+    {
+      "time": "2026-10-01T17:15:00",
+      "open": 4.09,
+      "high": 4.11,
+      "low": 4.09,
+      "close": 4.09,
+      "volume": 19
     }
   ]
 }
