@@ -2,8 +2,8 @@
   "symbol": "NFE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-02T13:32:50.359894",
-  "bar_count": 271,
+  "generated_at": "2026-10-02T13:47:50.347247",
+  "bar_count": 274,
   "candles": [
     {
       "time": "2026-10-01T03:00:00",
@@ -2169,9 +2169,33 @@
       "time": "2026-10-02T12:30:00",
       "open": 7.0,
       "high": 7.02,
-      "low": 7.0,
-      "close": 7.0,
-      "volume": 13
+      "low": 6.97,
+      "close": 6.97,
+      "volume": 31
+    },
+    {
+      "time": "2026-10-02T12:35:00",
+      "open": 6.97,
+      "high": 6.99,
+      "low": 6.94,
+      "close": 6.96,
+      "volume": 77
+    },
+    {
+      "time": "2026-10-02T12:40:00",
+      "open": 6.98,
+      "high": 7.04,
+      "low": 6.95,
+      "close": 7.03,
+      "volume": 177
+    },
+    {
+      "time": "2026-10-02T12:45:00",
+      "open": 7.02,
+      "high": 7.04,
+      "low": 7.02,
+      "close": 7.04,
+      "volume": 74
     }
   ]
 }
