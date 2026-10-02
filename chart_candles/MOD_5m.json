@@ -2,8 +2,8 @@
   "symbol": "MOD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-02T15:47:14.262058",
-  "bar_count": 330,
+  "generated_at": "2026-10-02T15:52:07.793681",
+  "bar_count": 331,
   "candles": [
     {
       "time": "2026-10-01T03:00:00",
@@ -2640,10 +2640,18 @@
     {
       "time": "2026-10-02T14:45:00",
       "open": 178.8,
-      "high": 179.08,
+      "high": 179.11,
       "low": 178.64,
-      "close": 179.08,
-      "volume": 35
+      "close": 178.88,
+      "volume": 59
+    },
+    {
+      "time": "2026-10-02T14:50:00",
+      "open": 179.0,
+      "high": 179.01,
+      "low": 178.46,
+      "close": 178.5,
+      "volume": 72
     }
   ]
 }
