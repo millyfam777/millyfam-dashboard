@@ -2,8 +2,8 @@
   "symbol": "NMCO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-02T15:32:11.776277",
-  "bar_count": 204,
+  "generated_at": "2026-10-02T15:47:02.648839",
+  "bar_count": 207,
   "candles": [
     {
       "time": "2026-10-01T08:30:00",
@@ -1631,11 +1631,35 @@
     },
     {
       "time": "2026-10-02T14:30:00",
-      "open": 8.74,
-      "high": 8.74,
+      "open": 8.75,
+      "high": 8.76,
       "low": 8.74,
-      "close": 8.74,
-      "volume": 0
+      "close": 8.76,
+      "volume": 70
+    },
+    {
+      "time": "2026-10-02T14:35:00",
+      "open": 8.75,
+      "high": 8.76,
+      "low": 8.73,
+      "close": 8.73,
+      "volume": 321
+    },
+    {
+      "time": "2026-10-02T14:40:00",
+      "open": 8.73,
+      "high": 8.76,
+      "low": 8.73,
+      "close": 8.75,
+      "volume": 143
+    },
+    {
+      "time": "2026-10-02T14:45:00",
+      "open": 8.75,
+      "high": 8.75,
+      "low": 8.73,
+      "close": 8.73,
+      "volume": 3
     }
   ]
 }
