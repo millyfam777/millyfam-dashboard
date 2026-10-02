@@ -2,8 +2,8 @@
   "symbol": "VERI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-02T09:02:02.568376",
-  "bar_count": 253,
+  "generated_at": "2026-10-02T09:07:46.164260",
+  "bar_count": 254,
   "candles": [
     {
       "time": "2026-10-01T03:00:00",
@@ -2024,10 +2024,18 @@
     {
       "time": "2026-10-02T08:00:00",
       "open": 0.8195,
-      "high": 0.8198,
-      "low": 0.8195,
-      "close": 0.8198,
-      "volume": 8
+      "high": 0.82,
+      "low": 0.8,
+      "close": 0.8169,
+      "volume": 92
+    },
+    {
+      "time": "2026-10-02T08:05:00",
+      "open": 0.8023,
+      "high": 0.816,
+      "low": 0.8,
+      "close": 0.8099,
+      "volume": 69
     }
   ]
 }
