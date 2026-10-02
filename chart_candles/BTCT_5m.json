@@ -2,8 +2,8 @@
   "symbol": "BTCT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-02T05:02:14.029150",
-  "bar_count": 205,
+  "generated_at": "2026-10-02T05:17:26.195502",
+  "bar_count": 208,
   "candles": [
     {
       "time": "2026-10-01T03:00:00",
@@ -1641,9 +1641,33 @@
       "time": "2026-10-02T04:00:00",
       "open": 1.155,
       "high": 1.155,
+      "low": 1.14,
+      "close": 1.14,
+      "volume": 58
+    },
+    {
+      "time": "2026-10-02T04:05:00",
+      "open": 1.14,
+      "high": 1.14,
+      "low": 1.13,
+      "close": 1.13,
+      "volume": 146
+    },
+    {
+      "time": "2026-10-02T04:10:00",
+      "open": 1.15,
+      "high": 1.16,
+      "low": 1.15,
+      "close": 1.16,
+      "volume": 59
+    },
+    {
+      "time": "2026-10-02T04:15:00",
+      "open": 1.15,
+      "high": 1.15,
       "low": 1.15,
       "close": 1.15,
-      "volume": 2
+      "volume": 44
     }
   ]
 }
