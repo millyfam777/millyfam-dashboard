@@ -2,8 +2,8 @@
   "symbol": "AMOD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-02T16:33:31.557140",
-  "bar_count": 301,
+  "generated_at": "2026-10-02T16:48:31.964471",
+  "bar_count": 304,
   "candles": [
     {
       "time": "2026-10-01T06:30:00",
@@ -2408,10 +2408,34 @@
     {
       "time": "2026-10-02T15:30:00",
       "open": 3.4,
-      "high": 3.47,
+      "high": 3.48,
       "low": 3.38,
+      "close": 3.45,
+      "volume": 1230
+    },
+    {
+      "time": "2026-10-02T15:35:00",
+      "open": 3.45,
+      "high": 3.58,
+      "low": 3.43,
       "close": 3.46,
-      "volume": 732
+      "volume": 1807
+    },
+    {
+      "time": "2026-10-02T15:40:00",
+      "open": 3.46,
+      "high": 3.47,
+      "low": 3.4,
+      "close": 3.4,
+      "volume": 632
+    },
+    {
+      "time": "2026-10-02T15:45:00",
+      "open": 3.4,
+      "high": 3.43,
+      "low": 3.38,
+      "close": 3.43,
+      "volume": 565
     }
   ]
 }
