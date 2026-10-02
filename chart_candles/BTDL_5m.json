@@ -2,8 +2,8 @@
   "symbol": "BTDL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-02T09:47:35.087801",
-  "bar_count": 154,
+  "generated_at": "2026-10-02T10:03:08.070426",
+  "bar_count": 157,
   "candles": [
     {
       "time": "2026-10-01T08:30:00",
@@ -1233,9 +1233,33 @@
       "time": "2026-10-02T08:45:00",
       "open": 15.6,
       "high": 15.6,
+      "low": 15.51,
+      "close": 15.51,
+      "volume": 6
+    },
+    {
+      "time": "2026-10-02T08:50:00",
+      "open": 15.36,
+      "high": 15.5,
+      "low": 15.35,
+      "close": 15.5,
+      "volume": 9
+    },
+    {
+      "time": "2026-10-02T08:55:00",
+      "open": 15.68,
+      "high": 15.7,
       "low": 15.6,
       "close": 15.6,
-      "volume": 1
+      "volume": 3
+    },
+    {
+      "time": "2026-10-02T09:00:00",
+      "open": 15.63,
+      "high": 15.87,
+      "low": 15.63,
+      "close": 15.87,
+      "volume": 8
     }
   ]
 }
