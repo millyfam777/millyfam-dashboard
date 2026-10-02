@@ -2,8 +2,8 @@
   "symbol": "XRPN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-02T12:18:31.821411",
-  "bar_count": 292,
+  "generated_at": "2026-10-02T12:23:31.655976",
+  "bar_count": 293,
   "candles": [
     {
       "time": "2026-10-01T03:00:00",
@@ -2336,10 +2336,18 @@
     {
       "time": "2026-10-02T11:15:00",
       "open": 39.0,
-      "high": 39.03,
+      "high": 39.05,
       "low": 38.3,
-      "close": 38.77,
-      "volume": 124
+      "close": 38.5,
+      "volume": 359
+    },
+    {
+      "time": "2026-10-02T11:20:00",
+      "open": 38.5,
+      "high": 42.0,
+      "low": 38.3,
+      "close": 38.42,
+      "volume": 1049
     }
   ]
 }
