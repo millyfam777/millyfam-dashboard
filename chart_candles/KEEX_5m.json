@@ -2,8 +2,8 @@
   "symbol": "KEEX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-02T09:32:08.122240",
-  "bar_count": 259,
+  "generated_at": "2026-10-02T09:47:30.667963",
+  "bar_count": 262,
   "candles": [
     {
       "time": "2026-10-01T03:00:00",
@@ -2072,10 +2072,34 @@
     {
       "time": "2026-10-02T08:30:00",
       "open": 7.08,
-      "high": 7.1,
+      "high": 7.11,
       "low": 6.88,
-      "close": 6.91,
-      "volume": 49
+      "close": 7.07,
+      "volume": 65
+    },
+    {
+      "time": "2026-10-02T08:35:00",
+      "open": 7.08,
+      "high": 7.33,
+      "low": 7.08,
+      "close": 7.27,
+      "volume": 245
+    },
+    {
+      "time": "2026-10-02T08:40:00",
+      "open": 7.24,
+      "high": 7.27,
+      "low": 7.23,
+      "close": 7.23,
+      "volume": 21
+    },
+    {
+      "time": "2026-10-02T08:45:00",
+      "open": 7.2,
+      "high": 7.26,
+      "low": 7.2,
+      "close": 7.26,
+      "volume": 46
     }
   ]
 }

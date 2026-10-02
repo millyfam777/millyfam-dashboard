@@ -2,8 +2,8 @@
   "symbol": "OPEX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-02T09:32:19.830478",
-  "bar_count": 199,
+  "generated_at": "2026-10-02T09:37:22.547872",
+  "bar_count": 200,
   "candles": [
     {
       "time": "2026-10-01T06:30:00",
@@ -1593,9 +1593,17 @@
       "time": "2026-10-02T08:30:00",
       "open": 4.29,
       "high": 4.29,
-      "low": 4.23,
-      "close": 4.23,
-      "volume": 2
+      "low": 4.17,
+      "close": 4.17,
+      "volume": 24
+    },
+    {
+      "time": "2026-10-02T08:35:00",
+      "open": 4.16,
+      "high": 4.17,
+      "low": 4.14,
+      "close": 4.14,
+      "volume": 6
     }
   ]
 }
