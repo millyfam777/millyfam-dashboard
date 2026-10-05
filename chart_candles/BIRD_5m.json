@@ -2,8 +2,8 @@
   "symbol": "BIRD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-05T15:33:29.073230",
-  "bar_count": 331,
+  "generated_at": "2026-10-05T15:48:29.760695",
+  "bar_count": 334,
   "candles": [
     {
       "time": "2026-10-02T03:00:00",
@@ -2648,10 +2648,34 @@
     {
       "time": "2026-10-05T14:30:00",
       "open": 3.41,
-      "high": 3.41,
+      "high": 3.44,
       "low": 3.4,
+      "close": 3.44,
+      "volume": 115
+    },
+    {
+      "time": "2026-10-05T14:35:00",
+      "open": 3.43,
+      "high": 3.45,
+      "low": 3.43,
+      "close": 3.43,
+      "volume": 45
+    },
+    {
+      "time": "2026-10-05T14:40:00",
+      "open": 3.43,
+      "high": 3.43,
+      "low": 3.41,
       "close": 3.41,
-      "volume": 3
+      "volume": 23
+    },
+    {
+      "time": "2026-10-05T14:45:00",
+      "open": 3.41,
+      "high": 3.42,
+      "low": 3.41,
+      "close": 3.41,
+      "volume": 10
     }
   ]
 }
