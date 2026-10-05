@@ -2,8 +2,8 @@
   "symbol": "SGLY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-05T14:03:18.159082",
-  "bar_count": 307,
+  "generated_at": "2026-10-05T14:13:30.684198",
+  "bar_count": 309,
   "candles": [
     {
       "time": "2026-10-02T03:00:00",
@@ -2456,10 +2456,26 @@
     {
       "time": "2026-10-05T13:00:00",
       "open": 0.94,
-      "high": 1.03,
+      "high": 1.06,
       "low": 0.91,
-      "close": 1.01,
-      "volume": 1020
+      "close": 0.98,
+      "volume": 4500
+    },
+    {
+      "time": "2026-10-05T13:05:00",
+      "open": 0.97,
+      "high": 1.1,
+      "low": 0.91,
+      "close": 1.0198,
+      "volume": 11323
+    },
+    {
+      "time": "2026-10-05T13:10:00",
+      "open": 1.0101,
+      "high": 1.02,
+      "low": 0.88,
+      "close": 0.9135,
+      "volume": 8341
     }
   ]
 }
