@@ -2,8 +2,8 @@
   "symbol": "ALVO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-05T06:47:20.777934",
-  "bar_count": 213,
+  "generated_at": "2026-10-05T07:02:23.914860",
+  "bar_count": 216,
   "candles": [
     {
       "time": "2026-10-02T04:05:00",
@@ -1704,10 +1704,34 @@
     {
       "time": "2026-10-05T05:45:00",
       "open": 5.99,
-      "high": 6.0,
+      "high": 6.01,
       "low": 5.97,
+      "close": 6.01,
+      "volume": 14
+    },
+    {
+      "time": "2026-10-05T05:50:00",
+      "open": 6.01,
+      "high": 6.01,
+      "low": 6.01,
+      "close": 6.01,
+      "volume": 0
+    },
+    {
+      "time": "2026-10-05T05:55:00",
+      "open": 6.0,
+      "high": 6.0,
+      "low": 6.0,
       "close": 6.0,
-      "volume": 13
+      "volume": 5
+    },
+    {
+      "time": "2026-10-05T06:00:00",
+      "open": 5.93,
+      "high": 5.93,
+      "low": 5.86,
+      "close": 5.92,
+      "volume": 16
     }
   ]
 }
