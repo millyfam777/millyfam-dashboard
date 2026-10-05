@@ -2,8 +2,8 @@
   "symbol": "SBS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-05T08:32:39.437066",
-  "bar_count": 196,
+  "generated_at": "2026-10-05T08:47:42.757377",
+  "bar_count": 199,
   "candles": [
     {
       "time": "2026-10-02T07:15:00",
@@ -1568,10 +1568,34 @@
     {
       "time": "2026-10-05T07:30:00",
       "open": 6.06,
-      "high": 6.06,
+      "high": 6.11,
       "low": 6.06,
-      "close": 6.06,
-      "volume": 1
+      "close": 6.11,
+      "volume": 133
+    },
+    {
+      "time": "2026-10-05T07:35:00",
+      "open": 6.1,
+      "high": 6.12,
+      "low": 6.09,
+      "close": 6.12,
+      "volume": 139
+    },
+    {
+      "time": "2026-10-05T07:40:00",
+      "open": 6.15,
+      "high": 6.17,
+      "low": 6.12,
+      "close": 6.17,
+      "volume": 44
+    },
+    {
+      "time": "2026-10-05T07:45:00",
+      "open": 6.15,
+      "high": 6.15,
+      "low": 6.15,
+      "close": 6.15,
+      "volume": 16
     }
   ]
 }
