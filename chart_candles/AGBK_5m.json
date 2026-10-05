@@ -2,8 +2,8 @@
   "symbol": "AGBK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-05T10:47:48.748274",
-  "bar_count": 205,
+  "generated_at": "2026-10-05T11:02:41.223793",
+  "bar_count": 208,
   "candles": [
     {
       "time": "2026-10-02T08:30:00",
@@ -1641,9 +1641,33 @@
       "time": "2026-10-05T09:45:00",
       "open": 6.53,
       "high": 6.56,
+      "low": 6.5,
+      "close": 6.52,
+      "volume": 79
+    },
+    {
+      "time": "2026-10-05T09:50:00",
+      "open": 6.54,
+      "high": 6.57,
+      "low": 6.48,
+      "close": 6.57,
+      "volume": 70
+    },
+    {
+      "time": "2026-10-05T09:55:00",
+      "open": 6.55,
+      "high": 6.55,
+      "low": 6.55,
+      "close": 6.55,
+      "volume": 4
+    },
+    {
+      "time": "2026-10-05T10:00:00",
+      "open": 6.53,
+      "high": 6.54,
       "low": 6.53,
-      "close": 6.56,
-      "volume": 12
+      "close": 6.54,
+      "volume": 3
     }
   ]
 }
