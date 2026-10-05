@@ -2,8 +2,8 @@
   "symbol": "KMLI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-05T09:47:07.379337",
-  "bar_count": 213,
+  "generated_at": "2026-10-05T10:02:31.400093",
+  "bar_count": 216,
   "candles": [
     {
       "time": "2026-10-02T07:05:00",
@@ -1704,10 +1704,34 @@
     {
       "time": "2026-10-05T08:45:00",
       "open": 9.02,
-      "high": 9.06,
+      "high": 9.15,
       "low": 9.02,
-      "close": 9.06,
-      "volume": 17
+      "close": 9.11,
+      "volume": 67
+    },
+    {
+      "time": "2026-10-05T08:50:00",
+      "open": 9.1,
+      "high": 9.1,
+      "low": 9.01,
+      "close": 9.08,
+      "volume": 56
+    },
+    {
+      "time": "2026-10-05T08:55:00",
+      "open": 9.01,
+      "high": 9.03,
+      "low": 8.96,
+      "close": 8.97,
+      "volume": 38
+    },
+    {
+      "time": "2026-10-05T09:00:00",
+      "open": 8.97,
+      "high": 8.97,
+      "low": 8.94,
+      "close": 8.94,
+      "volume": 27
     }
   ]
 }
