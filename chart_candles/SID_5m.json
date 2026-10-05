@@ -2,8 +2,8 @@
   "symbol": "SID",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-05T07:02:26.217354",
-  "bar_count": 189,
+  "generated_at": "2026-10-05T07:07:23.899149",
+  "bar_count": 190,
   "candles": [
     {
       "time": "2026-10-02T06:20:00",
@@ -1512,10 +1512,18 @@
     {
       "time": "2026-10-05T06:00:00",
       "open": 1.27,
-      "high": 1.27,
+      "high": 1.272,
       "low": 1.27,
       "close": 1.27,
-      "volume": 1
+      "volume": 24
+    },
+    {
+      "time": "2026-10-05T06:05:00",
+      "open": 1.2798,
+      "high": 1.2798,
+      "low": 1.27,
+      "close": 1.27,
+      "volume": 24
     }
   ]
 }
