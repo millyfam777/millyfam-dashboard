@@ -489,7 +489,7 @@
           <div id="momentumList" class="smart-list"></div>
         </div>
 
-        <div class="side-title"><span>QUALIFIED ALERTS</span><span class="refresh">AUTO 60s | 0</span></div>
+        <div class="side-title"><span>QUALIFIED ALERTS</span><span class="refresh">AUTO 60s | 1</span></div>
         <div id="tickerList" class="list"></div>
       </div>
     </aside>
@@ -518,7 +518,7 @@
 </section>
 
       <div class="brand">
-        &#128293; MF Volume / All-In-One Cockpit | WATCH ONLY · Source logs/vol_alert_ledger.csv + live_universe + provider_cache · As of No data
+        &#128293; MF Volume / All-In-One Cockpit | WATCH ONLY · Source logs/vol_alert_ledger.csv + live_universe + provider_cache · As of 2026-10-05T04:06:10-04:00
         <div class="nav"><a href="analytics.html?v=6">Analytics View</a></div>
       </div>
       <section id="detail"></section>
@@ -526,9 +526,9 @@
   </div>
 
 <script>
-const ROWS = [];
+const ROWS = [{"ticker":"SCKT","date_display":"2026-10-05","time_display":"04:06:10","mode":"LIVE","mode_class":"mode-live","trigger":"VOL","trigger_display":"VOL","trigger_detail":"DISCOVERY","session":"PM","price_display":"$0.8579","pct_display":"21.29%","pct_class":"tier-orange","session_vol_display":"1.35M","dollar_vol_display":"Unknown","qual_rvol_display":"0.25","qual_rvol_raw":0.2513246495712478,"pct_raw":21.292238088505577,"dollar_vol_raw":null,"session_vol_raw":1348500.0,"dt_sort_raw":"2026-10-05T04:06:10-04:00","row_key":"2026-10-05T04:06:10-04:00|04:06:10|SCKT|1|DISCOVERY","float_display":"557.91K","tradable_float_display":"557.91K","market_cap_display":"5.86M","outstanding_display":"n/c","score_display":"91","trade_setup_score":"1.95","zone_status":"YELLOW","zone_class":"zone-yellow","rr_quality":"FAIR","rr_class":"rr-fair","zone_reason":"volume expansion \u00b7 %Chg 21% \u00b7 float 557.91K \u00b7 score 91","zone_reason_list":["volume expansion","%Chg 21%","float 557.91K","score 91"],"zone_caution":"thin dollar volume \u00b7 qRVOL below 2","zone_caution_list":["thin dollar volume","qRVOL below 2"],"risk_overall":"n/c","risk_overall_class":"risk-unknown","risk_offer":"n/c","risk_offer_class":"risk-unknown","risk_dil":"n/c","risk_dil_class":"risk-unknown","risk_warrant":"n/c","risk_warrant_class":"risk-unknown","atm_status":"Unknown","offering_ability":"unknown","recent_off":"Unknown","reverse_split":"Unknown","reverse_split_summary":"","latest_offering_summary":"","warrant_strike":"Unknown","warrant_terms":"Unknown","news_summary":"Socket Mobile Expands Shopify Compatibility with Support for SocketScan S721 and S741 Barcode Scanners","news_url":"","sec_url":"","offering_url":"","management_commentary":"","source_file":"mf_all_in_one_scanner.py","exchange":"XNAS","country":"N/A","sector":"N/A","industry":"N/A","cash_need":"unknown","regsho":"False","si_display":"33.30K","si_pct_display":"5.97%","days_to_cover_display":"1","available_display":"196.36K","si_class":"tier-yellow","si_band":"Watch","ctb_display":"n/c","ctb_avg_display":"n/c","ctb_max_display":"n/c","ctb_class":"tier-gray","ctb_band":"n/c","htb_label":"Avail 196361 (IBKR cached)","htb_class":"tier-gray","provider_enriched":"YES","provider_complete_source":"VOL_AIO_PROVIDER_COMPLETE_V1O","fintel_short_ratio":0.42,"fintel_short_volume":30063272.98129,"fintel_total_volume":71150995,"fintel_insider_net_shares":0,"fintel_insider_buys":0,"fintel_insider_sells":0,"fintel_top_owners":"Mv Capital Management, Inc. 1.22%; Virtu Financial LLC 0.61%","fintel_owner_asof":"2026-06-30","ctb":"n/c","ctb_avg":"n/c","ctb_max":"n/c","fintel_ctb_unit":"PERCENT_POINTS","fintel_borrow_available":0,"fintel_borrow_asof":"2026-10-02T11:33:01.957Z","fintel_borrow_asof_utc":"2026-10-02T11:33:01.957000+00:00","fintel_borrow_freshness":"STALE","fintel_borrow_source":"FINTEL_V1_BORROW_RATE","borrow_source":"IBKR cached"}];
 const LIVE_UNIVERSE = [];
-const DEFAULT_KEY = "";
+const DEFAULT_KEY = "2026-10-05T04:06:10-04:00|04:06:10|SCKT|1|DISCOVERY";
 const ROWMAP = Object.fromEntries(ROWS.map(r => [r.row_key, r]));
 function esc(v) { return String(v ?? "").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#39;"); }
 function clsRisk(v, prefix="risk") {
