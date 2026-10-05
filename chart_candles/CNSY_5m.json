@@ -2,8 +2,8 @@
   "symbol": "CNSY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-05T12:48:23.799453",
-  "bar_count": 231,
+  "generated_at": "2026-10-05T12:58:23.741750",
+  "bar_count": 233,
   "candles": [
     {
       "time": "2026-10-02T05:10:00",
@@ -1848,10 +1848,26 @@
     {
       "time": "2026-10-05T11:45:00",
       "open": 1.5401,
-      "high": 1.5401,
+      "high": 1.55,
       "low": 1.5401,
-      "close": 1.5401,
-      "volume": 3
+      "close": 1.545,
+      "volume": 26
+    },
+    {
+      "time": "2026-10-05T11:50:00",
+      "open": 1.55,
+      "high": 1.55,
+      "low": 1.55,
+      "close": 1.55,
+      "volume": 6
+    },
+    {
+      "time": "2026-10-05T11:55:00",
+      "open": 1.5507,
+      "high": 1.5508,
+      "low": 1.55,
+      "close": 1.5508,
+      "volume": 101
     }
   ]
 }
