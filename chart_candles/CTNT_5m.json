@@ -2,8 +2,8 @@
   "symbol": "CTNT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-05T11:02:48.116531",
-  "bar_count": 277,
+  "generated_at": "2026-10-05T11:17:42.429761",
+  "bar_count": 280,
   "candles": [
     {
       "time": "2026-10-02T03:00:00",
@@ -2216,10 +2216,34 @@
     {
       "time": "2026-10-05T10:00:00",
       "open": 3.12,
+      "high": 3.16,
+      "low": 3.1,
+      "close": 3.14,
+      "volume": 104
+    },
+    {
+      "time": "2026-10-05T10:05:00",
+      "open": 3.15,
       "high": 3.15,
-      "low": 3.12,
+      "low": 3.1,
       "close": 3.13,
-      "volume": 32
+      "volume": 24
+    },
+    {
+      "time": "2026-10-05T10:10:00",
+      "open": 3.13,
+      "high": 3.16,
+      "low": 3.12,
+      "close": 3.14,
+      "volume": 130
+    },
+    {
+      "time": "2026-10-05T10:15:00",
+      "open": 3.15,
+      "high": 3.15,
+      "low": 3.1,
+      "close": 3.1,
+      "volume": 44
     }
   ]
 }
