@@ -2,8 +2,8 @@
   "symbol": "JAGX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-05T09:03:00.466120",
-  "bar_count": 253,
+  "generated_at": "2026-10-05T09:17:48.236426",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-10-02T03:00:00",
@@ -2024,10 +2024,34 @@
     {
       "time": "2026-10-05T08:00:00",
       "open": 4.23,
-      "high": 4.24,
+      "high": 4.25,
       "low": 4.22,
-      "close": 4.23,
-      "volume": 17
+      "close": 4.25,
+      "volume": 116
+    },
+    {
+      "time": "2026-10-05T08:05:00",
+      "open": 4.22,
+      "high": 4.25,
+      "low": 4.17,
+      "close": 4.2,
+      "volume": 74
+    },
+    {
+      "time": "2026-10-05T08:10:00",
+      "open": 4.24,
+      "high": 4.24,
+      "low": 4.1,
+      "close": 4.16,
+      "volume": 222
+    },
+    {
+      "time": "2026-10-05T08:15:00",
+      "open": 4.16,
+      "high": 4.23,
+      "low": 4.16,
+      "close": 4.17,
+      "volume": 44
     }
   ]
 }
