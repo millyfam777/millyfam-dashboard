@@ -2,8 +2,8 @@
   "symbol": "MODD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-06T15:32:59.161516",
-  "bar_count": 277,
+  "generated_at": "2026-10-06T15:47:57.527044",
+  "bar_count": 280,
   "candles": [
     {
       "time": "2026-10-05T04:00:00",
@@ -2216,10 +2216,34 @@
     {
       "time": "2026-10-06T14:30:00",
       "open": 2.681,
-      "high": 2.681,
+      "high": 2.75,
       "low": 2.681,
-      "close": 2.681,
-      "volume": 3
+      "close": 2.75,
+      "volume": 6
+    },
+    {
+      "time": "2026-10-06T14:35:00",
+      "open": 2.75,
+      "high": 2.75,
+      "low": 2.71,
+      "close": 2.7157,
+      "volume": 89
+    },
+    {
+      "time": "2026-10-06T14:40:00",
+      "open": 2.69,
+      "high": 2.73,
+      "low": 2.6778,
+      "close": 2.73,
+      "volume": 6
+    },
+    {
+      "time": "2026-10-06T14:45:00",
+      "open": 2.73,
+      "high": 2.73,
+      "low": 2.73,
+      "close": 2.73,
+      "volume": 0
     }
   ]
 }
