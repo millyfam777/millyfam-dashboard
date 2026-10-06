@@ -2,8 +2,8 @@
   "symbol": "ITG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-06T13:02:42.448607",
-  "bar_count": 236,
+  "generated_at": "2026-10-06T13:17:51.475814",
+  "bar_count": 239,
   "candles": [
     {
       "time": "2026-10-05T03:10:00",
@@ -1888,10 +1888,34 @@
     {
       "time": "2026-10-06T12:00:00",
       "open": 8.28,
-      "high": 8.28,
+      "high": 8.31,
       "low": 8.24,
-      "close": 8.24,
-      "volume": 17
+      "close": 8.31,
+      "volume": 28
+    },
+    {
+      "time": "2026-10-06T12:05:00",
+      "open": 8.29,
+      "high": 8.32,
+      "low": 8.28,
+      "close": 8.32,
+      "volume": 16
+    },
+    {
+      "time": "2026-10-06T12:10:00",
+      "open": 8.32,
+      "high": 8.44,
+      "low": 8.29,
+      "close": 8.38,
+      "volume": 135
+    },
+    {
+      "time": "2026-10-06T12:15:00",
+      "open": 8.42,
+      "high": 8.46,
+      "low": 8.41,
+      "close": 8.46,
+      "volume": 78
     }
   ]
 }
