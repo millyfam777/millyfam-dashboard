@@ -2,8 +2,8 @@
   "symbol": "OFS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-06T09:48:22.443482",
-  "bar_count": 178,
+  "generated_at": "2026-10-06T10:03:12.910197",
+  "bar_count": 181,
   "candles": [
     {
       "time": "2026-10-05T06:00:00",
@@ -1425,9 +1425,33 @@
       "time": "2026-10-06T08:45:00",
       "open": 4.14,
       "high": 4.29,
+      "low": 4.12,
+      "close": 4.24,
+      "volume": 304
+    },
+    {
+      "time": "2026-10-06T08:50:00",
+      "open": 4.19,
+      "high": 4.24,
       "low": 4.14,
-      "close": 4.15,
-      "volume": 231
+      "close": 4.19,
+      "volume": 88
+    },
+    {
+      "time": "2026-10-06T08:55:00",
+      "open": 4.19,
+      "high": 4.27,
+      "low": 4.15,
+      "close": 4.27,
+      "volume": 259
+    },
+    {
+      "time": "2026-10-06T09:00:00",
+      "open": 4.26,
+      "high": 4.27,
+      "low": 4.16,
+      "close": 4.19,
+      "volume": 126
     }
   ]
 }
