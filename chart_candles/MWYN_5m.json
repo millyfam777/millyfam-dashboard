@@ -2,8 +2,8 @@
   "symbol": "MWYN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-06T11:18:10.545761",
-  "bar_count": 252,
+  "generated_at": "2026-10-06T11:32:48.391908",
+  "bar_count": 255,
   "candles": [
     {
       "time": "2026-10-05T05:20:00",
@@ -2016,10 +2016,34 @@
     {
       "time": "2026-10-06T10:15:00",
       "open": 1.47,
-      "high": 1.49,
+      "high": 1.5,
       "low": 1.47,
-      "close": 1.49,
-      "volume": 8
+      "close": 1.5,
+      "volume": 25
+    },
+    {
+      "time": "2026-10-06T10:20:00",
+      "open": 1.49,
+      "high": 1.54,
+      "low": 1.41,
+      "close": 1.44,
+      "volume": 447
+    },
+    {
+      "time": "2026-10-06T10:25:00",
+      "open": 1.44,
+      "high": 1.44,
+      "low": 1.38,
+      "close": 1.44,
+      "volume": 123
+    },
+    {
+      "time": "2026-10-06T10:30:00",
+      "open": 1.44,
+      "high": 1.44,
+      "low": 1.44,
+      "close": 1.44,
+      "volume": 0
     }
   ]
 }
