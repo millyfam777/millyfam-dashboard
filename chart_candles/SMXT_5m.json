@@ -2,8 +2,8 @@
   "symbol": "SMXT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-06T18:48:30.175159",
-  "bar_count": 291,
+  "generated_at": "2026-10-06T19:04:00.174582",
+  "bar_count": 294,
   "candles": [
     {
       "time": "2026-10-05T08:30:00",
@@ -2328,10 +2328,34 @@
     {
       "time": "2026-10-06T17:45:00",
       "open": 3.37,
-      "high": 3.38,
+      "high": 3.48,
       "low": 3.37,
-      "close": 3.38,
-      "volume": 22
+      "close": 3.48,
+      "volume": 24
+    },
+    {
+      "time": "2026-10-06T17:50:00",
+      "open": 3.48,
+      "high": 3.48,
+      "low": 3.48,
+      "close": 3.48,
+      "volume": 0
+    },
+    {
+      "time": "2026-10-06T17:55:00",
+      "open": 3.48,
+      "high": 3.55,
+      "low": 3.48,
+      "close": 3.5,
+      "volume": 42
+    },
+    {
+      "time": "2026-10-06T18:00:00",
+      "open": 3.5499,
+      "high": 3.55,
+      "low": 3.48,
+      "close": 3.55,
+      "volume": 21
     }
   ]
 }
