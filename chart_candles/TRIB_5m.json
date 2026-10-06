@@ -2,8 +2,8 @@
   "symbol": "TRIB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-06T15:18:19.696266",
-  "bar_count": 196,
+  "generated_at": "2026-10-06T15:33:22.730104",
+  "bar_count": 199,
   "candles": [
     {
       "time": "2026-10-05T08:30:00",
@@ -1569,9 +1569,33 @@
       "time": "2026-10-06T14:15:00",
       "open": 7.0,
       "high": 7.1,
+      "low": 6.96,
+      "close": 6.96,
+      "volume": 10
+    },
+    {
+      "time": "2026-10-06T14:20:00",
+      "open": 7.1,
+      "high": 7.29,
+      "low": 7.01,
+      "close": 7.14,
+      "volume": 46
+    },
+    {
+      "time": "2026-10-06T14:25:00",
+      "open": 7.0,
+      "high": 7.14,
       "low": 7.0,
-      "close": 7.04,
-      "volume": 4
+      "close": 7.14,
+      "volume": 30
+    },
+    {
+      "time": "2026-10-06T14:30:00",
+      "open": 7.14,
+      "high": 7.14,
+      "low": 7.14,
+      "close": 7.14,
+      "volume": 0
     }
   ]
 }
