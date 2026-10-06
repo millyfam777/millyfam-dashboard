@@ -2,8 +2,8 @@
   "symbol": "NVAX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-05T19:47:30.998977",
-  "bar_count": 382,
+  "generated_at": "2026-10-05T20:02:30.964006",
+  "bar_count": 384,
   "candles": [
     {
       "time": "2026-10-02T03:00:00",
@@ -3055,11 +3055,27 @@
     },
     {
       "time": "2026-10-05T18:45:00",
-      "open": 12.48,
-      "high": 12.48,
+      "open": 12.53,
+      "high": 12.53,
+      "low": 12.5,
+      "close": 12.5,
+      "volume": 13
+    },
+    {
+      "time": "2026-10-05T18:50:00",
+      "open": 12.5,
+      "high": 12.51,
       "low": 12.48,
-      "close": 12.48,
-      "volume": 0
+      "close": 12.5,
+      "volume": 64
+    },
+    {
+      "time": "2026-10-05T18:55:00",
+      "open": 12.51,
+      "high": 12.52,
+      "low": 12.45,
+      "close": 12.45,
+      "volume": 51
     }
   ]
 }
