@@ -2,8 +2,8 @@
   "symbol": "LEUX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-06T09:17:15.154800",
-  "bar_count": 219,
+  "generated_at": "2026-10-06T09:32:18.899886",
+  "bar_count": 222,
   "candles": [
     {
       "time": "2026-10-05T03:00:00",
@@ -1752,10 +1752,34 @@
     {
       "time": "2026-10-06T08:15:00",
       "open": 8.05,
+      "high": 8.1,
+      "low": 8.01,
+      "close": 8.1,
+      "volume": 60
+    },
+    {
+      "time": "2026-10-06T08:20:00",
+      "open": 8.0,
       "high": 8.05,
-      "low": 8.05,
+      "low": 8.0,
       "close": 8.05,
-      "volume": 5
+      "volume": 16
+    },
+    {
+      "time": "2026-10-06T08:25:00",
+      "open": 7.99,
+      "high": 7.99,
+      "low": 7.99,
+      "close": 7.99,
+      "volume": 2
+    },
+    {
+      "time": "2026-10-06T08:30:00",
+      "open": 7.92,
+      "high": 8.07,
+      "low": 7.92,
+      "close": 8.07,
+      "volume": 45
     }
   ]
 }
