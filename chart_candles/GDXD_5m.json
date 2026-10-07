@@ -2,8 +2,8 @@
   "symbol": "GDXD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-07T09:03:08.447032",
-  "bar_count": 253,
+  "generated_at": "2026-10-07T09:18:06.136784",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-10-06T03:00:00",
@@ -2026,8 +2026,32 @@
       "open": 24.01,
       "high": 24.03,
       "low": 23.97,
+      "close": 24.01,
+      "volume": 42
+    },
+    {
+      "time": "2026-10-07T08:05:00",
+      "open": 24.0,
+      "high": 24.07,
+      "low": 24.0,
+      "close": 24.07,
+      "volume": 53
+    },
+    {
+      "time": "2026-10-07T08:10:00",
+      "open": 24.1,
+      "high": 24.1,
+      "low": 24.07,
+      "close": 24.07,
+      "volume": 10
+    },
+    {
+      "time": "2026-10-07T08:15:00",
+      "open": 24.06,
+      "high": 24.06,
+      "low": 24.01,
       "close": 24.02,
-      "volume": 36
+      "volume": 70
     }
   ]
 }
