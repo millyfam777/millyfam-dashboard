@@ -2,8 +2,8 @@
   "symbol": "LCFY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-07T04:02:34.439769",
-  "bar_count": 145,
+  "generated_at": "2026-10-07T04:07:40.135983",
+  "bar_count": 146,
   "candles": [
     {
       "time": "2026-10-06T07:00:00",
@@ -1161,9 +1161,17 @@
       "time": "2026-10-07T03:00:00",
       "open": 2.24,
       "high": 2.24,
-      "low": 2.16,
+      "low": 2.1,
+      "close": 2.14,
+      "volume": 51
+    },
+    {
+      "time": "2026-10-07T03:05:00",
+      "open": 2.1,
+      "high": 2.16,
+      "low": 2.1,
       "close": 2.16,
-      "volume": 28
+      "volume": 2
     }
   ]
 }
