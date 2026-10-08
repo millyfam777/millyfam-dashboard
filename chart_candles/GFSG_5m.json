@@ -2,8 +2,8 @@
   "symbol": "GFSG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-08T10:02:11.773008",
-  "bar_count": 215,
+  "generated_at": "2026-10-08T10:18:00.879847",
+  "bar_count": 218,
   "candles": [
     {
       "time": "2026-10-07T03:00:00",
@@ -1720,10 +1720,34 @@
     {
       "time": "2026-10-08T09:00:00",
       "open": 4.03,
-      "high": 4.03,
+      "high": 4.05,
       "low": 4.03,
-      "close": 4.03,
-      "volume": 5
+      "close": 4.05,
+      "volume": 6
+    },
+    {
+      "time": "2026-10-08T09:05:00",
+      "open": 4.11,
+      "high": 4.17,
+      "low": 4.11,
+      "close": 4.15,
+      "volume": 225
+    },
+    {
+      "time": "2026-10-08T09:10:00",
+      "open": 4.16,
+      "high": 4.2,
+      "low": 4.13,
+      "close": 4.15,
+      "volume": 92
+    },
+    {
+      "time": "2026-10-08T09:15:00",
+      "open": 4.14,
+      "high": 4.16,
+      "low": 4.14,
+      "close": 4.16,
+      "volume": 27
     }
   ]
 }
