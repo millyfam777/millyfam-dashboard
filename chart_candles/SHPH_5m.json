@@ -2,8 +2,8 @@
   "symbol": "SHPH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-08T11:33:12.127654",
-  "bar_count": 226,
+  "generated_at": "2026-10-08T11:48:19.015648",
+  "bar_count": 229,
   "candles": [
     {
       "time": "2026-10-07T07:45:00",
@@ -1807,11 +1807,35 @@
     },
     {
       "time": "2026-10-08T10:30:00",
+      "open": 5.54,
+      "high": 5.55,
+      "low": 5.54,
+      "close": 5.55,
+      "volume": 22
+    },
+    {
+      "time": "2026-10-08T10:35:00",
+      "open": 5.59,
+      "high": 5.59,
+      "low": 5.55,
+      "close": 5.55,
+      "volume": 5
+    },
+    {
+      "time": "2026-10-08T10:40:00",
       "open": 5.53,
-      "high": 5.53,
+      "high": 5.6,
       "low": 5.53,
-      "close": 5.53,
-      "volume": 0
+      "close": 5.59,
+      "volume": 58
+    },
+    {
+      "time": "2026-10-08T10:45:00",
+      "open": 5.61,
+      "high": 5.75,
+      "low": 5.59,
+      "close": 5.72,
+      "volume": 70
     }
   ]
 }
