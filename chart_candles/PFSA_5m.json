@@ -2,8 +2,8 @@
   "symbol": "PFSA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-08T10:17:08.043519",
-  "bar_count": 268,
+  "generated_at": "2026-10-08T10:27:41.453998",
+  "bar_count": 270,
   "candles": [
     {
       "time": "2026-10-07T03:00:00",
@@ -2144,10 +2144,26 @@
     {
       "time": "2026-10-08T09:15:00",
       "open": 1.61,
-      "high": 1.62,
-      "low": 1.61,
+      "high": 1.65,
+      "low": 1.6,
+      "close": 1.6274,
+      "volume": 66
+    },
+    {
+      "time": "2026-10-08T09:20:00",
+      "open": 1.6003,
+      "high": 1.6222,
+      "low": 1.6,
       "close": 1.61,
-      "volume": 18
+      "volume": 16
+    },
+    {
+      "time": "2026-10-08T09:25:00",
+      "open": 1.6,
+      "high": 1.6,
+      "low": 1.6,
+      "close": 1.6,
+      "volume": 3
     }
   ]
 }
