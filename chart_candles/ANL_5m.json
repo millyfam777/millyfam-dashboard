@@ -2,8 +2,8 @@
   "symbol": "ANL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-08T15:47:19.322185",
-  "bar_count": 203,
+  "generated_at": "2026-10-08T15:57:15.926122",
+  "bar_count": 205,
   "candles": [
     {
       "time": "2026-10-07T08:30:00",
@@ -1626,8 +1626,24 @@
       "open": 15.855,
       "high": 15.865,
       "low": 15.725,
-      "close": 15.725,
-      "volume": 9
+      "close": 15.84,
+      "volume": 30
+    },
+    {
+      "time": "2026-10-08T14:50:00",
+      "open": 15.81,
+      "high": 15.85,
+      "low": 15.71,
+      "close": 15.745,
+      "volume": 36
+    },
+    {
+      "time": "2026-10-08T14:55:00",
+      "open": 15.745,
+      "high": 15.745,
+      "low": 15.55,
+      "close": 15.55,
+      "volume": 71
     }
   ]
 }
