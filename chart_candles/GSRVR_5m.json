@@ -2,8 +2,8 @@
   "symbol": "GSRVR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-08T12:47:31.200270",
-  "bar_count": 14,
+  "generated_at": "2026-10-08T13:02:55.194235",
+  "bar_count": 17,
   "candles": [
     {
       "time": "2026-10-08T10:40:00",
@@ -111,11 +111,35 @@
     },
     {
       "time": "2026-10-08T11:45:00",
-      "open": 1.5,
-      "high": 1.5,
-      "low": 1.5,
-      "close": 1.5,
-      "volume": 0
+      "open": 1.6,
+      "high": 1.6,
+      "low": 1.53,
+      "close": 1.53,
+      "volume": 25
+    },
+    {
+      "time": "2026-10-08T11:50:00",
+      "open": 1.52,
+      "high": 1.64,
+      "low": 1.52,
+      "close": 1.55,
+      "volume": 17
+    },
+    {
+      "time": "2026-10-08T11:55:00",
+      "open": 1.55,
+      "high": 1.62,
+      "low": 1.53,
+      "close": 1.6,
+      "volume": 62
+    },
+    {
+      "time": "2026-10-08T12:00:00",
+      "open": 1.52,
+      "high": 1.52,
+      "low": 1.32,
+      "close": 1.32,
+      "volume": 7
     }
   ]
 }
