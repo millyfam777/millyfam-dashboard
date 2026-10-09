@@ -2,8 +2,8 @@
   "symbol": "MRNX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-09T09:47:20.311439",
-  "bar_count": 259,
+  "generated_at": "2026-10-09T09:52:05.002604",
+  "bar_count": 260,
   "candles": [
     {
       "time": "2026-10-08T03:00:00",
@@ -2072,10 +2072,18 @@
     {
       "time": "2026-10-09T08:45:00",
       "open": 150.0,
-      "high": 152.35,
+      "high": 152.37,
       "low": 149.78,
-      "close": 152.35,
-      "volume": 10
+      "close": 152.37,
+      "volume": 15
+    },
+    {
+      "time": "2026-10-09T08:50:00",
+      "open": 151.57,
+      "high": 152.37,
+      "low": 151.57,
+      "close": 152.37,
+      "volume": 8
     }
   ]
 }
