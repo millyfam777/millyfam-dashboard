@@ -2,8 +2,8 @@
   "symbol": "SVC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-09T19:17:34.236741",
-  "bar_count": 291,
+  "generated_at": "2026-10-09T19:32:34.533708",
+  "bar_count": 294,
   "candles": [
     {
       "time": "2026-10-08T07:20:00",
@@ -2329,9 +2329,33 @@
       "time": "2026-10-09T18:15:00",
       "open": 7.39,
       "high": 7.39,
+      "low": 7.3,
+      "close": 7.3,
+      "volume": 7
+    },
+    {
+      "time": "2026-10-09T18:20:00",
+      "open": 7.3,
+      "high": 7.4,
+      "low": 7.3,
+      "close": 7.4,
+      "volume": 37
+    },
+    {
+      "time": "2026-10-09T18:25:00",
+      "open": 7.39,
+      "high": 7.47,
       "low": 7.39,
-      "close": 7.39,
-      "volume": 6
+      "close": 7.45,
+      "volume": 165
+    },
+    {
+      "time": "2026-10-09T18:30:00",
+      "open": 7.45,
+      "high": 7.45,
+      "low": 7.45,
+      "close": 7.45,
+      "volume": 0
     }
   ]
 }
