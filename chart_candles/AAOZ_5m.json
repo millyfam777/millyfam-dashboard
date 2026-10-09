@@ -2,8 +2,8 @@
   "symbol": "AAOZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-08T19:48:29.489170",
-  "bar_count": 382,
+  "generated_at": "2026-10-08T20:03:27.469874",
+  "bar_count": 384,
   "candles": [
     {
       "time": "2026-10-07T03:00:00",
@@ -3056,10 +3056,26 @@
     {
       "time": "2026-10-08T18:45:00",
       "open": 10.58,
-      "high": 10.58,
+      "high": 10.62,
+      "low": 10.56,
+      "close": 10.62,
+      "volume": 8
+    },
+    {
+      "time": "2026-10-08T18:50:00",
+      "open": 10.62,
+      "high": 10.62,
+      "low": 10.62,
+      "close": 10.62,
+      "volume": 0
+    },
+    {
+      "time": "2026-10-08T18:55:00",
+      "open": 10.58,
+      "high": 10.7,
       "low": 10.58,
-      "close": 10.58,
-      "volume": 2
+      "close": 10.68,
+      "volume": 30
     }
   ]
 }
