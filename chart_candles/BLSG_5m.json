@@ -2,8 +2,8 @@
   "symbol": "BLSG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-09T11:18:00.382779",
-  "bar_count": 205,
+  "generated_at": "2026-10-09T11:22:04.937108",
+  "bar_count": 206,
   "candles": [
     {
       "time": "2026-10-08T03:15:00",
@@ -1640,10 +1640,18 @@
     {
       "time": "2026-10-09T10:15:00",
       "open": 2.75,
-      "high": 2.75,
+      "high": 2.77,
       "low": 2.75,
-      "close": 2.75,
-      "volume": 1
+      "close": 2.77,
+      "volume": 2
+    },
+    {
+      "time": "2026-10-09T10:20:00",
+      "open": 2.77,
+      "high": 2.77,
+      "low": 2.77,
+      "close": 2.77,
+      "volume": 0
     }
   ]
 }
