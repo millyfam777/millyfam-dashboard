@@ -2,8 +2,8 @@
   "symbol": "PRME",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-09T13:02:29.462066",
-  "bar_count": 301,
+  "generated_at": "2026-10-09T13:12:13.611743",
+  "bar_count": 303,
   "candles": [
     {
       "time": "2026-10-08T03:00:00",
@@ -2409,9 +2409,25 @@
       "time": "2026-10-09T12:00:00",
       "open": 4.05,
       "high": 4.05,
-      "low": 4.04,
-      "close": 4.04,
-      "volume": 254
+      "low": 4.03,
+      "close": 4.035,
+      "volume": 550
+    },
+    {
+      "time": "2026-10-09T12:05:00",
+      "open": 4.035,
+      "high": 4.045,
+      "low": 4.01,
+      "close": 4.015,
+      "volume": 679
+    },
+    {
+      "time": "2026-10-09T12:10:00",
+      "open": 4.015,
+      "high": 4.025,
+      "low": 4.0101,
+      "close": 4.015,
+      "volume": 274
     }
   ]
 }
