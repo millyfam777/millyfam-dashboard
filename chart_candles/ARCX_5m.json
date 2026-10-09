@@ -2,8 +2,8 @@
   "symbol": "ARCX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-09T09:02:48.580613",
-  "bar_count": 241,
+  "generated_at": "2026-10-09T09:18:06.152376",
+  "bar_count": 244,
   "candles": [
     {
       "time": "2026-10-08T04:00:00",
@@ -1927,11 +1927,35 @@
     },
     {
       "time": "2026-10-09T08:00:00",
-      "open": 9.82,
+      "open": 9.86,
+      "high": 9.86,
+      "low": 9.86,
+      "close": 9.86,
+      "volume": 1
+    },
+    {
+      "time": "2026-10-09T08:05:00",
+      "open": 9.85,
+      "high": 9.85,
+      "low": 9.85,
+      "close": 9.85,
+      "volume": 1
+    },
+    {
+      "time": "2026-10-09T08:10:00",
+      "open": 9.81,
       "high": 9.82,
-      "low": 9.82,
-      "close": 9.82,
-      "volume": 0
+      "low": 9.81,
+      "close": 9.81,
+      "volume": 9
+    },
+    {
+      "time": "2026-10-09T08:15:00",
+      "open": 9.87,
+      "high": 9.87,
+      "low": 9.87,
+      "close": 9.87,
+      "volume": 1
     }
   ]
 }
