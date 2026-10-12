@@ -2,8 +2,8 @@
   "symbol": "SLND",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-12T10:02:11.503959",
-  "bar_count": 240,
+  "generated_at": "2026-10-12T10:07:34.824577",
+  "bar_count": 241,
   "candles": [
     {
       "time": "2026-10-09T04:10:00",
@@ -1920,10 +1920,18 @@
     {
       "time": "2026-10-12T09:00:00",
       "open": 0.8308,
-      "high": 0.8308,
+      "high": 0.84,
       "low": 0.8308,
-      "close": 0.8308,
-      "volume": 2
+      "close": 0.84,
+      "volume": 48
+    },
+    {
+      "time": "2026-10-12T09:05:00",
+      "open": 0.849,
+      "high": 0.8499,
+      "low": 0.8301,
+      "close": 0.84,
+      "volume": 97
     }
   ]
 }
