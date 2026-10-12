@@ -2,8 +2,8 @@
   "symbol": "CRMG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-12T07:02:30.622698",
-  "bar_count": 229,
+  "generated_at": "2026-10-12T07:18:01.133403",
+  "bar_count": 232,
   "candles": [
     {
       "time": "2026-10-09T03:00:00",
@@ -1832,10 +1832,34 @@
     {
       "time": "2026-10-12T06:00:00",
       "open": 8.32,
-      "high": 8.39,
+      "high": 8.45,
       "low": 8.3,
-      "close": 8.39,
-      "volume": 48
+      "close": 8.43,
+      "volume": 171
+    },
+    {
+      "time": "2026-10-12T06:05:00",
+      "open": 8.42,
+      "high": 8.45,
+      "low": 8.4,
+      "close": 8.45,
+      "volume": 55
+    },
+    {
+      "time": "2026-10-12T06:10:00",
+      "open": 8.44,
+      "high": 8.44,
+      "low": 8.4,
+      "close": 8.41,
+      "volume": 18
+    },
+    {
+      "time": "2026-10-12T06:15:00",
+      "open": 8.41,
+      "high": 8.41,
+      "low": 8.41,
+      "close": 8.41,
+      "volume": 0
     }
   ]
 }
