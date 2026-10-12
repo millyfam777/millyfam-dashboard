@@ -2,8 +2,8 @@
   "symbol": "CCC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-12T04:17:49.869331",
-  "bar_count": 130,
+  "generated_at": "2026-10-12T04:32:53.611814",
+  "bar_count": 133,
   "candles": [
     {
       "time": "2026-10-09T08:30:00",
@@ -1041,9 +1041,33 @@
       "time": "2026-10-12T03:15:00",
       "open": 7.73,
       "high": 7.73,
-      "low": 7.7,
-      "close": 7.7,
-      "volume": 2
+      "low": 7.62,
+      "close": 7.62,
+      "volume": 8
+    },
+    {
+      "time": "2026-10-12T03:20:00",
+      "open": 7.62,
+      "high": 7.75,
+      "low": 7.62,
+      "close": 7.75,
+      "volume": 77
+    },
+    {
+      "time": "2026-10-12T03:25:00",
+      "open": 7.75,
+      "high": 7.75,
+      "low": 7.75,
+      "close": 7.75,
+      "volume": 0
+    },
+    {
+      "time": "2026-10-12T03:30:00",
+      "open": 7.75,
+      "high": 7.78,
+      "low": 7.75,
+      "close": 7.78,
+      "volume": 127
     }
   ]
 }
