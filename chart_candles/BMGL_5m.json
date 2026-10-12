@@ -2,8 +2,8 @@
   "symbol": "BMGL",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-12T10:32:55.628240",
-  "bar_count": 206,
+  "generated_at": "2026-10-12T10:42:16.503446",
+  "bar_count": 208,
   "candles": [
     {
       "time": "2026-10-09T03:00:00",
@@ -1648,10 +1648,26 @@
     {
       "time": "2026-10-12T09:30:00",
       "open": 4.1,
-      "high": 4.1,
+      "high": 4.13,
       "low": 4.1,
-      "close": 4.1,
-      "volume": 1
+      "close": 4.13,
+      "volume": 3
+    },
+    {
+      "time": "2026-10-12T09:35:00",
+      "open": 4.2,
+      "high": 4.2,
+      "low": 3.98,
+      "close": 3.98,
+      "volume": 20
+    },
+    {
+      "time": "2026-10-12T09:40:00",
+      "open": 3.98,
+      "high": 4.12,
+      "low": 3.98,
+      "close": 4.12,
+      "volume": 4
     }
   ]
 }
