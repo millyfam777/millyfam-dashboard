@@ -2,8 +2,8 @@
   "symbol": "IREG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-12T06:48:17.712973",
-  "bar_count": 226,
+  "generated_at": "2026-10-12T07:03:23.865838",
+  "bar_count": 229,
   "candles": [
     {
       "time": "2026-10-09T03:00:00",
@@ -1808,10 +1808,34 @@
     {
       "time": "2026-10-12T05:45:00",
       "open": 6.09,
-      "high": 6.09,
-      "low": 6.09,
+      "high": 6.1,
+      "low": 6.08,
       "close": 6.09,
-      "volume": 3
+      "volume": 15
+    },
+    {
+      "time": "2026-10-12T05:50:00",
+      "open": 6.09,
+      "high": 6.11,
+      "low": 6.07,
+      "close": 6.08,
+      "volume": 61
+    },
+    {
+      "time": "2026-10-12T05:55:00",
+      "open": 6.07,
+      "high": 6.08,
+      "low": 6.06,
+      "close": 6.06,
+      "volume": 38
+    },
+    {
+      "time": "2026-10-12T06:00:00",
+      "open": 6.08,
+      "high": 6.09,
+      "low": 5.93,
+      "close": 5.96,
+      "volume": 235
     }
   ]
 }
