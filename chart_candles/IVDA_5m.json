@@ -2,8 +2,8 @@
   "symbol": "IVDA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-12T08:02:08.146846",
-  "bar_count": 219,
+  "generated_at": "2026-10-12T08:07:10.709489",
+  "bar_count": 220,
   "candles": [
     {
       "time": "2026-10-09T04:30:00",
@@ -1752,10 +1752,18 @@
     {
       "time": "2026-10-12T07:00:00",
       "open": 0.265,
+      "high": 0.2703,
+      "low": 0.265,
+      "close": 0.265,
+      "volume": 311
+    },
+    {
+      "time": "2026-10-12T07:05:00",
+      "open": 0.265,
       "high": 0.265,
       "low": 0.265,
       "close": 0.265,
-      "volume": 257
+      "volume": 0
     }
   ]
 }
