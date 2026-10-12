@@ -2,8 +2,8 @@
   "symbol": "GRML",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-12T14:48:02.525438",
-  "bar_count": 322,
+  "generated_at": "2026-10-12T15:02:53.826306",
+  "bar_count": 325,
   "candles": [
     {
       "time": "2026-10-09T03:00:00",
@@ -2577,9 +2577,33 @@
       "time": "2026-10-12T13:45:00",
       "open": 6.11,
       "high": 6.13,
-      "low": 6.11,
-      "close": 6.12,
-      "volume": 63
+      "low": 6.0,
+      "close": 6.04,
+      "volume": 695
+    },
+    {
+      "time": "2026-10-12T13:50:00",
+      "open": 6.02,
+      "high": 6.12,
+      "low": 6.02,
+      "close": 6.08,
+      "volume": 464
+    },
+    {
+      "time": "2026-10-12T13:55:00",
+      "open": 6.09,
+      "high": 6.12,
+      "low": 6.07,
+      "close": 6.1,
+      "volume": 181
+    },
+    {
+      "time": "2026-10-12T14:00:00",
+      "open": 6.1,
+      "high": 6.15,
+      "low": 6.09,
+      "close": 6.14,
+      "volume": 450
     }
   ]
 }
