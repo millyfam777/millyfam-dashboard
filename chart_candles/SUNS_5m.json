@@ -2,8 +2,8 @@
   "symbol": "SUNS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-13T10:32:33.845667",
-  "bar_count": 166,
+  "generated_at": "2026-10-13T10:47:37.067616",
+  "bar_count": 169,
   "candles": [
     {
       "time": "2026-10-12T07:45:00",
@@ -1327,11 +1327,35 @@
     },
     {
       "time": "2026-10-13T09:30:00",
-      "open": 6.32,
-      "high": 6.32,
+      "open": 6.37,
+      "high": 6.37,
+      "low": 6.37,
+      "close": 6.37,
+      "volume": 3
+    },
+    {
+      "time": "2026-10-13T09:35:00",
+      "open": 6.37,
+      "high": 6.4,
       "low": 6.32,
-      "close": 6.32,
-      "volume": 0
+      "close": 6.37,
+      "volume": 77
+    },
+    {
+      "time": "2026-10-13T09:40:00",
+      "open": 6.4,
+      "high": 6.45,
+      "low": 6.4,
+      "close": 6.44,
+      "volume": 60
+    },
+    {
+      "time": "2026-10-13T09:45:00",
+      "open": 6.39,
+      "high": 6.39,
+      "low": 6.37,
+      "close": 6.37,
+      "volume": 5
     }
   ]
 }
