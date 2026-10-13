@@ -2,8 +2,8 @@
   "symbol": "CVKD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-13T12:03:01.654928",
-  "bar_count": 220,
+  "generated_at": "2026-10-13T12:18:20.317883",
+  "bar_count": 223,
   "candles": [
     {
       "time": "2026-10-12T04:15:00",
@@ -1762,8 +1762,32 @@
       "open": 1.01,
       "high": 1.0396,
       "low": 1.0,
+      "close": 1.02,
+      "volume": 57
+    },
+    {
+      "time": "2026-10-13T11:05:00",
+      "open": 1.02,
+      "high": 1.02,
+      "low": 0.99,
+      "close": 0.9997,
+      "volume": 86
+    },
+    {
+      "time": "2026-10-13T11:10:00",
+      "open": 1.01,
+      "high": 1.02,
+      "low": 1.0,
+      "close": 1.0,
+      "volume": 82
+    },
+    {
+      "time": "2026-10-13T11:15:00",
+      "open": 1.0006,
+      "high": 1.02,
+      "low": 1.0006,
       "close": 1.01,
-      "volume": 33
+      "volume": 25
     }
   ]
 }
