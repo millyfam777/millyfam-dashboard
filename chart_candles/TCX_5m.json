@@ -2,8 +2,8 @@
   "symbol": "TCX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-13T15:32:43.323130",
-  "bar_count": 252,
+  "generated_at": "2026-10-13T15:47:18.905859",
+  "bar_count": 255,
   "candles": [
     {
       "time": "2026-10-12T08:30:00",
@@ -2017,9 +2017,33 @@
       "time": "2026-10-13T14:30:00",
       "open": 9.68,
       "high": 9.69,
-      "low": 9.68,
-      "close": 9.69,
+      "low": 9.6,
+      "close": 9.6,
+      "volume": 4
+    },
+    {
+      "time": "2026-10-13T14:35:00",
+      "open": 9.6,
+      "high": 9.6,
+      "low": 9.52,
+      "close": 9.52,
+      "volume": 11
+    },
+    {
+      "time": "2026-10-13T14:40:00",
+      "open": 9.7,
+      "high": 9.7,
+      "low": 9.61,
+      "close": 9.61,
       "volume": 3
+    },
+    {
+      "time": "2026-10-13T14:45:00",
+      "open": 9.61,
+      "high": 9.61,
+      "low": 9.61,
+      "close": 9.61,
+      "volume": 0
     }
   ]
 }
