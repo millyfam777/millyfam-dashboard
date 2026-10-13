@@ -2,8 +2,8 @@
   "symbol": "RGC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-13T13:32:59.697850",
-  "bar_count": 226,
+  "generated_at": "2026-10-13T13:48:12.456043",
+  "bar_count": 229,
   "candles": [
     {
       "time": "2026-10-12T04:30:00",
@@ -1808,10 +1808,34 @@
     {
       "time": "2026-10-13T12:30:00",
       "open": 8.53,
-      "high": 8.63,
-      "low": 8.51,
+      "high": 8.64,
+      "low": 8.5,
       "close": 8.61,
-      "volume": 35
+      "volume": 74
+    },
+    {
+      "time": "2026-10-13T12:35:00",
+      "open": 8.61,
+      "high": 8.62,
+      "low": 8.5,
+      "close": 8.52,
+      "volume": 85
+    },
+    {
+      "time": "2026-10-13T12:40:00",
+      "open": 8.52,
+      "high": 8.52,
+      "low": 8.43,
+      "close": 8.44,
+      "volume": 31
+    },
+    {
+      "time": "2026-10-13T12:45:00",
+      "open": 8.44,
+      "high": 8.46,
+      "low": 8.4,
+      "close": 8.42,
+      "volume": 46
     }
   ]
 }
