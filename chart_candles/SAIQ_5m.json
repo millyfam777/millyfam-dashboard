@@ -2,8 +2,8 @@
   "symbol": "SAIQ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-13T07:47:44.185640",
-  "bar_count": 238,
+  "generated_at": "2026-10-13T08:02:29.147668",
+  "bar_count": 241,
   "candles": [
     {
       "time": "2026-10-12T03:00:00",
@@ -1905,9 +1905,33 @@
       "time": "2026-10-13T06:45:00",
       "open": 4.001,
       "high": 4.001,
-      "low": 3.895,
-      "close": 3.895,
-      "volume": 70
+      "low": 3.88,
+      "close": 3.9,
+      "volume": 86
+    },
+    {
+      "time": "2026-10-13T06:50:00",
+      "open": 3.9,
+      "high": 3.91,
+      "low": 3.9,
+      "close": 3.9006,
+      "volume": 8
+    },
+    {
+      "time": "2026-10-13T06:55:00",
+      "open": 3.96,
+      "high": 4.05,
+      "low": 3.96,
+      "close": 4.015,
+      "volume": 18
+    },
+    {
+      "time": "2026-10-13T07:00:00",
+      "open": 4.0,
+      "high": 4.0,
+      "low": 4.0,
+      "close": 4.0,
+      "volume": 2
     }
   ]
 }
