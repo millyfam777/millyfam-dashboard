@@ -2,8 +2,8 @@
   "symbol": "ENVX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-14T07:18:16.669820",
-  "bar_count": 232,
+  "generated_at": "2026-10-14T07:33:22.444856",
+  "bar_count": 235,
   "candles": [
     {
       "time": "2026-10-13T03:00:00",
@@ -1856,10 +1856,34 @@
     {
       "time": "2026-10-14T06:15:00",
       "open": 2.76,
+      "high": 2.77,
+      "low": 2.76,
+      "close": 2.77,
+      "volume": 7
+    },
+    {
+      "time": "2026-10-14T06:20:00",
+      "open": 2.76,
       "high": 2.76,
       "low": 2.76,
       "close": 2.76,
-      "volume": 6
+      "volume": 14
+    },
+    {
+      "time": "2026-10-14T06:25:00",
+      "open": 2.75,
+      "high": 2.76,
+      "low": 2.73,
+      "close": 2.73,
+      "volume": 123
+    },
+    {
+      "time": "2026-10-14T06:30:00",
+      "open": 2.73,
+      "high": 2.75,
+      "low": 2.73,
+      "close": 2.75,
+      "volume": 64
     }
   ]
 }
