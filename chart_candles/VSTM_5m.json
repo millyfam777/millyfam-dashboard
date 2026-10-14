@@ -2,8 +2,8 @@
   "symbol": "VSTM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-14T09:02:33.125976",
-  "bar_count": 253,
+  "generated_at": "2026-10-14T09:17:11.946320",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-10-13T03:00:00",
@@ -2024,10 +2024,34 @@
     {
       "time": "2026-10-14T08:00:00",
       "open": 8.0,
-      "high": 8.02,
+      "high": 8.05,
+      "low": 7.96,
+      "close": 8.02,
+      "volume": 2742
+    },
+    {
+      "time": "2026-10-14T08:05:00",
+      "open": 8.03,
+      "high": 8.03,
+      "low": 7.98,
+      "close": 7.98,
+      "volume": 177
+    },
+    {
+      "time": "2026-10-14T08:10:00",
+      "open": 7.97,
+      "high": 8.0,
+      "low": 7.9,
+      "close": 7.98,
+      "volume": 369
+    },
+    {
+      "time": "2026-10-14T08:15:00",
+      "open": 7.99,
+      "high": 8.0,
       "low": 7.97,
       "close": 8.0,
-      "volume": 2117
+      "volume": 200
     }
   ]
 }
