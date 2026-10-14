@@ -2,8 +2,8 @@
   "symbol": "SMCZ",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-14T13:17:16.442567",
-  "bar_count": 304,
+  "generated_at": "2026-10-14T13:32:22.715424",
+  "bar_count": 307,
   "candles": [
     {
       "time": "2026-10-13T03:00:00",
@@ -2432,10 +2432,34 @@
     {
       "time": "2026-10-14T12:15:00",
       "open": 5.53,
+      "high": 5.55,
+      "low": 5.53,
+      "close": 5.53,
+      "volume": 192
+    },
+    {
+      "time": "2026-10-14T12:20:00",
+      "open": 5.54,
       "high": 5.54,
       "low": 5.53,
       "close": 5.54,
-      "volume": 171
+      "volume": 39
+    },
+    {
+      "time": "2026-10-14T12:25:00",
+      "open": 5.54,
+      "high": 5.58,
+      "low": 5.54,
+      "close": 5.58,
+      "volume": 55
+    },
+    {
+      "time": "2026-10-14T12:30:00",
+      "open": 5.58,
+      "high": 5.58,
+      "low": 5.57,
+      "close": 5.57,
+      "volume": 4
     }
   ]
 }
