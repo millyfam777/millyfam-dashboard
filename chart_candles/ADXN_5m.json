@@ -2,8 +2,8 @@
   "symbol": "ADXN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-15T09:18:26.181710",
-  "bar_count": 255,
+  "generated_at": "2026-10-15T09:33:30.344509",
+  "bar_count": 258,
   "candles": [
     {
       "time": "2026-10-14T03:00:00",
@@ -2039,11 +2039,35 @@
     },
     {
       "time": "2026-10-15T08:15:00",
+      "open": 3.0,
+      "high": 3.0,
+      "low": 3.0,
+      "close": 3.0,
+      "volume": 3
+    },
+    {
+      "time": "2026-10-15T08:20:00",
+      "open": 3.01,
+      "high": 3.01,
+      "low": 3.0,
+      "close": 3.0,
+      "volume": 3
+    },
+    {
+      "time": "2026-10-15T08:25:00",
+      "open": 3.0,
+      "high": 3.0,
+      "low": 3.0,
+      "close": 3.0,
+      "volume": 0
+    },
+    {
+      "time": "2026-10-15T08:30:00",
       "open": 3.09,
       "high": 3.09,
-      "low": 3.09,
-      "close": 3.09,
-      "volume": 0
+      "low": 2.99,
+      "close": 2.99,
+      "volume": 12
     }
   ]
 }

@@ -2,8 +2,8 @@
   "symbol": "CRCD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-15T09:17:24.299925",
-  "bar_count": 256,
+  "generated_at": "2026-10-15T09:32:29.856037",
+  "bar_count": 259,
   "candles": [
     {
       "time": "2026-10-14T03:00:00",
@@ -2049,9 +2049,33 @@
       "time": "2026-10-15T08:15:00",
       "open": 2.6,
       "high": 2.61,
+      "low": 2.59,
+      "close": 2.599,
+      "volume": 325
+    },
+    {
+      "time": "2026-10-15T08:20:00",
+      "open": 2.6,
+      "high": 2.61,
       "low": 2.6,
-      "close": 2.6,
-      "volume": 293
+      "close": 2.61,
+      "volume": 181
+    },
+    {
+      "time": "2026-10-15T08:25:00",
+      "open": 2.62,
+      "high": 2.64,
+      "low": 2.62,
+      "close": 2.63,
+      "volume": 545
+    },
+    {
+      "time": "2026-10-15T08:30:00",
+      "open": 2.62,
+      "high": 2.63,
+      "low": 2.55,
+      "close": 2.55,
+      "volume": 1401
     }
   ]
 }
