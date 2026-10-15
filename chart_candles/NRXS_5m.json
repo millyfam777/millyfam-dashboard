@@ -2,8 +2,8 @@
   "symbol": "NRXS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-15T14:02:59.486713",
-  "bar_count": 201,
+  "generated_at": "2026-10-15T14:17:45.507861",
+  "bar_count": 204,
   "candles": [
     {
       "time": "2026-10-14T08:25:00",
@@ -1608,10 +1608,34 @@
     {
       "time": "2026-10-15T13:00:00",
       "open": 7.71,
-      "high": 7.73,
+      "high": 7.7499,
       "low": 7.7,
-      "close": 7.725,
-      "volume": 36
+      "close": 7.7499,
+      "volume": 81
+    },
+    {
+      "time": "2026-10-15T13:05:00",
+      "open": 7.74,
+      "high": 7.74,
+      "low": 7.67,
+      "close": 7.71,
+      "volume": 3
+    },
+    {
+      "time": "2026-10-15T13:10:00",
+      "open": 7.7,
+      "high": 7.71,
+      "low": 7.65,
+      "close": 7.65,
+      "volume": 224
+    },
+    {
+      "time": "2026-10-15T13:15:00",
+      "open": 7.6,
+      "high": 7.7,
+      "low": 7.6,
+      "close": 7.69,
+      "volume": 75
     }
   ]
 }
