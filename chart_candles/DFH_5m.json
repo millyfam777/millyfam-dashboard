@@ -2,8 +2,8 @@
   "symbol": "DFH",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-15T12:02:15.116769",
-  "bar_count": 262,
+  "generated_at": "2026-10-15T12:17:21.986022",
+  "bar_count": 265,
   "candles": [
     {
       "time": "2026-10-14T05:15:00",
@@ -2097,9 +2097,33 @@
       "time": "2026-10-15T11:00:00",
       "open": 8.41,
       "high": 8.42,
+      "low": 8.38,
+      "close": 8.42,
+      "volume": 138
+    },
+    {
+      "time": "2026-10-15T11:05:00",
+      "open": 8.41,
+      "high": 8.46,
       "low": 8.39,
-      "close": 8.39,
-      "volume": 88
+      "close": 8.45,
+      "volume": 344
+    },
+    {
+      "time": "2026-10-15T11:10:00",
+      "open": 8.44,
+      "high": 8.46,
+      "low": 8.42,
+      "close": 8.46,
+      "volume": 135
+    },
+    {
+      "time": "2026-10-15T11:15:00",
+      "open": 8.46,
+      "high": 8.58,
+      "low": 8.45,
+      "close": 8.57,
+      "volume": 94
     }
   ]
 }
