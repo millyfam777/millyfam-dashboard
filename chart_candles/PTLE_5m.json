@@ -2,8 +2,8 @@
   "symbol": "PTLE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-15T13:18:08.550705",
-  "bar_count": 143,
+  "generated_at": "2026-10-15T13:33:06.859660",
+  "bar_count": 146,
   "candles": [
     {
       "time": "2026-10-14T10:50:00",
@@ -1144,10 +1144,34 @@
     {
       "time": "2026-10-15T12:15:00",
       "open": 8.7,
-      "high": 8.7,
+      "high": 8.81,
+      "low": 8.7,
+      "close": 8.81,
+      "volume": 7
+    },
+    {
+      "time": "2026-10-15T12:20:00",
+      "open": 8.81,
+      "high": 8.81,
+      "low": 8.79,
+      "close": 8.79,
+      "volume": 3
+    },
+    {
+      "time": "2026-10-15T12:25:00",
+      "open": 8.78,
+      "high": 8.78,
       "low": 8.7,
       "close": 8.7,
-      "volume": 1
+      "volume": 10
+    },
+    {
+      "time": "2026-10-15T12:30:00",
+      "open": 8.65,
+      "high": 8.81,
+      "low": 8.65,
+      "close": 8.81,
+      "volume": 15
     }
   ]
 }
