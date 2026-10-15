@@ -2,8 +2,8 @@
   "symbol": "CORD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-15T06:03:36.090827",
-  "bar_count": 217,
+  "generated_at": "2026-10-15T06:18:21.529521",
+  "bar_count": 220,
   "candles": [
     {
       "time": "2026-10-14T03:00:00",
@@ -1736,10 +1736,34 @@
     {
       "time": "2026-10-15T05:00:00",
       "open": 5.21,
-      "high": 5.21,
+      "high": 5.24,
       "low": 5.2,
+      "close": 5.23,
+      "volume": 132
+    },
+    {
+      "time": "2026-10-15T05:05:00",
+      "open": 5.23,
+      "high": 5.25,
+      "low": 5.21,
       "close": 5.21,
-      "volume": 21
+      "volume": 840
+    },
+    {
+      "time": "2026-10-15T05:10:00",
+      "open": 5.21,
+      "high": 5.21,
+      "low": 5.16,
+      "close": 5.18,
+      "volume": 96
+    },
+    {
+      "time": "2026-10-15T05:15:00",
+      "open": 5.17,
+      "high": 5.18,
+      "low": 5.16,
+      "close": 5.16,
+      "volume": 22
     }
   ]
 }
