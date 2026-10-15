@@ -2,8 +2,8 @@
   "symbol": "BETR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-15T10:32:27.376675",
-  "bar_count": 236,
+  "generated_at": "2026-10-15T10:47:24.577996",
+  "bar_count": 239,
   "candles": [
     {
       "time": "2026-10-14T04:35:00",
@@ -1888,10 +1888,34 @@
     {
       "time": "2026-10-15T09:30:00",
       "open": 9.1,
-      "high": 9.1,
+      "high": 9.12,
       "low": 9.03,
-      "close": 9.08,
-      "volume": 92
+      "close": 9.1,
+      "volume": 120
+    },
+    {
+      "time": "2026-10-15T09:35:00",
+      "open": 9.1,
+      "high": 9.2,
+      "low": 9.05,
+      "close": 9.2,
+      "volume": 87
+    },
+    {
+      "time": "2026-10-15T09:40:00",
+      "open": 9.2,
+      "high": 9.27,
+      "low": 9.18,
+      "close": 9.23,
+      "volume": 229
+    },
+    {
+      "time": "2026-10-15T09:45:00",
+      "open": 9.23,
+      "high": 9.25,
+      "low": 9.14,
+      "close": 9.25,
+      "volume": 439
     }
   ]
 }
