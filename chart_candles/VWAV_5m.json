@@ -2,8 +2,8 @@
   "symbol": "VWAV",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-16T10:02:31.350742",
-  "bar_count": 214,
+  "generated_at": "2026-10-16T10:17:35.690159",
+  "bar_count": 217,
   "candles": [
     {
       "time": "2026-10-15T06:00:00",
@@ -1712,10 +1712,34 @@
     {
       "time": "2026-10-16T09:00:00",
       "open": 4.11,
-      "high": 4.11,
+      "high": 4.16,
       "low": 4.04,
-      "close": 4.05,
-      "volume": 55
+      "close": 4.12,
+      "volume": 57
+    },
+    {
+      "time": "2026-10-16T09:05:00",
+      "open": 4.04,
+      "high": 4.12,
+      "low": 4.03,
+      "close": 4.12,
+      "volume": 36
+    },
+    {
+      "time": "2026-10-16T09:10:00",
+      "open": 4.08,
+      "high": 4.08,
+      "low": 4.08,
+      "close": 4.08,
+      "volume": 3
+    },
+    {
+      "time": "2026-10-16T09:15:00",
+      "open": 4.11,
+      "high": 4.11,
+      "low": 4.11,
+      "close": 4.11,
+      "volume": 4
     }
   ]
 }
