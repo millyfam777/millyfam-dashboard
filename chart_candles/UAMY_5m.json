@@ -2,8 +2,8 @@
   "symbol": "UAMY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-16T08:02:34.436740",
-  "bar_count": 241,
+  "generated_at": "2026-10-16T08:17:27.815772",
+  "bar_count": 244,
   "candles": [
     {
       "time": "2026-10-15T03:00:00",
@@ -1929,9 +1929,33 @@
       "time": "2026-10-16T07:00:00",
       "open": 3.0,
       "high": 3.0,
-      "low": 3.0,
-      "close": 3.0,
-      "volume": 6
+      "low": 2.98,
+      "close": 2.99,
+      "volume": 27
+    },
+    {
+      "time": "2026-10-16T07:05:00",
+      "open": 2.99,
+      "high": 3.04,
+      "low": 2.99,
+      "close": 3.03,
+      "volume": 81
+    },
+    {
+      "time": "2026-10-16T07:10:00",
+      "open": 3.05,
+      "high": 3.1,
+      "low": 3.02,
+      "close": 3.09,
+      "volume": 719
+    },
+    {
+      "time": "2026-10-16T07:15:00",
+      "open": 3.09,
+      "high": 3.12,
+      "low": 3.08,
+      "close": 3.08,
+      "volume": 663
     }
   ]
 }
