@@ -2,8 +2,8 @@
   "symbol": "GP",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-19T17:03:25.291476",
-  "bar_count": 93,
+  "generated_at": "2026-10-19T17:18:25.383535",
+  "bar_count": 96,
   "candles": [
     {
       "time": "2026-10-19T08:20:00",
@@ -743,10 +743,34 @@
     },
     {
       "time": "2026-10-19T16:00:00",
-      "open": 1.41,
-      "high": 1.41,
-      "low": 1.41,
-      "close": 1.41,
+      "open": 1.4,
+      "high": 1.4,
+      "low": 1.4,
+      "close": 1.4,
+      "volume": 1
+    },
+    {
+      "time": "2026-10-19T16:05:00",
+      "open": 1.45,
+      "high": 1.5,
+      "low": 1.45,
+      "close": 1.5,
+      "volume": 16
+    },
+    {
+      "time": "2026-10-19T16:10:00",
+      "open": 1.5,
+      "high": 1.5,
+      "low": 1.42,
+      "close": 1.42,
+      "volume": 30
+    },
+    {
+      "time": "2026-10-19T16:15:00",
+      "open": 1.42,
+      "high": 1.42,
+      "low": 1.42,
+      "close": 1.42,
       "volume": 0
     }
   ]
