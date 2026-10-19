@@ -2,8 +2,8 @@
   "symbol": "SGRX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-19T08:47:23.655314",
-  "bar_count": 250,
+  "generated_at": "2026-10-19T08:52:23.988470",
+  "bar_count": 251,
   "candles": [
     {
       "time": "2026-10-16T03:00:00",
@@ -2000,10 +2000,18 @@
     {
       "time": "2026-10-19T07:45:00",
       "open": 0.5925,
-      "high": 0.5925,
+      "high": 0.6,
       "low": 0.5925,
-      "close": 0.5925,
-      "volume": 1
+      "close": 0.5988,
+      "volume": 12
+    },
+    {
+      "time": "2026-10-19T07:50:00",
+      "open": 0.5937,
+      "high": 0.5993,
+      "low": 0.5937,
+      "close": 0.5961,
+      "volume": 34
     }
   ]
 }
