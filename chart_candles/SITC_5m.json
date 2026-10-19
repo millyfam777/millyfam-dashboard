@@ -2,8 +2,8 @@
   "symbol": "SITC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-19T10:02:14.959781",
-  "bar_count": 260,
+  "generated_at": "2026-10-19T10:17:14.560588",
+  "bar_count": 263,
   "candles": [
     {
       "time": "2026-10-16T03:00:00",
@@ -2082,8 +2082,32 @@
       "open": 3.46,
       "high": 3.47,
       "low": 3.46,
+      "close": 3.46,
+      "volume": 16
+    },
+    {
+      "time": "2026-10-19T09:05:00",
+      "open": 3.47,
+      "high": 3.47,
+      "low": 3.43,
+      "close": 3.44,
+      "volume": 588
+    },
+    {
+      "time": "2026-10-19T09:10:00",
+      "open": 3.43,
+      "high": 3.47,
+      "low": 3.43,
       "close": 3.47,
-      "volume": 6
+      "volume": 615
+    },
+    {
+      "time": "2026-10-19T09:15:00",
+      "open": 3.48,
+      "high": 3.48,
+      "low": 3.46,
+      "close": 3.48,
+      "volume": 742
     }
   ]
 }
