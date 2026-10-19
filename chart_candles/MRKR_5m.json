@@ -2,8 +2,8 @@
   "symbol": "MRKR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-19T11:02:19.833386",
-  "bar_count": 189,
+  "generated_at": "2026-10-19T11:17:18.594058",
+  "bar_count": 192,
   "candles": [
     {
       "time": "2026-10-16T07:20:00",
@@ -1512,10 +1512,34 @@
     {
       "time": "2026-10-19T10:00:00",
       "open": 1.09,
-      "high": 1.0944,
+      "high": 1.1,
       "low": 1.08,
-      "close": 1.0929,
-      "volume": 17
+      "close": 1.1,
+      "volume": 19
+    },
+    {
+      "time": "2026-10-19T10:05:00",
+      "open": 1.105,
+      "high": 1.12,
+      "low": 1.1,
+      "close": 1.1,
+      "volume": 78
+    },
+    {
+      "time": "2026-10-19T10:10:00",
+      "open": 1.1,
+      "high": 1.1,
+      "low": 1.095,
+      "close": 1.1,
+      "volume": 8
+    },
+    {
+      "time": "2026-10-19T10:15:00",
+      "open": 1.1,
+      "high": 1.1,
+      "low": 1.1,
+      "close": 1.1,
+      "volume": 0
     }
   ]
 }
