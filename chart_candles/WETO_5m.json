@@ -2,8 +2,8 @@
   "symbol": "WETO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-10-19T18:48:17.940616",
-  "bar_count": 370,
+  "generated_at": "2026-10-19T19:03:18.714156",
+  "bar_count": 373,
   "candles": [
     {
       "time": "2026-10-16T03:00:00",
@@ -2963,7 +2963,31 @@
       "high": 1.0,
       "low": 1.0,
       "close": 1.0,
-      "volume": 9
+      "volume": 10
+    },
+    {
+      "time": "2026-10-19T17:50:00",
+      "open": 1.0001,
+      "high": 1.01,
+      "low": 1.0,
+      "close": 1.0,
+      "volume": 51
+    },
+    {
+      "time": "2026-10-19T17:55:00",
+      "open": 0.9999,
+      "high": 0.9999,
+      "low": 0.9912,
+      "close": 0.9912,
+      "volume": 5
+    },
+    {
+      "time": "2026-10-19T18:00:00",
+      "open": 0.9912,
+      "high": 0.9999,
+      "low": 0.9912,
+      "close": 0.9999,
+      "volume": 8
     }
   ]
 }
