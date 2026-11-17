@@ -2,8 +2,8 @@
   "symbol": "SCZM",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-17T14:02:14.838184",
-  "bar_count": 284,
+  "generated_at": "2026-11-17T14:17:12.222314",
+  "bar_count": 287,
   "candles": [
     {
       "time": "2026-11-16T06:25:00",
@@ -2271,11 +2271,35 @@
     },
     {
       "time": "2026-11-17T14:00:00",
-      "open": 7.42,
-      "high": 7.42,
+      "open": 7.43,
+      "high": 7.43,
       "low": 7.42,
       "close": 7.42,
-      "volume": 0
+      "volume": 7
+    },
+    {
+      "time": "2026-11-17T14:05:00",
+      "open": 7.43,
+      "high": 7.46,
+      "low": 7.43,
+      "close": 7.45,
+      "volume": 53
+    },
+    {
+      "time": "2026-11-17T14:10:00",
+      "open": 7.46,
+      "high": 7.47,
+      "low": 7.45,
+      "close": 7.47,
+      "volume": 27
+    },
+    {
+      "time": "2026-11-17T14:15:00",
+      "open": 7.47,
+      "high": 7.5,
+      "low": 7.45,
+      "close": 7.49,
+      "volume": 28
     }
   ]
 }
