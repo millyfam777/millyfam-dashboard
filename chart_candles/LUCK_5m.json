@@ -2,8 +2,8 @@
   "symbol": "LUCK",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-17T09:03:20.616076",
-  "bar_count": 141,
+  "generated_at": "2026-11-17T09:18:26.616387",
+  "bar_count": 144,
   "candles": [
     {
       "time": "2026-11-16T09:30:00",
@@ -1128,10 +1128,34 @@
     {
       "time": "2026-11-17T09:00:00",
       "open": 3.9,
-      "high": 3.92,
+      "high": 3.94,
       "low": 3.9,
-      "close": 3.9,
-      "volume": 60
+      "close": 3.93,
+      "volume": 62
+    },
+    {
+      "time": "2026-11-17T09:05:00",
+      "open": 3.92,
+      "high": 3.96,
+      "low": 3.9,
+      "close": 3.95,
+      "volume": 119
+    },
+    {
+      "time": "2026-11-17T09:10:00",
+      "open": 3.95,
+      "high": 3.99,
+      "low": 3.93,
+      "close": 3.99,
+      "volume": 87
+    },
+    {
+      "time": "2026-11-17T09:15:00",
+      "open": 3.99,
+      "high": 4.05,
+      "low": 3.93,
+      "close": 3.95,
+      "volume": 646
     }
   ]
 }
