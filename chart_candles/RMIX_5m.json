@@ -2,8 +2,8 @@
   "symbol": "RMIX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-17T15:02:38.167543",
-  "bar_count": 265,
+  "generated_at": "2026-11-17T15:17:22.214475",
+  "bar_count": 268,
   "candles": [
     {
       "time": "2026-11-16T04:00:00",
@@ -2120,10 +2120,34 @@
     {
       "time": "2026-11-17T15:00:00",
       "open": 6.11,
-      "high": 6.15,
+      "high": 6.21,
       "low": 6.11,
-      "close": 6.15,
-      "volume": 69
+      "close": 6.2,
+      "volume": 252
+    },
+    {
+      "time": "2026-11-17T15:05:00",
+      "open": 6.2,
+      "high": 6.22,
+      "low": 6.18,
+      "close": 6.21,
+      "volume": 133
+    },
+    {
+      "time": "2026-11-17T15:10:00",
+      "open": 6.21,
+      "high": 6.22,
+      "low": 6.19,
+      "close": 6.21,
+      "volume": 118
+    },
+    {
+      "time": "2026-11-17T15:15:00",
+      "open": 6.21,
+      "high": 6.22,
+      "low": 6.15,
+      "close": 6.2,
+      "volume": 151
     }
   ]
 }
