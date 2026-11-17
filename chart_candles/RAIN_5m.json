@@ -2,8 +2,8 @@
   "symbol": "RAIN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-17T16:48:09.422781",
-  "bar_count": 346,
+  "generated_at": "2026-11-17T17:03:10.031132",
+  "bar_count": 349,
   "candles": [
     {
       "time": "2026-11-16T04:00:00",
@@ -2768,10 +2768,34 @@
     {
       "time": "2026-11-17T16:45:00",
       "open": 1.03,
-      "high": 1.03,
+      "high": 1.04,
       "low": 1.03,
-      "close": 1.03,
-      "volume": 11
+      "close": 1.04,
+      "volume": 31
+    },
+    {
+      "time": "2026-11-17T16:50:00",
+      "open": 1.04,
+      "high": 1.04,
+      "low": 1.04,
+      "close": 1.04,
+      "volume": 0
+    },
+    {
+      "time": "2026-11-17T16:55:00",
+      "open": 1.02,
+      "high": 1.02,
+      "low": 1.02,
+      "close": 1.02,
+      "volume": 3
+    },
+    {
+      "time": "2026-11-17T17:00:00",
+      "open": 1.01,
+      "high": 1.0209,
+      "low": 1.01,
+      "close": 1.0209,
+      "volume": 19
     }
   ]
 }
