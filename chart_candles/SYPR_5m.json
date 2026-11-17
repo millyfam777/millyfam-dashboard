@@ -2,8 +2,8 @@
   "symbol": "SYPR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-17T12:18:33.933909",
-  "bar_count": 160,
+  "generated_at": "2026-11-17T12:33:27.755480",
+  "bar_count": 163,
   "candles": [
     {
       "time": "2026-11-16T09:30:00",
@@ -1280,10 +1280,34 @@
     {
       "time": "2026-11-17T12:15:00",
       "open": 1.38,
+      "high": 1.399,
+      "low": 1.37,
+      "close": 1.37,
+      "volume": 27
+    },
+    {
+      "time": "2026-11-17T12:20:00",
+      "open": 1.38,
+      "high": 1.39,
+      "low": 1.37,
+      "close": 1.389,
+      "volume": 55
+    },
+    {
+      "time": "2026-11-17T12:25:00",
+      "open": 1.38,
       "high": 1.38,
       "low": 1.38,
       "close": 1.38,
-      "volume": 23
+      "volume": 33
+    },
+    {
+      "time": "2026-11-17T12:30:00",
+      "open": 1.38,
+      "high": 1.38,
+      "low": 1.38,
+      "close": 1.38,
+      "volume": 0
     }
   ]
 }
