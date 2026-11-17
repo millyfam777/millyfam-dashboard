@@ -2,8 +2,8 @@
   "symbol": "ROC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-17T09:33:04.769102",
-  "bar_count": 254,
+  "generated_at": "2026-11-17T09:38:09.492761",
+  "bar_count": 255,
   "candles": [
     {
       "time": "2026-11-16T04:00:00",
@@ -2032,10 +2032,18 @@
     {
       "time": "2026-11-17T09:30:00",
       "open": 3.5,
-      "high": 3.5,
+      "high": 3.64,
       "low": 3.5,
       "close": 3.5,
-      "volume": 3
+      "volume": 44
+    },
+    {
+      "time": "2026-11-17T09:35:00",
+      "open": 3.57,
+      "high": 3.67,
+      "low": 3.57,
+      "close": 3.67,
+      "volume": 6
     }
   ]
 }
