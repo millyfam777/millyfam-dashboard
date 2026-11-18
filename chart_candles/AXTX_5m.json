@@ -2,8 +2,8 @@
   "symbol": "AXTX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-18T04:32:07.952275",
-  "bar_count": 199,
+  "generated_at": "2026-11-18T04:47:14.238486",
+  "bar_count": 202,
   "candles": [
     {
       "time": "2026-11-17T04:00:00",
@@ -1593,9 +1593,33 @@
       "time": "2026-11-18T04:30:00",
       "open": 6.03,
       "high": 6.03,
-      "low": 6.02,
+      "low": 6.0,
+      "close": 6.01,
+      "volume": 21
+    },
+    {
+      "time": "2026-11-18T04:35:00",
+      "open": 6.01,
+      "high": 6.03,
+      "low": 6.01,
       "close": 6.03,
-      "volume": 9
+      "volume": 91
+    },
+    {
+      "time": "2026-11-18T04:40:00",
+      "open": 6.0,
+      "high": 6.0,
+      "low": 5.95,
+      "close": 5.95,
+      "volume": 106
+    },
+    {
+      "time": "2026-11-18T04:45:00",
+      "open": 5.94,
+      "high": 5.95,
+      "low": 5.94,
+      "close": 5.95,
+      "volume": 51
     }
   ]
 }
