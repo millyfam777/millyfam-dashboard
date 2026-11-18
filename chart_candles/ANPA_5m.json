@@ -2,8 +2,8 @@
   "symbol": "ANPA",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-18T14:27:20.922524",
-  "bar_count": 232,
+  "generated_at": "2026-11-18T14:37:06.456685",
+  "bar_count": 234,
   "candles": [
     {
       "time": "2026-11-17T05:40:00",
@@ -1856,10 +1856,26 @@
     {
       "time": "2026-11-18T14:25:00",
       "open": 1.22,
-      "high": 1.22,
+      "high": 1.24,
+      "low": 1.22,
+      "close": 1.23,
+      "volume": 6
+    },
+    {
+      "time": "2026-11-18T14:30:00",
+      "open": 1.25,
+      "high": 1.2899,
+      "low": 1.15,
+      "close": 1.25,
+      "volume": 156
+    },
+    {
+      "time": "2026-11-18T14:35:00",
+      "open": 1.2501,
+      "high": 1.2501,
       "low": 1.22,
       "close": 1.22,
-      "volume": 3
+      "volume": 16
     }
   ]
 }
