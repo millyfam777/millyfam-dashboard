@@ -2,8 +2,8 @@
   "symbol": "BFRI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-18T07:02:50.485540",
-  "bar_count": 163,
+  "generated_at": "2026-11-18T07:07:22.756228",
+  "bar_count": 164,
   "candles": [
     {
       "time": "2026-11-17T07:55:00",
@@ -1304,10 +1304,18 @@
     {
       "time": "2026-11-18T07:00:00",
       "open": 0.617,
-      "high": 0.617,
+      "high": 0.645,
       "low": 0.617,
-      "close": 0.617,
-      "volume": 5
+      "close": 0.645,
+      "volume": 6
+    },
+    {
+      "time": "2026-11-18T07:05:00",
+      "open": 0.645,
+      "high": 0.645,
+      "low": 0.645,
+      "close": 0.645,
+      "volume": 0
     }
   ]
 }
