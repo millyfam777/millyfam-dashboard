@@ -2,8 +2,8 @@
   "symbol": "UFG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-18T09:12:07.619341",
-  "bar_count": 130,
+  "generated_at": "2026-11-18T09:27:15.161652",
+  "bar_count": 133,
   "candles": [
     {
       "time": "2026-11-17T09:30:00",
@@ -1040,10 +1040,34 @@
     {
       "time": "2026-11-18T09:10:00",
       "open": 2.33,
-      "high": 2.38,
+      "high": 2.39,
       "low": 2.33,
+      "close": 2.39,
+      "volume": 35
+    },
+    {
+      "time": "2026-11-18T09:15:00",
+      "open": 2.39,
+      "high": 2.39,
+      "low": 2.36,
       "close": 2.38,
-      "volume": 6
+      "volume": 10
+    },
+    {
+      "time": "2026-11-18T09:20:00",
+      "open": 2.38,
+      "high": 2.39,
+      "low": 2.32,
+      "close": 2.36,
+      "volume": 21
+    },
+    {
+      "time": "2026-11-18T09:25:00",
+      "open": 2.3,
+      "high": 2.3,
+      "low": 2.3,
+      "close": 2.3,
+      "volume": 3
     }
   ]
 }
