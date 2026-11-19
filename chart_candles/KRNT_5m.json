@@ -2,8 +2,8 @@
   "symbol": "KRNT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-19T13:32:07.089482",
-  "bar_count": 199,
+  "generated_at": "2026-11-19T13:37:04.843705",
+  "bar_count": 200,
   "candles": [
     {
       "time": "2026-11-18T07:35:00",
@@ -1593,9 +1593,17 @@
       "time": "2026-11-19T13:30:00",
       "open": 14.41,
       "high": 14.42,
+      "low": 14.37,
+      "close": 14.39,
+      "volume": 40
+    },
+    {
+      "time": "2026-11-19T13:35:00",
+      "open": 14.39,
+      "high": 14.39,
       "low": 14.39,
       "close": 14.39,
-      "volume": 15
+      "volume": 0
     }
   ]
 }
