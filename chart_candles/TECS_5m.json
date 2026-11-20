@@ -2,8 +2,8 @@
   "symbol": "TECS",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-20T13:47:10.346033",
-  "bar_count": 310,
+  "generated_at": "2026-11-20T13:57:11.584723",
+  "bar_count": 312,
   "candles": [
     {
       "time": "2026-11-19T04:00:00",
@@ -2480,10 +2480,26 @@
     {
       "time": "2026-11-20T13:45:00",
       "open": 99.63,
-      "high": 99.82,
+      "high": 99.83,
       "low": 99.61,
-      "close": 99.82,
-      "volume": 6
+      "close": 99.7,
+      "volume": 9
+    },
+    {
+      "time": "2026-11-20T13:50:00",
+      "open": 99.37,
+      "high": 99.37,
+      "low": 98.02,
+      "close": 98.02,
+      "volume": 9
+    },
+    {
+      "time": "2026-11-20T13:55:00",
+      "open": 97.86,
+      "high": 97.86,
+      "low": 97.07,
+      "close": 97.25,
+      "volume": 167
     }
   ]
 }
