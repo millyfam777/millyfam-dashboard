@@ -2,8 +2,8 @@
   "symbol": "SSPC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-20T06:17:09.069272",
-  "bar_count": 220,
+  "generated_at": "2026-11-20T06:32:06.322806",
+  "bar_count": 223,
   "candles": [
     {
       "time": "2026-11-19T04:00:00",
@@ -1760,10 +1760,34 @@
     {
       "time": "2026-11-20T06:15:00",
       "open": 9.43,
-      "high": 9.44,
+      "high": 9.45,
       "low": 9.43,
-      "close": 9.43,
-      "volume": 9
+      "close": 9.44,
+      "volume": 58
+    },
+    {
+      "time": "2026-11-20T06:20:00",
+      "open": 9.44,
+      "high": 9.49,
+      "low": 9.43,
+      "close": 9.46,
+      "volume": 99
+    },
+    {
+      "time": "2026-11-20T06:25:00",
+      "open": 9.46,
+      "high": 9.48,
+      "low": 9.45,
+      "close": 9.45,
+      "volume": 241
+    },
+    {
+      "time": "2026-11-20T06:30:00",
+      "open": 9.46,
+      "high": 9.46,
+      "low": 9.44,
+      "close": 9.44,
+      "volume": 176
     }
   ]
 }
