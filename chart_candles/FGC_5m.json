@@ -2,8 +2,8 @@
   "symbol": "FGC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-20T09:48:14.943243",
-  "bar_count": 130,
+  "generated_at": "2026-11-20T10:02:59.953494",
+  "bar_count": 133,
   "candles": [
     {
       "time": "2026-11-19T09:30:00",
@@ -1040,10 +1040,34 @@
     {
       "time": "2026-11-20T09:45:00",
       "open": 5.94,
-      "high": 5.94,
+      "high": 6.29,
       "low": 5.94,
-      "close": 5.94,
-      "volume": 2
+      "close": 6.13,
+      "volume": 25
+    },
+    {
+      "time": "2026-11-20T09:50:00",
+      "open": 6.13,
+      "high": 6.19,
+      "low": 6.04,
+      "close": 6.19,
+      "volume": 12
+    },
+    {
+      "time": "2026-11-20T09:55:00",
+      "open": 6.28,
+      "high": 6.47,
+      "low": 6.1,
+      "close": 6.32,
+      "volume": 53
+    },
+    {
+      "time": "2026-11-20T10:00:00",
+      "open": 6.32,
+      "high": 6.32,
+      "low": 6.32,
+      "close": 6.32,
+      "volume": 1
     }
   ]
 }
