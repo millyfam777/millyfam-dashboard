@@ -2,8 +2,8 @@
   "symbol": "TSXD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-20T09:32:27.476117",
-  "bar_count": 147,
+  "generated_at": "2026-11-20T09:37:42.884120",
+  "bar_count": 148,
   "candles": [
     {
       "time": "2026-11-19T09:35:00",
@@ -1176,10 +1176,18 @@
     {
       "time": "2026-11-20T09:30:00",
       "open": 8.01,
-      "high": 8.34,
+      "high": 8.44,
       "low": 8.01,
-      "close": 8.31,
-      "volume": 17
+      "close": 8.44,
+      "volume": 37
+    },
+    {
+      "time": "2026-11-20T09:35:00",
+      "open": 8.44,
+      "high": 8.44,
+      "low": 8.44,
+      "close": 8.44,
+      "volume": 0
     }
   ]
 }
