@@ -2,8 +2,8 @@
   "symbol": "CABO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-20T11:18:18.216682",
-  "bar_count": 160,
+  "generated_at": "2026-11-20T11:33:12.126037",
+  "bar_count": 163,
   "candles": [
     {
       "time": "2026-11-19T08:30:00",
@@ -1280,10 +1280,34 @@
     {
       "time": "2026-11-20T11:15:00",
       "open": 2.78,
-      "high": 2.78,
+      "high": 2.8,
       "low": 2.75,
+      "close": 2.77,
+      "volume": 38
+    },
+    {
+      "time": "2026-11-20T11:20:00",
+      "open": 2.77,
+      "high": 2.78,
+      "low": 2.73,
       "close": 2.75,
-      "volume": 2
+      "volume": 30
+    },
+    {
+      "time": "2026-11-20T11:25:00",
+      "open": 2.72,
+      "high": 2.76,
+      "low": 2.67,
+      "close": 2.76,
+      "volume": 99
+    },
+    {
+      "time": "2026-11-20T11:30:00",
+      "open": 2.77,
+      "high": 2.77,
+      "low": 2.77,
+      "close": 2.77,
+      "volume": 28
     }
   ]
 }
