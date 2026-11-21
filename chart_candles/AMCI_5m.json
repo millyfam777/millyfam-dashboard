@@ -2,8 +2,8 @@
   "symbol": "AMCI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-20T19:48:30.167814",
-  "bar_count": 342,
+  "generated_at": "2026-11-20T20:03:28.367906",
+  "bar_count": 344,
   "candles": [
     {
       "time": "2026-11-19T04:50:00",
@@ -2736,10 +2736,26 @@
     {
       "time": "2026-11-20T19:45:00",
       "open": 1.12,
+      "high": 1.1295,
+      "low": 1.12,
+      "close": 1.1295,
+      "volume": 20
+    },
+    {
+      "time": "2026-11-20T19:50:00",
+      "open": 1.12,
       "high": 1.12,
       "low": 1.12,
       "close": 1.12,
       "volume": 1
+    },
+    {
+      "time": "2026-11-20T19:55:00",
+      "open": 1.13,
+      "high": 1.13,
+      "low": 1.13,
+      "close": 1.13,
+      "volume": 6
     }
   ]
 }
