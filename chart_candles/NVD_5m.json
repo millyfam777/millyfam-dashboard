@@ -2,8 +2,8 @@
   "symbol": "NVD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-20T19:17:57.224475",
-  "bar_count": 376,
+  "generated_at": "2026-11-20T19:32:55.895552",
+  "bar_count": 379,
   "candles": [
     {
       "time": "2026-11-19T04:00:00",
@@ -3008,10 +3008,34 @@
     {
       "time": "2026-11-20T19:15:00",
       "open": 9.81,
-      "high": 9.81,
+      "high": 9.83,
       "low": 9.78,
-      "close": 9.78,
-      "volume": 11
+      "close": 9.83,
+      "volume": 26
+    },
+    {
+      "time": "2026-11-20T19:20:00",
+      "open": 9.8,
+      "high": 9.86,
+      "low": 9.8,
+      "close": 9.86,
+      "volume": 60
+    },
+    {
+      "time": "2026-11-20T19:25:00",
+      "open": 9.83,
+      "high": 9.87,
+      "low": 9.81,
+      "close": 9.81,
+      "volume": 72
+    },
+    {
+      "time": "2026-11-20T19:30:00",
+      "open": 9.79,
+      "high": 9.81,
+      "low": 9.79,
+      "close": 9.81,
+      "volume": 5
     }
   ]
 }
