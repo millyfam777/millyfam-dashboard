@@ -2,8 +2,8 @@
   "symbol": "VESI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-23T04:17:16.063539",
-  "bar_count": 4,
+  "generated_at": "2026-11-23T04:22:42.187191",
+  "bar_count": 5,
   "candles": [
     {
       "time": "2026-11-23T03:00:00",
@@ -32,10 +32,18 @@
     {
       "time": "2026-11-23T03:15:00",
       "open": 2.12,
-      "high": 2.13,
+      "high": 2.24,
       "low": 1.93,
-      "close": 2.1,
-      "volume": 269
+      "close": 2.04,
+      "volume": 465
+    },
+    {
+      "time": "2026-11-23T03:20:00",
+      "open": 2.13,
+      "high": 2.13,
+      "low": 2.04,
+      "close": 2.06,
+      "volume": 176
     }
   ]
 }
