@@ -2,8 +2,8 @@
   "symbol": "LABX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-23T15:32:44.986761",
-  "bar_count": 331,
+  "generated_at": "2026-11-23T15:47:50.973713",
+  "bar_count": 334,
   "candles": [
     {
       "time": "2026-11-20T04:00:00",
@@ -2649,9 +2649,33 @@
       "time": "2026-11-23T15:30:00",
       "open": 4.44,
       "high": 4.47,
+      "low": 4.43,
+      "close": 4.45,
+      "volume": 345
+    },
+    {
+      "time": "2026-11-23T15:35:00",
+      "open": 4.46,
+      "high": 4.48,
       "low": 4.44,
-      "close": 4.47,
-      "volume": 231
+      "close": 4.45,
+      "volume": 498
+    },
+    {
+      "time": "2026-11-23T15:40:00",
+      "open": 4.45,
+      "high": 4.46,
+      "low": 4.43,
+      "close": 4.43,
+      "volume": 249
+    },
+    {
+      "time": "2026-11-23T15:45:00",
+      "open": 4.42,
+      "high": 4.43,
+      "low": 4.39,
+      "close": 4.4,
+      "volume": 422
     }
   ]
 }
