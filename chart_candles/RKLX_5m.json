@@ -2,8 +2,8 @@
   "symbol": "RKLX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-23T05:02:15.911204",
-  "bar_count": 205,
+  "generated_at": "2026-11-23T05:17:13.356012",
+  "bar_count": 208,
   "candles": [
     {
       "time": "2026-11-20T03:00:00",
@@ -1641,9 +1641,33 @@
       "time": "2026-11-23T04:00:00",
       "open": 7.2,
       "high": 7.2,
+      "low": 7.19,
+      "close": 7.19,
+      "volume": 17
+    },
+    {
+      "time": "2026-11-23T04:05:00",
+      "open": 7.19,
+      "high": 7.19,
+      "low": 7.19,
+      "close": 7.19,
+      "volume": 1
+    },
+    {
+      "time": "2026-11-23T04:10:00",
+      "open": 7.2,
+      "high": 7.22,
       "low": 7.2,
-      "close": 7.2,
-      "volume": 7
+      "close": 7.22,
+      "volume": 17
+    },
+    {
+      "time": "2026-11-23T04:15:00",
+      "open": 7.22,
+      "high": 7.22,
+      "low": 7.22,
+      "close": 7.22,
+      "volume": 0
     }
   ]
 }
