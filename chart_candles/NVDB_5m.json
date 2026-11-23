@@ -2,8 +2,8 @@
   "symbol": "NVDB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-23T09:33:49.868284",
-  "bar_count": 255,
+  "generated_at": "2026-11-23T09:38:43.194486",
+  "bar_count": 256,
   "candles": [
     {
       "time": "2026-11-20T03:00:00",
@@ -2041,9 +2041,17 @@
       "time": "2026-11-23T08:30:00",
       "open": 15.79,
       "high": 15.79,
-      "low": 14.84,
-      "close": 14.97,
-      "volume": 396
+      "low": 14.58,
+      "close": 14.63,
+      "volume": 453
+    },
+    {
+      "time": "2026-11-23T08:35:00",
+      "open": 14.62,
+      "high": 15.0,
+      "low": 14.51,
+      "close": 14.83,
+      "volume": 64
     }
   ]
 }
