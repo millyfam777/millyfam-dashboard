@@ -2,8 +2,8 @@
   "symbol": "GRRR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-23T16:47:45.843259",
-  "bar_count": 344,
+  "generated_at": "2026-11-23T17:02:42.409128",
+  "bar_count": 347,
   "candles": [
     {
       "time": "2026-11-20T04:10:00",
@@ -2751,11 +2751,35 @@
     },
     {
       "time": "2026-11-23T16:45:00",
-      "open": 7.54,
-      "high": 7.54,
+      "open": 7.6,
+      "high": 7.6,
+      "low": 7.55,
+      "close": 7.55,
+      "volume": 2
+    },
+    {
+      "time": "2026-11-23T16:50:00",
+      "open": 7.57,
+      "high": 7.57,
       "low": 7.54,
       "close": 7.54,
-      "volume": 0
+      "volume": 12
+    },
+    {
+      "time": "2026-11-23T16:55:00",
+      "open": 7.6,
+      "high": 7.6,
+      "low": 7.6,
+      "close": 7.6,
+      "volume": 1
+    },
+    {
+      "time": "2026-11-23T17:00:00",
+      "open": 7.59,
+      "high": 7.6,
+      "low": 7.55,
+      "close": 7.55,
+      "volume": 13
     }
   ]
 }
