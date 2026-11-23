@@ -2,8 +2,8 @@
   "symbol": "CRWG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-23T05:47:27.158011",
-  "bar_count": 214,
+  "generated_at": "2026-11-23T06:02:42.047087",
+  "bar_count": 217,
   "candles": [
     {
       "time": "2026-11-20T03:00:00",
@@ -1711,11 +1711,35 @@
     },
     {
       "time": "2026-11-23T04:45:00",
-      "open": 3.41,
-      "high": 3.41,
+      "open": 3.42,
+      "high": 3.42,
+      "low": 3.42,
+      "close": 3.42,
+      "volume": 11
+    },
+    {
+      "time": "2026-11-23T04:50:00",
+      "open": 3.43,
+      "high": 3.44,
+      "low": 3.4,
+      "close": 3.42,
+      "volume": 291
+    },
+    {
+      "time": "2026-11-23T04:55:00",
+      "open": 3.42,
+      "high": 3.42,
       "low": 3.41,
       "close": 3.41,
-      "volume": 0
+      "volume": 2
+    },
+    {
+      "time": "2026-11-23T05:00:00",
+      "open": 3.41,
+      "high": 3.41,
+      "low": 3.4,
+      "close": 3.4,
+      "volume": 55
     }
   ]
 }
