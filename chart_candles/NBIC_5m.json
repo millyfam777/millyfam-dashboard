@@ -2,8 +2,8 @@
   "symbol": "NBIC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-23T10:17:44.446342",
-  "bar_count": 173,
+  "generated_at": "2026-11-23T10:32:51.131491",
+  "bar_count": 176,
   "candles": [
     {
       "time": "2026-11-20T06:00:00",
@@ -1384,10 +1384,34 @@
     {
       "time": "2026-11-23T09:15:00",
       "open": 2.731,
-      "high": 2.731,
+      "high": 2.77,
       "low": 2.731,
-      "close": 2.731,
-      "volume": 2
+      "close": 2.77,
+      "volume": 6
+    },
+    {
+      "time": "2026-11-23T09:20:00",
+      "open": 2.75,
+      "high": 2.78,
+      "low": 2.74,
+      "close": 2.78,
+      "volume": 49
+    },
+    {
+      "time": "2026-11-23T09:25:00",
+      "open": 2.82,
+      "high": 2.82,
+      "low": 2.82,
+      "close": 2.82,
+      "volume": 1
+    },
+    {
+      "time": "2026-11-23T09:30:00",
+      "open": 2.82,
+      "high": 2.82,
+      "low": 2.82,
+      "close": 2.82,
+      "volume": 0
     }
   ]
 }
