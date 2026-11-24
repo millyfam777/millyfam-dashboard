@@ -2,8 +2,8 @@
   "symbol": "IBIO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-24T16:18:24.732763",
-  "bar_count": 303,
+  "generated_at": "2026-11-24T16:33:23.965586",
+  "bar_count": 306,
   "candles": [
     {
       "time": "2026-11-23T04:00:00",
@@ -2423,11 +2423,35 @@
     },
     {
       "time": "2026-11-24T16:15:00",
-      "open": 1.09,
-      "high": 1.09,
-      "low": 1.09,
-      "close": 1.09,
-      "volume": 0
+      "open": 1.1,
+      "high": 1.11,
+      "low": 1.1,
+      "close": 1.11,
+      "volume": 3
+    },
+    {
+      "time": "2026-11-24T16:20:00",
+      "open": 1.1,
+      "high": 1.1006,
+      "low": 1.1,
+      "close": 1.1006,
+      "volume": 12
+    },
+    {
+      "time": "2026-11-24T16:25:00",
+      "open": 1.1,
+      "high": 1.11,
+      "low": 1.1,
+      "close": 1.11,
+      "volume": 24
+    },
+    {
+      "time": "2026-11-24T16:30:00",
+      "open": 1.12,
+      "high": 1.12,
+      "low": 1.12,
+      "close": 1.12,
+      "volume": 22
     }
   ]
 }
