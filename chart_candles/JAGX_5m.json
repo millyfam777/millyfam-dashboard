@@ -2,8 +2,8 @@
   "symbol": "JAGX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-24T10:48:36.539177",
-  "bar_count": 201,
+  "generated_at": "2026-11-24T10:53:32.214267",
+  "bar_count": 202,
   "candles": [
     {
       "time": "2026-11-23T04:00:00",
@@ -1608,10 +1608,18 @@
     {
       "time": "2026-11-24T10:45:00",
       "open": 7.67,
-      "high": 7.85,
+      "high": 8.63,
       "low": 7.6,
-      "close": 7.72,
-      "volume": 34
+      "close": 8.63,
+      "volume": 123
+    },
+    {
+      "time": "2026-11-24T10:50:00",
+      "open": 8.63,
+      "high": 8.63,
+      "low": 8.63,
+      "close": 8.63,
+      "volume": 18
     }
   ]
 }
