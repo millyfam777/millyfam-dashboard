@@ -2,8 +2,8 @@
   "symbol": "ALTG",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-24T14:48:18.591537",
-  "bar_count": 256,
+  "generated_at": "2026-11-24T15:03:05.888523",
+  "bar_count": 259,
   "candles": [
     {
       "time": "2026-11-23T09:30:00",
@@ -2049,9 +2049,33 @@
       "time": "2026-11-24T14:45:00",
       "open": 6.11,
       "high": 6.12,
-      "low": 6.11,
+      "low": 6.09,
+      "close": 6.09,
+      "volume": 17
+    },
+    {
+      "time": "2026-11-24T14:50:00",
+      "open": 6.1,
+      "high": 6.12,
+      "low": 6.02,
+      "close": 6.03,
+      "volume": 80
+    },
+    {
+      "time": "2026-11-24T14:55:00",
+      "open": 6.02,
+      "high": 6.11,
+      "low": 6.02,
+      "close": 6.11,
+      "volume": 303
+    },
+    {
+      "time": "2026-11-24T15:00:00",
+      "open": 6.12,
+      "high": 6.12,
+      "low": 6.1,
       "close": 6.12,
-      "volume": 5
+      "volume": 94
     }
   ]
 }
