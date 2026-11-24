@@ -2,8 +2,8 @@
   "symbol": "AVZO",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-24T10:03:21.553953",
-  "bar_count": 190,
+  "generated_at": "2026-11-24T10:17:42.325259",
+  "bar_count": 193,
   "candles": [
     {
       "time": "2026-11-23T10:15:00",
@@ -1521,9 +1521,33 @@
       "time": "2026-11-24T10:00:00",
       "open": 4.96,
       "high": 5.42,
-      "low": 4.96,
+      "low": 4.95,
+      "close": 4.99,
+      "volume": 185
+    },
+    {
+      "time": "2026-11-24T10:05:00",
+      "open": 5.0,
+      "high": 5.25,
+      "low": 4.71,
+      "close": 5.02,
+      "volume": 221
+    },
+    {
+      "time": "2026-11-24T10:10:00",
+      "open": 5.11,
+      "high": 5.13,
+      "low": 5.0,
       "close": 5.13,
-      "volume": 144
+      "volume": 31
+    },
+    {
+      "time": "2026-11-24T10:15:00",
+      "open": 5.12,
+      "high": 5.12,
+      "low": 5.0,
+      "close": 5.01,
+      "volume": 11
     }
   ]
 }
