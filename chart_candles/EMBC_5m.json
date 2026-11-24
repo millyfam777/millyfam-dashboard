@@ -2,8 +2,8 @@
   "symbol": "EMBC",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-24T15:03:35.610576",
-  "bar_count": 283,
+  "generated_at": "2026-11-24T15:18:28.119280",
+  "bar_count": 286,
   "candles": [
     {
       "time": "2026-11-23T04:00:00",
@@ -2264,10 +2264,34 @@
     {
       "time": "2026-11-24T15:00:00",
       "open": 7.95,
-      "high": 8.01,
+      "high": 8.03,
       "low": 7.95,
-      "close": 7.98,
-      "volume": 192
+      "close": 7.99,
+      "volume": 514
+    },
+    {
+      "time": "2026-11-24T15:05:00",
+      "open": 8.0,
+      "high": 8.0,
+      "low": 7.92,
+      "close": 7.93,
+      "volume": 267
+    },
+    {
+      "time": "2026-11-24T15:10:00",
+      "open": 7.92,
+      "high": 8.02,
+      "low": 7.92,
+      "close": 7.97,
+      "volume": 429
+    },
+    {
+      "time": "2026-11-24T15:15:00",
+      "open": 7.97,
+      "high": 7.98,
+      "low": 7.93,
+      "close": 7.94,
+      "volume": 72
     }
   ]
 }

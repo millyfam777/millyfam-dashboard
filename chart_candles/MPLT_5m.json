@@ -2,8 +2,8 @@
   "symbol": "MPLT",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-24T15:02:12.452884",
-  "bar_count": 195,
+  "generated_at": "2026-11-24T15:17:04.941117",
+  "bar_count": 198,
   "candles": [
     {
       "time": "2026-11-23T09:25:00",
@@ -1561,9 +1561,33 @@
       "time": "2026-11-24T15:00:00",
       "open": 7.06,
       "high": 7.06,
-      "low": 7.06,
+      "low": 7.01,
+      "close": 7.025,
+      "volume": 46
+    },
+    {
+      "time": "2026-11-24T15:05:00",
+      "open": 7.05,
+      "high": 7.06,
+      "low": 7.02,
       "close": 7.06,
-      "volume": 2
+      "volume": 63
+    },
+    {
+      "time": "2026-11-24T15:10:00",
+      "open": 7.06,
+      "high": 7.09,
+      "low": 7.06,
+      "close": 7.08,
+      "volume": 52
+    },
+    {
+      "time": "2026-11-24T15:15:00",
+      "open": 7.08,
+      "high": 7.11,
+      "low": 7.08,
+      "close": 7.11,
+      "volume": 9
     }
   ]
 }
