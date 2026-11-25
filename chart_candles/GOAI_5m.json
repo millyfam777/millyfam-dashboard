@@ -2,8 +2,8 @@
   "symbol": "GOAI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-25T10:03:16.407516",
-  "bar_count": 179,
+  "generated_at": "2026-11-25T10:07:50.595955",
+  "bar_count": 180,
   "candles": [
     {
       "time": "2026-11-24T08:00:00",
@@ -1433,9 +1433,17 @@
       "time": "2026-11-25T10:00:00",
       "open": 0.8699,
       "high": 0.87,
-      "low": 0.7005,
-      "close": 0.7005,
-      "volume": 183
+      "low": 0.7,
+      "close": 0.712,
+      "volume": 258
+    },
+    {
+      "time": "2026-11-25T10:05:00",
+      "open": 0.7119,
+      "high": 0.732,
+      "low": 0.6941,
+      "close": 0.7123,
+      "volume": 78
     }
   ]
 }
