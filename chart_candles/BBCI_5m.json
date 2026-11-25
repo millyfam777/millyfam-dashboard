@@ -2,8 +2,8 @@
   "symbol": "BBCI",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-25T13:03:07.121074",
-  "bar_count": 254,
+  "generated_at": "2026-11-25T13:18:11.936498",
+  "bar_count": 257,
   "candles": [
     {
       "time": "2026-11-24T04:20:00",
@@ -2033,9 +2033,33 @@
       "time": "2026-11-25T13:00:00",
       "open": 1.9,
       "high": 1.9,
+      "low": 1.7601,
+      "close": 1.809,
+      "volume": 30
+    },
+    {
+      "time": "2026-11-25T13:05:00",
+      "open": 1.88,
+      "high": 1.9,
+      "low": 1.875,
+      "close": 1.9,
+      "volume": 16
+    },
+    {
+      "time": "2026-11-25T13:10:00",
+      "open": 1.905,
+      "high": 1.9478,
+      "low": 1.89,
+      "close": 1.9478,
+      "volume": 8
+    },
+    {
+      "time": "2026-11-25T13:15:00",
+      "open": 1.9345,
+      "high": 1.9345,
       "low": 1.9,
       "close": 1.9,
-      "volume": 17
+      "volume": 6
     }
   ]
 }
