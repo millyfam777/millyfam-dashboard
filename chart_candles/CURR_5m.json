@@ -2,8 +2,8 @@
   "symbol": "CURR",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-25T15:18:00.620706",
-  "bar_count": 194,
+  "generated_at": "2026-11-25T15:32:52.883353",
+  "bar_count": 197,
   "candles": [
     {
       "time": "2026-11-24T09:30:00",
@@ -1552,10 +1552,34 @@
     {
       "time": "2026-11-25T15:15:00",
       "open": 2.39,
+      "high": 2.41,
+      "low": 2.39,
+      "close": 2.41,
+      "volume": 195
+    },
+    {
+      "time": "2026-11-25T15:20:00",
+      "open": 2.4,
+      "high": 2.4,
+      "low": 2.39,
+      "close": 2.4,
+      "volume": 5
+    },
+    {
+      "time": "2026-11-25T15:25:00",
+      "open": 2.39,
       "high": 2.39,
       "low": 2.39,
       "close": 2.39,
-      "volume": 9
+      "volume": 1
+    },
+    {
+      "time": "2026-11-25T15:30:00",
+      "open": 2.39,
+      "high": 2.39,
+      "low": 2.39,
+      "close": 2.39,
+      "volume": 0
     }
   ]
 }
