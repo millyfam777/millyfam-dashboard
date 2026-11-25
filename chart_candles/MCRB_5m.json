@@ -2,8 +2,8 @@
   "symbol": "MCRB",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-25T12:47:15.688292",
-  "bar_count": 232,
+  "generated_at": "2026-11-25T13:02:48.572121",
+  "bar_count": 235,
   "candles": [
     {
       "time": "2026-11-24T09:30:00",
@@ -1856,10 +1856,34 @@
     {
       "time": "2026-11-25T12:45:00",
       "open": 1.74,
-      "high": 1.74,
+      "high": 1.78,
       "low": 1.72,
-      "close": 1.72,
-      "volume": 6
+      "close": 1.78,
+      "volume": 8
+    },
+    {
+      "time": "2026-11-25T12:50:00",
+      "open": 1.79,
+      "high": 1.79,
+      "low": 1.77,
+      "close": 1.78,
+      "volume": 4
+    },
+    {
+      "time": "2026-11-25T12:55:00",
+      "open": 1.78,
+      "high": 1.8,
+      "low": 1.78,
+      "close": 1.8,
+      "volume": 5
+    },
+    {
+      "time": "2026-11-25T13:00:00",
+      "open": 1.81,
+      "high": 1.81,
+      "low": 1.745,
+      "close": 1.76,
+      "volume": 22
     }
   ]
 }
