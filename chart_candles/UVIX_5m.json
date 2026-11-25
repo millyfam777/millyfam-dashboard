@@ -2,8 +2,8 @@
   "symbol": "UVIX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-25T11:03:28.221027",
-  "bar_count": 277,
+  "generated_at": "2026-11-25T11:08:32.395866",
+  "bar_count": 278,
   "candles": [
     {
       "time": "2026-11-24T04:00:00",
@@ -2216,10 +2216,18 @@
     {
       "time": "2026-11-25T11:00:00",
       "open": 69.0,
-      "high": 69.74,
+      "high": 69.83,
       "low": 68.6,
+      "close": 69.13,
+      "volume": 222
+    },
+    {
+      "time": "2026-11-25T11:05:00",
+      "open": 69.41,
+      "high": 69.98,
+      "low": 68.95,
       "close": 69.66,
-      "volume": 164
+      "volume": 618
     }
   ]
 }
