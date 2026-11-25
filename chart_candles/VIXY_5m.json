@@ -2,8 +2,8 @@
   "symbol": "VIXY",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-25T11:17:09.274997",
-  "bar_count": 280,
+  "generated_at": "2026-11-25T11:22:07.929498",
+  "bar_count": 281,
   "candles": [
     {
       "time": "2026-11-24T04:00:00",
@@ -2240,10 +2240,18 @@
     {
       "time": "2026-11-25T11:15:00",
       "open": 25.81,
-      "high": 25.94,
+      "high": 25.99,
       "low": 25.81,
-      "close": 25.92,
-      "volume": 279
+      "close": 25.9,
+      "volume": 482
+    },
+    {
+      "time": "2026-11-25T11:20:00",
+      "open": 25.95,
+      "high": 25.95,
+      "low": 25.69,
+      "close": 25.69,
+      "volume": 200
     }
   ]
 }
