@@ -2,8 +2,8 @@
   "symbol": "LOFD",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-25T09:32:32.089598",
-  "bar_count": 154,
+  "generated_at": "2026-11-25T09:47:52.736166",
+  "bar_count": 157,
   "candles": [
     {
       "time": "2026-11-24T09:30:00",
@@ -1232,10 +1232,34 @@
     {
       "time": "2026-11-25T09:30:00",
       "open": 8.33,
-      "high": 8.44,
+      "high": 8.7,
       "low": 8.33,
-      "close": 8.42,
-      "volume": 28
+      "close": 8.7,
+      "volume": 30
+    },
+    {
+      "time": "2026-11-25T09:35:00",
+      "open": 8.73,
+      "high": 8.8,
+      "low": 8.7,
+      "close": 8.7,
+      "volume": 241
+    },
+    {
+      "time": "2026-11-25T09:40:00",
+      "open": 8.67,
+      "high": 8.76,
+      "low": 8.67,
+      "close": 8.75,
+      "volume": 36
+    },
+    {
+      "time": "2026-11-25T09:45:00",
+      "open": 8.71,
+      "high": 8.71,
+      "low": 8.64,
+      "close": 8.64,
+      "volume": 121
     }
   ]
 }
