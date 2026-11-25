@@ -2,8 +2,8 @@
   "symbol": "LTRN",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-25T13:12:16.364588",
-  "bar_count": 302,
+  "generated_at": "2026-11-25T13:22:14.718447",
+  "bar_count": 304,
   "candles": [
     {
       "time": "2026-11-24T04:00:00",
@@ -2416,10 +2416,26 @@
     {
       "time": "2026-11-25T13:10:00",
       "open": 0.28,
+      "high": 0.2888,
+      "low": 0.28,
+      "close": 0.2888,
+      "volume": 11
+    },
+    {
+      "time": "2026-11-25T13:15:00",
+      "open": 0.2888,
+      "high": 0.2888,
+      "low": 0.28,
+      "close": 0.28,
+      "volume": 111
+    },
+    {
+      "time": "2026-11-25T13:20:00",
+      "open": 0.28,
       "high": 0.28,
       "low": 0.28,
       "close": 0.28,
-      "volume": 1
+      "volume": 0
     }
   ]
 }
