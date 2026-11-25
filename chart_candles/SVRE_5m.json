@@ -2,8 +2,8 @@
   "symbol": "SVRE",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-25T09:18:36.998401",
-  "bar_count": 256,
+  "generated_at": "2026-11-25T09:23:35.057940",
+  "bar_count": 257,
   "candles": [
     {
       "time": "2026-11-24T04:00:00",
@@ -2048,10 +2048,18 @@
     {
       "time": "2026-11-25T09:15:00",
       "open": 1.3982,
-      "high": 1.4,
+      "high": 1.41,
       "low": 1.38,
-      "close": 1.4,
-      "volume": 307
+      "close": 1.4082,
+      "volume": 439
+    },
+    {
+      "time": "2026-11-25T09:20:00",
+      "open": 1.4,
+      "high": 1.41,
+      "low": 1.4,
+      "close": 1.4098,
+      "volume": 166
     }
   ]
 }
