@@ -2,8 +2,8 @@
   "symbol": "BABX",
   "timeframe": "5m",
   "source": "IBKR",
-  "generated_at": "2026-11-27T07:02:03.768787",
-  "bar_count": 229,
+  "generated_at": "2026-11-27T07:07:05.406606",
+  "bar_count": 230,
   "candles": [
     {
       "time": "2026-11-25T04:00:00",
@@ -1833,9 +1833,17 @@
       "time": "2026-11-27T07:00:00",
       "open": 10.79,
       "high": 10.8,
+      "low": 10.76,
+      "close": 10.77,
+      "volume": 28
+    },
+    {
+      "time": "2026-11-27T07:05:00",
+      "open": 10.77,
+      "high": 10.77,
       "low": 10.77,
       "close": 10.77,
-      "volume": 18
+      "volume": 2
     }
   ]
 }
